@@ -6033,6 +6033,7 @@ const generate = (data = []) => {
         const questionElementText = questionElement?.innerText;
         const questionElementTextLen = clean(questionElementText).length - 2;
         const questionStr = clean(questionElementText).slice(2, questionElementTextLen);
+        let status1 = false;
 
         const jsonData = data.filter(({ question: itemQuestion = '' }) => {
           const questionReplace = clean(itemQuestion);
@@ -6047,7 +6048,6 @@ const generate = (data = []) => {
         if (jsonDataFirstElement) {
           const anwerText = jsonDataFirstElement?.answer;
           questionElement.setAttribute('title', anwerText);
-          let status1 = false;
           const anwersList = element?.querySelector('.box-body.checkbo.checkbo-ready')?.children;
 
           Array.from(anwersList).forEach((item) => {
