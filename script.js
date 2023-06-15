@@ -2286,12 +2286,7 @@ const data = [
     "noAnswer3": "Havolalarni hosil qilish"
   }
 ];
-const clean = (text) => {
-  return String(text)
-    ?.replace(/[^a-zA-Z0-9А-яЁё]/g, "")
-    .replaceAll(" ", "")
-    .toLowerCase();
-}
+const clean = text => String(text)?.replace(/[^a-zA-Z0-9A-yaYoyo!@#$%^&*()_+\-{}[\]:;<>/=]/g, "").replaceAll(" ", "").toLowerCase();
 
 const generate = (data = []) => {
   const questionMtContent = document.querySelector('.content-wrapper .col-md-8.mt30');
