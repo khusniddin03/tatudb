@@ -2300,7 +2300,7 @@ const generate = (data = []) => {
   const noAnswers = [];
   if (questionsList) {
     Array.from(questionsList)
-      .slice(1, questionsList.length - 1)
+      .slice(1, questionsList.length)
       .forEach((element, index) => {
         const questionElement = element?.querySelector('.box-title');
         const questionElementText = questionElement?.innerText;
@@ -2338,7 +2338,7 @@ const generate = (data = []) => {
           questionElement.setAttribute('title', '-----');
         }
 
-        if (!status1 && questionsList?.length >= index + 1) {
+        if (!status1 && questionsList?.length >= index) {
           noAnswers.push(index + 1);
         }
       });
