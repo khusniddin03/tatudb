@@ -6028,7 +6028,7 @@ const generate = (data = []) => {
   if (questionsList) {
     Array.from(questionsList)
       .slice(1, questionsList.length - 1)
-      .forEach((element) => {
+      .forEach((element, index) => {
         const questionElement = element?.querySelector('.box-title');
         const questionElementText = questionElement?.innerText;
         const questionElementTextLen = clean(questionElementText).length - 2;
