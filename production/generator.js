@@ -12,6 +12,8 @@ fs.readFile(TEST_FILE_PATH, 'utf-8', (error1, content) => {
         if (error2) {
             throw new Error(error2.message);
         }
+
+        console.log('success');
     });
 })
 
