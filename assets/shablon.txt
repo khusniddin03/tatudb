@@ -50,7 +50,7 @@ const generate = (data = []) => {
           questionElement.setAttribute('title', '-----');
         }
 
-        if (!status1 && questionsList?.length > index + 1) {
+        if (!status1 && questionsList?.length >= index + 1) {
           noAnswers.push(index + 1);
         }
       });
