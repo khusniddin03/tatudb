@@ -358,9 +358,10 @@
     },
     {
         "question": "CSS qoidasiga ko'ra sahifadagi har bir HTML elementiga ta'sir ko'rsatish uchun qanday belgidan foydalanish kerak?",
-        "answer": "",
+        "answer": "*",
         "noAnswer1": ".",
-        "noAnswer2": "unday belgi mavjud emas"
+        "noAnswer2": "unday belgi mavjud emas",
+        "noAnswer3": "#"
     },
     {
         "question": "CSS shrift turlari qaysilar kiradi",
@@ -987,9 +988,10 @@
     },
     {
         "question": "Muayyan sinfga ega elementlarni tanlash uchun qanday belgidan foydalaniladi?",
-        "answer": "",
+        "answer": ".",
         "noAnswer1": "hech qanday belgidan foydalanilmaydi",
-        "noAnswer2": ";"
+        "noAnswer2": ";",
+        "noAnswer3": "#"
     },
     {
         "question": "Nuqtalar o'rniga mos so'zni qo'yib jumlani to'ldiring. Id nomi  … bilan boshlanmaydi!",
