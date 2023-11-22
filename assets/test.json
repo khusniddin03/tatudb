@@ -668,20 +668,6 @@
         "noAnswer3": "1"
     },
     {
-        "question": "ushbu mantiqiy algebraik funksiya qaysi mantiqiy elementga tegishli?",
-        "answer": "2YOKI mantiqiy elementiga",
-        "noAnswer1": "2HAM mantiqiy elementiga",
-        "noAnswer2": "2YOKI-EMAS mantiqiy elementiga",
-        "noAnswer3": "EMAS mantiqiy elementiga"
-    },
-    {
-        "question": "ushbu mantiqiy algebraik funksiya qaysi mantiqiy elementga tegishli?",
-        "answer": "2 HAM mantiqiy elementiga",
-        "noAnswer1": "2 YOKI mantiqiy elementiga",
-        "noAnswer2": "2 HAM-EMAS mantiqiy elementiga",
-        "noAnswer3": "EMAS mantiqiy elementiga"
-    },
-    {
         "question": "Ikkita turg’un xolatga ega bo’lgan ketma-ket turdagi kichik xotira qurilmasi bu?",
         "answer": "trigger",
         "noAnswer1": "Multipleksor",
@@ -2307,20 +2293,6 @@
         "noAnswer1": "14",
         "noAnswer2": "3",
         "noAnswer3": "1"
-    },
-    {
-        "question": "ushbu mantiqiy algebraik funksiya qaysi mantiqiy elementga tegishli?",
-        "answer": "2YOKI mantiqiy elementiga",
-        "noAnswer1": "2HAM mantiqiy elementiga",
-        "noAnswer2": "2YOKI-EMAS mantiqiy elementiga",
-        "noAnswer3": "EMAS mantiqiy elementiga"
-    },
-    {
-        "question": "ushbu mantiqiy algebraik funksiya qaysi mantiqiy elementga tegishli?",
-        "answer": "2 HAM mantiqiy elementiga",
-        "noAnswer1": "2 YOKI mantiqiy elementiga",
-        "noAnswer2": "2 HAM-EMAS mantiqiy elementiga",
-        "noAnswer3": "EMAS mantiqiy elementiga"
     },
     {
         "question": "Ikkita turg’un xolatga ega bo’lgan ketma-ket turdagi kichik xotira qurilmasi bu?",
