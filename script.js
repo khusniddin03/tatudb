@@ -1,2851 +1,3808 @@
 const data = [
   {
-    "question": ".........qurilmalar deb, chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "answer": "kombinatsion",
-    "noAnswer1": "ketma-ket",
-    "noAnswer2": "Parallel",
-    "noAnswer3": "arifmetik mantiqiy qurilma"
+    "question": "2. Ushbu sonni 10lik sanoq sistemasidan 2lik sanoq sistemasiga o’tkazing.\n3110->X2\n",
+    "answer": "111112:",
+    "noAnswer1": "111012;",
+    "noAnswer2": "110112;",
+    "noAnswer3": "100112;"
   },
   {
-    "question": "O‘nlik, sakkizlik yoki o‘n oltitalik sanoq tizimidagi raqamlarni ikkilik yoki ikkilik-o‘nlik kodga o‘zgartiruvchi kombinatsion mantiqiy qurilma",
-    "answer": "shifrator",
-    "noAnswer1": "Demultipleksor",
-    "noAnswer2": "Deshifrator",
-    "noAnswer3": "multipleksor"
+    "question": "2 lik sanoq sistemasida ushbu qiymatni javobi nechiga teng?\n      1+1+1+1+1=?\n",
+    "answer": 101,
+    "noAnswer1": 5,
+    "noAnswer2": 1001,
+    "noAnswer3": 11
   },
   {
-    "question": "Ikkilik sanoq tizimidagi raqamlarni o‘nlik sanoq tizimidagi kodga  o‘zgartiruvchi kombinatsion mantiqiy qurilma",
-    "answer": "deshifrator",
-    "noAnswer1": "Demultipleksor",
-    "noAnswer2": "Shifrator",
-    "noAnswer3": "multipleksor"
+    "question": "2 lik sanoq sistemasida ushbu qiymatni javobi nechiga teng?\n1+1+1+1=?\n",
+    "answer": 100,
+    "noAnswer1": 4,
+    "noAnswer2": 101,
+    "noAnswer3": 11
   },
   {
-    "question": "Bir necha manbadan berilayotgan ma’lumotlarni bitta chiqish kanaliga uzatishni boshqarish uchun mo‘ljallangan qurilma?",
-    "answer": "multipleksor",
-    "noAnswer1": "Deshifrator",
-    "noAnswer2": "Demultipleksor",
-    "noAnswer3": "Shifrator"
+    "question": "2 lik sanoq sistemasida ushbu qiymatni javobi nechiga teng?\n10-1=?\n",
+    "answer": 1,
+    "noAnswer1": 9,
+    "noAnswer2": 0,
+    "noAnswer3": 11
   },
   {
-    "question": "Ikkilik koddagi sonlarni qo‘shish asosiy arifmetik amalini bajaruvchi kombinatsion qurilma?",
-    "answer": "summator",
-    "noAnswer1": "Deshifrator",
-    "noAnswer2": "Multipleksor",
-    "noAnswer3": "Shifrator"
+    "question": "Ma’lumotlar toifasi necha turga bo’linadi va ular qaysilar?",
+    "answer": "2 turga Bazaviy va Keltirilgan.",
+    "noAnswer1": "3 turga Bo’sh , Skalyar va Tuzilmaviy;",
+    "noAnswer2": "2 turga Skalyar va Tuzulmaviy;",
+    "noAnswer3": "3 turga Bazaviy, Tuzulmaviy va Skalyar;"
   },
   {
-    "question": "Chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, hozirgi va oldingi oniy qiymatlari uchun, ya’ni kirish o‘zgaruvchilarining kelish tartibi bilan belgilanadigan, xotirali mantiqiy qurilma?",
-    "answer": "ketma – ketli qurilma",
-    "noAnswer1": "analog qurilma",
-    "noAnswer2": "kombinatsion qurilma",
-    "noAnswer3": "shifrator qurilmasi"
+    "question": "Bitta operandga qo’llaniladigan amallar nima dep nomlanadi?",
+    "answer": "unar",
+    "noAnswer1": "binar",
+    "noAnswer2": "class",
+    "noAnswer3": "union"
   },
   {
-    "question": "Ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari \r\nmavjud bo‘lgan ikkita invertorli mantiqiy qurilma?",
-    "answer": "bistabil yacheyka",
-    "noAnswer1": "2 YOKI-EMAS ME",
-    "noAnswer2": "Invertor",
-    "noAnswer3": "Kombinatsion qurilmalar"
+    "question": "Additiv amal qanday belgilanadi?",
+    "answer": "+",
+    "noAnswer1": "-",
+    "noAnswer2": "%",
+    "noAnswer3": "*"
   },
   {
-    "question": "Sanoq triggerining belgilanishi",
-    "answer": "T",
-    "noAnswer1": "RS",
-    "noAnswer2": "JK",
-    "noAnswer3": "D"
+    "question": "Multiplikativ amal qanday belgilanadi?",
+    "answer": "*",
+    "noAnswer1": "/",
+    "noAnswer2": "+",
+    "noAnswer3": "-"
   },
   {
-    "question": "Kechikish triggerining belgilanishi",
-    "answer": "D",
-    "noAnswer1": "T",
-    "noAnswer2": "RS",
-    "noAnswer3": "JK"
+    "question": "Modul olish amali qanday belgilanadi?",
+    "answer": "%",
+    "noAnswer1": "||",
+    "noAnswer2": "/",
+    "noAnswer3": "&"
   },
   {
-    "question": "Universal triggerning belgilanishi",
-    "answer": "JK",
-    "noAnswer1": "D",
-    "noAnswer2": "T",
-    "noAnswer3": "RS"
+    "question": "Ushbu jumlani to’ldiring.\n Modul amali … sonni … songa bo’lishdan hosil bo’ladigan qoldiqqa tengdir.\n",
+    "answer": "butun butun ",
+    "noAnswer1": "xaqiqiy butun",
+    "noAnswer2": "butun xaqiqiy",
+    "noAnswer3": "xaqiqiy xaqiqiy"
   },
   {
-    "question": "Ketma-ket turdagi raqamli qurilma bo‘lib, ko‘p razryadli ikkilik sonlar ko‘rinishidagi ma’lumotlarni eslab qolish va vaqtincha xotirada saqlash uchun ishlatiladi.",
-    "answer": "registr",
-    "noAnswer1": "Trigger",
-    "noAnswer2": "bistabil yacheyka",
-    "noAnswer3": "JK-trigger"
+    "question": "Ushbu jumlani to’ldiring.\nAgar modul amali … operandlarga qo’llanilsa, natija ham …bo’ladi, aks holda natija ishorasi kompilyatorga bog’liqdir.\n",
+    "answer": "musbat musbat",
+    "noAnswer1": "musbat manfiy",
+    "noAnswer2": "manfiy musbat",
+    "noAnswer3": "manfiy manfiy"
   },
   {
-    "question": "…...-trigger universal trigger hisoblanadi",
-    "answer": "JK",
-    "noAnswer1": "D",
-    "noAnswer2": "T",
-    "noAnswer3": "RS"
+    "question": "Ushbu jumlani to’ldiring.\n Agar operandlar biri long tipiga tegishli bo’lsa ikkinchi operand ham … tipiga keltiriladi va natija ham long tipiga tegishli bo’ladi.\n",
+    "answer": "long",
+    "noAnswer1": "daouble",
+    "noAnswer2": "int ",
+    "noAnswer3": "short"
   },
   {
-    "question": "…..-trigger kechikish triggeri hisoblanadi",
-    "answer": "D",
-    "noAnswer1": "T",
-    "noAnswer2": "RS",
-    "noAnswer3": "JK"
+    "question": "Ushbu jumlani to’ldiring.\n Agar operandlar biri float tipiga tegishli bo’lsa ikkinchi operand ham … tipiga keltiriladi va natija ham float tipiga tegishli bo’ladi.\n",
+    "answer": "float ",
+    "noAnswer1": "double",
+    "noAnswer2": "int ",
+    "noAnswer3": "long"
   },
   {
-    "question": "…..-trigger vagt triggeri hisoblanadi",
-    "answer": "T",
-    "noAnswer1": "RS",
-    "noAnswer2": "JK",
-    "noAnswer3": "D"
+    "question": "Ushbu jumlani to’ldiring.\n Agar operandlar biri double tipiga tegishli bo’lsa ikkinchi operand ham … tipiga keltiriladi va natija ham double tipiga tegishli bo’ladi.\n",
+    "answer": "double",
+    "noAnswer1": "float",
+    "noAnswer2": "long",
+    "noAnswer3": "int"
   },
   {
-    "question": "Kirishiga berilgan ma’lumotlarni ketma-ket tartibda yozish, saqlash va uzatish uchun mo‘ljallangan",
-    "answer": "Ketma-ketli registr",
-    "noAnswer1": "Parallel registrlar",
-    "noAnswer2": "Bistabil yacheyka",
-    "noAnswer3": "Parallel hisoblagichlar"
+    "question": "Ushbu jumlani to’ldiring.\n Agar operandlar biri long double  tipiga tegishli bo’lsa ikkinchi operand ham … tipiga keltiriladi va natija ham long double tipiga tegishli bo’ladi.\n",
+    "answer": "long double",
+    "noAnswer1": "long long",
+    "noAnswer2": "float ",
+    "noAnswer3": "double"
   },
   {
-    "question": "Kirish signallari ustida aniq bir mantiqiy amalni bajaradigan elektron qurilma qanday nomlanadi?",
-    "noAnswer1": "mantiqiy element",
-    "noAnswer2": "mantiqiy funksiya",
-    "noAnswer3": "vaqt diagrammasi"
+    "question": "Ushbu jumlani to’ldiring.  \n… amali ++i ko’rinishda ishlatiladi. Bunda  oldin o’zgaruvchi qiymatini oshirib so’ngra foydalaniladi.\n",
+    "answer": "prefix",
+    "noAnswer1": "postfix",
+    "noAnswer2": "unar",
+    "noAnswer3": "binar"
   },
   {
-    "question": "……triggeri kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi",
-    "answer": "T",
-    "noAnswer1": "D",
-    "noAnswer2": "RS",
-    "noAnswer3": "JK"
+    "question": "Ushbu jumlani to’ldiring.\n… amali i++ ko’rinishda  bo’ladi. Bunda ishlatishdan oldin o’zgaruvchi qiymatidan foydalanib, so’ngra oshiriladi.\n",
+    "answer": "postfiks",
+    "noAnswer1": "prefix",
+    "noAnswer2": "unar",
+    "noAnswer3": "binar"
   },
   {
-    "question": "……universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "answer": "JK triggeri",
-    "noAnswer1": "RS triggeri",
-    "noAnswer2": "T triggeri",
-    "noAnswer3": "D triggeri"
+    "question": "Quyidagi berilganlardan short int toifasiga kiruvchi unsigned qabul qiluvchi qiymatini toping.",
+    "answer": "0... 65535",
+    "noAnswer1": -3276832768,
+    "noAnswer2": "0 ... 32767;",
+    "noAnswer3": "21……. 45675678"
   },
   {
-    "question": "Raqamli integral sxemalarning negiz elementlari qaysi javobda noto`g`ri berilgan?",
-    "answer": "invertor, dizyunksiya, konyuksiya",
-    "noAnswer1": "TTM, EBM",
-    "noAnswer2": "MDYA, KMDYA",
-    "noAnswer3": "I2M, TTM"
+    "question": "Bir toifa bilan ikkinchi toifani aynan qanday hususiyatlari orqali farqlash mumkin?",
+    "answer": "qiymatlar qabul qilish oralig’i \nva xotiradan egallagan joyining katta yoki kichikligi bilan.\n",
+    "noAnswer1": "Yozilishi va tipi bilan ",
+    "noAnswer2": "xotiradan egallagan joyining\n katta yoki kichikligi bilan;\n",
+    "noAnswer3": "qiymatlar qabul qilish oralig’I bilan;"
   },
   {
-    "question": "Qaysi tranzistor tuzilmasida dielektrik qatlam qo‘llaniladi?",
-    "answer": "MDYa tranzistorda",
-    "noAnswer1": "p-n o‘tish bilan boshqariladigan maydoniy transistor",
-    "noAnswer2": "n-p-n bipolyar tranzistorda",
-    "noAnswer3": "p-n-p bipolyar tranzistorda"
+    "question": "long int toiasini hotiradan egallagan joyi qancha",
+    "answer": "4 bayt",
+    "noAnswer1": "8 bayt ",
+    "noAnswer2": "12 bayt",
+    "noAnswer3": "6 bayt"
   },
   {
-    "question": "Qaysi komplimentar tranzistor tuzilmasida dielektrik qatlam qo‘llaniladi?",
-    "answer": "KMDYa tranzistorlarda",
-    "noAnswer1": "p-n o‘tish bilan boshqariladigan maydoniy transistor",
-    "noAnswer2": "n-p-n bipolyar tranzistorda",
-    "noAnswer3": "p-n-p bipolyar tranzistorda"
+    "question": "short int toiasini hotiradan egallagan joyi qancha?",
+    "answer": "2 bayt",
+    "noAnswer1": "6 bayt",
+    "noAnswer2": "4 bayt",
+    "noAnswer3": "8 bayt"
   },
   {
-    "question": "Chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi.",
-    "answer": "D trigger",
-    "noAnswer1": "RS trigger",
-    "noAnswer2": "JK trigger",
-    "noAnswer3": "T trigger"
+    "question": "Quyidagi berilganlardan int toifasiga kiruvchi unsigned qabul qiluvchi qiymatini toping.",
+    "answer": "0 ... 4294967295,",
+    "noAnswer1": "-2147483648 ... 2147483647",
+    "noAnswer2": "0 ... 65535;",
+    "noAnswer3": "-32768 ... 32767;"
   },
   {
-    "question": "Mantiq amallar …  -  ko`rinishdagi ikkita mantiq bilan ishlaydi",
-    "answer": "rost va yolg’on",
-    "noAnswer1": "analog va raqamli",
-    "noAnswer2": "ko’paytma va yig’indi",
-    "noAnswer3": "mantiqiy va algebraic"
+    "question": "Ushbu jumlani to’ldiring.\nC++ tilida …  deb bir necha belgilar ketma ketligi tushuniladi.\n",
+    "answer": "so'z",
+    "noAnswer1": "string tipi",
+    "noAnswer2": "char tipi",
+    "noAnswer3": "gap"
   },
   {
-    "question": "Mantiqiy ko`paytirish va qo`shish amallarini bajaradigan qurilma qanday ataladi?",
-    "answer": "arifmetik-mantiqiy qurilma",
-    "noAnswer1": "integral tizim",
-    "noAnswer2": "analog qurilma",
-    "noAnswer3": "integrator"
+    "question": " Hisoblash jarayonida qiymatini o’zgartirmaydigan kattaliklar nima dep nomlanadi?",
+    "answer": "const",
+    "noAnswer1": "ozgaruvchilar",
+    "noAnswer2": "tiplarni ozgarishi",
+    "noAnswer3": "malumotlarni ozgarishi"
   },
   {
-    "question": "Kirishiga berilgan ma`lumotlarni ketma-ket tartibda yozish, saqlash va uzatish uchun mo’ljallangan qurilma nima deb nomlanadi?",
-    "answer": "ketma-ketli registr",
-    "noAnswer1": "parallel registr",
-    "noAnswer2": "Trigger",
-    "noAnswer3": "summator"
+    "question": "Izohlar nima uchun ishlatiladi?",
+    "answer": "barcha javoblar to’g’ri ,",
+    "noAnswer1": "izoh uchun belgilangan qatorda \nhech qanday amal bajarilmaydi\n",
+    "noAnswer2": "programmani biror qismini \ntushuntirish uchun ishlatiladi;\n",
+    "noAnswer3": "programmaning ma’lum qismini \ntavsiflash  uchun ishlatiladi;\n"
   },
   {
-    "question": "Sonlarning ifodalanishi va belgilanishi qanday tizim?",
-    "answer": "sanoq (numeratsiya)",
-    "noAnswer1": "integral",
-    "noAnswer2": "Hisoblagich",
-    "noAnswer3": "jamlagich"
+    "question": "Operatorlarni biri ikkinchisidan qanday belgi orqali ajratiladi",
+    "answer": "nuqtali vergul",
+    "noAnswer1": "iki nuqta",
+    "noAnswer2": "vergul",
+    "noAnswer3": " nuqta"
   },
   {
-    "question": "inversiya mantiqiy elementi……amalini bajaradi",
-    "answer": "mantiqiy inkor",
-    "noAnswer1": "mantiqiy qo`shish",
-    "noAnswer2": "mantiqiy ko’paytirish",
-    "noAnswer3": "mantiq"
+    "question": "Hech qanday qiymat qaytarmaydigan funksiya nima dep nomlanadi?",
+    "answer": "void",
+    "noAnswer1": "main",
+    "noAnswer2": "return",
+    "noAnswer3": "identifikatsiya"
   },
   {
-    "question": "EMAS amalini bajaruvchi mantiqiy element bu?",
-    "answer": "Invertor",
-    "noAnswer1": "YOKI",
-    "noAnswer2": "HAM",
-    "noAnswer3": "shifrator"
+    "question": "Agar funksiya qaytaradigan qiymat toifasi yozilmagan bo’lsa  qanday tipda ma’lumot qaytadi?",
+    "answer": "int ",
+    "noAnswer1": "return ",
+    "noAnswer2": "float ",
+    "noAnswer3": "bool"
   },
   {
-    "question": "diz`yunksiya……….amalini bajaruvchi mantiqiy element",
-    "answer": "mantiqiy qo`shish",
-    "noAnswer1": "mantiqiy ko’paytirish",
-    "noAnswer2": "Mantiq",
-    "noAnswer3": "mantiqiy inkor"
+    "question": "Qaysi belgi orasida matn yozilsa hech qanday o’zgartirishlarsiz ekranga chiqadi?",
+    "answer": "qoshtirnoq",
+    "noAnswer1": "ostki chiziqcha",
+    "noAnswer2": "nuqta ",
+    "noAnswer3": "vergul"
   },
   {
-    "question": "YOKI mantiqiy elementi………amalini bajaradi",
-    "noAnswer1": "mantiqiy qo`shish",
-    "noAnswer2": "mantiqiy ko’paytirish",
-    "noAnswer3": "Mantiq"
+    "question": "Qo’shtirnoq orasida yozilgan ma’lumotlar nima dep nomlanadi?",
+    "answer": "satr",
+    "noAnswer1": "gap",
+    "noAnswer2": "matn",
+    "noAnswer3": "simvol"
   },
   {
-    "question": "kon`yunksiya mantiqiy elementi…..amalini bajaradi",
-    "noAnswer1": "mantiqiy ko’paytirish",
-    "noAnswer2": "Mantiq",
-    "noAnswer3": "mantiqiy inkor"
+    "question": "Matematik funksiyalardan programmada foydalanish uchun qaysi kutbhonani \nprogrammaga qo’shish kerak?\n",
+    "answer": "math.h",
+    "noAnswer1": "iostream",
+    "noAnswer2": "ostream",
+    "noAnswer3": "algorithm"
   },
   {
-    "question": "Mantiqiy elementlarda mantiqiy algebra funksiyalarini grafik usulda ixchamlashtirishning eng qulay usuli nima hisoblanadi?",
-    "answer": "karno kartasi",
-    "noAnswer1": "vaqt diagrammasi",
-    "noAnswer2": "mantiqiy algebraic funksiyasi",
-    "noAnswer3": "rostlik jadvali"
+    "question": "bool toifasi qanday qiymatlar qabul qiladi?",
+    "answer": "true yoki false",
+    "noAnswer1": "raqamli va satrli;",
+    "noAnswer2": "raqamli",
+    "noAnswer3": "satrli"
   },
   {
-    "question": "HAM mantiqiy elementi…….. amalini bajaradi",
-    "answer": "mantiqiy ko’paytirish",
-    "noAnswer1": "Mantiq",
-    "noAnswer2": "mantiqiy inkor",
-    "noAnswer3": "mantiqiy qo`shish"
+    "question": "bool toifasi kompter hotirasida qancha joy egallaydi?",
+    "answer": "1 bayt",
+    "noAnswer1": "2 bayt",
+    "noAnswer2": "3 bayt",
+    "noAnswer3": "4bayt"
   },
   {
-    "question": "....-trigger – ikkita boshqaruv kirishiga ega.",
-    "answer": "RS, JK",
-    "noAnswer1": "RS, D",
-    "noAnswer2": "D, JK",
-    "noAnswer3": "D,T"
+    "question": " char toifasi kompter hotirasida qancha joy egallaydi?",
+    "answer": "1 bayt",
+    "noAnswer1": "2 bayt",
+    "noAnswer2": "4 bayt",
+    "noAnswer3": "8 bayt"
   },
   {
-    "question": "“A yoki B”, “A or B”, “A V B”, “A + B” kabi ko‘rinishlarda yoziladi",
-    "answer": "dizyunksiya",
-    "noAnswer1": "Konyunksiya",
-    "noAnswer2": "HAM mantiqiy elementi",
-    "noAnswer3": "Invertor"
+    "question": "math.h matematik kutbxonasida x sonini natural lagarifimi qanday belgilanadi?",
+    "answer": "log(x),",
+    "noAnswer1": "log10(x);",
+    "noAnswer2": "ln(x);",
+    "noAnswer3": "sqrt(x);"
   },
   {
-    "question": "Ikkita turg'un holatli chiqishga ega bo'lgan qurilma bo'lib, u elementar xotira yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega",
-    "answer": "triggerlar",
-    "noAnswer1": "Multipleksorlar",
-    "noAnswer2": "Demultipleksorlar",
-    "noAnswer3": "deshifratorlar"
+    "question": "Math.h kutbhonasida barcha trigonometrik funksiyalar qanday o’lchovida beriladi?",
+    "answer": "radian",
+    "noAnswer1": "gradus",
+    "noAnswer2": "kg",
+    "noAnswer3": "litr"
   },
   {
-    "question": "D-trigger ........triggeri deb ataladi",
-    "answer": "kechikish",
-    "noAnswer1": "Vaqt",
-    "noAnswer2": "Asinxron",
-    "noAnswer3": "universal"
+    "question": "C++ da bir toifadan boshqa bir toifaga o’tishning necha hil turi mavjud?",
+    "answer": "2xil oshkor va oshkormas",
+    "noAnswer1": "3 xil",
+    "noAnswer2": "4 xil",
+    "noAnswer3": "bir turdan boshqa bir\n turga o’tib bo’lmaydi\n"
   },
   {
-    "question": "Bir necha manbadan berilayotgan ma'lumotlarni bitta chiqish kanaliga uzatishni boshqarish uchun mo'ljallangan qurilma?",
-    "answer": "multipleksor",
-    "noAnswer1": "Demultipleksor",
-    "noAnswer2": "Shifrator",
-    "noAnswer3": "deshifrator"
+    "question": " Quyidagilardan qaysi birida bir turdan boshqa turga o’tishning ishkor variant qo’llanilmoqda?",
+    "answer": "int a;   a=(float)3.4:",
+    "noAnswer1": "int a; a=(int)3.4;",
+    "noAnswer2": "int a;   a(int)3.4;",
+    "noAnswer3": "float a; a=(float)3.4;"
   },
   {
-    "question": "Bir kanaldan qabul qilingan ma'lumotlarni bir necha qabul qilgichlarga taqsimlash vazifasini bajaradigan qurilma?",
-    "answer": "demultipleksor",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Shifrator",
-    "noAnswer3": "deshifrator"
+    "question": " Mantiqiy inkor “!” operatori qanday vazifani bajaradi.",
+    "answer": "rost qiymatni yolg’onga \naytlantiradi yoki aksincha,\n",
+    "noAnswer1": "ikki mantiqiy o’zgaruvchi rost \nbolganda rost qaytaradi yoki aksincha\n",
+    "noAnswer2": "ikki mantiqiy o’zgaruvchi yolg’on bolganda\n yolg’on qaytaradi yoki aksincha\n",
+    "noAnswer3": "hech bo’lmaganda bittasi rost \nbo’lsa ham rost qiymat qaytaradi\n"
   },
   {
-    "question": "m  ta kirish va n ta chiqishga ega bo'lib, kirishlardan biriga berilgan signalni  chiqishda n – razryadli parallel  kodga o'zgartiradi.",
-    "answer": "shifrator",
-    "noAnswer1": "Demultipleksor",
-    "noAnswer2": "Multipleksor",
-    "noAnswer3": "deshifrator"
+    "question": "Mantiqiy ko’paytirish amali qanday holatlarda yolg’on qiymat qaytaradi?",
+    "answer": "barcha javoblar to’g’ri",
+    "noAnswer1": "biri rost ikkinchisi yolg’on\n bo’lgan holatlarda;\n",
+    "noAnswer2": "biri yolg’on ikkinchisi rost \nbo’lgan holatlarda\n",
+    "noAnswer3": "har ikkisi ham yolg’on \nbo’lgan holatlarda\n"
   },
   {
-    "question": "Agar shifrator n ta chiqishga ega bo'lsa, u holda uning kirishlari soni (m) 2n dan kam bo'lmasligi kerak. Agar m=2n munosabat bajarilsa shifrator......deyiladi.",
-    "answer": "to’liq shifrator",
-    "noAnswer1": "to’liq emas shifrator",
-    "noAnswer2": "Koder",
-    "noAnswer3": "dekoder"
+    "question": "Ushbu ifodada “c” qanday qiymat qaytaradi?\na=true; b=false;\nc=!a;\nc=a&&b;\nc=a||b; \n",
+    "answer": "true ",
+    "noAnswer1": "false",
+    "noAnswer2": "yolgon",
+    "noAnswer3": 0
   },
   {
-    "question": "Agar shifrator n ta chiqishga ega bo'lsa, u holda uning kirishlari soni(m) 2n dan kam bo'lmasligi kerak, agar munosabat m<2n bo'lsa, u .........deb ataladi.",
-    "answer": "to’liq emas shifrator",
-    "noAnswer1": "Koder",
-    "noAnswer2": "Decoder",
-    "noAnswer3": "to’liq shifrator"
+    "question": "Ushbu ifodada “c”  qanday qiymat qaytaradi?\na=true; b=true;\na=!a;\nc=a&&b\n",
+    "answer": "true",
+    "noAnswer1": "false",
+    "noAnswer2": "yolgon",
+    "noAnswer3": 0
   },
   {
-    "question": "Shifratorga teskari bo'lgan amalni bajaradigan qurilma?",
-    "answer": "deshifrator",
-    "noAnswer1": "Summator",
-    "noAnswer2": "Demultipleksor",
-    "noAnswer3": "multipleksor"
+    "question": "A=true, B=false, C=true, D=false bo’lsa, quyidagi mantiqiy ifoda natijasini aniqlang.\n!((A&&B)||(C&&D))||(A||B)\n",
+    "answer": "true",
+    "noAnswer1": "false",
+    "noAnswer2": "yolgon",
+    "noAnswer3": 0
   },
   {
-    "question": "Agar deshifratorning n kirishlari uning m chiqishlari soni bilan m=2n munosabat bilan bog'langan bo'lsa, bunday deshifrator…….deb ataladi.",
-    "answer": "to'liq",
-    "noAnswer1": "to’liq emas",
-    "noAnswer2": "Koder",
-    "noAnswer3": "Decoder"
+    "question": "A=true, B=false, C=true, D=false bo’lsa, quyidagi mantiqiy ifoda natijasini aniqlang.\n!((!A&&B)||(C&&D))||(A||B)\n",
+    "answer": "true",
+    "noAnswer1": "false",
+    "noAnswer2": "yolgon",
+    "noAnswer3": 0
   },
   {
-    "question": "Agar deshifratorning n adres kirishlari uning m chiqishlari soni bilan  m<2n bo'lsa, deshifrator ............deb ataladi",
-    "answer": "to’liq emas",
-    "noAnswer1": "Koder",
-    "noAnswer2": "Decoder",
-    "noAnswer3": "To’liq"
+    "question": "A=true, B=false, C=true, D=false bo’lsa, quyidagi mantiqiy ifoda natijasini aniqlang.\n((!A&&B)||(C&&D))||(A&&B)\n",
+    "answer": "false",
+    "noAnswer1": "true",
+    "noAnswer2": "rost",
+    "noAnswer3": 0
   },
   {
-    "question": "Deshifratorga teskari bo'lgan amalni bajaradi.",
-    "answer": "shifrator",
-    "noAnswer1": "Demultipleksor",
-    "noAnswer2": "Multipleksor",
-    "noAnswer3": "summator"
+    "question": "A=false, B=false, C=true, D=false bo’lsa, quyidagi mantiqiy ifoda natijasini aniqlang.\n    !((!A&&B)||(C&&D))||(A||B)\n",
+    "answer": "true",
+    "noAnswer1": "false",
+    "noAnswer2": "yolgon",
+    "noAnswer3": 0
   },
   {
-    "question": "Bir necha yarimsummatorlarni jamlangani nima deyiladi?",
-    "answer": "summator",
-    "noAnswer1": "Shifrator",
-    "noAnswer2": "Deshifrator",
-    "noAnswer3": "demultipleksor"
+    "question": "Tanlash operatori nima dep nomlanadi?",
+    "answer": "switch",
+    "noAnswer1": "if",
+    "noAnswer2": "for",
+    "noAnswer3": "while"
   },
   {
-    "question": "ushbu mantiqiy algebraik funksiya qaysi mantiqiy elementga tegishli?",
-    "answer": "2 YOKI-EMAS",
-    "noAnswer1": "2 HAM-EMAS",
-    "noAnswer2": "2 ISTISNO-YOKI",
-    "noAnswer3": "2 ISTISNO-YOKI-EMAS"
+    "question": "Tanlash operatorini birorta ham qiymatiga to’gri kelmagan holda qaysi operator qo’yiladi?",
+    "answer": "default",
+    "noAnswer1": "case",
+    "noAnswer2": "else ",
+    "noAnswer3": "if"
   },
   {
-    "question": "ushbu mantiqiy algebraik funksiya qaysi mantiqiy elementga tegishli?",
-    "answer": "2 HAM-EMAS",
-    "noAnswer1": "2 YOKI-EMAS",
-    "noAnswer2": "2 ISTISNO-YOKI",
-    "noAnswer3": "2 ISTISNO-YOKI-EMAS"
+    "question": "Shart operatori nima dep nomalanadi?",
+    "answer": "if",
+    "noAnswer1": "switch",
+    "noAnswer2": "for",
+    "noAnswer3": "while"
   },
   {
-    "question": "Raqamli kattalikni unga proporsional bo’lgan elektr toki yoki kuchlanish ko’rishidagi analog kattalikka o’zgartiradigan qurilma?",
-    "answer": "raqamli-analog o’zgartirgich",
-    "noAnswer1": "Trigger",
-    "noAnswer2": "analog –raqamli o’zgartirgich",
-    "noAnswer3": "Registr"
+    "question": "continue funksiyasini qaysi operatorlarga qo’llash mumkin?",
+    "answer": "Har qanday sikl operatoriga,",
+    "noAnswer1": "for",
+    "noAnswer2": "while",
+    "noAnswer3": "do while"
   },
   {
-    "question": "Raqamli kattalikni analog kattalikka o’zgartiradigan qurilma?",
-    "answer": "raqamli-analog o’zgartirgich",
-    "noAnswer1": "trigger\r\nanalog –raqamli o’zgartirgich",
-    "noAnswer2": "registr"
+    "question": "Eng soda doimiy takrorlanuvchi sikl operatori  qanday yoziladi?",
+    "answer": "for( ; ; ),",
+    "noAnswer1": "for(int i=0; i<1000; i++);",
+    "noAnswer2": "for(int i=0; i<1000;i--);",
+    "noAnswer3": "for(int i=0; i<n; i++);"
   },
   {
-    "question": "Analog kattalikni unga proporsional bo’lgan elektr toki yoki kuchlanish ko’rishidagi raqamli kattalikka o’zgartiradigan qurilma?",
-    "answer": "analog –raqamli o’zgartirgich",
-    "noAnswer1": "Registr",
-    "noAnswer2": "raqamli-analog o’zgartirgich",
-    "noAnswer3": "trigger"
+    "question": "Qaysi sikl operatorida avval shart bajarilib keyin tekshiriladi?",
+    "answer": "do while",
+    "noAnswer1": "while",
+    "noAnswer2": "for ",
+    "noAnswer3": "switch"
   },
   {
-    "question": "Analog kattalikni raqamli kattalikka o’zgartiradi.",
-    "answer": "analog –raqamli o’zgartirgich",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "raqamli-analog o’zgartirgich",
-    "noAnswer3": "Registr"
+    "question": " Qaysi sikl operatoridan shart yolg’on bo’lsa ham hech bo’lmaganda 1 marta foydalaniladi?",
+    "answer": "do while",
+    "noAnswer1": "while",
+    "noAnswer2": "for",
+    "noAnswer3": "switch"
   },
   {
-    "question": "Mikroprotsessor tomonidan qayta ishlayotgan unchalik katta bo’lmagan xajmdagi ma’lumotlarni saqlashga mo’ljallangan qurilma.",
-    "answer": "ichki xotira",
-    "noAnswer1": "tashqi xotira",
-    "noAnswer2": "kesh xotira",
-    "noAnswer3": "video xotira"
+    "question": "Ko’rsatkichlar nima uchun ishlatiladi?",
+    "answer": "o’zining qiymati sifatida xotira\n adresini saqlovchi,\n",
+    "noAnswer1": "yo’l boshlovchi",
+    "noAnswer2": "o’zining qiymati sifatida toifani \nhotiradan egallagan joyini ko’rsatadi;\n",
+    "noAnswer3": "toifani musbat va manfiy \nchegarasini aniqlashga;\n"
   },
   {
-    "question": "Qurilma o’chirilgan yoki yoqilgandan qat’iy nazar  katta xajmdagi ma’lumotlarni uzoq muddat saqlaydi.",
-    "answer": "tashqi xotira",
-    "noAnswer1": "kesh xotira",
-    "noAnswer2": "video xotira",
-    "noAnswer3": "ichki xotira"
+    "question": "Funksiya dep nimaga aytiladi?",
+    "answer": "Dasturning istalgan qismidan murojat qilib,\n birnecha bor ishlatish mumkin bo’lgan operatorlar guruhi,\n",
+    "noAnswer1": "o’zining qiymati sifatida hotira \nadresini o’zlashtiruvchiga \n",
+    "noAnswer2": "o’zidan hech qanday qiymat\n qaytarmaydigan operatorga;\n",
+    "noAnswer3": "Shartsiz qabul qilinadigan operatorga"
   },
   {
-    "question": "O’nlik  sanoq sistemasidagi 20 soni ikkilik sanoq sistemasida qanday bo’ladi",
-    "answer": "10100",
-    "noAnswer1": "11001",
-    "noAnswer2": "11101",
-    "noAnswer3": "10101"
+    "question": "Asosiy programmadan hech qanday parameter qabul qilib olmaydigan funksiyalar nima dep aytiladi?",
+    "answer": "parametrsiz funksiya.",
+    "noAnswer1": "parametrli funfsiya;",
+    "noAnswer2": "takrorlanuvchi funksiya;",
+    "noAnswer3": "void funksiyasi;"
   },
   {
-    "question": "HAM-EMAS mantiqiy elementning vazifasi",
-    "answer": "ko’paytirib inkorlash",
-    "noAnswer1": "qo’shib inkorlash",
-    "noAnswer2": "bo’lib inkorlash",
-    "noAnswer3": "inkorlash"
+    "question": "Global o’zgaruvchilar dep nimaga aytiladi?",
+    "answer": "ham asosiy programmada, ham funksiyada\n ishlatish mumkin bo’lgan o’zgaruvchi.\n",
+    "noAnswer1": "faqat funksiyada ishlatilishi mumkin \nbo’lgan o’zgaruvchilar;\n",
+    "noAnswer2": "Asosiy funksiyadan chaqiriluvchi \nfunksiyaga;\n",
+    "noAnswer3": "asosiy dasturdan funksiyaga uzatiladigan parametrlarni \nqabul qilib qayta  ishlovchi funksiyalar\n"
   },
   {
-    "question": "YOKI-EMAS  mantiqiy elementining vazifasi.",
-    "answer": "qo’shib inkorlash",
-    "noAnswer1": "ko’paytirib inkorlash",
-    "noAnswer2": "ko’paytirish",
-    "noAnswer3": "inkorlash"
+    "question": "Lokal o’zgaruvchilar dep nimaga aytiladi?",
+    "answer": "faqat funksiyada ishlatilishi\n mumkin bo’lgan o’zgaruvchilar.\n",
+    "noAnswer1": "ham asosiy programmada, ham funksiyada\n ishlatish mumkin bo’lgan o’zgaruvchi\n",
+    "noAnswer2": "Asosiy funksiyadan chaqiriluvchi\n funksiyaga;\n",
+    "noAnswer3": "asosiy dasturdan funksiyaga uzatiladigan\n parametrlarni qabul qilib qayta ishlovchi funksiyalar;\n"
   },
   {
-    "question": "Axborotni qabul qiluvchi, saqlovchi, murakkab bo'lmagan o'zgartirishlar (chapga va o'nga surish)ni amalga oshiruvchi, hamda axborotni to'g'ri va teskari kodlarda uzatuvchi qurilma?",
-    "answer": "registr",
-    "noAnswer1": "Invertor",
-    "noAnswer2": "Summator",
-    "noAnswer3": "shifrator"
+    "question": "Qiymatlar parametri dep nimaga aytiladi?",
+    "answer": "asosiy dasturdan funksiyaga uzatiladigan o’zgaruvchilar\n qiymatini qabul qilib oluvchi parametrlar\n",
+    "noAnswer1": "Asosiy funksiyadan chaqiriluvchi funksiya",
+    "noAnswer2": "ham asosiy programmada, ham funksiyada \nishlatish mumkin bo’lgan parameter\n",
+    "noAnswer3": "asosiy dasturdan funksiyaga uzatiladigan parametrlarni \nqabul qilib qayta ishlovchi funksiya\n"
   },
   {
-    "question": "Parallel prinsipda ishlovchi registrlarda…",
-    "answer": "kodlar parallel yoziladi va o'qiladi",
-    "noAnswer1": "kodlar ketma ket yoziladi va o'qiladi",
-    "noAnswer2": "kodlar o’nlik sanoq tizimiga o’tkazib yoziladi va o'qiladi",
-    "noAnswer3": "o’nlik sanoq tizimidagi raqamlarni ikkilik yoki ikkilik-o‘nlik kodga o‘zgartirib yoziladi va o’qiladi"
+    "question": "Qaysi toifa faqat butun sonlarni o’z ichiga oladi?",
+    "answer": "int",
+    "noAnswer1": " float",
+    "noAnswer2": "double",
+    "noAnswer3": "long"
   },
   {
-    "question": "Ketma-ket prinsipda ishlovchi registrlarda …",
-    "answer": "kodlar ketma-ket yoziladi va o'qiladi",
-    "noAnswer1": "kodlar parallel yoziladi va o'qiladi",
-    "noAnswer2": "kodlar o’nlik sanoq tizimiga o’tkazib yoziladi va o'qiladi",
-    "noAnswer3": "o’nlik sanoq tizimidagi raqamlarni ikkilik yoki ikkilik-o‘nlik kodga o‘zgartirib yoziladi va o’qiladi"
+    "question": " Toifalarni qanday kalit so’zlari bilan modifikatsiyalash mumkin  ",
+    "answer": "signed (ishorali), \nunsigned (ishorasiz).\n",
+    "noAnswer1": "butun, haqiqiy;",
+    "noAnswer2": "baytiga qarab",
+    "noAnswer3": "tipiga qarab;"
   },
   {
-    "question": "Axborotni to'g'ri va teskari kodlarda uzatish vazifasini bajaradigan qurilma qaysi javobda to’g’ri keltirilgan?",
-    "answer": "registr",
-    "noAnswer1": "Shifrator",
-    "noAnswer2": "Summator",
-    "noAnswer3": "multipleksor"
+    "question": "Ishorasiz toifalar nima uchun ishlatiladi?",
+    "answer": "barcha bitlar qiymatlarni \nsaqlash uchun \n",
+    "noAnswer1": "toifalarni birini ikkinchisidan \nfarqlash uchun\n",
+    "noAnswer2": "qiymat qabul qilish \noraligi ortadi\n",
+    "noAnswer3": "bunday toifa mavjud \nemas\n"
   },
   {
-    "question": "Registr sxemasi qanday hosil qilinadi?",
-    "answer": "triggerlarni ketma-ket yoki parallel ulash orqali",
-    "noAnswer1": "shifratorlarni ketma-ket yoki parallel ulash orqali",
-    "noAnswer2": "deshifratorlarni ketma-ket yoki parallel ulash orqali",
-    "noAnswer3": "multipleksorlarni ketma-ket yoki parallel ulash orqali"
+    "question": " Ishorasiz sonlar uchun qiymatlar qabul qilish oralig’I to’g’ri ko’rsatilgan qatorni belgilang.",
+    "answer": "(0...2n-1),",
+    "noAnswer1": "(-2n-1… 2n-1-1);",
+    "noAnswer2": "(0…2n);",
+    "noAnswer3": "(-2n-1…2n-1);"
   },
   {
-    "question": "Registrlarning asosini qaysi qurilmalar hosil qiladi?",
-    "answer": "triggerlar",
-    "noAnswer1": "Shifratorlar",
-    "noAnswer2": "kombinatsion qurilmalar",
-    "noAnswer3": "multipleksorlar"
+    "question": "Ishorali sonlar uchun qiymatlar qabul qilish oralig’i to’g’ri ko’rsatilgan qatorni belgilang.",
+    "answer": "(-2n-1… 2n-1-1) .",
+    "noAnswer1": "(0...2n-1);",
+    "noAnswer2": "(0…2n);",
+    "noAnswer3": "(-2n-1…2n-1);"
   },
   {
-    "question": "Saqlanayotgan axborotni ham o'ngga, ham chapga surish uchun xizmat qiladi.",
-    "answer": "reversiv registrlar",
-    "noAnswer1": "parallel registrlar",
-    "noAnswer2": "ketma-ket registrlar",
-    "noAnswer3": "o’ngga suruvchi registrlar"
+    "question": ". ==  !=   <   <=   >   >= operatorlar bilan binar amallarni\nbajarish qaysi toifaga kiradi?\n\n",
+    "answer": "bool",
+    "noAnswer1": "int   ",
+    "noAnswer2": "short",
+    "noAnswer3": "double"
   },
   {
-    "question": "Qaysi qurilma \"n\" ta kirish kanalidan keladigan ma’lumotni bitta chiqish kanaliga uzatishni boshqarish vazifasini bajaradi?",
-    "answer": "multipleksor",
-    "noAnswer1": "Demultipleksor",
-    "noAnswer2": "Trigger",
-    "noAnswer3": "mikroprotsessor"
+    "question": " C++ da and mantiqiy amalining yana bir yozilish shakli qanday?",
+    "answer": "&&",
+    "noAnswer1": "||",
+    "noAnswer2": "!",
+    "noAnswer3": "xor"
   },
   {
-    "question": "Qaysi qurilma bitta kirish kanalidan berilgan ma’lumotni \"n\" ta chiqish kanaliga ulashni taqsimlash vazifasini bajaradi?",
-    "answer": "demultipleksor",
-    "noAnswer1": "Trigger",
-    "noAnswer2": "Mikroprotsessor",
-    "noAnswer3": "multipleksor"
+    "question": "C++ da or mantiqiy amalining yana bir yozilish shakli qanday?",
+    "answer": "||",
+    "noAnswer1": "&&",
+    "noAnswer2": "!",
+    "noAnswer3": "xor"
   },
   {
-    "question": "Multipleksor bu - …",
-    "answer": "bir nechta kirish kanalidan keladigan ma’lumotni bitta chiqish kanaliga uzatishni boshqaruvchi qurilma",
-    "noAnswer1": "bitta kirish kanalidan berilgan ma’lumotni saqlash, qayta ishlash va chiqish kanaliga ulashni taqsimlash vazifasini bajaradigan qurilma",
-    "noAnswer2": "bir nechta kirish kanalidan keladigan ma’lumotni vaqtincha saqlovchi qurilma",
-    "noAnswer3": "bir nechta kirish kanalidan keladigan ma’lumotni saqlash, qayta ishlash va chiqish kanaliga uzatishni boshqaruvchi qurilma"
+    "question": " C++ da not mantiqiy amalining yana bir yozilish shakli qanday?",
+    "answer": "!",
+    "noAnswer1": "||",
+    "noAnswer2": "&&",
+    "noAnswer3": "xor"
   },
   {
-    "question": "Demultipleksor bu - …",
-    "answer": "bitta kirish kanalidan berilgan ma’lumotni \"n\" ta chiqish kanaliga ulashni taqsimlash vazifasini bajaradigan qurilma",
-    "noAnswer1": "bitta kirish kanalidan berilgan ma’lumotni saqlash, qayta ishlash va chiqish kanaliga ulashni taqsimlash vazifasini bajaradigan qurilma",
-    "noAnswer2": "bir nechta kirish kanalidan keladigan ma’lumotni bitta chiqish kanaliga uzatishni boshqaruvchi qurilma",
-    "noAnswer3": "bir nechta kirish kanalidan keladigan ma’lumotni saqlash, qayta ishlash va chiqish kanaliga uzatishni boshqaruvchi qurilma"
+    "question": "C++ da inkor-yoki mantiqiy amalining yana bir yozilish shakli qanday?",
+    "answer": "xor",
+    "noAnswer1": "&&",
+    "noAnswer2": "||",
+    "noAnswer3": "!"
   },
   {
-    "question": "Operativ xotira qurilmasining mikrosxemasi qanday belgilanadi?",
-    "answer": "RAM",
-    "noAnswer1": "PROM",
-    "noAnswer2": "ROM",
-    "noAnswer3": "RPROM"
+    "question": " C++tilida belgili toifalarning qiymatlari qanday belgi orqali belgilanadi?",
+    "answer": "qo’shtirnoq ichida beriladi.",
+    "noAnswer1": "ikki nuqta ichida beriladi;",
+    "noAnswer2": "nuqtali vergul ichida;",
+    "noAnswer3": "vergullar orasida;"
   },
   {
-    "question": "Xisoblagich qanday qurilmalardan tashkil topgan?",
-    "answer": "triggerlardan",
-    "noAnswer1": "Shifratorlardan",
-    "noAnswer2": "Deshifratorlardan",
-    "noAnswer3": "multipleksorlardan"
+    "question": "Bir yoki bir necha belgilar birlashmasi nima dep ataladi?",
+    "answer": "satr",
+    "noAnswer1": "soz",
+    "noAnswer2": "gap",
+    "noAnswer3": "belgilash birlashmasi"
   },
   {
-    "question": "ROM–belgisi qaysi qurilmaga tegishli?",
-    "answer": "Doimiy xotira qurilmasiga",
-    "noAnswer1": "Operativ xotira qurilmasiga",
-    "noAnswer2": "Ichki xotira qurilmasiga",
-    "noAnswer3": "Tashqi xotira qurilmasiga"
+    "question": "Ko’rsatkichlar hotirada qancha joy egallaydi?",
+    "answer": "4 bayt",
+    "noAnswer1": "1 bayt ",
+    "noAnswer2": "2 bayt",
+    "noAnswer3": "8 bayt"
   },
   {
-    "question": "Analog-raqam o’zgartirgich (ARO’)ning vazifasi nima?",
-    "answer": "analog signalni unga proporsional bo’lgan raqamli signalga aylantiradi",
-    "noAnswer1": "raqamli signali analogli signalga aylantiradi",
-    "noAnswer2": "ikkilik kodini o’nlik raqamga o’tkazish",
-    "noAnswer3": "raqamli kattalikni unga proportsioanal bo‘lgan elektr tok yoki kuchlanish ko‘rinishidagi analog kattalikka o‘zgartirish"
+    "question": "Bir toifaga mansub elementlar to’plami nima dep nomlanadi?",
+    "answer": "massiv",
+    "noAnswer1": "enum",
+    "noAnswer2": "matritsa",
+    "noAnswer3": "korsatkich"
   },
   {
-    "question": "Raqamli-analog o‘zgartirgich (RAO’)ning vazifasi nima?",
-    "answer": "raqamli kattalikni unga proportsioanal bo‘lgan elektr tok yoki kuchlanish ko‘rinishidagi analog kattalikka o‘zgartirish",
-    "noAnswer1": "analog signalni raqamli signalga aylantirish",
-    "noAnswer2": "uzluksiz signalni raqamli signalga aylantirish",
-    "noAnswer3": "ikkilik kodini hisoblash"
+    "question": "Massivni necha xil ko’rinishi mavjud?",
+    "answer": "2 xil",
+    "noAnswer1": "3 xil",
+    "noAnswer2": "4 xil",
+    "noAnswer3": "turli xil"
   },
   {
-    "question": "Xisoblagichlar asosini qanday elementlar tashkil etadi?",
-    "answer": "Triggerlar",
-    "noAnswer1": "Diodlar",
-    "noAnswer2": "Shifratorlar",
-    "noAnswer3": "multipleksorlar"
+    "question": " Ikki o’lchovli massiv nima dep nomlanadi?",
+    "answer": "matritsa",
+    "noAnswer1": "2 parametrli massiv",
+    "noAnswer2": "enum",
+    "noAnswer3": "switch"
   },
   {
-    "question": "Xisoblagichning razryadi nimaga bog’liq?",
-    "answer": "triggerlar soniga",
-    "noAnswer1": "tranzistorlar soniga",
-    "noAnswer2": "shifratorlar soniga",
-    "noAnswer3": "multipleksorlar soniga"
+    "question": "Ikki o’lchovli massivda indekslar soni nechta bo’ladi?",
+    "answer": "2 ta ",
+    "noAnswer1": "1 ta",
+    "noAnswer2": "3 ta",
+    "noAnswer3": "4ta"
   },
   {
-    "question": "Registrning razryadi nimaga bogliq?",
-    "answer": "triggerlar soniga",
-    "noAnswer1": "tranzistorlar soniga",
-    "noAnswer2": "shifratorlar soniga",
-    "noAnswer3": "multipleksorlar soniga"
+    "question": "Matritsa elementlari indekisi doimo qaysi raqamdan boshlanadi?",
+    "answer": 0,
+    "noAnswer1": 1,
+    "noAnswer2": 2,
+    "noAnswer3": 3
   },
   {
-    "question": "Mantiq algebrasida haqiqiy degan ibora qaysi sonni anglatadi?",
-    "answer": "1",
-    "noAnswer1": "0",
-    "noAnswer2": "10",
-    "noAnswer3": "01"
+    "question": "Jumlani to’ldiring.\nAgar massiv toifasi char bo’lsa, u holda massiv … hisoblanadi.\n",
+    "answer": "satr",
+    "noAnswer1": "belgi",
+    "noAnswer2": "harf",
+    "noAnswer3": "son"
   },
   {
-    "question": "Mantiq algebrasida 0 soni qanday iborani anglatadi?",
-    "answer": "haqiqiy emas",
-    "noAnswer1": "Rost",
-    "noAnswer2": "Haqiqiy",
-    "noAnswer3": "bor"
+    "question": "C++ da satr uzunligini aniqlash uchun qaysi buyrug’dan foydalanamiz?",
+    "answer": "strlen(),",
+    "noAnswer1": "sizeof();",
+    "noAnswer2": "length();",
+    "noAnswer3": "size();"
   },
   {
-    "question": "Konyunksiya bu…..",
-    "answer": "mantiqiy ko’paytirish amali",
-    "noAnswer1": "mantiqiy qo’shish amali",
-    "noAnswer2": "mantiqiy inkor amali",
-    "noAnswer3": "ixchamlangan mantiqiy algebraik funksiya"
+    "question": "Qaysi klassi o’zgaruvchan\nuzunlikdagi massiv yaratishga yordam beradi?\n",
+    "answer": "vector",
+    "noAnswer1": "void",
+    "noAnswer2": "enum",
+    "noAnswer3": "public"
   },
   {
-    "question": "Konyunksiya amali qaysi mantiqiy element yordamida bajariladi?",
-    "answer": "HAM",
-    "noAnswer1": "YOKI",
-    "noAnswer2": "INVERSIYA",
-    "noAnswer3": "YOKI-EMAS"
+    "question": "Massivni e’lon qilish to’g’ri ko’rsatilgan qatorni toping?",
+    "answer": "int a[50] :     ",
+    "noAnswer1": "float a=[50];      ",
+    "noAnswer2": "int a{50};     ",
+    "noAnswer3": "int a[3]={“1,2,3”};"
   },
   {
-    "question": "(^), (∙) yoki (&) ko’rinishidagi belgilar qaysi amalni bajaradi?",
-    "answer": "konyunksiya",
-    "noAnswer1": "Dizyunksiya",
-    "noAnswer2": "Inkor",
-    "noAnswer3": "mantiqiy qo’shish"
+    "question": " Massivni initsalizatsiyalash to’g’ri ko’rsatilgan javobni toping?",
+    "answer": "int a[3]={45,12,1}.      ",
+    "noAnswer1": "int a[4]={12,3,4,43,2};",
+    "noAnswer2": "int a[3]={“12,3,4”};            ",
+    "noAnswer3": "float j[]={‘1,2,3,4,5.5,5.6’};"
   },
   {
-    "question": "Konyunksiyaga berilgan to’g’ri ta’rifni toping.",
-    "answer": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati yolg’ondir",
-    "noAnswer1": "Ikkala x1 va x2 o’zgaruvchilardan biri chin bo’lsa ularning qiymati chindir",
-    "noAnswer2": "Ikkala x1 va x2  o’zgaruvchilar chin bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati chindir",
-    "noAnswer3": "Ikkala x1 va x2  o’zgaruvchilar yolg’on bo’lsa ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir"
+    "question": "Noto’g’ri kiritilgan ikki o’lchovli massivni aniqlang?",
+    "answer": "int a[2][3]={1,2,3,4,5,6,4}.",
+    "noAnswer1": "int k[2][2]={1,2,3,4} ;   ",
+    "noAnswer2": "int a[3][5];     ",
+    "noAnswer3": "int k[2][3]={{0,1,2},{3,4,5}};"
   },
   {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati yolg’ondir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "2HAM",
-    "noAnswer1": "2HAM-EMAS",
-    "noAnswer2": "2YOKI",
-    "noAnswer3": "2YOKI-EMAS"
+    "question": " Quyidagi massivda j indeksi nimani bildiradi?  int a[i][j];",
+    "answer": "ustunlar sonini.  ",
+    "noAnswer1": "elementlar sonini;",
+    "noAnswer2": "satrlar sonini;  ",
+    "noAnswer3": "massiv necha o’lchamliligini;"
   },
   {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati yolg’on, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati chindir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "2HAM-EMAS",
-    "noAnswer1": "2HAM",
-    "noAnswer2": "2YOKI",
-    "noAnswer3": "2YOKI-EMAS"
+    "question": "Quyidagi massivda nechta element qatnashgan\nint k[3][4];   \n",
+    "answer": "12 ta ",
+    "noAnswer1": "3 ta ",
+    "noAnswer2": "4 ta ",
+    "noAnswer3": "34 ta"
   },
   {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "2YOKI-EMAS",
-    "noAnswer1": "2HAM-EMAS",
-    "noAnswer2": "2YOKI",
-    "noAnswer3": "2HAM"
+    "question": "Quyidagi massivni oxirgi elementini toping \nInt a[7]={1,2,3,4,5,6,7};    \n",
+    "answer": " a[6]:     ",
+    "noAnswer1": " a[7]:     ",
+    "noAnswer2": " a[8]:     ",
+    "noAnswer3": " a[9]:     "
   },
   {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "2YOKI",
-    "noAnswer1": "2YOKI-EMAS",
-    "noAnswer2": "2HAM",
-    "noAnswer3": "2HAM-EMAS"
+    "question": " Ikki satr va uch ustundan iborat massivni elon qiling",
+    "answer": "int a[2][3]:  ",
+    "noAnswer1": "int a[3]; int a[2];    ",
+    "noAnswer2": "int a[3][2];      ",
+    "noAnswer3": "int a[][]={2,3};"
   },
   {
-    "question": "Pirs elementiga berilgan to’g’ri ta’rifni toping.",
-    "answer": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir",
-    "noAnswer1": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir",
-    "noAnswer2": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsa ularning qiymati chin, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati yolg’ondir",
-    "noAnswer3": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir"
+    "question": "Dasturning natijasi qanday boladi?\n #include <iostream>\nusing namespace std;\nint main()\n{\n    int a,b;\n                  float c;\n    a=3;\n    b=2;\n    c=a/b;\n    switch (c)\n    {\n        case 1  : cout << \"C++\"; break;\n        case 1.5: cout << \"Dastur\"; break;\n        case 2  : cout << \"Tugadi\"; break;\n        case 2.5: cout << \"Salom\"; break;\n    }\n    return 0;\n}\n",
+    "answer": "dastur xato",
+    "noAnswer1": "c++",
+    "noAnswer2": "dastur",
+    "noAnswer3": "tugadi"
   },
   {
-    "question": "Sheffer elementiga berilgan to’g’ri ta’rifni toping.",
-    "answer": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati yolg’on, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati chindir",
-    "noAnswer1": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir",
-    "noAnswer2": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsa ularning qiymati chin, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati yolg’ondir",
-    "noAnswer3": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir"
+    "question": "Dastur natijasi qanday boladi?\n#include <iostream>\nusing namespace std;\nint main()\n{\n    int a,b,c;\n    a=2;\n    b=0;\n    c=0;\n    bool e= a>=b && c<=b;\n    cout << a+e << endl;\n    return 0;\n}\n",
+    "answer": 3,
+    "noAnswer1": 2,
+    "noAnswer2": 0,
+    "noAnswer3": "dasturda xatolik bor"
   },
   {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati yolg’on, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati chindir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "sheffer elementi",
-    "noAnswer1": "pirs elementi",
-    "noAnswer2": "Konyunksiya",
-    "noAnswer3": "dizyunksiya"
+    "question": " Fayllar bilan ishlash oqimlariga qaysilar kiradi?",
+    "answer": "ifstream, ofstream, fstream.",
+    "noAnswer1": " iostream , ostream , istream;",
+    "noAnswer2": " ifstream , ,cout istream;",
+    "noAnswer3": "iostream , ofstream, istream;"
   },
   {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "dizyunksiya",
-    "noAnswer1": "pirs elementi",
-    "noAnswer2": "Konyunksiya",
-    "noAnswer3": "sheffer elementi"
+    "question": "|-bu belgi qanday mantiqiy amal?",
+    "answer": "mantiqiy yoki(qo’shish).",
+    "noAnswer1": "istisno qiluvchi;",
+    "noAnswer2": "matiqiy va (kopaytiruvchi);",
+    "noAnswer3": "mantiqiy inkor(inversiya);"
   },
   {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir: ushbu ta’rif qaysi mantiqiy elementga mos?",
-    "answer": "pirs elementi",
-    "noAnswer1": "sheffer elementi",
-    "noAnswer2": "2YOKI",
-    "noAnswer3": "2HAM"
+    "question": "Massiv qanday elon qilinadi?",
+    "answer": "int a [n]; flout a[n];double a[n].",
+    "noAnswer1": "int a; flout a;double a;",
+    "noAnswer2": "int (a); flout (a); double (a);",
+    "noAnswer3": "xammasi to’g’ri"
   },
   {
-    "question": "Mantiqiy funksiyalarni minimizatsiyasi deb nimaga aytiladi?",
-    "answer": "Sxemadagi yoki formuladagi elementlar sonining minimal xolga keltirilish",
-    "noAnswer1": "Sxemadagi yoki formuladagi elementlar sonining maksimal xolga keltirilish",
-    "noAnswer2": "Sxemadagi yoki formuladagi elementlar sonining umumiy xolga keltirilish",
-    "noAnswer3": "Mantiqiy elementning blok sxemasini tuzish"
+    "question": "Belgili tipni qabul qiluvchi o’zgaruvchilarni e’lon \nqilish uchun qaysi xizmatchi so’zidan foydalanish mumkin?\n",
+    "answer": "char",
+    "noAnswer1": "void",
+    "noAnswer2": "bool",
+    "noAnswer3": "int"
   },
   {
-    "question": "4x1-Multipleksorda ikkilik manzil kirish (S)lari soni nechta bo’ladi?",
-    "answer": "ikkita",
-    "noAnswer1": "Uchta",
-    "noAnswer2": "to’rtta",
-    "noAnswer3": "bitta"
+    "question": "A=1 B=1 A&B ni qiymatini toping.",
+    "answer": 1,
+    "noAnswer1": 0,
+    "noAnswer2": 2,
+    "noAnswer3": "1 va 0"
   },
   {
-    "question": "8x1-Multipleksorda ikkilik manzil kirish (S)lari soni nechta bo’ladi?",
-    "answer": "uchta",
-    "noAnswer1": "to’rtta",
-    "noAnswer2": "Sakkizta",
-    "noAnswer3": "bitta"
+    "question": "Faqat bir qatorni izohga aylantirish uchun qo’llaniladigan belgilar.",
+    "answer": "//",
+    "noAnswer1": "/*   */",
+    "noAnswer2": "*/",
+    "noAnswer3": "/*"
   },
   {
-    "question": "14x1-Multipleksorda ikkilik manzil kirish (S)lari soni nechta bo’ladi?",
-    "answer": "4",
-    "noAnswer1": "14",
-    "noAnswer2": "3",
-    "noAnswer3": "1"
+    "question": "Ekranga qanday natija chiqadi?       (a=16)\nint main()\n{int a;\ncin>>a;\ncout<<sizeof(a);\n    return 0;\n}\n",
+    "answer": 4,
+    "noAnswer1": 8,
+    "noAnswer2": 9,
+    "noAnswer3": 47
   },
   {
-    "question": "Ikkita turg’un xolatga ega bo’lgan ketma-ket turdagi kichik xotira qurilmasi bu?",
-    "answer": "trigger",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Demultipleksor",
-    "noAnswer3": "deshifrator"
+    "question": "Parametrli sikl operatorini ko'rsating.",
+    "answer": "for()",
+    "noAnswer1": "do{}while();",
+    "noAnswer2": "while();",
+    "noAnswer3": "if();"
   },
   {
-    "question": "Qaysi qurilma bir nechta kirishlarni bitta chiqishga ulaydi?",
-    "answer": "Multipleksor",
-    "noAnswer1": "Demultipleksor",
-    "noAnswer2": "Jamlagich",
-    "noAnswer3": "Shifrator"
+    "question": "Sharti keyin berilgan sikl operatorini ko'rsating.",
+    "answer": "do{}while().",
+    "noAnswer1": "while();",
+    "noAnswer2": "if();",
+    "noAnswer3": "for();"
   },
   {
-    "question": "Qaysi qurilma bir nechta chiqishlarni bitta kirishga ulaydi",
-    "answer": "Demultipleksor",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Jamlagich",
-    "noAnswer3": "Shifrator"
+    "question": "Sikl operatorining qaysi turida sikl tanasi kamida bir marotaba majburiy tarzda bajariladi?",
+    "answer": "do{}while().",
+    "noAnswer1": "while();",
+    "noAnswer2": "if();",
+    "noAnswer3": "for();"
   },
   {
-    "question": "Xotira qurilmasi, boshqaruv yacheykasi va ikkita turg’un xolatga ega bo’lgan ketma-ket turdagi qurilma......... deb ataladi",
-    "answer": "trigger",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Demultipleksor",
-    "noAnswer3": "Deshifrator"
+    "question": "Ma’lumotlar tarkibi to’liq yoritilgan?",
+    "answer": "ma'lumotlar bilan ishlashni, shu jumladan \nularni saqlash, qo'shish va o'chirish, o'zgartirish, qidirish va \nboshqalarni tashkil etuvchi ijrochi,\n",
+    "noAnswer1": "har xil turdagi axborot ;",
+    "noAnswer2": "axborotlardan tuzilgan \nma’lumotlar to’plami;\n",
+    "noAnswer3": "t.j.y"
   },
   {
-    "question": "Qaysi logik qurilma arifmetik jarayonni, ya’ni ikkilik kodlarini qo’shishda ishlatiladi?",
-    "answer": "jamlagich",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Shifrator",
-    "noAnswer3": "deshifrator"
+    "question": "Daraxt bu …. .Jumlani davom ettiting:",
+    "answer": "tugun deb ataladigan bir yoki bir nechta elementlardan \ntashkil topgan cheksiz to'plamdir\n",
+    "noAnswer1": "ma’lumotlarni bir-biriga bog’liq\n ekanligini tavsiflovchi vosita;\n",
+    "noAnswer2": "tugun deb ataladigan bir yoki bir nechta elementlardan \ntashkil topgan chekli to'plamdir;\n",
+    "noAnswer3": " bir yoki bir nechta elementlardan \ntashkil topgan cheksiz to'plamdir;\n"
   },
   {
-    "question": "Saqlash registrlari qanday qurilmalardan iborat?",
-    "answer": "RS, JK, D triggerlardan",
-    "noAnswer1": "Koderlardan",
-    "noAnswer2": "Shifratorlardan",
-    "noAnswer3": "dekoderlardan"
+    "question": "Char tipidagi o’zgaruvchiga necha bayt kerak bo’ladi?",
+    "answer": 1,
+    "noAnswer1": 2,
+    "noAnswer2": 4,
+    "noAnswer3": 8
   },
   {
-    "question": "“A yoki B”, “A or B”, “A V B”, “A + B” kabi ko‘rinishlarda yoziladi",
-    "answer": "dizyunksiya",
-    "noAnswer1": "Konyunksiya",
-    "noAnswer2": "HAM mantiqiy elementi",
-    "noAnswer3": "YOKI mantiqiy elementi"
+    "question": "char qiymatini butun songa o'tkazish o'rniga nimani talqin qilamiz?",
+    "answer": "ASCII belgisi sifatida talqin qilinadi.",
+    "noAnswer1": "Dasturda buning iloji yo’q;",
+    "noAnswer2": "Havolalardan foydalanish orqali talqin qilinadi;",
+    "noAnswer3": "T.J.y;"
   },
   {
-    "question": "O’nlik sanoq sistemasidagi 15 sonini ikkilik sanoq sistemasida qanday bo’ladi?",
-    "answer": "1111",
-    "noAnswer1": "10000",
-    "noAnswer2": "00001",
-    "noAnswer3": "1001"
+    "question": "ASCII (inglizcha \"ma'lumot almashish uchun Amerika standart kodi\" dan) – bu …. .Jumlani davom ettiring.",
+    "answer": "inglizcha belgilar (+ bir nechta boshqalar) 0 dan 127 gacha bo'lgan raqamlar ko'rinishida ko'rsatiladigan ma'lumot almashishning Amerika standart kodi.",
+    "noAnswer1": "bu inglizcha belgilar (+ bir nechta boshqalar) 0 dan 256 gacha bo'lgan raqamlar ko'rinishida ko'rsatiladigan ma'lumot almashishning Amerika standart kodi;",
+    "noAnswer2": "bu fransuzcha belgilar (+ bir nechta boshqalar) 0 dan 127 gacha bo'lgan raqamlar ko'rinishida ko'rsatiladigan ma'lumot almashishning Amerika standart kodi;",
+    "noAnswer3": "bu turli xil tillardagi belgilar (+ bir nechta boshqalar) 0 dan 127 gacha bo'lgan raqamlar ko'rinishida ko'rsatiladigan ma'lumot almashishning Amerika standart kodi;"
   },
   {
-    "question": "Ikkilik sanoq sistemasidagi 1001 soni o’nlik sanoq sistemasida qanday boladi?",
-    "answer": "9",
-    "noAnswer1": "10",
-    "noAnswer2": "11",
-    "noAnswer3": "12"
+    "question": "ASCII bo’yicha “a” ni kodi to’g’ri ko’rsatilgan javobni tanlang.",
+    "answer": 97,
+    "noAnswer1": 98,
+    "noAnswer2": 99,
+    "noAnswer3": 65
   },
   {
-    "question": "O’nlikdagi 20 sonini ikkilikka o’tkazing",
-    "answer": "10100",
-    "noAnswer1": "1111",
-    "noAnswer2": "1000",
-    "noAnswer3": "1010"
+    "question": "Ko’satkichlarni oldilan qaysi belgi qo’yilishi shart?",
+    "answer": "*",
+    "noAnswer1": ":",
+    "noAnswer2": "&",
+    "noAnswer3": "?"
   },
   {
-    "question": "10100 ikkilik sanoq tizimidagi ushbu kodni o’nlikka o’tkazing",
-    "answer": "20",
-    "noAnswer1": "18",
-    "noAnswer2": "17",
-    "noAnswer3": "21"
+    "question": "O'zining qiymati sifatida xotira manziliini ko'rsatuvchi (saqlovchi) o'zgaruvchilarga nimalar deyiladi?",
+    "answer": "Ko’rsatkich o’zgaruvchilari",
+    "noAnswer1": "Havolalar;",
+    "noAnswer2": "Xotira o’zgaruvchilari ;",
+    "noAnswer3": "Belgili o’zgaruvchilar;"
   },
   {
-    "question": "Registrlarning asosini qaysi qurilmalar tashkil qiladi?",
-    "answer": "triggerlar",
-    "noAnswer1": "Shifratorlar",
-    "noAnswer2": "kombinatsion qurilmalar",
-    "noAnswer3": "multipleksorlar"
+    "question": " sizeof(n) bu funksiyani vazifasi nima?",
+    "answer": " n xotiradan qancha joy egallaganligini ko’rsatadi?",
+    "noAnswer1": " n ni qiymatini ekranga chiqaradi",
+    "noAnswer2": "n ni belgili tipga o’tkazadi;",
+    "noAnswer3": "ASCII kodini chiqaradi;"
   },
   {
-    "question": "Xisoblagichning razryadi nimaga bog’liq?",
-    "answer": "tarkibidagi triggerlar soniga",
-    "noAnswer1": "tarkibidagi shifratorlar soniga",
-    "noAnswer2": "tarkibidagi kombinatsion qurilmalar soniga",
-    "noAnswer3": "tarkibidagi multipleksorlar soniga"
+    "question": " Adrеsni оlish amali  qaysi?",
+    "answer": "&",
+    "noAnswer1": "*",
+    "noAnswer2": "_",
+    "noAnswer3": "?"
   },
   {
-    "question": "Qaysi javobda JK triggerga to’g’ri ta’rif berilgan?",
-    "answer": "universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "noAnswer1": "chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi.",
-    "noAnswer2": "ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma",
-    "noAnswer3": "bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi."
+    "question": ".for(int i=1;i<=10;i++)\n{\ncout<<i<<” ”;\n}\nDastur natijasi qanday?\n",
+    "answer": "1 dan 10 gacha sonlar chiqadi.",
+    "noAnswer1": "1 dan 9 gacha sonlar chiqadi;",
+    "noAnswer2": "1 dan 10 gacha sonlar yigindisi chiqadi;",
+    "noAnswer3": "1 dan 9 gacha sonlar yigindisi chiqadi;"
   },
   {
-    "question": "Komparator vazifasi",
-    "answer": "Ikkita ikkilik sonni solishtirish",
-    "noAnswer1": "Ikkita ikkilik sonni qo’shish",
-    "noAnswer2": "Ikkita ikkilik sonni ko’paytirish",
-    "noAnswer3": "Ikkita ikkilik sonni bo’lish"
+    "question": "Massivni e’lon qilish to’g’ri ko’rsatilgan qatorni toping?",
+    "answer": "int a[50]   ",
+    "noAnswer1": "float a=[50];    ",
+    "noAnswer2": "int a{50};    ",
+    "noAnswer3": "int a[3]={“1,2,3”};"
   },
   {
-    "question": "Mantiqiy element bu - …",
-    "answer": "Kirish signallari ustida aniq bir mantiqiy amal bajaradigan elektron qurilma",
-    "noAnswer1": "Raqamli mashinaning ichidagi struktura",
-    "noAnswer2": "Ixchamlangan mantiqiy funksiya",
-    "noAnswer3": "Analog signalni raqamli signalga o’zgartiruvchi qurilma"
+    "question": ". Quyidagi ifodadan qanday qiymat chiqishini aniqlang?\nint a[]={1,2,3,4,5};\ncout<<a[3];\n",
+    "answer": 4,
+    "noAnswer1": 3,
+    "noAnswer2": 2,
+    "noAnswer3": 5
   },
   {
-    "question": "KNSH operatsiyasi bu…..",
-    "answer": "Yig’indilarning ko’paytmasi ko’rinishida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer1": "Ko’paytmalarning yig’indisi ko’rinishida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer2": "Faqat ko’paytma shaklida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer3": "Faqat yig’indi shaklida yoziladigan mantiqiy algebraik funksiya"
+    "question": " Massiv bu … ",
+    "answer": "Bir toifali chekli qiymatlarning tartiblangan to’plami.",
+    "noAnswer1": "Bir toifali cheksiz qiymatlarning tartiblangan to’plami;",
+    "noAnswer2": "Turli toifali cheksiz qiymatlarning tartiblangan to’plami;",
+    "noAnswer3": "Turli toifali chekli qiymatlarning tartiblangan to’plami;"
   },
   {
-    "question": "DNSH operatsiyasining funksiyasida qanday sodda mantiqiy elementlar qo’llaniladi?",
-    "answer": "Ko’paytmalarning yig’indisi ko’rinishida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer1": "Yig’indilarning ko’paytmasi ko’rinishida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer2": "Faqat ko’paytma shaklida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer3": "Faqat yig’indi shaklida yoziladigan mantiqiy algebraik funksiya"
+    "question": ".Bir xil hisoblash jarayonini bir necha bor takrorlanishi nima deyiladi?",
+    "answer": "sikl",
+    "noAnswer1": "takrorlanish",
+    "noAnswer2": "shart",
+    "noAnswer3": "qiymat qaytarish;"
   },
   {
-    "question": "To’g’ri kirishli asinxron RS-triggerining qaysi holatli kirishlari chiqishda o’zgarmas holatni ta’minlaydi?",
-    "answer": "R=0, S=0",
-    "noAnswer1": "R=1, S=1",
-    "noAnswer2": "R=0, S=1",
-    "noAnswer3": "R=1, S=0"
+    "question": "Massiv elementlari indeksi nechchidan boshlanadi?",
+    "answer": 0,
+    "noAnswer1": 1,
+    "noAnswer2": 2,
+    "noAnswer3": "istalgan nomerdan"
   },
   {
-    "question": "To’g’ri kirishli asinxron RS-triggerining kirishlariga qanday kombinatsiya berilganda, trigger chiqishlarida signal noaniq holatga tushib qoladi?",
-    "answer": "R=1, S=1",
-    "noAnswer1": "R=0, S=0",
-    "noAnswer2": "R=0, S=1",
-    "noAnswer3": "R=1, S=0"
+    "question": "Parametrli sikl operatorini ko'rsating.",
+    "answer": "for(){},",
+    "noAnswer1": "while(){}; ",
+    "noAnswer2": "do{}while();",
+    "noAnswer3": "if(){};"
   },
   {
-    "question": "Berilgan ma’lumotlarni eslab qolish va vaqtincha saqlash xususiyatiga ega mantiqiy elementni tanlang",
-    "answer": "trigger",
-    "noAnswer1": "Shifrator",
-    "noAnswer2": "Multipleksor",
-    "noAnswer3": "deshifrator"
+    "question": "int a=15;\nwhile(a>0)\n{--a;}\nDastur qismida sikl tanasi necha marta bajariladi?\n",
+    "answer": 15,
+    "noAnswer1": 14,
+    "noAnswer2": 16,
+    "noAnswer3": 0
   },
   {
-    "question": "Beshta ma’lumot kirishiga ega bo’lgan multipleksorning chiqishlari soni nechta bo’ladi?",
-    "answer": "bitta",
-    "noAnswer1": "n ta",
-    "noAnswer2": "Ikkita",
-    "noAnswer3": "beshta"
+    "question": "Sharti oldin berilgan sikl operatori tuzilishini ko'rsating.",
+    "answer": "while(shart) {sikl tanasi;}.",
+    "noAnswer1": "while(sikl tanasi) {shart};",
+    "noAnswer2": "do(sikl tanasi) while{shart};",
+    "noAnswer3": "do{sikl tanasi} while(shart);"
   },
   {
-    "question": "Manzil kirishlari soni uchga teng bo’lgan multipleksorning ma’lumot kirishlari soni maksimal nechta bo’ladi?",
-    "answer": "8",
-    "noAnswer1": "9",
-    "noAnswer2": "1",
-    "noAnswer3": "3"
+    "question": " Sharti keyin berilgan sikl operatori tuzilishini ko'rsating.",
+    "answer": "do{sikl tanasi} while(shart);",
+    "noAnswer1": "while(sikl tanasi) {shart;};",
+    "noAnswer2": "do(sikl tanasi) while{shart;};",
+    "noAnswer3": " while(shart) {sikl tanasi;};"
   },
   {
-    "question": "Manzil kirishlari soni to’rttaga teng bo’lgan multipleksorning ma’lumot kirishlari soni maksimal nechta bo’ladi?",
-    "answer": "16",
-    "noAnswer1": "1",
-    "noAnswer2": "4",
-    "noAnswer3": "8"
+    "question": "int i=1;\nwhile(i>-1)\n{cout<< i << endl; i++;}\nDastur qismida sikl tanasi necha marta bajariladi?\n",
+    "answer": "cheksiz:",
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": "bajarilmaydi"
   },
   {
-    "question": "Birinchi Integral mikrosxema (IMS)lar qachon yaratilgan:",
-    "answer": "1958   yilda",
-    "noAnswer1": "1960    yilda",
-    "noAnswer2": "1957    yilda",
-    "noAnswer3": "1989   yilda"
+    "question": "bajarilmaydi;\n122. int a=0;\nwhile(a-1<5)\n{a++;}\nDastur qismida sikl tanasi necha marta bajariladi?\n",
+    "answer": 6,
+    "noAnswer1": 5,
+    "noAnswer2": 4,
+    "noAnswer3": 0
   },
   {
-    "question": "O‘zgaruvchilar soni 3 ga teng bo‘lsa, Karno kartasi yacheykalari soni nechta bo‘ladi?",
-    "answer": "8",
-    "noAnswer1": "16",
-    "noAnswer2": "4",
-    "noAnswer3": "3"
+    "question": " for (int a=0; a<50; a+=10) {cout<<a<<\",\"}\nDastur qismida qanday natija chiqariladi?\n",
+    "answer": "0,10,20,30,40",
+    "noAnswer1": " 10,20,30,40,50;",
+    "noAnswer2": "10,20,30,40;",
+    "noAnswer3": "0,10,20,30,50;"
   },
   {
-    "question": "O‘zgaruvchilar soni 2 ga teng bo‘lsa, Karno kartasi yacheykalari soni nechta bo‘ladi?",
-    "answer": "4",
-    "noAnswer1": "16",
-    "noAnswer2": "8",
-    "noAnswer3": "3"
+    "question": "int s=-1;\nfor (int a=0; a<10; a++) {s+=a;}\ncout<< s <<endl;\nDastur qismida qanday natija chiqariladi?\n",
+    "answer": 44,
+    "noAnswer1": 45,
+    "noAnswer2": 46,
+    "noAnswer3": "hech nima chiqmaydi"
   },
   {
-    "question": "O‘zgaruvchilar soni 4 ga teng bo‘lsa, Karno kartasi yacheykalari soni nechta bo‘ladi?",
-    "answer": "16",
-    "noAnswer1": "8",
-    "noAnswer2": "4",
-    "noAnswer3": "3"
+    "question": " Length() funksiyasining vazifasini aniqlang.",
+    "answer": "String tipidagi satr uzunligini aniqlaydi.",
+    "noAnswer1": "Char tipidagi satr uzunligini aniqlaydi.",
+    "noAnswer2": "C) Bunday funksiya mavjud emas.",
+    "noAnswer3": " Satr uzunligini aniqlaydi."
   },
   {
-    "question": "O’nlik sanoq sistemasidagi 15 sonini ikkilik sanoq sistemasida qanday bo’ladi?",
-    "answer": "1111",
-    "noAnswer1": "10000",
-    "noAnswer2": "00001",
-    "noAnswer3": "1001"
+    "question": "Massivni e’lon qilishda massiv indeksi qanday belgi ostida bo’ladi?",
+    "answer": "[…]",
+    "noAnswer1": "{…}",
+    "noAnswer2": "(…) ",
+    "noAnswer3": "|….|"
   },
   {
-    "question": "O‘zgaruvchilar soni 2 ga teng bo‘lgan mantiqiy elementning rostlik jadvalida kombinatsiyalar soni nechta boladi?",
-    "answer": "4",
-    "noAnswer1": "5",
+    "question": "String a(\"yaxshi\");\nString b(\"kun\");\nString c=a+b;\nNatija ?\n",
+    "answer": "\"yaxshikun\"",
+    "noAnswer1": "\"yaxshi+kun\";",
+    "noAnswer2": " \"a+b\";",
+    "noAnswer3": "\"yaxshi kun\""
+  },
+  {
+    "question": "Ixtiyoriy  funksiyadan  chiqish  uchun….xizmatchi   so’zi  ishlatiladi.",
+    "answer": "return,",
+    "noAnswer1": "main;",
+    "noAnswer2": "void;",
+    "noAnswer3": "{};"
+  },
+  {
+    "question": "belgili   tipdagi  malumotlarni qabul  qilib, butun  tipdagi  malumot qaytaruvchi  funksiyani  toping?",
+    "answer": "int son(char a )",
+    "noAnswer1": "char son(Int a )",
+    "noAnswer2": "float son(char a )",
+    "noAnswer3": "string son(Int a );"
+  },
+  {
+    "question": "string a=”yakuniy nazorat”; int s=a.length(); s=?",
+    "answer": "S=15,",
+    "noAnswer1": " S=14;",
+    "noAnswer2": "S=13;",
+    "noAnswer3": " S=12;"
+  },
+  {
+    "question": "Xotiradan sakkiz bayt joy egallaydigan butun qiymatli o’zgaruvchini ko’rsating?",
+    "answer": " double a",
+    "noAnswer1": "long long a;",
+    "noAnswer2": " long double a;",
+    "noAnswer3": "int a;"
+  },
+  {
+    "question": "Kvadrat massiv deb qanday massivlarga aytiladi?",
+    "answer": "ustunlar va satrlar soni teng bo’lgan massivga.",
+    "noAnswer1": "faqat bir xil elementdan tashkil topgan massivga;",
+    "noAnswer2": "ustunlar soni satrlar sonidan ko’p bo’lgan massivga;",
+    "noAnswer3": "satrlar soni ustunlar sonidan ko’p bo’lgan massivga;"
+  },
+  {
+    "question": "Noto’g’ri kiritilgan ikki o’lchovli massivni aniqlang?",
+    "answer": "int a[2][3]={1,2,3,4,5,6,4}:",
+    "noAnswer1": " int k[2][2]={1,2,3,4} ;   ",
+    "noAnswer2": "int a[3][5];",
+    "noAnswer3": "int k[2][3]={{0,1,2},{3,4,5}};"
+  },
+  {
+    "question": "Quyidagi massivda nechta element qatnashgan int k[3][4];",
+    "answer": 12,
+    "noAnswer1": 4,
+    "noAnswer2": 3,
+    "noAnswer3": 7
+  },
+  {
+    "question": "C++ tilida simvolli massivlar qanday e’lon qilinadi?",
+    "answer": "char a[10].",
+    "noAnswer1": "string h[5];",
+    "noAnswer2": "int a[9];",
+    "noAnswer3": "float  a[5];"
+  },
+  {
+    "question": "Ro’hat qanday turlarga bo’linadi?",
+    "answer": "2 ta bog’langan va bog’lanmagan;",
+    "noAnswer1": "2 ta tarmoqlangan va tarmoqlanmagan;",
+    "noAnswer2": " 3 qo’shilgan, qo’shilmagan,bog’liqli ;",
+    "noAnswer3": "T.j.y;"
+  },
+  {
+    "question": "Stek , dek va navbatlar qaysi ro’yhat turiga misol bo’ladi?",
+    "answer": "bog’lanmagan.;",
+    "noAnswer1": "bog’langan;",
+    "noAnswer2": "tarmoqlangan;",
+    "noAnswer3": "tarmoqlanmagan;"
+  },
+  {
+    "question": "FIFO navbat ko’rinishining ma’nosi nima?",
+    "answer": "Birinchi kelgan birinchi ketadi,",
+    "noAnswer1": "Ohirgi kelgan birinchi ketadi;",
+    "noAnswer2": "Birinchi kelgan ohiri ketadi;",
+    "noAnswer3": "T.J.Y;"
+  },
+  {
+    "question": "Ma’lumotlar bazalarining tuzilmasi bo’yicha adabiyotlarda yo’naltirilgan\ngraf ko’rinishiga ega ma’lumotlar modeli nima deb ataladi?\n",
+    "answer": "tarmoq.",
+    "noAnswer1": "graf;",
+    "noAnswer2": "ro’yhat;",
+    "noAnswer3": "daraxt;"
+  },
+  {
+    "question": "…… ba’zi cheklovlarga ega grafdan iborat, ya’ni bu tsikllarga ega\nbo’lmagan yo’naltirilgan grafdir.Nuqtalar o’rniga keraklisini qo’ying;\n",
+    "answer": "Daraxt:",
+    "noAnswer1": "graf;",
+    "noAnswer2": "ro’yhat;",
+    "noAnswer3": "tarmoq;"
+  },
+  {
+    "question": " Jadval bu …. .Gapni davom ettiring:",
+    "answer": "har bir elementi kalitning ma’lum qiymati bilan tavsiflanadigan\nva elementlaridan erkin foydalanish kalit bo’yicha amalga oshiriladigan\nma’lumotlarning chiziqli tuzilmasidir.\n",
+    "noAnswer1": " ba’zi cheklovlarga ega grafdan iborat, ya’ni bu tsikllarga ega\nbo’lmagan yo’naltirilgan grafdir;\n",
+    "noAnswer2": "Ma’lumotlar bazalarining tuzilmasi bo’yicha adabiyotlarda yo’naltirilgan\ngraf ko’rinishiga ega ma’lumotlar modeli;\n",
+    "noAnswer3": "Muayyan sinfga oid ko’plab obyektlarni\nta’riflovchi yozuv;\n"
+  },
+  {
+    "question": "…… - bu qiymati tegishli elementning massivdagi joyini\naniqlaydigan butun sondir. Nuqtalar o’rniga kerakli so’zni qo’ying.\n",
+    "answer": "Indeks.",
+    "noAnswer1": " Kodlash;",
+    "noAnswer2": "Shifr;",
+    "noAnswer3": "Tartib;"
+  },
+  {
+    "question": "Bir o’lchamli massiv nima deb ataladi?",
+    "answer": "vector:",
+    "noAnswer1": "graf;",
+    "noAnswer2": "daraxt;",
+    "noAnswer3": "chiziqli massiv;"
+  },
+  {
+    "question": "Son, liter, matn, belgi va yanada murakkab tuzilmaga ega bo’lgan ketma-ketliklar qanday ko’rinishda bo’ladi?",
+    "answer": "ro’yxatlar va daraxtlar ko’rinishidagi \nshakllardan iborat bo’ladi,\n",
+    "noAnswer1": "faqat ro’yhatlar ko’rinishida;",
+    "noAnswer2": "faqat daraxtlar ko’rinishida bo’ladi;",
+    "noAnswer3": "faqat graflar ko’rinishida bo’ladi;"
+  },
+  {
+    "question": "Strukturalarni e’lon qilish uchun qaysi kalit so’z ishlatiladi?",
+    "answer": "struct,",
+    "noAnswer1": "class;",
+    "noAnswer2": "void;",
+    "noAnswer3": "char;"
+  },
+  {
+    "question": "Dasturchi tomonidan ixtiyoriy kiritilgan mavjud tiplar asosida\nyaratilgan strukturalangan toifa hisoblanadi?\n",
+    "answer": "Class.",
+    "noAnswer1": "struct;",
+    "noAnswer2": "void;",
+    "noAnswer3": "char;"
+  },
+  {
+    "question": "Agar kalitlar ma‟lumotlar jadvalidan ajratib olinib alohida fayl\nsifatida saqlansa, u holda bunday kalitlar … kalitlar deyiladi. . Nuqtalar o’rniga kerakli so’zni qo’ying.\n",
+    "answer": "tashqi",
+    "noAnswer1": "ichki;",
+    "noAnswer2": " tayyor;",
+    "noAnswer3": " mos kalitlar;"
+  },
+  {
+    "question": "Agar kalitlar ma’lumotlar jadvalidan ajratib olinib yozuvning bir maydoni sifatida jadvalda saqlansa … kalit deyiladi. Nuqtalar o’rniga kerakli so’zni qo’ying.",
+    "answer": "ichki",
+    "noAnswer1": "tashqi;",
+    "noAnswer2": "tayyor;",
+    "noAnswer3": "mos kalitlar;"
+  },
+  {
+    "question": "Kalitni berilgan argument bilan mosligini aniqlovchi algoritmga berilgan\nargument bo’yicha … deb ataladi. Nuqtalar o’rniga kerakli so’zni qo’ying.\n",
+    "answer": "qidiruv",
+    "noAnswer1": "tartib",
+    "noAnswer2": "saralash",
+    "noAnswer3": "tanlash"
+  },
+  {
+    "question": "Ma’lumotlar tuzilmasi va algoritmi fanida saralashning necha turi mavjud?",
+    "answer": 2,
+    "noAnswer1": 3,
+    "noAnswer2": 4,
+    "noAnswer3": 5
+  },
+  {
+    "question": "Ichki saralash nima?",
+    "answer": "operativ hotiradagi saralash.",
+    "noAnswer1": "tashqi hotiradagi saralash;",
+    "noAnswer2": "ichki ma’lumotlarni turlicha saralash;",
+    "noAnswer3": "tashqi ma’lumotlarni turlicha saralash;"
+  },
+  {
+    "question": "Tashqi saralash nima?",
+    "answer": "tashqi hotiradagi saralash,",
+    "noAnswer1": " operativ hotiradagi saralash;",
+    "noAnswer2": "ichki ma’lumotlarni turlicha saralash;",
+    "noAnswer3": "tashqi ma’lumotlarni turlicha saralash;"
+  },
+  {
+    "question": "To’g’ridan to’g’ri qo’shish usuli?",
+    "answer": "insertion.;",
+    "noAnswer1": "selection;",
+    "noAnswer2": "exchange",
+    "noAnswer3": "nothing"
+  },
+  {
+    "question": "To’g’ridan to’g’ri tanlash usuli?",
+    "answer": "insertion.;",
+    "noAnswer1": "selection;",
+    "noAnswer2": "exchange",
+    "noAnswer3": "nothing"
+  },
+  {
+    "question": "To’g’ridan to’g’ri almashtirish usuli?",
+    "answer": "exchange",
+    "noAnswer1": "insertion",
+    "noAnswer2": "selection",
+    "noAnswer3": "nothing"
+  },
+  {
+    "question": ".Elementlar o’zidan keyingi  elment bilan bog’langan bo’lsa bunday ro’yhatlarga qanday ro’yhatlar deyiladi?",
+    "answer": "bir bog'lamli",
+    "noAnswer1": "ikki boglamli",
+    "noAnswer2": "uch bog'lamli",
+    "noAnswer3": "bog'lanmagan"
+  },
+  {
+    "question": "Elementlar o’zidan oldingi va keyingi elment bilan bog’langan bo’lsa bunday ro’yhatlarga qanday ro’yhatlar deyiladi?",
+    "answer": "ikki bog'lamli",
+    "noAnswer1": "bir bog'lamli",
+    "noAnswer2": "uch bog'lamli",
+    "noAnswer3": "bog'lanmagan"
+  },
+  {
+    "question": "Ro’yhatning har bir elementi shu elementni identifikatsiyalash uchun nimaga ega bo’lishi kerak?",
+    "answer": "kalitga",
+    "noAnswer1": "malumotga",
+    "noAnswer2": "tuzilmaga",
+    "noAnswer3": "bog'lamaga"
+  },
+  {
+    "question": "Barg tuguning balandligi nechaga teng?",
+    "answer": 0,
+    "noAnswer1": -1,
+    "noAnswer2": -2,
+    "noAnswer3": 1
+  },
+  {
+    "question": "Bo’sh qism daraxtining balandligi nechga teng?",
+    "answer": -1,
+    "noAnswer1": 0,
+    "noAnswer2": 1,
+    "noAnswer3": -2
+  },
+  {
+    "question": "Agar grafda boshi va ohiri bitta tugunda tutashadigan qirra mavjud bo’lsa, unga qanday qirra deyiladi?",
+    "answer": "irmoqli",
+    "noAnswer1": "o’suvchi;",
+    "noAnswer2": " kamayuvchi;",
+    "noAnswer3": "to’siqli;"
+  },
+  {
+    "question": " ……- bu boshi va ohiri tutashuvchi tugundan iborat yo’l hisoblanadi. Nuqlar o’rniga kerakli so’zni tanlang:",
+    "answer": "Halqa(cycle),",
+    "noAnswer1": "Doira;",
+    "noAnswer2": "Tugun darajasi (vertex degree);",
+    "noAnswer3": "t.j y;"
+  },
+  {
+    "question": "…… bu tugundan chiquvchi yoylar soni hisoblanadi. Nuqlar o’rniga kerakli so’zni tanlang:",
+    "answer": "Tugun darajasi (vertex degree)",
+    "noAnswer1": "Doira;",
+    "noAnswer2": "Halqa(cycle);",
+    "noAnswer3": "t.j y;"
+  },
+  {
+    "question": "Ihtiyoriy grafda toq tugunlar soni qanday bo’ladi?",
+    "answer": "juft",
+    "noAnswer1": "toq",
+    "noAnswer2": "taqsimlangan",
+    "noAnswer3": "taqsimlanmagan"
+  },
+  {
+    "question": "Tugun darajalari toq qiymatli bo’lsa qanday tugunlar deyiladi?",
+    "answer": "toq tugunlar.",
+    "noAnswer1": "juft tugunlar;",
+    "noAnswer2": "boilnmas",
+    "noAnswer3": "bolinadigan"
+  },
+  {
+    "question": "Ixtiyoriy ma’lumot yoki tuzilma elementi bir-biridan asosiysi nimasi bilan farq qiladi?",
+    "answer": "kaliti",
+    "noAnswer1": "qiymati",
+    "noAnswer2": "soni",
+    "noAnswer3": "o'lachami"
+  },
+  {
+    "question": "Kalit necha xil bo’ladi?",
+    "answer": 2,
+    "noAnswer1": 3,
+    "noAnswer2": 4,
+    "noAnswer3": 5
+  },
+  {
+    "question": "Kalitni xillari tog’ri ko’rsatilgan javobni tanlang?",
+    "answer": "birlamchi va ikkilamchi",
+    "noAnswer1": "tasdiqlanadigan va tasdiqlanmaydigan;",
+    "noAnswer2": " turlangan va turlanmagan;",
+    "noAnswer3": "tarmoqli va tarmoqsiz;"
+  },
+  {
+    "question": " Birlamchi kalit ….? ",
+    "answer": "Takrorlanmaydi,noyob,",
+    "noAnswer1": "takrorlanadi, ommabop;",
+    "noAnswer2": "qaytalanadi;",
+    "noAnswer3": "t.j.y;"
+  },
+  {
+    "question": "Ikkilamchi kalit…..?",
+    "answer": "takrorlanadigan kalit,",
+    "noAnswer1": "Takrorlanmaydi,noyob;",
+    "noAnswer2": "qaytalanadi;",
+    "noAnswer3": "t.j.y"
+  },
+  {
+    "question": "“bo’lib ol va egalik qil” tamoyilining yaqqol misol bo’lgan saralash algoritmi?",
+    "answer": "quicksort:",
+    "noAnswer1": "insertionsort;",
+    "noAnswer2": "bubblesort;",
+    "noAnswer3": "selectionsort;"
+  },
+  {
+    "question": "Agar daraxtning maksimal chiqish darajasi qanchaga teng bo’lsa , u holda bunday daraxt binary daraxt deyiladi",
+    "answer": 2,
+    "noAnswer1": 3,
+    "noAnswer2": 4,
+    "noAnswer3": 5
+  },
+  {
+    "question": "Mantiqiy operatsiyalar  toifasidagi o’zgaruvchining qabul\nqiladigan qiymat oralig’i qanday?\n",
+    "answer": "true, false:",
+    "noAnswer1": 1.1,
+    "noAnswer2": "1,-1",
+    "noAnswer3": 1
+  },
+  {
+    "question": "…. - ingliz tilidan olingan bo’lib 2 ta chetga ega navbat degan ma’noni bildiradi. Nuqlar o’rniga kerakli so’zni tanlang:",
+    "answer": "Dek.",
+    "noAnswer1": "Stek;",
+    "noAnswer2": "Fifo;",
+    "noAnswer3": "Lifo;"
+  },
+  {
+    "question": "Daraxtda shunday bitta element borki, unga boshqa elementlardan murojaat\nyo’q. Bu element nima deyiladi;\n",
+    "answer": "daraxt ildizi",
+    "noAnswer1": "tuguni;",
+    "noAnswer2": "shohi;",
+    "noAnswer3": "bargi;"
+  },
+  {
+    "question": "int strlen (satr); ning vazifasini toping.",
+    "answer": "Char tipidagi satr uzunligini qaytaradi",
+    "noAnswer1": " String tipidagi satr uzunligini qaytaradi;",
+    "noAnswer2": " Nusxa olish operatori;",
+    "noAnswer3": " To’g’ri javob yo’q;"
+  },
+  {
+    "question": "S.substr(n1,n2) ning vazifasini toping.",
+    "answer": "S.substr(n1,n2) ning vazifasini toping.",
+    "noAnswer1": "S satrning n1 elementidan boshlab\n  n2 ta elementini o’chirib tashlash;\n",
+    "noAnswer2": " S satrning uzunligini aniqlash;",
+    "noAnswer3": " Tog’ri javob yo’q;"
+  },
+  {
+    "question": "String tipi uchun satr uzunligini aniqlovchi funksiyani toping.",
+    "answer": " Length(),",
+    "noAnswer1": "Strlen();",
+    "noAnswer2": " Erase();",
+    "noAnswer3": " Substr();"
+  },
+  {
+    "question": "String s=”dasturlash”;  String a=s.substr(0,4); a=?",
+    "answer": "a=”dast”",
+    "noAnswer1": " a=”das”;",
+    "noAnswer2": " a=”dastu”;",
+    "noAnswer3": " a=”dastdastdastdast”;"
+  },
+  {
+    "question": "int a=s.find (“a”); funksiyani ma’nosi?",
+    "answer": "S satrdan birinchi uchragan “a”ni nomerini qaytaradi.",
+    "noAnswer1": "S satrdan oxirgi uchragan “a”ni \nnomerini qaytaradi;\n",
+    "noAnswer2": "S satrning uzunligini qaytaradi;",
+    "noAnswer3": " S satrdan “a”larni sanab chiqadi;"
+  },
+  {
+    "question": "char[50]=”qator”;  Satr oxiri qanday belgi bilan yakunlanadi.",
+    "answer": "“\\0” ",
+    "noAnswer1": "to’g’ri javob yo’q;",
+    "noAnswer2": "probel bilan;",
+    "noAnswer3": "“r”;"
+  },
+  {
+    "question": "cin.getline ( <satr>, <satr uzunligi>); satr uzunligi uchun qaysi funksiyadan foydalanish mumkin.",
+    "answer": "sizeof(<satr>),",
+    "noAnswer1": "erase();",
+    "noAnswer2": "substr();",
+    "noAnswer3": "find();"
+  },
+  {
+    "question": "Fayl nima ?",
+    "answer": "Malumotlarni saqlash uchun tashqi \nxotiraning nomlangan qismi\n",
+    "noAnswer1": "Baytlar yig`indisi;",
+    "noAnswer2": "Dasturda ishlashni osonlashtirish \nuchun kerakli funksiya;\n",
+    "noAnswer3": "A va C javob to`g`ri;"
+  },
+  {
+    "question": "Qanday fayllar binar fayllar deyiladi ?",
+    "answer": "Har xil obyektlarni ifodalovchi \nbaytlar ketma –ketligi.\n",
+    "noAnswer1": "Bir xil obyektlarni ifodalovchi \nbaytlar ketma –ketligi;\n",
+    "noAnswer2": "Faylning aynan bir joyga yo`naltirilgani;",
+    "noAnswer3": " Aynan bir malumot kiritish yoki\n chiqarish uchun mo`jallangan faylga;\n"
+  },
+  {
+    "question": "funksiyalar qiymat qaytarishiga  qarab  necha  turli  bo’ladi?",
+    "answer": 2,
+    "noAnswer1": 4,
+    "noAnswer2": 3,
+    "noAnswer3": "turi yoq"
+  },
+  {
+    "question": "funksiya tanasida  olingan  o’zgaruvchilar  qachogacha  amal  qiladi?",
+    "answer": "berilgan nuqtadan  blokkacha.",
+    "noAnswer1": "berilgan  nuqtadan  dastur  oxirgacha;",
+    "noAnswer2": "berilgan  nuqtadan  biz  xohlagan  joygacha;",
+    "noAnswer3": "faqat  blok tashqarisida;"
+  },
+  {
+    "question": "dasturda  qaysi  funksiya  bo’lishi  shart?",
+    "answer": "main.",
+    "noAnswer1": "int;",
+    "noAnswer2": "void;",
+    "noAnswer3": "return"
+  },
+  {
+    "question": "int katta(float  a) bu  funksiya  qanday  qiymat  qabul   qiladi  va  qanday  qiymat  qaytaradi?",
+    "answer": "haqiqiy,butun",
+    "noAnswer1": "butun,haqiqiy;",
+    "noAnswer2": "belgi,haqiqiy; ",
+    "noAnswer3": "haqiqiy,haqiqiy;"
+  },
+  {
+    "question": "belgili   tipdagi  malumotlarni qabul  qilib, butun  tipdagi  malumot qaytaruvchi  funksiyani  toping?",
+    "answer": "int son(char a )",
+    "noAnswer1": "char son(Int a );",
+    "noAnswer2": "float son(char a );",
+    "noAnswer3": "string son(Int a );"
+  },
+  {
+    "question": "dasturining  asosiy  qismida  va  funksiyada   faol  \nqo’llaniluvchi  o’zgaruvchilar  nima deyiladi?\n",
+    "answer": "global o’zgaruvchlar.",
+    "noAnswer1": "local  o’zgaruvchilar;",
+    "noAnswer2": "qatiy  o’zgarmaslar;",
+    "noAnswer3": "T.J.Y;"
+  },
+  {
+    "question": "funksiya  tanasida  faol  o’zgaruvchilar   nima  deb  ataladi?",
+    "answer": "local o’zgaruvchlar:",
+    "noAnswer1": "global  o’zgaruvchilar;",
+    "noAnswer2": "qatiy  o’zgarmaslar;",
+    "noAnswer3": "T.J.Y;"
+  },
+  {
+    "question": "Butun qiymat qabul qiluvchi tiplarni ko`rsating",
+    "answer": "short, int, long long.",
+    "noAnswer1": "float, double, long double;",
+    "noAnswer2": " float, double, long double, \nshort, int, long long;\n",
+    "noAnswer3": "long, float, int;"
+  },
+  {
+    "question": "Dasturda global o’zgaruvchilar xotiraning qaysi qismida saqlanadi?",
+    "answer": " Global",
+    "noAnswer1": " Stekli;",
+    "noAnswer2": " Registrli;",
+    "noAnswer3": " Dinamik taqsimlanuvchi bo’sh;"
+  },
+  {
+    "question": "Dasturda local o’zgaruvchilar xotiraning qaysi qismida saqlanadi?",
+    "answer": "Stekli:",
+    "noAnswer1": " Global;",
+    "noAnswer2": "Registrli;",
+    "noAnswer3": " Dinamik taqsimlanuvchi bo’sh;"
+  },
+  {
+    "question": "Dasturda ichki xizmatchi ma’lumotlari xotiraning qaysi qismida saqlanadi?",
+    "answer": " Registrli",
+    "noAnswer1": " Global;",
+    "noAnswer2": " Stekli;",
+    "noAnswer3": "Dinamik taqsimlanuvchi bo’sh;"
+  },
+  {
+    "question": "Massiv elementiga nima orqali murojaat qilinadi?",
+    "answer": "indeksi orqali,   ",
+    "noAnswer1": " tipi orqali; ",
+    "noAnswer2": "kodi orqali;",
+    "noAnswer3": "funksiya orqali;"
+  },
+  {
+    "question": "Agar massiv elementiga qaraganda kamroq element berilgan bo’lsa natija qanday chiqadi?",
+    "answer": "berilgan elementlar va qolgan elementlarni 0 lar bilan.",
+    "noAnswer1": " berilgan elementlar va qolgan elementlarni\n o’zi istagan qiymat bilan to’ldiradi;\n",
+    "noAnswer2": "to’ldiradi berilgan elementlarni o’zigina chiqadi;",
+    "noAnswer3": "Dasturda xatolik deb chiqaradi;"
+  },
+  {
+    "question": "Massivlarda Indeks sifatida qanday ifodalardan foydalanish mumkin?`",
+    "answer": "char",
+    "noAnswer1": "int",
+    "noAnswer2": "float",
+    "noAnswer3": "barcha javob to'gri"
+  },
+  {
+    "question": "Massivlarning qanday turlari mavjud?",
+    "answer": "dinamik va statik",
+    "noAnswer1": "statik massivlar",
+    "noAnswer2": "dinamik massivlar",
+    "noAnswer3": "konvaersativ massivlar"
+  },
+  {
+    "question": "Ro`yxat elementlari soni n ga teng . Ro`yxat nimasi deyiladi.",
+    "answer": "uzunligi ",
+    "noAnswer1": "o'lchami ",
+    "noAnswer2": "tasnifi",
+    "noAnswer3": "t.j.y"
+  },
+  {
+    "question": "Ro`yxat elementlari soni n ga teng . Ro`yxat nimasi deyiladi.",
+    "answer": "bo'sh ",
+    "noAnswer1": "to'la",
+    "noAnswer2": "tarmoqli",
+    "noAnswer3": "tarmoqlanmagan;"
+  },
+  {
+    "question": "Chiziqsiz ma’lumotlar tuzilmasi deb nimaga aytiladi?",
+    "answer": "Agar tuzilmani tashkil etuvchi elementlar qat’iy tartiblanmagan bo’lsa.",
+    "noAnswer1": " Agar tuzilmani tashkil etuvchi elementlar qat’iy tartiblangan bo’lsa.",
+    "noAnswer2": " Agar tuzilmani tashkil etuvchi elementlar noqat’iy tartiblanmagan bo’lsa.",
+    "noAnswer3": "Agar tuzilmani tashkil etuvchi elementlar noqat’iy tartiblangan bo’lsa."
+  },
+  {
+    "question": "Chiziqsiz ma’lumotlar tuzilmasida elementlar orasidagi munosabatlar qanday bo’lishi mumkin?",
+    "answer": "   Ixtiyoriy",
+    "noAnswer1": "    Cheksiz",
+    "noAnswer2": "Chekli",
+    "noAnswer3": "  Ixtiyoriy va cheksiz"
+  },
+  {
+    "question": "Chiziqli tuzilmani belgisini nechta faktga ajratish mumkin?",
+    "answer": "3",
+    "noAnswer1": "4",
     "noAnswer2": "6",
-    "noAnswer3": "8"
+    "noAnswer3": "2"
   },
   {
-    "question": "O‘zgaruvchilar soni 3 ga teng bo‘lgan mantiqiy elementning rostlik jadvalida kombinatsiyalar soni nechta boladi?",
-    "answer": "8",
-    "noAnswer1": "16",
-    "noAnswer2": "4",
-    "noAnswer3": "3"
+    "question": "Chiziqsiz ma’lumotlar tuzilmasi klassifikatsiyasi qaysilar?",
+    "answer": "Ro’yxatlar,graflar,daraxtlar",
+    "noAnswer1": "Ro’yxatlar,ma’lumotlar",
+    "noAnswer2": "Graflar,daraxtlar,vektorlar",
+    "noAnswer3": "Vektorlar,ro’yxatlar"
   },
   {
-    "question": "O‘zgaruvchilar soni 4 ga teng bo‘lgan mantiqiy elementning rostlik jadvalida kombinatsiyalar soni nechta boladi?",
-    "answer": "16",
-    "noAnswer1": "8",
-    "noAnswer2": "7",
+    "question": "Ro’yxatlar turlari qaysilar?",
+    "answer": "Chiqsiz 2 bog’lamli,ko’p bog’lamli",
+    "noAnswer1": "Chiqsiz ko’p bog’lamli,ko’p bog’lamsiz",
+    "noAnswer2": " Chiqli bog’lamli,ko’p bog’lamli",
+    "noAnswer3": "  Chiziqli  bog’lamsiz,ko’p bog’lamli"
+  },
+  {
+    "question": "Daraxt turlari qaysilar?",
+    "answer": "Binar daraxtlar,ko’p o’lchamli daraxtlar",
+    "noAnswer1": "Unar daraxtlar,ko’p o’lchamli daraxtlar",
+    "noAnswer2": "  Binar daraxtlar,cheksiz  o’lchamli daraxtlar",
+    "noAnswer3": "Unar daraxtlar,chekli  o’lchamli daraxtlar "
+  },
+  {
+    "question": "Graf turlari qaysilar?",
+    "answer": "Orgraf,gipergraf,graf",
+    "noAnswer1": "Chiziqli graf,orgraf ",
+    "noAnswer2": "Gipergraf,Chiziqsiz graf",
+    "noAnswer3": "Chiziqli va chiziqsiz"
+  },
+  {
+    "question": "Ixtiyoriy ko’rinishdagi chiziqsiz ma’lumotlar tuzilmasini necha xil usulda tasvirlash mumkin?",
+    "answer": "2",
+    "noAnswer1": "3",
+    "noAnswer2": "6",
+    "noAnswer3": "7"
+  },
+  {
+    "question": "Ixtiyoriy ko’rinishdagi chiziqsiz ma’lumotlar tuzilmasini usullari qaysilar?",
+    "answer": "Qo’shma matritsa,ko’rsatkichli bog’langan ro’yxat",
+    "noAnswer1": "ko’rsatkichsiz ro’yxatlar,matritsalar",
+    "noAnswer2": "  matritsalar,ro’yxatlar",
+    "noAnswer3": " Qo’shma matritsa,ro’yxatlar"
+  },
+  {
+    "question": "Ko’p bog’lamli ro’yxatlarda bo’shagan elementni utilizatsiya qilish necha usuldan iborat?",
+    "answer": "2",
+    "noAnswer1": "4",
+    "noAnswer2": "3",
     "noAnswer3": "5"
   },
   {
-    "question": "Mantiqiy elementning rostlik jadvalida kombinatsiyalar soni 16ga teng bo’lsa, bu mantiqiy elementning o’zgaruvchilari soni nechta boladi?",
-    "answer": "4",
-    "noAnswer1": "3",
-    "noAnswer2": "2",
-    "noAnswer3": "8"
+    "question": "Ko’p bog’lamli ro’yxatlarda bo’shagan elementni utilizatsiya qilish usullari qaysilar?",
+    "answer": "hisoblagichlar,keraksiz elementlarni yig’ish usullari",
+    "noAnswer1": "  hisoblagichlar,kerakli elementlarni yig’ish usullari",
+    "noAnswer2": "qo’shish,keraksiz elementlarni yig’ish usullari",
+    "noAnswer3": "hisoblagichlar,qo’shish usullari"
   },
   {
-    "question": "Tranzistor – tranzistorli mantiq (TTM) larda qanday tranzistorlardan foydalaniladi?",
-    "answer": "ko‘p emitterli transistor",
-    "noAnswer1": "maydoniy transistor",
-    "noAnswer2": "n-MDYa transistor",
-    "noAnswer3": "KMDYa transistor"
+    "question": "Ko’p bo’g’lamli tuzilmalarni amalga oshirish natijasida nima hosil bo’ladi?",
+    "answer": "To’r",
+    "noAnswer1": "ro’yxatlar",
+    "noAnswer2": "axborotlar",
+    "noAnswer3": "to’r, ro’yxatlar"
   },
   {
-    "question": "Mantiqiy elementning rostlik jadvalida kombinatsiyalar soni 8 ta bo’lsa, bu mantiqiy elementning o’zgaruvchilari soni nechta boladi?",
+    "question": "Rekursiya nima?",
+    "answer": "tadqiq qilinayotgan jarayonni aniqlash mazkur jarayonga murojaat qilish orqali amalga oshiriladi",
+    "noAnswer1": " tadqiq qilinayotgan jarayonni aniqlash mazkur jarayonga qaytish orqali amalga oshiriladi",
+    "noAnswer2": " tadqiq qilinayotgan jarayonni aniqlash shu jarayonni takrorlash orqali amalga oshiriladi",
+    "noAnswer3": "to’g’ri javob yo’q"
+  },
+  {
+    "question": "Rekursiv algoritm nima?",
+    "answer": "bu algoritmni aniqlashda o’ziga bevosita va bilvosita murojaat qilishdir",
+    "noAnswer1": " bu algoritmni aniqlashda o’ziga bevosita murojaat qilishdir ",
+    "noAnswer2": "  bu algoritmni aniqlashda o’ziga  bilvosita murojaat qilishdir",
+    "noAnswer3": " to’g’ri javob yo’q"
+  },
+  {
+    "question": "Rekursiv triada nechta qismdan iborat?",
     "answer": "3",
     "noAnswer1": "4",
     "noAnswer2": "2",
-    "noAnswer3": "16"
-  },
-  {
-    "question": "Mantiqiy elementning rostlik jadvalida kombinatsiyalar soni 4 ta bo’lsa, bu mantiqiy elementning o’zgaruvchilari soni nechta boladi?",
-    "answer": "2",
-    "noAnswer1": "4",
-    "noAnswer2": "8",
-    "noAnswer3": "16"
-  },
-  {
-    "question": "o‘lchamlari 0,1 dan 100 nm gacha bo‘lgan yarimo‘tkazgich tuzilmalar elektronikasi bo‘lib hisoblanadi.",
-    "answer": "nanoelektronika",
-    "noAnswer1": "analog elektronika",
-    "noAnswer2": "Mikroelektronika",
-    "noAnswer3": "yarimo’tkazgichlar elektronikasi"
-  },
-  {
-    "question": "Pardali texnologiyada element parametrlarining ruxsat etilgan tarqoqligi....dan oshmaydi.",
-    "answer": "1÷2 %",
-    "noAnswer1": "10÷20 %",
-    "noAnswer2": "15÷25 %",
-    "noAnswer3": "1÷20 %"
-  },
-  {
-    "question": "Ishlatilgan tranzistor turiga muvofiq yarimo‘tkazgich integral mikrosxemalar ....... va ....... IMSlarga ajratiladi.",
-    "answer": "bipolyar va MDYA",
-    "noAnswer1": "maydoniy va p-MDYA",
-    "noAnswer2": "maydoniy va bipolyar",
-    "noAnswer3": "KMDYA va maydoniy"
-  },
-  {
-    "question": "Mantiqiy element bu",
-    "answer": "Kirish signallari ustida aniq bir mantiqiy amal bajaradigan elektron qurilma",
-    "noAnswer1": "Raqamli mashinaning ichidagi struktura",
-    "noAnswer2": "Ixchamlangan mantiqiy funksiya",
-    "noAnswer3": "Analog signalni raqamli signalga o’zgartiruvchi qurilma"
-  },
-  {
-    "question": "Elementlari dielektrik asos sirtida parda ko‘rinishida hosil qilingan mikrosxemalar .... deb ataladi.",
-    "answer": "pardali IMS",
-    "noAnswer1": "gibridli IMS",
-    "noAnswer2": "yarimo’tkazgichli IMS",
-    "noAnswer3": "dielektrik IMS"
-  },
-  {
-    "question": "Umumiy dielektrik asosda joylashgan pardali passiv va diskret aktiv elementlar kombinatsiyasidan iborat mikrosxema bu?",
-    "answer": "gibrid IMS",
-    "noAnswer1": "pardali IMS",
-    "noAnswer2": "yarimo’tkazgichli IMS",
-    "noAnswer3": "dielektrik IMS"
-  },
-  {
-    "question": "Funksional vazifasiga ko‘ra ISlar ......larga bo‘linadi.",
-    "answer": "anolog va raqamli IS",
-    "noAnswer1": "gibrid va analog IS",
-    "noAnswer2": "gibrid va pardali IS",
-    "noAnswer3": "analog va pardali IS"
-  },
-  {
-    "question": "Kirish signallari ustida aniq bir mantiqiy amal bajaradigan elektron qurilma bu?",
-    "answer": "mantiqiy element",
-    "noAnswer1": "Diod",
-    "noAnswer2": "blok sxema",
-    "noAnswer3": "rostlik jadval"
-  },
-  {
-    "question": "MEning asosiy ............xarakteristikasi bo‘lib chiqish kuchlanishining kirish kuchlanishiga bog’liqligi hisoblanadi.",
-    "answer": "statik",
-    "noAnswer1": "Dinamik",
-    "noAnswer2": "statik va dinamik",
-    "noAnswer3": "texnik"
-  },
-  {
-    "question": "Kichik kirish signallariga yuqori chiqish signallari mos keladigan mantiqiy element............deb ataladi.",
-    "answer": "inversiya",
-    "noAnswer1": "mantiqiy qo’shuvchi",
-    "noAnswer2": "mantiqiy ko’paytiruvchi",
-    "noAnswer3": "takrorlovchi"
-  },
-  {
-    "question": "Yarimo’tkazgichli asbob – kuchaytirgichlari eng birinchi nechanchi yilda ishlab chiqilgan?",
-    "answer": "1947-yilda",
-    "noAnswer1": "1942-yilda",
-    "noAnswer2": "1938-yilda",
-    "noAnswer3": "1953-yilda"
-  },
-  {
-    "question": "Mantiqiy elementlar ishlash prinsipiga ko‘ra –",
-    "answer": "kombinatsion va ketma-ketli qurilmalarga bo‘linadi",
-    "noAnswer1": "sinxron va asinxron qurilmalarga bo‘linadi",
-    "noAnswer2": "kombinatsion va parallel qurilmalarga bo‘linadi",
-    "noAnswer3": "ketma-ketli va parallel qurilmalarga bo‘linadi"
-  },
-  {
-    "question": "Kombinatsion qurilmalar deb –",
-    "answer": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "noAnswer1": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "noAnswer2": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, ikkita vaqt momentiga ega bo‘lgan mantiqiy qurilmalarga aytiladi.",
-    "noAnswer3": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, vaqt momentiga ega bo‘lgan, xotirali mantiqiy qurilmalarga aytiladi."
-  },
-  {
-    "question": "Qaysi javobda T triggerga to’g’ri ta’rif berilgan?",
-    "answer": "bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi.",
-    "noAnswer1": "universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "noAnswer2": "chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi.",
-    "noAnswer3": "ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma"
-  },
-  {
-    "question": "Hajmi ixcham, og’irligi kam, quvvat sarfi kichik, ishonchliligi yuqori.  Qanday qurilmalar shunday xususiyatlarga ega?",
-    "answer": "IMSlar",
-    "noAnswer1": "Tranzistorlar",
-    "noAnswer2": "Diodlar",
-    "noAnswer3": "Analog qurilmalar"
-  },
-  {
-    "question": "Qaysi javobda D triggerga to’g’ri ta’rif berilgan?",
-    "answer": "chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi.",
-    "noAnswer1": "universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "noAnswer2": "bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi.",
-    "noAnswer3": "ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma"
-  },
-  {
-    "question": "Shifrator yoki koder deb nimaga aytiladi?",
-    "answer": "O’nlik, sakkizlik yoki o’n oltitalik sanoq tizimidagi raqamlarni ikkilik yoki ikkilik-o’nlik kodga o’zgartiruvchi kombinatsion mantiqiy qurilma.",
-    "noAnswer1": "Chiqish signallari kirish o’zgaruvchilari kombinatsiyasi bilan belgilanadigan, ikkita vaqt momentiga ega bo’lgan qurilma.",
-    "noAnswer2": "Ikkilik sanoq tizimidagi raqamlarni o’nlik sanoq tizimidagi kodga o’zgartiruvchi kombinatsion mantiqiy qurilma.",
-    "noAnswer3": "Ikkilik koddagi sonlarni qo’shish asosiy arifmetik amalini bajaruvchi kombinatsion qurilma."
-  },
-  {
-    "question": "Operativ xotira qurilmasi qanday turlarga bo’linadi?",
-    "answer": "statik va dinamik",
-    "noAnswer1": "ichki va tashqi",
-    "noAnswer2": "faqat dinamik",
-    "noAnswer3": "sinxron va asinxron"
-  },
-  {
-    "question": "Eng birinchi mikroprotsessor nechinchi yilda ishlab chiqilgan?",
-    "answer": "1971-yilda",
-    "noAnswer1": "1972-yilda",
-    "noAnswer2": "1985-yilda",
-    "noAnswer3": "1990-yilda"
-  },
-  {
-    "question": "MDYA tranzistorlari asosida qurilgan 2HAM-EMAS ME sxemasida...",
-    "answer": "pastki VT1 va VT2 tranzistorlar ketma – ket ulanadi",
-    "noAnswer1": "pastki VT1 va VT2 tranzistorlar parallel ulanadi",
-    "noAnswer2": "pastki VT1 va VT2 tranzistorlar ketma – ket va parallel ulanadi.",
-    "noAnswer3": "pastki VT1 va VT2 tranzistorlar alohida ulanadi"
-  },
-  {
-    "question": "Kombinatsion qurilmalar deb –",
-    "answer": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "noAnswer1": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "noAnswer2": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, ikkita vaqt momentiga ega bo‘lgan mantiqiy qurilmalarga aytiladi.",
-    "noAnswer3": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, vaqt momentiga ega bo‘lgan, xotirali mantiqiy qurilmalarga aytiladi."
-  },
-  {
-    "question": "Mantiqiy elementlar ishlash prinsipiga ko‘ra –",
-    "answer": "kombinatsion va ketma-ketli qurilmalarga bo‘linadi",
-    "noAnswer1": "sinxron va asinxron qurilmalarga bo‘linadi",
-    "noAnswer2": "kombinatsion va parallel qurilmalarga bo‘linadi",
-    "noAnswer3": "ketma-ketli va parallel qurilmalarga bo‘linadi"
-  },
-  {
-    "question": "O‘nlik, sakkizlik yoki o‘n oltitalik sanoq tizimidagi raqamlarni ikkilik yoki ikkilik-o‘nlik kodga o‘zgartiruvchi kombinatsion mantiqiy qurilma",
-    "answer": "shifrator yoki koder deb ataladi.",
-    "noAnswer1": "deshifrator yoki dekoder deb ataladi.",
-    "noAnswer2": "multipleksor deb ataladi.",
-    "noAnswer3": "demultipleksor deb ataladi."
-  },
-  {
-    "question": "Ikkilik sanoq tizimidagi raqamlarni o‘nlik sanoq tizimidagi raqamga  o‘zgartiruvchi kombinatsion mantiqiy qurilma",
-    "answer": "deshifrator yoki dekoder deb ataladi.",
-    "noAnswer1": "shifrator yoki koder deb ataladi.",
-    "noAnswer2": "multipleksor deb ataladi.",
-    "noAnswer3": "demultipleksor deb ataladi."
-  },
-  {
-    "question": "Agar shifrator n ta chiqishga ega bo‘lsa, u holda uning kirishlari soni…..",
-    "answer": "  dan kam bo‘lmasligi kerak",
-    "noAnswer1": "dan kam bo‘lmasligi kerak",
-    "noAnswer2": "chiqishlari soniga teng bo’lishi kerak",
-    "noAnswer3": "chiqishlari sonidan kam bo‘lishi kerak"
-  },
-  {
-    "question": "Multipleksor –",
-    "answer": "bir necha manbadan berilayotgan ma'lumotlarni bitta chiqish kanaliga uzatishni boshqarish uchun mo‘ljallangan",
-    "noAnswer1": "bir necha manbadan berilayotgan ma'lumotlarni bitta kirish kanaliga uzatishni boshqarish uchun mo‘ljallangan",
-    "noAnswer2": "bir necha manbadan berilayotgan ma'lumotlarni ikkita chiqish kanaliga uzatishni boshqarish uchun mo‘ljallangan",
-    "noAnswer3": "bitta manbadan berilayotgan ma'lumotlarni bitta chiqish kanaliga uzatishni boshqarish uchun mo‘ljallangan"
-  },
-  {
-    "question": "Demultipleksor",
-    "answer": "bir kanaldan qabul qilingan ma'lumotlarni bir necha qabul qilgichlarga taqsimlash vazifasini (ya'ni multipleksiyalashga teskari bo‘lgan amal) bajarish uchun mo‘ljallangan",
-    "noAnswer1": "bir necha kanaldan qabul qilingan ma'lumotlarni bitta qabul qilgichga taqsimlash vazifasini bajarish uchun mo‘ljallangan",
-    "noAnswer2": "bir nechta kanaldan qabul qilingan ma'lumotlarni boshka kanalga taqsimlash vazifasini bajarish uchun mo‘ljallangan",
-    "noAnswer3": "bir nechta kanaldan qabul qilingan ma'lumotlarni bir vaqtning o’zida bir nechta qabul qilgichga taqsimlash vazifasini bajarish uchun mo‘ljallangan"
-  },
-  {
-    "question": "Arifmetik va mantiqiy amallarni bajaradigan qurilma….",
-    "answer": "arifmetik-mantiqiy qurilma (AMQ) deb ataladi",
-    "noAnswer1": "arifmetik qurilma (AQ) deb ataladi",
-    "noAnswer2": "mantiqiy qurilma (MQ) deb ataladi",
-    "noAnswer3": "xotira qurilmasi deb ataladi"
-  },
-  {
-    "question": "Sodda amallar ketma-ketligi ko‘rinishida ifodalangan masalalarni avtomatik ravishda yechish uchun berilganlarni, oraliq va olingan hisoblash natijalarini saqlashga, hamda oddiy amallarni bajarish tartibi haqidagi ma'lumotlarni saqlashga imkon beruvchi qurilmaga….",
-    "answer": "xotira deb ataladi",
-    "noAnswer1": "arifmetik qurilma (AQ) deb ataladi",
-    "noAnswer2": "mantiqiy qurilma (MQ) deb ataladi",
-    "noAnswer3": "arifmetik-mantiqiy qurilma (AMQ) deb ataladi"
-  },
-  {
-    "question": "Ketma – ketli qurilmalar deb,",
-    "answer": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, hozirgi va oldingi vaqt momentlari uchun, ya'ni kirish o‘zgaruvchilarining kelish tartibi bilan belgilanadigan, xotirali mantiqiy qurilmalarga aytiladi.",
-    "noAnswer1": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, hozirgi va oldingi vaqt momentlari uchun, ya'ni kirish o‘zgaruvchilarining kelish tartibi bilan belgilanadigan, xotirali mantiqiy qurilmalarga aytiladi.",
-    "noAnswer2": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, hozirgi va oldingi vaqt momentlari uchun, ya'ni chiqish  o‘zgaruvchilarining kelish tartibi bilan belgilanadigan, xotirali mantiqiy qurilmalarga aytiladi.",
-    "noAnswer3": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, hozirgi va oldingi vaqt momentlari uchun, ya'ni chiqish o‘zgaruvchilarining kelish tartibi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi."
-  },
-  {
-    "question": "Ketma – ketli qurilmalarga qaysilar kiradi ?",
-    "answer": "triggerlar, registrlar va hisoblagichlar",
-    "noAnswer1": "demultipleksor, multipleksor, trigger",
-    "noAnswer2": "shifrator, deshifrator, trigger",
-    "noAnswer3": "jamlagich, yarimjamlagich, shifrator"
-  },
-  {
-    "question": "Triggerlar…",
-    "answer": "ikkita turg‘un holatli chiqishga ega bo‘lgan qurilma bo‘lib, u elementar xotira yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega.",
-    "noAnswer1": "bitta turg‘un holatli kirishga ega bo‘lgan qurilma bo‘lib, u elementar xotira yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega.",
-    "noAnswer2": "bitta turg‘un holatli chiqishga ega bo‘lgan qurilma bo‘lib, u elementar xotira yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega.",
-    "noAnswer3": "uchta turg‘un holatli chiqishga ega bo‘lgan qurilma bo‘lib, u elementar xotira yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega emas."
-  },
-  {
-    "question": "RS-trigger – ikkita boshqaruv kirishiga ega:",
-    "answer": "S (set-o‘rnatish) – triggerni mustaqil  ravishda 1  holatiga o‘rnatadi; R (reset-olib tashlash) – triggerni mustaqil ravishda 0  holatiga o‘rnatadi.",
-    "noAnswer1": "S (set-o‘rnatish) – triggerni mustaqil  ravishda 0  holatiga o‘rnatadi; R (reset-olib tashlash) – triggerni mustaqil ravishda 1  holatiga o‘rnatadi.",
-    "noAnswer2": "S (set-o‘rnatish); R (reset-olib tashlash) – navbatdagi kirish impulsi kelishi bilan holatni qarama-qarshisiga o‘zgartiradi.",
-    "noAnswer3": "S (set-o‘rnatish) – navbatdagi kirish impulsi kelishi bilan holatni qarama-qarshisiga o‘zgartiradi; R (reset-olib tashlash) – bitta ma'lumot kirishiga ega."
-  },
-  {
-    "question": "JK-trigger – ikkita boshqaruv kirishiga ega bo‘lgan universal trigger:",
-    "answer": "J (jamp -kutilmagan ulanish) - triggerni mustaqil 1 holatga o‘rnatadi; K (kill -kutilmagan uzilish) - triggerni mustaqil 0 holatga o‘rnatadi.",
-    "noAnswer1": "J (jamp -kutilmagan ulanish) - triggerni mustaqil 0 holatga o‘rnatadi; K (kill -kutilmagan uzilish) - triggerni mustaqil 1 holatga o‘rnatadi.",
-    "noAnswer2": "J (jamp -kutilmagan ulanish) – bitta ma'lumot kirishiga ega; K (kill -kutilmagan uzilish) – navbatdagi kirish impulsi kelishi bilan holatni qarama-qarshisiga o‘zgartiradi.",
-    "noAnswer3": "J (jamp -kutilmagan ulanish)  – navbatdagi kirish impulsi kelishi bilan holatni qarama-qarshisiga o‘zgartiradi; K (kill -kutilmagan uzilish) – bitta ma'lumot kirishiga ega."
-  },
-  {
-    "question": "Navbatdagi kirish impulsi kelishi bilan holatini qarama-qarshisiga o‘zgartiradi",
-    "answer": "T-trigger",
-    "noAnswer1": "D-trigger",
-    "noAnswer2": "JK-trigger",
-    "noAnswer3": "RS-trigger"
-  },
-  {
-    "question": "Kirishlariga berilayotgan impulslarni hisoblashni amalga oshiradigan qurilma",
-    "answer": "hisoblagich",
-    "noAnswer1": "registr",
-    "noAnswer2": "trigger",
-    "noAnswer3": "shifrator"
-  },
-  {
-    "question": "Ketma-ket turdagi  raqamli qurilma bo‘lib, ko‘p razryadli ikkilik sonlar ko‘rinishidagi ma'lumotlarni eslab qolish va vaqtincha xotirada saqlash uchun ishlatiladigan qurilma",
-    "answer": "registr",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "trigger",
-    "noAnswer3": "shifrator"
-  },
-  {
-    "question": "Qaysi javobda JK triggerga to’g’ri ta’rif berilgan?",
-    "answer": "universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "noAnswer1": "chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi.",
-    "noAnswer2": "ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma",
-    "noAnswer3": "bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi."
-  },
-  {
-    "question": "Universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.  Ushbu ta’rif qaysi triggerga berilgan?",
-    "answer": "JK",
-    "noAnswer1": "RS",
-    "noAnswer2": "D",
-    "noAnswer3": "T"
-  },
-  {
-    "question": "Chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi. Ushbu ta’rif qaysi triggerga berilgan?",
-    "answer": "D",
-    "noAnswer1": "RS",
-    "noAnswer2": "JK",
-    "noAnswer3": "T"
-  },
-  {
-    "question": "Bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi. Ushbu ta’rif qaysi triggerga berilgan?",
-    "answer": "T",
-    "noAnswer1": "RS",
-    "noAnswer2": "JK",
-    "noAnswer3": "D"
-  },
-  {
-    "question": "Ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma bu?",
-    "answer": "Bistabil yacheyka",
-    "noAnswer1": "Shifrator",
-    "noAnswer2": "Deshifrator",
-    "noAnswer3": "Multipleksor"
-  },
-  {
-    "question": "Bistabil yacheykaga berilgan to’g’ri ta’rifni toping",
-    "answer": "Ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma",
-    "noAnswer1": "Kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi.",
-    "noAnswer2": "Chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi",
-    "noAnswer3": "Mikroprotsessor tomonidan qayta ishlayotgan unchalik katta bo’lmagan xajmdagi ma’lumotlarni saqlashga mo’ljallangan qurilma.\r\nMurakkab fikrlar qanday belgilanadi va nima deb ataladi."
-  },
-  {
-    "question": "Bit – bu . . .",
-    "answer": "Kompyuterning minimal axborot birligi",
-    "noAnswer1": "Kompyuterning 8 baytli axboroti",
-    "noAnswer2": "Kompyuterning 8 razryadli axboroti",
-    "noAnswer3": "Kompyuterning maximal axborot birligi"
-  },
-  {
-    "question": "Raqamli qurilma kodli so’zlarni kiritish va chiqarish usuliga ko’ra qanday turlarga bo’linadi",
-    "answer": "Ketma-ket, parallel, aralash",
-    "noAnswer1": "Ketma-ket, parallel",
-    "noAnswer2": "Turlarga bo’linmaydi",
-    "noAnswer3": "Turg'un va noturg'unlarga"
-  },
-  {
-    "question": "Mantiqiy  algebra funksiyalarini tashkil etishda qo’llaniladigan qurilma….. deb ataladi.",
-    "answer": "Mantiqiy qurilma",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Jamlagich",
-    "noAnswer3": "Summator"
-  },
-  {
-    "question": ". . . .  - bu oddiy tranzistorli kalitlarga asoslangan mantiqiy elektron sxemalarni qurish texnologiyasi.",
-    "answer": "Rezistor-tranzistorli mantiq",
-    "noAnswer1": "Diod-tranzistorli mantiq",
-    "noAnswer2": "Transistor-tranzistorli mantiq",
-    "noAnswer3": "Summator"
-  },
-  {
-    "question": "- bu bipolyar tranzistorlar, diodlar va rezistorlar asosida raqamli sxemalarni yaratish texnologiyasi. Texnologiya mantiqiy funktsiyalarni diodli zanjirlar yordamida yaratadi, signalni kuchaytirish va inversiyasini - tranzistor yordamida amalga oshirildi.",
-    "answer": "Diod-tranzistorli mantiq",
-    "noAnswer1": "Rezistor-tranzistorli mantiq",
-    "noAnswer2": "Transistor-tranzistorli mantiq",
-    "noAnswer3": "Summator"
-  },
-  {
-    "question": "bu bipolyar tranzistorlar va rezistorlar asosida qurilgan raqamli mantiqiy mikrosxemalarning bir turi. Uning nomi tranzistorlar mantiqiy funktsiyalarni bajarish uchun va chiqish signalini kuchaytirish uchun foydalanilganligi sababli paydo bo'lgan.",
-    "answer": "Transistor-tranzistorli mantiq",
-    "noAnswer1": "Diod-tranzistorli mantiq",
-    "noAnswer2": "Rezistor-tranzistorli mantiq",
-    "noAnswer3": "Summator"
-  },
-  {
-    "question": ". . . . bu mantiq elementini xalaqitli kuchlanish tasirida o’z xolatini aniqlay olmaslik",
-    "answer": "Shovqinbardoshlilik",
-    "noAnswer1": "O’tkazuvchanlik",
-    "noAnswer2": "Ish qobiliyati",
-    "noAnswer3": "turg'un xolati"
-  },
-  {
-    "question": "Loyihaviy - texnologiyaviy belgilari, ya’ni yaratish usuliga qarab IMS lar qanday turlarga bo’linadi",
-    "answer": "Yarim o’tkazgichli, Gibrid IMS",
-    "noAnswer1": "Ketma-ket, parallel, aralash",
-    "noAnswer2": "Ketma-ket, parallel, aralash, yarim o’tkazgichli, Gibrid IMS",
-    "noAnswer3": "Ketma-ket, parallel"
-  },
-  {
-    "question": ". . . .  mikroelektronika- ning asosiy mahsuloti hisoblanadi. U kuchaytirgich, xotira qurilmasi, signalni uzatish va uni qayta ishlash funksiyalarini bajaradi.",
-    "answer": "Integral mikrosxema (IMS)",
-    "noAnswer1": "IMS elementi",
-    "noAnswer2": "IMS komponenti",
-    "noAnswer3": "IMS protsessori"
-  },
-  {
-    "question": "Raqamli qurilma kodli so’zlarni kiritish va chiqarish usuliga ko’ra qanday turlarga bo’linadi",
-    "answer": "Ketma-ket, parallel, aralash",
-    "noAnswer1": "Ketma-ket, parallel",
-    "noAnswer2": "Faqat ketma-ket bo'ladi",
-    "noAnswer3": "Faqat parallel bo'ladi"
-  },
-  {
-    "question": "….. IMS ning alohida qismi bo’lib, IMS da biror radioelement vazifasini bajaradi va uni IMS tarkibidan alohida mustaqil mahsulot sifatida ajratib bo’lmaydi.",
-    "answer": "IMS elementi",
-    "noAnswer1": "Integral mikrosxema (IMS)",
-    "noAnswer2": "IMS komponenti",
-    "noAnswer3": "IMS protsessori"
-  },
-  {
-    "question": ". . . . IMS ning alohida qismi bo’lib, IMSda biror radioelement vazifasini bajaradi va uni IMS tarkibidan mustaqil mahsulot sifatida ajratish mumkin.",
-    "answer": "IMS komponenti",
-    "noAnswer1": "IMS elementi",
-    "noAnswer2": "Integral mikrosxema (IMS)",
-    "noAnswer3": "IMS protsessori"
-  },
-  {
-    "question": "KONYUKTOR bu …",
-    "answer": "mantiqiy ko’paytiris",
-    "noAnswer1": "mantiqiy qo’shish",
-    "noAnswer2": "Inkor",
-    "noAnswer3": "mantiqiy bo'lish"
-  },
-  {
-    "question": "DIZYUNKTOR bu ….",
-    "answer": "mantiqiy qo’shish",
-    "noAnswer1": "mantiqiy ko’paytiris",
-    "noAnswer2": "Inkor",
-    "noAnswer3": "mantiqiy bo'lish"
-  },
-  {
-    "question": "INVERTOR bu …",
-    "answer": "Inkor",
-    "noAnswer1": "mantiqiy qo’shish",
-    "noAnswer2": "mantiqiy ko’paytiris",
-    "noAnswer3": "mantiqiy bo'lish"
-  },
-  {
-    "question": "…. - bu oddiy tranzistorli kalitlarga asoslangan mantiqiy elektron sxemalarni qurish texnologiyasi.",
-    "answer": "Rezistor-tranzistorli mantiq (RTL)",
-    "noAnswer1": "Transistor-tranzistorli mantiq (TTL, TTL)",
-    "noAnswer2": "Diyod-tranzistorli mantiq (DTL)",
-    "noAnswer3": "Diyod-kondensatorli mantiq (DKL)"
-  },
-  {
-    "question": "… bu bipolyar tranzistorlar, diodlar asosida raqamli sxemalarni yaratish texnologiyasi.",
-    "answer": "Diod-tranzistorli mantiq (DTL)",
-    "noAnswer1": "Transistor-tranzistorli mantiq (TTL, TTL)",
-    "noAnswer2": "Rezistor-tranzistorli mantiq (RTL)",
-    "noAnswer3": "Diyod-kondensatorli mantiq (DKL)"
-  },
-  {
-    "question": "… - bu bipolyar tranzistorlar va rezistorlar asosida qurilgan raqamli mantiqiy mikrosxemalarning bir turi.",
-    "answer": "Transistor-tranzistorli mantiq (TTL, TTL)",
-    "noAnswer1": "Diod-tranzistorli mantiq (DTL)",
-    "noAnswer2": "Rezistor-tranzistorli mantiq (RTL)",
-    "noAnswer3": "Diyod-kondensatorli mantiq (DKL)"
-  },
-  {
-    "question": "VA-mantiqiy elementi qanday mantiqiy operatsiyani bajaradi?",
-    "answer": "ko‘paytirish",
-    "noAnswer1": "bo‘lish",
-    "noAnswer2": "qo‘shish",
-    "noAnswer3": "ayrish"
-  },
-  {
-    "question": "Multipleksorning vazifasi nimadan iborat?",
-    "answer": "bir nechta kirishdagi signallarni bitta chiqishga kommutatsiyalashdan",
-    "noAnswer1": "kirishdagi xar xil turdagi signallarni qayta ishlashdan",
-    "noAnswer2": "kirishdagi signallarni qayta ishlash va ikkilik sanoqdagi impulslarga aylantirishdan",
-    "noAnswer3": "to‘g‘ri javob yo‘q."
-  },
-  {
-    "question": "Quyda keltirilgan javoblardan raqamli mikrosxemalarni tayyorlanish texnologiyalarini ko‘rsating.",
-    "answer": "barcha javoblar to‘g‘ri",
-    "noAnswer1": "KMOP",
-    "noAnswer2": "DTL",
-    "noAnswer3": "TTL"
-  },
-  {
-    "question": "Quyida keltirilgan javoblardan raqamli mikrosxemalarning asosiy parametirlarini ko‘rsating.",
-    "answer": "tezlik, ta’minot kuchlanishi, ta’minot quvvati, kirish bo‘yicha birlashtirish koeffitsienti",
-    "noAnswer1": "teskorlik, xarakatga chidamlilik, sustlik",
-    "noAnswer2": "xotira xajmi, chiqishlarning soni, tezkorligi, xajmi",
-    "noAnswer3": "xajmi, xaroratga bardoshligi, vaqt intervali"
-  },
-  {
-    "question": "Mantiqiy elementlar nima?",
-    "answer": "asosiy mantiqiy operatsiyalarni bajaruvchi elementlar",
-    "noAnswer1": "katta tezlikda algebra qoidasi bo‘yicha mantiqiy amallarni bajaruvchi struktura birligi.",
-    "noAnswer2": "murakkab  funksiyani bajaruvchi",
-    "noAnswer3": "to‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "Xotira elementi nima?",
-    "answer": "axborot birligidagi  “bit” ni saqlash imkoniyatiga ega bo‘lgan element",
-    "noAnswer1": "xotirada saqlanuvchi element",
-    "noAnswer2": "sonning ko‘p xonali kodi saqlanadigan elementi.",
-    "noAnswer3": "to‘g‘ri javob yo‘q."
-  },
-  {
-    "question": "Registorli xotira qurilmalari asosini  qanday elementlar tashkil etadi?",
-    "answer": "trigerlar",
-    "noAnswer1": "mantiqiy elementlar",
-    "noAnswer2": "xisoblagichlar",
-    "noAnswer3": "tranzistorlar"
-  },
-  {
-    "question": "Analogli-raqamli o‘zgartirgichlar-da signallarni kvantlash qaysi usullar yordamda amalga oshiriladi?",
-    "answer": "barcha javoblar to‘g‘ri",
-    "noAnswer1": "xonalar bo‘ylab tenglashtirish",
-    "noAnswer2": "ketma-ket xisoblash",
-    "noAnswer3": "paralel  sxemalar"
-  },
-  {
-    "question": "Mikroprsessor  qanaqangi qurilma?",
-    "answer": "ma’lum dastur asosida ma’lumotlar-ni qayta ishlovchi",
-    "noAnswer1": "ma’lumotlar-ni qayta ishlovchi",
-    "noAnswer2": "raqamli ma’lumotlarni qayta ishlovchi va taqsimlab beruvchi.",
-    "noAnswer3": "to‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "YoKI-mantiqiy elementi qanday mantiqiy operatsiyani bajaradi?",
-    "answer": "qo‘shish",
-    "noAnswer1": "bo‘lish",
-    "noAnswer2": "ayrish",
-    "noAnswer3": "ko‘paytirish"
-  },
-  {
-    "question": "Asosiy IMS konstruktiv belgilaridan biri bo‘lib asos turi hisoblanadi. Bu belgiga ko‘ra IMSlar qanday turga bo‘linadi?",
-    "answer": "yarim o‘tkazgichli va dielektrik.",
-    "noAnswer1": "to'loq o'tkazgichli va yarim o‘tkazgichli",
-    "noAnswer2": "dielektrik va metalli",
-    "noAnswer3": "turlarga bo'linmaydi"
-  },
-  {
-    "question": "… – bu dielektrik asos sirtiga surtilgan elementlari parda ko‘rinishida bajarilgan mikrosxema.",
-    "answer": "Pardali IS",
-    "noAnswer1": "Yupqa IS",
-    "noAnswer2": "Gibrid IS",
-    "noAnswer3": "Diskret aktiv IS"
-  },
-  {
-    "question": "... – bu pardali passiv elementlar bilan diskret aktiv elementlar kombinatsiyasidan tashkil topgan, yagona dielektrik asosda joylashgan mikrosxema.",
-    "answer": "Gibrid IS",
-    "noAnswer1": "Pardali IS",
-    "noAnswer2": "Yupqa IS",
-    "noAnswer3": "Diskret aktiv IS"
-  },
-  {
-    "question": "Mantiqiy funksiyani yoki mantiqiy funksiyalar majmuasini amalga oshiruvchi mantiqiy elementlardan tashkil topgan sxema ... deb ataladi.",
-    "answer": "kombinatsion sxema",
-    "noAnswer1": "ketma-ket sxema",
-    "noAnswer2": "paralel sxema",
-    "noAnswer3": "multipleksor"
-  },
-  {
-    "question": "Kombinatsion sxemaning asosiy xususiyatlarini belgilang",
-    "answer": "xamma javob to'g'ri",
-    "noAnswer1": "xotirlash qobiliyatiga ega emas",
-    "noAnswer2": "teskari bog‘lanish zanjirining bo‘lmasligi",
-    "noAnswer3": "faqat mantiqiy elementlardan tashkil topadi"
-  },
-  {
-    "question": "Arifmetik va mantiqiy amallar bajariladigan qurilma ... deb ataladi.",
-    "answer": "arifmetik-mantiqiy qurilma",
-    "noAnswer1": "mantiqiy qurilma",
-    "noAnswer2": "arifmetik qurilma",
-    "noAnswer3": "paralel  qurilma"
-  },
-  {
-    "question": "Elektr manbayidan uzilganda o’zida saqlayotgan ma’lumotlarni o’chirib yuboruvchi xotira qurilmasi qaysi javobda to’g’ri ko’rsatilgan?",
-    "answer": "Operativ xotira",
-    "noAnswer1": "Doimiy xotira",
-    "noAnswer2": "Flesh xotira",
-    "noAnswer3": "CHIP"
-  },
-  {
-    "question": "Elektr manbayidan uzilganda xam o’zida saqlayotgan ma’lumotlarni saqlab qoluvchi xotira qurilmasi qaysi javobda to’g’ri ko’rsatilgan?",
-    "answer": "Doimiy xotira",
-    "noAnswer1": "Operativ xotira",
-    "noAnswer2": "DIMM",
-    "noAnswer3": "DDR"
-  },
-  {
-    "question": "Operativ xotira turlari qaysi javobda to’g’ri ko’rsatilgan?",
-    "answer": "SIMM; DIMM; DDR",
-    "noAnswer1": "SIMM; DIMM; DVD",
-    "noAnswer2": "ROM; DIMM; DDR",
-    "noAnswer3": "PPROM; PROM; DDR"
-  },
-  {
-    "question": "- bu protsessorning ishchi sohasidir. Unda ish vaqtidagi barcha programma va ma`lumotlar saqlanadi. U ko`pincha vaqtinchalik xotira deb хам ataladi",
-    "answer": "Operativ xotira",
-    "noAnswer1": "Doimiy xotira",
-    "noAnswer2": "Flesh xotira",
-    "noAnswer3": "CHIP"
-  },
-  {
-    "question": "Ona plata bilan ma`lumot almashish vaqtida operativ xotira kanalidan qanchadir vaqtda (masalan bir sekundda) necha marta ma`lumot o`tish ko`rsatkichi bu . . .",
-    "answer": "Operativ xotiraning chastotasi",
-    "noAnswer1": "Operativ xotiraning taymingi",
-    "noAnswer2": "Operativ xotiraning xajmi",
-    "noAnswer3": "Operativ xotiraning buferi"
-  },
-  {
-    "question": "Ma`lumotni  operativ xotira modullari orasida o`tayotganida ushlanib qoladigan vaqti bu . . .",
-    "answer": "Operativ xotiraning taymingi",
-    "noAnswer1": "Operativ xotiraning xajmi",
-    "noAnswer2": "Operativ xotiraning buferi",
-    "noAnswer3": "Operativ xotiraning chastotasi"
-  },
-  {
-    "question": "DRAM bu …",
-    "answer": "Ixtiyoriy  murojaat qilish mumkin bo`lgan dinamik xotira qurilmasi",
-    "noAnswer1": "Ixtiyoriy   murojaat qilish mumkin bo`lgan statik xotira qurilmasi",
-    "noAnswer2": "Doimiy  saqlash qurilmasi",
-    "noAnswer3": "Dasturlanuvchi doimiy saqlash qurilmasi"
-  },
-  {
-    "question": "SRAM bu …",
-    "answer": "Ixtiyoriy   murojaat qilish mumkin bo`lgan statik xotira qurilmasi",
-    "noAnswer1": "Ixtiyoriy  murojaat qilish mumkin bo`lgan dinamik xotira qurilmasi",
-    "noAnswer2": "Doimiy  saqlash qurilmasi",
-    "noAnswer3": "Dasturlanuvchi doimiy saqlash qurilmasi"
-  },
-  {
-    "question": "ROM bu …",
-    "answer": "Doimiy  saqlash qurilmasi",
-    "noAnswer1": "Dasturlanuvchi doimiy saqlash qurilmasi",
-    "noAnswer2": "Ixtiyoriy   murojaat qilish mumkin bo`lgan statik xotira qurilmasi",
-    "noAnswer3": "Ixtiyoriy  murojaat qilish mumkin bo`lgan dinamik xotira qurilmasi"
-  },
-  {
-    "question": "PROM bu . . .",
-    "answer": "Bir marotaba dasturlanuvchi doimiy saqlash qurilmasi",
-    "noAnswer1": "Qayta dasturlanuvchi doimiy saqlash qurilmasi",
-    "noAnswer2": "Ixtiyoriy   murojaat qilish mumkin bo`lgan statik xotira qurilmasi",
-    "noAnswer3": "Ixtiyoriy  murojaat qilish mumkin bo`lgan dinamik xotira qurilmasi"
-  },
-  {
-    "question": "PPROM bu . . .",
-    "answer": "Qayta dasturlanuvchi doimiy saqlash qurilmasi",
-    "noAnswer1": "Bir marotaba  dasturlanuvchi doimiy saqlash qurilmasi",
-    "noAnswer2": "Ixtiyoriy   murojaat qilish mumkin bo`lgan statik xotira qurilmasi",
-    "noAnswer3": "Ixtiyoriy  murojaat qilish mumkin bo`lgan dinamik xotira qurilmasi"
-  },
-  {
-    "question": "Oddiy raqamli mikrosxemalardan farqli o'laroq, . . . . mantiqiy integral sxema ishi ishlab chiqarish jarayonida aniqlanmaydi.",
-    "answer": "Dasturlanuvchi",
-    "noAnswer1": "Dasturlanmaydigan",
-    "noAnswer2": "Fiksatsiyalangan",
-    "noAnswer3": "Belgilangan"
-  },
-  {
-    "question": "Eng to’g’ri tarifni toping. “Operativ xotiraning chastotasi bu …”",
-    "answer": "Ona plata bilan ma`lumot almashish vaqtida operativ xotira kanalidan qanchadir vaqtda (masalan bir sekundda) necha marta ma`lumot o`tish ko`rsatkichi",
-    "noAnswer1": "Ma`lumotni  operativ xotira modullari orasida o`tayotganida ushlanib qoladigan vaqti",
-    "noAnswer2": "aniq bir turdagi axborotni adreslar bo`yicha joylashdir",
-    "noAnswer3": "o`rnatilgan mikrosxemalarda adreslarni tashkil etish usuli"
-  },
-  {
-    "question": "Eng to’g’ri tarifni toping. “Operativ xotiraning taymingi  bu …”",
-    "answer": "Ma`lumotni  operativ xotira modullari orasida o`tayotganida ushlanib qoladigan vaqti",
-    "noAnswer1": "Ona plata bilan ma`lumot almashish vaqtida operativ xotira kanalidan qanchadir vaqtda (masalan bir sekundda) necha marta ma`lumot o`tish ko`rsatkichi",
-    "noAnswer2": "aniq bir turdagi axborotni adreslar bo`yicha joylashdir",
-    "noAnswer3": "o`rnatilgan mikrosxemalarda adreslarni tashkil etish usuli"
-  },
-  {
-    "question": "Analogli signallarni ketma-ket keluvchi impulslar (diskret signal) orqali tasvirlashda qaysi teoremadan foydalaniladi?",
-    "answer": "V.A.Kotelinov",
-    "noAnswer1": "B.Bell",
-    "noAnswer2": "X. Anderson",
-    "noAnswer3": "F.Fure"
-  },
-  {
-    "question": "Analog signalni raqamli signalga o’tkazish jarayonidagi Kvantlash xatoligi qaysi jarayonda yuz beradi?",
-    "answer": "Diskretlangan impulslarni (AIM-1) to’g’ri burchakli impulslar (AIM-2) ko’richiga keltirish jarayonida",
-    "noAnswer1": "AIM-1 signallarini olish jarayonida",
-    "noAnswer2": "To’g’ri  burchakli impulslarni kodlash jarayonida",
-    "noAnswer3": "Generatordan diskretlash impulslarini chiqishida"
-  },
-  {
-    "question": "Bit – bu . . .",
-    "answer": "Kompyuterning minimal axborot birligi",
-    "noAnswer1": "Kompyuterning 8 baytli axboroti",
-    "noAnswer2": "Kompyuterning 8 razryadli axboroti",
-    "noAnswer3": "Kompyuterning maximal axborot birligi"
-  },
-  {
-    "question": "Raqamli qurilma kodli so’zlarni kiritish va chiqarish usuliga ko’ra qanday turlarga bo’linadi",
-    "answer": "Ketma-ket, parallel, aralash",
-    "noAnswer1": "Ketma-ket, parallel",
-    "noAnswer2": "Turlarga bo’linmaydi",
-    "noAnswer3": "Turg'un va noturg'unlarga"
-  },
-  {
-    "question": "Mantiqiy  algebra funksiyalarini tashkil etishda qo’llaniladigan qurilma….. deb ataladi.",
-    "answer": "Mantiqiy qurilma",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Jamlagich",
-    "noAnswer3": "Summator"
-  },
-  {
-    "question": ". . . .  - bu oddiy tranzistorli kalitlarga asoslangan mantiqiy elektron sxemalarni qurish texnologiyasi.",
-    "answer": "Rezistor-tranzistorli mantiq",
-    "noAnswer1": "Diod-tranzistorli mantiq",
-    "noAnswer2": "Transistor-tranzistorli mantiq",
-    "noAnswer3": "Summator"
-  },
-  {
-    "question": "- bu bipolyar tranzistorlar, diodlar va rezistorlar asosida raqamli sxemalarni yaratish texnologiyasi. Texnologiya mantiqiy funktsiyalarni diodli zanjirlar yordamida yaratadi, signalni kuchaytirish va inversiyasini - tranzistor yordamida amalga oshirildi.",
-    "answer": "Diod-tranzistorli mantiq",
-    "noAnswer1": "Rezistor-tranzistorli mantiq",
-    "noAnswer2": "Transistor-tranzistorli mantiq",
-    "noAnswer3": "Summator"
-  },
-  {
-    "question": "bu bipolyar tranzistorlar va rezistorlar asosida qurilgan raqamli mantiqiy mikrosxemalarning bir turi. Uning nomi tranzistorlar mantiqiy funktsiyalarni bajarish uchun va chiqish signalini kuchaytirish uchun foydalanilganligi sababli paydo bo'lgan.",
-    "answer": "Transistor-tranzistorli mantiq",
-    "noAnswer1": "Diod-tranzistorli mantiq",
-    "noAnswer2": "Rezistor-tranzistorli mantiq",
-    "noAnswer3": "Summator"
-  },
-  {
-    "question": ". . . . bu mantiq elementini xalaqitli kuchlanish tasirida o’z xolatini aniqlay olmaslik",
-    "answer": "Shovqinbardoshlilik",
-    "noAnswer1": "O’tkazuvchanlik",
-    "noAnswer2": "Ish qobiliyati",
-    "noAnswer3": "turg'un xolati"
-  },
-  {
-    "question": "Loyihaviy - texnologiyaviy belgilari, ya’ni yaratish usuliga qarab IMS lar qanday turlarga bo’linadi",
-    "answer": "Yarim o’tkazgichli, Gibrid IMS",
-    "noAnswer1": "Ketma-ket, parallel, aralash",
-    "noAnswer2": "Ketma-ket, parallel, aralash, yarim o’tkazgichli, Gibrid IMS",
-    "noAnswer3": "Ketma-ket, parallel"
-  },
-  {
-    "question": ". . . .  mikroelektronika- ning asosiy mahsuloti hisoblanadi. U kuchaytirgich, xotira qurilmasi, signalni uzatish va uni qayta ishlash funksiyalarini bajaradi.",
-    "answer": "Integral mikrosxema (IMS)",
-    "noAnswer1": "IMS elementi",
-    "noAnswer2": "IMS komponenti",
-    "noAnswer3": "IMS protsessori"
-  },
-  {
-    "question": "Raqamli qurilma kodli so’zlarni kiritish va chiqarish usuliga ko’ra qanday turlarga bo’linadi",
-    "answer": "Ketma-ket, parallel, aralash",
-    "noAnswer1": "Ketma-ket, parallel",
-    "noAnswer2": "Faqat ketma-ket bo'ladi",
-    "noAnswer3": "Faqat parallel bo'ladi"
-  },
-  {
-    "question": "….. IMS ning alohida qismi bo’lib, IMS da biror radioelement vazifasini bajaradi va uni IMS tarkibidan alohida mustaqil mahsulot sifatida ajratib bo’lmaydi.",
-    "answer": "IMS elementi",
-    "noAnswer1": "Integral mikrosxema (IMS)",
-    "noAnswer2": "IMS komponenti",
-    "noAnswer3": "IMS protsessori"
-  },
-  {
-    "question": ". . . . IMS ning alohida qismi bo’lib, IMSda biror radioelement vazifasini bajaradi va uni IMS tarkibidan mustaqil mahsulot sifatida ajratish mumkin.",
-    "answer": "IMS komponenti",
-    "noAnswer1": "IMS elementi",
-    "noAnswer2": "Integral mikrosxema (IMS)",
-    "noAnswer3": "IMS protsessori"
-  },
-  {
-    "question": "KONYUKTOR bu …",
-    "answer": "mantiqiy ko’paytiris",
-    "noAnswer1": "mantiqiy qo’shish",
-    "noAnswer2": "Inkor",
-    "noAnswer3": "mantiqiy bo'lish"
-  },
-  {
-    "question": "DIZYUNKTOR bu ….",
-    "answer": "mantiqiy qo’shish",
-    "noAnswer1": "mantiqiy ko’paytiris",
-    "noAnswer2": "Inkor",
-    "noAnswer3": "mantiqiy bo'lish"
-  },
-  {
-    "question": "INVERTOR bu …",
-    "answer": "Inkor",
-    "noAnswer1": "mantiqiy qo’shish",
-    "noAnswer2": "mantiqiy ko’paytiris",
-    "noAnswer3": "mantiqiy bo'lish"
-  },
-  {
-    "question": "…. - bu oddiy tranzistorli kalitlarga asoslangan mantiqiy elektron sxemalarni qurish texnologiyasi.",
-    "answer": "Rezistor-tranzistorli mantiq (RTL)",
-    "noAnswer1": "Transistor-tranzistorli mantiq (TTL, TTL)",
-    "noAnswer2": "Diyod-tranzistorli mantiq (DTL)",
-    "noAnswer3": "Diyod-kondensatorli mantiq (DKL)"
-  },
-  {
-    "question": "… bu bipolyar tranzistorlar, diodlar asosida raqamli sxemalarni yaratish texnologiyasi.",
-    "answer": "Diod-tranzistorli mantiq (DTL)",
-    "noAnswer1": "Transistor-tranzistorli mantiq (TTL, TTL)",
-    "noAnswer2": "Rezistor-tranzistorli mantiq (RTL)",
-    "noAnswer3": "Diyod-kondensatorli mantiq (DKL)"
-  },
-  {
-    "question": "… - bu bipolyar tranzistorlar va rezistorlar asosida qurilgan raqamli mantiqiy mikrosxemalarning bir turi.",
-    "answer": "Transistor-tranzistorli mantiq (TTL, TTL)",
-    "noAnswer1": "Diod-tranzistorli mantiq (DTL)",
-    "noAnswer2": "Rezistor-tranzistorli mantiq (RTL)",
-    "noAnswer3": "Diyod-kondensatorli mantiq (DKL)"
-  },
-  {
-    "question": "VA-mantiqiy elementi qanday mantiqiy operatsiyani bajaradi?",
-    "answer": "ko‘paytirish",
-    "noAnswer1": "bo‘lish",
-    "noAnswer2": "qo‘shish",
-    "noAnswer3": "ayrish"
-  },
-  {
-    "question": "Multipleksorning vazifasi nimadan iborat?",
-    "answer": "bir nechta kirishdagi signallarni bitta chiqishga kommutatsiyalashdan",
-    "noAnswer1": "kirishdagi xar xil turdagi signallarni qayta ishlashdan",
-    "noAnswer2": "kirishdagi signallarni qayta ishlash va ikkilik sanoqdagi impulslarga aylantirishdan",
-    "noAnswer3": "to‘g‘ri javob yo‘q."
-  },
-  {
-    "question": "Quyda keltirilgan javoblardan raqamli mikrosxemalarni tayyorlanish texnologiyalarini ko‘rsating.",
-    "answer": "barcha javoblar to‘g‘ri",
-    "noAnswer1": "KMOP",
-    "noAnswer2": "DTL",
-    "noAnswer3": "TTL"
-  },
-  {
-    "question": "Quyida keltirilgan javoblardan raqamli mikrosxemalarning asosiy parametirlarini ko‘rsating.",
-    "answer": "tezlik, ta’minot kuchlanishi, ta’minot quvvati, kirish bo‘yicha birlashtirish koeffitsienti",
-    "noAnswer1": "teskorlik, xarakatga chidamlilik, sustlik",
-    "noAnswer2": "xotira xajmi, chiqishlarning soni, tezkorligi, xajmi",
-    "noAnswer3": "xajmi, xaroratga bardoshligi, vaqt intervali"
-  },
-  {
-    "question": "Mantiqiy elementlar nima?",
-    "answer": "asosiy mantiqiy operatsiyalarni bajaruvchi elementlar",
-    "noAnswer1": "katta tezlikda algebra qoidasi bo‘yicha mantiqiy amallarni bajaruvchi struktura birligi.",
-    "noAnswer2": "murakkab  funksiyani bajaruvchi",
-    "noAnswer3": "to‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "Xotira elementi nima?",
-    "answer": "axborot birligidagi  “bit” ni saqlash imkoniyatiga ega bo‘lgan element",
-    "noAnswer1": "xotirada saqlanuvchi element",
-    "noAnswer2": "sonning ko‘p xonali kodi saqlanadigan elementi.",
-    "noAnswer3": "to‘g‘ri javob yo‘q."
-  },
-  {
-    "question": "Registorli xotira qurilmalari asosini  qanday elementlar tashkil etadi?",
-    "answer": "trigerlar",
-    "noAnswer1": "mantiqiy elementlar",
-    "noAnswer2": "xisoblagichlar",
-    "noAnswer3": "tranzistorlar"
-  },
-  {
-    "question": "Analogli-raqamli o‘zgartirgichlar-da signallarni kvantlash qaysi usullar yordamda amalga oshiriladi?",
-    "answer": "barcha javoblar to‘g‘ri",
-    "noAnswer1": "xonalar bo‘ylab tenglashtirish",
-    "noAnswer2": "ketma-ket xisoblash",
-    "noAnswer3": "paralel  sxemalar"
-  },
-  {
-    "question": "Mikroprsessor  qanaqangi qurilma?",
-    "answer": "ma’lum dastur asosida ma’lumotlar-ni qayta ishlovchi",
-    "noAnswer1": "ma’lumotlar-ni qayta ishlovchi",
-    "noAnswer2": "raqamli ma’lumotlarni qayta ishlovchi va taqsimlab beruvchi.",
-    "noAnswer3": "to‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "YoKI-mantiqiy elementi qanday mantiqiy operatsiyani bajaradi?",
-    "answer": "qo‘shish",
-    "noAnswer1": "bo‘lish",
-    "noAnswer2": "ayrish",
-    "noAnswer3": "ko‘paytirish"
-  },
-  {
-    "question": "Asosiy IMS konstruktiv belgilaridan biri bo‘lib asos turi hisoblanadi. Bu belgiga ko‘ra IMSlar qanday turga bo‘linadi?",
-    "answer": "yarim o‘tkazgichli va dielektrik.",
-    "noAnswer1": "to'loq o'tkazgichli va yarim o‘tkazgichli",
-    "noAnswer2": "dielektrik va metalli",
-    "noAnswer3": "turlarga bo'linmaydi"
-  },
-  {
-    "question": "… – bu dielektrik asos sirtiga surtilgan elementlari parda ko‘rinishida bajarilgan mikrosxema.",
-    "answer": "Pardali IS",
-    "noAnswer1": "Yupqa IS",
-    "noAnswer2": "Gibrid IS",
-    "noAnswer3": "Diskret aktiv IS"
-  },
-  {
-    "question": "... – bu pardali passiv elementlar bilan diskret aktiv elementlar kombinatsiyasidan tashkil topgan, yagona dielektrik asosda joylashgan mikrosxema.",
-    "answer": "Gibrid IS",
-    "noAnswer1": "Pardali IS",
-    "noAnswer2": "Yupqa IS",
-    "noAnswer3": "Diskret aktiv IS"
-  },
-  {
-    "question": "Mantiqiy funksiyani yoki mantiqiy funksiyalar majmuasini amalga oshiruvchi mantiqiy elementlardan tashkil topgan sxema ... deb ataladi.",
-    "answer": "kombinatsion sxema",
-    "noAnswer1": "ketma-ket sxema",
-    "noAnswer2": "paralel sxema",
-    "noAnswer3": "multipleksor"
-  },
-  {
-    "question": "Kombinatsion sxemaning asosiy xususiyatlarini belgilang",
-    "answer": "xamma javob to'g'ri",
-    "noAnswer1": "xotirlash qobiliyatiga ega emas",
-    "noAnswer2": "teskari bog‘lanish zanjirining bo‘lmasligi",
-    "noAnswer3": "faqat mantiqiy elementlardan tashkil topadi"
-  },
-  {
-    "question": "Arifmetik va mantiqiy amallar bajariladigan qurilma ... deb ataladi.",
-    "answer": "arifmetik-mantiqiy qurilma",
-    "noAnswer1": "mantiqiy qurilma",
-    "noAnswer2": "arifmetik qurilma",
-    "noAnswer3": "paralel  qurilma"
-  },
-  {
-    "question": "Elektr manbayidan uzilganda o’zida saqlayotgan ma’lumotlarni o’chirib yuboruvchi xotira qurilmasi qaysi javobda to’g’ri ko’rsatilgan?",
-    "answer": "Operativ xotira",
-    "noAnswer1": "Doimiy xotira",
-    "noAnswer2": "Flesh xotira",
-    "noAnswer3": "CHIP"
-  },
-  {
-    "question": "Elektr manbayidan uzilganda xam o’zida saqlayotgan ma’lumotlarni saqlab qoluvchi xotira qurilmasi qaysi javobda to’g’ri ko’rsatilgan?",
-    "answer": "Doimiy xotira",
-    "noAnswer1": "Operativ xotira",
-    "noAnswer2": "DIMM",
-    "noAnswer3": "DDR"
-  },
-  {
-    "question": "Operativ xotira turlari qaysi javobda to’g’ri ko’rsatilgan?",
-    "answer": "SIMM; DIMM; DDR",
-    "noAnswer1": "SIMM; DIMM; DVD",
-    "noAnswer2": "ROM; DIMM; DDR",
-    "noAnswer3": "PPROM; PROM; DDR"
-  },
-  {
-    "question": "- bu protsessorning ishchi sohasidir. Unda ish vaqtidagi barcha programma va ma`lumotlar saqlanadi. U ko`pincha vaqtinchalik xotira deb хам ataladi",
-    "answer": "Operativ xotira",
-    "noAnswer1": "Doimiy xotira",
-    "noAnswer2": "Flesh xotira",
-    "noAnswer3": "CHIP"
-  },
-  {
-    "question": "Ona plata bilan ma`lumot almashish vaqtida operativ xotira kanalidan qanchadir vaqtda (masalan bir sekundda) necha marta ma`lumot o`tish ko`rsatkichi bu . . .",
-    "answer": "Operativ xotiraning chastotasi",
-    "noAnswer1": "Operativ xotiraning taymingi",
-    "noAnswer2": "Operativ xotiraning xajmi",
-    "noAnswer3": "Operativ xotiraning buferi"
-  },
-  {
-    "question": "DRAM bu …",
-    "answer": "Ixtiyoriy  murojaat qilish mumkin bo`lgan dinamik xotira qurilmasi",
-    "noAnswer1": "Ixtiyoriy   murojaat qilish mumkin bo`lgan statik xotira qurilmasi",
-    "noAnswer2": "Doimiy  saqlash qurilmasi",
-    "noAnswer3": "Dasturlanuvchi doimiy saqlash qurilmasi"
-  },
-  {
-    "question": "ROM bu …",
-    "answer": "Doimiy  saqlash qurilmasi",
-    "noAnswer1": "Dasturlanuvchi doimiy saqlash qurilmasi",
-    "noAnswer2": "Ixtiyoriy   murojaat qilish mumkin bo`lgan statik xotira qurilmasi",
-    "noAnswer3": "Ixtiyoriy  murojaat qilish mumkin bo`lgan dinamik xotira qurilmasi"
-  },
-  {
-    "question": "PROM bu . . .",
-    "answer": "Bir marotaba dasturlanuvchi doimiy saqlash qurilmasi",
-    "noAnswer1": "Qayta dasturlanuvchi doimiy saqlash qurilmasi",
-    "noAnswer2": "Ixtiyoriy   murojaat qilish mumkin bo`lgan statik xotira qurilmasi",
-    "noAnswer3": "Ixtiyoriy  murojaat qilish mumkin bo`lgan dinamik xotira qurilmasi"
-  },
-  {
-    "question": "Eng to’g’ri tarifni toping. “Operativ xotiraning chastotasi bu …”",
-    "answer": "Ona plata bilan ma`lumot almashish vaqtida operativ xotira kanalidan qanchadir vaqtda (masalan bir sekundda) necha marta ma`lumot o`tish ko`rsatkichi",
-    "noAnswer1": "Ma`lumotni  operativ xotira modullari orasida o`tayotganida ushlanib qoladigan vaqti",
-    "noAnswer2": "aniq bir turdagi axborotni adreslar bo`yicha joylashdir",
-    "noAnswer3": "o`rnatilgan mikrosxemalarda adreslarni tashkil etish usuli"
-  },
-  {
-    "question": "Eng to’g’ri tarifni toping. “Operativ xotiraning taymingi  bu …”",
-    "answer": "Ma`lumotni  operativ xotira modullari orasida o`tayotganida ushlanib qoladigan vaqti",
-    "noAnswer1": "Ona plata bilan ma`lumot almashish vaqtida operativ xotira kanalidan qanchadir vaqtda (masalan bir sekundda) necha marta ma`lumot o`tish ko`rsatkichi",
-    "noAnswer2": "aniq bir turdagi axborotni adreslar bo`yicha joylashdir",
-    "noAnswer3": "o`rnatilgan mikrosxemalarda adreslarni tashkil etish usuli"
-  },
-  {
-    "question": "Analogli signallarni ketma-ket keluvchi impulslar (diskret signal) orqali tasvirlashda qaysi teoremadan foydalaniladi?",
-    "answer": "V.A.Kotelinov",
-    "noAnswer1": "B.Bell",
-    "noAnswer2": "X. Anderson",
-    "noAnswer3": "F.Fure"
-  },
-  {
-    "question": "Analog signalni raqamli signalga o’tkazish jarayonidagi Kvantlash xatoligi qaysi jarayonda yuz beradi?\r\n=== \r\n#Diskretlangan impulslarni (AIM-1) to’g’ri burchakli impulslar (AIM-2) ko’richiga keltirish jarayonida",
-    "noAnswer1": "AIM-1 signallarini olish jarayonida",
-    "noAnswer2": "To’g’ri  burchakli impulslarni kodlash jarayonida",
-    "noAnswer3": "Generatordan diskretlash impulslarini chiqishida"
-  },
-  {
-    "question": "Ikkilik sanoq tizimidagi raqamlarni o‘nlik sanoq tizimidagi kodga  o‘zgartiruvchi kombinatsion mantiqiy qurilma.",
-    "answer": "deshifrator",
-    "noAnswer1": "demultipleksor",
-    "noAnswer2": "shifrator",
-    "noAnswer3": "multipleksor"
-  },
-  {
-    "question": "Bir necha manbadan berilayotgan ma’lumotlarni bitta chiqish kanaliga uzatishni boshqarish uchun mo‘ljallangan qurilma.",
-    "answer": "multipleksor",
-    "noAnswer1": "deshifrator",
-    "noAnswer2": "semultipleksor",
-    "noAnswer3": "shifrator"
-  },
-  {
-    "question": "Mantiq amallar …  -  ko`rinishdagi ikkita mantiq bilan ishlaydi.",
-    "noAnswer1": "rost va yolg’on",
-    "noAnswer2": "analog va raqamli",
-    "noAnswer3": "ko’paytma va yig’indi"
-  },
-  {
-    "question": ".........qurilmalar deb, chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "answer": "kombinatsion",
-    "noAnswer1": "ketma-ket",
-    "noAnswer2": "Parallel",
-    "noAnswer3": "arifmetik mantiqiy qurilma"
-  },
-  {
-    "question": "Sanoq triggerining belgilanishi",
-    "answer": "T",
-    "noAnswer1": "RS",
-    "noAnswer2": "JK",
-    "noAnswer3": "D"
-  },
-  {
-    "question": "Kechikish triggerining belgilanishi",
-    "answer": "D",
-    "noAnswer1": "T",
-    "noAnswer2": "RS",
-    "noAnswer3": "JK"
-  },
-  {
-    "question": "Universal triggerning belgilanishi",
-    "answer": "JK",
-    "noAnswer1": "D",
-    "noAnswer2": "T",
-    "noAnswer3": "RS"
-  },
-  {
-    "question": "Ketma-ket turdagi raqamli qurilma bo‘lib, ko‘p razryadli ikkilik sonlar ko‘rinishidagi ma’lumotlarni eslab qolish va vaqtincha xotirada saqlash uchun ishlatiladi.",
-    "answer": "registr",
-    "noAnswer1": "Trigger",
-    "noAnswer2": "bistabil yacheyka",
-    "noAnswer3": "JK-trigger"
-  },
-  {
-    "question": "…...-trigger universal trigger hisoblanadi",
-    "answer": "JK",
-    "noAnswer1": "D",
-    "noAnswer2": "T",
-    "noAnswer3": "RS"
-  },
-  {
-    "question": "…..-trigger kechikish triggeri hisoblanadi",
-    "answer": "D",
-    "noAnswer1": "T",
-    "noAnswer2": "RS",
-    "noAnswer3": "JK"
-  },
-  {
-    "question": "…..-trigger vagt triggeri hisoblanadi",
-    "answer": "T",
-    "noAnswer1": "RS",
-    "noAnswer2": "JK",
-    "noAnswer3": "D"
-  },
-  {
-    "question": "Kirishiga berilgan ma’lumotlarni ketma-ket tartibda yozish, saqlash va uzatish uchun mo‘ljallangan",
-    "answer": "Ketma-ketli registr",
-    "noAnswer1": "Parallel registrlar",
-    "noAnswer2": "Bistabil yacheyka",
-    "noAnswer3": "Parallel hisoblagichlar"
-  },
-  {
-    "question": "Kirish signallari ustida aniq bir mantiqiy amalni bajaradigan elektron qurilma qanday nomlanadi?",
-    "noAnswer1": "mantiqiy element",
-    "noAnswer2": "mantiqiy funksiya",
-    "noAnswer3": "vaqt diagrammasi"
-  },
-  {
-    "question": "……triggeri kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi",
-    "answer": "T",
-    "noAnswer1": "D",
-    "noAnswer2": "RS",
-    "noAnswer3": "JK"
-  },
-  {
-    "question": "……universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "answer": "JK triggeri",
-    "noAnswer1": "RS triggeri",
-    "noAnswer2": "T triggeri",
-    "noAnswer3": "D triggeri"
-  },
-  {
-    "question": "Raqamli integral sxemalarning negiz elementlari qaysi javobda noto`g`ri berilgan?",
-    "answer": "invertor, dizyunksiya, konyuksiya",
-    "noAnswer1": "TTM, EBM",
-    "noAnswer2": "MDYA, KMDYA",
-    "noAnswer3": "I2M, TTM"
-  },
-  {
-    "question": "Mantiqiy ko`paytirish va qo`shish amallarini bajaradigan qurilma qanday ataladi?",
-    "answer": "arifmetik-mantiqiy qurilma",
-    "noAnswer1": "integral tizim",
-    "noAnswer2": "analog qurilma",
-    "noAnswer3": "integrator"
-  },
-  {
-    "question": "Kirishiga berilgan ma`lumotlarni ketma-ket tartibda yozish, saqlash va uzatish uchun mo’ljallangan qurilma nima deb nomlanadi?",
-    "answer": "ketma-ketli registr",
-    "noAnswer1": "parallel registr",
-    "noAnswer2": "Trigger",
-    "noAnswer3": "summator"
-  },
-  {
-    "question": "Sonlarning ifodalanishi va belgilanishi qanday tizim?",
-    "answer": "sanoq (numeratsiya)",
-    "noAnswer1": "integral",
-    "noAnswer2": "Hisoblagich",
-    "noAnswer3": "jamlagich"
-  },
-  {
-    "question": "inversiya mantiqiy elementi……amalini bajaradi",
-    "answer": "mantiqiy inkor",
-    "noAnswer1": "mantiqiy qo`shish",
-    "noAnswer2": "mantiqiy ko’paytirish",
-    "noAnswer3": "mantiq"
-  },
-  {
-    "question": "EMAS amalini bajaruvchi mantiqiy element bu?",
-    "answer": "Invertor",
-    "noAnswer1": "YOKI",
-    "noAnswer2": "HAM",
-    "noAnswer3": "shifrator"
-  },
-  {
-    "question": "diz`yunksiya……….amalini bajaruvchi mantiqiy element",
-    "answer": "mantiqiy qo`shish",
-    "noAnswer1": "mantiqiy ko’paytirish",
-    "noAnswer2": "Mantiq",
-    "noAnswer3": "mantiqiy inkor"
-  },
-  {
-    "question": "YOKI mantiqiy elementi………amalini bajaradi",
-    "noAnswer1": "mantiqiy qo`shish",
-    "noAnswer2": "mantiqiy ko’paytirish",
-    "noAnswer3": "Mantiq"
-  },
-  {
-    "question": "....-trigger – ikkita boshqaruv kirishiga ega.",
-    "answer": "RS, JK",
-    "noAnswer1": "RS, D",
-    "noAnswer2": "D, JK",
-    "noAnswer3": "D,T"
-  },
-  {
-    "question": "“A yoki B”, “A or B”, “A V B”, “A + B” kabi ko‘rinishlarda yoziladi",
-    "answer": "dizyunksiya",
-    "noAnswer1": "Konyunksiya",
-    "noAnswer2": "HAM mantiqiy elementi",
-    "noAnswer3": "Invertor"
-  },
-  {
-    "question": "Registr sxemasi qanday hosil qilinadi?",
-    "answer": "triggerlarni ketma-ket yoki parallel ulash orqali",
-    "noAnswer1": "shifratorlarni ketma-ket yoki parallel ulash orqali",
-    "noAnswer2": "deshifratorlarni ketma-ket yoki parallel ulash orqali",
-    "noAnswer3": "multipleksorlarni ketma-ket yoki parallel ulash orqali"
-  },
-  {
-    "question": "Registrlarning asosini qaysi qurilmalar hosil qiladi?",
-    "answer": "triggerlar",
-    "noAnswer1": "Shifratorlar",
-    "noAnswer2": "kombinatsion qurilmalar",
-    "noAnswer3": "multipleksorlar"
-  },
-  {
-    "question": "Operativ xotira qurilmasining mikrosxemasi qanday belgilanadi?",
-    "answer": "RAM",
-    "noAnswer1": "PROM",
-    "noAnswer2": "ROM",
-    "noAnswer3": "RPROM"
-  },
-  {
-    "question": "Mantiq algebrasida 0 soni qanday iborani anglatadi?",
-    "answer": "haqiqiy emas",
-    "noAnswer1": "Rost",
-    "noAnswer2": "Haqiqiy",
-    "noAnswer3": "bor"
-  },
-  {
-    "question": "(^), (∙) yoki (&) ko’rinishidagi belgilar qaysi amalni bajaradi?",
-    "answer": "konyunksiya",
-    "noAnswer1": "Dizyunksiya",
-    "noAnswer2": "Inkor",
-    "noAnswer3": "mantiqiy qo’shish"
-  },
-  {
-    "question": "Mantiqiy element bu - …",
-    "answer": "Kirish signallari ustida aniq bir mantiqiy amal bajaradigan elektron qurilma",
-    "noAnswer1": "Raqamli mashinaning ichidagi struktura",
-    "noAnswer2": "Ixchamlangan mantiqiy funksiya",
-    "noAnswer3": "Analog signalni raqamli signalga o’zgartiruvchi qurilma"
-  },
-  {
-    "question": "Birinchi Integral mikrosxema (IMS)lar qachon yaratilgan:",
-    "answer": "1958   yilda",
-    "noAnswer1": "1960    yilda",
-    "noAnswer2": "1957    yilda",
-    "noAnswer3": "1989   yilda"
-  },
-  {
-    "question": "Xisoblagich qanday qurilmalardan tashkil topgan?",
-    "answer": "triggerlardan",
-    "noAnswer1": "Shifratorlardan",
-    "noAnswer2": "Deshifratorlardan",
-    "noAnswer3": "multipleksorlardan"
-  },
-  {
-    "question": "ROM–belgisi qaysi qurilmaga tegishli?",
-    "answer": "Doimiy xotira qurilmasiga",
-    "noAnswer1": "Operativ xotira qurilmasiga",
-    "noAnswer2": "Ichki xotira qurilmasiga",
-    "noAnswer3": "Tashqi xotira qurilmasiga"
-  },
-  {
-    "question": "Analog-raqam o’zgartirgich (ARO’)ning vazifasi nima?",
-    "answer": "analog signalni unga proporsional bo’lgan raqamli signalga aylantiradi",
-    "noAnswer1": "raqamli signali analogli signalga aylantiradi",
-    "noAnswer2": "ikkilik kodini o’nlik raqamga o’tkazish",
-    "noAnswer3": "raqamli kattalikni unga proportsioanal bo‘lgan elektr tok yoki kuchlanish ko‘rinishidagi analog kattalikka o‘zgartirish"
-  },
-  {
-    "question": "Raqamli-analog o‘zgartirgich (RAO’)ning vazifasi nima?",
-    "answer": "raqamli kattalikni unga proportsioanal bo‘lgan elektr tok yoki kuchlanish ko‘rinishidagi analog kattalikka o‘zgartirish",
-    "noAnswer1": "analog signalni raqamli signalga aylantirish",
-    "noAnswer2": "uzluksiz signalni raqamli signalga aylantirish",
-    "noAnswer3": "ikkilik kodini hisoblash"
-  },
-  {
-    "question": "Xisoblagichlar asosini qanday elementlar tashkil etadi?",
-    "answer": "Triggerlar",
-    "noAnswer1": "Diodlar",
-    "noAnswer2": "Shifratorlar",
-    "noAnswer3": "multipleksorlar"
-  },
-  {
-    "question": "Xisoblagichning razryadi nimaga bog’liq?",
-    "answer": "triggerlar soniga",
-    "noAnswer1": "tranzistorlar soniga",
-    "noAnswer2": "shifratorlar soniga",
-    "noAnswer3": "multipleksorlar soniga"
-  },
-  {
-    "question": "Registrning razryadi nimaga bogliq?",
-    "answer": "triggerlar soniga",
-    "noAnswer1": "tranzistorlar soniga",
-    "noAnswer2": "shifratorlar soniga",
-    "noAnswer3": "multipleksorlar soniga"
-  },
-  {
-    "question": "Mantiq algebrasida haqiqiy degan ibora qaysi sonni anglatadi?",
-    "answer": "1",
-    "noAnswer1": "0",
-    "noAnswer2": "10",
-    "noAnswer3": "01"
-  },
-  {
-    "question": "Mantiq algebrasida 0 soni qanday iborani anglatadi?",
-    "answer": "haqiqiy emas",
-    "noAnswer1": "Rost",
-    "noAnswer2": "Haqiqiy",
-    "noAnswer3": "bor"
-  },
-  {
-    "question": "Konyunksiya bu…..",
-    "answer": "mantiqiy ko’paytirish amali",
-    "noAnswer1": "mantiqiy qo’shish amali",
-    "noAnswer2": "mantiqiy inkor amali",
-    "noAnswer3": "ixchamlangan mantiqiy algebraik funksiya"
-  },
-  {
-    "question": "Konyunksiya amali qaysi mantiqiy element yordamida bajariladi?",
-    "answer": "HAM",
-    "noAnswer1": "YOKI",
-    "noAnswer2": "INVERSIYA",
-    "noAnswer3": "YOKI-EMAS"
-  },
-  {
-    "question": "(^), (∙) yoki (&) ko’rinishidagi belgilar qaysi amalni bajaradi?",
-    "answer": "konyunksiya",
-    "noAnswer1": "Dizyunksiya",
-    "noAnswer2": "Inkor",
-    "noAnswer3": "mantiqiy qo’shish"
-  },
-  {
-    "question": "Konyunksiyaga berilgan to’g’ri ta’rifni toping.",
-    "answer": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati yolg’ondir",
-    "noAnswer1": "Ikkala x1 va x2 o’zgaruvchilardan biri chin bo’lsa ularning qiymati chindir",
-    "noAnswer2": "Ikkala x1 va x2  o’zgaruvchilar chin bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati chindir",
-    "noAnswer3": "Ikkala x1 va x2  o’zgaruvchilar yolg’on bo’lsa ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir"
-  },
-  {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati yolg’ondir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "2HAM",
-    "noAnswer1": "2HAM-EMAS",
-    "noAnswer2": "2YOKI",
-    "noAnswer3": "2YOKI-EMAS"
-  },
-  {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati yolg’on, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati chindir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "2HAM-EMAS",
-    "noAnswer1": "2HAM",
-    "noAnswer2": "2YOKI",
-    "noAnswer3": "2YOKI-EMAS"
-  },
-  {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "2YOKI-EMAS",
-    "noAnswer1": "2HAM-EMAS",
-    "noAnswer2": "2YOKI",
-    "noAnswer3": "2HAM"
-  },
-  {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "2YOKI",
-    "noAnswer1": "2YOKI-EMAS",
-    "noAnswer2": "2HAM",
-    "noAnswer3": "2HAM-EMAS"
-  },
-  {
-    "question": "Pirs elementiga berilgan to’g’ri ta’rifni toping.",
-    "answer": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir",
-    "noAnswer1": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir",
-    "noAnswer2": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsa ularning qiymati chin, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati yolg’ondir",
-    "noAnswer3": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir"
-  },
-  {
-    "question": "Sheffer elementiga berilgan to’g’ri ta’rifni toping.",
-    "answer": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati yolg’on, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati chindir",
-    "noAnswer1": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir",
-    "noAnswer2": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsa ularning qiymati chin, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati yolg’ondir",
-    "noAnswer3": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir"
-  },
-  {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar chin bo’lsagina ularning qiymati yolg’on, x1 va x2 ning kamida bittasi yolg’on bo’lsa ularning qiymati chindir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "sheffer elementi",
-    "noAnswer1": "pirs elementi",
-    "noAnswer2": "Konyunksiya",
-    "noAnswer3": "dizyunksiya"
-  },
-  {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsa ularning qiymati yolg’on, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati chindir: ushbu ta’rif qaysi mantiqiy elementga berilgan?",
-    "answer": "dizyunksiya",
-    "noAnswer1": "pirs elementi",
-    "noAnswer2": "Konyunksiya",
-    "noAnswer3": "sheffer elementi"
-  },
-  {
-    "question": "Ikkala x1 va x2 o’zgaruvchilar yolg’on bo’lsagina ularning qiymati chin, x1 va x2 ning kamida bittasi chin bo’lsa ularning qiymati yolg’ondir: ushbu ta’rif qaysi mantiqiy elementga mos?",
-    "answer": "pirs elementi",
-    "noAnswer1": "sheffer elementi",
-    "noAnswer2": "2YOKI",
-    "noAnswer3": "2HAM"
-  },
-  {
-    "question": "Mantiqiy funksiyalarni minimizatsiyasi deb nimaga aytiladi?",
-    "answer": "Sxemadagi yoki formuladagi elementlar sonining minimal xolga keltirilish",
-    "noAnswer1": "Sxemadagi yoki formuladagi elementlar sonining maksimal xolga keltirilish",
-    "noAnswer2": "Sxemadagi yoki formuladagi elementlar sonining umumiy xolga keltirilish",
-    "noAnswer3": "Mantiqiy elementning blok sxemasini tuzish"
-  },
-  {
-    "question": "4x1-Multipleksorda ikkilik manzil kirish (S)lari soni nechta bo’ladi?",
-    "answer": "ikkita",
-    "noAnswer1": "Uchta",
-    "noAnswer2": "to’rtta",
-    "noAnswer3": "bitta"
-  },
-  {
-    "question": "8x1-Multipleksorda ikkilik manzil kirish (S)lari soni nechta bo’ladi?",
-    "answer": "uchta",
-    "noAnswer1": "to’rtta",
-    "noAnswer2": "Sakkizta",
-    "noAnswer3": "bitta"
-  },
-  {
-    "question": "14x1-Multipleksorda ikkilik manzil kirish (S)lari soni nechta bo’ladi?",
-    "answer": "4",
-    "noAnswer1": "14",
-    "noAnswer2": "3",
-    "noAnswer3": "1"
-  },
-  {
-    "question": "Ikkita turg’un xolatga ega bo’lgan ketma-ket turdagi kichik xotira qurilmasi bu?",
-    "answer": "trigger",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Demultipleksor",
-    "noAnswer3": "deshifrator"
-  },
-  {
-    "question": "Qaysi qurilma bir nechta kirishlarni bitta chiqishga ulaydi?",
-    "answer": "Multipleksor",
-    "noAnswer1": "Demultipleksor",
-    "noAnswer2": "Jamlagich",
-    "noAnswer3": "Shifrator"
-  },
-  {
-    "question": "Qaysi qurilma bir nechta chiqishlarni bitta kirishga ulaydi",
-    "answer": "Demultipleksor",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Jamlagich",
-    "noAnswer3": "Shifrator"
-  },
-  {
-    "question": "Xotira qurilmasi, boshqaruv yacheykasi va ikkita turg’un xolatga ega bo’lgan ketma-ket turdagi qurilma......... deb ataladi",
-    "answer": "trigger",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Demultipleksor",
-    "noAnswer3": "Deshifrator"
-  },
-  {
-    "question": "Qaysi logik qurilma arifmetik jarayonni, ya’ni ikkilik kodlarini qo’shishda ishlatiladi?",
-    "answer": "jamlagich",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "Shifrator",
-    "noAnswer3": "deshifrator"
-  },
-  {
-    "question": "Saqlash registrlari qanday qurilmalardan iborat?",
-    "answer": "RS, JK, D triggerlardan",
-    "noAnswer1": "Koderlardan",
-    "noAnswer2": "Shifratorlardan",
-    "noAnswer3": "dekoderlardan"
-  },
-  {
-    "question": "“A yoki B”, “A or B”, “A V B”, “A + B” kabi ko‘rinishlarda yoziladi",
-    "answer": "dizyunksiya",
-    "noAnswer1": "Konyunksiya",
-    "noAnswer2": "HAM mantiqiy elementi",
-    "noAnswer3": "YOKI mantiqiy elementi"
-  },
-  {
-    "question": "O’nlik sanoq sistemasidagi 15 sonini ikkilik sanoq sistemasida qanday bo’ladi?",
-    "answer": "1111",
-    "noAnswer1": "10000",
-    "noAnswer2": "00001",
-    "noAnswer3": "1001"
-  },
-  {
-    "question": "Ikkilik sanoq sistemasidagi 1001 soni o’nlik sanoq sistemasida qanday boladi?",
-    "answer": "9",
-    "noAnswer1": "10",
-    "noAnswer2": "11",
-    "noAnswer3": "12"
-  },
-  {
-    "question": "O’nlikdagi 20 sonini ikkilikka o’tkazing",
-    "answer": "10100",
-    "noAnswer1": "1111",
-    "noAnswer2": "1000",
-    "noAnswer3": "1010"
-  },
-  {
-    "question": "10100 ikkilik sanoq tizimidagi ushbu kodni o’nlikka o’tkazing",
-    "answer": "20",
-    "noAnswer1": "18",
-    "noAnswer2": "17",
-    "noAnswer3": "21"
-  },
-  {
-    "question": "Registrlarning asosini qaysi qurilmalar tashkil qiladi?",
-    "answer": "triggerlar",
-    "noAnswer1": "Shifratorlar",
-    "noAnswer2": "kombinatsion qurilmalar",
-    "noAnswer3": "multipleksorlar"
-  },
-  {
-    "question": "Xisoblagichning razryadi nimaga bog’liq?",
-    "answer": "tarkibidagi triggerlar soniga",
-    "noAnswer1": "tarkibidagi shifratorlar soniga",
-    "noAnswer2": "tarkibidagi kombinatsion qurilmalar soniga",
-    "noAnswer3": "tarkibidagi multipleksorlar soniga"
-  },
-  {
-    "question": "Qaysi javobda JK triggerga to’g’ri ta’rif berilgan?",
-    "answer": "universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "noAnswer1": "chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi.",
-    "noAnswer2": "ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma",
-    "noAnswer3": "bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi."
-  },
-  {
-    "question": "Komparator vazifasi",
-    "answer": "Ikkita ikkilik sonni solishtirish",
-    "noAnswer1": "Ikkita ikkilik sonni qo’shish",
-    "noAnswer2": "Ikkita ikkilik sonni ko’paytirish",
-    "noAnswer3": "Ikkita ikkilik sonni bo’lish"
-  },
-  {
-    "question": "Mantiqiy element bu - …",
-    "answer": "Kirish signallari ustida aniq bir mantiqiy amal bajaradigan elektron qurilma",
-    "noAnswer1": "Raqamli mashinaning ichidagi struktura",
-    "noAnswer2": "Ixchamlangan mantiqiy funksiya",
-    "noAnswer3": "Analog signalni raqamli signalga o’zgartiruvchi qurilma"
-  },
-  {
-    "question": "KNSH operatsiyasi bu…..",
-    "answer": "Yig’indilarning ko’paytmasi ko’rinishida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer1": "Ko’paytmalarning yig’indisi ko’rinishida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer2": "Faqat ko’paytma shaklida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer3": "Faqat yig’indi shaklida yoziladigan mantiqiy algebraik funksiya"
-  },
-  {
-    "question": "DNSH operatsiyasining funksiyasida qanday sodda mantiqiy elementlar qo’llaniladi?",
-    "answer": "Ko’paytmalarning yig’indisi ko’rinishida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer1": "Yig’indilarning ko’paytmasi ko’rinishida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer2": "Faqat ko’paytma shaklida yoziladigan mantiqiy algebraik funksiya",
-    "noAnswer3": "Faqat yig’indi shaklida yoziladigan mantiqiy algebraik funksiya"
-  },
-  {
-    "question": "To’g’ri kirishli asinxron RS-triggerining qaysi holatli kirishlari chiqishda o’zgarmas holatni ta’minlaydi?",
-    "answer": "R=0, S=0",
-    "noAnswer1": "R=1, S=1",
-    "noAnswer2": "R=0, S=1",
-    "noAnswer3": "R=1, S=0"
-  },
-  {
-    "question": "To’g’ri kirishli asinxron RS-triggerining kirishlariga qanday kombinatsiya berilganda, trigger chiqishlarida signal noaniq holatga tushib qoladi?",
-    "answer": "R=1, S=1",
-    "noAnswer1": "R=0, S=0",
-    "noAnswer2": "R=0, S=1",
-    "noAnswer3": "R=1, S=0"
-  },
-  {
-    "question": "Berilgan ma’lumotlarni eslab qolish va vaqtincha saqlash xususiyatiga ega mantiqiy elementni tanlang",
-    "answer": "trigger",
-    "noAnswer1": "Shifrator",
-    "noAnswer2": "Multipleksor",
-    "noAnswer3": "deshifrator"
-  },
-  {
-    "question": "Beshta ma’lumot kirishiga ega bo’lgan multipleksorning chiqishlari soni nechta bo’ladi?",
-    "answer": "bitta",
-    "noAnswer1": "n ta",
-    "noAnswer2": "Ikkita",
-    "noAnswer3": "beshta"
-  },
-  {
-    "question": "Manzil kirishlari soni uchga teng bo’lgan multipleksorning ma’lumot kirishlari soni maksimal nechta bo’ladi?",
-    "answer": "8",
-    "noAnswer1": "9",
-    "noAnswer2": "1",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "Manzil kirishlari soni to’rttaga teng bo’lgan multipleksorning ma’lumot kirishlari soni maksimal nechta bo’ladi?",
-    "answer": "16",
-    "noAnswer1": "1",
-    "noAnswer2": "4",
-    "noAnswer3": "8"
-  },
-  {
-    "question": "Birinchi Integral mikrosxema (IMS)lar qachon yaratilgan:",
-    "answer": "1958   yilda",
-    "noAnswer1": "1960    yilda",
-    "noAnswer2": "1957    yilda",
-    "noAnswer3": "1989   yilda"
-  },
-  {
-    "question": "O‘zgaruvchilar soni 3 ga teng bo‘lsa, Karno kartasi yacheykalari soni nechta bo‘ladi?",
-    "answer": "8",
-    "noAnswer1": "16",
-    "noAnswer2": "4",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "O‘zgaruvchilar soni 2 ga teng bo‘lsa, Karno kartasi yacheykalari soni nechta bo‘ladi?",
-    "answer": "4",
-    "noAnswer1": "16",
-    "noAnswer2": "8",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "O‘zgaruvchilar soni 4 ga teng bo‘lsa, Karno kartasi yacheykalari soni nechta bo‘ladi?",
-    "answer": "16",
-    "noAnswer1": "8",
-    "noAnswer2": "4",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "O’nlik sanoq sistemasidagi 15 sonini ikkilik sanoq sistemasida qanday bo’ladi?",
-    "answer": "1111",
-    "noAnswer1": "10000",
-    "noAnswer2": "00001",
-    "noAnswer3": "1001"
-  },
-  {
-    "question": "O‘zgaruvchilar soni 2 ga teng bo‘lgan mantiqiy elementning rostlik jadvalida kombinatsiyalar soni nechta boladi?",
-    "answer": "4",
-    "noAnswer1": "5",
-    "noAnswer2": "6",
-    "noAnswer3": "8"
-  },
-  {
-    "question": "O‘zgaruvchilar soni 3 ga teng bo‘lgan mantiqiy elementning rostlik jadvalida kombinatsiyalar soni nechta boladi?",
-    "answer": "8",
-    "noAnswer1": "16",
-    "noAnswer2": "4",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "O‘zgaruvchilar soni 4 ga teng bo‘lgan mantiqiy elementning rostlik jadvalida kombinatsiyalar soni nechta boladi?",
-    "answer": "16",
-    "noAnswer1": "8",
-    "noAnswer2": "7",
     "noAnswer3": "5"
   },
   {
-    "question": "Mantiqiy elementning rostlik jadvalida kombinatsiyalar soni 16ga teng bo’lsa, bu mantiqiy elementning o’zgaruvchilari soni nechta boladi?",
+    "question": "Rekursiv triada asoslari qaysilar?",
+    "answer": "  parametrizatsiya qilish,rekursiya bazasi,dekompozitsiya",
+    "noAnswer1": " parametrizatsiya qilish,rekursiya bazasi,dekompozitsiya",
+    "noAnswer2": " rekursiya bazasi,dekompozitsiya",
+    "noAnswer3": " to’g’ri javob yo’q"
+  },
+  {
+    "question": "Daraxt nima?",
+    "answer": "Chiziqsiz bog’langan ma’lumotlar tuzilmasidir",
+    "noAnswer1": "  Chiziqli bog’langan ma’lumotlar tuzilmasidir",
+    "noAnswer2": " Chiziqsiz bog’lanmagan ma’lumotlar tuzilmasidir",
+    "noAnswer3": " Chiziqli bog’lanmagan ma’lumotlar tuzilmasidir"
+  },
+  {
+    "question": "Daraxt baalandligi nima?",
+    "answer": "Daraxt bosqichlari soni",
+    "noAnswer1": "daraxt ildizlari",
+    "noAnswer2": "daraxt barglari",
+    "noAnswer3": ".tog’ri javob yo’q"
+  },
+  {
+    "question": "Tugundan chiqish darajasi nima?",
+    "answer": "Daraxt tugunlaridan chiqayotgan shoxlar soni",
+    "noAnswer1": "daraxt shoxlari",
+    "noAnswer2": "daraxt barglari soni",
+    "noAnswer3": "daraxt tanasi"
+  },
+  {
+    "question": "Daraxt klassifikatsiyasi necha turdan iborat?",
     "answer": "4",
-    "noAnswer1": "3",
+    "noAnswer1": "5",
     "noAnswer2": "2",
-    "noAnswer3": "8"
+    "noAnswer3": "7"
   },
   {
-    "question": "Tranzistor – tranzistorli mantiq (TTM) larda qanday tranzistorlardan foydalaniladi?",
-    "answer": "ko‘p emitterli transistor",
-    "noAnswer1": "maydoniy transistor",
-    "noAnswer2": "n-MDYa transistor",
-    "noAnswer3": "KMDYa transistor"
+    "question": "To’liq binar daraxt nima?",
+    "answer": "chiqish darajasi 0 yoki 2 bo’lsa",
+    "noAnswer1": " chiqish darajasi 1 yoki 2 bo’lsa",
+    "noAnswer2": "chiqish darajasi 0 yoki 1 bo’lsa",
+    "noAnswer3": " to’g’ri javob yo’q"
   },
   {
-    "question": "Mantiqiy elementning rostlik jadvalida kombinatsiyalar soni 8 ta bo’lsa, bu mantiqiy elementning o’zgaruvchilari soni nechta boladi?",
-    "answer": "3",
-    "noAnswer1": "4",
-    "noAnswer2": "2",
-    "noAnswer3": "16"
+    "question": "m-tartibli daraxt nima?",
+    "answer": "Agar maksimal chiqish darajasi m bo`lsa",
+    "noAnswer1": " Agar maksimal chiqish darajasi nol bo`lsa ",
+    "noAnswer2": " Agar maksimal chiqish darajasi n bo`lsa",
+    "noAnswer3": " Agar maksimal chiqish darajasi 1 bo`lsa"
   },
   {
-    "question": "Mantiqiy elementning rostlik jadvalida kombinatsiyalar soni 4 ta bo’lsa, bu mantiqiy elementning o’zgaruvchilari soni nechta boladi?",
-    "answer": "2",
-    "noAnswer1": "4",
-    "noAnswer2": "8",
-    "noAnswer3": "16"
+    "question": "To`liq m-tartibli daraxt nima?",
+    "answer": "Agar chiqish darajasi 0 yoki m bo’lsa",
+    "noAnswer1": "chiqish darajasi 0 yoki 2 bo’lsa",
+    "noAnswer2": "chiqish darajasi 0 yoki 1 bo’lsa",
+    "noAnswer3": "chiqish darajasi 0 yoki n bo’lsa"
   },
   {
-    "question": "o‘lchamlari 0,1 dan 100 nm gacha bo‘lgan yarimo‘tkazgich tuzilmalar elektronikasi bo‘lib hisoblanadi.",
-    "answer": "nanoelektronika",
-    "noAnswer1": "analog elektronika",
-    "noAnswer2": "Mikroelektronika",
-    "noAnswer3": "yarimo’tkazgichlar elektronikasi"
+    "question": "Binar daraxt deb nimaga aytiladi?",
+    "answer": "Agar maksimal chiqish darajasi 2 bo`lsa",
+    "noAnswer1": "Agar maksimal chiqish darajasi 1 bo`lsa",
+    "noAnswer2": "Agar maksimal chiqish darajasi 0 bo`lsa",
+    "noAnswer3": "Agar maksimal chiqish darajasi m bo`lsa"
   },
   {
-    "question": "Pardali texnologiyada element parametrlarining ruxsat etilgan tarqoqligi....dan oshmaydi.",
-    "answer": "1÷2 %",
-    "noAnswer1": "10÷20 %",
-    "noAnswer2": "15÷25 %",
-    "noAnswer3": "1÷20 %"
+    "question": "EXM xotirasida daraxtni ifodalashning eng qulay usuli ",
+    "answer": "Uni bog`langan ro`yxatlar ko`rinishida ",
+    "noAnswer1": "Uni bog`lanmagan ro`yxatlar ko`rinishida ",
+    "noAnswer2": "Uni ro`yxatlar ko`rinishida ",
+    "noAnswer3": "Uni bog`lamli ro`yxatlar ko`rinishida "
   },
   {
-    "question": "Ishlatilgan tranzistor turiga muvofiq yarimo‘tkazgich integral mikrosxemalar ....... va ....... IMSlarga ajratiladi.",
-    "answer": "bipolyar va MDYA",
-    "noAnswer1": "maydoniy va p-MDYA",
-    "noAnswer2": "maydoniy va bipolyar",
-    "noAnswer3": "KMDYA va maydoniy"
+    "question": "Dinamik malumotlar tuzilmasi nechta xususiyatga ega?",
+    "answer": " 2 turga",
+    "noAnswer1": " 5 turga ",
+    "noAnswer2": "4 turga ",
+    "noAnswer3": "7 turga"
   },
   {
-    "question": "Mantiqiy element bu",
-    "answer": "Kirish signallari ustida aniq bir mantiqiy amal bajaradigan elektron qurilma",
-    "noAnswer1": "Raqamli mashinaning ichidagi struktura",
-    "noAnswer2": "Ixchamlangan mantiqiy funksiya",
-    "noAnswer3": "Analog signalni raqamli signalga o’zgartiruvchi qurilma"
+    "question": "Dastur bajarilayotganda vujudga keladigan yoki o`lchamlari dastur bajarilishi mobaynida aniqlanadigan ob`yektlar qanday ob`yektlar deyiladi?",
+    "answer": "Dinamik",
+    "noAnswer1": "Statik",
+    "noAnswer2": "Massiv",
+    "noAnswer3": " Mantiqiy"
   },
   {
-    "question": "Elementlari dielektrik asos sirtida parda ko‘rinishida hosil qilingan mikrosxemalar .... deb ataladi.",
-    "answer": "pardali IMS",
-    "noAnswer1": "gibridli IMS",
-    "noAnswer2": "yarimo’tkazgichli IMS",
-    "noAnswer3": "dielektrik IMS"
+    "question": "Agar ro`yxat elementlari ko`rsatgichlar orqali bog`langan bo`lsa, u holda bunday tuzilmaga qanday ro`yxat deb ataladi?",
+    "answer": "  Bog`langan ro`yxat",
+    "noAnswer1": "Bog`lanmagan ro`yat",
+    "noAnswer2": "Umumiy ro`yxat",
+    "noAnswer3": "Umumlashgan ro`yxat"
   },
   {
-    "question": "Umumiy dielektrik asosda joylashgan pardali passiv va diskret aktiv elementlar kombinatsiyasidan iborat mikrosxema bu?",
-    "answer": "gibrid IMS",
-    "noAnswer1": "pardali IMS",
-    "noAnswer2": "yarimo’tkazgichli IMS",
-    "noAnswer3": "dielektrik IMS"
+    "question": "Agar ro`yxatning elementlari ko`pi bilan tuzilmaning  m ta elementi bilan o`zaro bog`langan bo`lsa……",
+    "answer": " M bog`lamli deyiladi",
+    "noAnswer1": "N bog`lamli deyiladi",
+    "noAnswer2": "A bog`lamli deyiladi",
+    "noAnswer3": "M-n bog`lamli deyiladi"
   },
   {
-    "question": "Funksional vazifasiga ko‘ra ISlar ......larga bo‘linadi.",
-    "answer": "anolog va raqamli IS",
-    "noAnswer1": "gibrid va analog IS",
-    "noAnswer2": "gibrid va pardali IS",
-    "noAnswer3": "analog va pardali IS"
+    "question": "Agar bog`langan ro`yxat elementlari mavjud bo`lmasa, u holda bunday ro`yxat … deb ataladi.",
+    "answer": "Bo`sh ro`yxat",
+    "noAnswer1": "To`liq ro`txat",
+    "noAnswer2": "To`liqsiz ro`yxat",
+    "noAnswer3": "Too`ldirilgan ro`yxat"
   },
   {
-    "question": "Kirish signallari ustida aniq bir mantiqiy amal bajaradigan elektron qurilma bu?",
-    "answer": "mantiqiy element",
-    "noAnswer1": "Diod",
-    "noAnswer2": "blok sxema",
-    "noAnswer3": "rostlik jadval"
+    "question": "Mantiqiy tasvirlash nuqtai nazaridan ro`yxatlar necha turga bo`linadi?",
+    "answer": "2 ga ",
+    "noAnswer1": "3 ga",
+    "noAnswer2": " 4 ga",
+    "noAnswer3": "5 ga"
   },
   {
-    "question": "MEning asosiy ............xarakteristikasi bo‘lib chiqish kuchlanishining kirish kuchlanishiga bog’liqligi hisoblanadi.",
-    "answer": "statik",
+    "question": "Mantiqiy tasvirlash nuqtai nazaridan ro`yxatlar turini sanang?",
+    "answer": "Chiziqli va chiziqsiz",
+    "noAnswer1": "Faqat chiziqli",
+    "noAnswer2": "Faqat chiziqsiz",
+    "noAnswer3": "Turi mavjud emas"
+  },
+  {
+    "question": "Chiziqli ro`yxatlarga qaysilar kiradi?",
+    "answer": " 1 va 2 bog`lamli",
+    "noAnswer1": "2 bog`lamli",
+    "noAnswer2": "1 bog`lamli",
+    "noAnswer3": "Ko`p bog`lamli "
+  },
+  {
+    "question": "Chiziqsiz ro`yxatlarga qaysilar kiradi?",
+    "answer": "Ko`p bog`lamli",
+    "noAnswer1": "2 bog`lamli",
+    "noAnswer2": "1 bog`lamli",
+    "noAnswer3": "1 va 2 bog`lamli"
+  },
+  {
+    "question": "Bog`langan ro`yxatlar ustida nacha xil amal bajarish mumkin?",
+    "answer": "4 xil",
+    "noAnswer1": "5 xil",
+    "noAnswer2": "6 xil",
+    "noAnswer3": "7 xil"
+  },
+  {
+    "question": "Ro`yxatning istalgan elementini o`chirish mumkinmi?",
+    "answer": "Mumkin",
+    "noAnswer1": "Mumkin emas",
+    "noAnswer2": "Faqat qo`shish mumkin",
+    "noAnswer3": "Faqat qidirish mumkun"
+  },
+  {
+    "question": "Bog`langan ro`yxatlar elementlarini chop qilish mumkini?",
+    "answer": "Mumkin",
+    "noAnswer1": "Mumkin emas",
+    "noAnswer2": "Faqat qo`shish mumkin",
+    "noAnswer3": "Faqat qidirish mumkun"
+  },
+  {
+    "question": "Agar ro`yxat elementlari faqatgina bitta ko`rsatkichlar maydoniga ega bo`lsa, u holda bunday  tuzilmaga  …  yo`naltirilgan ro`yxat deb ataladi.",
+    "answer": "Bir bog`lamli yoki ir tomanlama",
+    "noAnswer1": "Faqat bir bog`lamli ",
+    "noAnswer2": "Faqat bir tomonlama",
+    "noAnswer3": "Ko`p bog`lamli"
+  },
+  {
+    "question": "Royxat elementlariga murojat qanday amalga oshiriladi?",
+    "answer": " Ro`yxat boshidan",
+    "noAnswer1": "Ro`yxat oxridan",
+    "noAnswer2": "Ro`yxat o`rtasidan",
+    "noAnswer3": "Murojat qilib bo`lmaydi"
+  },
+  {
+    "question": "Bir bog`lamli ro`yxat elementi nechta maydonga ega?",
+    "answer": "2 ta",
+    "noAnswer1": "3 ta",
+    "noAnswer2": "4 ta",
+    "noAnswer3": "5 ta"
+  },
+  {
+    "question": "Bir bog`lamli ro`yxat elementi maydonlarini sanang.",
+    "answer": "Information va ko`rsatgich maydon",
+    "noAnswer1": "Information maydon",
+    "noAnswer2": "Ko`rsatgich maydon",
+    "noAnswer3": "Maydon mavjud emas"
+  },
+  {
+    "question": "LST nima?",
+    "answer": "Ro`yxat boshiga ko`rsatgich",
+    "noAnswer1": "Ro`yxat oxiriga ko`rsatgich",
+    "noAnswer2": "Ro`yxat o`rtasiga ko`rsatgich",
+    "noAnswer3": "Ro`yxat davomiga ko`rsatgich"
+  },
+  {
+    "question": "Ro`yxat eng so`ngi elementining o`rsatgich maydoni bo`sh bo`lishi bu…?",
+    "answer": "NIL",
+    "noAnswer1": "LST",
+    "noAnswer2": "NST",
+    "noAnswer3": "MST"
+  },
+  {
+    "question": "Elementni ro`yxatdan o`chirishning paskal tilida amalga oshirish to`g`ri  ko`rsatilgan qatorni ko`rsating.",
+    "answer": "P:=Lst; X:=P^.Info; Lst:=P^.Next; Dispose(P);",
+    "noAnswer1": "P:=Lst; X=P^.Info; Lst=P^.Next; Dispose(P);",
+    "noAnswer2": "P:=Lst; X:=P^Info; Lst:=P^Next; Dispose(P);",
+    "noAnswer3": "P:=Lst; X:=Info; Lst:=Next; Dispose(P);"
+  },
+  {
+    "question": "Ikki bog`lamli ro`yxatning xar bir elementi nechta ko`rsatgichga ega?",
+    "answer": "2 ta ",
+    "noAnswer1": "3 ta",
+    "noAnswer2": "4 ta",
+    "noAnswer3": "5 ta"
+  },
+  {
+    "question": "Ikki bog`lamli ro`yxat ustida amallarni sanang.",
+    "answer": "Ro`yxat elementini yaratish, qidirish, o`cherish, ko`rsatilgan joyiga elementini ko`yish.",
+    "noAnswer1": "Ro`yxat elementini yaratish, ko`rsatilgan joyiga elementini ko`yish.",
+    "noAnswer2": "Ro`yxat elementini yaratish, qidirish.",
+    "noAnswer3": "Ro`yxat elementini qidirish,  ko`rsatilgan joyiga elementini ko`yish."
+  },
+  {
+    "question": "Ixtiyoriy bir bo`g`inli ro`yxatni stek deb qarash mumkinmi?",
+    "answer": "Mumkin",
+    "noAnswer1": "Mumkin emes",
+    "noAnswer2": "Ko`p bo`g`inli ro`yxatni",
+    "noAnswer3": "Bunday amal yo`q"
+  },
+  {
+    "question": "Qanday  ro`yxat oddiy bir bo`g`imli ro`yxatda eng so`ngi element ko`rsatgichiga ro`yxat boshi elementi o`rsatki chiqiymatini o`zlashtirish orqali xosil qilinadi.",
+    "answer": "Xalqasimon bir bog`lamli",
+    "noAnswer1": "Xalqasimon ikki bog`lmli",
+    "noAnswer2": "Xalqasimon ko`p bog`lamli",
+    "noAnswer3": "Aylana bir bog`lamli"
+  },
+  {
+    "question": "Bog`langan ro`yxat elementining ko`rsatkichlari maydoni soni qanday bo`lishi mumkin?",
+    "answer": "Bir nechta va turli xil",
+    "noAnswer1": "Faqat bitta ",
+    "noAnswer2": "Turli xil",
+    "noAnswer3": "Bir nechta"
+  },
+  {
+    "question": "Bog`langan ro`yxatlar eng ko`p qanday tuzilmalardan hisoblanadi?",
+    "answer": "Dinamik",
+    "noAnswer1": "Statik",
+    "noAnswer2": "Umumiy",
+    "noAnswer3": "Umumlashgan."
+  },
+  {
+    "question": "Tugundan chiqayotgan shoxlar soni nimani belgilaydi",
+    "answer": " Tugundan chiqish darajasini",
+    "noAnswer1": "Daraxt balandligini",
+    "noAnswer2": " Daraxt indeksatsiyasini",
+    "noAnswer3": "Daraxtning bog’lanish bosqichlarini"
+  },
+  {
+    "question": " Daraxt maksimal chiqish darajasi m-bo’lsa, u holda bunday daraxt qanday tartibli daraxt deyiladi?",
+    "answer": "m-tartibli daraxt",
+    "noAnswer1": " Binar daraxt",
+    "noAnswer2": "To’liq m-tartibli daraxt",
+    "noAnswer3": " to’liq binar daraxt"
+  },
+  {
+    "question": " Daraxt chiqish darajasi 0 yoki m bo’lsa, u holda bunday daraxt qanday tartibli daraxt deyiladi?",
+    "answer": " To’liq m-tartibli daraxt",
+    "noAnswer1": "To’liq binar daraxt",
+    "noAnswer2": " Binar daraxt",
+    "noAnswer3": " M-tartibli daraxt"
+  },
+  {
+    "question": "Daraxt maksimal chiqish darajasi 2 bo’lsa, u holda bunday daraxt qanday tartibli daraxt deyiladi",
+    "answer": " Binar daraxt",
+    "noAnswer1": "To’liq binar daraxt",
+    "noAnswer2": " 2-tartibli daraxt",
+    "noAnswer3": " 2 tartibli to’liq binar daraxt"
+  },
+  {
+    "question": "Daraxt chiqish darajasi 0 yoki 2 bo’lsa, u holda bunday daraxt qanday tartibli daraxt deyiladi?",
+    "answer": " To’liq binar daraxt",
+    "noAnswer1": " Binar daraxt",
+    "noAnswer2": "2-tartibli daraxt",
+    "noAnswer3": "2 tartibli to’liq binar daraxt"
+  },
+  {
+    "question": " Agar daraxtning maksimal chiqish darajasi 2 bo’lsa, bunday daraxt nima deb ataladi?",
+    "answer": " Binar daraxt",
+    "noAnswer1": "Indekslangan daraxt",
+    "noAnswer2": " Binar rekursiya",
+    "noAnswer3": " Juft bog’lami daraxt"
+  },
+  {
+    "question": " Binar daraxtlarda ota o’g’illari bilan qanday bog’lanadi?",
+    "answer": "Garizontal chiziq bilan",
+    "noAnswer1": " Tog’ri chiziq bilan",
+    "noAnswer2": "Vertical chiziq bilan",
+    "noAnswer3": " Ixtiyoriy tarzda"
+  },
+  {
+    "question": " Quyidagilardan qaysi biri rekursiv triadaga kirmaydi?",
+    "answer": " Daraxtni asoslashtirish",
+    "noAnswer1": " Rekursiya bazasi",
+    "noAnswer2": " Parametrizatsiya qilish",
+    "noAnswer3": " Dekompozitsiya"
+  },
+  {
+    "question": " Daraxtning har bir tugunida katta o’g’ilga mos shoxidan tashqari barha shohlari kesib tashlanadi. Bunday holatda qaysi shox katta o’g’il vazifasida bo’ladi?",
+    "answer": " Chetki chap shox",
+    "noAnswer1": "Tugun pastidagi shox",
+    "noAnswer2": "Eng pastki shox",
+    "noAnswer3": " Chetki o’ng shox"
+  },
+  {
+    "question": " Bu algoritmni aniqlashda o’ziga bevosita yoki bilvosita muroojat qilishdir. Qanday algoritm haqida gap ketmoqda?",
+    "answer": " Rekursiv algaritm",
+    "noAnswer1": " Stuctiv algoritm",
+    "noAnswer2": " Classlar algorimi",
+    "noAnswer3": " Navbatlar algoritmi"
+  },
+  {
+    "question": " Saralash algoritmlari nechta tipga bo’linadi?",
+    "answer": " 2 ta",
+    "noAnswer1": " 3 ta",
+    "noAnswer2": " 4 ta",
+    "noAnswer3": " 5 ta"
+  },
+  {
+    "question": " Tanlash orqali saralashda har qadamda hali ko’rilmagan elementlar orasidan qay biri tanladi",
+    "answer": " Eng kichigini",
+    "noAnswer1": " Alifbo tartibida oldin keluvchi element",
+    "noAnswer2": " Eng ko’p ko’rilganini",
+    "noAnswer3": " Tipi yaqinini"
+  },
+  {
+    "question": " Tanlash orqali saralash jarayoni necha marotaba davom etadi?",
+    "answer": " N-1 marta",
+    "noAnswer1": "Saralanayotgan element tipi soniga qarab",
+    "noAnswer2": " N marta",
+    "noAnswer3": " Ixtiyoriy daraja tanlanadi"
+  },
+  {
+    "question": " Agar ikki qo’shni element noto’g’ri tartibda joylashib qolgan bo’lsa, ularning o’rnini almashtiramiz. Umumiy n-1 marta jarayon bajariladi. Har safar ikkita qo’shni element taqqoslanadi.\nElementlar o’z o’rinlariga pufakga o’xshab siljib boradi.\nYuqorida qaysi usul algoritmi keltirilgan?\n",
+    "answer": "Bubble sort",
+    "noAnswer1": " Quick sort",
+    "noAnswer2": "Merge sort",
+    "noAnswer3": " Tanlash orqali saralash"
+  },
+  {
+    "question": "Pufakcha usulida saralashda quyidagilardan qaysi bigiga qolganlariga teng emas?",
+    "answer": " Qo’shimcha xotira",
+    "noAnswer1": "Almashtirishlar soni",
+    "noAnswer2": " Taqqoslashlar soni",
+    "noAnswer3": " Ishlash vaqti"
+  },
+  {
+    "question": " Jon fon Neyman tomonidan 1946 – yil qaysi saralash algoritmi taklif qilingan.",
+    "answer": " Merge sort",
+    "noAnswer1": " Neyman sort",
+    "noAnswer2": " Quick sort",
+    "noAnswer3": " Bubble sort"
+  },
+  {
+    "question": "Uni ikkita bo’lakga ajratamiz.\nBo’laklarni alohida saralaymiz.\nSaralangan massivlarni birlashtiramiz.\nUshbu algoritm qaysi saralashniki?\n",
+    "answer": " Bo’lib tashlab hukumronlik qil metodi",
+    "noAnswer1": " Quick sort",
+    "noAnswer2": "Bubble metodi",
+    "noAnswer3": " To’g’ri javob keltirilmagan"
+  },
+  {
+    "question": " 1964 – yilda Charlz Hoar tomonidan qaysi saralash algoritmi taklif qilingan.",
+    "answer": " Quick sort",
+    "noAnswer1": "Merge sort",
+    "noAnswer2": "Hoar sort",
+    "noAnswer3": " Bubble sort"
+  },
+  {
+    "question": " Quick sort qaysi metodga asoslanadi?",
+    "answer": " Bo’lib tashla va hukumronlik qil metodiga",
+    "noAnswer1": " Hoar metodiga",
+    "noAnswer2": " Merge metodiga",
+    "noAnswer3": " Pufakcha metodiga"
+  },
+  {
+    "question": " Massivda bo’luvchi element X tanlanadi.\nElementlarni shunday joylashtiramizki, dastlab X dan kichik yoki teng bo’lgan elementlar joylashsin, keyin undan katta bo’lgan elementlar joylashsin.\nKeyin ularni alohida saralaymiz.\nBu qaysi algoritm g’oyasi\n",
+    "answer": " Tezkor saralash",
+    "noAnswer1": "Pufakcha metodi",
+    "noAnswer2": " Hoar metodi",
+    "noAnswer3": " Merge metodi"
+  },
+  {
+    "question": " Uni omborxona yoki kutubxonaning bir turi sifatida ko'rish mumkin.",
+    "answer": "cMa’lumotlar strukturasini",
+    "noAnswer1": " Classlarni",
+    "noAnswer2": " Ma’lumotlar tarkibini",
+    "noAnswer3": " Steklarni"
+  },
+  {
+    "question": " Kalitlarni taqqoslashlar soni\nDasturni ishlab chiqishga ketgan vaqt\nDasturni ishlashi uchun ketgan vaqt\nTalab qilinadigan xotira hajmi\nBu nimaning samaradorlik mezonlari?\n",
+    "answer": " Qidiruv algaritmlarining",
+    "noAnswer1": "Saralash algoritmining",
+    "noAnswer2": " Hisoblash algoritmining",
+    "noAnswer3": " Navbat algoritmining"
+  },
+  {
+    "question": " Ushbu algoritmlar ishlab chiqarilayotganda, ko’proq, jadvaldagi kalitlarni taqqoslash soniga e’tibor qaratiladi. Qaysi algoritmlar haqida gap ketmoqda?",
+    "answer": " Qidiruv algaritmlari",
+    "noAnswer1": "Saralash algoritmlar",
+    "noAnswer2": " Hisoblash algoritmlari",
+    "noAnswer3": " Navbat algoritmlari"
+  },
+  {
+    "question": "Massiv yoki bog’langan ro’yxatlarda.\nElementni jadvalga qo’shish talab qilinsa, u holda qidiruvni amalaga oshirish qay birida qulayroq kechadi?\n",
+    "answer": " Ro’yhatlarda",
+    "noAnswer1": " Bir xil kechadi",
+    "noAnswer2": "Massivlarda",
+    "noAnswer3": " Elementlar soniga qarab"
+  },
+  {
+    "question": " Qaysi usulda topilgan element jadvalda bitta oldingi element bilan o’rin almashtiradi va agar ushbu elementga ko’p murojaat qilinsa, bittadan oldinga surulib borib natijada jadval boshida bo’ladi?",
+    "answer": "Transpazitsiya usuli",
+    "noAnswer1": "Bubble sort usuli",
+    "noAnswer2": " Quick sort usuli",
+    "noAnswer3": " Merge usuli"
+  },
+  {
+    "question": " Qaysi holatda indeksli qidiruv samaradorligini C=√n+1=O(√n) kabi mukammallashtirish mumkin?",
+    "answer": " Bo’lishi mumkin barcha holatlar teng bo’lsa",
+    "noAnswer1": " Merge usulida",
+    "noAnswer2": "Quick sort usulida",
+    "noAnswer3": " Bubble sort usulida"
+  },
+  {
+    "question": " U  berilgan  to’plam  elementlarini  biror  bir  tartibda  joylashtirish  jarayonidir. U nima",
+    "answer": "Saralash",
+    "noAnswer1": "Parametrizatsiya",
+    "noAnswer2": " Qidiruv",
+    "noAnswer3": " Indeksatsiya"
+  },
+  {
+    "question": " Saralashning maqsadi - ?",
+    "answer": "tartiblangan to’plamda kerakli elementni tartiblashdan iborat bo’ladi",
+    "noAnswer1": "tartiblangan to’plamda kerakli elementni indeksatsiyasini osonlashtirishdan iborat",
+    "noAnswer2": " tartiblangan to’plamda kerakli elementni parametrizatsiyalashni osonlashtirishdan iborat",
+    "noAnswer3": "tartiblangan to’plamda kerakli elementni bir biriga bog’lashnini osonlashtirishdan iborat"
+  },
+  {
+    "question": "Qaysi saralash usulida hali ko’rilmagan massiv elementlar orasidan 1-elementini eng kichik elementi deb tanlanadi shundan so’ng massivning barcha elementlari bilan solishtiriladi va natijasida eng kichik elementni massivning boshiga joylashtiriladi.",
+    "answer": " Tanlash orqali saralash usuli",
+    "noAnswer1": " Pufakcha usuli",
+    "noAnswer2": "Morge usuli",
+    "noAnswer3": " Hollan usuli"
+  },
+  {
+    "question": " Saralashning necha turi mavjud",
+    "answer": "2 ta",
+    "noAnswer1": " 3 ta",
+    "noAnswer2": "4 ta",
+    "noAnswer3": " 5 ta"
+  },
+  {
+    "question": " Operativ xotiradagi saralash bu qaysi saralash turiga kiradi?",
+    "answer": " Ichki saralash",
+    "noAnswer1": "Tashqi saralash",
+    "noAnswer2": " Operativ saralash",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": " Saralashni nechta usuli mavjud?",
+    "answer": "2 ta",
+    "noAnswer1": "3 ta",
+    "noAnswer2": " 4 ta",
+    "noAnswer3": "5 ta"
+  },
+  {
+    "question": " Quyidagilardan qaysilari saralash usullari?",
+    "answer": "Qat’iy va yaxshilangan",
+    "noAnswer1": " Operativ va yaxshilangan",
+    "noAnswer2": "Tashqi va operativ",
+    "noAnswer3": " Ichki va operatish"
+  },
+  {
+    "question": " Quyidagi usullardan qay birida almashtirishlar soni keskin farqlanadi?",
+    "answer": " Yaxshilangan usul",
+    "noAnswer1": " Qat’iy usullar",
+    "noAnswer2": "Tog’ridan to’g’ri tanlash usuli",
+    "noAnswer3": " Tog’ridan to’g’ri qo’shish usuli"
+  },
+  {
+    "question": " Faraz qilaylik, a1, a2, … , anelementlar ketma-ketligi berilgan bo’lsin.\nBerilgan elementlar ichidan eng kichik kalitga ega element tanlanadi.\nUshbu element boshlangich ketma-ketlikdagi birinchi element a1 bilan o’rin almashadi\nUndan keyin ushbu jarayon qolgan n-1 ta element, n-2 ta element va hokazo, toki bitta eng katta element qolgunga davom ettiriladi.\nSavol bu qaysi tamoyil asosi hisoblanadi?\n",
+    "answer": " To’g’ridan to’g’ri tanlash usuli",
+    "noAnswer1": " Tog’ridan to’g’ri qo’shish usuli",
+    "noAnswer2": " Tog’ridan to’g’ri almashtirish usuli",
+    "noAnswer3": " Yaxshilangan usul"
+  },
+  {
+    "question": " Qisqarib boruvchi qadamlar orqali saralash uslini fanda qanday ataladi",
+    "answer": " Shell usuli",
+    "noAnswer1": " Quick sort",
+    "noAnswer2": "Merge usuli",
+    "noAnswer3": " Bubble sort"
+  },
+  {
+    "question": " Shel usuli qachon taklif qilingan?",
+    "answer": " 1959 yilda",
+    "noAnswer1": " 1938 yilda",
+    "noAnswer2": " 1987 yilda",
+    "noAnswer3": " 1948 yilda"
+  },
+  {
+    "question": " Qaysi tur mantiqiy mulohazalarning to’g’riligini aniqlash uchun, turli xil dasturlash tillarida turlicha ifodalanadigan ifodalarni 2 ta ko’rinishda ifodalaydi?",
+    "answer": " Mantiqiy tur",
+    "noAnswer1": " Butun tur",
+    "noAnswer2": "Belgili tur",
+    "noAnswer3": " Satrli tur"
+  },
+  {
+    "question": "Mantiqiy tur uchun qiyinroq hisoblanuvchi operatsiyalar qaysilar?",
+    "answer": "Chiqarib tashlash, ekvivalensiya, implikatsiya",
+    "noAnswer1": " Chiqarib tashlash, inkor, yoki",
+    "noAnswer2": " Va, yoki, inkor",
+    "noAnswer3": " Va, yoki, ekvivalensiya"
+  },
+  {
+    "question": " Mantiqiy qiymatlar xotirada qancha joy egallaydi?",
+    "answer": " 1 bit",
+    "noAnswer1": " 2 bit",
+    "noAnswer2": " 8 bit",
+    "noAnswer3": " 1 bayt"
+  },
+  {
+    "question": " Inkor amali qaysi qatorda to’g’ri berilgan?",
+    "answer": " Not a",
+    "noAnswer1": " A or b",
+    "noAnswer2": " A and b",
+    "noAnswer3": " To’g’ri javob yo’q"
+  },
+  {
+    "question": " Dizyunksiya amali qaysi qatorda to’g’ri berilgan?",
+    "answer": " A or b",
+    "noAnswer1": " Not a",
+    "noAnswer2": " A and b",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": " Konyunksiya amali qaysi qatorda to’g’ri berilgan?",
+    "answer": " A and b",
+    "noAnswer1": " To’g’ri javob yo’q",
+    "noAnswer2": "A or b",
+    "noAnswer3": " Not a"
+  },
+  {
+    "question": " Dizyunksiyaning inkori dasturlashda qanday yoziladi?",
+    "answer": " Xor",
+    "noAnswer1": " !",
+    "noAnswer2": " Or !",
+    "noAnswer3": " &&"
+  },
+  {
+    "question": " #include <iostream> \nUsing namespace std; int main(){\nBool b=true;Bool s=false;\nBool d1 =not b || s;\nBool d2=b && s; bool d3=b xor s;\nCout<<d1<<\" \"<<d2<<\" \"<<d3;System (\"pause \");}\nDastur natijasini toping.\n",
+    "answer": " 0 0 1",
+    "noAnswer1": " 0 0 0 ",
+    "noAnswer2": " 0 1 1",
+    "noAnswer3": " 1 0 1"
+  },
+  {
+    "question": " Bir tipli nomerlangan ma’lumotlar janlanmasi nima deb ataladi?",
+    "answer": " Massiv",
+    "noAnswer1": " Determinant",
+    "noAnswer2": " Int",
+    "noAnswer3": " Matritsa"
+  },
+  {
+    "question": " U indeksli o’zgaruvchi tushunchasiga mos keladi. U dasturlashda qanday ataladi",
+    "answer": " Massiv",
+    "noAnswer1": " Fifo",
+    "noAnswer2": " Qatorlar",
+    "noAnswer3": " Nifo"
+  },
+  {
+    "question": " C++ dasturlash tili standarti bo’yicha massiv indekslari nechtagacha bo’lishi mumkin",
+    "answer": " 31 ta",
+    "noAnswer1": " 37 ta",
+    "noAnswer2": " 23 ta",
+    "noAnswer3": " 5 ta"
+  },
+  {
+    "question": " Qanday tip matematikada matritsa yoki jadval tushunchasiga mos keladi",
+    "answer": " Ikki o’lchovli massiv",
+    "noAnswer1": " Double float",
+    "noAnswer2": " Boolen",
+    "noAnswer3": " Bir o’lchovli massiv"
+  },
+  {
+    "question": " Quyidagi initsalizatsiyalardan qaysi biri dasturlashda xato natija beradi?",
+    "answer": "Float[][]={(1.3,1.1,1.4),(-1,4.4),(1.3, 2.4)}",
+    "noAnswer1": " Int х[3][3]={(1,-2,3),(1,2),(-4)}",
+    "noAnswer2": " Float d[2][3]={1,-2.5,10,-5.3,2,14}",
+    "noAnswer3": " Double х[][2]={(1.1,1.5),(-1.6,2.5),(3,-4)}"
+  },
+  {
+    "question": " Turli tipdagi ma’lumotlarning biror nom ostida birlashtirilgan, dasturchi tomonidan beriladigan yangi tip nima deb ataladi?",
+    "answer": " Structura",
+    "noAnswer1": " Class",
+    "noAnswer2": " Navbat",
+    "noAnswer3": " Massiv"
+  },
+  {
+    "question": "Uni e’lon qilish uchun struct xizmatchi so’zi ishlatiladi. U nima?",
+    "answer": " Yozuv",
+    "noAnswer1": " Massiv",
+    "noAnswer2": " Qator",
+    "noAnswer3": " Class"
+  },
+  {
+    "question": " “oxirgi kelgan - birinchi ketati” bu nimaning ta’rifi?",
+    "answer": " Stek",
+    "noAnswer1": " Navbat",
+    "noAnswer2": " Dek",
+    "noAnswer3": " Qator"
+  },
+  {
+    "question": " Lifo bu nimaning ta’rifi?",
+    "answer": " Stek",
+    "noAnswer1": " Navbat",
+    "noAnswer2": " Dek",
+    "noAnswer3": " Qator"
+  },
+  {
+    "question": " Unda elementlarni kiritish va tomondan ya’ni uchidan amalga oshiriladi. U nima",
+    "answer": " Stek",
+    "noAnswer1": " Dek",
+    "noAnswer2": " Qator",
+    "noAnswer3": " Navbat"
+  },
+  {
+    "question": " C++ tilida steklar qanday amalga oshiriladi?",
+    "answer": " A va b javoblar to’g’ri",
+    "noAnswer1": " Structura ko’rinishida",
+    "noAnswer2": " Bir o’lchovli massiv ko’rinishida",
+    "noAnswer3": " Statik ko’rinishda"
+  },
+  {
+    "question": " Nima 2 ta chetga ega navbat ma’nosini beradi?",
+    "answer": " Dek",
+    "noAnswer1": " Stek",
+    "noAnswer2": " Structura",
+    "noAnswer3": " Lifo"
+  },
+  {
+    "question": " Double ended queue\nBu nimaning ta’rifi?\n",
+    "answer": " Dek",
+    "noAnswer1": " Stek",
+    "noAnswer2": " Navbat",
+    "noAnswer3": " Qator"
+  },
+  {
+    "question": " Navbat bu - ...",
+    "answer": " Fifo",
+    "noAnswer1": " Lifo",
+    "noAnswer2": " Stek",
+    "noAnswer3": " Infifo"
+  },
+  {
+    "question": "Elementlarning oxiridan qo’shilib, boshidan chiqarib tashlanishi nima deb ataladi",
+    "answer": " Navbat",
+    "noAnswer1": " Stek",
+    "noAnswer2": " Dek",
+    "noAnswer3": " Nifo"
+  },
+  {
+    "question": " C++ dasturlash muhitida ma'lumotlarni massivdan tashqari sal boshqacharoq usulda saqlashning yana bir turi mavjud, bu nima?",
+    "answer": " Vektorlar",
+    "noAnswer1": " Rekursiyalarм",
+    "noAnswer2": " Classlar",
+    "noAnswer3": " Qatorlar"
+  },
+  {
+    "question": " Ayrim paytlarda massivga nechta element kiritilishi ma'lum bo‘lmaydi va o‘shanda dinamik dasturlashdan foydalanish kerak bo‘ladi, ya'ni massivga qo‘shiladigan elementga xotira ajratishga to‘g‘ri keladi, bunday paytda qaysi kitobxonadan foydalanish optimalroq hisoblanadi?",
+    "answer": " Vector",
+    "noAnswer1": " Dynamics.h",
+    "noAnswer2": " Recursy",
+    "noAnswer3": " Class"
+  },
+  {
+    "question": " Qaysi class o‘zgaruvchan uzunlikdagi massiv yaratishga yordam beradi?",
+    "answer": " Vector",
+    "noAnswer1": "       Class",
+    "noAnswer2": "      Recursia",
+    "noAnswer3": "       Setclass"
+  },
+  {
+    "question": " Elementlari soni oldindan ma'lum bo‘lmagan bir xil toifadagi elementlar ketma-ketligi dasturlashda nima deb ataladi",
+    "answer": " Vector",
+    "noAnswer1": " Massiv",
+    "noAnswer2": " Class",
+    "noAnswer3": " Graph"
+  },
+  {
+    "question": " Dasturlashda vectorni e’lon qilish sintaksisi to’g’ri ko’rsatilgan qatorni toping",
+    "answer": " Vector<int> q",
+    "noAnswer1": " vector a[100]",
+    "noAnswer2": " Q int[vector]",
+    "noAnswer3": " Vector a<int> [100]"
+  },
+  {
+    "question": " Dasturlash tillarida ma’lumotlar necha turga bo’linadi?",
+    "answer": " bazaviy va keltirilgan",
+    "noAnswer1": " Rost va yolg’on",
+    "noAnswer2": " Fizik va biologik",
+    "noAnswer3": " Skalyar va bo’sh"
+  },
+  {
+    "question": " Void kalit so’zi qaysi toifaga tegishli ekanligini ko’rsatadi?",
+    "answer": " Hecsh qaysi",
+    "noAnswer1": " Haqiqiy",
+    "noAnswer2": " Butun",
+    "noAnswer3": " Raqamli"
+  },
+  {
+    "question": " Dasturning asosiy tanasi nima?",
+    "answer": "int main()",
+    "noAnswer1": " Tiplar",
+    "noAnswer2": "float",
+    "noAnswer3": "barchasi to`g`ri"
+  },
+  {
+    "question": " Dasturda Amallar necha xil bo’ladi?",
+    "answer": " 2 xil (binar va unar)",
+    "noAnswer1": " 2 xil (sonli va satrli)",
+    "noAnswer2": " Aniqlab bo’lmaydi",
+    "noAnswer3": " Dastur tipiga qarab"
+  },
+  {
+    "question": " Ulardan qaysi biri additiv binar amal?",
+    "answer": "(+) qo’shish",
+    "noAnswer1": " (*) ko’paytirish",
+    "noAnswer2": "(:) bo’lish",
+    "noAnswer3": " (%) modul olish ya’ni qoldiqli bo’lish"
+  },
+  {
+    "question": " Multiplikativ binar amallarni ko’rsating.",
+    "answer": "(*), (/) , (%)",
+    "noAnswer1": "(+), (-), (*), (/)",
+    "noAnswer2": " (%), (!), (<), (>),",
+    "noAnswer3": " (!), (<) , (>), (=)"
+  },
+  {
+    "question": " [++] va [--] lar qanday amallar?",
+    "answer": " Unar",
+    "noAnswer1": " Takrorlanuvchi",
+    "noAnswer2": " Xususiy",
+    "noAnswer3": " Binar"
+  },
+  {
+    "question": " Prefiksni ko’rsating",
+    "answer": "#VALUE!",
+    "noAnswer1": " Using namespace",
+    "noAnswer2": " I++",
+    "noAnswer3": "(;), (<<), (>>), cout, cin, …"
+  },
+  {
+    "question": "Postfiksni ko’rsating",
+    "answer": "i++",
+    "noAnswer1": " ++i",
+    "noAnswer2": " Using namespace std;",
+    "noAnswer3": " (;), (<<), (>>), cout, cin, …"
+  },
+  {
+    "question": " int main(){\n    int a=100,b=10,c=5;     \n    for(int i=0; i<2; i++)\n   { a/=b-c; }\n    cout<<\"a=\"<<a<<endl;\n    system(\"PAUSE\");}\nDastur natijasini toping\n",
+    "answer": 4,
+    "noAnswer1": "       20",
+    "noAnswer2": 0,
+    "noAnswer3": 100
+  },
+  {
+    "question": " Dasturlash tillarida ma’lumotlar necha turga bo’linadi?",
+    "answer": "bazaviy va keltirilgan",
+    "noAnswer1": "b) Rost va yolg’on",
+    "noAnswer2": "c) Fizik va biologik",
+    "noAnswer3": "d) Skalyar va bo’sh"
+  },
+  {
+    "question": "Void kalit so’zi qaysi toifaga tegishli ekanligini ko’rsatadi?",
+    "answer": "hech qaysi",
+    "noAnswer1": " Butun",
+    "noAnswer2": " Haqiqiy",
+    "noAnswer3": "Raqamli"
+  },
+  {
+    "question": " Dasturning asosiy tanasi nima?",
+    "answer": "int main()",
+    "noAnswer1": "a) Tiplar",
+    "noAnswer2": "int",
+    "noAnswer3": "barchasi xato"
+  },
+  {
+    "question": " Dasturda Amallar necha xil bo’ladi?",
+    "answer": "2 xil  (unar va binar)",
+    "noAnswer1": "c) Dastur tipiga qarab",
+    "noAnswer2": "b) Aniqlab bo’lmaydi",
+    "noAnswer3": "2 xil (sonli va satrli)"
+  },
+  {
+    "question": " Ulardan qaysi biri additiv binar amal?",
+    "answer": " (+) qo’shish",
+    "noAnswer1": "(*) ko’paytirish",
+    "noAnswer2": "(:) bo’lish",
+    "noAnswer3": " (%) modul olish ya’ni qoldiqli bo’lish"
+  },
+  {
+    "question": "Daraxt bog’lanish bosqichlari nechidan boshlanadi?",
+    "answer": " 0 dan",
+    "noAnswer1": " 1 dan",
+    "noAnswer2": " Bosqichlar soni ahamiyatga ega emas, shu sababli sanoqga ega emas",
+    "noAnswer3": "d) Daraxt turiga qarab tanlanadi"
+  },
+  {
+    "question": " [++] va [--] lar qanday amallar?",
+    "answer": "Unar",
+    "noAnswer1": "b) Xususiy",
+    "noAnswer2": " Takrorlanuvchi",
+    "noAnswer3": "a) Binar"
+  },
+  {
+    "question": " Prefiksni ko’rsating",
+    "answer": " ++I",
+    "noAnswer1": "I++",
+    "noAnswer2": " Using namespace",
+    "noAnswer3": " (;), (<<), (>>), cout, cin, …"
+  },
+  {
+    "question": " Postfiksni ko’rsating",
+    "answer": "i++",
+    "noAnswer1": " Using namespace std;",
+    "noAnswer2": " (;), (<<), (>>), cout, cin, …",
+    "noAnswer3": " ++i"
+  },
+  {
+    "question": " int main(){\n    int a=100,b=10,c=5;     \n    for(int i=0; i<2; i++)\n    { a/=b-c; }\n    cout<<\"a=\"<<a<<endl;\n    system(\"PAUSE\");}\nDastur natijasini toping.\n",
+    "answer": " *4",
+    "noAnswer1": 0,
+    "noAnswer2": 20,
+    "noAnswer3": 100
+  },
+  {
+    "question": " uning o’lchami mashina, ya'ni kompyuter konfiguratsiyasiga bog’liq ravishda o’zgarib turadi. Gap nima haqida ketmoqda.",
+    "answer": "Intejer tipi",
+    "noAnswer1": " Tiplar haqida",
+    "noAnswer2": "Media fayllar",
+    "noAnswer3": " Rasmlar"
+  },
+  {
+    "question": " Integer Toifa modifikatsiyalarini ayting",
+    "answer": "signed va unsigned",
+    "noAnswer1": " Short va Long",
+    "noAnswer2": " Double va Long",
+    "noAnswer3": " Short, Long va double intlar"
+  },
+  {
+    "question": " Signed Int toifasida modifikatsiyalanganda qiymatning eng chap bitidagi 0 yoki bir nimani bildiradi.",
+    "answer": "Ishorani",
+    "noAnswer1": " Hajmini",
+    "noAnswer2": " Kengligini",
+    "noAnswer3": " Kengaytmasini"
+  },
+  {
+    "question": " Int tipi ustida ==, !=, <=, >=, < , > kabi amallar bajarilganda natija qaysi tipga kiradi",
+    "answer": "Bool",
+    "noAnswer1": "a) Int",
+    "noAnswer2": "c) Float",
+    "noAnswer3": "d) String"
+  },
+  {
+    "question": " Xotiradan egallangan hajmni bilish uchun qaydi xizmatchi so’zdan foydalaniladi",
+    "answer": "sizeof()",
+    "noAnswer1": " Memory()",
+    "noAnswer2": " Deminsionof()",
+    "noAnswer3": " &a"
+  },
+  {
+    "question": " Haqiqiy toifaga nisbatan binar amallar bajarilsa natija qanday tipga tegishli bo’ladi?",
+    "answer": "Mantiqiy",
+    "noAnswer1": " Haqiqiy",
+    "noAnswer2": " Butun",
+    "noAnswer3": "Satrli"
+  },
+  {
+    "question": "Haqiqiy tipga nisbatan unar amallar ishlatilsa natija qanday sonlar chiqadi?",
+    "answer": "Haqiqiy",
+    "noAnswer1": " Butun",
+    "noAnswer2": " Mantiqiy",
+    "noAnswer3": " Satrli"
+  },
+  {
+    "question": " U tip Kompyuter xotirasida asosan qo’shg’aluvchan nuqta formatida saqlanadi. U qanday tip",
+    "answer": "Haqiqiy tip",
+    "noAnswer1": " Mantiqiy tip",
+    "noAnswer2": " Butun tip",
+    "noAnswer3": " Satrli tip"
+  },
+  {
+    "question": " Float tipi xotiradan qancha joy egallaydi?",
+    "answer": "4 bayt",
+    "noAnswer1": " 2 bayt",
+    "noAnswer2": " 8 bayt",
+    "noAnswer3": " Kompyuter Konfiguratsiyasiga qarab"
+  },
+  {
+    "question": "  Double Float tipi xotiradan qancha joy egallaydi?",
+    "answer": "8 bayt",
+    "noAnswer1": "a) 4 bayt",
+    "noAnswer2": "c) 2 bayt",
+    "noAnswer3": "d) Kompyuter konfiguratsiyasiga qarab"
+  },
+  {
+    "question": "Long double tipi xotiradan qancha joy egallaydi?",
+    "answer": " 8 bayt",
+    "noAnswer1": "2 bayt",
+    "noAnswer2": " 4 bayt",
+    "noAnswer3": " Kompyuter konfiguratsiyasiga qarab"
+  },
+  {
+    "question": "Yo’q , yoki , va amallari qaysi toifa ustida bajariladi",
+    "answer": "Boolen",
+    "noAnswer1": " Haqiqiy",
+    "noAnswer2": " (1va (0) qiymatli butun tip ustida",
+    "noAnswer3": " Butun tip ustida"
+  },
+  {
+    "question": " Boolen tipi kompyuter xotirasidan qancha hajm egallaydi",
+    "answer": " 1 bayt",
+    "noAnswer1": " 2 bayt",
+    "noAnswer2": " 4 bayt",
+    "noAnswer3": " 8 bayt"
+  },
+  {
+    "question": " Unsigned char tipi xotiradan qancha joy egallaydi",
+    "answer": "1bayt",
+    "noAnswer1": " 2 bayt",
+    "noAnswer2": " 4 bayt",
+    "noAnswer3": " 8 bayt"
+  },
+  {
+    "question": " #include <iostream.h>\nUsing manespace std;Int main(){\nChar x=`a`, y=`b`; char min;\nIf(x>y) min=y;Else min=x;\nCout<<min;Return 0;}\nDastur natijasini toping\n",
+    "answer": "a",
+    "noAnswer1": " B",
+    "noAnswer2": " Xato beradi",
+    "noAnswer3": " (b)"
+  },
+  {
+    "question": "Ma'lumotlar tuzilmasi fanida daraxt so`zi ko`pincha qanday nomlanadi?",
+    "answer": "Tree",
+    "noAnswer1": "oila ",
+    "noAnswer2": "sanoq tizimi",
+    "noAnswer3": "safe"
+  },
+  {
+    "question": "O`ziga murojaat qiluvchi funksiya?",
+    "answer": "Rekursiv",
+    "noAnswer1": "void",
+    "noAnswer2": "return",
+    "noAnswer3": "main"
+  },
+  {
+    "question": "...– bu bironta ob‘ektga tegishli turli toifadagi maydonlar to‘plamidir.",
+    "answer": "Yozuv ",
+    "noAnswer1": "obekt",
+    "noAnswer2": "Dastur",
+    "noAnswer3": "Daraxt"
+  },
+  {
+    "question": "Primitiv toifalar (...)",
+    "answer": "ma‘lumotlarning sodda toifalari",
+    "noAnswer1": "Ma'lumotlar bazasi",
+    "noAnswer2": "sanoq tizimi",
+    "noAnswer3": "tree"
+  },
+  {
+    "question": "Ma‘lumotlar toifalari … turga ajratiladi",
+    "answer": 3,
+    "noAnswer1": 5,
+    "noAnswer2": 2,
+    "noAnswer3": 7
+  },
+  {
+    "question": "... – elementlarni ma‘lum bir tartibda joylashtirish amali",
+    "answer": "Saralash",
+    "noAnswer1": "ma‘lumotlarning sodda toifalari",
+    "noAnswer2": "Qidirish",
+    "noAnswer3": "O‘chirish"
+  },
+  {
+    "question": "… -  tuzilmadan bironta elementni joylashgan o‘rnini aniqlash amali",
+    "answer": "Qidirish",
+    "noAnswer1": "Saralash",
+    "noAnswer2": "Kiritish",
+    "noAnswer3": "O‘chirish"
+  },
+  {
+    "question": "... - tuzilma elementlariga 1 martadan murojaat qilish amali.",
+    "answer": " Ko‘rikdan o‘tkazish (traversing)",
+    "noAnswer1": "Saralash",
+    "noAnswer2": "Kiritish",
+    "noAnswer3": "O‘chirish"
+  },
+  {
+    "question": "... – xar bit amal oddiy va soda bo‘lishi kerak",
+    "answer": "Samaradorlilik",
+    "noAnswer1": "Saralash",
+    "noAnswer2": "Kiritish",
+    "noAnswer3": "O‘chirish"
+  },
+  {
+    "question": "Qiymat qaytarmaydigan funksiya qaysi?",
+    "answer": "void",
+    "noAnswer1": "main",
+    "noAnswer2": "int",
+    "noAnswer3": "rekursiv"
+  },
+  {
+    "question": "if(n<0){cout<<a;} else{cout<<a-1;}  a=3,n=0 bo`lsa, ekranga qanday qiymat chiqadi?",
+    "answer": 2,
+    "noAnswer1": 1,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "if(n<0){cout<<a;} else{cout<<a-1;}  a=3,n=-2 bo`lsa, ekranga qanday qiymat chiqadi?",
+    "answer": 3,
+    "noAnswer1": 2,
+    "noAnswer2": 4,
+    "noAnswer3": 0
+  },
+  {
+    "question": "if(n=>0){cout<<a;} else{cout<<a-1;}  a=3,n=-2 bo`lsa, ekranga qanday qiymat chiqadi?",
+    "answer": "dastur xato",
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "if(n=>0){cout<<a;} else{cout<<a-1;}  a=5,n=-2 bo`lsa, ekranga qanday qiymat chiqadi?",
+    "answer": "dastur xato",
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "for(int i=5;i<8;i++){...} ushbu sikl necha marta takrorlanadi?",
+    "answer": 3,
+    "noAnswer1": 5,
+    "noAnswer2": 8,
+    "noAnswer3": 0
+  },
+  {
+    "question": "for(int i=5;i<=8;i++){...} ushbu sikl necha marta takrorlanadi?",
+    "answer": 4,
+    "noAnswer1": 3,
+    "noAnswer2": 5,
+    "noAnswer3": 7
+  },
+  {
+    "question": "for(int i=0;i<=8;i++){...} ushbu sikl necha marta takrorlanadi?",
+    "answer": 9,
+    "noAnswer1": 8,
+    "noAnswer2": 0,
+    "noAnswer3": 7
+  },
+  {
+    "question": "Sharti keyin beriladugan sikl operatori?",
+    "answer": "do{...}while(…)",
+    "noAnswer1": "while(…){…}",
+    "noAnswer2": "for(…){…}",
+    "noAnswer3": "savol xato"
+  },
+  {
+    "question": "Sharti oldin beriladugan sikl operatori?",
+    "answer": "while(…){…}",
+    "noAnswer1": "do{...}while(…)",
+    "noAnswer2": "for(…){…}",
+    "noAnswer3": "savol xato"
+  },
+  {
+    "question": "Parametrli sikl operatori qaysi?",
+    "answer": "for(…){…}",
+    "noAnswer1": "do{...}while(…)",
+    "noAnswer2": "while(…){…}",
+    "noAnswer3": "savol xato"
+  },
+  {
+    "question": "do{…}while(n>0) n=0 bo`lganda sikl  necha marta takrorlanadi? ",
+    "answer": 1,
+    "noAnswer1": 0,
+    "noAnswer2": 2,
+    "noAnswer3": "cheksiz"
+  },
+  {
+    "question": "for(int i=1; i<n;i++){n--;}  n=0 bo`lganda sikl  necha marta takrorlanadi? ",
+    "answer": "cheksiz",
+    "noAnswer1": 2,
+    "noAnswer2": 1,
+    "noAnswer3": 0
+  },
+  {
+    "question": "switch quyidagi tiplarning qaysi biri bilan ishlaydi?",
+    "answer": "int ",
+    "noAnswer1": "float",
+    "noAnswer2": "double"
+  },
+  {
+    "question": "int aloqa(){int a=5; return a;} funksiya nomini toping",
+    "answer": "aloqa",
+    "noAnswer1": "int",
+    "noAnswer2": "return",
+    "noAnswer3": "a"
+  },
+  {
+    "question": "for(int i ; i<=10 ; i++) - bu siklda [i] nima?",
+    "answer": "sikl parametri",
+    "noAnswer1": "sikl operatori, majburiy ajratuvchi",
+    "noAnswer2": "o’zgarmas",
+    "noAnswer3": "sikl operatori"
+  },
+  {
+    "question": "Sharti oldin berilgan takrorlanish operatorini toping",
+    "answer": "While  ",
+    "noAnswer1": "if  ",
+    "noAnswer2": "else",
+    "noAnswer3": "for"
+  },
+  {
+    "question": " Fayllar bilan ishlash oqimlariga qaysilar kiradi",
+    "answer": "ifstream, ofstream, fstream",
+    "noAnswer1": "TJY",
+    "noAnswer2": "ifstream , ,cout istream",
+    "noAnswer3": "iostream , ofstream, istream"
+  },
+  {
+    "question": "Bir xil toifali , chekli qiymatlarning tartiblanganto’plamiga nima deb ataladi?",
+    "answer": "Massiv",
+    "noAnswer1": "Rekursiv funksiya ",
+    "noAnswer2": "TJY",
+    "noAnswer3": "oqim"
+  },
+  {
+    "question": "Mantiqiy amallarda & belgisini vazifasi nima",
+    "answer": "ko’paytirish",
+    "noAnswer1": "ayirish",
+    "noAnswer2": "bo’lish",
+    "noAnswer3": "TJY"
+  },
+  {
+    "question": "int main(){\nint a = 7, b = 11;\nbool OK = a < 7 ^ b > 10;\ncout << OK;\nreturn 0;}\nUshbu dastur natijasini toping:\n",
+    "answer": 1,
+    "noAnswer1": 0,
+    "noAnswer2": 11,
+    "noAnswer3": 7
+  },
+  {
+    "question": "Quyidagi ifodadan qanday qiymat chiqishini aniqlang?int a[5]={1,2,3,4,5}; cout<<a[3];",
+    "answer": 4,
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 5
+  },
+  {
+    "question": "Massivlarning qanday turlari mavjud?",
+    "answer": "  dinamik va static massivla     ",
+    "noAnswer1": " statik massivlar    ",
+    "noAnswer2": "tjy",
+    "noAnswer3": " konsterativ massivlar"
+  },
+  {
+    "question": "Parametrli sikl operatoridan tog'ri foydalanilgan javobni ko'rsating.",
+    "answer": "for (int i=0; i<=n; i++)",
+    "noAnswer1": "for (int i=0, i<=n; i++)",
+    "noAnswer2": "for (int i=0; i<=n; i++ ;)",
+    "noAnswer3": "tjy"
+  },
+  {
+    "question": "Sharti keyin berilgan sikl operatori tuzilishini ko'rsating.",
+    "answer": "do{sikl tanasi;} while(shart)",
+    "noAnswer1": "while(shart) {sikl tanasi;}",
+    "noAnswer2": "tjy",
+    "noAnswer3": "do{shart} while(sikl tanasi;)"
+  },
+  {
+    "question": "<indeks> -bu? ",
+    "answer": "massiv xadining joylashgan o’rnini anglatuvchi taktik qiymat",
+    "noAnswer1": "massivlar qitymati xadining matematik qiymati",
+    "noAnswer2": "o’zgaruvchiga  yozilgan tartib xadi ",
+    "noAnswer3": "chekli qiymatlarning tartiblangan to’plamidir"
+  },
+  {
+    "question": "Xotiradan sakkiz bayt joy egallaydigan butun qiymatli o’zgaruvchini ko’rsating",
+    "answer": "double a;",
+    "noAnswer1": "TJY",
+    "noAnswer2": "long long a;",
+    "noAnswer3": "long double a;"
+  },
+  {
+    "question": "Har xil obyektlarni ifodalovchi baytlar ketma ketligi bu ?",
+    "answer": "binar fayl",
+    "noAnswer1": "TJY",
+    "noAnswer2": "rekursiv funksiya",
+    "noAnswer3": "mantiqiy fayl"
+  },
+  {
+    "question": "Ham asosiy programmadaham funksiyada ishlashi mumkin bo’lgan o’zgaruvchilar bu …?",
+    "answer": "global o’zgaruvchilar",
+    "noAnswer1": "parametirsiz o’zgaruvchilar",
+    "noAnswer2": "laokal o’zgaruvchilar",
+    "noAnswer3": "TJY"
+  },
+  {
+    "question": "int main()\n{ int a=30, b=40, c=35,d;\nif (a>b) {d=b;}\nelse {d=a;}\nif(d>c)d=c;\n    cout << d;\n    return 0;}\n",
+    "answer": 30,
+    "noAnswer1": 40,
+    "noAnswer2": 5,
+    "noAnswer3": 100
+  },
+  {
+    "question": "Short int kompyuter xotirasida necha bayt joy egallaydi?",
+    "answer": "2 bayt",
+    "noAnswer1": "4bayt",
+    "noAnswer2": "8bayt",
+    "noAnswer3": "10bayt"
+  },
+  {
+    "question": "Eng ko‘p foydalaniladigan daraxtlar turi qaysi?",
+    "answer": "binar",
+    "noAnswer1": "unar",
+    "noAnswer2": "kop olchamli",
+    "noAnswer3": "muvozanatlangan"
+  },
+  {
+    "question": "Daraxt ko‘ruvini amalga oshirish uchun nechta prosedurani bajarish lozim?",
+    "answer": 3,
+    "noAnswer1": 4,
+    "noAnswer2": 2,
+    "noAnswer3": 5
+  },
+  {
+    "question": " Agar elementlar daraxtga kalit qiymatlari o‘sish (kamayish) tartibida kelib tushgan bo‘lsa, u holda daraxt qaysi tomonga yo‘nalgan ro‘yxat hosil qiladi ?",
+    "answer": "bir tomonga",
+    "noAnswer1": "ikkala tomonga",
+    "noAnswer2": "ortaga",
+    "noAnswer3": "ixtiyoriy"
+  },
+  {
+    "question": " Bir tomonlama yo‘naltirilgan ro‘yxatda chiqishlar soni qanday bo‘ladi",
+    "answer": "N/2",
+    "noAnswer1": "N",
+    "noAnswer2": "2N",
+    "noAnswer3": "N/4"
+  },
+  {
+    "question": " Tugun daraxtda o‘chirilayotganda necha hil variant bo‘lishi mumkin?",
+    "answer": 3,
+    "noAnswer1": 4,
+    "noAnswer2": 5,
+    "noAnswer3": 2
+  },
+  {
+    "question": "Ikkita muvozanatlangan AVL daraxti berilgan bo‘lsin. Ularni birlashtirish natijasida yangi muvozanatlangan qanday daraxt hosil bo‘lishi kerak?",
+    "answer": "binar",
+    "noAnswer1": "kop olchamli",
+    "noAnswer2": "unar",
+    "noAnswer3": "muvozanatlangan"
+  },
+  {
+    "question": "Binar daraxt ustida amal bajarish qiyinligi uning nimasiga to‘g‘ri proporsional?",
+    "answer": "balandligiga",
+    "noAnswer1": "nomeriga",
+    "noAnswer2": "yuzasiga",
+    "noAnswer3": "hajmiga"
+  },
+  {
+    "question": " Agar daraxtning o‘ng va chap qism daraxtlari bosqichlari va vazni teng bo‘lsa, u holda bunday binar daraxt qanday muvozanatlangan daraxt deyiladi?",
+    "answer": "ideal",
+    "noAnswer1": "normal",
+    "noAnswer2": "yuqori",
+    "noAnswer3": "quyi"
+  },
+  {
+    "question": " Binar daraxt muvozanatlangan deyiladi, agar uning ixtiyoriy bir tugunining xar ikkala qism daraxti balandligi farqi nechaga teng bo‘lsa?",
+    "answer": 1,
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "Ideal muvozanatlangan daraxtda xar bir tugundan chiquvchi qism daraxtlar nimasiga teng xisoblanadi?",
+    "answer": "balandlik",
+    "noAnswer1": "yuza",
+    "noAnswer2": "hajmi",
+    "noAnswer3": "orni"
+  },
+  {
+    "question": " Nechanchi yili muvozanatlangan AVL daraxtni taklif etishgan?",
+    "answer": 1962,
+    "noAnswer1": 1982,
+    "noAnswer2": 1968,
+    "noAnswer3": 1958
+  },
+  {
+    "question": "AVL daraxtida xar bir tugunning o‘ng va chap qism daraxtlari balandliklari orasidagi farq nechchidan katta emas. ",
+    "answer": 1,
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": " Ildizdan to eng pastgi tugungacha bo‘lgan tugunlar soni nima?",
+    "answer": "balandlik",
+    "noAnswer1": "qiymati",
+    "noAnswer2": "tartib nomeri",
+    "noAnswer3": "yuza"
+  },
+  {
+    "question": " Agar daraxt balandligi nechaga teng bo‘lsa, hech bo‘lmaganda 5ta taqqoslashni bajarishga to‘g‘ri keladi?",
+    "answer": 5,
+    "noAnswer1": 6,
+    "noAnswer2": 4,
+    "noAnswer3": 3
+  },
+  {
+    "question": "Eng oddiy holatda daraxtni shunday qurish mumkinki, bunda uning balandligi elementlar soniga teng bo‘ladi va daraxt necha bog‘lamli ro‘yhatli bo‘lib chiqadi?",
+    "answer": 1,
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "AVL-daraxtidan tugunni o‘chirish oddiy ikkilik daraxtidan shunga o‘xshash operatsiyani amalga oshirishdan ancha murakkab bo‘lib, necha bosqichlarni o‘z ichiga oladi?",
+    "answer": 3,
+    "noAnswer1": 2,
+    "noAnswer2": 4,
+    "noAnswer3": 5
+  },
+  {
+    "question": " new_node funksiyasi qanday tugunni yaratish uchun qo‘llaniladi?",
+    "answer": "yangi",
+    "noAnswer1": "qoshimcha",
+    "noAnswer2": "ikkitalik",
+    "noAnswer3": "sodda"
+  },
+  {
+    "question": "Burib muvozanatlash algoritmining nechta usullari mavjud?",
+    "answer": 4,
+    "noAnswer1": 5,
+    "noAnswer2": 3,
+    "noAnswer3": 6
+  },
+  {
+    "question": "AVL daraxtda xar bir tugunning muvozanatlanganlik koeffisiyenti qanaqa to‘plamdan qiymat qabul qiladi ?",
+    "answer": "(-1, 0, 1)",
+    "noAnswer1": "(-1, 1)",
+    "noAnswer2": "(-2,-1, 0, 1,2)",
+    "noAnswer3": 0
+  },
+  {
+    "question": "Agar bit maydonida nechchi yozilgan bo‘lsa, demak, left va right ko‘rsatgichlar shu tugunni o‘ng va chap qism daraxtlarini ko‘rsatadilar?",
+    "answer": 0,
+    "noAnswer1": 1,
+    "noAnswer2": 2,
+    "noAnswer3": -1
+  },
+  {
+    "question": "… bu biror obyekt, jarayon, xodisa yoki voqeylikni ifodalab beruvchi belgi yoki belgilar majmuasi",
+    "answer": " Malumot",
+    "noAnswer1": "Jadval",
+    "noAnswer2": "Yuklama",
+    "noAnswer3": "Subyekt"
+  },
+  {
+    "question": "… bu tuzilmani tashkil qiluvchi elementlar va ular orasidagi bog`liqlikni ko'rsatib beruvchi munosabat ",
+    "answer": "Malumotlar tuzilmasi",
+    "noAnswer1": "Algaritm",
+    "noAnswer2": "Modulyar qism",
+    "noAnswer3": "Modul"
+  },
+  {
+    "question": "… bu tadqiq etilayaotgan obyekt, jarayonini ma'lum bir qonuniyatlar orqali ifodalash",
+    "answer": "Abstrakt qism",
+    "noAnswer1": "Obyekt",
+    "noAnswer2": "Modulyar qism",
+    "noAnswer3": "Malumotlar tuzilmasi"
+  },
+  {
+    "question": "Ma`lumotlar tuzilmasini …. tasvirlash - bunda qaralayotgan ma`lumotlar tuzilmasi kompyuter xotirasida, aniqrog`I operativ xotirada qanday joylashishi tushuniladi.",
+    "answer": "Fizik",
+    "noAnswer1": "Matematik",
+    "noAnswer2": "A va B ",
+    "noAnswer3": "Barchasi tog`ri"
+  },
+  {
+    "question": "Ma‘lumotlar tuzilmasini …. tasvirlash - bu tuzilmani biror bir dasturlash tilida ifodalashdir.",
+    "answer": "Mantiqiy",
+    "noAnswer1": "An`anaviy",
+    "noAnswer2": "Modulli",
+    "noAnswer3": "Maqsadli"
+  },
+  {
+    "question": "…  ko‘rinishidagi ma‘lumotlar tuzilmasi- bu shunday tuzilmaki , uning elementlari orasida hyech qanday munosabat o‘rnatilmagan.",
+    "answer": "To`plam",
+    "noAnswer1": "Mantiqiy",
+    "noAnswer2": "Rost",
+    "noAnswer3": "Yolg'on"
+  },
+  {
+    "question": "… – shunday\nabstrakt tuzilmaki, bunda R to‘plam faqatgina bita chiziqli\nmunosabatdan iborat (ya‘ni,  birinchi va ohirgi elementdan tashqari har bir element uchun o‘zidan oldin va keyinkeladigan element mavjud.",
+    "answer": "Ketma-ketlik",
+    "noAnswer1": "To`plam",
+    "noAnswer2": "Matematik",
+    "noAnswer3": "Fizik"
+  },
+  {
+    "question": "...– shunday tuzilmaki, bunda R munosabatlar\nto‘plami ikkita chiziqli munosabatdan tashkil topgan\nbo‘ladi.",
+    "answer": "Matritsa",
+    "noAnswer1": "To`plam",
+    "noAnswer2": "Matematik",
+    "noAnswer3": "Algoritm"
+  },
+  {
+    "question": "...– bunda R to‘plam iyerarxik tartibdagi bitta\nmunosabatdan tashkil topgan tuzilmadir.",
+    "answer": "Daraxt",
+    "noAnswer1": "Dik",
+    "noAnswer2": "Mik",
+    "noAnswer3": "Matritsa"
+  },
+  {
+    "question": "..– bunda R munosabatlar to‘plami faqatgina bitta binar tartibli munosabatdan tashkil topgan bo‘ladi",
+    "answer": "Graf",
+    "noAnswer1": "Daraxt",
+    "noAnswer2": "Dik",
+    "noAnswer3": "Ildiz"
+  },
+  {
+    "question": "...– bu shunday ma‘lumotlar tuzilmasiki, bunda R to‘plam ikki yoki undan ortiq turli tartibdagi munosabatlardan tashkil topgan bo‘ladi.",
+    "answer": "Gipergraf",
+    "noAnswer1": "Funksiya",
+    "noAnswer2": "Modul",
+    "noAnswer3": "Ildiz"
+  },
+  {
+    "question": "Ma`lumotlar tuzilmasini … qilish -ma‘lumotlar tuzilmasini bir jinsli guruhlarga ajratish jarayoni",
+    "answer": "Klassifikatsiya",
+    "noAnswer1": "Modulyatsiya",
+    "noAnswer2": "Demodulyatsa",
+    "noAnswer3": "Klassik"
+  },
+  {
+    "question": "… ma‘lumotlar tuzilmasi - dastur bajarilishi mobaynida tuzilma elementlari soni va/yoki ular orasidagi munosabatlar o‘zgaradi.",
+    "answer": "Dinamik",
+    "noAnswer1": "Statik",
+    "noAnswer2": "Yumshoq",
+    "noAnswer3": "Qattiq"
+  },
+  {
+    "question": "… ma‘lumotlar tuzilmasi - dastur bajarilishi obaynida tuzilmani tashkil etuvchi elementlar, ular orasidagi munosabatlar o‘zgarmaydi.",
+    "answer": "Statik",
     "noAnswer1": "Dinamik",
-    "noAnswer2": "statik va dinamik",
-    "noAnswer3": "texnik"
+    "noAnswer2": "Modulyar qism",
+    "noAnswer3": "Barchasi tog`ri"
   },
   {
-    "question": "Kichik kirish signallariga yuqori chiqish signallari mos keladigan mantiqiy element............deb ataladi.",
-    "answer": "inversiya",
-    "noAnswer1": "mantiqiy qo’shuvchi",
-    "noAnswer2": "mantiqiy ko’paytiruvchi",
-    "noAnswer3": "takrorlovchi"
+    "question": "Ma‘lumotlarni standart turlari…",
+    "answer": "haqiqiy, mantiqiy, belgili\n(simvol), ko‘rsatkichli",
+    "noAnswer1": "bir va ko`p o'zgaruvchilik",
+    "noAnswer2": "Qismli",
+    "noAnswer3": "Bo'lakli"
   },
   {
-    "question": "Yarimo’tkazgichli asbob – kuchaytirgichlari eng birinchi nechanchi yilda ishlab chiqilgan?",
-    "answer": "1947-yilda",
-    "noAnswer1": "1942-yilda",
-    "noAnswer2": "1938-yilda",
-    "noAnswer3": "1953-yilda"
+    "question": "… – bu butun sonlar to‘plamini qandaydir qism\nto‘plamini ifodalab, uning qiymatlar sohasi kompyuter konfigurasiyasiga bog‘liq ravishda o‘zgarib turadi",
+    "answer": "Butun tur",
+    "noAnswer1": "Maxfiy tur",
+    "noAnswer2": "Ochiq tur",
+    "noAnswer3": "Yopiq tur"
   },
   {
-    "question": "Mantiqiy elementlar ishlash prinsipiga ko‘ra –",
-    "answer": "kombinatsion va ketma-ketli qurilmalarga bo‘linadi",
-    "noAnswer1": "sinxron va asinxron qurilmalarga bo‘linadi",
-    "noAnswer2": "kombinatsion va parallel qurilmalarga bo‘linadi",
-    "noAnswer3": "ketma-ketli va parallel qurilmalarga bo‘linadi"
+    "question": "… – mazkur turga kasr qismlari bor chekli sonlar\nto‘plami kiradi. To‘plamni chekli bo‘lish sharti\nkompyuterda sonlarni ifodalash chegaralanganligi\nbilan bog‘liq.",
+    "answer": "Haqiqiy tur",
+    "noAnswer1": "Soxta tur",
+    "noAnswer2": "Butun tur",
+    "noAnswer3": "Odatiy tur"
   },
   {
-    "question": "Kombinatsion qurilmalar deb –",
-    "answer": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "noAnswer1": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "noAnswer2": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, ikkita vaqt momentiga ega bo‘lgan mantiqiy qurilmalarga aytiladi.",
-    "noAnswer3": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, vaqt momentiga ega bo‘lgan, xotirali mantiqiy qurilmalarga aytiladi."
+    "question": "… - mazkur tur mantiqiy mulohazalarni to‘g‘ri\nyoki noto‘g‘riliginii aniqlash uchun ishlatilib, ushbu turdagi o‘zgaruvchi 2 ta qiymatdan faqatgina bittasini qabul qiladi: 0 (false) yoki 1 (true).",
+    "answer": "Matiqiy tur",
+    "noAnswer1": "Butun tur",
+    "noAnswer2": "Soxta tur",
+    "noAnswer3": "Ochiq tur"
   },
   {
-    "question": "Qaysi javobda T triggerga to’g’ri ta’rif berilgan?",
-    "answer": "bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi.",
-    "noAnswer1": "universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "noAnswer2": "chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi.",
-    "noAnswer3": "ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma"
+    "question": "… – mazkur tur o‘zgaruvchilari belgili qiymatlarni qabul qilishadi, masalan, harflar, raqamlar, matematik belgilar va boshqalar.",
+    "answer": "Belgili tur",
+    "noAnswer1": "Butun tur",
+    "noAnswer2": "Qiymatsiz tur",
+    "noAnswer3": "Qiymatli tur"
   },
   {
-    "question": "Hajmi ixcham, og’irligi kam, quvvat sarfi kichik, ishonchliligi yuqori.  Qanday qurilmalar shunday xususiyatlarga ega?",
-    "answer": "IMSlar",
-    "noAnswer1": "Tranzistorlar",
-    "noAnswer2": "Diodlar",
-    "noAnswer3": "Analog qurilmalar"
+    "question": "…  – bu tur o‘zgaruvchilari ma‘lumotlarni\nko‘rsatkichlari yoki manzillari (adres) to‘plamini namoyon qiladi,",
+    "answer": "Ko‘rsatkichli tur",
+    "noAnswer1": "Ifodaviy tur",
+    "noAnswer2": "Belgisiz tur",
+    "noAnswer3": "Algoritm"
   },
   {
-    "question": "Qaysi javobda D triggerga to’g’ri ta’rif berilgan?",
-    "answer": "chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi.",
-    "noAnswer1": "universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "noAnswer2": "bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi.",
-    "noAnswer3": "ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma"
+    "question": "… - bu eng sodda statik va chiziqli tartiblangan tuzilma.",
+    "answer": "Vektor",
+    "noAnswer1": "Statika",
+    "noAnswer2": "Dinamika",
+    "noAnswer3": "Ifoda"
   },
   {
-    "question": "Shifrator yoki koder deb nimaga aytiladi?",
-    "answer": "O’nlik, sakkizlik yoki o’n oltitalik sanoq tizimidagi raqamlarni ikkilik yoki ikkilik-o’nlik kodga o’zgartiruvchi kombinatsion mantiqiy qurilma.",
-    "noAnswer1": "Chiqish signallari kirish o’zgaruvchilari kombinatsiyasi bilan belgilanadigan, ikkita vaqt momentiga ega bo’lgan qurilma.",
-    "noAnswer2": "Ikkilik sanoq tizimidagi raqamlarni o’nlik sanoq tizimidagi kodga o’zgartiruvchi kombinatsion mantiqiy qurilma.",
-    "noAnswer3": "Ikkilik koddagi sonlarni qo’shish asosiy arifmetik amalini bajaruvchi kombinatsion qurilma."
+    "question": "… -  elementlari bir turga tegishli, ketma-ket joylashgan va umumiy nomga ega bo‘lgan\ntuzilmadir.",
+    "answer": "Massiv",
+    "noAnswer1": "To`plam",
+    "noAnswer2": "Bo'lak ",
+    "noAnswer3": "Qism"
   },
   {
-    "question": "Operativ xotira qurilmasi qanday turlarga bo’linadi?",
-    "answer": "statik va dinamik",
-    "noAnswer1": "ichki va tashqi",
-    "noAnswer2": "faqat dinamik",
-    "noAnswer3": "sinxron va asinxron"
+    "question": "… - maydon deb ataluvchi chekli sondagi ma‘lumotlar tuzilmasidir. Turli maydon o‘zgaruvchilari turli turga tegishli bo‘lishi mumkin.",
+    "answer": "Yozuv",
+    "noAnswer1": "Massiv",
+    "noAnswer2": "To'plam",
+    "noAnswer3": "Jadval"
   },
   {
-    "question": "Eng birinchi mikroprotsessor nechinchi yilda ishlab chiqilgan?",
-    "answer": "1971-yilda",
-    "noAnswer1": "1972-yilda",
-    "noAnswer2": "1985-yilda",
-    "noAnswer3": "1990-yilda"
+    "question": "… -  bu yozuvning chekli majmuasidir.",
+    "answer": "Jadval",
+    "noAnswer1": "Katak",
+    "noAnswer2": "Yozuv",
+    "noAnswer3": "Belgi"
   },
   {
-    "question": "MDYA tranzistorlari asosida qurilgan 2HAM-EMAS ME sxemasida...",
-    "answer": "pastki VT1 va VT2 tranzistorlar ketma – ket ulanadi",
-    "noAnswer1": "pastki VT1 va VT2 tranzistorlar parallel ulanadi",
-    "noAnswer2": "pastki VT1 va VT2 tranzistorlar ketma – ket va parallel ulanadi.",
-    "noAnswer3": "pastki VT1 va VT2 tranzistorlar alohida ulanadi"
+    "question": "… – bu yozuv identifikatori. Ushbu identifikatorni saqlash uchun maxsus maydon ajratiladi",
+    "answer": "Kalit",
+    "noAnswer1": "Matn",
+    "noAnswer2": "Dinamika",
+    "noAnswer3": "Jadval"
   },
   {
-    "question": "Kombinatsion qurilmalar deb –",
-    "answer": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "noAnswer1": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi.",
-    "noAnswer2": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, ikkita vaqt momentiga ega bo‘lgan mantiqiy qurilmalarga aytiladi.",
-    "noAnswer3": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, vaqt momentiga ega bo‘lgan, xotirali mantiqiy qurilmalarga aytiladi."
+    "question": "... – bu shunday kalitki, u ikkidan ortiq maydonni o‘z ichiga oladi.",
+    "answer": "Qo`shimcha kalit",
+    "noAnswer1": "Kalit",
+    "noAnswer2": "Yozuv kaliti",
+    "noAnswer3": "Qulf"
   },
   {
-    "question": "Mantiqiy elementlar ishlash prinsipiga ko‘ra –",
-    "answer": "kombinatsion va ketma-ketli qurilmalarga bo‘linadi",
-    "noAnswer1": "sinxron va asinxron qurilmalarga bo‘linadi",
-    "noAnswer2": "kombinatsion va parallel qurilmalarga bo‘linadi",
-    "noAnswer3": "ketma-ketli va parallel qurilmalarga bo‘linadi"
+    "question": "… – bu bir turga tegishli bo‘lgan elementlar ketma-\nketligidir.",
+    "answer": "Ro`yxat",
+    "noAnswer1": "Jadval",
+    "noAnswer2": "Satr",
+    "noAnswer3": "Yozuv"
   },
   {
-    "question": "O‘nlik, sakkizlik yoki o‘n oltitalik sanoq tizimidagi raqamlarni ikkilik yoki ikkilik-o‘nlik kodga o‘zgartiruvchi kombinatsion mantiqiy qurilma",
-    "answer": "shifrator yoki koder deb ataladi.",
-    "noAnswer1": "deshifrator yoki dekoder deb ataladi.",
-    "noAnswer2": "multipleksor deb ataladi.",
-    "noAnswer3": "demultipleksor deb ataladi."
+    "question": "FIFO - ..",
+    "answer": "Firs input - First output",
+    "noAnswer1": "Firs Inter First Output",
+    "noAnswer2": "A va B",
+    "noAnswer3": "Barchasi tog`ri"
   },
   {
-    "question": "Ikkilik sanoq tizimidagi raqamlarni o‘nlik sanoq tizimidagi raqamga  o‘zgartiruvchi kombinatsion mantiqiy qurilma",
-    "answer": "deshifrator yoki dekoder deb ataladi.",
-    "noAnswer1": "shifrator yoki koder deb ataladi.",
-    "noAnswer2": "multipleksor deb ataladi.",
-    "noAnswer3": "demultipleksor deb ataladi."
+    "question": ".. – bunda tizimga kelib tushgan birinchi talabga\nbirinchi bo‘lib xizmat ko‘rsatiladi va tizimdan\nchiqariladi",
+    "answer": "Navbat",
+    "noAnswer1": "Qator",
+    "noAnswer2": "Bosqich",
+    "noAnswer3": "Baxo"
   },
   {
-    "question": "Agar shifrator n ta chiqishga ega bo‘lsa, u holda uning kirishlari soni…..",
-    "answer": "  dan kam bo‘lmasligi kerak",
-    "noAnswer1": "dan kam bo‘lmasligi kerak",
-    "noAnswer2": "chiqishlari soniga teng bo’lishi kerak",
-    "noAnswer3": "chiqishlari sonidan kam bo‘lishi kerak"
+    "question": "…  - bunda tizimga kelib\ntushgan oxirgi talabga birinchi\nbo‘lib xizmat ko‘rsatiladi va\ntizimdan chiqariladi.",
+    "answer": "Stek",
+    "noAnswer1": "Dek",
+    "noAnswer2": "MEK",
+    "noAnswer3": "Jadval"
   },
   {
-    "question": "Multipleksor –",
-    "answer": "bir necha manbadan berilayotgan ma'lumotlarni bitta chiqish kanaliga uzatishni boshqarish uchun mo‘ljallangan",
-    "noAnswer1": "bir necha manbadan berilayotgan ma'lumotlarni bitta kirish kanaliga uzatishni boshqarish uchun mo‘ljallangan",
-    "noAnswer2": "bir necha manbadan berilayotgan ma'lumotlarni ikkita chiqish kanaliga uzatishni boshqarish uchun mo‘ljallangan",
-    "noAnswer3": "bitta manbadan berilayotgan ma'lumotlarni bitta chiqish kanaliga uzatishni boshqarish uchun mo‘ljallangan"
+    "question": "… – bu ikki chetga ega bo‘lgan navbatdir. Talabga\nxizmat ko‘rsatish tizimning har ikkala tomonidan amalga oshirilishi mumkin.",
+    "answer": "Dek",
+    "noAnswer1": "Stek",
+    "noAnswer2": "Rep",
+    "noAnswer3": "MEK"
   },
   {
-    "question": "Demultipleksor",
-    "answer": "bir kanaldan qabul qilingan ma'lumotlarni bir necha qabul qilgichlarga taqsimlash vazifasini (ya'ni multipleksiyalashga teskari bo‘lgan amal) bajarish uchun mo‘ljallangan",
-    "noAnswer1": "bir necha kanaldan qabul qilingan ma'lumotlarni bitta qabul qilgichga taqsimlash vazifasini bajarish uchun mo‘ljallangan",
-    "noAnswer2": "bir nechta kanaldan qabul qilingan ma'lumotlarni boshka kanalga taqsimlash vazifasini bajarish uchun mo‘ljallangan",
-    "noAnswer3": "bir nechta kanaldan qabul qilingan ma'lumotlarni bir vaqtning o’zida bir nechta qabul qilgichga taqsimlash vazifasini bajarish uchun mo‘ljallangan"
+    "question": "… – bunda ro‘yxatni tashkil etuvchi elementlar orasidagi bog‘liqlik ko‘rsatkichlar orqali amalga\noshiriladi.",
+    "answer": "Bog‘langan ro‘yxat",
+    "noAnswer1": "Belgili ro`yxat",
+    "noAnswer2": "Jadvalli ro`yxat",
+    "noAnswer3": "tog`ri javob yo`q"
   },
   {
-    "question": "Arifmetik va mantiqiy amallarni bajaradigan qurilma….",
-    "answer": "arifmetik-mantiqiy qurilma (AMQ) deb ataladi",
-    "noAnswer1": "arifmetik qurilma (AQ) deb ataladi",
-    "noAnswer2": "mantiqiy qurilma (MQ) deb ataladi",
-    "noAnswer3": "xotira qurilmasi deb ataladi"
+    "question": "… ro‘yxat – bunda tuzilma elementlari ko‘pi bilan tuzilmaning m ta elementi bilan bog‘langan bo‘ladi",
+    "answer": " m bog`lamli",
+    "noAnswer1": "Ko`p bog`lamli",
+    "noAnswer2": "Jadvalli ro`yxat",
+    "noAnswer3": "Barchasi tog`ri"
   },
   {
-    "question": "Sodda amallar ketma-ketligi ko‘rinishida ifodalangan masalalarni avtomatik ravishda yechish uchun berilganlarni, oraliq va olingan hisoblash natijalarini saqlashga, hamda oddiy amallarni bajarish tartibi haqidagi ma'lumotlarni saqlashga imkon beruvchi qurilmaga….",
-    "answer": "xotira deb ataladi",
-    "noAnswer1": "arifmetik qurilma (AQ) deb ataladi",
-    "noAnswer2": "mantiqiy qurilma (MQ) deb ataladi",
-    "noAnswer3": "arifmetik-mantiqiy qurilma (AMQ) deb ataladi"
+    "question": "… – bunda ro‘yxatni tashkil etuvchi elementlar mavjud emas.",
+    "answer": " Bo‘sh ro‘yxat ",
+    "noAnswer1": "Belgili ro`yxat",
+    "noAnswer2": "Jadvalli ro`yxat",
+    "noAnswer3": "Barchasi tog`ri"
   },
   {
-    "question": "Ketma – ketli qurilmalar deb,",
-    "answer": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, hozirgi va oldingi vaqt momentlari uchun, ya'ni kirish o‘zgaruvchilarining kelish tartibi bilan belgilanadigan, xotirali mantiqiy qurilmalarga aytiladi.",
-    "noAnswer1": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, hozirgi va oldingi vaqt momentlari uchun, ya'ni kirish o‘zgaruvchilarining kelish tartibi bilan belgilanadigan, xotirali mantiqiy qurilmalarga aytiladi.",
-    "noAnswer2": "kirish signallari chiqish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, hozirgi va oldingi vaqt momentlari uchun, ya'ni chiqish  o‘zgaruvchilarining kelish tartibi bilan belgilanadigan, xotirali mantiqiy qurilmalarga aytiladi.",
-    "noAnswer3": "chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan belgilanadigan, hozirgi va oldingi vaqt momentlari uchun, ya'ni chiqish o‘zgaruvchilarining kelish tartibi bilan belgilanadigan, xotirasiz mantiqiy qurilmalarga aytiladi."
+    "question": "… – bunda ro‘yxatni tashkil etuvchi elementlar orasidagi bog‘liqlik qat‘iy tartiblangan bo‘lib,\nelement ko‘rsatkichi o‘zidan bitta navbatdagi yoki bitta oldingi element adresini o‘z ichiga oladi.",
+    "answer": "Chizili ro‘yxat ",
+    "noAnswer1": "Belgili ro`yxat",
+    "noAnswer2": "Jadvalli ro`yxat",
+    "noAnswer3": "Barchasi tog`ri"
   },
   {
-    "question": "Ketma – ketli qurilmalarga qaysilar kiradi ?",
-    "answer": "triggerlar, registrlar va hisoblagichlar",
-    "noAnswer1": "demultipleksor, multipleksor, trigger",
-    "noAnswer2": "shifrator, deshifrator, trigger",
-    "noAnswer3": "jamlagich, yarimjamlagich, shifrator"
+    "question": "… -  ro‘yxat elementlari ko‘rsatkichlari maydoni\nyagona bo‘ladi",
+    "answer": "Bir bog‘lamli ro‘yxat",
+    "noAnswer1": "ko`p bog`lamli",
+    "noAnswer2": "Ayana yo`nalgan ",
+    "noAnswer3": "Qattiq ro`yxat"
   },
   {
-    "question": "Triggerlar…",
-    "answer": "ikkita turg‘un holatli chiqishga ega bo‘lgan qurilma bo‘lib, u elementar xotira yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega.",
-    "noAnswer1": "bitta turg‘un holatli kirishga ega bo‘lgan qurilma bo‘lib, u elementar xotira yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega.",
-    "noAnswer2": "bitta turg‘un holatli chiqishga ega bo‘lgan qurilma bo‘lib, u elementar xotira yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega.",
-    "noAnswer3": "uchta turg‘un holatli chiqishga ega bo‘lgan qurilma bo‘lib, u elementar xotira yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega emas."
+    "question": "... – chiziqli ro‘yxatda eng so‘ngi elementning ko‘rsatkichlari maydoniga ro‘yxatning birinchi elementi manzili o‘zlashtirilgan bo‘ladi.",
+    "answer": "Halqasimon ro‘yxat",
+    "noAnswer1": "Bir bog‘lamli ro‘yxat",
+    "noAnswer2": "ko`p bog`lamli",
+    "noAnswer3": "Ayana yo`nalgan "
   },
   {
-    "question": "RS-trigger – ikkita boshqaruv kirishiga ega:",
-    "answer": "S (set-o‘rnatish) – triggerni mustaqil  ravishda 1  holatiga o‘rnatadi; R (reset-olib tashlash) – triggerni mustaqil ravishda 0  holatiga o‘rnatadi.",
-    "noAnswer1": "S (set-o‘rnatish) – triggerni mustaqil  ravishda 0  holatiga o‘rnatadi; R (reset-olib tashlash) – triggerni mustaqil ravishda 1  holatiga o‘rnatadi.",
-    "noAnswer2": "S (set-o‘rnatish); R (reset-olib tashlash) – navbatdagi kirish impulsi kelishi bilan holatni qarama-qarshisiga o‘zgartiradi.",
-    "noAnswer3": "S (set-o‘rnatish) – navbatdagi kirish impulsi kelishi bilan holatni qarama-qarshisiga o‘zgartiradi; R (reset-olib tashlash) – bitta ma'lumot kirishiga ega."
+    "question": " ...- bu elementlari soni bir hil faqatgina teskari ketma- ketlikda yozilgan ikkita bir bog‘lamli ro‘yxatdir.",
+    "answer": "Ikki bog‘lamli ro‘yxat",
+    "noAnswer1": "Bir bog‘lamli ro‘yxat",
+    "noAnswer2": "ko`p bog`lamli",
+    "noAnswer3": "Belgili ro`yxat"
   },
   {
-    "question": "JK-trigger – ikkita boshqaruv kirishiga ega bo‘lgan universal trigger:",
-    "answer": "J (jamp -kutilmagan ulanish) - triggerni mustaqil 1 holatga o‘rnatadi; K (kill -kutilmagan uzilish) - triggerni mustaqil 0 holatga o‘rnatadi.",
-    "noAnswer1": "J (jamp -kutilmagan ulanish) - triggerni mustaqil 0 holatga o‘rnatadi; K (kill -kutilmagan uzilish) - triggerni mustaqil 1 holatga o‘rnatadi.",
-    "noAnswer2": "J (jamp -kutilmagan ulanish) – bitta ma'lumot kirishiga ega; K (kill -kutilmagan uzilish) – navbatdagi kirish impulsi kelishi bilan holatni qarama-qarshisiga o‘zgartiradi.",
-    "noAnswer3": "J (jamp -kutilmagan ulanish)  – navbatdagi kirish impulsi kelishi bilan holatni qarama-qarshisiga o‘zgartiradi; K (kill -kutilmagan uzilish) – bitta ma'lumot kirishiga ega."
+    "question": "… - uzilmani har bir elementi boshqa ixtiyoriy elementga va aksincha, har bir elementga tuzilmaning ixtiyoriy sondagi elementi murojaat qilishi mumkin.",
+    "answer": "Chiziqsiz ma‘lumotlar\ntuzilmasi",
+    "noAnswer1": "Belgili  ma‘lumotlar\ntuzilmasi",
+    "noAnswer2": "Ro`yxatli  ma‘lumotlar\ntuzilmasi",
+    "noAnswer3": "Oniy  ma‘lumotlar\ntuzilmasi"
   },
   {
-    "question": "Navbatdagi kirish impulsi kelishi bilan holatini qarama-qarshisiga o‘zgartiradi",
-    "answer": "T-trigger",
-    "noAnswer1": "D-trigger",
-    "noAnswer2": "JK-trigger",
-    "noAnswer3": "RS-trigger"
+    "question": "Qanday tushunchani birinchi marotaba 1936 yil vengriya matematigi Denni Kyonig kiritgan?",
+    "answer": "Graf",
+    "noAnswer1": "daraxt soni",
+    "noAnswer2": "ildiz",
+    "noAnswer3": "navbat"
   },
   {
-    "question": "Kirishlariga berilayotgan impulslarni hisoblashni amalga oshiradigan qurilma",
-    "answer": "hisoblagich",
-    "noAnswer1": "registr",
-    "noAnswer2": "trigger",
-    "noAnswer3": "shifrator"
+    "question": "isEmpty() ni vazifasi?",
+    "answer": "navbatni bo‘shlikka tekshirish",
+    "noAnswer1": "navbatni tozalash",
+    "noAnswer2": "navbatni ochirish"
   },
   {
-    "question": "Ketma-ket turdagi  raqamli qurilma bo‘lib, ko‘p razryadli ikkilik sonlar ko‘rinishidagi ma'lumotlarni eslab qolish va vaqtincha xotirada saqlash uchun ishlatiladigan qurilma",
-    "answer": "registr",
-    "noAnswer1": "Multipleksor",
-    "noAnswer2": "trigger",
-    "noAnswer3": "shifrator"
+    "question": "enqueue(el) ni vazifasi.?",
+    "answer": "el elementni navbatga joylashtirish",
+    "noAnswer1": "navbatni ochirish",
+    "noAnswer2": "navbatni tozalash",
+    "noAnswer3": "navbatga joylashtirish"
   },
   {
-    "question": "Qaysi javobda JK triggerga to’g’ri ta’rif berilgan?",
-    "answer": "universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.",
-    "noAnswer1": "chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi.",
-    "noAnswer2": "ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma",
-    "noAnswer3": "bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi."
+    "question": "dequeue() ni vazifasi.?",
+    "answer": "navbatdan birinchi elementni olish",
+    "noAnswer1": "navbatdan ikkinchi elementni olish",
+    "noAnswer2": "navbatdan uchinchi elementni olish",
+    "noAnswer3": "navbatdan tortinchi elementni olish"
   },
   {
-    "question": "Universal trigger hisoblanadi chunki uning asosida sodda kommutatsion o‘zgartirishlarni bajarib, ixtiyoriy turdagi trigger hosil qilish mumkin.  Ushbu ta’rif qaysi triggerga berilgan?",
-    "answer": "JK",
-    "noAnswer1": "RS",
-    "noAnswer2": "D",
-    "noAnswer3": "T"
+    "question": "Navbatning birinchi elementini uni o‘chirmasdan qaytaradi?",
+    "answer": "firstEl()",
+    "noAnswer1": "isEmpty()",
+    "noAnswer2": "clear()",
+    "noAnswer3": "dequeue()"
   },
   {
-    "question": "Chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi, ya’ni kechikish mavjud. Shunga asosan bu trigger kechikish triggeri deb ataladi. Ushbu ta’rif qaysi triggerga berilgan?",
-    "answer": "D",
-    "noAnswer1": "RS",
-    "noAnswer2": "JK",
-    "noAnswer3": "T"
+    "question": "Next  ni vazifasi?.",
+    "answer": "keyingi elementga ko‘rsatkich",
+    "noAnswer1": "elementga ko‘rsatkich",
+    "noAnswer2": "so'ngi elementga ko‘rsatkich",
+    "noAnswer3": "7- elementga ko‘rsatkich"
   },
   {
-    "question": "Bu trigger kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi. Ushbu ta’rif qaysi triggerga berilgan?",
-    "answer": "T",
-    "noAnswer1": "RS",
-    "noAnswer2": "JK",
-    "noAnswer3": "D"
+    "question": "Balandlik bu nima.?",
+    "answer": "bu daraxt bosqichi soni",
+    "noAnswer1": "daraxt soni",
+    "noAnswer2": "shoxlari",
+    "noAnswer3": "daraxt ildizlri"
   },
   {
-    "question": "Ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma bu?",
-    "answer": "Bistabil yacheyka",
-    "noAnswer1": "Shifrator",
-    "noAnswer2": "Deshifrator",
-    "noAnswer3": "Multipleksor"
+    "question": "Tugun balandligi  bu?",
+    "answer": "height",
+    "noAnswer1": "width",
+    "noAnswer2": "left",
+    "noAnswer3": "right"
   },
   {
-    "question": "Bistabil yacheykaga berilgan to’g’ri ta’rifni toping",
-    "answer": "Ikkita turg‘un holatga ega bir-biri bilan o‘zaro kesishib ketgan, teskari aloqalari mavjud bo‘lgan ikkita invertorli xotirasiz mantiqiy qurilma",
-    "noAnswer1": "Kirishiga aktiv mantiqiy signal berilganda u o‘z holatini  qarama-qarshi (teskari) holatga o‘zgartiradi.",
-    "noAnswer2": "Chiqishidagi ma’lumot navbatdagi sinxrosignal kelguncha o‘zgarishsiz qoladi",
-    "noAnswer3": "Mikroprotsessor tomonidan qayta ishlayotgan unchalik katta bo’lmagan xajmdagi ma’lumotlarni saqlashga mo’ljallangan qurilma.\r\nMurakkab fikrlar qanday belgilanadi va nima deb ataladi."
+    "question": "R(right)-ni vazifasi qanday?",
+    "answer": "bir marta o‘ngga burash",
+    "noAnswer1": "bir marta chapga burash",
+    "noAnswer2": "chapga va o‘ngga burish",
+    "noAnswer3": "o‘ngga va chapga burish"
+  },
+  {
+    "question": "L(right)-ni vazifasi qanday?",
+    "answer": "bir marta chapga burash",
+    "noAnswer1": "bir marta o‘ngga burash",
+    "noAnswer2": "chapga va o‘ngga burish",
+    "noAnswer3": "chapga va o‘ngga burish"
+  },
+  {
+    "question": "L(left) R(right)-ni vazifasi qanday?",
+    "answer": "chapga va o‘ngga burish",
+    "noAnswer1": "chapga va o‘ngga burish",
+    "noAnswer2": "bir marta chapga burash",
+    "noAnswer3": "bir marta o‘ngga burash"
+  },
+  {
+    "question": "R(right) L(left)-ni vazifasi qanday?",
+    "answer": "chapga va o‘ngga burish",
+    "noAnswer1": "chapga va o‘ngga burish",
+    "noAnswer2": "bir marta chapga burash",
+    "noAnswer3": "bir marta o‘ngga burash"
+  },
+  {
+    "question": "Vertex Degree-qanday manoni anglatadi?",
+    "answer": "tugun darajasi",
+    "noAnswer1": "tugun va tugunlar",
+    "noAnswer2": "tugun qiymati",
+    "noAnswer3": "tugun soni"
+  },
+  {
+    "question": "Bironta tugundan boshqa bir tugungacha bo'lgan yonma-yon joylashgan tugunlar ketma-ketligi nima?",
+    "answer": "Yo'l",
+    "noAnswer1": "daraxt soni",
+    "noAnswer2": "ildiz",
+    "noAnswer3": "navbat"
+  },
+  {
+    "question": "Qanday tushunchani birinchi marotaba 1936 yil vengriya matematigi Denni Kyonig kiritgan?",
+    "answer": "Graf",
+    "noAnswer1": "daraxt soni",
+    "noAnswer2": "ildiz",
+    "noAnswer3": "navbat"
+  },
+  {
+    "question": "clear() ni vazifasi.?",
+    "answer": "navbatni tozalash",
+    "noAnswer1": "navbatni ochirish",
+    "noAnswer2": "ayirish",
+    "noAnswer3": "qoshish"
+  },
+  {
+    "question": "Boshi va oxiri tutashuvchi tugundan iborat yo'l nima hisoblanadi?",
+    "answer": "Halqa(crcle)",
+    "noAnswer1": "Vertex Degree(tugun darajasi)",
+    "noAnswer2": "root(ildiz)",
+    "noAnswer3": "left(chap)"
+  },
+  {
+    "question": " Istalgan tugunlari qo'shni bo'lgan graf xisoblanadi yani barcha tugunlar o'zaro birlashtirilgan bo'lsa bu..?",
+    "answer": "To'liq graf (complete graph)",
+    "noAnswer1": "yagona graf(only graph)",
+    "noAnswer2": "yarim graf(half graph)",
+    "noAnswer3": "graf(graph)"
+  },
+  {
+    "question": " int main(){\nint n = 757, x, y, z;\nx = n / 100;\ny = n / 10 % 10;\nz = n % 10;\nbool OK = x != y && y != z;\ncout << OK;\nreturn 0;  } Ushbu dastur natijasini toping\n",
+    "answer": 1,
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "Malumotlarni tasvirlash bosqichlari nechta ",
+    "answer": "3.",
+    "noAnswer1": "4.",
+    "noAnswer2": "5.",
+    "noAnswer3": "6."
+  },
+  {
+    "question": "Ob’yekt, xodisa yoki biror bir jarayonni matematik formulalar orqali ifodalash qaysi bosqichga kiradi",
+    "answer": " abstrak ",
+    "noAnswer1": "mantiqiy",
+    "noAnswer2": "fizik   ",
+    "noAnswer3": "modul"
+  },
+  {
+    "question": "Ma’lumotlar tuzilmasini biror  bir  dasturlash  tilida  ifodalanishi qaysi bosqichga kiradi",
+    "answer": "mantiqiy",
+    "noAnswer1": " abstrak ",
+    "noAnswer2": "fizik   ",
+    "noAnswer3": "modul"
+  },
+  {
+    "question": " Qaysi bosqichda EXM  xotirasi chekli bo`lganligi sababli, xotirani taqsimlash va uni boshqarish muammosi hal qiladi",
+    "answer": "fizik   ",
+    "noAnswer1": " abstrak ",
+    "noAnswer2": "mantiqiy",
+    "noAnswer3": "modul"
+  },
+  {
+    "question": " ......-biror bir ob’yekt, jarayon, xodisa yoki voqelikni ifodalab beruvchi belgi yoki belgilar majmuasidir.Nuqtalar o’rniga mos javobni qo’ying.¬¬¬¬",
+    "answer": "Malumot",
+    "noAnswer1": " axborot ",
+    "noAnswer2": "qoida",
+    "noAnswer3": "mantiqiy fayl"
+  },
+  {
+    "question": "Butun sonlar tipini ko’rsating",
+    "answer": "int",
+    "noAnswer1": "float",
+    "noAnswer2": "bool",
+    "noAnswer3": "char"
+  },
+  {
+    "question": ".Xaqiqiy sonlar tipini ko’rasting",
+    "answer": "float",
+    "noAnswer1": "int",
+    "noAnswer2": "bool",
+    "noAnswer3": "char"
+  },
+  {
+    "question": "Mantiqiy sonlar tipini ko’rsating",
+    "answer": "bool",
+    "noAnswer1": "int",
+    "noAnswer2": "float",
+    "noAnswer3": "char"
+  },
+  {
+    "question": "Belgili sonlar tipini ko’rsating",
+    "answer": "char",
+    "noAnswer1": "bool",
+    "noAnswer2": "float",
+    "noAnswer3": "int"
+  },
+  {
+    "question": ".Butun  sonlar turi qanday turga bo’linadi",
+    "answer": "ishorali va ishorasiz",
+    "noAnswer1": "musbat va manfiy ",
+    "noAnswer2": " juft va toq  ",
+    "noAnswer3": " hech qanday"
+  },
+  {
+    "question": " Ma’lumotlar tuzilmasi necha xil usulda uzatiladi?",
+    "answer": 4,
+    "noAnswer1": 3,
+    "noAnswer2": 2,
+    "noAnswer3": 1
+  },
+  {
+    "question": " Foydalanuvchi tomonidan aniqlanadigan toifalar necha xil?",
+    "answer": 2,
+    "noAnswer1": 4,
+    "noAnswer2": 6,
+    "noAnswer3": 8
+  },
+  {
+    "question": "Foydalanuvchi tomonidan aniqlanadigan toifalar qaysilar?",
+    "answer": "diapozonli va sanaladigan",
+    "noAnswer1": "daraxt va sanalmaydigan",
+    "noAnswer2": " faqat ketma- ket  ",
+    "noAnswer3": "turli xil"
+  },
+  {
+    "question": "C++ dasturlash tilida satrlar chegarasi qancha bo’ladi?",
+    "answer": " 0 dan 255 gacha",
+    "noAnswer1": " 0 dan 256 gacha",
+    "noAnswer2": "0 dan 1024 gacha ",
+    "noAnswer3": "0 dan 512 gacha"
+  },
+  {
+    "question": " Belgili toifalar necha xil bo’ladi?",
+    "answer": 2,
+    "noAnswer1": 15,
+    "noAnswer2": 28,
+    "noAnswer3": "hech qanday"
+  },
+  {
+    "question": " Belgili toifalar qaysilar?",
+    "answer": "o’zlashtirish va taqqoslash   ",
+    "noAnswer1": "faqat taqqoslash  ",
+    "noAnswer2": "toifalar 3 xil bo’ladi ",
+    "noAnswer3": "faqat o’zlashtirish"
+  },
+  {
+    "question": " Stek qanday elon qilinadi?",
+    "answer": "Stack <toifa> stek_nomi;   ",
+    "noAnswer1": "Stack nomi <toifa>",
+    "noAnswer2": "<toifa> Stack nomi  ",
+    "noAnswer3": "xammasi xato"
+  },
+  {
+    "question": "clear() qanday vazifa bajaradi?",
+    "answer": "stekni tozlayadi",
+    "noAnswer1": "stekni yangilaydi ",
+    "noAnswer2": "stekga yangi elemant kiritadi",
+    "noAnswer3": "vazifa bajarmaydi."
+  },
+  {
+    "question": " pop() qanday vazifa bajaradi?",
+    "answer": " stekdan elemantni o’chiradi",
+    "noAnswer1": "stekka element qo’shadi ",
+    "noAnswer2": "stek elementini o’zgartiradi",
+    "noAnswer3": "vazifa bajarmaydi"
+  },
+  {
+    "question": "push(el) qanday vazifa bajaradi?",
+    "answer": " elememnt kiritadi",
+    "noAnswer1": "element tanlaydi ",
+    "noAnswer2": "element o’chiradi ",
+    "noAnswer3": "element o’zgartiradi."
+  },
+  {
+    "question": "Yarimstatik  ma‘lumotlar  tuzilmasiga nimalar kiradi ",
+    "answer": "stek, dek, navbat ",
+    "noAnswer1": "qator, dek, navbat",
+    "noAnswer2": "stek, dek, ustun",
+    "noAnswer3": "qator, dek, ustun"
+  },
+  {
+    "question": "Stek qanday prinsip boyicha ishlaydi",
+    "answer": "oxirgi  kelgan  birinchi  ketadi ",
+    "noAnswer1": " oxirgi  kelgan  oxiri  ketadi",
+    "noAnswer2": "birinchi  kelgan  birinchi  ketadi",
+    "noAnswer3": "birinchi  ketgan  oxiri  keladi"
+  },
+  {
+    "question": "Daturning qiymatini toping?\n#include <iostream>\nusing namespace std;\nint main()\n{\nint a=3,b;\nb=a+3;\ncout>>b;\nreturn 0;}",
+    "answer": 6,
+    "noAnswer1": 5,
+    "noAnswer2": 4,
+    "noAnswer3": 9
+  },
+  {
+    "question": "Qiymatni hisoblang ?\nInt n,S;\ncin>>n;    //5\nS=0;\nfor(int i=0; i<=n;i++)\nS+=I;\ncout<<S;",
+    "answer": 15,
+    "noAnswer1": 16,
+    "noAnswer2": 14,
+    "noAnswer3": 13
+  },
+  {
+    "question": "dastur natijasini toping\n....\nint main()\n{ int a=7;\ncout<<a<<\" \";\ncout<<a++<<\" \";\ncout<<++a;\n    return 0;  }\n",
+    "answer": "7 7 9 ",
+    "noAnswer1": "7 7 7 ",
+    "noAnswer2": "7 9 7 ",
+    "noAnswer3": "7 9 9 "
+  },
+  {
+    "question": "Ushbu dastur natijasi nima chiqadi?\n#include <iostream>\n#include <math.h>\nusing namespace std;\nint main ()\n{int x,y;   //x=132 y=7\ncin>>x>>y;\ncout<<(x%y);\nreturn 0;  }",
+    "answer": 6,
+    "noAnswer1": 1,
+    "noAnswer2": 0,
+    "noAnswer3": "xatolik beradi"
+  },
+  {
+    "question": "Ushbu dastur natijasi nima chiqadi?\n#uinclude <iostream>\nusing namespace std;//a=30 b=40\nint main (){\nint a,b,c;\ncin>>a>>b;\nc=a>b?a:b;\ncout<<c;\nreturn 0;  }",
+    "answer": 40,
+    "noAnswer1": 30,
+    "noAnswer2": 1,
+    "noAnswer3": 0
+  },
+  {
+    "question": "Registorlarni vazifasi nima?",
+    "answer": "Dasturni bajarilish tezligini ortirib beradi ",
+    "noAnswer1": "Dasturni hatoliklarini qidiradi   ",
+    "noAnswer2": "Dasturdagi qo'shimcha ma'lumotlarni birlashtiradi",
+    "noAnswer3": "Dastur uchun hotirani band qilib turadi"
+  },
+  {
+    "question": "Algoritm xossalari nechta?",
+    "answer": 5,
+    "noAnswer1": 4,
+    "noAnswer2": 3,
+    "noAnswer3": 2
+  },
+  {
+    "question": "bitta asosdan tarqalgan tuzilma qaysi tuzlimaga misol bo’ladi?",
+    "answer": "daraxt",
+    "noAnswer1": "ketma ket  ",
+    "noAnswer2": "to’plam",
+    "noAnswer3": "graf"
+  },
+  {
+    "question": "Malumotlar tuzilmasining asosiy ko’rinishi necha turga bo’linadi?",
+    "answer": 6,
+    "noAnswer1": 4,
+    "noAnswer2": 3,
+    "noAnswer3": 2
+  },
+  {
+    "question": "Malumotlar tuzilmalari to’g’ri keltirilgan javobni aniqlang?",
+    "answer": "MMT VA FMT   ",
+    "noAnswer1": "MMT",
+    "noAnswer2": "FMT",
+    "noAnswer3": "xech qanday"
+  },
+  {
+    "question": "Malumotlar tuzilmasi necha xil?",
+    "answer": 2,
+    "noAnswer1": 3,
+    "noAnswer2": 4,
+    "noAnswer3": 5
+  },
+  {
+    "question": "Daraxt ko‘ruvini amalga oshirish uchun nechta prosedurani bajarish kerak?",
+    "answer": 3,
+    "noAnswer1": 2,
+    "noAnswer2": 4,
+    "noAnswer3": 7
+  },
+  {
+    "question": "Daraxtlar ustida bajariladigan amallar necha tur?",
+    "answer": 3,
+    "noAnswer1": 2,
+    "noAnswer2": 5,
+    "noAnswer3": 6
+  },
+  {
+    "question": "Daraxt – bu nima? ",
+    "answer": "bu chiziqsiz bog‘langan ma‘lumotlar tuzilmasidir  ",
+    "noAnswer1": "chiziqli bog’angan malumotlar tuzilmasi   ",
+    "noAnswer2": "ketma ket bog’langan malumotlar tuzilmasi  ",
+    "noAnswer3": "parallel bog’langan malumotlar tuzilmasi"
+  },
+  {
+    "question": "nonRecursiveReverse() har bir iteratsiyada kamida nechta murojaatdan foydalanadi.",
+    "answer": "1 ta  ",
+    "noAnswer1": "foydalanilmaydi",
+    "noAnswer2": "cheksiz foydalaniladi  ",
+    "noAnswer3": "3 ta"
+  },
+  {
+    "question": "Rekursiv ta'riflar nech xil maqsadda xizmat qiladi:",
+    "answer": 2,
+    "noAnswer1": 3,
+    "noAnswer2": 4,
+    "noAnswer3": 6
+  },
+  {
+    "question": "Dumli rekursiya faqatgina nechta rekursiv murojaatni funksiya oxirida qo‘llash         orqali xarakterlanadi.",
+    "answer": 1,
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "aktivatsiya rekordi ishga tushirish vaqti stekida yaratiladi.",
+    "answer": "run-time stack   ",
+    "noAnswer1": "time stack   ",
+    "noAnswer2": "run-time    ",
+    "noAnswer3": "run stack"
+  },
+  {
+    "question": "Dumli rekursiya faqatgina bitta rekursiv murojaatni funksiya qayerida qo‘llaydi",
+    "answer": "oxirida",
+    "noAnswer1": "boshida",
+    "noAnswer2": "ruturn dan keyin  ",
+    "noAnswer3": "int main() dan keyin"
+  },
+  {
+    "question": "Agar  oxirgi  element  birinchi element  ko’rsatkichi  bilan  bog’langan  bo’lsa qanday ro’yhat deyiladi",
+    "answer": "halqasimon",
+    "noAnswer1": "uch bog’lamli   ",
+    "noAnswer2": "bir bog’lamli    ",
+    "noAnswer3": "ketma-ketli bog’langan"
+  },
+  {
+    "question": "Agar har bir element o’zidan  oldingi  va  o’zidan  keyingi  element  bilan  bog’langan  bolsa qanday ro’yhat deyiladi",
+    "answer": "ikki bog’lamli     ",
+    "noAnswer1": "uch bog’lamli   ",
+    "noAnswer2": "bir bog’lamli    ",
+    "noAnswer3": "ketma-ketli bog’langan"
+  },
+  {
+    "question": "Tuzilmada  elementlar  o‘zidan  keyingi  element  bilan  bog‘langan  bolsa qanday ro’yhat deyiladi",
+    "answer": "bir bog’lamli     ",
+    "noAnswer1": "ikki bog’lamli   ",
+    "noAnswer2": "uch bog’lamli    ",
+    "noAnswer3": "ketma-ketli bog’langan"
+  },
+  {
+    "question": "Dinamik tuzilmada elementlar qayerdav joylashadi",
+    "answer": "xotiraning istalgan qismida   ",
+    "noAnswer1": "faylda ",
+    "noAnswer2": "tashqi xotirada   ",
+    "noAnswer3": "saqlanmaydi"
+  },
+  {
+    "question": "Dastur  bajarilishi  mobaynida  o‘zgarib  turadigan  tuzilmaga nima deyiladi",
+    "answer": "dinamik",
+    "noAnswer1": "static",
+    "noAnswer2": "fizik",
+    "noAnswer3": "mexanik"
+  },
+  {
+    "question": "Pop_front()-qanday vazifani bajaradi",
+    "answer": "oxiridan element chiqarish   ",
+    "noAnswer1": "boshidan element chiqarish  ",
+    "noAnswer2": "orqasidan element chiqarish  ",
+    "noAnswer3": "o‘rtasidan element chiqarish"
+  },
+  {
+    "question": ". Dek bilan ishash uchun qaysi kutubxona chaqiraladi?",
+    "answer": "#include<deque.h>   ",
+    "noAnswer1": "#include<stek.h>",
+    "noAnswer2": "#include<queue.h> ",
+    "noAnswer3": "#include<stype.h>"
+  },
+  {
+    "question": "Dek so‘zi qanday manoni anglatadi?",
+    "answer": "2 ta chetga ega    ",
+    "noAnswer1": "1 ta chetga ega   ",
+    "noAnswer2": "orqaga qaytish   ",
+    "noAnswer3": "oldinga yurish"
+  },
+  {
+    "question": "dequeue()-qanday vazifa bajaradi",
+    "answer": "navbatni birinchi elementini olish   ",
+    "noAnswer1": "elementni navbatga joylashtiradi   ",
+    "noAnswer2": "element navbat o’chiradi   ",
+    "noAnswer3": "elementni o’zgartiradi"
+  },
+  {
+    "question": "enqueue(el) qanday vazifa bajaradi?",
+    "answer": "elementni navbatga joylashtiradi   ",
+    "noAnswer1": "elementni kiritadi  ",
+    "noAnswer2": "element navbat o’chiradi   ",
+    "noAnswer3": "elementni o’zgartiradi"
+  },
+  {
+    "question": "Ma'lumotlar tuzilmasi fanida daraxt so`zi ko`pincha qanday nomlanadi?",
+    "answer": "Tree",
+    "noAnswer1": "oila ",
+    "noAnswer2": "sanoq tizimi",
+    "noAnswer3": "safe"
+  },
+  {
+    "question": "O`ziga murojaat qiluvchi funksiya?",
+    "answer": "Rekursiv",
+    "noAnswer1": "void",
+    "noAnswer2": "return",
+    "noAnswer3": "main"
+  },
+  {
+    "question": "...– bu bironta ob‘ektga tegishli turli toifadagi maydonlar to‘plamidir.",
+    "answer": "Yozuv ",
+    "noAnswer1": "obekt",
+    "noAnswer2": "Dastur",
+    "noAnswer3": "Daraxt"
+  },
+  {
+    "question": "Primitiv toifalar (...)",
+    "answer": "ma‘lumotlarning sodda toifalari",
+    "noAnswer1": "Ma'lumotlar bazasi",
+    "noAnswer2": "sanoq tizimi",
+    "noAnswer3": "tree"
+  },
+  {
+    "question": "Ma‘lumotlar toifalari … turga ajratiladi",
+    "answer": 3,
+    "noAnswer1": 5,
+    "noAnswer2": 2,
+    "noAnswer3": 7
+  },
+  {
+    "question": "... – elementlarni ma‘lum bir tartibda joylashtirish amali",
+    "answer": "Saralash",
+    "noAnswer1": "ma‘lumotlarning sodda toifalari",
+    "noAnswer2": "Qidirish",
+    "noAnswer3": "O‘chirish"
+  },
+  {
+    "question": "… -  tuzilmadan bironta elementni joylashgan o‘rnini aniqlash amali",
+    "answer": "Qidirish",
+    "noAnswer1": "Saralash",
+    "noAnswer2": "Kiritish",
+    "noAnswer3": "O‘chirish"
+  },
+  {
+    "question": "... - tuzilma elementlariga 1 martadan murojaat qilish amali.",
+    "answer": " Ko‘rikdan o‘tkazish (traversing)",
+    "noAnswer1": "Saralash",
+    "noAnswer2": "Kiritish",
+    "noAnswer3": "O‘chirish"
+  },
+  {
+    "question": "... – xar bit amal oddiy va soda bo‘lishi kerak",
+    "answer": "Samaradorlilik",
+    "noAnswer1": "Saralash",
+    "noAnswer2": "Kiritish",
+    "noAnswer3": "O‘chirish"
+  },
+  {
+    "question": "Qiymat qaytarmaydigan funksiya qaysi?",
+    "answer": "void",
+    "noAnswer1": "main",
+    "noAnswer2": "int",
+    "noAnswer3": "rekursiv"
+  },
+  {
+    "question": "if(n<0){cout<<a;} else{cout<<a-1;}  a=3,n=0 bo`lsa, ekranga qanday qiymat chiqadi?",
+    "answer": 2,
+    "noAnswer1": 1,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "if(n<0){cout<<a;} else{cout<<a-1;}  a=3,n=-2 bo`lsa, ekranga qanday qiymat chiqadi?",
+    "answer": 3,
+    "noAnswer1": 2,
+    "noAnswer2": 4,
+    "noAnswer3": 0
+  },
+  {
+    "question": "if(n=>0){cout<<a;} else{cout<<a-1;}  a=3,n=-2 bo`lsa, ekranga qanday qiymat chiqadi?",
+    "answer": "dastur xato",
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "if(n=>0){cout<<a;} else{cout<<a-1;}  a=5,n=-2 bo`lsa, ekranga qanday qiymat chiqadi?",
+    "answer": "dastur xato",
+    "noAnswer1": 2,
+    "noAnswer2": 3,
+    "noAnswer3": 4
+  },
+  {
+    "question": "for(int i=5;i<8;i++){...} ushbu sikl necha marta takrorlanadi?",
+    "answer": 3,
+    "noAnswer1": 5,
+    "noAnswer2": 8,
+    "noAnswer3": 0
+  },
+  {
+    "question": "for(int i=5;i<=8;i++){...} ushbu sikl necha marta takrorlanadi?",
+    "answer": 4,
+    "noAnswer1": 3,
+    "noAnswer2": 5,
+    "noAnswer3": 7
+  },
+  {
+    "question": "for(int i=0;i<=8;i++){...} ushbu sikl necha marta takrorlanadi?",
+    "answer": 9,
+    "noAnswer1": 8,
+    "noAnswer2": 0,
+    "noAnswer3": 7
+  },
+  {
+    "question": "Sharti keyin beriladugan sikl operatori?",
+    "answer": "do{...}while(…)",
+    "noAnswer1": "while(…){…}",
+    "noAnswer2": "for(…){…}",
+    "noAnswer3": "savol xato"
+  },
+  {
+    "question": "Sharti oldin beriladugan sikl operatori?",
+    "answer": "while(…){…}",
+    "noAnswer1": "do{...}while(…)",
+    "noAnswer2": "for(…){…}",
+    "noAnswer3": "savol xato"
+  },
+  {
+    "question": "Parametrli sikl operatori qaysi?",
+    "answer": "for(…){…}",
+    "noAnswer1": "do{...}while(…)",
+    "noAnswer2": "while(…){…}",
+    "noAnswer3": "savol xato"
+  },
+  {
+    "question": "do{…}while(n>0) n=0 bo`lganda sikl  necha marta takrorlanadi? ",
+    "answer": 1,
+    "noAnswer1": 0,
+    "noAnswer2": 2,
+    "noAnswer3": "cheksiz"
+  },
+  {
+    "question": "for(int i=1; i<n;i++){n--;}  n=0 bo`lganda sikl  necha marta takrorlanadi? ",
+    "answer": "cheksiz",
+    "noAnswer1": 2,
+    "noAnswer2": 1,
+    "noAnswer3": 0
+  },
+  {
+    "question": "switch quyidagi tiplarning qaysi biri bilan ishlaydi?",
+    "answer": "int ",
+    "noAnswer1": "float",
+    "noAnswer2": "double"
+  },
+  {
+    "question": "int aloqa(){int a=5; return a;} funksiya nomini toping",
+    "answer": "aloqa",
+    "noAnswer1": "int",
+    "noAnswer2": "return",
+    "noAnswer3": "a"
+  },
+  {
+    "question": "for(int i ; i<=10 ; i++) - bu siklda [i] nima?",
+    "answer": "sikl parametri",
+    "noAnswer1": "sikl operatori, majburiy ajratuvchi",
+    "noAnswer2": "o’zgarmas",
+    "noAnswer3": "sikl operatori"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
