@@ -1,889 +1,297 @@
 const data = [
   {
-    "question": "Olti sathli kompyuterlarning nolinchi sathi qanday nomlanadi?",
-    "answer": "raqamli mantiqiy sath"
+    "question": "…- aloqa liniyasi orqali uzatiladigan, OSI modelining kanal qatlami protokolining ma'lumotlar bo'lagi.",
+    "answer": "Kadr",
+    "noAnswer1": "Bit",
+    "noAnswer2": "Bayt",
+    "noAnswer3": "Paket"
   },
   {
-    "question": "Olti sathli kompyuterlarning birinchi sathi qanday nomlanadi?",
-    "answer": "mikroarxitektura sathi"
+    "question": "Cisco Packet Tracer 6.2 dasturida qaysi rejim tarmoq orqali ma'lumotlarni uzatish bilan bog'liq bo'lgan keyingi voqea sodir bo'lishini qo'lda boshqarish imkonini beradi.",
+    "answer": "Simulation",
+    "noAnswer1": "Realtime",
+    "noAnswer2": "Emulation",
+    "noAnswer3": " Connection"
   },
   {
-    "question": "Olti sathli kompyuterlarning ikkinchi sathi qanday nomlanadi?",
-    "answer": "buyruqlar to‘plami arxitekturasi sathi"
+    "question": " … - belgilangan tarmoq qoidalari asosida tarmoq orqali o'tuvchi tarmoq trafigini kuzatuvchi va filtrlaydigan kompyuter tarmog'ining dasturiy ta'minoti yoki apparat-dasturiy ta'minot elementi.",
+    "answer": "Tarmoqlararo ekran",
+    "noAnswer1": "Tarmoq ko'prigi",
+    "noAnswer2": "Kommutator",
+    "noAnswer3": "Sensor tarmoq"
   },
   {
-    "question": "Olti sathli kompyuterlarning uchinchi sathi qanday nomlanadi?",
-    "answer": "operatsion tizim sathi"
+    "question": "…- ma`lumotlar almashinuvi qoidalari va formatlari to`plami.",
+    "answer": "Tarmoq protokoli",
+    "noAnswer1": "kolliziya",
+    "noAnswer2": "Ma`lumot uzatish muhiti",
+    "noAnswer3": "Protokollar steki"
   },
   {
-    "question": "Olti sathli kompyuterlarning to‘rtinchi sathi qanday nomlanadi?",
-    "answer": "assembler sathi"
+    "question": "Ruxsatsiz kirishlarni aniqlash tizimini ko'rsating",
+    "answer": "IDS",
+    "noAnswer1": "VPS",
+    "noAnswer2": "IPSec",
+    "noAnswer3": "VPN"
   },
   {
-    "question": "Olti sathli kompyuterlarning beshinchi sathi qanday nomlanadi?",
-    "answer": "amaliy tillar dasturchilari sathi"
+    "question": "Lokal xisoblash tarmoqlarining ma’lumotlar almashinish muxiti qanday turlarga bo`linadi?",
+    "answer": "Barcha javoblar to`g`ri ",
+    "noAnswer1": "Koaksial va optik tolali kabellar",
+    "noAnswer2": "Ikkita simni bir-bir atrofida o`rash natijasida xosil qilingan kabel (Vitaya para)",
+    "noAnswer3": "Simsiz aloqa kanali"
   },
   {
-    "question": "Bir bitli xotira elementi deganda nima tushuniladi?",
-    "answer": "trigger"
+    "question": "\"line vty\" kodi qaysi protokolda ishlatiladi",
+    "answer": "TelNet",
+    "noAnswer1": "DHCP",
+    "noAnswer2": "HTTP",
+    "noAnswer3": "TCP/IP"
   },
   {
-    "question": "Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning eng yuqori qismida joylashgan xotirani ko‘rsating.",
-    "answer": "ichki registrlar"
+    "question": "\"Protokol modeli\" to'g'ri ta'rifi bilan javobni tanlang:",
+    "answer": "Protokol modeli tarmoqning ishlashini dispersli ob'ektlar va funktsional modullarning o'zaro ta'siri qoidalari darajasida tavsiflaydi",
+    "noAnswer1": "Bu tarmoq darajasidagi kompyuter tarmog'i abonentlari o'rtasida ma'lumot almashish tizimidir",
+    "noAnswer2": "Uzoq masofalarda joylashgan va aloqa kanallari yordamida yagona tizimga ulangan mahalliy tarmoqlar va kompyuterlar to'plami",
+    "noAnswer3": "Protokol modeli kirish sathida o'zaro ishlashni ta'minlaydi"
   },
   {
-    "question": "Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning ikkinchi qatorida joylashgan xotirani ko‘rsating.",
-    "answer": "kesh xotira "
+    "question": "\"Protokol\" tushunchasi uchun to'g'ri javob nima?",
+    "answer": "axborot tizimini bir holatdan ikkinchi holatga o'tkazadigan mantiqiy bog'liq harakatlar ketma-ketligi",
+    "noAnswer1": "bitta tizimni bir holatdan ikkinchi tizimga ko'rsatadigan mantiqan bog'liq harakatlar tartibi",
+    "noAnswer2": "noyob harakatlarning o'tishi, ma'lumotni bir holatdan boshqasiga o'tkazish.",
+    "noAnswer3": "tuzilishga ega bo'lgan ma'lumotlar elementlari uchun pozitsiyalar to'plami."
   },
   {
-    "question": "Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning uchinchi qatorida joylashgan xotirani ko‘rsating.",
-    "answer": "asosiy xotira "
+    "question": "\"Tarmoq adapteri manzili\" uchun to'g'ri javobni bering:",
+    "answer": "apparat manzili",
+    "noAnswer1": "ramziy manzil",
+    "noAnswer2": "raqamli manzildan iborat",
+    "noAnswer3": "IP-manzil"
   },
   {
-    "question": "Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning to‘rtinchi qatorida joylashgan xotirani ko‘rsating.",
-    "answer": "magnitli disk "
+    "question": "“Hub”larning asosiy turlari:",
+    "answer": "aqlli, passiv",
+    "noAnswer1": "jamlangan, tajovuzkor",
+    "noAnswer2": "erkin, band",
+    "noAnswer3": "erkin, tajovuzkor"
   },
   {
-    "question": "Kompyuter xotirasini iyerarxik ko‘rinishda tashkil yetishda, iyerarxiyaning beshinchi qatorida joylashgan xotirani ko‘rsating.",
-    "answer": "optik disk "
+    "question": "… - bu aniq vaqt serverlari bilan ishlash protokoli",
+    "answer": "NTP",
+    "noAnswer1": "L2TP",
+    "noAnswer2": "NAT",
+    "noAnswer3": "P2P"
   },
   {
-    "question": "Ma’lumotlarni ketma-ket uzatuvchi universal shinani ko‘rsating.",
-    "answer": "USB "
+    "question": "… - bu bitta jismoniy tarmoq interfeysida (Ethernet, Wi-Fi) bir nechta virtual lokal tarmoq yaratish imkonini beradi",
+    "answer": "VLAN",
+    "noAnswer1": "WAN",
+    "noAnswer2": "LAN",
+    "noAnswer3": "WLAN"
   },
   {
-    "question": "Protsessorning IP yoki EIP registri deganda qanday registr tushuniladi?",
-    "answer": "buyruqlarni ko‘rsatuvchi registr"
+    "question": "… - internet tarmog'ida ma'lumotlarni bulutli texnologiyalar asosida saqlash xizmatini ko'rsatadi",
+    "answer": "Google Drive",
+    "noAnswer1": "Wikipedia",
+    "noAnswer2": "Google Duo",
+    "noAnswer3": "GitHub"
   },
   {
-    "question": "SF yoki EFLAGS registri deganda qaysi registr tushuniladi?",
-    "answer": "bayroqlar registri"
+    "question": "… - tarmoqqa ulangan qurilmalarga avtomatik ravishda dinamik IP manzillarni beruvchi protokol",
+    "answer": "DHCP",
+    "noAnswer1": "UDP",
+    "noAnswer2": "TCP",
+    "noAnswer3": "Dynamic DNS"
   },
   {
-    "question": "CS registri deganda qaysi registr tushuniladi?",
-    "answer": "kodlar yoziladigan segment registri"
+    "question": "… bu model iste’molchiga axborot texnologiyalarini servis sifatida internet orqali namoyon qiladi",
+    "answer": "Bulutli texnologiyalar",
+    "noAnswer1": "Sun'iy intellekt",
+    "noAnswer2": "Klient-Server",
+    "noAnswer3": "IoT"
   },
   {
-    "question": "Umumiy maqsadlar uchun mo‘ljallangan registrlarni ko‘rsating.",
-    "answer": "AX, EAX"
+    "question": "… orqali kompyuterdagi fayllarning butunligini tekshirish mumkin",
+    "answer": "Xeshlash algoritmlari",
+    "noAnswer1": "Shifrlash algoritmlari",
+    "noAnswer2": "Tarmoq protokollari",
+    "noAnswer3": "Antivirus dasturlari"
   },
   {
-    "question": "Pentium 4 protsessori tarkibida nechta tranzistor bor?",
-    "answer": 42000000
-  },
-  {
-    "question": "Pentium 4 protsessori mikroarxitekturasi qanday nomlanadi?",
-    "answer": "NetBurst"
-  },
-  {
-    "question": "Pentium 4 protsessori mikrosxemasi nechta chiqish oyoqchalariga ega?",
-    "answer": 478
-  },
-  {
-    "question": "UltraSPARC III protsessori mikrosxemasi nechta chiqish oyoqchalariga ega?",
-    "answer": 1368
-  },
-  {
-    "question": "To‘liq buyruqlar to‘plamiga ega kompyuter qanday nomlanadi?",
-    "answer": "CISC"
-  },
-  {
-    "question": "Qisqartirilgan buyruqlar to‘plamiga ega kompyuter qanday nomlanadi?",
-    "answer": "RISC"
-  },
-  {
-    "question": "Protsessor siklining birinchi bosqichida nima amalga oshiriladi?",
-    "answer": "RS yordamida bajarilishi kerak bo‘lgan buyruq tanlab olinadi "
-  },
-  {
-    "question": "Protsessor siklining ikkinchi bosqichida nima amalga oshiriladi?",
-    "answer": "RS-ning qiymati orttiriladi"
-  },
-  {
-    "question": "Protsessor siklining uchinchi bosqichida nima amalga oshiriladi?",
-    "answer": "buyruq dekodlanadi"
-  },
-  {
-    "question": "Protsessor siklining to‘rtinchi bosqichida nima amalga oshiriladi?",
-    "answer": "buyruqni bajarish uchun kerak bo‘ladigan ma’lumotlar xotiradan yoki registrlardan tanlab olinadi"
-  },
-  {
-    "question": "Protsessor siklining beshinchi bosqichida nima amalga oshiriladi?",
-    "answer": "buyruq bajariladi"
-  },
-  {
-    "question": "Protsessor siklining oltinchi bosqichida nima amalga oshiriladi?",
-    "answer": "natijalarni xotiraga yoki registrlarga yozish"
-  },
-  {
-    "question": "Protsessor siklining yettinchi bosqichida nima amalga oshiriladi?",
-    "answer": "keyingi buyruqni bajarish tsikliga o‘tish"
-  },
-  {
-    "question": "Protsessor sikli nechta bosqichidan iborat?",
-    "answer": 7
-  },
-  {
-    "question": "Protsessor siklining qaysi bosqichida buyruqni bajarish amalga oshiriladi?",
-    "answer": 5
-  },
-  {
-    "question": "Protsessor siklining qaysi bosqichida buyruqni tanlab olish amalga oshiriladi?",
-    "answer": 1
-  },
-  {
-    "question": "Protsessor siklining qaysi bosqichida buyruqni dekodlash amalga oshiriladi?",
-    "answer": 3
-  },
-  {
-    "question": "Protsessor siklining qaysi bosqichida natijalarini xotiraga yoki registrlarga yozish amalga oshiriladi?",
-    "answer": 6
-  },
-  {
-    "question": "Core i7 protsessorida necha sathli kesh qo‘llaniladi?",
-    "answer": "3 sathli kesh"
-  },
-  {
-    "question": "Core i7 protsessorlaridagi yadrolar sonini ko‘rsating",
-    "answer": "ko‘p"
-  },
-  {
-    "question": "Keltirilganlarning qaysi biri Fon Neyman printsiplariga to‘g‘ri keladi?",
-    "answer": "ikkilik sanoq sistemasini qo‘llash"
-  },
-  {
-    "question": "Keltirilganlarning qaysi biri Fon Neyman printsiplariga to‘g‘ri keladi?",
-    "answer": "dastur yordamida boshqarish"
-  },
-  {
-    "question": "Keltirilganlarning qaysi biri Fon Neyman printsiplariga to‘g‘ri keladi?",
-    "answer": "hotirani ham ma’lumotlarni, ham dasturlarni saqlashda qo‘llash "
-  },
-  {
-    "question": "Keltirilganlarning qaysi biri Fon Neyman printsiplariga to‘g‘ri keladi?",
-    "answer": "hotira yacheykalari ketma-ket keluvchi adreslarga ega”"
-  },
-  {
-    "question": "Keltirilganlarning qaysi biri Fon Neyman printsiplariga to‘g‘ri keladi?",
-    "answer": "dasturni bajarishda shartli o‘tish imkoniyati"
-  },
-  {
-    "question": "RISC qisqartmasi nimani anglatadi?",
-    "answer": " Qisqartirilgan buyruqlar to‘plamiga ega kompyuter"
-  },
-  {
-    "question": "CISC qisqartmasi nimani anglatadi?",
-    "answer": " To‘lik buyruqlar to‘plamiga ega kompyuter"
-  },
-  {
-    "question": "Kompyuterning minimal tarkibiga nimalar kiradi?",
-    "answer": " monitor, tizimli blok, klaviatura "
-  },
-  {
-    "question": "Boshqarish shinasi nima uchun mo‘ljallangan?",
-    "answer": " boshqarish signallarini uzatish uchun"
-  },
-  {
-    "question": "Ma’lumotlar shinasi nima uchun mo‘ljallangan?",
-    "answer": " ishlanayotgan axborotni uzatish uchun"
-  },
-  {
-    "question": "Videoadapterning ko‘rsata olish imkoniyati deganda nima tushiniladi?",
-    "answer": " gorizantal va vertikal bo‘ylab chiqarib bera olishi mumkin bo‘lgan nuqtalarining soni"
-  },
-  {
-    "question": "Vinchester nima uchun mo‘ljallangan?",
-    "answer": " Ma’lumotlarni doimiy saqlash uchun"
-  },
-  {
-    "question": "Modem qanday vazifani bajaradi?",
-    "answer": " Analogli signalni raqamli signalga va raqamli signalni analogli signalga  aylantirish uchunuzgartiradi."
-  },
-  {
-    "question": "Kompyuterning ish samaradorligi nimaga bog‘liq? ",
-    "answer": " Protsessor chastotasiga"
-  },
-  {
-    "question": "Takt chastotasining o‘lchov birligi nima? ",
-    "answer": " MGts"
-  },
-  {
-    "question": "XX asrning 40 yillarida hisoblash mashinalarining ishlash printsiplari kim tomonidan tavsiflangan?",
-    "answer": " Jon Fon Neyman tomonidan"
-  },
-  {
-    "question": "CISC qanday arxitektura turi hisoblanadi?",
-    "answer": "To'liq buyruqlar to'plami bilan"
-  },
-  {
-    "question": "RISC arxitekturasining qanday turi?",
-    "answer": "Qisqartirilgan ko'rsatmalar to'plami"
-  },
-  {
-    "question": "Ko'p protsessorli tizimlarda xotira qanday tashkil etilgan?",
-    "answer": "Taqsimlangan va umumiy xotira"
-  },
-  {
-    "question": "Umumiy xotiraga ega UMA multiprotsessorli tizimlarining turlarini belgilang",
-    "answer": "SMP, PVP"
-  },
-  {
-    "question": "SMP xotira va PVP bilan ko'p protsessorli tizim qanday?",
-    "answer": "umumiy xotira bilan"
-  },
-  {
-    "question": "Taqsimlangan xotira NUMA multiprotsessorli tizim turlarini belgilang",
-    "answer": "NCC-NUMA, CC-NUMA, COMA"
-  },
-  {
-    "question": "Ko'p kompyuterli tizimlarning turlarini ko'rsating",
-    "answer": "Klasterlar, MPPlar"
-  },
-  {
-    "question": "Klasterlar va MPPlar qanday turdagi tizimlardir?",
-    "answer": "Ko'p kompyuter"
-  },
-  {
-    "question": "Buyruqlar darajasidagi parallelizm nima?",
-    "answer": "Bir nechta buyruqlarning bir qismini bir vaqtning o'zida bajarishning potentsial imkoniyati"
-  },
-  {
-    "question": "Buyruqlar bajarilishining potentsial o'zaro kelishishi nima deb ataladi?",
-    "answer": "buyruq darajasidagi parallellik"
-  },
-  {
-    "question": "Buyruqlar darajasidagi parallelizmning g'oyasi nima?",
-    "answer": "konveyer g'oyasi bo'yicha"
-  },
-  {
-    "question": "Superskalar protsessor nechta funktsiya blokiga ega",
-    "answer": 5
-  },
-  {
-    "question": "Qaysi protsessorlar NetBurst mikroarxitekturasidan foydalanadi?",
-    "answer": "Pentium 4"
-  },
-  {
-    "question": "Dekompozitsiya nima?",
-    "answer": "Bu vazifani segmentlarga bo'lish uchun ishlov berishni anglatadi"
-  },
-  {
-    "question": "Core i7 protsessorida nechta kesh darajasi mavjud?",
-    "answer": 3
-  },
-  {
-    "question": "Qanday turdagi xotira operativ xotira deb ataladi?",
-    "answer": "tasodifiy kirish xotira qurilmasi (RAM)"
-  },
-  {
-    "question": "Intel Core Duo protsessorining vazifasi nima?",
-    "answer": "Bitta chipga joylashtirilgan ikkita yadroli protsessor"
-  },
-  {
-    "question": "Pentium II, Pentium Pro va Pentium III protsessorlari qanday mikroarxitekturaga asoslangan?",
-    "answer": "Mikroarxitektura P6"
-  },
-  {
-    "question": "Nahalem mikroarxitekturasi qaysi protsessorga tegishli?",
-    "answer": "Intel Core i7"
-  },
-  {
-    "question": "2011-yilda Intel Core i7 protsessorida qanday arxitektura ishlatilgan?",
-    "answer": "Sandy-Bridge   "
-  },
-  {
-    "question": "Intel Core i7 protsessorida nechta bit bor?",
-    "answer": 64
-  },
-  {
-    "question": "UltraSPARC III protsessorini qaysi kompaniya ishlab chiqaradi?",
-    "answer": "SUN"
-  },
-  {
-    "question": "UltraSPARC III protsessorida nechta quvur liniyasi mavjud?",
-    "answer": 6
-  },
-  {
-    "question": "Shinalar kengligi deganda nima tushuniladi?",
-    "answer": "Bir soatda o'tadigan bitlar soni"
-  },
-  {
-    "question": "Pentium asosidagi kompyuterlarning asosiy xotirasidagi baytlar qanday tartibda joylashgan?",
-    "answer": "teskari tartibda"
-  },
-  {
-    "question": "SPARC protsessorlari oilasiga asoslangan kompyuterlarning asosiy xotirasida baytlar qanday tartiblangan?",
-    "answer": "to'g'ri tartibda"
-  },
-  {
-    "question": "Asosiy xotirada to'g'ri tartibda baytlarga ega bo'lgan kompyuter protsessorini ko'rsating.",
-    "answer": "UltraSPARC III"
-  },
-  {
-    "question": "Asosiy xotirada teskari tartibda baytlarga ega bo'lgan kompyuter protsessoriga ishora qiling.",
-    "answer": "Pentium 4"
-  },
-  {
-    "question": "Xuddi shu xotira panelida joylashgan xotira modullarining nomlari qanday?",
-    "answer": "SIMM"
-  },
-  {
-    "question": "Xotira panelining ikkala tomonida joylashgan xotira modullari qanday nomlanadi?",
-    "answer": "DIMM"
-  },
-  {
-    "question": "D-flip-floplar asosida RAM qurilmasini belgilang.",
-    "answer": "Statik xotira (SRAM)"
-  },
-  {
-    "question": "Ma'lumotni o'chirish va qayta yozish mumkin bo'lgan dasturlashtiriladigan faqat o'qish uchun xotira qurilmasini belgilang.",
-    "answer": "EPROM"
-  },
-  {
-    "question": "Kompyuter tashqi komponentlar bilan bog'lanishi mumkin bo'lgan shinani belgilang.",
-    "answer": "PCI"
-  },
-  {
-    "question": "Ma'lumotlarni ketma-ket uzatuvchi universal shinani belgilang.",
-    "answer": "USB"
-  },
-  {
-    "question": "Monitorda rang yaratish uchun qanday ranglar ishlatiladi?",
-    "answer": "qizil, ko'k, yashil"
-  },
-  {
-    "question": "USB qisqartmasi nimani anglatadi?",
-    "answer": "universal seriyal bus"
-  },
-  {
-    "question": "Dasturning har bir satrini tahlil qiladigan va darhol ishga tushadigan tizim dasturi nima?",
-    "answer": "Tarjimon"
-  },
-  {
-    "question": "Butun dasturni tahlil qilib, keyin uni bajarish uchun kompyuter xotirasiga yozuvchi tizimli dastur qanday nomlanadi?",
-    "answer": "Kompilyator"
-  },
-  {
-    "question": "Qaysi qurilma tashqi qurilma va shina o'rtasidagi aloqani o'rnatadi?",
-    "answer": "boshqaruvchi"
-  },
-  {
-    "question": "Vinchester nima uchun?",
-    "answer": "Ma'lumotlar va dasturlarni doimiy saqlash uchun"
-  },
-  {
-    "question": "Modem nima qiladi?",
-    "answer": "Signalni qabul qilish va uzatish uchun aylantiring."
-  },
-  {
-    "question": "Shaxsiy kompyuterlar uchun shinalarning maqsadi nima?",
-    "answer": "Kompyuter komponentlari va qurilmalarini ulash"
-  },
-  {
-    "question": "Kompyuter yoqilganda dastlabki sinov dasturi qayerda?",
-    "answer": "BIOS chipida"
-  },
-  {
-    "question": "Kompyuterda ma'lumotlar qanday ko'rinadi?",
-    "answer": "ikkilik shaklda"
-  },
-  {
-    "question": "OpenMP texnologiyasi bilan qanday tizimlar dasturlashtirilgan?",
-    "answer": "Umumiy xotiraga ega tizimlar uchun"
-  },
-  {
-    "question": "Umumiy xotira tizimlari uchun mo'ljallangan parallelizatsiya kutubxonasini belgilang.",
-    "answer": "OpenMp"
-  },
-  {
-    "question": "Protsessor yadrosiga eng yaqin keshga ishora qiling",
-    "answer": "L1"
-  },
-  {
-    "question": "L1 keshining nechta turi mavjud?",
-    "answer": 2
-  },
-  {
-    "question": "L1 keshining 2 turini tanlang",
-    "answer": "Ma'lumotlar va buyruqlar"
-  },
-  {
-    "question": "Virtual yadroli protsessorlarda ishlatiladigan texnologiyani belgilang.",
-    "answer": "Hyper Threading"
-  },
-  {
-    "question": "Hisoblash tezligiga ijobiy ta'sir ko'rsatadigan arxitekturani ko'rsating.",
-    "answer": "Konveyer"
-  },
-  {
-    "question": "Amdal qonunining talqini qayerda?",
-    "answer": "Tezlik (samaradorlik) yadrolar soniga bog'liq"
-  },
-  {
-    "question": "Tezlik (samaradorlik) yadrolar soniga bog'liq degan qonunni aniqlagan olimning ismini toping.",
-    "answer": "Amdal"
-  },
-  {
-    "question": "Ish samaradorligini oshirish uchun ultra tez xotirani belgilang",
-    "answer": "Kesh xotirasi"
-  },
-  {
-    "question": "Parallel ishlov berish arxitekturasini tanlang",
-    "answer": "MIMD"
-  },
-  {
-    "question": "Seriyali ma'lumotlarni qayta ishlash uchun to'g'ri arxitekturani tanlang",
-    "answer": "SISD"
-  },
-  {
-    "question": "Buyruqlarni parallel qayta ishlash uchun mos arxitekturani tanlang.",
-    "answer": "MIMD"
-  },
-  {
-    "question": "AMD protsessorlarining kamchiliklarini to'g'ri ko'rsatadigan javobni tanlang",
-    "answer": "Juda yuqori qizib ketish"
-  },
-  {
-    "question": "OpenMP kutubxonasi bilan bog'liq buyruqlarni qanday ishlatish kerak?",
-    "answer": " #pragma"
-  },
-  {
-    "question": "Hisoblash oqimida necha bosqich amalga oshiriladi?",
-    "answer": 5
-  },
-  {
-    "question": "Simmetrik multiprosessing nima?",
-    "answer": "bir xil turdagi protsessorlarning integratsiyalashgan tizimi"
-  },
-  {
-    "question": "Bir turdagi protsessorlarning birlashtirilgan tizimi qanday nomlanadi?",
-    "answer": "Simmetrik ko'p ishlov berish"
-  },
-  {
-    "question": "Hyper Threading texnologiyasidan maqsad nima?",
-    "answer": "bir nechta iplarni yaratish uchun"
-  },
-  {
-    "question": "Intel protsessorlarida qanday hisoblash texnologiyalari keng qo'llaniladi?",
-    "answer": "Hyper Threading"
-  },
-  {
-    "question": "VLIW arxitekturasining asosiy vazifasi nimadan iborat?",
-    "answer": "Uzoq buyruq so'zi uzunligi"
-  },
-  {
-    "question": "VLIW arxitekturasida vazifa qaysi bosqichda shakllanadi?",
-    "answer": "Kompilyatsiya vaqtida"
-  },
-  {
-    "question": "OpenMP kutubxonasida sikllarni parallel taqsimlash qaysi buyruq asosida amalga oshiriladi?",
-    "answer": "#pragma omp parallel uchun"
-  },
-  {
-    "question": "Superkompyuterlarning hisoblash tezligi uchun o'lchov birligi?",
-    "answer": "FLOPS"
-  },
-  {
-    "question": "TOP - 500 tizimi nima?",
-    "answer": "Kompyuter tizimining tezligini baholaydi"
-  },
-  {
-    "question": "Vektorli quvurli kompyuter qaysi arxitekturaga tegishli?",
-    "answer": "SIMD"
-  },
-  {
-    "question": "Ko'p protsessorli tizimlar qanday arxitekturaga tegishli?",
-    "answer": "MIMD"
-  },
-  {
-    "question": "L1 keshi qayerda joylashgan?",
-    "answer": "protsessor ichida"
-  },
-  {
-    "question": "Protsessor ichida joylashgan kesh xotirasini belgilang",
-    "answer": "L1, L2, L3"
-  },
-  {
-    "question": "L 2 kesh xotirasi qayerda ?",
-    "answer": "protsessor ichida"
-  },
-  {
-    "question": "L 3 keshi qayerda ?",
-    "answer": "protsessor ichida"
-  },
-  {
-    "question": "Protsessorlardagi vazifalarni parallellashtirish texnologiyasini ko'rsating?",
-    "answer": "Ko'p vazifalarni bajarish"
-  },
-  {
-    "question": "Protsessorlarning “tezlashtirish qobiliyati” deganda qanday texnologiya tushuniladi?",
-    "answer": "turbo kuchaytirgich"
-  },
-  {
-    "question": "Nvidia -ning parallel texnologiyasini tanlang",
-    "answer": "CUDA"
-  },
-  {
-    "question": "CUDA - bu qaysi kompaniya tomonidan ishlab chiqilgan texnologiya?",
-    "answer": "Nvidia"
-  },
-  {
-    "question": "Qaysi arxitektura matritsalarni ko'paytirish jarayonlaridan keng foydalanadi?",
-    "answer": "MIMD"
-  },
-  {
-    "question": "GPU ishlab chiqishda qaysi kompaniyalar yetakchi?",
-    "answer": "AMD, Nvidia"
-  },
-  {
-    "question": "Taqsimlangan tizimlarda keng ko'lamli muammoni hal qilish uchun nima qilinmoqda?",
-    "answer": "vazifa kompyuterlar o'rtasida taqsimlanadi."
-  },
-  {
-    "question": "Qaysi turdagi kompyuter Core i7 protsessoridan foydalanadi?",
-    "answer": "shaxsiy kompyuterlar"
-  },
-  {
-    "question": "Anakartdagi shimoliy ko'prik quyidagilarni qo'llab-quvvatlaydi:",
-    "answer": "Tizim avtobusi, xotira, video adapter"
-  },
-  {
-    "question": "Qaysi kesh darajasi eng tez?",
-    "answer": "Birinchi"
-  },
-  {
-    "question": "Protsessor boshqaruv blokining vazifasi nimadan iborat?",
-    "answer": "xotiradan buyruqni yuklaydi va uning shifrini ochadi"
-  },
-  {
-    "question": "Protsessorning arifmetik mantiq birligi qanday vazifani bajaradi?",
-    "answer": "arifmetik-mantiqiy amallarni bajaradi"
-  },
-  {
-    "question": "Umumiy maqsadli registrlar qanday vazifani bajaradi?",
-    "answer": "operandlarning o'zini yoki natijani yoki ushbu operandlar yoki natijalarga ko'rsatgichlarni saqlang"
-  },
-  {
-    "question": "OMAP4430 protsessori qanday kompyuter turi uchun ishlatiladi ?",
-    "answer": "mobil kompyuterlar"
-  },
-  {
-    "question": "Pentium protsessorini yaratish uchun qanday turdagi kompyuterlardan foydalaniladi?",
-    "answer": "shaxsiy kompyuterlar"
-  },
-  {
-    "question": "Quyidagilardan qaysi biri fon Neyman tamoyillariga mos keladi?",
-    "answer": "Ikkilik sanoq tizimining qo'llanilishi"
-  },
-  {
-    "question": "Quyidagilardan qaysi biri fon Neyman tamoyillariga mos keladi?",
-    "answer": "dasturiy ta'minotni boshqarish"
-  },
-  {
-    "question": "\"Uskuna\" nima?",
-    "answer": "kompyuter texnikasi"
-  },
-  {
-    "question": "\"Dasturiy ta'minot \" Nima ?",
-    "answer": "kompyuter dasturi"
-  },
-  {
-    "question": "Quyidagilardan qaysi biri dasturiy vosita emas?",
-    "answer": "Markaziy protsessor"
-  },
-  {
-    "question": "Qaysi qurilma tashqi qurilma va shina o'rtasidagi aloqani o'rnatadi?",
-    "answer": "boshqaruvchi"
-  },
-  {
-    "question": "Dastlabki kompyuter test dasturi qayerda yozilgan?",
-    "answer": "BIOS chipida"
-  },
-  {
-    "question": "Shaxsiy kompyuterda ma'lumotlarni qayta ishlash uchun qanday qurilma ishlatiladi?",
-    "answer": "protsessorda"
-  },
-  {
-    "question": "1940-yillarda kompyuterlar qanday ishlashini kim tasvirlab bergan?",
-    "answer": "Jon fon Neyman"
-  },
-  {
-    "question": "Kompyuter o'chirilganda kompyuterdagi ma'lumotlar qaysi xotiradan yo'q qilinadi?",
-    "answer": "RAMda"
-  },
-  {
-    "question": "Dastur...?",
-    "answer": "Ma'lumotlarni qayta ishlash jarayonida kompyuter bajaradigan buyruqlar ketma-ketligi."
-  },
-  {
-    "question": "Bu ushbu dastur uchun ma'lumotlarni qayta ishlash qurilmasimi?",
-    "answer": "Markaziy protsessor"
-  },
-  {
-    "question": "Qayta ishlash jarayonida dasturiy ta'minot va ma'lumotlar qayerda joylashgan?",
-    "answer": "RAM"
-  },
-  {
-    "question": "Bir soniyadagi tebranishlar soni qanday nomlanadi?",
-    "answer": "Soat chastotasi"
-  },
-  {
-    "question": "Vektorli va matritsali ishlov berish tuzilmalariga ega hisoblash tizimlari sinfini aniqlang.",
-    "answer": "SIMD"
-  },
-  {
-    "question": "Ko'p protsessorli tizimlar qaysi sinfga tegishli ekanligini aniqlang",
-    "answer": "MIMD"
-  },
-  {
-    "question": "Bir nechta buyruqlar va bitta ma'lumotlar oqimiga ega sinfni belgilang",
-    "answer": "MISD"
-  },
-  {
-    "question": "Bir nechta buyruqlar va bir nechta ma'lumotlar oqimi bilan sinfni aniqlang",
-    "answer": " MIMD"
-  },
-  {
-    "question": "Bitta buyruq va bitta ma'lumot oqimiga ega sinfni belgilang",
-    "answer": "SISD"
-  },
-  {
-    "question": "Bitta buyruq va bir nechta ma'lumotlar oqimiga ega sinfni belgilang",
-    "answer": "SIMD"
-  },
-  {
-    "question": "Ko'p kompyuter tizimlari qaysi sinfga tegishli ekanligini aniqlang",
-    "answer": "MIMD"
-  },
-  {
-    "question": "Ko'p protsessorli hisoblash tizimlarini aniqlang",
-    "answer": "UMA, COMA, NUMA"
-  },
-  {
-    "question": "Kompyuter nima?",
-    "answer": "Ma'lumotlarni qayta ishlash va kerakli natijani olish imkonini beruvchi texnik vositalar to'plami"
-  },
-  {
-    "question": "EHMlarning birinchi avlodi (1-avlod) qaysi davrga tegishli?",
-    "answer": "1950-1960 yillar"
-  },
-  {
-    "question": "EHMlarning ikkinchi avlodi qanday davrga to‘g‘ri keladi?",
-    "answer": "1960-1970 yillar"
-  },
-  {
-    "question": "Kompyuterlarning uchinchi avlodi qaysi davrga tegishli?",
-    "answer": "1970-1980 yillar"
-  },
-  {
-    "question": "EHMlarning to‘rtinchi avlodi qaysi davrga tegishli?",
-    "answer": "1980–1990 yillar"
-  },
-  {
-    "question": "Birinchi kompyuter arxitekturasini yaratgan olimning ismini ayting",
-    "answer": "fon Neumann"
-  },
-  {
-    "question": "Fon Neyman kompyuter arxitekturasining asosiy qismlari nimalardan iborat?",
-    "answer": "5 bu"
-  },
-  {
-    "question": "Parallel hisoblash tizimlarining to'g'ri ta'rifini ko'rsating?",
-    "answer": "Parallel ravishda ma'lumotlarni qayta ishlaydigan hisoblash asboblari to'plami"
-  },
-  {
-    "question": "Sinfdagi ko'rsatmalarga va parallel ishlov berish ma'lumotlariga mos keladigan Flynn tasnifi?",
-    "answer": "MIMD"
-  },
-  {
-    "question": "Tarqalgan ruxsatga ega xotira arxitekturasini ko'rsating?",
-    "answer": "NUMA"
-  },
-  {
-    "question": "Parallel dasturlash uchun maxsus texnologiyalarni belgilang.",
-    "answer": "CUDA"
-  },
-  {
-    "question": "Tarqalgan xotira hisoblash tizimlari uchun mo'ljallangan parallel dasturlash kutubxonasini tanlang.",
-    "answer": "MPI"
-  },
-  {
-    "question": "MPI texnologiyasi qaysi tizimlar uchun mo'ljallangan?",
-    "answer": "Tarqalgan xotira tizimlari"
-  },
-  {
-    "question": "Grafik axborotni parallel qayta ishlash texnologiyasi ...",
-    "answer": " CUDA"
-  },
-  {
-    "question": "Kesh xotira nima?",
-    "answer": "ma'lumotlar va dasturlarni vaqtincha saqlash uchun protsessor ichidagi o'ta tezkor xotira"
-  },
-  {
-    "question": "SISD ga mos keltirilgan ta’rifni ko’rsating.",
-    "answer": "SISDan’anaviymonoprotsessorga(FonNeymanarxitekturasi)moskeladi. Bitta ma’lumot oqimi bitta buyruq oqimi bilan qayta ishlanadi yoki bir protsessorli kompyuter , qaysiki dasturdan bitta buyruq oqimi tashkil qilinadigan."
-  },
-  {
-    "question": "SIMD ga mos keltirilgan ta’rifni ko’rsating.",
-    "answer": "Har bir buyruq turli xil protsessorlar tomonidan turli xil ma'lumotlarda amalga oshiriladi, ya'ni bir xil ma'lumotlarga ega bo'lgan bir xil turdagi protsessual oqimlarning bir nechta ishlov berish birliklarida bajariladi. Ushbu guruh qatorlarni (massivlar) qayta ishlash mashinalariga bag'ishlangan. Ba'zan vektor protsessorlari ham ushbu guruhning bir qismi sifatida ko'rib chiqilishi mumkin."
-  },
-  {
-    "question": "MISD ga mos keltirilgan ta’rifni ko’rsating.",
-    "answer": "Har bir protsessor turli xil ko'rsatmalar ketma-ketligini bajaradi. ____ kompyuterlarida bitta ma'lumotlar oqimida bir nechta protsessor birliklari ishlaydi."
-  },
-  {
-    "question": "MIMD ga mos keltirilgan ta’rifni ko’rsating",
-    "answer": "Har bir protsessorda alohida dastur mavjud. Har bir dasturdan buyruq oqimi yaratiladi. Har bir buyruq turli xil ma'lumotlar asosida ishlaydi. Ushbu so'nggi mashina turi an'anaviy ko'p protsessorlar guruhini yaratadi. Bir nechta ma'lumot uzatish oqimlarida birnechta protsessor birliklari ishlaydi."
-  },
-  {
-    "question": "Parallel ishlov berishga berilgan qaysi ta'rif to'g'ri?",
-    "answer": "umumiy vazifani alohida qismlarini bajarish uchun ikki yoki undan ko’p protsessor bilan ishlashni usuli. Bunda ko’p protsessorlar orasida bitta vazifani turli qismlarga bo’lish orqali dasturni ishga tushirish vaqtini kamaytiradi."
-  },
-  {
-    "question": "Assotsiativ ishlov berishga berilgan qaysi ta'rif to'g'ri?",
-    "answer": "ham parallel hisoblash modeli ham dasturlash modeli bo’lib, xotira adresiga qaraganda ma'lumotlar uchun parallel dasturlashdan foydalanishni va xotirada ma'lumotlarni tarkibini qidirish qobiliyatini o'z ichiga oladi."
-  },
-  {
-    "question": "Oqimli ishlov berish/hisoblashga berilgan qaysi ta'rif to'g'ri?",
-    "answer": "real vaqt rejimida ko’plab manbalardan keladigan birnechta ma’lumotlar oqimini tahlil qilish uchun yuqori ko’rsatgichli kompyuter tizimlarda foydalaniladi."
-  },
-  {
-    "question": "Компьютера архитектураси деб nimaga aytiladi?",
-    "answer": "ахборотни қайта ишлашга мўлжалланган, маълумотларга ишлов бериш усулларини ўз ичига олган, аппарат ва дастурий таъминотнинг ўртасидаги ўзаро боғлиқликни таминловчи консептуаль тузилишига айтилади. "
-  },
-  {
-    "question": "Микроархитектура деб nimaga aytiladi?",
-    "answer": "процессорнинг буйруқлар тўплами архитектурасини яратиш усулига айтилади  (SPARC, x86, ... ва ҳоказо)."
-  },
-  {
-    "question": "Буйруқлар тўплами архитектураси деб nimaga aytiladi?",
-    "answer": "компютер архитектурасининг дастурлашга жавоб берувчи микропроцессор ядроси қисмига айтилади."
-  },
-  {
-    "question": "Процессор архитектураси nimaga aytiladi?",
-    "answer": "ҳисоблаш машинасининг  асосий таркибий қисми бўлиб унинг кейинги архитектурасини аниқлайди ва  IT- мутахассислар учун амалий қўлланиш йўланишини аниқлайди."
-  },
-  {
-    "question": "Napier suyiklari hisoblash moslamasini qachon ixtiro qilingan?",
-    "answer": "Shotlandiyalik olim 1617 yilda "
-  },
-  {
-    "question": "Paskal kalkulyatori hisoblash moslamasini qachon ixtiro qilingan?",
-    "answer": "1642-yilda fransuz olimi "
-  },
-  {
-    "question": "Leibnz kalkulyatori hisoblash moslamasini qachon ixtiro qilingan?",
-    "answer": "1671 yilda nemis matematigi"
-  },
-  {
-    "question": "Analitik dvigatel hisoblash moslamasini qachon ixtiro qilingan?",
-    "answer": "1833 yilda Angliyalik olim "
-  },
-  {
-    "question": "Kompyuterlarning birinchi avlodi nechanchi yillarga to’g’ri keladi va u nimalardan tashkil topgan?",
-    "answer": "1940-1950 yillar: (Vakuumli quvurlar va plaginlar)"
-  },
-  {
-    "question": "Kompyuterlarning ikkinchi avlodi nechanchi yillarga to’g’ri keladi va u nimalardan tashkil topgan?",
-    "answer": "1950-1960 yillar: (Tranzistorlar va partiyalarni topshirish)"
-  },
-  {
-    "question": "Savol",
-    "answer": "To'g'ri javob"
-  },
-  {
-    "question": "Olti sathli kompyuterlarning nolinchi sathi qanday nomlanadi?",
-    "answer": "raqamli mantiqiy sath"
-  },
-  {
-    "question": "Olti sathli kompyuterlarning birinchi sathi qanday nomlanadi?",
-    "answer": "mikroarxitektura sathi"
-  },
-  {
-    "question": "Olti sathli kompyuterlarning ikkinchi sathi qanday nomlanadi?",
-    "answer": "buyruqlar to‘plami arxitekturasi sathi"
-  },
-  {
-    "question": "Olti sathli kompyuterlarning uchinchi sathi qanday nomlanadi?",
-    "answer": "operatsion tizim sathi"
-  },
-  {
-    "question": "Olti sathli kompyuterlarning to‘rtinchi sathi qanday nomlanadi?",
-    "answer": "assembler sathi"
-  },
-  {
-    "question": "Olti sathli kompyuterlarning beshinchi sathi qanday nomlanadi?",
-    "answer": "amaliy tillar dasturchilari sathi"
-  },
-  {
-    "question": "Open System Interconnection (OSI) modeli nechta pog'onadan iborat?",
-    "answer": "7",
-    "noAnswer1": "6",
-    "noAnswer2": "5",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "+\r\nOSI modeli etalon model asosida hozirgi kunda qaysi tarmoq ishlaydi?",
-    "answer": "TCP/IP",
-    "noAnswer1": "HTTP",
-    "noAnswer2": "FTP",
-    "noAnswer3": "UDP"
-  },
-  {
-    "question": "…..bu – mantiqiy bog'lanish tuguni hisoblanib, ular yordamida mantiqiy kerakli protokolga bog'lanish hosil qilinadi",
+    "question": "… bu – mantiqiy bog'lanish tuguni hisoblanib, ular yordamida mantiqiy kerakli protokolga bog'lanish hosil qilinadi",
     "answer": "port",
     "noAnswer1": "transport",
     "noAnswer2": "tarmoq",
     "noAnswer3": "kanal"
   },
   {
-    "question": "WAN tarmog'ining to'liq nomi to'g'ri ko'rsatilgan javobni aniqlang.",
-    "answer": "Wide Area Network",
-    "noAnswer1": "Worl Area Network",
-    "noAnswer2": "Wide ARP Network",
-    "noAnswer3": "World And Network"
+    "question": "0.XXX.XXX.XXX — 127.XXX.XXX.XXX bu Ipv4 ning qaysi sinfi?",
+    "answer": "A",
+    "noAnswer1": "B",
+    "noAnswer2": "C",
+    "noAnswer3": "D"
   },
   {
-    "question": "UDP protokolida malumotlar qanday nomlanadi?",
-    "answer": "datagram",
-    "noAnswer1": "kadr",
-    "noAnswer2": "segment",
-    "noAnswer3": "frame"
+    "question": "10GEthernet tarmog‘ida ma’lumotlarni maksimal uzatish tezligi qanday.",
+    "answer": "10 Mbit/s ",
+    "noAnswer1": "10 Mbayt/s",
+    "noAnswer2": "10 Gbit/s",
+    "noAnswer3": "100 Mbayt/s"
   },
   {
-    "question": "TCP protokolida malumotlar qanday nomlanadi?",
-    "answer": "segment",
-    "noAnswer1": "frame",
-    "noAnswer2": "datagram",
-    "noAnswer3": "kadr"
+    "question": "128.0.XXX.XXX — 191.255.XXX.XXX bu Ipv4 ning qaysi sinfi?",
+    "answer": "B",
+    "noAnswer1": "A",
+    "noAnswer2": "C",
+    "noAnswer3": "D"
   },
   {
-    "question": "Bu protokol baland tezlikda ishlaydigan jarayonlarda, masalan, videokonferensialarda va tarmoqning maxsus xizmatlari uchun qo'llaniladi?",
-    "answer": "UDP",
-    "noAnswer1": "HTTP",
-    "noAnswer2": "TCP",
-    "noAnswer3": "FTP"
+    "question": "192.0.0.XXX — 223.255.255.XXX bu Ipv4 ning qaysi sinfi?",
+    "answer": "C",
+    "noAnswer1": "B",
+    "noAnswer2": "E",
+    "noAnswer3": "D"
   },
   {
-    "question": "Paketni xatosiz va yo’qotmasdan, kerakli ketma-ketlikda yetkazib berishni protokoli?",
-    "answer": "TCP",
-    "noAnswer1": "UDP",
-    "noAnswer2": "HTTP",
-    "noAnswer3": "FTP"
+    "question": "2001:0db8:11a3:09d7:1f34:8a2e:07a0:765d ushbu yozuv nimani anglatadi?",
+    "answer": "IPv6 avlodga tegishli bo'lgan IP manzil",
+    "noAnswer1": "IPv4 avlodga tegishli bo'lgan IP manzil",
+    "noAnswer2": "MAC manzil",
+    "noAnswer3": "Shifrlangan IP manzilning ko'rinishi"
   },
   {
-    "question": "Tarmoq standartlarini tartibga soluvchi qo’mitaning qisqartmasi qaysi javobda berilgan?",
-    "answer": "IEEE",
-    "noAnswer1": "EEEI",
-    "noAnswer2": "ISO",
-    "noAnswer3": "WANNET"
+    "question": "224.XXX.XXX.XXX — 239.XXX.XXX.XXX bu Ipv4 ning qaysi sinfi?",
+    "answer": "D",
+    "noAnswer1": "B",
+    "noAnswer2": "E",
+    "noAnswer3": "A"
   },
   {
-    "question": "Ethernet tarmog'iga qaysi kompaniya va qachon asos solgan?",
-    "answer": "Xerox (1972)",
-    "noAnswer1": "Hewlett Packard(1973)",
-    "noAnswer2": "Ethernet DIX(1972)",
-    "noAnswer3": "HubNet (1973)"
+    "question": "240.XXX.XXX.XXX — 255.XXX.XXX.XXX. bu Ipv4 ning qaysi sinfi?",
+    "answer": "E",
+    "noAnswer1": "B",
+    "noAnswer2": "C",
+    "noAnswer3": "D"
+  },
+  {
+    "question": "802 qo'mitasi qanday tarkibiy qismlarni o'z ichiga oladi?",
+    "answer": "LLC, Simsiz tarmoqlar, Internetda ishlash",
+    "noAnswer1": "LLP, Optra link, Internet",
+    "noAnswer2": "LLC, ArcNet, Datapoint",
+    "noAnswer3": "LLP, Internet, ArcNet"
+  },
+  {
+    "question": "A sinf IP-adreslari qanday oraliqda bo`ladi?",
+    "answer": "1.0.0.0 dan127.255.255.255 gacha",
+    "noAnswer1": "128.0.0.0 dan 191.255.255.255 gacha",
+    "noAnswer2": "152.0.0.0 dan 212.255.255.255 gacha",
+    "noAnswer3": "192.0.0.0 dan 223.255.255.255 gacha"
+  },
+  {
+    "question": "Abonent tugunlari bu?",
+    "answer": "foydalanuvchi terminal tizimlari o'rnatiladigan terminal nuqtalari",
+    "noAnswer1": "axborot tarmoqlarining terminal tizimlari",
+    "noAnswer2": "Axborotni kiritish-chiqarishni amalga oshiruvchi foydalanuvchilarning terminal tizimlari",
+    "noAnswer3": "alohida subnetsiyalar sifatida ko'rib chiqilishi mumkin bo'lgan tarkibiy qismlar"
+  },
+  {
+    "question": "Active Directory qaysi operatsion tizim oilasiga tegishli",
+    "answer": "Windows Server",
+    "noAnswer1": "Ubuntu Server",
+    "noAnswer2": "CentOS",
+    "noAnswer3": "Debian"
+  },
+  {
+    "question": "ADSL texnologiyasi ma’lumotlarni chiqishida ma’lumotlarni uzatish tezligi ko‘rsatilgan javobni belgilang.",
+    "answer": "640 Kbit/s dan 1,5 Mbit/s gacha",
+    "noAnswer1": "1,5 Mbit/s dan 2,3 Mbit/s gacha",
+    "noAnswer2": "13 Mbit/s dan 42 Mbit/s gacha",
+    "noAnswer3": "1,5 Mbit/s dan 52 Mbit/s gacha"
+  },
+  {
+    "question": "ADSL texnologiyasida qabul qilishda ma’lumotlarni uzatish tezligi ko‘rsatilgan javobni belgilang.",
+    "answer": "1,5 Mbit/s dan 8 Mbit/s gacha",
+    "noAnswer1": "1,5 Mbit/s dan 2,3 Mbit/s gacha",
+    "noAnswer2": "13 Mbit/s dan 42 Mbit/s gacha",
+    "noAnswer3": "1,5 Mbit/s dan 52 Mbit/s gacha"
+  },
+  {
+    "question": "Agar biror bir server funksiyalarining bajarilishi kompyuterning asosiy vazifasi bo‘lsa unda bu kompyuter qanday ataladi?",
+    "answer": "Ajratilgan server.",
+    "noAnswer1": "Bosh kompyuter",
+    "noAnswer2": "Kliyent server.",
+    "noAnswer3": "to’g’ri javob yo’q."
+  },
+  {
+    "question": "Aloqa liniyasi quyidagilarni ta'minlaydi:",
+    "answer": "axborot oqimlarini signal shaklida uzatish",
+    "noAnswer1": "kerakli uzatish oralig'ini ta'minlash",
+    "noAnswer2": "radio to'lqinlari shaklida ochiq kosmosga uzatish",
+    "noAnswer3": "kuchaytirish va keyingi aloqa nuqtasiga etkazish"
+  },
+  {
+    "question": "A-PON texnologiyasining asosiy protokoli qaysi? ",
+    "answer": "ATM",
+    "noAnswer1": "Ethernet",
+    "noAnswer2": "SDH",
+    "noAnswer3": "IKM"
+  },
+  {
+    "question": "ARPANET tarmog'i qachon tashkil qilingan?",
+    "answer": 1969,
+    "noAnswer1": 1970,
+    "noAnswer2": 1971,
+    "noAnswer3": 1973
+  },
+  {
+    "question": "Asinxron ma'lumotlarni uzatish-",
+    "answer": "raqamli ma'lumotni uzatuvchidan qabul qiluvchiga ketma-ket interfeys orqali uzatish usuli, bunda ma'lumotlar istalgan vaqtda uzatiladi.",
+    "noAnswer1": "raqamli ma'lumotlarni ketma-ket interfeys orqali uzatish usuli, bunda qabul qiluvchi va uzatuvchi ma'lumotlarni uzatish vaqtini biladi, ya'ni uzatuvchi va qabul qilgich bir maromda ishlaydi.",
+    "noAnswer2": "raqamli ma'lumotlarni ketma-ket interfeys orqali uzatish usuli, bunda qabul qiluvchi va uzatuvchi ma'lumotlarni uzatish vaqtini bilmaydi, ya'ni uzatuvchi va qabul qilgich bir maromda ishlaydi.",
+    "noAnswer3": "raqamli ma'lumotni uzatuvchidan qabul qiluvchiga ketma-ket interfeys orqali uzatish usuli, bunda ma'lumotlar istalgan chastotada uzatiladi."
+  },
+  {
+    "question": "Asosiy tarmoq operatsion tizimlari keltirilgan qatorni ko’rsating. ",
+    "answer": "Novell Netware 4.1, Microsoft Windows NT Server 4.0, UNIX. ",
+    "noAnswer1": "Novell Netware 4.1, Network Manager OS, Microsoft Windows NT Server 4.0.",
+    "noAnswer2": "Unix, Network Manager OS, Microsoft Network TM.",
+    "noAnswer3": "to’g’ri javob yo’q."
+  },
+  {
+    "question": "Axborot va transport xizmatlarini qanday tizim ko’rsatadi?",
+    "answer": "kompyuter tarmoqlari",
+    "noAnswer1": "Internet tarmoqlari",
+    "noAnswer2": "transport tarmoqlari",
+    "noAnswer3": "kompyuter, internet va transport tarmoqlari"
+  },
+  {
+    "question": "B sinf IP-adreslari qanday oraliqda bo`ladi?",
+    "answer": "128.0.0.0 dan 191.255.255.255 gacha",
+    "noAnswer1": "1.0.0.0 dan127.255.255.255 gacha",
+    "noAnswer2": "192.0.0.0 dan 223.255.255.255 gacha",
+    "noAnswer3": "152.0.0.0 dan 212.255.255.255 gacha"
+  },
+  {
+    "question": "Bajaruvchi qurilma, boshqariladigan ob’ekt holatini o‘lchash uchun kelib tushgan signalga ta’sir bildiruvchi, bajaruvchi qurilma.",
+    "answer": "Aktuator",
+    "noAnswer1": "Sensor",
+    "noAnswer2": "Datchik",
+    "noAnswer3": "Sensor tugun"
+  },
+  {
+    "question": "Berilgan IP – adreslarning qaysi biri to’g’ri. 1)124.256.14.023 2)101.012.252.257 3)220.124.11.14 4)192.168.10.325",
+    "answer": "Uchinchisi to`g`ri tuzilgan",
+    "noAnswer1": " Ikkinchi va to`rtinchisi to`g`ri tuzilgan",
+    "noAnswer2": " Birinchi va to`rtinchisi to`g`ri tuzilgan",
+    "noAnswer3": " Hammasi to`g`ri tuzilgan"
+  },
+  {
+    "question": "Bir yoki bir nechta tarmoq segmentlari ichida kompyuter tarmog'ining bir nechta tugunlarini ulash uchun mo'ljallangan qurilma.",
+    "answer": "switch",
+    "noAnswer1": "Hub",
+    "noAnswer2": "bridge",
+    "noAnswer3": "Router"
   },
   {
     "question": "Biror korxona yoki tashkilotning ichida joylashgan kompyuter tarmog'i",
@@ -893,10 +301,353 @@ const data = [
     "noAnswer3": "PAN"
   },
   {
-    "question": "Simsiz lokal tarmoq bu-",
-    "answer": "WLAN",
-    "noAnswer1": "VLAN",
-    "noAnswer2": "SLAN",
+    "question": "Bitlarni uzatish qaysi satxda amalga oshiriladi.",
+    "answer": "Fizik",
+    "noAnswer1": "Tarmoq",
+    "noAnswer2": "Transport",
+    "noAnswer3": "Kanal"
+  },
+  {
+    "question": "Bitta klient ko‘plab serverlarga so‘rovlar jo‘natishi va murojaat qilishi mumkinmi?",
+    "answer": "Ha, Bitta klient bir nechta serverlarga so‘rovlar jo‘natishi va murojaat qilishi mumkin",
+    "noAnswer1": "Bitta klient bitta serverga so‘rovlar jo‘natishi mumkin",
+    "noAnswer2": "Bitta server bir nechta klientlarga xizmat ko‘rsatishi mumkin",
+    "noAnswer3": "Yo‘q"
+  },
+  {
+    "question": "…-bog’langan tarmoq protokollari bo’lib, kompyuter tarmog’ida ma’lumotlarni uzatishni ta’minlab beradi.",
+    "answer": "Protokollar steki",
+    "noAnswer1": "kolliziya",
+    "noAnswer2": "Ma`lumot uzatish muhiti",
+    "noAnswer3": "Tarmoq protokoli"
+  },
+  {
+    "question": "Bu elektron pochta xabarlarini TCP / IP tarmoqlari orqali uzatish uchun keng qo'llaniladigan tarmoq protokoli.",
+    "answer": "SMTP",
+    "noAnswer1": "SNMP",
+    "noAnswer2": "UDP",
+    "noAnswer3": "BGP"
+  },
+  {
+    "question": "Bu protokol baland tezlikda ishlaydigan jarayonlarda, masalan, videokonferensialarda va tarmoqning maxsus xizmatlari uchun qo'llaniladi?",
+    "answer": "UDP",
+    "noAnswer1": "HTTP",
+    "noAnswer2": "TCP",
+    "noAnswer3": "FTP"
+  },
+  {
+    "question": "Bu protokol-yuqori oqim protokoli uchun xabarlarni etkazib berish kafolatlarini ta'minlamaydi va yuborilgan xabarlarning holatini saqlamaydi.",
+    "answer": "UDP",
+    "noAnswer1": "TSP",
+    "noAnswer2": "IP",
+    "noAnswer3": "FTP"
+  },
+  {
+    "question": "Bu protokol-yuqori oqim protokoli uchun xabarlarni etkazib berish kafolatlarini ta'minlaydi va yuborilgan xabarlarning holatini saqlaydi.",
+    "answer": "TCP",
+    "noAnswer1": "UDP",
+    "noAnswer2": "IP",
+    "noAnswer3": "FTP"
+  },
+  {
+    "question": "Bugungi kunda Internet ashyolari bilan bog'liq bo'lgan barcha narsalar qanday umumiy nom bilan ataladi?",
+    "answer": "bog’langan ashyolar (Connected Things).",
+    "noAnswer1": "mikrielektron qurilmalar",
+    "noAnswer2": "ulanish nuqtalari (Access points).",
+    "noAnswer3": "tarmoq tugunlar."
+  },
+  {
+    "question": "Bulutli ma'lumotlar markazlari (Data Center) va odatda IoT ning bir qismi bo'lgan sensorlar va qurilmalar o'rtasidagi oraliq taqsimlangan hisoblash tushunchasi qanday ataladi?",
+    "answer": "tumanli hisoblash ",
+    "noAnswer1": "mashinali o’qitish ",
+    "noAnswer2": "sun’iy intellekt",
+    "noAnswer3": "internet ashyolari"
+  },
+  {
+    "question": "Bunday tarmoqlarning sensor tugunlari nafaqat olingan ma'lumotlarni vaqti-vaqti bilan yuboribgina qolmay, balki qiymatlarning keskin o'zgarishiga ham munosabat bildiradi.",
+    "answer": "Gibrid tarmoqlar",
+    "noAnswer1": "Proaktiv tarmoqlar",
+    "noAnswer2": "Reaktiv tarmoqlar",
+    "noAnswer3": "Passiv tarmoqlar"
+  },
+  {
+    "question": "C sinf IP-adreslari qanday oraliqda bo`ladi?",
+    "answer": "192.0.0.0 dan 223.255.255.255 gacha",
+    "noAnswer1": "152.0.0.0 dan 212.255.255.255 gacha",
+    "noAnswer2": "1.0.0.0 dan127.255.255.255 gacha",
+    "noAnswer3": "128.0.0.0 dan 191.255.255.255 gacha"
+  },
+  {
+    "question": "CDMA-2000 standarti qanday tarmoq turiga tegishli.",
+    "answer": "simsiz tarmoq ",
+    "noAnswer1": "ARPANET",
+    "noAnswer2": "simli tarmoq",
+    "noAnswer3": "5G"
+  },
+  {
+    "question": "Cisco Packet Tracer - bu…",
+    "answer": "Cisco Systems tomonidan ishlab chiqarilgan ma'lumotlar tarmog'i",
+    "noAnswer1": "Cisco Systems tomonidan ishlab chiqarilgan ma'lumotlar bazsi",
+    "noAnswer2": "Cisco Systems tomonidan ishlab chiqarilgan tarmoq turlari",
+    "noAnswer3": "Cisco Systems tomonidan ishlab chiqarilgan tarmoq protokoli"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 da oynalar to'g'ri keltirilgan qator",
+    "answer": "file, edit, view, help, tools",
+    "noAnswer1": "file, edit, zoom, help, tools",
+    "noAnswer2": "file, edit, view, about, tools",
+    "noAnswer3": "file, edit, view, help, toolbars"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida global tarmoq emulatsiyasi uchun qaysi yorliqdan foydalaniladi",
+    "answer": "Wan Emulation ",
+    "noAnswer1": " Emulation ",
+    "noAnswer2": "Wan simulation",
+    "noAnswer3": "Simulation"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida kompyuterlar orasidagi aloqani tekshirish uchun qaysi komanda ishlatiladi",
+    "answer": "ping adres",
+    "noAnswer1": "IP adres",
+    "noAnswer2": "MAC adres",
+    "noAnswer3": "show adres"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida qaysi rejim tarmoqning normal ishlashini modellashtiradi, bu vaqt xususiyatlari bo'yicha haqiqiy uskunalarning ishlashiga o'xshashdir.",
+    "answer": "Realtime",
+    "noAnswer1": "Simulation",
+    "noAnswer2": "Emulation",
+    "noAnswer3": " Connection"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmada kod yozishni boshlash qaysi kalit so`z orqali amalga oshiriladi",
+    "answer": "enable",
+    "noAnswer1": "conf t",
+    "noAnswer2": "on",
+    "noAnswer3": "configuration on"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmada VLAN kompyuterni switch portiga bog'lash kodi",
+    "answer": "switchport mode acess",
+    "noAnswer1": "switchport mode trunk",
+    "noAnswer2": "switchport mode vty",
+    "noAnswer3": "switchport mode vlan"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmada VLAN larni ko'rish kodi",
+    "answer": "show vlan brief",
+    "noAnswer1": "show vlans brief",
+    "noAnswer2": "show vlan",
+    "noAnswer3": "show vlans"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmada VLAN switch bilan SWITCH portiga bog'lash kodi",
+    "answer": "switchport mode trunk",
+    "noAnswer1": "switchport mode acess",
+    "noAnswer2": "switchport mode vty",
+    "noAnswer3": "switchport mode vlan"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmalarini bog'lovcha kabel turi",
+    "answer": "serial DCE",
+    "noAnswer1": "serial DTE",
+    "noAnswer2": "console",
+    "noAnswer3": "copper"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmani sozlovchi port nomi",
+    "answer": "console",
+    "noAnswer1": "ethernet",
+    "noAnswer2": "serial",
+    "noAnswer3": "auxiliary"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmani yoqish kodi",
+    "answer": "enable",
+    "noAnswer1": "conf t",
+    "noAnswer2": "disable",
+    "noAnswer3": "on"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmasida IP adress kiritish kodi to'g'ri berilgan javobni toping",
+    "answer": "ip address 192.168.1.1 255.255.255.0",
+    "noAnswer1": "ip address 192.168.1.1 subnet mask 255.255.255.0",
+    "noAnswer2": "ip address 192.168.1.1 mask 255.255.255.0",
+    "noAnswer3": "ip 192.168.1.1 mask 255.255.255.0"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmasida portlariga IP adress berish bo'limi",
+    "answer": "interface",
+    "noAnswer1": "global",
+    "noAnswer2": "routing",
+    "noAnswer3": "switching"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmasida RIP ga tarmoq qo'shish kodi to'g'ri berilgan javobni toping",
+    "answer": "network 192.168.1.0",
+    "noAnswer1": "network rip 192.168.1.0",
+    "noAnswer2": "rip network 192.168.1.0",
+    "noAnswer3": "rip 192.168.1.0"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmasida SERIAL porti nechta bo'ladi",
+    "answer": 4,
+    "noAnswer1": 3,
+    "noAnswer2": 2,
+    "noAnswer3": 1
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmasida SERIAL porti orqali qanday qurilmalarga bog'lanadi",
+    "answer": "routerga",
+    "noAnswer1": "switchga",
+    "noAnswer2": "kompyuterga",
+    "noAnswer3": "serverga"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmasida VLAN o'chirish",
+    "answer": "deleting VLAN",
+    "noAnswer1": "delete VLAN",
+    "noAnswer2": "droping VLAN",
+    "noAnswer3": "drop VLAN"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmasini kod yozish bo'limi",
+    "answer": "CLI",
+    "noAnswer1": "Config",
+    "noAnswer2": "Physical",
+    "noAnswer3": "File"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida ROUTER qurilmasini nomini o'zgartirish bo'limi",
+    "answer": "global",
+    "noAnswer1": "routing",
+    "noAnswer2": "interface",
+    "noAnswer3": "switching"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida SWITCH qurilmada fastEthernet 0/1 interfeysni sozlashga o'tish kodi",
+    "answer": "Switch(config)#interface fastEthernet 0/1",
+    "noAnswer1": "Switch#interface fastEthernet 0/1",
+    "noAnswer2": "Switch(config)#fastEthernet 0/1",
+    "noAnswer3": "Switch(config)#interface"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida SWITCH qurilmada global konfiguratsiya rejimiga o'tkazish kodi",
+    "answer": "Switch#configure terminal",
+    "noAnswer1": "Switch#configure ",
+    "noAnswer2": "Switch# terminal configure",
+    "noAnswer3": "Switch#configure edit"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida SWITCH qurilmasi nterfeysida marshrutizatsyani yoqish kodi",
+    "answer": "Switch(config)#ip routing",
+    "noAnswer1": "Switch(config)# routing",
+    "noAnswer2": "Switch(config)#ip adress",
+    "noAnswer3": "Switch(config)#ip TCP"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida SWITCH qurilmasi portini router rejimiga o'tkazish kodi",
+    "answer": "Switch(config-if)#no switchport",
+    "noAnswer1": "Switch(config-if)#switchport",
+    "noAnswer2": "Switch(config-if)#no routerport",
+    "noAnswer3": "Switch(config-if)#routerport"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida SWITCH qurilmasiga IP adres berish kodi",
+    "answer": "Switch(config-if)#ip address 192.168.1.1 255.255.255.0 ",
+    "noAnswer1": "Switch(config-if)#ip address 192.168.1.1 ",
+    "noAnswer2": "Switch(config-if)#ip address 255.255.255.0 ",
+    "noAnswer3": "Switch(config-if)#ip 192.168.1.1 255.255.255.0 "
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida SWITCH qurilmasini aktiv rejimiga o'tkazish kodi",
+    "answer": "enable",
+    "noAnswer1": "conf t",
+    "noAnswer2": "on",
+    "noAnswer3": "configuration on"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida tarmoq xavfsizligi muammolarini bartaraf etishda qaysi protocoldan foydalaniladi ",
+    "answer": "ACL",
+    "noAnswer1": "RIP2",
+    "noAnswer2": "OSPF",
+    "noAnswer3": "RIP1"
+  },
+  {
+    "question": "Cisco Packet Tracer 6.2 dasturida tarmoqsiz ROUTERda DHCP service yoqilgan bo'lsa … ",
+    "answer": "router avtomatik tarzda IP adreslarni qabul qiladi",
+    "noAnswer1": "MTU avtomatik ravishda sozlanadi",
+    "noAnswer2": "host name avtomatik ravishda sozlanadi",
+    "noAnswer3": "router avtomatik tarzda xostlar uchun IP adreslarni tarqatadi"
+  },
+  {
+    "question": "Concept Draw Pro - bu nima?",
+    "answer": "tarmog'ini diagrammasini tuzish uchun kuchli biznes vosita ",
+    "noAnswer1": "Transport paketlarini tuzish uchun kuchli biznes vositasi",
+    "noAnswer2": "Charting dasturiy ta'minoti",
+    "noAnswer3": "Internet tarmog'ini o'rganish platformasi"
+  },
+  {
+    "question": "Dasturlar va jarayonlarning turli xil mashinalardagi o'zaro ta'sirini ta'minlash mexanizmini ta'minlaydigan protokollar asosida quyidagilar qurilgan:",
+    "answer": "gorizontal model",
+    "noAnswer1": "vertikal model",
+    "noAnswer2": "tarmoq modeli",
+    "noAnswer3": "protokol modeli"
+  },
+  {
+    "question": "DDoS kengaytmasini aniqlang",
+    "answer": "Distributed Denial of Service",
+    "noAnswer1": "Distributed Defense of Service",
+    "noAnswer2": "Distributed Data of Service",
+    "noAnswer3": "Dynamic Distributed Service"
+  },
+  {
+    "question": "Deykstr algoritmidan foydalanib, eng qisqa yo'lni topishda bog'lanish holatini kuzatish texnologiyasiga asoslangan dinamik marshrutlash protokoli.",
+    "answer": "OSPF",
+    "noAnswer1": "BGP",
+    "noAnswer2": "SNMP",
+    "noAnswer3": "UDP"
+  },
+  {
+    "question": "DHCP kengaytmasini aniqlang",
+    "answer": "Dynamic Host Configuration Protocol",
+    "noAnswer1": "Dynamic Host Control Protocol",
+    "noAnswer2": "Dynamic Host Configuration Port",
+    "noAnswer3": "Digital Host Configuration Protocol"
+  },
+  {
+    "question": "Dinamik marshrutlash protokoli. Tashqi shlyuzni yo'naltirish protokollari sinfiga tegishli",
+    "answer": "BGP",
+    "noAnswer1": "OSPF",
+    "noAnswer2": "SNMP",
+    "noAnswer3": "UDP"
+  },
+  {
+    "question": "Diykstr algoritmi qaysi protokollarda ishlatiladi.",
+    "answer": "paketlarni marshrutlash protokollarida",
+    "noAnswer1": "kadrlarni uzatish protokollarida.",
+    "noAnswer2": "transport satxi protokollarida",
+    "noAnswer3": "seans satx protokollarida"
+  },
+  {
+    "question": "DNS keygaytmasini aniqlang",
+    "answer": "Domain Name System",
+    "noAnswer1": "Domain Name Server",
+    "noAnswer2": "Dynamic Name Server",
+    "noAnswer3": "Dynamic Name System"
+  },
+  {
+    "question": "Domen nomlari va IP manzillarni boshqaruvchi xalqaro korporatsiyasini aniqlang",
+    "answer": "ICANN",
+    "noAnswer1": "IEEE",
+    "noAnswer2": "ANSI",
+    "noAnswer3": "ISO"
+  },
+  {
+    "question": "Domenlar haqida ma'lumot beruvchi taqsimlangan kompyuter tizimi",
+    "answer": "DNS",
+    "noAnswer1": "DHCP",
+    "noAnswer2": "L2TP",
     "noAnswer3": "VPN"
   },
   {
@@ -907,74 +658,508 @@ const data = [
     "noAnswer3": "MAN"
   },
   {
-    "question": "Uncha katta bo‘lmagan mamlakat shaharlari va viloyatlari foydalanuvchi kompyutеrlarini va lokal tarmoqlarni maxsus aloqa yoki tеlеfon aloqa kanallari orqali birlashtiradigan tarmoq",
-    "answer": "MAN",
-    "noAnswer1": "WAN",
-    "noAnswer2": "PAN",
-    "noAnswer3": "LAN"
+    "question": "E-PON texnologiyasining asosiy protokoli qaysi? ",
+    "answer": "Ethernet ",
+    "noAnswer1": "ATM",
+    "noAnswer2": "SDH",
+    "noAnswer3": "IKM"
   },
   {
-    "question": "ARPANET tarmog'i qachon tashkil qilingan?",
-    "answer": "1969",
-    "noAnswer1": "1970",
-    "noAnswer2": "1971",
-    "noAnswer3": "1973"
+    "question": "Ethernet qanday topologiyani qo'llab-quvvatlaydi:",
+    "answer": "shinalar",
+    "noAnswer1": "halqali",
+    "noAnswer2": "yulduzcha",
+    "noAnswer3": "aralashgan"
   },
   {
-    "question": "Tarmoq arxitekturasi nechaga ajraladi?",
-    "answer": "2",
-    "noAnswer1": "3",
-    "noAnswer2": "4",
-    "noAnswer3": "5"
+    "question": "Ethernet qaysi kanalga kirish usulidan foydalanadi:",
+    "answer": "Tashuvchini sezish to'qnashuvini aniqlash",
+    "noAnswer1": "token o'tkazish",
+    "noAnswer2": "Qayta uzatish uchun doimiy so'rov",
+    "noAnswer3": "barcha javoblar to'g'ri"
   },
   {
-    "question": "OSI ning nechanchi bosqichida paketni xatosiz va yo’qotmasdan, kerakli ketma-ketlikda yetkazib berishni amalga oshiradi?",
-    "answer": "4",
-    "noAnswer1": "5",
-    "noAnswer2": "3",
-    "noAnswer3": "7"
+    "question": "Ethernet texnologiyasi IEEE standarti bilan belgilanadi:",
+    "answer": "802.3",
+    "noAnswer1": "802.2",
+    "noAnswer2": "802.4",
+    "noAnswer3": "802.5"
   },
   {
-    "question": "OSI ning nechanchi bosqichida aloqa o’tkazish vaqtini boshqaradi (ya’ni aloqani o’rnatadi, tasdiqlaydi va tamomlaydi) va abonentlarni mantiqiy nomlarini tanish, ularga ega bo’lish huquqini nazorat qilishvazifalari ham bajariladi?",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "7"
+    "question": "Ethernet texnologiyasidagi MTU kengaytmasini aniqlang",
+    "answer": "Maximum Transmission Unit",
+    "noAnswer1": "Minimum Transmission Unit",
+    "noAnswer2": "Multiple Tramission Units",
+    "noAnswer3": "Media Transmission Unit"
   },
   {
-    "question": "OSI ning nechanchi bosqichi paketlarni manzillash, mantiqiy nomlarni jismoniy tarmoq manziliga o’zgartirish, teskariga ham va shuningdek paketni kerakli abonentga jo’natish yo’nalishini tanlashga javobgar?",
-    "answer": "3",
-    "noAnswer1": "4",
-    "noAnswer2": "2",
-    "noAnswer3": "7"
+    "question": "Ethernet tarmog'iga qaysi kompaniya va qachon asos solgan?",
+    "answer": "Xerox (1972)",
+    "noAnswer1": "Hewlett Packard(1973)",
+    "noAnswer2": "Ethernet DIX(1972)",
+    "noAnswer3": "HubNet (1973)"
   },
   {
-    "question": "OSI ning nechanchi bosqichi standard ko’rishdagi paket tuzishga va boshlash hamda tamom bo’lishni boshqarish maydonini paket tarkibiga joylashishiga javobgar?",
-    "answer": "2",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "7"
+    "question": "Faqat amaliy harakatlarni bajaradi (ma'lumot to'plash va masofadan turib ob'ektni boshqarish) va ma'lumotlarni retranslyatsiya qilmaydi.",
+    "answer": "Terminal qurilma",
+    "noAnswer1": "Koordinator",
+    "noAnswer2": "Router",
+    "noAnswer3": "Svitch"
   },
   {
-    "question": "OSI ning nechanchi bosqichi uzatilayotgan axborotni signal kattaligiga kodlashtiradi, uzatish muhitiga qabul qilishni va teskari kodlashni amalga oshirishga javob beradi?",
-    "answer": "1",
-    "noAnswer1": "2",
-    "noAnswer2": "4",
-    "noAnswer3": "3"
+    "question": "Fast Ethernet tarmog‘ida ma’lumotlarni maksimal uzatish tezligi qanday.",
+    "answer": "100 Mbit/s. ",
+    "noAnswer1": "10 Mbit/s.",
+    "noAnswer2": "100 Kbit/s.",
+    "noAnswer3": "100 Mbayt/s."
   },
   {
-    "question": "OSI ning nechanchi bosqichi foydalanuvchining ilovasini shaxsan tasdiqlaydi, fayllar uzatishning dasturiy vositalari axborot bazasiga ega bo’lish, elektron pochta vositalari, serverda qayd qilish xizmati uchun mo'ljallangan?",
-    "answer": "7",
-    "noAnswer1": "5",
-    "noAnswer2": "3",
-    "noAnswer3": "1"
+    "question": "FastEthernet port tezligi qanday birlikda o'lchanadi?",
+    "answer": "Mbit / s",
+    "noAnswer1": "Kbit / s",
+    "noAnswer2": "Bit / sek",
+    "noAnswer3": "Gigabits / sek"
   },
   {
-    "question": "Token ring va Arcnet tarmoqlarida foydalanilgan kabel kategoriyasini aniqlang",
-    "answer": "CAT2",
-    "noAnswer1": "CAT3",
-    "noAnswer2": "CAT4",
-    "noAnswer3": "CAT5"
+    "question": "Fayllar va printerlarga masofadan kirish uchun foydalaniladigan tarmoq protokolini ko'rsating",
+    "answer": "SMB",
+    "noAnswer1": "FTP",
+    "noAnswer2": "SMTP",
+    "noAnswer3": "TELNET"
+  },
+  {
+    "question": "FTP protokoli bu-",
+    "answer": "fayllar yborish protokoli",
+    "noAnswer1": "tarmoq boshqarish oddiy protokoli",
+    "noAnswer2": "pochta yuborish oddiy protokoli",
+    "noAnswer3": "gippermatn yuvorish protokoli "
+  },
+  {
+    "question": "Funksional imkoniyatlari jihatidan TELNET va RLOGIN protokollariga o'xshash, lekin barcha trafikni shifrlovchi protokolni ko'rsating",
+    "answer": "SSH",
+    "noAnswer1": "SMTP",
+    "noAnswer2": "SMB",
+    "noAnswer3": "SNMP"
+  },
+  {
+    "question": "GAF (Geographic Adaptive Fidelity), GEAR (Geographic and Energy Aware Routing) - ...",
+    "answer": "tugunning joylashuv o‘rni haqidagi ma’lumot asosidagi marshrutizatsiya protokollari",
+    "noAnswer1": "ierarxik marshrutizatsiya protokollari",
+    "noAnswer2": "bir sathli marshrutizatsiya protokollari",
+    "noAnswer3": "xizmat ko‘rsatish sifatini hisobga oladigan protokollar"
+  },
+  {
+    "question": "Global kompyuter tarmog'i:",
+    "answer": "Uzoq masofalarda joylashgan va aloqa kanallari yordamida yagona tizimga ulangan mahalliy tarmoqlar va kompyuterlar to'plami",
+    "noAnswer1": "Asosiy kompyuterlar va fayl serverlari to'plami",
+    "noAnswer2": "Gipermuroqli axborot tizimi",
+    "noAnswer3": "Axborot uzatish kanallari bilan bog'langan va bitta xona, bino ichida joylashgan ko'plab kompyuterlar"
+  },
+  {
+    "question": "Global muvofiqlashtirishni, tarmoq parametrlarini tashkillashtirish va o'rnatishni amalga oshiradi, SST ning eng murakkab qurilmasi bo’lib, katta hajmdagi xotirani va eng katta quvvat manbasini talab qiladi.",
+    "answer": "Koordinator",
+    "noAnswer1": "Router",
+    "noAnswer2": "Terminal qurilma",
+    "noAnswer3": "Svitch"
+  },
+  {
+    "question": "Global tarmoq?",
+    "answer": "WAN",
+    "noAnswer1": "PAN",
+    "noAnswer2": "LAN",
+    "noAnswer3": "MAN"
+  },
+  {
+    "question": "G-PON teskari oqimi(abonentdan ulanish tuguniga)ni tezligi keltirilgan javobni belgilang. ",
+    "answer": "155 Mbit/s, 622 Mbit/s va 1,244 Gbit ",
+    "noAnswer1": "1,244 Gbit/s - 2,488 Gbit",
+    "noAnswer2": "13 Mbit/s dan 42 Mbit/s gacha",
+    "noAnswer3": "1,5 Mbit/s dan 52 Mbit/s gacha"
+  },
+  {
+    "question": "G-PON texnologiyasining asosiy protokoli qaysi? ",
+    "answer": "SDH ",
+    "noAnswer1": "ATM",
+    "noAnswer2": "Ethernet",
+    "noAnswer3": "IKM"
+  },
+  {
+    "question": "G-PON to‘g‘ri oqimi(ulanish tugunidan abonentga)ni tezligi keltirilgan javobni belgilang. ",
+    "answer": "1,244 Gbit/s - 2,488 Gbit",
+    "noAnswer1": "155 Mbit/s, 622 Mbit/s va 1,244 Gbit",
+    "noAnswer2": "13 Mbit/s dan 42 Mbit/s gacha",
+    "noAnswer3": "1,5 Mbit/s dan 52 Mbit/s gacha"
+  },
+  {
+    "question": "Halqaro standart ISO 11801 sertifikatiga ega va ma'lumot uzatish tezligi 10 Gigabit sekundgacha bo'lgan kabel kategoriyasini aniqlang",
+    "answer": "CAT7",
+    "noAnswer1": "CAT4",
+    "noAnswer2": "CAT5",
+    "noAnswer3": "CAT8"
+  },
+  {
+    "question": "Haqiqiy fizik ob’ektdan olingan ma’lumotga javobni berish maqsadida, ma’lumotni qayta ishlash, uzatish, etkazib berish va so‘rovlar olish uchun boshqa tarmoqlar bilan, o‘z aro hamkorlik qiluvchi, tarmoqlangan tugunlar tizimi.",
+    "answer": "Sensor tarmoq",
+    "noAnswer1": "Sensor tugun",
+    "noAnswer2": "IoT tarmog'i",
+    "noAnswer3": "Kompyuter tarmog'i"
+  },
+  {
+    "question": "HTTP protokoli bu-",
+    "answer": "gippermatn yuvorish protokoli ",
+    "noAnswer1": "fayllar yborish protokoli",
+    "noAnswer2": "pochta yuborish oddiy protokoli",
+    "noAnswer3": "tarmoq boshqarish oddiy protokoli"
+  },
+  {
+    "question": "HTTP protokoli uchun standart portni ko'rsating",
+    "answer": 80,
+    "noAnswer1": 443,
+    "noAnswer2": 8080,
+    "noAnswer3": 3306
+  },
+  {
+    "question": "HTTPS protokoli uchun standart portni ko'rsating",
+    "answer": 443,
+    "noAnswer1": 80,
+    "noAnswer2": 8080,
+    "noAnswer3": 22
+  },
+  {
+    "question": "Hub OSI modelining qaysi pog'onasida ishlaydi? ",
+    "answer": "fizik",
+    "noAnswer1": "transport",
+    "noAnswer2": "tarmoq",
+    "noAnswer3": "kanal"
+  },
+  {
+    "question": "IDSL ( raqamli abonent liniyasi ) texnologiyasi ma’lumotlarni uzatish tezligi ko‘rsatilgan javobni belgilang.",
+    "answer": "144 Kbit/s",
+    "noAnswer1": "244 Kbit/s",
+    "noAnswer2": "1,5 Mbit/s",
+    "noAnswer3": "52 Mbit/s"
+  },
+  {
+    "question": "IEEE 802.03 stardanti asosida tashkil qilingan tarmoq abonentlarining maksimal soni",
+    "answer": "1024 tagacha",
+    "noAnswer1": "cheksiz",
+    "noAnswer2": "201 tagacha",
+    "noAnswer3": "200-300 ta"
+  },
+  {
+    "question": "IEEE 802.03 stardanti asosida tashkil qilingan tarmoq bir qismidagi abonentlarning maksimal soni",
+    "answer": "100 tagacha",
+    "noAnswer1": "cheksiz",
+    "noAnswer2": "200 tagacha",
+    "noAnswer3": "200-300 ta"
+  },
+  {
+    "question": "IEEE 802.11 standarti asosida tarmoq qanday nomlanadi.",
+    "answer": "Wi-Fi ",
+    "noAnswer1": "Ethernet",
+    "noAnswer2": "Arcnet",
+    "noAnswer3": "FDDI"
+  },
+  {
+    "question": "IEEE 802.11 standarti qanday tarmoq turiga tegishli.",
+    "answer": "Simsiz lokal tarmoq",
+    "noAnswer1": "Simli lokal tarmoq",
+    "noAnswer2": "Optik lokal tarmoq",
+    "noAnswer3": "korporativ tarmoq"
+  },
+  {
+    "question": "IEEE 802.15 standarti",
+    "answer": "Bluetooth",
+    "noAnswer1": "ethernet",
+    "noAnswer2": "wi-fi",
+    "noAnswer3": "wimax"
+  },
+  {
+    "question": "IEEE 802.16 standarti qaysi tarmoqga tegishli.",
+    "answer": "WiMAX",
+    "noAnswer1": "Ethernet",
+    "noAnswer2": "FDDI",
+    "noAnswer3": "LTE"
+  },
+  {
+    "question": "Impuls kodli modulyatsiy bajarilishning ketma-ketligi to`g`ri javobni ko`rsting.",
+    "answer": "diskretlash, kvantlash, kodlash",
+    "noAnswer1": " kodlash, kvantlash, diskretlash",
+    "noAnswer2": "kvantlash, diskretlash, kodlash",
+    "noAnswer3": "diskretlash, kodlash, kvantlash "
+  },
+  {
+    "question": "Internet tarmog'ini hosil bo'lishiga sababchi bo'lgan tarmoq nomi qaysi javobda berilgan?",
+    "answer": "ARPANET",
+    "noAnswer1": "INTRANET",
+    "noAnswer2": "LOCALNET",
+    "noAnswer3": "WORLD ARE NETWORK"
+  },
+  {
+    "question": "Internetga ulangan kompyuterda albatta nima bo'lishi kerak",
+    "answer": "IP-manzil",
+    "noAnswer1": "URL manzili",
+    "noAnswer2": "domen nomi",
+    "noAnswer3": "WEB sahifasi"
+  },
+  {
+    "question": "Internet ashyolari (IoT) atamasi qachon va kim tomonidan taklif etilgan?",
+    "answer": "1999 yilda Kevin Eshton tomonidan ",
+    "noAnswer1": "2001 yilda Edvard Nikson tomonidan",
+    "noAnswer2": "1995 yilda Lin Po tomonidan",
+    "noAnswer3": "2004 yilda Styuart Little tomonidan"
+  },
+  {
+    "question": "IoT atamasi nimani anglatadi?",
+    "answer": "Internet ashyolari ",
+    "noAnswer1": "Internet tarmog’i texnologiyalari",
+    "noAnswer2": "Internetga ulanish usullari",
+    "noAnswer3": "Sanoatni rivijlntirish qurilmalari"
+  },
+  {
+    "question": "IoT kengaytmasini aniqlang",
+    "answer": "Internet of Things",
+    "noAnswer1": "Intelligence of Technology",
+    "noAnswer2": "Integrated operating Technology",
+    "noAnswer3": " Integrated operations of Technology"
+  },
+  {
+    "question": "IP adres qaysi satx protokolida ko‘rsatiladi",
+    "answer": "tarmoq satxi",
+    "noAnswer1": "kanal satxi",
+    "noAnswer2": "transport satxi",
+    "noAnswer3": "ilova satxi"
+  },
+  {
+    "question": "IP nima.",
+    "answer": "Internet protokoli",
+    "noAnswer1": "paket",
+    "noAnswer2": "interfeys.",
+    "noAnswer3": "tarmoq adresi "
+  },
+  {
+    "question": "IP protokol qanday vazifani bajaradi.",
+    "answer": "kadrlarni uzatish",
+    "noAnswer1": "paketlarni marshrut bo‘yicha uzatish",
+    "noAnswer2": "Trafikni boshqarish",
+    "noAnswer3": "bitlarni uzatish"
+  },
+  {
+    "question": "IP protokoli paketni uzatish yo‘lini nima asosida tanlaydi.",
+    "answer": "marshrutlash jadvali asosida ",
+    "noAnswer1": "kodlash jadvali asosida.",
+    "noAnswer2": "tarmoq topologiyasi asosida",
+    "noAnswer3": "TSR protokoli yordami asosida."
+  },
+  {
+    "question": "IP-adres nima ?",
+    "answer": "Nuqtalar bilan ajratilgan to`rtta sondan (oktet )iborat noyob son. Har bir son 0-255 oralig`ida bo`lishi lozim.",
+    "noAnswer1": " real vaqt rejimida ma’lumot almashish. Misol uchun tarmoq orqali so`zlashish. Bularga chat serverlari xizmatlari kiradi",
+    "noAnswer2": "bunga axborotlardan foydalanishga ruxsat beruvchi xizmatlar kiradi ",
+    "noAnswer3": "Tarmoq"
+  },
+  {
+    "question": "IPv4 adres bu - …",
+    "answer": "32 bitli son bo`lib 4 ta qismga bo`linadi",
+    "noAnswer1": "24 bitli son bo`lib 3 ta qismga bo`linadi",
+    "noAnswer2": "16 bitli son bo`lib 2 ta qismga bo`linadi",
+    "noAnswer3": "1 baytli son bo`lib 2 ta qismga bo`linadi"
+  },
+  {
+    "question": "IPv4 ning IPv6 dan asosiy farqi",
+    "answer": "IP adreslarni uzunliklari turlicha ",
+    "noAnswer1": "paketlar uzunligi turlicha",
+    "noAnswer2": "Turli satxlarda ishlatiladi",
+    "noAnswer3": "paket sarlavxalarining uzunliklari turlicha"
+  },
+  {
+    "question": "IPv4 protokolida IP adres uzunligi.",
+    "answer": "32 bit",
+    "noAnswer1": "4 Kbit",
+    "noAnswer2": "4 bit",
+    "noAnswer3": "64 bit"
+  },
+  {
+    "question": "IPv6 protokolida IP adres uzunligi.",
+    "answer": "128 bit",
+    "noAnswer1": "8 bayt",
+    "noAnswer2": "32 bit",
+    "noAnswer3": "64 bit"
+  },
+  {
+    "question": "Kabelning qaysi turi yorug`lik oqimini uzatishga mo`ljallangandir?",
+    "answer": "opriktolali",
+    "noAnswer1": "Koaksial kabellar",
+    "noAnswer2": "simsiz",
+    "noAnswer3": "simli"
+  },
+  {
+    "question": "Kadrlarni uzatish protokoli tarmoqning qaysi satxida bajariladi.",
+    "answer": "Kanal ",
+    "noAnswer1": "Tarmoq",
+    "noAnswer2": "Fizik. ",
+    "noAnswer3": "Transport"
+  },
+  {
+    "question": "Kamida bir sensordan iborat (yana bir yoki bir nechta aktuator bo‘lishi mumkin) qurilma hamda hisoblash va simli yoki simsiz tarmoq imkoniyatlariga ega.",
+    "answer": "Sensor tugun",
+    "noAnswer1": "Sensor",
+    "noAnswer2": "Aktuator",
+    "noAnswer3": "Sensor tarmoq"
+  },
+  {
+    "question": "Kanal satx protokolining vazifasi.",
+    "answer": "kadrlarni uzatish",
+    "noAnswer1": "paketlarni marshrutlash",
+    "noAnswer2": "trafikni boshqarish",
+    "noAnswer3": "bitlarni uzatish"
+  },
+  {
+    "question": "Kanallar holati algoritmi qaysi protokolda ishlatiladi.",
+    "answer": "OSPF",
+    "noAnswer1": "RIP",
+    "noAnswer2": "TCP",
+    "noAnswer3": "CSMA/CD"
+  },
+  {
+    "question": "Kanallarni birlashtirish texnologiyasini ko'rsating",
+    "answer": "EtherChannel",
+    "noAnswer1": "Xerox Ethernet ",
+    "noAnswer2": "1BROAD36 ",
+    "noAnswer3": "PPPoE"
+  },
+  {
+    "question": "Keltirilganlardan qaysi biri ICMP (Internet Control Message Protocol) protokolining umumiy xarakteristikalariga kiradi",
+    "answer": "Marshrutizatorga oxirgi tugunga ma’lum bir IP paketni uzatish jarayonida yuzaga kelgan xatoliklar to‘g‘risida ma’lumot jo‘natilishiga imkon yaratib beradi",
+    "noAnswer1": "ICMP ining boshqaruv ma’lumotlari paket uzatilishida ishtirok etgan oraliq marshrutizatorlarga uzatilmaydi",
+    "noAnswer2": "Boshqaruv ma’lumoti faqat manbadan birinchi marshrutiza va oxirgi tugunga - adresatga jo‘natiladi.",
+    "noAnswer3": "Hamma javoblar to`g`ri."
+  },
+  {
+    "question": "Keraksiz bog'lanmalarga, bir yoki bir nechta tarmoq ko'priklariga ega bo'lgan Ethernet tarmoq topologiyasidagi ilmoqlarni bartaraf etish uning asosiy vazifasi hisoblanadi",
+    "answer": "STP",
+    "noAnswer1": "TCP",
+    "noAnswer2": "TLS",
+    "noAnswer3": "UDP"
+  },
+  {
+    "question": "Klient dasturiy tizimining asosiy qismlarini sanab bering",
+    "answer": "tarmoq xizmatlari, tarmoq funksiyalari, operatsion tizim. ",
+    "noAnswer1": "redirector, tarmoq funksiyasi, operatsion tizim.",
+    "noAnswer2": "redirector, taqsimlagich, UNC nomlar. ",
+    "noAnswer3": "taqsimlagich, UNC nomlar, tarmoq xizmatlari."
+  },
+  {
+    "question": "Klient-server arxitekturasida ilova qanday mantiqiy sathlarga bo‘linadi",
+    "answer": "Foydalanuvchi interfeysi sathi. Qayta ishlash sathi. Ma’lumotlar sathi",
+    "noAnswer1": "Foydalanuvchi interfeysi sathi. Qayta ishlash sathi.",
+    "noAnswer2": "Qayta ishlash sathi. Ma’lumotlar sathi.",
+    "noAnswer3": "Foydalanuvchi interfeysi sathi. Ma’lumotlar sathi."
+  },
+  {
+    "question": "Kommutator qanday satxlarni o‘z ichiga oladi.",
+    "answer": "Kanal va tarmoq ",
+    "noAnswer1": "Tarmoq",
+    "noAnswer2": "Fizik va kanal ",
+    "noAnswer3": "Tarmoq va transport"
+  },
+  {
+    "question": "Kommutatorlarda MAC adreslar yozib qo'yiladigon jadval nomi",
+    "answer": "CAM",
+    "noAnswer1": "TSP/IP",
+    "noAnswer2": "ARP",
+    "noAnswer3": "IP"
+  },
+  {
+    "question": "Kompyuter tarmog'ining segmentlarini (tarmoq osti) bitta tarmoqqa birlashtirishga mo'ljallangan OSI modelining ikkinchi darajali tarmoq qurilmasi.",
+    "answer": "bridge",
+    "noAnswer1": "Router",
+    "noAnswer2": "switch",
+    "noAnswer3": "Hub"
+  },
+  {
+    "question": "Kompyuter tarmoqlari o'rtasida ma'lumot almashish har doim quyidagilar orqali amalga oshiriladi.",
+    "answer": "Mustaqil kichik ma'lumotlar to'plamlari (paketlar)",
+    "noAnswer1": "baytni mustaqil uzatish",
+    "noAnswer2": "Tugunlar orasidagi masofaning davomiyligi bo'yicha ustuvorliklar",
+    "noAnswer3": "Yuborilgan va qabul qilingan jamlangan fayllar"
+  },
+  {
+    "question": "Kompyuter tarmoqlarida … - bu paketli rejimda tarmoq orqali uzatiladigan ma'lumotlarning maxsus shakllangan bloki.",
+    "answer": "Paket",
+    "noAnswer1": "Kadr",
+    "noAnswer2": "Bit",
+    "noAnswer3": "Bayt"
+  },
+  {
+    "question": "Kompyuter tarmoqlarida ma’lumotlar dasturlar yordamida kichik bloklarga bo`linadi va bir kompyuterdan ikkinchisiga uzatiladi. Bunday bloklar nima deb ataladi?",
+    "answer": "Paket",
+    "noAnswer1": " Ma’lumot ",
+    "noAnswer2": " Axborot ",
+    "noAnswer3": "segment"
+  },
+  {
+    "question": "Kompyuterdagi mavjud tarmoq adapterlar adreslarini aniqlash uchun buyruqlar satriga qaysi xizmatchi so'z yoziladi?",
+    "answer": "ipconfig/all",
+    "noAnswer1": "ip/all",
+    "noAnswer2": "tcp/ip/all",
+    "noAnswer3": "tcp/all"
+  },
+  {
+    "question": "Kompyuterlarga ma'lumotlar almashinuvini ta'minlaydigan apparat va dasturiy ta'minot to'plami qanday nomlanadi",
+    "answer": "kompyuter tarmog'i",
+    "noAnswer1": "protokollar to'plami",
+    "noAnswer2": "interfeysi",
+    "noAnswer3": "adapter"
+  },
+  {
+    "question": "Kompyuterlarni tarmoqqa ulashning asosiy maqsadi nima:",
+    "answer": "tarmoqning barcha foydalanuvchilari tomonidan har bir kompyuterning resurslaridan foydalanish qobiliyati, buning uchun tarmoqqa ulangan kompyuterlar tarmoqdagi boshqa kompyuterlar bilan o'zaro aloqaning zarur vositalariga ega bo'lishi kerak.",
+    "noAnswer1": "Har bir modulning funktsiyalari va ularning o'zaro ishlash qoidalarini aniq belgilab bergan holda, har biriga biron bir modul ajratib, tarmoqni bir nechta xususiy subnetslarga bo'lishning murakkab masalasini hal qilish.",
+    "noAnswer2": "yuqori pog’ona uchun ushbu pog’ona tomonidan bajariladigan funktsiyalar to'plami, shuningdek, o'zaro ta'sirlashish jarayonida ikkita qo'shni pog’ona o'rtasida almashinadigan xabarlar formatlari",
+    "noAnswer3": "markazlashgan boshqaruv, boshqaruvning kuchayishi, boshqaruvning murakkabligi"
+  },
+  {
+    "question": "Konsentratsiya quyidagilarni anglatadi:",
+    "answer": "Bir nechta kirish, kam quvvatli, axborot oqimlarini birlashtirgan ",
+    "noAnswer1": "bitta quvvat kiritish, axborot oqimini birlashtirish",
+    "noAnswer2": "bitta satrda bitta ma'lumot oqimini uzatish qobiliyati",
+    "noAnswer3": "bir qator ma'lumotlarning bir nechta oqimlarini uzatish qobiliyati"
+  },
+  {
+    "question": "L2 kommutatori OSI modelining qaysi pog'onasida ishlaydi? ",
+    "answer": "kanal",
+    "noAnswer1": "fizik",
+    "noAnswer2": "transport",
+    "noAnswer3": "tarmoq"
+  },
+  {
+    "question": "L3 kommutatori OSI modelining qaysi pog'onasida ishlaydi? ",
+    "answer": "tarmoq",
+    "noAnswer1": "kanal",
+    "noAnswer2": "fizik",
+    "noAnswer3": "transport"
+  },
+  {
+    "question": "LAN qanday tarmoq turiga kiradi.",
+    "answer": "Lokal tarmoq",
+    "noAnswer1": "Shaxar tarmog‘i",
+    "noAnswer2": "Global tarmoq",
+    "noAnswer3": "Telefon tarmog‘i."
+  },
+  {
+    "question": "LLC protokoli qaysi satxda ishlatiladi.",
+    "answer": "kanal satxida ",
+    "noAnswer1": "transport satxda",
+    "noAnswer2": "ilova satxida",
+    "noAnswer3": "transport satxida"
+  },
+  {
+    "question": "Lokal hisoblash tarmog`idagi kompyuterlarning joylashishini ifodalovchi termin qanday nomlanadi?",
+    "answer": "Topologiya",
+    "noAnswer1": "Tarmoq ",
+    "noAnswer2": "Qurilma ",
+    "noAnswer3": "Ma’lumot "
   },
   {
     "question": "Lokal tarmoq 10BASE-T va token ring tarmoqlarida foydalanilgan kabel kategoriyasini aniqlang",
@@ -991,10 +1176,10 @@ const data = [
     "noAnswer3": "CAT7"
   },
   {
-    "question": "Lokal tarmoq 1000BASE-TX tarmog'ida foydalanilgan kabel kategoriyasini aniqlang",
-    "answer": "CAT5e",
+    "question": "Lokal tarmoq 1100BASE-TX tarmog'ida foydalanilgan kabel kategoriyasini aniqlang",
+    "answer": "CAT5",
     "noAnswer1": "CAT6",
-    "noAnswer2": "CAT5",
+    "noAnswer2": "CAT7",
     "noAnswer3": "CAT4"
   },
   {
@@ -1005,95 +1190,235 @@ const data = [
     "noAnswer3": "CAT5"
   },
   {
-    "question": "Halqaro standart ISO 11801 sertifikatiga ega va ma'lumot uzatish tezligi 10 Gigabit sekundgacha bo'lgan kabel kategoriyasini aniqlang",
-    "answer": "CAT7",
-    "noAnswer1": "CAT4",
-    "noAnswer2": "CAT5",
-    "noAnswer3": "CAT8"
+    "question": "Lokal tarmoq?",
+    "answer": "LAN",
+    "noAnswer1": "MAN",
+    "noAnswer2": "WAN",
+    "noAnswer3": "PAN"
   },
   {
-    "question": "IPv4 marshrutlangan tarmoq uzunligi necha razryaddan tashkil topgan?",
-    "answer": "32",
-    "noAnswer1": "64",
-    "noAnswer2": "128",
-    "noAnswer3": "256"
+    "question": "Lokal tarmoqda marker usuli vazifasi.",
+    "answer": "Ma’lumotlarni uzatish",
+    "noAnswer1": "Sinxronizatsiya",
+    "noAnswer2": "Umumiy kanalga kirish",
+    "noAnswer3": "Marshrutizatsiya"
   },
   {
-    "question": "IPv6 marshrutlangan tarmoq uzunligi necha razryaddan tashkil topgan?",
-    "answer": "128",
-    "noAnswer1": "32",
-    "noAnswer2": "64",
-    "noAnswer3": "256"
+    "question": "Lokal tarmoqda tasodiviy kirish qaysi standarta yoritilgan.",
+    "answer": "IEEE802.1",
+    "noAnswer1": "IEEE802.2",
+    "noAnswer2": "IEEE802.3",
+    "noAnswer3": "IEEE802.4"
   },
   {
-    "question": "Internet tarmog'ini hosil bo'lishiga sababchi bo'lgan tarmoq nomi qaysi javobda berilgan?",
-    "answer": "ARPANET",
-    "noAnswer1": "INTRANET",
-    "noAnswer2": "LOCALNET",
-    "noAnswer3": "WORLD ARE NETWORK"
+    "question": "Low Power Short Range – qisqa masofali kam quvvatli tarmoqlar texnologiyalari qaysilar? ",
+    "answer": "ZigBee, WirelessHart, MiWi, 6LoWPAN. ",
+    "noAnswer1": "SigFox, Symphony Link, Nwave, Ingenu (RPMA), Weightless, LoRa",
+    "noAnswer2": "SDN/NFV, Wi-Fi, LTE.",
+    "noAnswer3": "Barchasi to’g’ri"
   },
   {
-    "question": "Lokal hisoblash tarmog`idagi kompyuterlarning joylashishini ifodalovchi termin qanday nomlanadi?",
-    "answer": "Topologiya",
+    "question": "Low Power Wide Area (LPWAN)- keng qamrovli kam quvvatli tarmoqlar texnologiyalari qaysilar? ",
+    "answer": "SigFox, Symphony Link, Nwave, Ingenu (RPMA), Weightless, LoRa",
+    "noAnswer1": "ZigBee, WirelessHart, MiWi, 6LoWPAN. ",
+    "noAnswer2": "SDN/NFV, Wi-Fi, LTE.",
+    "noAnswer3": "Barchasi to’g’ri"
+  },
+  {
+    "question": "Ma’lumotlar kadri lokal tarmoqning qaysi satxida shakllanadi.",
+    "answer": "Kanal",
     "noAnswer1": "Tarmoq",
-    "noAnswer2": "Qurilma",
-    "noAnswer3": "Ma’lumot"
+    "noAnswer2": "Transport.",
+    "noAnswer3": "Fizik"
   },
   {
-    "question": "Lokal xisoblash tarmoqlarining ma’lumotlar almashinish muxiti qanday turlarga bo`linadi?",
-    "answer": "A,B,C javoblar to`g`ri",
-    "noAnswer1": "Koaksial va optik tolali kabellar",
-    "noAnswer2": "Ikkita simni bir-bir atrofida o`rash natijasida xosil qilingan kabel (Vitaya para)",
-    "noAnswer3": "Simsiz aloqa kanali"
+    "question": "Ma’lumotlarni fizik kodlash usuli tarmoqning qaysi satxida bajariladi.",
+    "answer": "Fizik ",
+    "noAnswer1": "Kanal",
+    "noAnswer2": "Tarmoq",
+    "noAnswer3": "Transport"
   },
   {
-    "question": "Kompyuter tarmoqlarida ma’lumotlar dasturlar yordamida kichik bloklarga bo`linadi va bir kompyuterdan ikkinchisiga uzatiladi. Bunday bloklar nima deb ataladi?",
-    "answer": "Paket",
-    "noAnswer1": "Ma’lumot",
-    "noAnswer2": "Axborot",
-    "noAnswer3": "segment"
+    "question": "MAC adres orqali IP ni aniqlashda ishatiladigon protokol",
+    "answer": "ARP",
+    "noAnswer1": "IP",
+    "noAnswer2": "CAM",
+    "noAnswer3": "TSP/IP"
   },
   {
-    "question": "Kabelning qaysi turi yorug`lik oqimini uzatishga mo`ljallangandir?",
-    "answer": "opriktolali",
-    "noAnswer1": "Koaksial kabellar",
-    "noAnswer2": "simsiz",
-    "noAnswer3": "simli"
+    "question": "MAC kengaytmasini aniqlang",
+    "answer": "Media Access Control",
+    "noAnswer1": "Multiple Access Control",
+    "noAnswer2": "Multiple Artificial Control",
+    "noAnswer3": "Media Artificial Control"
   },
   {
-    "question": "IEEE 802.03 stardanti asosida tashkil qilingan tarmoq bir qismidagi abonentlarning maksimal soni",
-    "answer": "100 tagacha",
-    "noAnswer1": "cheksiz",
-    "noAnswer2": "200 tagacha",
-    "noAnswer3": "200-300 ta"
+    "question": "Ma'lumot uzatish paytida yuzaga kelgan xatolar va boshqa istisno holatlar to'g'risida xabarlarni yuborish uchun asosan ushbu protokoldan foydalaniladi",
+    "answer": "ICMP",
+    "noAnswer1": "TLS",
+    "noAnswer2": "STP",
+    "noAnswer3": "DHCP"
   },
   {
-    "question": "IEEE 802.03 stardanti asosida tashkil qilingan tarmoq abonentlarining maksimal soni",
-    "answer": "1024 tagacha",
-    "noAnswer1": "cheksiz",
-    "noAnswer2": "201 tagacha",
-    "noAnswer3": "200-300 ta"
+    "question": "Ma'lumotlar paketlarini tarmoqlar o'rtasida yo'naltirish uchun yo'riqnoma qaysi funktsiyalardan foydalanadi?",
+    "answer": "Kompyuter tarmog'idagi yo'l va kommutatsiyani aniqlash",
+    "noAnswer1": "Eshittirish va to'qnashuvni aniqlash",
+    "noAnswer2": "Uzatish vositasi uchun interfeyslarni va dasturlarni shakllantirish",
+    "noAnswer3": "uzatish interfeyslarining ta'rifi"
   },
   {
-    "question": "Ethernet tarmoq paketida qabul qiluvchi va jo'natuvchi manzili necha baytdan tashkil topgan?",
-    "answer": "6",
-    "noAnswer1": "8",
-    "noAnswer2": "2",
-    "noAnswer3": "4"
+    "question": "Ma'lumotlar uzatilishini boshqarish uchun mo'ljallangan internetning asosiy ma'lumotlarni uzatish protokollaridan biri",
+    "answer": "TCP",
+    "noAnswer1": "TLS",
+    "noAnswer2": "UDP",
+    "noAnswer3": "FTP"
   },
   {
-    "question": "Ethernet tarmoq paketidagi axborot maydoniga qancha axborot kirishi mumkin?",
-    "answer": "46 baytdan 1500 baytgacha",
-    "noAnswer1": "0 baytdan 1024 baytgacha",
-    "noAnswer2": "1501 baytdan 2000 baytgacha",
-    "noAnswer3": "2001 baytdan 3000 baytgacha"
+    "question": "Ma'lumotlarning qayta ishlanishini va tugularning harakatlanishini ta’minlaydi va MSU mikrokontrollerdan iborat tarkibga protsessor, SRAM operativi, energiyadan mustaqil bo‘lgan EEPROM. flesh-xotira, ADC analog-raqamli o‘zgartirgich, taymer, kiritish/chiqarish portlari kiradi.",
+    "answer": "hisoblash tizimi",
+    "noAnswer1": "kommunikatsion tizim",
+    "noAnswer2": "sensor tizim",
+    "noAnswer3": "elektr ta’minoti tizimi "
   },
   {
-    "question": "OSI modeli nechta pog'onadan tashkil topgan?",
-    "answer": "7",
-    "noAnswer1": "5",
-    "noAnswer2": "6",
-    "noAnswer3": "3"
+    "question": "MAN qanday tarmoq turiga kiradi.",
+    "answer": "Shaxar tarmog‘i",
+    "noAnswer1": "Lokal tarmoq",
+    "noAnswer2": "Global tarmoq",
+    "noAnswer3": "Telefon tarmog‘i."
+  },
+  {
+    "question": "Mantiqiy ulanishni boshqarish va atrof-muhitga kirishni boshqarish qaysi darajani ta'minlaydi:",
+    "answer": "kanal",
+    "noAnswer1": "vakili",
+    "noAnswer2": "qo'llanildi",
+    "noAnswer3": "sessiyasi"
+  },
+  {
+    "question": "Marker usuli lokal tarmoqning kanday topologiyasida ishlatilmaydi. ",
+    "answer": "Yacheykali",
+    "noAnswer1": "Shina",
+    "noAnswer2": "Xalqa",
+    "noAnswer3": "Shina va Xalka "
+  },
+  {
+    "question": "Marker usuli lokal tarmoqning qanday topologiyasida ishlatiladi. ",
+    "answer": "Shina",
+    "noAnswer1": "Xalqa",
+    "noAnswer2": "Yacheykali",
+    "noAnswer3": "Shina va Xalqa"
+  },
+  {
+    "question": "Marshrutizator qanday satxlarni o‘z ichiga oladi.",
+    "answer": "Tarmoq",
+    "noAnswer1": "Kanal va tarmoq",
+    "noAnswer2": "Fizik, kanal va tarmoq",
+    "noAnswer3": "Tarmoq va transport"
+  },
+  {
+    "question": "Marshrutlash algoritmlari asosida ma'lumotlarni uzatishning maqbul yo'nalishini topish uchun qanday qurilmalardan foydalaniladi?",
+    "answer": "marshrutizatorlar",
+    "noAnswer1": "konsentratorlar",
+    "noAnswer2": "simsiz qurilmalar",
+    "noAnswer3": "kommutatorlar"
+  },
+  {
+    "question": "Masofalari 200 kilometrgacha bo'lgan mahalliy tarmoqlar uchun 1980-yillarning ma'lumotlarni uzatish standarti. Optik-tolali uzatish liniyalaridan foydalaniladi, 100 Mbit / s gacha tezliklar ta'minlanadi. Bu-",
+    "answer": "FDDI",
+    "noAnswer1": "ATM",
+    "noAnswer2": "Frame relay",
+    "noAnswer3": "Х.25"
+  },
+  {
+    "question": "Masofali vektor algorimi qaysi protokolda ishlatiladi.",
+    "answer": "RIP",
+    "noAnswer1": "OSPF",
+    "noAnswer2": "IP",
+    "noAnswer3": "LLC"
+  },
+  {
+    "question": "Matnli terminal interfeysini tarmoq orqali amalga oshirish uchun foydalaniladigan tarmoq protokolini ko'rsating",
+    "answer": "TELNET",
+    "noAnswer1": "SMTP",
+    "noAnswer2": "SMB",
+    "noAnswer3": "L2TP"
+  },
+  {
+    "question": "Mintaqaviy tarmoq?",
+    "answer": "MAN",
+    "noAnswer1": "WAN",
+    "noAnswer2": "PAN",
+    "noAnswer3": "LAN"
+  },
+  {
+    "question": "NAT kengaytmasini aniqlang",
+    "answer": "Network Address Translation",
+    "noAnswer1": "Network Address Transmission",
+    "noAnswer2": "Network Address Transfer",
+    "noAnswer3": "Network of Additional Transmission"
+  },
+  {
+    "question": "Nazorat ta’sirini (yorug‘lik, bosim, temperatura va hokazo) qabul qiluvchi, qurilma, uning sonli va sifat belgilarini o‘lchaydi va ushbu o‘lchamlarni signalga o‘zgartiradi. Signal elektrik, kimyoviy yoki boshqa turda bo‘lishi mumkin.",
+    "answer": "Sensor",
+    "noAnswer1": "Datchik",
+    "noAnswer2": "Aktuator",
+    "noAnswer3": "Sensor tugun"
+  },
+  {
+    "question": "Netware 4.1 qanday xavfsizlik talablariga javob beradi?",
+    "answer": "S2 sinf",
+    "noAnswer1": "S3 sinf",
+    "noAnswer2": "T2 sinf ",
+    "noAnswer3": "xavfsizlik talablariga javob bermaydi"
+  },
+  {
+    "question": "NGN tarmog'ining funksional modeli qanday darajalardan tashkil topadi?",
+    "answer": "xizmatlarni boshqrish darajasi; kommutatsiyani boshqarish darajasi; transport darajasi; kirish darajasi.",
+    "noAnswer1": "fizik daraja; kanal darajasi; tarmoq darajasi; transport darajasi; seans darajasi; taqdimot darajasi; amaliy daraja.",
+    "noAnswer2": "boshqruv darajasi; transport darajasi; kirish darajasi.",
+    "noAnswer3": "xizmatlarni boshqrish darajasi; kommutatsiyani boshqarish darajasi; transport darajasi; kirish darajasi; fizik daraja."
+  },
+  {
+    "question": "Noto'g'ri ta'rifni aniqlang",
+    "answer": "Switch manba portidan tashqari barcha portlarga paketlarni yuboradi",
+    "noAnswer1": "Switch faqat qabul qilinadigan portga paketlarni MAC manzil jadvali yordamida yuboradi",
+    "noAnswer2": "Hub paketlarni manba portidan tashqari barcha portlarga yuboradi",
+    "noAnswer3": "Hub paketlarni manba portiga va barcha portlarga yuboradi"
+  },
+  {
+    "question": "Ob'ekt (dastur) interfeyslari turlari:",
+    "answer": "dastur protokoli, dastur dasturi, o'rta dastur protokoli",
+    "noAnswer1": "dasturlash interfeysi, ob'ekt periferiyasi, dastur protokoli",
+    "noAnswer2": "inson-kompyuter, dasturiy ta'minot, ob'ekt atrof-muhit",
+    "noAnswer3": "asosiy dastur, inson-kompyuter, dasturlash interfeysi"
+  },
+  {
+    "question": "Ommabop tarmoq protokollari:",
+    "answer": "DDP, IP, IPX, NetBEUI",
+    "noAnswer1": "AFP, FTP, NCP, SMTP",
+    "noAnswer2": "NetBIOS / NetBEUI, SPX, TCP",
+    "noAnswer3": "TCP, NCP, SNMP, NetBEUI"
+  },
+  {
+    "question": "ONT (optical network terminal) vazifasi nimadan iborat? ",
+    "answer": "Ma’lumotlarni OLT (optical line terminal) qabul qilib, ularni konvertlaydi va UNI (user network interfaces) abonent interfeyslari orqali uzatadi ",
+    "noAnswer1": "SNI (service node interfaces) orqali magistral tarmoqlardan ma’lumotlarni qabul qiladi ",
+    "noAnswer2": "Abonent tugunlariga kiruvchi oqimga shakllantiradi",
+    "noAnswer3": "To‘g‘ri javob yo‘q"
+  },
+  {
+    "question": "Open System Interconnection (OSI) modeli nechta pog'onadan iborat?",
+    "answer": 7,
+    "noAnswer1": 6,
+    "noAnswer2": 5,
+    "noAnswer3": 4
+  },
+  {
+    "question": "Oraliq dasturiy ta’minot:",
+    "answer": "tarmoqdagi tarmoq ma'muriyati funktsiyalarini amalga oshiradi",
+    "noAnswer1": "tarmoq funktsiyalari o'rtasidagi muvofiqlashtirilgan harakatlarning tartibi",
+    "noAnswer2": "o'z vazifalarini bajara olishi uchun mo'ljallangan",
+    "noAnswer3": "amaliy va o'rta dastur uchun moslamalarni taqdim etishga mo'ljallangan"
   },
   {
     "question": "OSI modeli 1-pog'onasi nomi?",
@@ -1145,18 +1470,18 @@ const data = [
     "noAnswer3": "transport"
   },
   {
-    "question": "OSI modelining transport pog'onasida qaysi protokollar ishlatiladi?",
-    "answer": "TCP, UDP",
-    "noAnswer1": "IPv4 va IPv6",
-    "noAnswer2": "HTTP, FTP, SMTP",
-    "noAnswer3": "PPP, IEEE 802.22, Ethernet, DSL, ARP"
+    "question": "OSI modeli nechta pog'onadan tashkil topgan?",
+    "answer": 7,
+    "noAnswer1": 5,
+    "noAnswer2": 6,
+    "noAnswer3": 3
   },
   {
-    "question": "OSI modelining kanal pog'onasida qaysi protokollar ishlatiladi?",
-    "answer": "PPP, IEEE 802.22, Ethernet, DSL, ARP",
-    "noAnswer1": "TCP, UDP",
-    "noAnswer2": "IPv4 va IPv6",
-    "noAnswer3": "HTTP, FTP, SMTP"
+    "question": "OSI modelining amaliy pog'onasida ma'lumotlar qay xolda bo’ladi?",
+    "answer": "ma'lumotlar",
+    "noAnswer1": "bloklar",
+    "noAnswer2": "kadrlar",
+    "noAnswer3": "paketlar"
   },
   {
     "question": "OSI modelining amaliy pog'onasida qaysi protokollar ishlatiladi?",
@@ -1166,6 +1491,62 @@ const data = [
     "noAnswer3": "IPv4 va IPv6"
   },
   {
+    "question": "OSI modelining asosiy elementlari:",
+    "answer": "pog’onalari, ilovalari va jismoniy ulanish",
+    "noAnswer1": "darajalari va funktsiyalari",
+    "noAnswer2": "darajalari va dastur jarayonlari",
+    "noAnswer3": "tugunlar to'plami"
+  },
+  {
+    "question": "OSI modelining fizik pog’ona tushunchalarini sanab o'tadigan javobni ayting:",
+    "answer": "o'ralgan juftlik kabeli, koaksiyal kabel, optik tolali kabel, raqamli kanal, havo",
+    "noAnswer1": "NetBIOS / NetBEUI, SPX, TCP",
+    "noAnswer2": "tarmoq manzillari, routerlar, Internetda ishlash",
+    "noAnswer3": "TCP, NCP, SNMP"
+  },
+  {
+    "question": "OSI modelining fizik pog'onasida ma'lumotlar qay xolda buladi?",
+    "answer": "bitlar",
+    "noAnswer1": "ma'lumotlar",
+    "noAnswer2": "paketlar",
+    "noAnswer3": "kadrlar"
+  },
+  {
+    "question": "OSI modelining kanal pog'onasida ma'lumotlar qay xolda buladi?",
+    "answer": "kadrlar",
+    "noAnswer1": "bitlar",
+    "noAnswer2": "paketlar",
+    "noAnswer3": "ma'lumotlar"
+  },
+  {
+    "question": "OSI modelining kanal pog'onasida qaysi protokollar ishlatiladi?",
+    "answer": "PPP, IEEE 802.22, Ethernet, DSL, ARP",
+    "noAnswer1": "TCP, UDP",
+    "noAnswer2": "IPv4 va IPv6",
+    "noAnswer3": "HTTP, FTP, SMTP"
+  },
+  {
+    "question": "OSI modelining seans pog'onasida ma'lumotlar qay xolda buladi?",
+    "answer": "ma'lumotlar",
+    "noAnswer1": "paketlar",
+    "noAnswer2": "kadrlar",
+    "noAnswer3": "bloklar"
+  },
+  {
+    "question": "OSI modelining taqdim etish pog'onasida ma'lumotlar qay xolda buladi?",
+    "answer": "ma'lumotlar",
+    "noAnswer1": "bloklar",
+    "noAnswer2": "kadrlar",
+    "noAnswer3": "paketlar"
+  },
+  {
+    "question": "OSI modelining tarmoq pog'onasida ma'lumotlar qay xolda buladi?",
+    "answer": "paketlar",
+    "noAnswer1": "ma'lumotlar",
+    "noAnswer2": "kadrlar",
+    "noAnswer3": "kadrlar"
+  },
+  {
     "question": "OSI modelining tarmoq pog'onasida qaysi protokollar ishlatiladi?",
     "answer": "IPv4 va IPv6",
     "noAnswer1": "HTTP, FTP, SMTP",
@@ -1173,11 +1554,557 @@ const data = [
     "noAnswer3": "TCP, UDP"
   },
   {
-    "question": "TCP/IP stek nechta pogonadan tashkil topgan?",
-    "answer": "4",
-    "noAnswer1": "7",
-    "noAnswer2": "2",
-    "noAnswer3": "2"
+    "question": "OSI modelining transport pog'onasida ma'lumotlar qay xolda buladi?",
+    "answer": "bloklar",
+    "noAnswer1": "ma'lumotlar",
+    "noAnswer2": "paketlar",
+    "noAnswer3": "kadrlar"
+  },
+  {
+    "question": "OSI modelining transport pog'onasida qaysi protokollar ishlatiladi?",
+    "answer": "TCP, UDP",
+    "noAnswer1": "IPv4 va IPv6",
+    "noAnswer2": "HTTP, FTP, SMTP",
+    "noAnswer3": "PPP, IEEE 802.22, Ethernet, DSL, ARP"
+  },
+  {
+    "question": "OSI ning nechanchi bosqichi foydalanuvchining ilovasini shaxsan tasdiqlaydi, fayllar uzatishning dasturiy vositalari axborot bazasiga ega bo’lish, elektron pochta vositalari, serverda qayd qilish xizmati uchun mo'ljallangan?",
+    "answer": 7,
+    "noAnswer1": 5,
+    "noAnswer2": 3,
+    "noAnswer3": 1
+  },
+  {
+    "question": "OSI ning nechanchi bosqichi paketlarni manzillash, mantiqiy nomlarni jismoniy tarmoq manziliga o’zgartirish, teskariga ham va shuningdek paketni kerakli abonentga jo’natish yo’nalishini tanlashga javobgar?",
+    "answer": 3,
+    "noAnswer1": 4,
+    "noAnswer2": 2,
+    "noAnswer3": 7
+  },
+  {
+    "question": "OSI ning nechanchi bosqichi standard ko’rishdagi paket tuzishga va boshlash hamda tamom bo’lishni boshqarish maydonini paket tarkibiga joylashishiga javobgar?",
+    "answer": 2,
+    "noAnswer1": 4,
+    "noAnswer2": 3,
+    "noAnswer3": 7
+  },
+  {
+    "question": "OSI ning nechanchi bosqichi uzatilayotgan axborotni signal kattaligiga kodlashtiradi, uzatish muhitiga qabul qilishni va teskari kodlashni amalga oshirishga javob beradi?",
+    "answer": 1,
+    "noAnswer1": 2,
+    "noAnswer2": 4,
+    "noAnswer3": 3
+  },
+  {
+    "question": "OSI ning nechanchi bosqichida aloqa o’tkazish vaqtini boshqaradi (ya’ni aloqani o’rnatadi, tasdiqlaydi va tamomlaydi) va abonentlarni mantiqiy nomlarini tanish, ularga ega bo’lish huquqini nazorat qilishvazifalari ham bajariladi?",
+    "answer": 5,
+    "noAnswer1": 4,
+    "noAnswer2": 3,
+    "noAnswer3": 7
+  },
+  {
+    "question": "OSI ning nechanchi bosqichida axborotni aniqlanadi va axborot formatini ko’rinish sintaksisini tarmoqqa qulay ravishda o’zgartiradi, siqish av aksi, kodkash va aksi ya’ni tarjimon vazifasini bajaradi?",
+    "answer": 6,
+    "noAnswer1": 7,
+    "noAnswer2": 5,
+    "noAnswer3": 4
+  },
+  {
+    "question": "OSI ning nechanchi bosqichida paketni xatosiz va yo’qotmasdan, kerakli ketma-ketlikda yetkazib berishni amalga oshiradi?",
+    "answer": 4,
+    "noAnswer1": 5,
+    "noAnswer2": 3,
+    "noAnswer3": 7
+  },
+  {
+    "question": "OSI modeli etalon model asosida hozirgi kunda qaysi tarmoq ishlaydi?",
+    "answer": "TCP/IP",
+    "noAnswer1": "HTTP",
+    "noAnswer2": "FTP",
+    "noAnswer3": "UDP"
+  },
+  {
+    "question": "OSPF nima.",
+    "answer": "Marshrutlash protokoli",
+    "noAnswer1": "uzatish protokoli",
+    "noAnswer2": "Transport protokoli.",
+    "noAnswer3": "ilova satxi protokoli."
+  },
+  {
+    "question": "P2P kengaytmasini aniqlang",
+    "answer": "Peer-to-peer",
+    "noAnswer1": "Protocol-to-protocol",
+    "noAnswer2": "Peer-to-protocol",
+    "noAnswer3": "Protocol-to-peer"
+  },
+  {
+    "question": "Paketlar kommutatsiyasi qaysi satxda bajariladi.",
+    "answer": "tarmoq satxida",
+    "noAnswer1": "transprort satxida",
+    "noAnswer2": "kanal satxida",
+    "noAnswer3": "fizik satxda"
+  },
+  {
+    "question": "Paketlarni marshrutlash jadvali qaysi protokol asosida yaratiladi.",
+    "answer": "OSPF",
+    "noAnswer1": "LLC",
+    "noAnswer2": "TCP",
+    "noAnswer3": "IP"
+  },
+  {
+    "question": "Paketni kommutatsiya qilish va multiplekslash texnologiyasi.",
+    "answer": "ATM",
+    "noAnswer1": "Х.25",
+    "noAnswer2": "FDDI",
+    "noAnswer3": "ISDN"
+  },
+  {
+    "question": "Paketni xatosiz va yo’qotmasdan, kerakli ketma-ketlikda yetkazib berishni protokoli?",
+    "answer": "TCP",
+    "noAnswer1": "UDP",
+    "noAnswer2": "HTTP",
+    "noAnswer3": "FTP"
+  },
+  {
+    "question": "PDH tizimlarining kamchiliklarini ko‘rsatilgan javobni belgilang.",
+    "answer": "Barcha javoblar to‘g‘ri ",
+    "noAnswer1": "PDH tizimlarida yuqori tezlikli raqamli oqimdan past tezlikli raqamli oqimni to‘g‘ridan-to‘g‘ri ajratib olish imkoni yo‘q",
+    "noAnswer2": "Raqamli kommutatsiya uchun kerakli bo‘lgan sinxronizatsiya birinchi satxdagi signallardagina bajariladi, yuqori satxdagi raqamli signallar sinxron emas",
+    "noAnswer3": "Birinchi va boshqa sathdagi raqamli oqimlarni birlashtirishda tezliklarni sozlash uchun qo‘shimcha bitlar qo‘llaniladi. Bunday multipleksorlash ko‘p kanalli yuqori tezlikli signallarni hosil qilishni qiyinlashtiradi."
+  },
+  {
+    "question": "Peer-to-peer tarmog'ining afzalliklari:",
+    "answer": "foydalanuvchilari o'z resurslarini boshqarish imkoniyatiga ega",
+    "noAnswer1": "bir vaqtning o'zida faqat bitta manbaga tarmoq xavfsizligini qo'llash",
+    "noAnswer2": "Ixtisoslashtirilgan apparat va dasturiy ta'minotga ehtiyoj tufayli tarmoq narxi oshib bormoqda.",
+    "noAnswer3": "Serverlar kamdan-kam hollarda to'g'ridan-to'g'ri hech kim tomonidan boshqarilmaydi - faqat o'rnatish, sozlash yoki texnik xizmat ko'rsatish uchun"
+  },
+  {
+    "question": "PON qanday topologiya asosida quriladi? ",
+    "answer": "Daraxtsimon ",
+    "noAnswer1": "Yulduz",
+    "noAnswer2": "Xalqa",
+    "noAnswer3": "Shina"
+  },
+  {
+    "question": "PON texnologiyasi kamchiliklari keltirilgan javobni belgilan.",
+    "answer": "Oddiy daraxt topologiyasida zahiralashning yo‘qligi",
+    "noAnswer1": "Markaziy tugunda optik uzatgich va qabul qilgichlarning tejalishi",
+    "noAnswer2": "Tolaning tejalishi",
+    "noAnswer3": "Oraliq aktiv tugunlarning yo‘qligi. "
+  },
+  {
+    "question": "PON texnologiyasi ma’lumotlarni uzatishda maksimal oralig‘i ko‘rsatilgan javobni belgilan.",
+    "answer": "20 km ",
+    "noAnswer1": "5.5 km",
+    "noAnswer2": "300 – 1300 metr",
+    "noAnswer3": "300 metr"
+  },
+  {
+    "question": "PON texnologiyasi Markaziy tugun OLT (optical line terminal) vazifasi nimadan iborat?",
+    "answer": "SNI (service node interfaces) orqali magistral tarmoqlardan ma’lumotlarni qabul qiladi va abonent tugunlariga kiruvchi oqimga shakllantiradi",
+    "noAnswer1": "Ma’lumotlarni abonent interfeyslari orqali uzatadi",
+    "noAnswer2": "Abonent tugunlariga kiruvchi oqimga shakllantiradi",
+    "noAnswer3": "To‘g‘ri javob yo‘q"
+  },
+  {
+    "question": "Protokol to'plamlari (stek)ni aniqlash deganda nima tushuniladi?",
+    "answer": "Internet tarmog'ida ishlashni tashkil qilish uchun yetarli bo'lgan turli darajadagi protokollarning izchil to'plami",
+    "noAnswer1": "kompyuterga murojaat qilish usulini tanlash va elektr signallarini moslashtirish",
+    "noAnswer2": "Ikkinchi guruh protokollari - aloqasiz protokollar",
+    "noAnswer3": "o'zaro ta'sirlashish jarayonida ikkita qo'shni pog’ona o'rtasida almashinadigan xabar formatlari"
+  },
+  {
+    "question": "Qamrovi bo'yicha WAN dan kichik, lekin LAN dan katta bo'lgan tarmoq turini aniqlang",
+    "answer": "MAN",
+    "noAnswer1": "WLAN",
+    "noAnswer2": "VLAN",
+    "noAnswer3": "PAN"
+  },
+  {
+    "question": "Qanday qilib tarmoqni murakkab tizim sifatida modellashtirish mumkin?",
+    "answer": "uni tarkibiy tuzilmalarga taqsimlash",
+    "noAnswer1": "uni yagona tuzilishga birlashtirish",
+    "noAnswer2": "uni keyingi tuzilmalarga o'tkazish",
+    "noAnswer3": "uni strukturaning o'zi sifatida belgilash"
+  },
+  {
+    "question": "Qaysi javobda MAC adresga to'g'ri misol keltirilgan?",
+    "answer": "00:26:57:00:1f:02",
+    "noAnswer1": "14:as:25:25:14",
+    "noAnswer2": "45:85:as:45:aa:bb:01",
+    "noAnswer3": "FF02:0:0:1:FF00:301"
+  },
+  {
+    "question": "Qaysi javovda IPv4 ga misol to'g'ri keltirilmagan?",
+    "answer": "278.25.25.25",
+    "noAnswer1": "24.24.24.24",
+    "noAnswer2": "8.8.8.8",
+    "noAnswer3": "192.168.1.1"
+  },
+  {
+    "question": "Qaysi protocol dinamik marshrutlash protokoli emas",
+    "answer": "SMPT",
+    "noAnswer1": "RIP",
+    "noAnswer2": "OSPF",
+    "noAnswer3": "RIP2"
+  },
+  {
+    "question": "Qaysi protokol klient-server dasturlarining tarmoqdagi paketlarini tinglay olmaydigan va ruxsatsiz kirishni ta'minlay oladigan tarzda aloqa o'rnatishga imkon beradi",
+    "answer": "TLS",
+    "noAnswer1": "TCP",
+    "noAnswer2": "UDP",
+    "noAnswer3": "SNMP"
+  },
+  {
+    "question": "Qaysi tarmoq paketlar kommutatsiyasi asosida ishlaydi.",
+    "answer": "keltirilgan barcha tarmoqlar ",
+    "noAnswer1": "LTE",
+    "noAnswer2": "INTERNET",
+    "noAnswer3": "ARPANET"
+  },
+  {
+    "question": "Qoidalar va marshrutlash jadvallari asosida turli xil tarmoq segmentlari o'rtasida paketlarni uzatuvchi ixtisoslashgan qurilma",
+    "answer": "marshrutizator",
+    "noAnswer1": "WAN",
+    "noAnswer2": "MAN",
+    "noAnswer3": "LAN"
+  },
+  {
+    "question": "Qoidalar va marshrutlash jadvallari asosida turli xil tarmoq segmentlari o'rtasida paketlarni uzatuvchi ixtisoslashgan qurilma",
+    "answer": "Router",
+    "noAnswer1": "switch",
+    "noAnswer2": "Hub",
+    "noAnswer3": "bridge"
+  },
+  {
+    "question": "Qo'shni darajalar bir xil mashinada bir-biriga ko'rsatadigan xizmatlari asosida quyidagilar quriladi:",
+    "answer": "vertikal model",
+    "noAnswer1": "gorizontal model",
+    "noAnswer2": "tarmoq modeli",
+    "noAnswer3": "protokol modeli"
+  },
+  {
+    "question": "Quydagilarning qaysi biri shaxsiy tarmoq turi hisoblanadi",
+    "answer": "PAN",
+    "noAnswer1": "LAN",
+    "noAnswer2": "WAN",
+    "noAnswer3": "MAN"
+  },
+  {
+    "question": "Quyidagi dasturlardan qaysi biri tarmoq emulyatori emas?",
+    "answer": "LAN Calculator ",
+    "noAnswer1": "Netemul ",
+    "noAnswer2": "Cisco Packet Tracer (CPT) ",
+    "noAnswer3": "GNS3 "
+  },
+  {
+    "question": "Quyidagi IP manzillardan qaysi biri faqat lokal tarmoq uchun qo'llanilishi mumkin",
+    "answer": "192.168.8.8",
+    "noAnswer1": "8.8.8.8",
+    "noAnswer2": "77.88.8.88",
+    "noAnswer3": "149.154.167.99"
+  },
+  {
+    "question": "Quyidagi IP manzillardan qaysi biri global miqyosdagi IP manzil hisoblanadi",
+    "answer": "8.8.8.8",
+    "noAnswer1": "192.168.10.123",
+    "noAnswer2": "127.0.0.1",
+    "noAnswer3": "172.48.52.16"
+  },
+  {
+    "question": "Quyidagi protokollardan qaysi biri SSL sertifikatga ega hisoblanadi",
+    "answer": "HTTPS",
+    "noAnswer1": "HTTP",
+    "noAnswer2": "FTP",
+    "noAnswer3": "HTTP va FTP"
+  },
+  {
+    "question": "Quyidagi Windows oilasiga kiruvchi operatsion tizimlardan qaysi biri tarmoqni boshqarish uchun ko'proq mos keladi",
+    "answer": "Windows Server",
+    "noAnswer1": "Windows Vista",
+    "noAnswer2": "Windows 7",
+    "noAnswer3": "Windows 10"
+  },
+  {
+    "question": "Radioaloqa texnologiyasining kamchiliklari:",
+    "answer": "Elektron yoki atmosfera ta'siriga juda sezgir",
+    "noAnswer1": "Serverning ishdan chiqishi tarmoqni yaroqsiz holga keltirishi mumkin",
+    "noAnswer2": "Foydalanuvchilar kirish uchun faqat bitta parolni eslab qolishlari kerak",
+    "noAnswer3": "markazlashgan boshqaruvning mavjudligi, xavfsizlik"
+  },
+  {
+    "question": "Radiokanallar orqali o‘z-aro birlashgan, bajaruvchi qurilmalar va sensorlar ko‘pligidan iborat tarmoqlangan, o‘zidan o‘zi tashkillashtiriladigan sensor tarmoq.",
+    "answer": "Simsiz sensor tarmoq",
+    "noAnswer1": "Ad-hoc tarmoq",
+    "noAnswer2": "Radio aloqa tarmog'i",
+    "noAnswer3": "IoT tarmog'i"
+  },
+  {
+    "question": "RIP protokoli qanday algoritm asosida ishlaydi.",
+    "answer": "masofali vektor algoritmi",
+    "noAnswer1": "kanallar xolati algoritmi",
+    "noAnswer2": "imtiyozni ta’minlash algoritm",
+    "noAnswer3": "sifatni ta’minlash algoritmi"
+  },
+  {
+    "question": "RIP protokoli qaysi satxda bajariladi",
+    "answer": "tarmoq satxida",
+    "noAnswer1": " transport satzida",
+    "noAnswer2": "ilova satxida",
+    "noAnswer3": "kanal satxida"
+  },
+  {
+    "question": "RIP qanday protokol.",
+    "answer": "paketlarni marshrutlash protokoli ",
+    "noAnswer1": "uzatish protokoli",
+    "noAnswer2": "ilova satxi protokoli",
+    "noAnswer3": "transport protokoli"
+  },
+  {
+    "question": "Router - bu turli xil ulanadigan qurilma:",
+    "answer": "Kompyuter tarmoqlari",
+    "noAnswer1": "Arxitektura bo'yicha kompyuterlar",
+    "noAnswer2": "elektron pochta manzillarini yuborish yo'nalishlari",
+    "noAnswer3": "Qo'shni ma'lumotlar almashinuvi tugunlari"
+  },
+  {
+    "question": "Routerni marshrutizatordan farqi.",
+    "answer": "hech qanday farqi yo‘q ",
+    "noAnswer1": "router kadrlarni marshrutlaydi, marshrutizatsiyu esa paketlarni.",
+    "noAnswer2": "router TCP/IP satxidan yuqorida joylashgan.",
+    "noAnswer3": "router marshrutizatorga nisbatan tezroq ishlaydi"
+  },
+  {
+    "question": "SDH-sinxron raqamli ierarxiya avzalliklari ko‘rsatilgan javobni belgilang.",
+    "answer": "Barcha javoblar to‘g‘ri ",
+    "noAnswer1": "PDH tizimlarida yuqori tezlikli raqamli oqimdan past tezlikli raqamli oqimni to‘g‘ridan-to‘g‘ri ajratib olish imkoni yo‘q",
+    "noAnswer2": "Moslashuvchan tarmoq boshqaruvi",
+    "noAnswer3": "Tarmoqning soddaligi"
+  },
+  {
+    "question": "SDSL texnologiyasi ma’lumotlarni uzatish oralig‘i ko‘rsatilgan javobni belgilan. ",
+    "answer": "3 km ",
+    "noAnswer1": "5.5 km",
+    "noAnswer2": "300 – 1300 metr",
+    "noAnswer3": "300 metr"
+  },
+  {
+    "question": "Sensor tarmoqda boshqa tugunlar bilan simsiz bog‘lanishni ta’minlaydi va radio qabulqilgich-uzatkichdan iborat",
+    "answer": "kommunikatsion tizim",
+    "noAnswer1": "hisoblash tizimi",
+    "noAnswer2": "sensor tizim",
+    "noAnswer3": "elektr ta’minoti tizimi "
+  },
+  {
+    "question": "Sensor tugun tarkibiy qismiga nimalar kiradi?",
+    "answer": "Apparat ta'minoti, bazaviy dasturiy ta'minoti, amaliy dasturiy ta'minoti",
+    "noAnswer1": "Apparat ta'minoti, dasturiy ta'minoti, elektr ta'minoti",
+    "noAnswer2": "Apparat ta'minoti, bazaviy dasturiy ta'minoti",
+    "noAnswer3": "Apparat ta'minoti, amaliy dasturiy ta'minoti"
+  },
+  {
+    "question": "Server ilovalari ham klient rejimida, ham server rejimida ishlashi mumkinmi?",
+    "answer": "Ha, serverlar ham bir biriga murojaat qilishi va o‘zaro ma’lumot almashishi mumkin",
+    "noAnswer1": "Faqat server rejimida ishlaydi",
+    "noAnswer2": "Faqat server yoki faqat klient rejida ishlaydi",
+    "noAnswer3": "Yo‘q"
+  },
+  {
+    "question": "Server va mijoz o'rtasidagi o'zaro ta'sir bosqichlarining to'g'ri tartibini tuzing",
+    "answer": "serverga so'rov yuborish, mijozdan so'rov olish, serverdan natijani olish",
+    "noAnswer1": "mijozdan so'rov qabul qilish, serverdan natijani olish, serverga so'rov yuborish",
+    "noAnswer2": "natijani talqin qilish, natijani shakllantirish, serverga so'rovni shakllantirish",
+    "noAnswer3": "natijani mijozga yuborish, mijoz tomonidan natijani tasdiqlash, serverga yuborish"
+  },
+  {
+    "question": "Signallar to‘qnashuvi (kolliziya) lokal tarmoqning qaysi protokoli tomonidan aniqlanadi.",
+    "answer": "Fizik satx protokoli",
+    "noAnswer1": "Tarmoq satx protokoli",
+    "noAnswer2": "IEEE802.2 protokoli",
+    "noAnswer3": "IEEE802.3 protokoli"
+  },
+  {
+    "question": "Simsiz lokal tarmoq bu-",
+    "answer": "WLAN",
+    "noAnswer1": "VLAN",
+    "noAnswer2": "SLAN",
+    "noAnswer3": "VPN"
+  },
+  {
+    "question": "Simsiz sensor tugunning barcha elementlarini energetik ta’minot bilan ta’minlaydi va energiyani olishni generatsiyalash qurilmasi hisoblanadi, va shu bilan birga kuchni tartiblashtiruvchi imkoniyatga ega.",
+    "answer": "elektr ta’minoti tizimi",
+    "noAnswer1": "kommunikatsion tizim",
+    "noAnswer2": "hisoblash tizimi",
+    "noAnswer3": "sensor tizim"
+  },
+  {
+    "question": "Simsiz sensor tugunning tashqi dunyo bilan birikishini ta’minlaydi, va tarkibida analogli va raqamli sensorlar, aktuatorlar bo‘ladi.",
+    "answer": "sensor tizim",
+    "noAnswer1": "kommunikatsion tizim",
+    "noAnswer2": "hisoblash tizimi",
+    "noAnswer3": "elektr ta’minoti tizimi"
+  },
+  {
+    "question": "Sinxron ma'lumotlarni uzatish-",
+    "answer": "raqamli ma'lumotlarni ketma-ket interfeys orqali uzatish usuli, bunda qabul qiluvchi va uzatuvchi ma'lumotlarni uzatish vaqtini biladi, ya'ni uzatuvchi va qabul qilgich bir maromda ishlaydi.",
+    "noAnswer1": "raqamli ma'lumotlarni ketma-ket interfeys orqali uzatish usuli, bunda qabul qiluvchi va uzatuvchi ma'lumotlarni uzatish vaqtini bilmaydi, ya'ni uzatuvchi va qabul qilgich bir maromda ishlaydi.",
+    "noAnswer2": "raqamli ma'lumotni uzatuvchidan qabul qiluvchiga ketma-ket interfeys orqali uzatish usuli, bunda ma'lumotlar istalgan chastotada uzatiladi.",
+    "noAnswer3": "raqamli ma'lumotni uzatuvchidan qabul qiluvchiga ketma-ket interfeys orqali uzatish usuli, bunda ma'lumotlar istalgan vaqtda uzatiladi."
+  },
+  {
+    "question": "SMTP protokoli bu-",
+    "answer": "pochta yuborish oddiy protokoli",
+    "noAnswer1": "fayllar yborish protokoli",
+    "noAnswer2": "gippermatn yuvorish protokoli ",
+    "noAnswer3": "tarmoq boshqarish oddiy protokoli"
+  },
+  {
+    "question": "SNMP kengaytmasini aniqlang",
+    "answer": "Simple Network Management Protocol",
+    "noAnswer1": "Secure Network Management Protocol",
+    "noAnswer2": "Simple Network Manipulation Protocol",
+    "noAnswer3": "Secure Network Manipulation Protocol"
+  },
+  {
+    "question": "SNMP protokoli bu-",
+    "answer": "tarmoq boshqarish oddiy protokoli",
+    "noAnswer1": "fayllar yborish protokoli",
+    "noAnswer2": "pochta yuborish oddiy protokoli",
+    "noAnswer3": "gippermatn yuvorish protokoli "
+  },
+  {
+    "question": "SPIN (Sensor Protocols for Information via Negotiation), Direct Diffusion, Rumor Routing - ...",
+    "answer": "bir sathli marshrutizatsiya protokollari",
+    "noAnswer1": "tugunning joylashuv o‘rni haqidagi ma’lumot asosidagi marshrutizatsiya protokollari",
+    "noAnswer2": "ierarxik marshrutizatsiya protokollari",
+    "noAnswer3": "xizmat ko‘rsatish sifatini hisobga oladigan protokollar"
+  },
+  {
+    "question": "SSL kengaytmasini aniqlang",
+    "answer": "Secure Socket Layer",
+    "noAnswer1": "Secure System Layer",
+    "noAnswer2": "Secure Service Layer",
+    "noAnswer3": "Super Secure Layer"
+  },
+  {
+    "question": "SST arxitekturasi ikki turga ajraladi:",
+    "answer": "bir rangli va klasterli",
+    "noAnswer1": "oddiy va murakkab",
+    "noAnswer2": "lokal va global",
+    "noAnswer3": "ichki va tashqi"
+  },
+  {
+    "question": "SST ning boshqa tugunlaridan ma'lumotlarni oladi, buferlaydi va uzatadi, shuningdek uzatish yo'nalishini aniqlaydi.",
+    "answer": "Router",
+    "noAnswer1": "Koordinator",
+    "noAnswer2": "Terminal qurilma",
+    "noAnswer3": "Svitch"
+  },
+  {
+    "question": "STP kanal protokolining kengaytmasini aniqlang",
+    "answer": "Spanning Tree Protocol",
+    "noAnswer1": "Scanning Tree Protocol",
+    "noAnswer2": "Spanning Transport Protocol",
+    "noAnswer3": "Spanning Transfer Protocol"
+  },
+  {
+    "question": "Switch qaysi guruh qurilmasiga kiradi",
+    "answer": "kommutator",
+    "noAnswer1": "marshrutizator",
+    "noAnswer2": "shlyuz",
+    "noAnswer3": "konsentrator"
+  },
+  {
+    "question": "Talab bo'yicha o'z-o'ziga xizmat ko'rsatish va administratsiyalash imkonini beruvchi va jismoniy yoki virtual resurslarning kengaytiriladigan va elastik omboriga kirishni birgalikdagi kirishni ta'minlaydigan paradigm qanday ataladi?",
+    "answer": "Cloud computing",
+    "noAnswer1": "Network management",
+    "noAnswer2": "Internet of Things ",
+    "noAnswer3": "Blockchain"
+  },
+  {
+    "question": "Tarmoq adapterining ta'rifi ko'rsatilgan to'g'ri javobni toping:",
+    "answer": "Tarmoq adapteri (Network Interface Card, NIC) - bu to'g'ridan-to'g'ri yoki boshqa aloqa uskunalari orqali uni boshqa kompyuterlar bilan bog'laydigan ma'lumotlarni uzatish vositasi bilan bevosita o'zaro aloqada bo'lgan kompyuterning periferik qurilmasi.",
+    "noAnswer1": "Yulduzli tarmoq konfiguratsiyasida ulanish va bog'lanish chizig'ining markaziy nuqtasi bo'lib xizmat qiladigan, OSI tarmog'i modelining fizik pog’onaida ishlaydigan tarmoq qurilmasi.",
+    "noAnswer2": "tarmoq modelining tarmoq darajasida ishlaydigan va ikki yoki undan ortiq tarmoq segmentlarini (yoki pastki tarmoqlarini) bog'lashi mumkin bo'lgan tarmoq aloqa moslamasi.",
+    "noAnswer3": "Tarmoq adapteri (Network Interface Card, NIC) kompyuterlarni uzukka ketma-ket birlashtirishga imkon beradi, uzukdagi ma'lumotlar har doim faqat bitta yo'nalishda uzatiladi va kompyuterlarning har biri faqat bitta kompyuterga ma'lumot uzatadi."
+  },
+  {
+    "question": "Tarmoq arxitekturasini aniqlash uchun to'g'ri javobni tanlang:",
+    "answer": "Arxitektura - bu elementlarning barcha xilma-xilligini, ular orasidagi bog'lanishlarni va o'zaro ta'sir qoidalarini aks ettiradigan tarmoqning tizimli tavsifi.",
+    "noAnswer1": "Uzoq masofalarda joylashgan va aloqa kanallari yordamida yagona tizimga ulangan mahalliy tarmoqlar va kompyuterlar to'plami",
+    "noAnswer2": "Axborot uzatish kanallari bilan bog'langan va bitta xona, bino ichida joylashgan ko'plab kompyuterlar",
+    "noAnswer3": "Axborotni o'zgartirish, kodlash, multiplekslash jarayonlari"
+  },
+  {
+    "question": "Tarmoq operatsion tizimining masofadagi resurs va hizmatlarga bo‘lgan ruxsat so‘rovlari vositasi va ularni ishlatish, ilovalardan va foydalanuvchilardan so‘rovlarni tarmoqdagi uzoqlashtirilgan resurslarga qayta yo‘naltirishni bajaradigan qismini aniqlang. ",
+    "answer": "redirektor.(redaktor)",
+    "noAnswer1": "taqsimlagich.",
+    "noAnswer2": "zichlashtiruvchi qism.",
+    "noAnswer3": "servislar xizmati."
+  },
+  {
+    "question": "Tarmoq standartlarini tartibga soluvchi qo’mitaning qisqartmasi qaysi javobda berilgan?",
+    "answer": "IEEE",
+    "noAnswer1": "EEEI",
+    "noAnswer2": "ISO",
+    "noAnswer3": "WANNET"
+  },
+  {
+    "question": "Tarmoq tarkibiy qismlarining tugunlarini nomlang",
+    "answer": "har qanday ma'lumotlarni uzatuvchi va / yoki qabul qiluvchi qurilmalar",
+    "noAnswer1": "kalitlari, hublari, modemlari, routerlari, Wi-Fi ulanish nuqtalari",
+    "noAnswer2": "tugunlarni bir-biriga bog'laydigan qurilmalar",
+    "noAnswer3": "kabellari, tarmoq kartalari, har xil ulagichlar, havo uzatish vositasi"
+  },
+  {
+    "question": "Tarmoqda bajariladigan funktsiyalarning asosiy turlari:",
+    "answer": "dastur, aloqa, ma'muriy",
+    "noAnswer1": "ma'muriyi, tarmoq, simsiz",
+    "noAnswer2": "aloqa, transport, tarmoq",
+    "noAnswer3": "tizimli, alohida, taqsimlanadigan"
+  },
+  {
+    "question": "Tarmoqda xavfsizlikni ta'minlaydigan protokollarni ko'rsating.",
+    "answer": "SSH, TLS, SSL, HTTPS.",
+    "noAnswer1": "TCP, UDP, FTP.",
+    "noAnswer2": "IPSec, HTTPS, HTTP, DNS.",
+    "noAnswer3": "ICMP, SNTP, DHCP."
+  },
+  {
+    "question": "Tarmoqdagi foydalanuvchilarning tengligiga asoslangan kompyuter tarmog'ini ko'rsating",
+    "answer": "P2P",
+    "noAnswer1": "VPN",
+    "noAnswer2": "LAN",
+    "noAnswer3": "WAN"
+  },
+  {
+    "question": "Tarmoqdagi kompyuterning IP-manzili uchun to'g'ri javobni tanlang",
+    "answer": "108.214.198.112",
+    "noAnswer1": "18.274.198.2620",
+    "noAnswer2": "1278.214.198",
+    "noAnswer3": "10.0.0.1225"
+  },
+  {
+    "question": "Tarmoqdagi ma'lumotlarni qayta ishlash, saqlash va uzatish dasturlari to'plami (NOS) – bu …?",
+    "answer": "Tarmoq operatsion tizimlar",
+    "noAnswer1": "Lokal operatsion tizimlar",
+    "noAnswer2": "Tarmoq funksiyalari",
+    "noAnswer3": "Tarmoq xizmatlari"
+  },
+  {
+    "question": "Tarmoqdagi tugunlarning o'zaro ta'sirini tashkil qilish uchun etarli bo'lgan ierarxik ravishda tashkil etilgan tarmoq protokollari to'plami nima?",
+    "answer": "protokollar to'plami",
+    "noAnswer1": "kompyuter tarmog'i",
+    "noAnswer2": "interfeysi",
+    "noAnswer3": "adapter"
+  },
+  {
+    "question": "Tarmoqlararo ekranning ikkinchi nomini aniqlang",
+    "answer": "Firewall",
+    "noAnswer1": "Intrusion Detection System",
+    "noAnswer2": "IPSec",
+    "noAnswer3": "Intrusion Prevention System"
   },
   {
     "question": "Tarmoqlarda ma'lumotlarni uzatishda kard to'qnashuvi bu-",
@@ -1187,3317 +2114,277 @@ const data = [
     "noAnswer3": "avariya"
   },
   {
-    "question": "L3 kommutatori OSI modelining qaysi pog'onasida ishlaydi?",
-    "answer": "tarmoq",
-    "noAnswer1": "kanal",
-    "noAnswer2": "fizik",
-    "noAnswer3": "transport"
+    "question": "Tarmoqning funktsional modeli ta'rifini bering:",
+    "answer": "Funktsional model - bu tarmoqning mantiqiy darajadagi mavhum tavsifi, uni jismoniy amalga oshirish tamoyillariga bog'liq emas. Ushbu model uning tarkibiy elementlari bo'lgan tarmoqda bajariladigan funktsiyalarning o'zaro bog'liqligini aks ettiradi.",
+    "noAnswer1": "Funktsional model ulanishlarning arxitekturasi, tarmoqning tizimli tavsifi bilan tavsiflanadi, bu elementlarning barcha xilma-xilligini, ular orasidagi bog'lanishlarni va ularning o'zaro ta'sir qoidalarini aks ettiradi.",
+    "noAnswer2": "Bu uzoq masofalarda joylashgan va aloqa kanallari yordamida yagona tizimga ulangan mahalliy tarmoqlar va kompyuterlar to'plamidir",
+    "noAnswer3": "Axborot uzatish kanallari bilan bog'langan va bitta xona, bino ichida joylashgan ko'plab kompyuterlar"
   },
   {
-    "question": "L2 kommutatori OSI modelining qaysi pog'onasida ishlaydi?",
-    "answer": "kanal",
-    "noAnswer1": "fizik",
-    "noAnswer2": "transport",
-    "noAnswer3": "tarmoq"
+    "question": "Tarmoqqa ulangan kompyuterda nima o‘rnatilishi kerak bo‘lishi kerak.",
+    "answer": "IP – adrec",
+    "noAnswer1": "Web – server",
+    "noAnswer2": "Web - sayt",
+    "noAnswer3": "TCP – adres"
   },
   {
-    "question": "Hub OSI modelining qaysi pog'onasida ishlaydi?",
-    "answer": "fizik",
-    "noAnswer1": "transport",
-    "noAnswer2": "tarmoq",
-    "noAnswer3": "kanal"
+    "question": "Tarmoqqa ulanishga qobil qurilmalarni birlashtirib, mahalliy tarmoq hosil qilishda qo`llaniladigan eng oddiy qurilma",
+    "answer": "Hub",
+    "noAnswer1": "bridge",
+    "noAnswer2": "Router",
+    "noAnswer3": "switch"
   },
   {
-    "question": "IEEE 802.11 standarti",
-    "answer": "wi-fi",
-    "noAnswer1": "wimax",
-    "noAnswer2": "Bluetooth",
-    "noAnswer3": "ethernet"
+    "question": "TCP / IP tarmoqlarida tranzit paketlarning IP manzillarini o'zgartiruvchi mexanizmi-",
+    "answer": "NAT",
+    "noAnswer1": "MPLS",
+    "noAnswer2": "CAT",
+    "noAnswer3": "SMTP"
   },
   {
-    "question": "IEEE 802.15 standarti",
-    "answer": "Bluetooth",
-    "noAnswer1": "ethernet",
-    "noAnswer2": "wi-fi",
-    "noAnswer3": "wimax"
+    "question": "TCP / UDP arxitekturasi asosida IP tarmoqlaridagi qurilmalarni boshqarish uchun standart Internet protokoli bu-",
+    "answer": "SNMP",
+    "noAnswer1": "UDP",
+    "noAnswer2": "BGP",
+    "noAnswer3": "OSPF"
   },
   {
-    "question": "Lokal tarmoq?",
-    "answer": "LAN",
-    "noAnswer1": "MAN",
-    "noAnswer2": "WAN",
-    "noAnswer3": "PAN"
+    "question": "TCP protokolida malumotlar qanday nomlanadi?",
+    "answer": "segment",
+    "noAnswer1": "frame",
+    "noAnswer2": "datagram",
+    "noAnswer3": "kadr"
   },
   {
-    "question": "Global tarmoq?",
-    "answer": "WAN",
-    "noAnswer1": "PAN",
-    "noAnswer2": "LAN",
-    "noAnswer3": "MAN"
+    "question": "TCP/IP asosida tarmoqlarda ulanishlarning yaxlitligi va sifatini tekshirish uchun yordamchi dastur",
+    "answer": "ping",
+    "noAnswer1": "traceroute",
+    "noAnswer2": "WHOIS",
+    "noAnswer3": "NSLOOKUP"
   },
   {
-    "question": "Klaster uchun eng tezkor tarmoqni ko'rsating.",
-    "answer": "Infinyband",
-    "noAnswer1": "Myrinet",
-    "noAnswer2": "Gigabit Ethernet",
-    "noAnswer3": "Ethernet"
+    "question": "TCP/IP modelining havola sathida ishlaydigan protokollar va texnologiyalar ro'yxati berilgan to'g'ri javobni taqdim eting:",
+    "answer": "Ethernet, IEEE 802.11 WLAN, SLIP, Token Ring, ATM.",
+    "noAnswer1": "DHCP, DNS, SNMP",
+    "noAnswer2": "Kompyuterlar o'rtasidagi aloqa standartlari",
+    "noAnswer3": "Fayllarni uzatish va elektron pochta orqali yuborish dasturlari"
   },
   {
-    "question": "+\r\n\r\nAmdal qonuni … hisoblab chiqadi:",
-    "answer": "bir nechta protsessorlarda hisob-kitoblarni tezlashtirishini",
-    "noAnswer1": "o'rnatilgan operatsiyalar sonini",
-    "noAnswer2": "konveyer chuqurligini",
-    "noAnswer3": "hisoblash uchun sarflangan vaqtni"
+    "question": "TCP/IP modelining ilova pog’onaida ishlaydigan protokollar va texnologiyalar ro'yxati keltirilgan to'g'ri javobni taqdim eting:",
+    "answer": "DHCP, DNS, SNMP.",
+    "noAnswer1": "Ethernet, IEEE 802.11 WLAN, SLIP, Token Ring, ATM",
+    "noAnswer2": "Kompyuterlar o'rtasidagi aloqa standartlari",
+    "noAnswer3": "Fayllarni uzatish va elektron pochta orqali yuborish dasturlari"
   },
   {
-    "question": "+\r\n\r\nKommunikator - bu ...",
-    "answer": "jarayon guruhi identifikatori",
-    "noAnswer1": "parallel tizimda intercom",
-    "noAnswer2": "kalit bilan bir xil",
-    "noAnswer3": "Klaster aloqa simulyatori"
+    "question": "TCP/IP modelining qaysi darajasida har xil muhitda signal uzatish bilan bog'liq jismoniy muammolar hal qilinadi:",
+    "answer": "Kirish darajasida",
+    "noAnswer1": "Tarmoq pog’onai",
+    "noAnswer2": "O'zaro ishlash",
+    "noAnswer3": "dastur darajasi"
   },
   {
-    "question": "+\r\n\r\nMPI xotiradan foydalanishning qanday strategiyasini taklif qiladi?",
-    "answer": "Tarqalgan",
-    "noAnswer1": "Ulashgan",
-    "noAnswer2": "Masofadan",
-    "noAnswer3": "Mahalliy"
+    "question": "TCP/IP stekining pastki pog’ona protokollari qanday amalga oshiriladi:",
+    "answer": "dasturiy ta'minot va texnik vositalarning kombinatsiyasi",
+    "noAnswer1": "shlyuzlar",
+    "noAnswer2": "asosiy kompyuterlar",
+    "noAnswer3": "dasturiy ta'minot"
   },
   {
-    "question": "+\r\n\r\nParallel dastur bu ...",
-    "answer": "birgalikda ishlaydigan bir nechta jarayonlarni o'z ichiga olgan dastur",
-    "noAnswer1": "katta hajmdagi ma'lumotlar dasturi",
-    "noAnswer2": "tarmoq xabar almashish dasturi",
-    "noAnswer3": "bir vaqtning o'zida bir nechta kompyuterlarda ishlaydigan dastur"
+    "question": "TCP/IP to'plamining yuqori pog’onalari qanday amalga oshiriladi:",
+    "answer": "Dasturiy ta'minot orqali",
+    "noAnswer1": "shlyuzlar",
+    "noAnswer2": "asosiy kompyuterlar",
+    "noAnswer3": "dasturiy ta'minot va texnik vositalarning kombinatsiyasi"
   },
   {
-    "question": "+\r\n\r\nAsinxron parallel hisoblash modeli quyidagi xususiyatlarga ega:",
-    "answer": "turli jarayonlar turli masalalarni hal qiladi",
-    "noAnswer1": "barcha jarayonlar o'z ma'lumotlari bilan bir xil harakatlarni bajaradi",
-    "noAnswer2": "barcha jarayonlar umumiy xotiradan foydalanadi",
-    "noAnswer3": "barcha jarayonlar o'zlarining muhim bo'limlarida ishlaydi"
+    "question": "TCP/IP stek nechta pogonadan tashkil topgan?",
+    "answer": 4,
+    "noAnswer1": 7,
+    "noAnswer2": 2,
+    "noAnswer3": 2
   },
   {
-    "question": "+\r\n\r\nSinxron parallel hisoblash modeli quyidagi xususiyatlarga ega:",
-    "answer": "barcha jarayonlar o'z ma'lumotlari bilan bir xil harakatlarni bajaradi",
-    "noAnswer1": "turli jarayonlar turli muammolarni hal qiladi",
-    "noAnswer2": "barcha jarayonlar umumiy xotiradan foydalanadi",
-    "noAnswer3": "barcha jarayonlar o'zlarining muhim bo'limlarida ishlaydi"
+    "question": "Teglar yordamida ma'lumotlarni bir tarmoq tugunidan ikkinchisiga uzatadigan yuqori samarali telekommunikatsiya tarmog'idagi mexanizm.-",
+    "answer": "MPLS",
+    "noAnswer1": "CAT",
+    "noAnswer2": "NAT",
+    "noAnswer3": "Network Masquerading"
   },
   {
-    "question": "+\r\n\r\nQanday amallarni parallel bajarish mumkin?",
-    "answer": "mustaqil",
-    "noAnswer1": "mustaqil bo`lmagan",
-    "noAnswer2": "Oddiy",
-    "noAnswer3": "bo'linmas"
+    "question": "Telefon tarmog'i uchun foydalaniladigan kabel kategoriyasi to'g'ri berilgan javobni aniqlang.",
+    "answer": "CAT1",
+    "noAnswer1": "CAT2",
+    "noAnswer2": "CAT3",
+    "noAnswer3": "CAT4"
   },
   {
-    "question": "+\r\n\r\nQanday jarayon iste'molchi deb ataladi?",
-    "answer": "Ma'lumotlarni qabul qiluvchi jarayon",
-    "noAnswer1": "Ma'lumotlarni uzatishni qayta ishlash",
-    "noAnswer2": "Ma'lumotlarni kiritish jarayoni",
-    "noAnswer3": "Ma'lumotlarni chiqaradigan jarayon"
+    "question": "TelNet bilam ishlash usuli yaqin protokol",
+    "answer": "SSH",
+    "noAnswer1": "DNS",
+    "noAnswer2": "AAA",
+    "noAnswer3": "VPN"
   },
   {
-    "question": "+\r\n\r\nIshlab chiqaruvchi deb qanday jarayonga aytiladi?",
-    "answer": "Ma'lumotlarni uzatuvchi jarayon",
-    "noAnswer1": "Ma'lumotlarni qabul qiluvchi jarayon",
-    "noAnswer2": "Ma'lumotlarni kiritish jarayoni",
-    "noAnswer3": "Ma'lumotlarni chiqaradigan jarayon"
+    "question": "Texnik nuqtai nazardan, \"Internet of Things\" ta’rif bering. ",
+    "answer": "Tashqi muhitdan har xil ma'lumotlarni olish va insonning minimal ishtirokida qayta ishlashni ta'minlaydigan texnologiyalar to'plami.",
+    "noAnswer1": "Internetga ulanish imkonini beruvchi oraliq qurilmalar to’plami.",
+    "noAnswer2": "Internetga ashyolarni ulash imkonini beruvchi tarmoq texnologiylarining umumlashgan strukturasi.",
+    "noAnswer3": "Tashqi muhitdan har xil ma'lumotlarni olish texnologiyasi."
   },
   {
-    "question": "+\r\n\r\nZamonaviy protsessorlarda unimdorligini oshirish uchun qanday texnologiyalar qo'llanilmaydi?",
-    "answer": "Ko'p oqimlilik",
-    "noAnswer1": "Superskalarlik",
-    "noAnswer2": "quvurlarni o'tkazish",
-    "noAnswer3": "Vektorli ma'lumotlarni qayta ishlash"
+    "question": "Token ring va Arcnet tarmoqlarida foydalanilgan kabel kategoriyasini aniqlang",
+    "answer": "CAT2",
+    "noAnswer1": "CAT3",
+    "noAnswer2": "CAT4",
+    "noAnswer3": "CAT5"
   },
   {
-    "question": "+\r\n\r\nKonveyyerlashtirish nima?",
-    "answer": "Buyruqlarning turli qismlarini parallel bajarish",
-    "noAnswer1": "Bir vaqtning o'zida bir nechta buyruqlarni bajarish",
-    "noAnswer2": "Ultra tez xotirada ma'lumotlarni saqlash",
-    "noAnswer3": "Katta hajmdagi ma'lumotlarni qayta ishlash"
+    "question": "To'qnashuvni aniqlash (Kolliziya) va tashuvchini tinglash uchun bir nechta kirish. To'qnashuv nazorati bilan mahalliy kompyuter tarmog'ida umumiy uzatish vositasiga ko'p kirish texnologiyasi bu-",
+    "answer": "CSMA/CD",
+    "noAnswer1": "FDDI",
+    "noAnswer2": "ATM",
+    "noAnswer3": "ISDN"
   },
   {
-    "question": "+\r\n\r\nSuperskalarlik nima?",
-    "answer": "Bir vaqtning o'zida bir nechta buyruqlarni bajarish",
-    "noAnswer1": "Buyruqlarning turli qismlarini parallel bajarish",
-    "noAnswer2": "Ultra tez xotirada ma'lumotlarni saqlash",
-    "noAnswer3": "Katta hajmdagi ma'lumotlarni qayta ishlash"
+    "question": "Tosodiviy ulanish usuli lokal tarmoqning qanday topologiyasida ishlatiladi.",
+    "answer": "Shina",
+    "noAnswer1": "Xalqa",
+    "noAnswer2": "Yacheykali",
+    "noAnswer3": "Yacheykali va Xalqa"
   },
   {
-    "question": "+\r\n\r\nMIMD texnologiyasiga qanday tizimlar tegishli?",
-    "answer": "Vektorli protsessorlar",
-    "noAnswer1": "Matritsali protsessorlar",
-    "noAnswer2": "Klasterlar, Simmetrik multiprotsessor",
-    "noAnswer3": "Vektorli protsessorlar, matritsali protsessorlar"
+    "question": "Transport darajasidagi himoya protokolini aniqlang",
+    "answer": "TLS",
+    "noAnswer1": "TCP",
+    "noAnswer2": "UDP",
+    "noAnswer3": "DHCP"
   },
   {
-    "question": "+\r\n\r\nKo'p yadroli tizimlar qaysi sinfga kiradi?",
-    "answer": "Umumiy xotiraga ega tizimlar",
-    "noAnswer1": "taqsimlangan tizimlar",
-    "noAnswer2": "Klasterlar",
-    "noAnswer3": "Matritsali protsessorlar"
+    "question": "TSL kengaytmasini aniqlang",
+    "answer": "Transport Layer Security",
+    "noAnswer1": "Transmission Layer Security",
+    "noAnswer2": "Transport Layer Socket",
+    "noAnswer3": "Transport Level of Security"
   },
   {
-    "question": "+\r\n\r\nKlaster tizimlari qaysi sinfga kiradi?",
-    "answer": "Taqsimlangan tizimlar",
-    "noAnswer1": "Matritsali protsessorlar",
-    "noAnswer2": "Simmetrik multiprotsessorlar",
-    "noAnswer3": "Umumiy xotiraga ega tizimlar"
+    "question": "Tugun punkti bu?",
+    "answer": "Uch yoki undan ortiq aloqa liniyalari birlashadigan nuqta",
+    "noAnswer1": "barcha aloqa liniyalari birlashadigan nuqta",
+    "noAnswer2": "Uchtagacha aloqa liniyalari birlashadigan joy",
+    "noAnswer3": "aloqa liniyalari birlasha olmaydigan nuqta"
   },
   {
-    "question": "+\r\n\r\nQanday ob'ektlar umumiy xotiraga ega?",
-    "answer": "Ikki oqimli",
-    "noAnswer1": "Ikki jarayonli",
-    "noAnswer2": "Oqim va jarayonli",
-    "noAnswer3": "Klaster tugunlarini hisoblash"
+    "question": "Tugunlar soni vaqt bo‘yicha tasodifiy bo‘ladigan tarmoq, va u 0 dan ba’zi maksimal ko‘rsatkichgacha o‘zgarishi mumkin",
+    "answer": "Ad-hoc tarmoq",
+    "noAnswer1": "Sensor tarmoq",
+    "noAnswer2": "IoT tarmog'i",
+    "noAnswer3": "Kompyuter tarmog'i"
   },
   {
-    "question": "+\r\n\r\nNima ma'lumotlar uchun xususiy xotiraga ega?",
-    "answer": "Jarayon",
-    "noAnswer1": "Oqim",
-    "noAnswer2": "Ham jarayon, ham oqim",
-    "noAnswer3": "Hech narsa"
+    "question": "Turli xil tarmoq protokollari ishlaydigan kompyuter tarmoqlari o'rtasida ma'lumot almashish quyidagilar yordamida amalga oshiriladi.",
+    "answer": "shlyuzlar",
+    "noAnswer1": "modemlar",
+    "noAnswer2": "asosiy kompyuterlar",
+    "noAnswer3": "fayl serverlari"
   },
   {
-    "question": "+\r\n\r\nJarayonlarning o'zaro ta'siri qanday tashkil etilgan?",
-    "answer": "Xabarlarni almashish orqali, aayl tizimi orqali",
-    "noAnswer1": "Umumiy xotira orqali, tezkor orqali",
-    "noAnswer2": "Kesh xotirasi orqali",
-    "noAnswer3": "Protsessor registrlari orqali"
+    "question": "UDP protokolida malumotlar qanday nomlanadi?",
+    "answer": "datagram",
+    "noAnswer1": "kadr",
+    "noAnswer2": "segment",
+    "noAnswer3": "frame"
   },
   {
-    "question": "+\r\n\r\nParallel dasturning tezlanishi nima?",
-    "answer": "Ketma-ket dasturning ishlash vaqtining parallel dasturning ishlash vaqtiga nisbati",
-    "noAnswer1": "Parallel dasturning ishlash vaqtining ketma-ket dasturning ishlash vaqtiga nisbati",
-    "noAnswer2": "Eng sekin jarayonning ishlash vaqtining eng tez ish vaqtiga nisbati",
-    "noAnswer3": "Eng tez jarayonning ishlash vaqtining eng sekin ish vaqtiga nisbati"
+    "question": "UMTS standarti qaysi tarmoq avlodiga tegishli.",
+    "answer": "3G",
+    "noAnswer1": "LTE",
+    "noAnswer2": "1G",
+    "noAnswer3": "5G"
   },
   {
-    "question": "+\r\n\r\nParallel dasturning samaradorligi qanday?",
-    "answer": "Parallel dastur tezlashuvining protsessorlar soniga nisbati",
-    "noAnswer1": "Ketma-ket dasturning ishlash vaqtining parallel dasturning ishlash vaqtiga nisbati",
-    "noAnswer2": "Protsessorlar sonining dastur tezlashishiga nisbati",
-    "noAnswer3": "Parallel dasturning ishlash vaqtining ketma-ket dasturning ishlash vaqtiga nisbati"
+    "question": "Uncha katta bo‘lmagan mamlakat shaharlari va viloyatlari foydalanuvchi kompyutеrlarini va lokal tarmoqlarni maxsus aloqa yoki tеlеfon aloqa kanallari orqali birlashtiradigan tarmoq",
+    "answer": "MAN",
+    "noAnswer1": "WAN",
+    "noAnswer2": "PAN",
+    "noAnswer3": "LAN"
   },
   {
-    "question": "+\r\n\r\nParallel dasturda hisoblashning narxi nima?",
-    "answer": "Barcha parallel jarayonlarning umumiy bajarilish vaqti",
-    "noAnswer1": "Parallel jarayonlarning eng kichik bajarilish vaqti",
-    "noAnswer2": "Parallel jarayonlarning eng uzun bajarilish vaqti",
-    "noAnswer3": "Protsessorlar soniga ko'paytirilgan samaradorlik"
+    "question": "VDSL texnologiyasi bir juft o‘ralgan telefon simlaridan chqishidagi ma’lumotlarni uzatish oqimi chegarasi ko‘rsatilgan javobni belgilan.",
+    "answer": "13 Mbit/s dan 52 Mbit/s gacha",
+    "noAnswer1": "1,5 Mbit/s dan 2,3 Mbit/s gacha",
+    "noAnswer2": "13 Mbit/s dan 42 Mbit/s gacha",
+    "noAnswer3": "1,5 Mbit/s dan 52 Mbit/s gacha"
   },
   {
-    "question": "+\r\n\r\nSuperchiziqli tezlanish nima?",
-    "answer": "Samaradorlik birdan katta bo'lganda",
-    "noAnswer1": "Tezlashtirish protsessorlar sonidan kam bo'lganda",
-    "noAnswer2": "Tezlashtirish protsessorlar soniga teng bo'lganda",
-    "noAnswer3": "Samaradorlik birdan kam bo'lsa"
+    "question": "VDSL texnologiyasining maksimal uzatish oralig‘i ko‘rsatilgan javobni belgilang",
+    "answer": "300 – 1300 metr",
+    "noAnswer1": "300 – 1200 metr",
+    "noAnswer2": "5.5 km",
+    "noAnswer3": "50 km"
   },
   {
-    "question": "+\r\n\r\nSamaradorlikni saqlash odatda talab qiladi",
-    "answer": "Qayta ishlangan axborot hajmini oshirish.",
-    "noAnswer1": "Qayta ishlangan ma'lumotlar miqdorini kamaytiring.",
-    "noAnswer2": "Protsessorlar sonini ko'paytirish",
-    "noAnswer3": "Protsessorlar sonini kamaytiring"
+    "question": "VPN kengaytmasini aniqlang",
+    "answer": "Virtual Private Network",
+    "noAnswer1": "Virtual Protocol of Network",
+    "noAnswer2": "Virtual Public Network",
+    "noAnswer3": "Virtual Protected Network"
   },
   {
-    "question": "+\r\n\r\nAsosiy mantiqiy sxemalarning qanday xillari mavjud?",
-    "answer": " arifmetik va kombinator",
-    "noAnswer1": "kombinator va algoritmik",
-    "noAnswer2": "algoritmik va komparator",
-    "noAnswer3": "Komparator"
+    "question": "WAN tarmog'ining to'liq nomi to'g'ri ko'rsatilgan javobni aniqlang.",
+    "answer": "Wide Area Network",
+    "noAnswer1": "Worl Area Network",
+    "noAnswer2": "Wide ARP Network",
+    "noAnswer3": "World And Network"
   },
   {
-    "question": "+\r\n\r\n Asosiy menyu ochilad",
-    "answer": "Pusk tugmasi orqali;",
-    "noAnswer1": "Mening kompyuterim belgisini bosish orqali;",
-    "noAnswer2": "kontekst menyusi orqali;",
-    "noAnswer3": "Vazifalar panelini bosish orqali."
+    "question": "Wi-Fi kengaytmasini aniqlang",
+    "answer": "Wireless Fidelity",
+    "noAnswer1": "Wired Fidelity",
+    "noAnswer2": "Wireless Findness",
+    "noAnswer3": "Wireless Feature"
   },
   {
-    "question": "+\r\n\r\n BIOS nima uchun mo’ljallangan:",
-    "answer": "Ona plata va unga ulangan qurilmalarni diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer1": "Klaviatura va printerlarni diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer2": "Monitorlarning diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer3": "Plotterlar, risograflar va nusxa ko’chirish moslamalarini diagnostikadan va testdan o’tkazish uchun"
+    "question": "Wi-Fi tarmog‘i qaysi standart asosida yaratiladi.",
+    "answer": "IEEE 802.11",
+    "noAnswer1": "IEEE 802.2",
+    "noAnswer2": "IEEE 802.16",
+    "noAnswer3": "IEEE 802.5"
   },
   {
-    "question": "+\r\n\r\n Bir nechta ventillar yordamida 0 va 1 raqamlarini saqlay oladigan 1 bitli xotira elementlari, yani …….. Hosil qilinadi",
-    "answer": "triggerlar",
-    "noAnswer1": "Interpretorlar",
-    "noAnswer2": "Registrlar",
-    "noAnswer3": "Elementlar"
+    "question": "Wi-Fi tarmoqlarini rivojlantirishdagi asosiy muammo?",
+    "answer": "tegishli chastota diapazonini taqsimlash",
+    "noAnswer1": "moliyaviy sabablar",
+    "noAnswer2": "texnologiyadagi farq va erishiladigan tezlik",
+    "noAnswer3": "tarmoq resurslariga katta yuk"
   },
   {
-    "question": "+\r\n\r\n Birinchi ommaviy mikroprotsessor qaysi yilda chiqarildi?",
-    "answer": "1971 yil",
-    "noAnswer1": "1968 yil",
-    "noAnswer2": "1945 yil",
-    "noAnswer3": "1956 yil"
+    "question": "WiMAX qanday tarmoq turiga kiradi.",
+    "answer": "Simsiz tarmoq",
+    "noAnswer1": "Simli tarmoq",
+    "noAnswer2": "Global tarmoq",
+    "noAnswer3": "Korporativ tarmog‘i"
   },
   {
-    "question": "+\r\n\r\n Bitta chipli DLP proektorlarning kamchiliklar",
-    "answer": "Kamalak effekti",
-    "noAnswer1": "Past kontrastligi",
-    "noAnswer2": "Yuqori narx",
-    "noAnswer3": "Mikrooynalarning kuchli isishi"
+    "question": "Windows operatsion tizimini masofadan turib boshqarish imkoniyatini beruvchi protokolni aniqlang",
+    "answer": "RDP",
+    "noAnswer1": "UDP",
+    "noAnswer2": "TCP",
+    "noAnswer3": "SNMP"
   },
   {
-    "question": "+\r\n\r\n Bul funktsiyasiga ta’rif bering.",
-    "answer": "O’zgaruvchilari va qiymati ikkita mantiqiy qiymatdan birini   qabul qilishi mumkin bo’lgan funktsiya",
-    "noAnswer1": "Ushbu sxemalarning kirishiga  0 yoki 1 ga teng bo’lgan mantiqiy o’zgaruvchilar berilmaydi",
-    "noAnswer2": "Mantiqiy qiymatlar ma’lum bir kattalikdagi funktsiya",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "WLAN kengaytmasini aniqlang",
+    "answer": "Wireless Local Area Network",
+    "noAnswer1": "Wired Local Area Network",
+    "noAnswer2": "World Local Area Network",
+    "noAnswer3": "Western Local Area Network"
   },
   {
-    "question": "+\r\n\r\n Butun bo‘lmagan sonlarni ifodalash uchun qanday sonlar ishlatiladi?",
-    "answer": "suriluvchi nuqtali  sonlar",
-    "noAnswer1": "rim raqamlari",
-    "noAnswer2": "kasr sonlar",
-    "noAnswer3": "ratsional sonlar"
-  },
-  {
-    "question": "+\r\n\r\n Buyruqlarda  … har doim bo'ladi, ammo …. bo'lmasligi ham mumkin",
-    "answer": "amal kodi, adreslar",
-    "noAnswer1": "adreslar, amal kodi",
-    "noAnswer2": "adreslar, kod",
-    "noAnswer3": "kodlar, adreslar"
-  },
-  {
-    "question": "+\r\n\r\n Core I7 protssesori nechta tranzistorlardan iborat?",
-    "answer": "1 160 000 000",
-    "noAnswer1": "11 600 000",
-    "noAnswer2": "160 000 000",
-    "noAnswer3": "1 000 000 000"
-  },
-  {
-    "question": "+\r\n\r\n Core i7 protssesori qachon yaratilgan?",
-    "answer": "2011",
-    "noAnswer1": "2012",
-    "noAnswer2": "2013",
-    "noAnswer3": "2015"
-  },
-  {
-    "question": "+\r\n\r\n Elektron nurli trubkaga asoslangan monitorning asosiy element",
-    "answer": "Kineskop va elektron pushka",
-    "noAnswer1": "G’lof",
-    "noAnswer2": "Lyuminofor",
-    "noAnswer3": "Elektr ta’minoti"
-  },
-  {
-    "question": "+\r\n\r\n Fayl yoki papkani faollashtirishingiz yoki tanlashingiz uchun:",
-    "answer": "sichqonchani bir marta bosish orqali;",
-    "noAnswer1": "sichqonchani ikki marta bosish orqali;",
-    "noAnswer2": "tortib olish;",
-    "noAnswer3": "Fayl yoki papkani sichqoncha bilan ko’rsatish orqali."
-  },
-  {
-    "question": "+\r\n\r\n Floppi qanday form faktor mavjud emas?",
-    "answer": "10 dyuym",
-    "noAnswer1": "5,25 dyuym",
-    "noAnswer2": "3.5 dyuym",
-    "noAnswer3": "8 dyuym"
-  },
-  {
-    "question": "+\r\n\r\n Front Side Bus  (FSB) quyidagilar o’rtasida aloqani ta’minlaydi",
-    "answer": "Protsessor va boshqa qurilmalar o’rtasida",
-    "noAnswer1": "Qattiq disklar o’rtasida",
-    "noAnswer2": "Ona platadagi shimoliy va janubiy ko’priklar",
-    "noAnswer3": "Ma’lumotlar shinasi va manzil shinasi o’rtasida"
-  },
-  {
-    "question": "+\r\n\r\n hozirda ishlab chiqarilayotgan kompyuterlarni qurilishi asoslarini ozida mujassam etgan dastlabki kompyuterlardan biri kim tomonidan ishlab chiqilgan?",
-    "answer": "Djon Fon Heyman",
-    "noAnswer1": "Cray Research",
-    "noAnswer2": "Bebbidj",
-    "noAnswer3": "Leybnits"
-  },
-  {
-    "question": "+\r\n\r\n hozirda ishlab chiqarilayotgan kompyuterlarni qurilishi asoslarini ozida mujassam etgan dastlabki kompyuterlardan biri nechanchi yilda ishlab chiqilgan?",
-    "answer": "1952",
-    "noAnswer1": "1950",
-    "noAnswer2": "1955",
-    "noAnswer3": "1960"
-  },
-  {
-    "question": "+\r\n\r\n IA-32 arxitekturasiga ega bo’lgan MP selektorining quvvati qanday?",
-    "answer": "16",
-    "noAnswer1": "64",
-    "noAnswer2": "8",
-    "noAnswer3": "32"
-  },
-  {
-    "question": "+\r\n\r\n IA-32 arxitekturasiga ega MP-ning IDTR registrining kengligi qancha?",
-    "answer": "48",
-    "noAnswer1": "32",
-    "noAnswer2": "64",
-    "noAnswer3": "16"
-  },
-  {
-    "question": "+\r\n\r\n IA-32 MP umumiy foydalanish registrlarida nechta 32 bitli registrlar mavjud?",
-    "answer": "8",
-    "noAnswer1": "4",
-    "noAnswer2": "16",
-    "noAnswer3": "64"
-  },
-  {
-    "question": "+\r\n\r\n Ikki kanalli rejimda tezkor xotiraning ishlashi unumdorlikni necha foiz oshiradi",
-    "answer": "10-15%",
-    "noAnswer1": "2-3%",
-    "noAnswer2": "40-60%",
-    "noAnswer3": "90-95%"
-  },
-  {
-    "question": "+\r\n\r\n Ikkilik sanoq tizimidagi raqamlarni o‘nlik sanoq tizimidagi kodga  o‘zgartiruvchi kombinatsion mantiqiy qurilma",
-    "answer": "Dekoderlar",
-    "noAnswer1": "Komparatorlar",
-    "noAnswer2": "Jamlagich",
-    "noAnswer3": "Mutipleksor"
-  },
-  {
-    "question": "+\r\n\r\n Integral sxema o‘lchamlari tahminan qancha bo'ladi? (mm)",
-    "answer": "5x5 kvadrat shaklida",
-    "noAnswer1": "5x4 to'g'ri to'rtburchak shaklida",
-    "noAnswer2": "4x4 doira shaklida",
-    "noAnswer3": "6x4 ko'pburchak shaklida"
-  },
-  {
-    "question": "+\r\n\r\n Intelning birinchi 64-bitli mikroprotsessori qanday nomlangan?",
-    "answer": " Itanium",
-    "noAnswer1": "Pentium 4",
-    "noAnswer2": "Pentium MMX",
-    "noAnswer3": "Pentium"
-  },
-  {
-    "question": "+\r\n\r\n Janubiy ko’prik protsessor va ...  ni bog’laydi",
-    "answer": " Qattiq disklar",
-    "noAnswer1": "RAM",
-    "noAnswer2": "Video kartalar",
-    "noAnswer3": "Tizim shinasi"
-  },
-  {
-    "question": "+\r\n\r\n Katta integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "100 tadan 100 000 tagacha",
-    "noAnswer1": "10 tadan 100 tagacha",
-    "noAnswer2": "10 tadan 1000 tagacha",
-    "noAnswer3": "100 tadan 10 000 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n Kesh xotirasining qaysi darajasi eng tezkor?",
-    "answer": "Birinchi",
-    "noAnswer1": "Ikkinchi",
-    "noAnswer2": "Uchinchidan",
-    "noAnswer3": "To’rtinchi"
-  },
-  {
-    "question": "+\r\n\r\n Kichik integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "1 tadan 10 tagacha",
-    "noAnswer1": "10 tadan 15 tagacha",
-    "noAnswer2": "cheksiz bo'lishi mumkin",
-    "noAnswer3": "5 tadan 35 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n Kichik integral sxemalarning kengligi qanchani tashkil qiladi?",
-    "answer": " 5-15 mm",
-    "noAnswer1": "5-10 mm",
-    "noAnswer2": "3-5 mm",
-    "noAnswer3": "5-15 sm"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter nima?",
-    "answer": "Ma’lumotlar ustida turli amallar bajaruvchi kichik hajmdagi elektron hisoblash mashinasi.",
-    "noAnswer1": "Faqat yozishga mo’ljallangan elektron hisoblash mashinasi.",
-    "noAnswer2": "Faqat o’qish uchun mo’ljallangan elektron hisoblash mashinasi.",
-    "noAnswer3": "Ma'lumotlarni ekranga chiqaruvchi qurilma"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter quvvat manbai quyidagilarni bajarmaydi",
-    "answer": " Elektr uzilib qolganda uzluksiz ishlashni ta’minlash",
-    "noAnswer1": "Barcha qurilmalarni elektr energiyasi bilan ta’minlash",
-    "noAnswer2": "Kuchlanishni belgilangan qiymatlarga o’tkazish",
-    "noAnswer3": "Kichik elektr shovqinlarini filtrlash"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter tarmog’ining topologiyasi",
-    "answer": "Tarmoq kompyuterlarining bir-biriga nisbatan jismoniy joylashuvi va ularni chiziqlar bilan bog’lash usuli",
-    "noAnswer1": "Tarmoq uchun ishlatiladigan kabel turi",
-    "noAnswer2": "Tarmoq simini siqish usuli",
-    "noAnswer3": "Butun tarmoqning o’tkazuvchanligi"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter yoqsangiz , protsessor quyidagilarga murojat qiladi",
-    "answer": "doimiy hotiraga;",
-    "noAnswer1": "tezkor xotiraga;",
-    "noAnswer2": "qattiq diskga;",
-    "noAnswer3": "diskga."
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterda ifodalanishi mumkin bolgan malumotlar hillarini necha turkumga ajratish mumkin?",
-    "answer": "2",
-    "noAnswer1": "1",
-    "noAnswer2": "3",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterdagi eng tezkor xotira qaysi?",
-    "answer": "Protsessor registrining xotirasi",
-    "noAnswer1": "Kesh xotirasi",
-    "noAnswer2": "RAM",
-    "noAnswer3": "Qattiq disklar"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterlarda ifodalanishi mumkin bo‘lgan ma’lumotlar necha xil bo'ladi?",
-    "answer": "2 xil",
-    "noAnswer1": "3 xil",
-    "noAnswer2": "1 xil",
-    "noAnswer3": "4 xil"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterlarda ifodalanishi mumkin bo‘lgan ma’lumotlar turini ko'rsating",
-    "answer": " raqamli va raqamli bo'lmagan ma'lumotlar",
-    "noAnswer1": "Mantiqiy  va belgili ma’lumotlar",
-    "noAnswer2": "Simvolli va mantiqiy ma'lumotlar",
-    "noAnswer3": "Mantiqiy , raqamli, raqamli bo'lmagan va  simvolli ma'lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterni elektr bilan ta’minlash blokining asosiy xususiyatlari",
-    "answer": "Printerlar va skanerlar",
-    "noAnswer1": "O’lchamlari",
-    "noAnswer2": "Narx",
-    "noAnswer3": "Unga ulangan turli xil qurilmalarni elektr ta’minoti uchun ulagichlar soni"
-  },
-  {
-    "question": "+\r\n\r\n Magneto-optik disklarning kamchiligi",
-    "answer": "Magnit maydonlarga nisbatan sezgirligi past",
-    "noAnswer1": "Himoyalavchi plastik sumkasi",
-    "noAnswer2": "Yozish tezligining pastligi",
-    "noAnswer3": "Ma’lumotlarni saqlash davri"
-  },
-  {
-    "question": "+\r\n\r\n Mantiqiy manzilni jismoniy manzilga tarjima qilish mantiqiy manzil maydonini segment-sahifali tashkiloti bilan qanday tashkil etilgan?",
-    "answer": "birinchi navbatda disk xotira birligi tomonidan, keyin esa mikroprotsessor MMU-ga murojaat qilish orqali.",
-    "noAnswer1": "manzil tarjimasi talab qilinmaydi.",
-    "noAnswer2": "mikroprotsessorning MMU sahifa adreslash birligi.",
-    "noAnswer3": "mikroprotsessorning MMU segmentining adreslash birligi."
-  },
-  {
-    "question": "+\r\n\r\nOLED monitorlarida LCD monitorlardan farqli o’laroq, qanday tarkibiy element etishmayapti?",
-    "answer": "Orqa yorug’lik chiroqlari",
-    "noAnswer1": "Ilovalar",
-    "noAnswer2": "Tasviriy naycha",
-    "noAnswer3": "Katod nurlari trubkasi"
-  },
-  {
-    "question": "+\r\n\r\n Ona platadagi chipset ... ni o’zida aks ettiradi",
-    "answer": "Shimoliy va janubiy ko’prik mikrosxemalari to’plami",
-    "noAnswer1": "Tizim shinasi va operativ xotira hajmi",
-    "noAnswer2": "Ona platada joylashgan barcha qurilmalarning to’plami",
-    "noAnswer3": "Ona platadagi barcha portlar va ulagichlarning to’plami"
-  },
-  {
-    "question": "+\r\n\r\n Ona platadagi shimoliy ko’prik quyidagilarni qo’llab-quvvatlaydi",
-    "answer": "Tizim shinasi, operativ xotira, videoadapter",
-    "noAnswer1": "Qattiq disklar va optik disklar",
-    "noAnswer2": "Ovoz kartasi va modem",
-    "noAnswer3": "Klaviatura, sichqonlar, printerlar, skanerlar"
-  },
-  {
-    "question": "+\r\n\r\n Ona platadan elektr manbasi elementlarini olib tashlab, qayta o’rnatgandan so’ng nima bo’ladi",
-    "answer": " Barcha BIOS sozlamalarini sukut bo’yicha (po umolchaniyu)  sozlash",
-    "noAnswer1": "BIOS parolini tiklash",
-    "noAnswer2": "BIOS mikodasturini o’chirish",
-    "noAnswer3": "Hech narsa bo’lmaydi"
-  },
-  {
-    "question": "+\r\n\r\n Operativ xotira xossasiga nima xos emas?",
-    "answer": "Narx",
-    "noAnswer1": "O’tkazish qobiliyati",
-    "noAnswer2": "Vaqt (Tayming)",
-    "noAnswer3": "Xotira turi"
-  },
-  {
-    "question": "+"
-  },
-  {
-    "question": "+\r\n\r\n Optik disklarning birinchi avlodi quyidagilarni o’z ichiga oladi",
-    "answer": "CD disklar",
-    "noAnswer1": "Blu-ray disklari",
-    "noAnswer2": "DVD disklar",
-    "noAnswer3": "Golografik disklar"
-  },
-  {
-    "question": "+\r\n\r\n O'rta integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "10 tadan 100 tagacha",
-    "noAnswer1": "1 tadan 10 tagacha",
-    "noAnswer2": "100 tadan 1000 tagacha",
-    "noAnswer3": "10 tadan 50 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n O'ta katta integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "100 000 tadan ortiq",
-    "noAnswer1": "1000 tadan 100 000 tagacha",
-    "noAnswer2": "100 tadan 10 000 tagacha",
-    "noAnswer3": "100 tadan 100 000 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n Oxirida maxsus belgi yoki qatorning  uzunligini ko‘rsatuvchi qismi mavjud bo'lgan ma'lumot - bu …",
-    "answer": "Qatorlar ko‘rinishidagi ma’lumotlar",
-    "noAnswer1": "Mantiqiy ma’lumotlar",
-    "noAnswer2": "Simvolli ma'lumotlar",
-    "noAnswer3": "Mantiqiy va simvolli ma'lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Oyna bu:",
-    "answer": "Windows bilan aloqa qilishning asosiy vositasi;",
-    "noAnswer1": "ish maydoni;",
-    "noAnswer2": "Windows ilovasi;",
-    "noAnswer3": "Windows hodisasi."
-  },
-  {
-    "question": "+\r\n\r\n Oyna kengligi va balandligi bo’yicha bir tekis o’zgartirish uchun quyidagilar kerak:",
-    "answer": "burchakni torting;",
-    "noAnswer1": "gorizontal ramkani torting;",
-    "noAnswer2": "vertikal ramkani torting;",
-    "noAnswer3": "sarlavhani torting."
-  },
-  {
-    "question": "+\r\n\r\n Oyna menyusi satri qaerda joylashgan:",
-    "answer": "yuqorida;",
-    "noAnswer1": "pastdanda;",
-    "noAnswer2": "chapda;",
-    "noAnswer3": "o’ng tomonda."
-  },
-  {
-    "question": "+\r\n\r\n PCI ( Periferik Component Interconnect ) shinasi  ... ni ulanishga imkon beradi",
-    "answer": "Ovoz va video adapterlari",
-    "noAnswer1": "Protsessor",
-    "noAnswer2": "Qattiq disklar",
-    "noAnswer3": "Mikrofonlar va karnay tizimi"
-  },
-  {
-    "question": "+\r\n\r\n Pentium 4 protsessorida buyruq formatlari nechi  xil bo'ladi?",
-    "answer": "4 xil",
-    "noAnswer1": "5 xil",
-    "noAnswer2": "3 xil",
-    "noAnswer3": "2 xil"
-  },
-  {
-    "question": "+\r\n\r\n Pentium 4 protssesori qachon yaratilgan?",
-    "answer": "2000",
-    "noAnswer1": "1997",
-    "noAnswer2": "2001",
-    "noAnswer3": "1999"
-  },
-  {
-    "question": "+\r\n\r\n Printerni shaxsiy kompyuterga ulash uchun odatda qaysi portlardan foydalaniladi?",
-    "answer": "LPT va USB",
-    "noAnswer1": "PS / 2 va FireWire",
-    "noAnswer2": "MAQOMOTI va LAN",
-    "noAnswer3": "USB va VGA"
-  },
-  {
-    "question": "+\r\n\r\n Protsessorning tezkorligi nima?",
-    "answer": "Vaqt birligida protsessor tomonidan bajariladigan elementar operatsiyalar soni",
-    "noAnswer1": "Ikki qo’shni takt impulslarining boshlanishi orasidagi vaqt oralig’i",
-    "noAnswer2": "Bu bir vaqtning o’zida ishlov berilishi yoki uzatilishi mumkin bo’lgan ikkilik kodlarning maksimal sonidir",
-    "noAnswer3": "Generator tomonidan bir soniyada hosil qilingan impulslar soni"
-  },
-  {
-    "question": "+\r\n\r\n PS / 2 porti unga ...ni ulanish uchun mo’ljallangan:",
-    "answer": "Klaviatura va sichqonlar",
-    "noAnswer1": "Qattiq disklar",
-    "noAnswer2": "Videokameralar",
-    "noAnswer3": "Printerlar va skanerlar"
-  },
-  {
-    "question": "+\r\n\r\n Qaysi funktsional birlik kompyuter protsessorini o’z ichiga olmaydi?",
-    "answer": "Flesh – xotira",
-    "noAnswer1": "Arifmetik – mantiqiy qurilma",
-    "noAnswer2": "Kesh – xotirasi",
-    "noAnswer3": "Boshqarish qurilmasi"
-  },
-  {
-    "question": "+\r\n\r\n Qaysi tugmachalar kompyuterni yoqganda BIOS- ga kirishga imkon beradi :",
-    "answer": "Del, F2",
-    "noAnswer1": "Alt, Enter",
-    "noAnswer2": "Home, Insert",
-    "noAnswer3": "Tab, Shift"
-  },
-  {
-    "question": "+\r\n\r\n Qaysi xotira o’zgaruvchan emas?",
-    "answer": " Barcha javoblar to’g’ri",
-    "noAnswer1": "Disket",
-    "noAnswer2": "Qattiq disk",
-    "noAnswer3": "Fleshli xotira"
-  },
-  {
-    "question": "+\r\n\r\n Qog’oz maydalagichlarda qanday hujjatlarni maydalash usuli qo’llanilmaydi?",
-    "answer": "Termal",
-    "noAnswer1": "Ovoz",
-    "noAnswer2": "Kimyoviy",
-    "noAnswer3": "Mexanik"
-  },
-  {
-    "question": "+\r\n\r\n Quyidagi dasturlarning qaysi biri optik belgilarni aniqlash uchun mo’ljallangan?",
-    "answer": "Fine Reader",
-    "noAnswer1": "Windows Movie Maker",
-    "noAnswer2": "Acrobat Reader",
-    "noAnswer3": "Partition Magic"
-  },
-  {
-    "question": "+\r\n\r\n Quyidagi suyuq kristalli monitorlar (LCD) matritsalarining qaysi biri fotografik tasvirlarning ranglari va ohanglarini yaxshi aks ettiradi?",
-    "answer": " IPS",
-    "noAnswer1": "PVA",
-    "noAnswer2": "MVA",
-    "noAnswer3": "TN + Film"
-  },
-  {
-    "question": "+\r\n\r\n Core I7 protssesori nechta tranzistorlardan iborat?",
-    "answer": " CMYK",
-    "noAnswer1": "HSB",
-    "noAnswer2": "RGB",
-    "noAnswer3": "HSV"
-  },
-  {
-    "question": "+\r\n\r\n Raqaamli tizimlarning zamonaviy element bazasi bo'lib turli mikroprosesorli majmualari MPM tarkibiga kiruvchi qanday sxemalar hisoblanadi",
-    "answer": " Integral (KIS)",
-    "noAnswer1": "Kolektor",
-    "noAnswer2": "Integral (MPI)",
-    "noAnswer3": "Mantiqiy"
-  },
-  {
-    "question": "+\r\n\r\n Raqamli bo‘lmagan ma’lumotlar turini ko'rsating",
-    "answer": " Simvolli, Qator  ko'rinishidagi, Mantiqiy ma'lumotlar",
-    "noAnswer1": "Butun sonlar va rim raqamlari",
-    "noAnswer2": "Belgili ma'lumotlar",
-    "noAnswer3": "Mantiqiy va simvolli ma'lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Raqamli ma'lumotlar - bu …",
-    "answer": " sonlar bilan ifodalanuvchi ma’lumotlar",
-    "noAnswer1": "simvollar bilan ifodalanuvchi ma’lumotlar",
-    "noAnswer2": "belgilar bilan ifodalanuvchi ma’lumotlar",
-    "noAnswer3": "shifrlangan  ma’lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Sahifalar jadvalidagi yozuvdagi A biti qanday sharoitlarda 1 ga o’rnatiladi?",
-    "answer": " o’qish uchun sahifaga kirishda",
-    "noAnswer1": "operatsion tizim ma’lum vaqt bo’lagidan keyin",
-    "noAnswer2": "Ushbu sahifaga murojaat qilganingizda",
-    "noAnswer3": "yozuv uchun sahifaga kirishda"
-  },
-  {
-    "question": "+\r\n\r\n Segment tavsiflovchisidagi chegara maydonining uzunligi qancha?",
-    "answer": " 20",
-    "noAnswer1": "8",
-    "noAnswer2": "16",
-    "noAnswer3": "64"
-  },
-  {
-    "question": "+\r\n\r\n Shahsiy kompyuterlar necha hil boladi?",
-    "answer": "2",
-    "noAnswer1": "4",
-    "noAnswer2": "1",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "+\r\n\r\n SHaxsiy kompyuterning корпуси нима uchun mo’ljallangan:",
-    "answer": "Kompyuterning ichki qismidagi mexanik shikastlanishlardan himoya qilish",
-    "noAnswer1": "Kompyuterning ishonchliligini oshirish",
-    "noAnswer2": "Kompyuteringizni tezligini oshiring",
-    "noAnswer3": "Kompyuter elektr energiyasini tejash"
-  },
-  {
-    "question": "+\r\n\r\n SHina ISA ( Industry Standard Architecture ) quyidagicha maksimal o’tkazuvchanlikni ta’minlaydi",
-    "answer": " 2 MB / sek",
-    "noAnswer1": "33 MB / sek",
-    "noAnswer2": "4,5 MB / sek",
-    "noAnswer3": "5,5 MB / sek"
-  },
-  {
-    "question": "+\r\n\r\n SHina PCI-Express x1 versiyasi odatda ...ni ulanish uchun ishlatilad",
-    "answer": "Ovoz kartalari",
-    "noAnswer1": "Qattiq disklar",
-    "noAnswer2": "Protsessorlar",
-    "noAnswer3": "Video adapterlar"
-  },
-  {
-    "question": "+\r\n\r\n Sichqonchani kompyuterga ulash uchun qanday interfeys mavjud emas",
-    "answer": " LPT",
-    "noAnswer1": "COM",
-    "noAnswer2": "USB",
-    "noAnswer3": "PS/2"
-  },
-  {
-    "question": "+\r\n\r\n Simvolli ma’lumotlar kodini  ko'rsating",
-    "answer": "ASCII, UNICODE",
-    "noAnswer1": "ASCII",
-    "noAnswer2": "ASCII, UNICODE, MySQL",
-    "noAnswer3": "ASCII, NortonCMD, MySQL"
-  },
-  {
-    "question": "+\r\n\r\n Simvolli ma’lumotlarning uzunliklari necha razryadli bo'lishi mumkin?",
-    "answer": " 7 (8) va 16 razryadli",
-    "noAnswer1": "16 va 32 razryadli",
-    "noAnswer2": "64 va 80 razryadli",
-    "noAnswer3": "32 va 64 razryadli"
-  },
-  {
-    "question": "+\r\n\r\n Skanerning eng muhim xususiyati qaysi?",
-    "answer": " Optik o’lchamlari",
-    "noAnswer1": "Interpolatsiyalangan rezolyutsiya",
-    "noAnswer2": "Ish tezligi",
-    "noAnswer3": "Rang chuqurligi"
-  },
-  {
-    "question": "+\r\n\r\n Suriluvchi nuqtali sonlarning uzunliklari qancha bo'ladi?",
-    "answer": "32, 64 yoki 128 bitgacha",
-    "noAnswer1": "32, 64 yoki 128 baytgacha",
-    "noAnswer2": "32, 64 yoki 128 mb gacha",
-    "noAnswer3": "32, 64 yoki 128 kb gacha"
-  },
-  {
-    "question": "+\r\n\r\n Sxemalarda mantiqiy qiymatlar ma’lum bir kattalikdagi kuchlanishlar bilan ifodalanadi. Mantiqiy 0 uchun kuchlanish qiymati qancha?",
-    "answer": " 3V gacha",
-    "noAnswer1": "2V gacha",
-    "noAnswer2": "4V gacha",
-    "noAnswer3": "5V gacha"
-  },
-  {
-    "question": "+\r\n\r\n Tashqi qismida ikki qatorli chiqish oyoqchalariga ega bo‘lgan integral sxemalar qanday ataladi?",
-    "answer": "Dual Inline Package (DIP) yoki mikrosxema",
-    "noAnswer1": "Source Inline Package (SIP) yoki Ikki tomonli sxema",
-    "noAnswer2": "Oyoqchali integral sxema",
-    "noAnswer3": "Katta integral sxema"
-  },
-  {
-    "question": "+\r\n\r\n Tezkor xotira nima uchun mo’ljallangan:",
-    "answer": " Unga bajariladigan dasturlar va ma’lumotlarni kiritish",
-    "noAnswer1": "Ma’lumotlarni kompyuterda uzoq muddatli saqlash",
-    "noAnswer2": "Sonlar ustida arifmetik amallarni bajarish",
-    "noAnswer3": "CHipset va K / CH portlari o’rtasida ma’lumotlar almashinuvini amalga oshiradi"
-  },
-  {
-    "question": "+\r\n\r\n Tizim va yordamchi dasturlarining kompleksi nima deyiladi",
-    "answer": " operatsion tizim;",
-    "noAnswer1": "matn muharriri;",
-    "noAnswer2": "grafik muharriri;",
-    "noAnswer3": "drayver."
-  },
-  {
-    "question": "+\r\n\r\n Tonerni bo’yoq sifatida qanday printerlar ishlatadi?",
-    "answer": "Lazerda",
-    "noAnswer1": "Matritsada",
-    "noAnswer2": "Inkjet ichida",
-    "noAnswer3": "Sublimatsiyada"
-  },
-  {
-    "question": "+\r\n\r\n Tortinchi avlod kompyuterlari qanday kompyuterlar?",
-    "answer": "katta integral sxemali kompyuterlar",
-    "noAnswer1": "integral sxemali kompyuterlar",
-    "noAnswer2": "mehanik kompyuterlar",
-    "noAnswer3": "elektron lampali kompyuterlar"
-  },
-  {
-    "question": "+\r\n\r\n Trekbolning sichqoncha tipidagi manipulyatorlardan afzalligi nimada?",
-    "answer": "Bilaklarning kamroq charchashi",
-    "noAnswer1": "Arzonroq narx",
-    "noAnswer2": "Ko’proq tutish joylari",
-    "noAnswer3": "Xotira resurslarini kamroq iste’mol qilish"
-  },
-  {
-    "question": "+\r\n\r\nMonitorni boshqaradi:",
-    "answer": "RAM;",
-    "noAnswer1": "ovoz kartasi;",
-    "noAnswer2": "video kartalar;",
-    "noAnswer3": "ROM"
-  },
-  {
-    "question": "+\r\n\r\n Dinamik xotira statik xotiradan quyidagi afzalliklarga ega:",
-    "answer": "Arzonroq narx",
-    "noAnswer1": "Unga kirishning yuqori tezligi",
-    "noAnswer2": "Ishonchlilik",
-    "noAnswer3": "Ikki kanalli rejimda ishlash qobiliyati"
-  },
-  {
-    "question": "+\r\n\r\n Drayver bu:",
-    "answer": "kompyuter qurilmalari bilan ishlash dasturi;",
-    "noAnswer1": "kompyuter qurilmasi;",
-    "noAnswer2": "amaliy dastur;",
-    "noAnswer3": "dasturlash tili."
-  },
-  {
-    "question": "+\r\nMarkaziy protsessorni o’rnatish uchun ulagich qanday nomlanadi?",
-    "answer": "Soket",
-    "noAnswer1": "Port",
-    "noAnswer2": "Chipset",
-    "noAnswer3": "Shima"
-  },
-  {
-    "question": "+\r\n\r\n Eksponentalar nima?",
-    "answer": "darajalar, tartiblar",
-    "noAnswer1": "butun son",
-    "noAnswer2": "kasr son",
-    "noAnswer3": "kasrning butun qismi"
-  },
-  {
-    "question": "+\r\n\r\n Markaziy protsessorni o’rnatish uchun ulagich (raz’em) nomi?",
-    "answer": " Soket",
-    "noAnswer1": "Port",
-    "noAnswer2": "Chipset",
-    "noAnswer3": "SHina"
-  },
-  {
-    "question": "+\r\n\r\n Matritsali printerlarda bosib chiqarish elementi",
-    "answer": "Baraban",
-    "noAnswer1": "Lazer nurlari",
-    "noAnswer2": "Igna",
-    "noAnswer3": "Nozul"
-  },
-  {
-    "question": "+\r\n\r\n MOP texnalogiyasida 1-ga to'g'ri keladigon kuchlanish qancha bo'lishi mumkin",
-    "answer": " 3.3 V",
-    "noAnswer1": "2.2 V",
-    "noAnswer2": "5 V",
-    "noAnswer3": "4 V"
-  },
-  {
-    "question": "+\r\n\r\n Sahifa jadvali katalogi elementidagi manzil maydonining uzunligi qancha?",
-    "answer": "Infinyband",
-    "noAnswer1": "16",
-    "noAnswer2": "10",
-    "noAnswer3": "13 \r\n\r\nKlaster uchun eng tezkor tarmoqni ko'rsating."
-  },
-  {
-    "question": "+\r\n\r\nAmdal qonuni … hisoblab chiqadi:",
-    "answer": "bir nechta protsessorlarda hisob-kitoblarni tezlashtirishini",
-    "noAnswer1": "o'rnatilgan operatsiyalar sonini",
-    "noAnswer2": "konveyer chuqurligini",
-    "noAnswer3": "hisoblash uchun sarflangan vaqtni"
-  },
-  {
-    "question": "+\r\n\r\nKommunikator - bu ...",
-    "answer": "jarayon guruhi identifikatori",
-    "noAnswer1": "parallel tizimda intercom",
-    "noAnswer2": "kalit bilan bir xil",
-    "noAnswer3": "Klaster aloqa simulyatori"
-  },
-  {
-    "question": "+\r\n\r\nMPI xotiradan foydalanishning qanday strategiyasini taklif qiladi?",
-    "answer": "Tarqalgan",
-    "noAnswer1": "Ulashgan",
-    "noAnswer2": "Masofadan",
-    "noAnswer3": "Mahalliy"
-  },
-  {
-    "question": "+\r\n\r\nParallel dastur bu ...",
-    "answer": "birgalikda ishlaydigan bir nechta jarayonlarni o'z ichiga olgan dastur",
-    "noAnswer1": "katta hajmdagi ma'lumotlar dasturi",
-    "noAnswer2": "tarmoq xabar almashish dasturi",
-    "noAnswer3": "bir vaqtning o'zida bir nechta kompyuterlarda ishlaydigan dastur"
-  },
-  {
-    "question": "+\r\n\r\nAsinxron parallel hisoblash modeli quyidagi xususiyatlarga ega:",
-    "answer": "turli jarayonlar turli masalalarni hal qiladi",
-    "noAnswer1": "barcha jarayonlar o'z ma'lumotlari bilan bir xil harakatlarni bajaradi",
-    "noAnswer2": "barcha jarayonlar umumiy xotiradan foydalanadi",
-    "noAnswer3": "barcha jarayonlar o'zlarining muhim bo'limlarida ishlaydi"
-  },
-  {
-    "question": "+\r\n\r\nSinxron parallel hisoblash modeli quyidagi xususiyatlarga ega:",
-    "answer": "barcha jarayonlar o'z ma'lumotlari bilan bir xil harakatlarni bajaradi",
-    "noAnswer1": "turli jarayonlar turli muammolarni hal qiladi",
-    "noAnswer2": "barcha jarayonlar umumiy xotiradan foydalanadi",
-    "noAnswer3": "barcha jarayonlar o'zlarining muhim bo'limlarida ishlaydi"
-  },
-  {
-    "question": "+\r\n\r\nQanday amallarni parallel bajarish mumkin?",
-    "answer": "mustaqil",
-    "noAnswer1": "mustaqil bo`lmagan",
-    "noAnswer2": "Oddiy",
-    "noAnswer3": "bo'linmas"
-  },
-  {
-    "question": "+\r\n\r\nQanday jarayon iste'molchi deb ataladi?",
-    "answer": "Ma'lumotlarni qabul qiluvchi jarayon",
-    "noAnswer1": "Ma'lumotlarni uzatishni qayta ishlash",
-    "noAnswer2": "Ma'lumotlarni kiritish jarayoni",
-    "noAnswer3": "Ma'lumotlarni chiqaradigan jarayon"
-  },
-  {
-    "question": "+\r\n\r\nIshlab chiqaruvchi deb qanday jarayonga aytiladi?",
-    "answer": "Ma'lumotlarni uzatuvchi jarayon",
-    "noAnswer1": "Ma'lumotlarni qabul qiluvchi jarayon",
-    "noAnswer2": "Ma'lumotlarni kiritish jarayoni",
-    "noAnswer3": "Ma'lumotlarni chiqaradigan jarayon"
-  },
-  {
-    "question": "+\r\n\r\nZamonaviy protsessorlarda unimdorligini oshirish uchun qanday texnologiyalar qo'llanilmaydi?",
-    "answer": "Ko'p oqimlilik",
-    "noAnswer1": "Superskalarlik",
-    "noAnswer2": "quvurlarni o'tkazish",
-    "noAnswer3": "Vektorli ma'lumotlarni qayta ishlash"
-  },
-  {
-    "question": "+\r\n\r\nKonveyyerlashtirish nima?",
-    "answer": "Buyruqlarning turli qismlarini parallel bajarish",
-    "noAnswer1": "Bir vaqtning o'zida bir nechta buyruqlarni bajarish",
-    "noAnswer2": "Ultra tez xotirada ma'lumotlarni saqlash",
-    "noAnswer3": "Katta hajmdagi ma'lumotlarni qayta ishlash"
-  },
-  {
-    "question": "+\r\n\r\nSuperskalarlik nima?",
-    "answer": "Bir vaqtning o'zida bir nechta buyruqlarni bajarish",
-    "noAnswer1": "Buyruqlarning turli qismlarini parallel bajarish",
-    "noAnswer2": "Ultra tez xotirada ma'lumotlarni saqlash",
-    "noAnswer3": "Katta hajmdagi ma'lumotlarni qayta ishlash"
-  },
-  {
-    "question": "+\r\n\r\nMIMD texnologiyasiga qanday tizimlar tegishli?",
-    "answer": "Vektorli protsessorlar",
-    "noAnswer1": "Matritsali protsessorlar",
-    "noAnswer2": "Klasterlar, Simmetrik multiprotsessor",
-    "noAnswer3": "Vektorli protsessorlar, matritsali protsessorlar"
-  },
-  {
-    "question": "+\r\n\r\nKo'p yadroli tizimlar qaysi sinfga kiradi?",
-    "answer": "Umumiy xotiraga ega tizimlar",
-    "noAnswer1": "taqsimlangan tizimlar",
-    "noAnswer2": "Klasterlar",
-    "noAnswer3": "Matritsali protsessorlar"
-  },
-  {
-    "question": "+\r\n\r\nKlaster tizimlari qaysi sinfga kiradi?",
-    "answer": "Taqsimlangan tizimlar",
-    "noAnswer1": "Matritsali protsessorlar",
-    "noAnswer2": "Simmetrik multiprotsessorlar",
-    "noAnswer3": "Umumiy xotiraga ega tizimlar"
-  },
-  {
-    "question": "+\r\n\r\nQanday ob'ektlar umumiy xotiraga ega?",
-    "answer": "Ikki oqimli",
-    "noAnswer1": "Ikki jarayonli",
-    "noAnswer2": "Oqim va jarayonli",
-    "noAnswer3": "Klaster tugunlarini hisoblash"
-  },
-  {
-    "question": "+\r\n\r\nNima ma'lumotlar uchun xususiy xotiraga ega?",
-    "answer": "Jarayon",
-    "noAnswer1": "Oqim",
-    "noAnswer2": "Ham jarayon, ham oqim",
-    "noAnswer3": "Hech narsa"
-  },
-  {
-    "question": "+\r\n\r\nJarayonlarning o'zaro ta'siri qanday tashkil etilgan?",
-    "answer": "Xabarlarni almashish orqali, aayl tizimi orqali",
-    "noAnswer1": "Umumiy xotira orqali, tezkor orqali",
-    "noAnswer2": "Kesh xotirasi orqali",
-    "noAnswer3": "Protsessor registrlari orqali"
-  },
-  {
-    "question": "+\r\n\r\nParallel dasturning tezlanishi nima?",
-    "answer": "Ketma-ket dasturning ishlash vaqtining parallel dasturning ishlash vaqtiga nisbati",
-    "noAnswer1": "Parallel dasturning ishlash vaqtining ketma-ket dasturning ishlash vaqtiga nisbati",
-    "noAnswer2": "Eng sekin jarayonning ishlash vaqtining eng tez ish vaqtiga nisbati",
-    "noAnswer3": "Eng tez jarayonning ishlash vaqtining eng sekin ish vaqtiga nisbati"
-  },
-  {
-    "question": "+\r\n\r\nParallel dasturning samaradorligi qanday?",
-    "answer": "Parallel dastur tezlashuvining protsessorlar soniga nisbati",
-    "noAnswer1": "Ketma-ket dasturning ishlash vaqtining parallel dasturning ishlash vaqtiga nisbati",
-    "noAnswer2": "Protsessorlar sonining dastur tezlashishiga nisbati",
-    "noAnswer3": "Parallel dasturning ishlash vaqtining ketma-ket dasturning ishlash vaqtiga nisbati"
-  },
-  {
-    "question": "+\r\n\r\nParallel dasturda hisoblashning narxi nima?",
-    "answer": "Barcha parallel jarayonlarning umumiy bajarilish vaqti",
-    "noAnswer1": "Parallel jarayonlarning eng kichik bajarilish vaqti",
-    "noAnswer2": "Parallel jarayonlarning eng uzun bajarilish vaqti",
-    "noAnswer3": "Protsessorlar soniga ko'paytirilgan samaradorlik"
-  },
-  {
-    "question": "+\r\n\r\nSuperchiziqli tezlanish nima?",
-    "answer": "Samaradorlik birdan katta bo'lganda",
-    "noAnswer1": "Tezlashtirish protsessorlar sonidan kam bo'lganda",
-    "noAnswer2": "Tezlashtirish protsessorlar soniga teng bo'lganda",
-    "noAnswer3": "Samaradorlik birdan kam bo'lsa"
-  },
-  {
-    "question": "+\r\n\r\nSamaradorlikni saqlash odatda talab qiladi",
-    "answer": "Qayta ishlangan axborot hajmini oshirish.",
-    "noAnswer1": "Qayta ishlangan ma'lumotlar miqdorini kamaytiring.",
-    "noAnswer2": "Protsessorlar sonini ko'paytirish",
-    "noAnswer3": "Protsessorlar sonini kamaytiring"
-  },
-  {
-    "question": "+\r\n\r\nAsosiy mantiqiy sxemalarning qanday xillari mavjud?",
-    "answer": " arifmetik va kombinator",
-    "noAnswer1": "kombinator va algoritmik",
-    "noAnswer2": "algoritmik va komparator",
-    "noAnswer3": "Komparator"
-  },
-  {
-    "question": "+\r\n\r\n Asosiy menyu ochilad",
-    "answer": "Pusk tugmasi orqali;",
-    "noAnswer1": "Mening kompyuterim belgisini bosish orqali;",
-    "noAnswer2": "kontekst menyusi orqali;",
-    "noAnswer3": "Vazifalar panelini bosish orqali."
-  },
-  {
-    "question": "+\r\n\r\n BIOS nima uchun mo’ljallangan:",
-    "answer": "Ona plata va unga ulangan qurilmalarni diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer1": "Klaviatura va printerlarni diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer2": "Monitorlarning diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer3": "Plotterlar, risograflar va nusxa ko’chirish moslamalarini diagnostikadan va testdan o’tkazish uchun"
-  },
-  {
-    "question": "+\r\n\r\n Bir nechta ventillar yordamida 0 va 1 raqamlarini saqlay oladigan 1 bitli xotira elementlari, yani …….. Hosil qilinadi",
-    "answer": "triggerlar",
-    "noAnswer1": "Interpretorlar",
-    "noAnswer2": "Registrlar",
-    "noAnswer3": "Elementlar"
-  },
-  {
-    "question": "+\r\n\r\n Birinchi ommaviy mikroprotsessor qaysi yilda chiqarildi?",
-    "answer": "1971 yil",
-    "noAnswer1": "1968 yil",
-    "noAnswer2": "1945 yil",
-    "noAnswer3": "1956 yil"
-  },
-  {
-    "question": "+\r\n\r\n Bitta chipli DLP proektorlarning kamchiliklar",
-    "answer": "Kamalak effekti",
-    "noAnswer1": "Past kontrastligi",
-    "noAnswer2": "Yuqori narx",
-    "noAnswer3": "Mikrooynalarning kuchli isishi"
-  },
-  {
-    "question": "+\r\n\r\n Bul funktsiyasiga ta’rif bering.",
-    "answer": "O’zgaruvchilari va qiymati ikkita mantiqiy qiymatdan birini   qabul qilishi mumkin bo’lgan funktsiya",
-    "noAnswer1": "Ushbu sxemalarning kirishiga  0 yoki 1 ga teng bo’lgan mantiqiy o’zgaruvchilar berilmaydi",
-    "noAnswer2": "Mantiqiy qiymatlar ma’lum bir kattalikdagi funktsiya",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "+\r\n\r\n Butun bo‘lmagan sonlarni ifodalash uchun qanday sonlar ishlatiladi?",
-    "answer": "suriluvchi nuqtali  sonlar",
-    "noAnswer1": "rim raqamlari",
-    "noAnswer2": "kasr sonlar",
-    "noAnswer3": "ratsional sonlar"
-  },
-  {
-    "question": "+\r\n\r\n Buyruqlarda  … har doim bo'ladi, ammo …. bo'lmasligi ham mumkin",
-    "answer": "amal kodi, adreslar",
-    "noAnswer1": "adreslar, amal kodi",
-    "noAnswer2": "adreslar, kod",
-    "noAnswer3": "kodlar, adreslar"
-  },
-  {
-    "question": "+\r\n\r\n Core I7 protssesori nechta tranzistorlardan iborat?",
-    "answer": "1 160 000 000",
-    "noAnswer1": "11 600 000",
-    "noAnswer2": "160 000 000",
-    "noAnswer3": "1 000 000 000"
-  },
-  {
-    "question": "+\r\n\r\n Core i7 protssesori qachon yaratilgan?",
-    "answer": "2011",
-    "noAnswer1": "2012",
-    "noAnswer2": "2013",
-    "noAnswer3": "2015"
-  },
-  {
-    "question": "+\r\n\r\n Elektron nurli trubkaga asoslangan monitorning asosiy element",
-    "answer": "Kineskop va elektron pushka",
-    "noAnswer1": "G’lof",
-    "noAnswer2": "Lyuminofor",
-    "noAnswer3": "Elektr ta’minoti"
-  },
-  {
-    "question": "+\r\n\r\n Fayl yoki papkani faollashtirishingiz yoki tanlashingiz uchun:",
-    "answer": "sichqonchani bir marta bosish orqali;",
-    "noAnswer1": "sichqonchani ikki marta bosish orqali;",
-    "noAnswer2": "tortib olish;",
-    "noAnswer3": "Fayl yoki papkani sichqoncha bilan ko’rsatish orqali."
-  },
-  {
-    "question": "+\r\n\r\n Floppi qanday form faktor mavjud emas?",
-    "answer": "10 dyuym",
-    "noAnswer1": "5,25 dyuym",
-    "noAnswer2": "3.5 dyuym",
-    "noAnswer3": "8 dyuym"
-  },
-  {
-    "question": "+\r\n\r\n Front Side Bus  (FSB) quyidagilar o’rtasida aloqani ta’minlaydi",
-    "answer": "Protsessor va boshqa qurilmalar o’rtasida",
-    "noAnswer1": "Qattiq disklar o’rtasida",
-    "noAnswer2": "Ona platadagi shimoliy va janubiy ko’priklar",
-    "noAnswer3": "Ma’lumotlar shinasi va manzil shinasi o’rtasida"
-  },
-  {
-    "question": "+\r\n\r\n hozirda ishlab chiqarilayotgan kompyuterlarni qurilishi asoslarini ozida mujassam etgan dastlabki kompyuterlardan biri kim tomonidan ishlab chiqilgan?",
-    "answer": "Djon Fon Heyman",
-    "noAnswer1": "Cray Research",
-    "noAnswer2": "Bebbidj",
-    "noAnswer3": "Leybnits"
-  },
-  {
-    "question": "+\r\n\r\n hozirda ishlab chiqarilayotgan kompyuterlarni qurilishi asoslarini ozida mujassam etgan dastlabki kompyuterlardan biri nechanchi yilda ishlab chiqilgan?",
-    "answer": "1952",
-    "noAnswer1": "1950",
-    "noAnswer2": "1955",
-    "noAnswer3": "1960"
-  },
-  {
-    "question": "+\r\n\r\n IA-32 arxitekturasiga ega bo’lgan MP selektorining quvvati qanday?",
-    "answer": "16",
-    "noAnswer1": "64",
-    "noAnswer2": "8",
-    "noAnswer3": "32"
-  },
-  {
-    "question": "+\r\n\r\n IA-32 arxitekturasiga ega MP-ning IDTR registrining kengligi qancha?",
-    "answer": "48",
-    "noAnswer1": "32",
-    "noAnswer2": "64",
-    "noAnswer3": "16"
-  },
-  {
-    "question": "+\r\n\r\n IA-32 MP umumiy foydalanish registrlarida nechta 32 bitli registrlar mavjud?",
-    "answer": "8",
-    "noAnswer1": "4",
-    "noAnswer2": "16",
-    "noAnswer3": "64"
-  },
-  {
-    "question": "+\r\n\r\n Ikki kanalli rejimda tezkor xotiraning ishlashi unumdorlikni necha foiz oshiradi",
-    "answer": "10-15%",
-    "noAnswer1": "2-3%",
-    "noAnswer2": "40-60%",
-    "noAnswer3": "90-95%"
-  },
-  {
-    "question": "+\r\n\r\n Ikkilik sanoq tizimidagi raqamlarni o‘nlik sanoq tizimidagi kodga  o‘zgartiruvchi kombinatsion mantiqiy qurilma",
-    "answer": "Dekoderlar",
-    "noAnswer1": "Komparatorlar",
-    "noAnswer2": "Jamlagich",
-    "noAnswer3": "Mutipleksor"
-  },
-  {
-    "question": "+\r\n\r\n Integral sxema o‘lchamlari tahminan qancha bo'ladi? (mm)",
-    "answer": "5x5 kvadrat shaklida",
-    "noAnswer1": "5x4 to'g'ri to'rtburchak shaklida",
-    "noAnswer2": "4x4 doira shaklida",
-    "noAnswer3": "6x4 ko'pburchak shaklida"
-  },
-  {
-    "question": "+\r\n\r\n Intelning birinchi 64-bitli mikroprotsessori qanday nomlangan?",
-    "answer": " Itanium",
-    "noAnswer1": "Pentium 4",
-    "noAnswer2": "Pentium MMX",
-    "noAnswer3": "Pentium"
-  },
-  {
-    "question": "+\r\n\r\n Janubiy ko’prik protsessor va ...  ni bog’laydi",
-    "answer": " Qattiq disklar",
-    "noAnswer1": "RAM",
-    "noAnswer2": "Video kartalar",
-    "noAnswer3": "Tizim shinasi"
-  },
-  {
-    "question": "+\r\n\r\n Katta integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "100 tadan 100 000 tagacha",
-    "noAnswer1": "10 tadan 100 tagacha",
-    "noAnswer2": "10 tadan 1000 tagacha",
-    "noAnswer3": "100 tadan 10 000 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n Kesh xotirasining qaysi darajasi eng tezkor?",
-    "answer": "Birinchi",
-    "noAnswer1": "Ikkinchi",
-    "noAnswer2": "Uchinchidan",
-    "noAnswer3": "To’rtinchi"
-  },
-  {
-    "question": "+\r\n\r\n Kichik integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "1 tadan 10 tagacha",
-    "noAnswer1": "10 tadan 15 tagacha",
-    "noAnswer2": "cheksiz bo'lishi mumkin",
-    "noAnswer3": "5 tadan 35 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n Kichik integral sxemalarning kengligi qanchani tashkil qiladi?",
-    "answer": " 5-15 mm",
-    "noAnswer1": "5-10 mm",
-    "noAnswer2": "3-5 mm",
-    "noAnswer3": "5-15 sm"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter nima?",
-    "answer": "Ma’lumotlar ustida turli amallar bajaruvchi kichik hajmdagi elektron hisoblash mashinasi.",
-    "noAnswer1": "Faqat yozishga mo’ljallangan elektron hisoblash mashinasi.",
-    "noAnswer2": "Faqat o’qish uchun mo’ljallangan elektron hisoblash mashinasi.",
-    "noAnswer3": "Ma'lumotlarni ekranga chiqaruvchi qurilma"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter quvvat manbai quyidagilarni bajarmaydi",
-    "answer": " Elektr uzilib qolganda uzluksiz ishlashni ta’minlash",
-    "noAnswer1": "Barcha qurilmalarni elektr energiyasi bilan ta’minlash",
-    "noAnswer2": "Kuchlanishni belgilangan qiymatlarga o’tkazish",
-    "noAnswer3": "Kichik elektr shovqinlarini filtrlash"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter tarmog’ining topologiyasi",
-    "answer": "Tarmoq kompyuterlarining bir-biriga nisbatan jismoniy joylashuvi va ularni chiziqlar bilan bog’lash usuli",
-    "noAnswer1": "Tarmoq uchun ishlatiladigan kabel turi",
-    "noAnswer2": "Tarmoq simini siqish usuli",
-    "noAnswer3": "Butun tarmoqning o’tkazuvchanligi"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter yoqsangiz , protsessor quyidagilarga murojat qiladi",
-    "answer": "doimiy hotiraga;",
-    "noAnswer1": "tezkor xotiraga;",
-    "noAnswer2": "qattiq diskga;",
-    "noAnswer3": "diskga."
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterda ifodalanishi mumkin bolgan malumotlar hillarini necha turkumga ajratish mumkin?",
-    "answer": "2",
-    "noAnswer1": "1",
-    "noAnswer2": "3",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterdagi eng tezkor xotira qaysi?",
-    "answer": "Protsessor registrining xotirasi",
-    "noAnswer1": "Kesh xotirasi",
-    "noAnswer2": "RAM",
-    "noAnswer3": "Qattiq disklar"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterlarda ifodalanishi mumkin bo‘lgan ma’lumotlar necha xil bo'ladi?",
-    "answer": "2 xil",
-    "noAnswer1": "3 xil",
-    "noAnswer2": "1 xil",
-    "noAnswer3": "4 xil"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterlarda ifodalanishi mumkin bo‘lgan ma’lumotlar turini ko'rsating",
-    "answer": " raqamli va raqamli bo'lmagan ma'lumotlar",
-    "noAnswer1": "Mantiqiy  va belgili ma’lumotlar",
-    "noAnswer2": "Simvolli va mantiqiy ma'lumotlar",
-    "noAnswer3": "Mantiqiy , raqamli, raqamli bo'lmagan va  simvolli ma'lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterni elektr bilan ta’minlash blokining asosiy xususiyatlari",
-    "answer": "Printerlar va skanerlar",
-    "noAnswer1": "O’lchamlari",
-    "noAnswer2": "Narx",
-    "noAnswer3": "Unga ulangan turli xil qurilmalarni elektr ta’minoti uchun ulagichlar soni"
-  },
-  {
-    "question": "+\r\n\r\n Magneto-optik disklarning kamchiligi",
-    "answer": "Magnit maydonlarga nisbatan sezgirligi past",
-    "noAnswer1": "Himoyalavchi plastik sumkasi",
-    "noAnswer2": "Yozish tezligining pastligi",
-    "noAnswer3": "Ma’lumotlarni saqlash davri"
-  },
-  {
-    "question": "+\r\n\r\n Mantiqiy manzilni jismoniy manzilga tarjima qilish mantiqiy manzil maydonini segment-sahifali tashkiloti bilan qanday tashkil etilgan?",
-    "answer": "birinchi navbatda disk xotira birligi tomonidan, keyin esa mikroprotsessor MMU-ga murojaat qilish orqali.",
-    "noAnswer1": "manzil tarjimasi talab qilinmaydi.",
-    "noAnswer2": "mikroprotsessorning MMU sahifa adreslash birligi.",
-    "noAnswer3": "mikroprotsessorning MMU segmentining adreslash birligi."
-  },
-  {
-    "question": "+\r\n\r\nOLED monitorlarida LCD monitorlardan farqli o’laroq, qanday tarkibiy element etishmayapti?",
-    "answer": "Orqa yorug’lik chiroqlari",
-    "noAnswer1": "Ilovalar",
-    "noAnswer2": "Tasviriy naycha",
-    "noAnswer3": "Katod nurlari trubkasi"
-  },
-  {
-    "question": "+\r\n\r\n Ona platadagi chipset ... ni o’zida aks ettiradi",
-    "answer": "Shimoliy va janubiy ko’prik mikrosxemalari to’plami",
-    "noAnswer1": "Tizim shinasi va operativ xotira hajmi",
-    "noAnswer2": "Ona platada joylashgan barcha qurilmalarning to’plami",
-    "noAnswer3": "Ona platadagi barcha portlar va ulagichlarning to’plami"
-  },
-  {
-    "question": "+\r\n\r\n Ona platadagi shimoliy ko’prik quyidagilarni qo’llab-quvvatlaydi",
-    "answer": "Tizim shinasi, operativ xotira, videoadapter",
-    "noAnswer1": "Qattiq disklar va optik disklar",
-    "noAnswer2": "Ovoz kartasi va modem",
-    "noAnswer3": "Klaviatura, sichqonlar, printerlar, skanerlar"
-  },
-  {
-    "question": "+\r\n\r\n Ona platadan elektr manbasi elementlarini olib tashlab, qayta o’rnatgandan so’ng nima bo’ladi",
-    "answer": " Barcha BIOS sozlamalarini sukut bo’yicha (po umolchaniyu)  sozlash",
-    "noAnswer1": "BIOS parolini tiklash",
-    "noAnswer2": "BIOS mikodasturini o’chirish",
-    "noAnswer3": "Hech narsa bo’lmaydi"
-  },
-  {
-    "question": "+\r\n\r\n Operativ xotira xossasiga nima xos emas?",
-    "answer": "Narx",
-    "noAnswer1": "O’tkazish qobiliyati",
-    "noAnswer2": "Vaqt (Tayming)",
-    "noAnswer3": "Xotira turi"
-  },
-  {
-    "question": "+\r\n\r\n Operatsion tizim bu:",
-    "answer": "tizim dasturi;",
-    "noAnswer1": "amaliy dastur;",
-    "noAnswer2": "dasturlash tizimi;",
-    "noAnswer3": "matn muharriri."
-  },
-  {
-    "question": "+\r\n\r\n Optik disklarning birinchi avlodi quyidagilarni o’z ichiga oladi",
-    "answer": "CD disklar",
-    "noAnswer1": "Blu-ray disklari",
-    "noAnswer2": "DVD disklar",
-    "noAnswer3": "Golografik disklar"
-  },
-  {
-    "question": "+\r\n\r\n O'rta integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "10 tadan 100 tagacha",
-    "noAnswer1": "1 tadan 10 tagacha",
-    "noAnswer2": "100 tadan 1000 tagacha",
-    "noAnswer3": "10 tadan 50 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n O'ta katta integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "100 000 tadan ortiq",
-    "noAnswer1": "1000 tadan 100 000 tagacha",
-    "noAnswer2": "100 tadan 10 000 tagacha",
-    "noAnswer3": "100 tadan 100 000 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n Oxirida maxsus belgi yoki qatorning  uzunligini ko‘rsatuvchi qismi mavjud bo'lgan ma'lumot - bu …",
-    "answer": "Qatorlar ko‘rinishidagi ma’lumotlar",
-    "noAnswer1": "Mantiqiy ma’lumotlar",
-    "noAnswer2": "Simvolli ma'lumotlar",
-    "noAnswer3": "Mantiqiy va simvolli ma'lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Oyna bu:",
-    "answer": "Windows bilan aloqa qilishning asosiy vositasi;",
-    "noAnswer1": "ish maydoni;",
-    "noAnswer2": "Windows ilovasi;",
-    "noAnswer3": "Windows hodisasi."
-  },
-  {
-    "question": "+\r\n\r\n Oyna kengligi va balandligi bo’yicha bir tekis o’zgartirish uchun quyidagilar kerak:",
-    "answer": "burchakni torting;",
-    "noAnswer1": "gorizontal ramkani torting;",
-    "noAnswer2": "vertikal ramkani torting;",
-    "noAnswer3": "sarlavhani torting."
-  },
-  {
-    "question": "+\r\n\r\n Oyna menyusi satri qaerda joylashgan:",
-    "answer": "yuqorida;",
-    "noAnswer1": "pastdanda;",
-    "noAnswer2": "chapda;",
-    "noAnswer3": "o’ng tomonda."
-  },
-  {
-    "question": "+\r\n\r\n PCI ( Periferik Component Interconnect ) shinasi  ... ni ulanishga imkon beradi",
-    "answer": "Ovoz va video adapterlari",
-    "noAnswer1": "Protsessor",
-    "noAnswer2": "Qattiq disklar",
-    "noAnswer3": "Mikrofonlar va karnay tizimi"
-  },
-  {
-    "question": "+\r\n\r\n Pentium 4 protsessorida buyruq formatlari nechi  xil bo'ladi?",
-    "answer": "4 xil",
-    "noAnswer1": "5 xil",
-    "noAnswer2": "3 xil",
-    "noAnswer3": "2 xil"
-  },
-  {
-    "question": "+\r\n\r\n Pentium 4 protssesori qachon yaratilgan?",
-    "answer": "2000",
-    "noAnswer1": "1997",
-    "noAnswer2": "2001",
-    "noAnswer3": "1999"
-  },
-  {
-    "question": "+\r\n\r\n Printerni shaxsiy kompyuterga ulash uchun odatda qaysi portlardan foydalaniladi?",
-    "answer": "LPT va USB",
-    "noAnswer1": "PS / 2 va FireWire",
-    "noAnswer2": "MAQOMOTI va LAN",
-    "noAnswer3": "USB va VGA"
-  },
-  {
-    "question": "+\r\n\r\n Protsessorning tezkorligi nima?",
-    "answer": "Vaqt birligida protsessor tomonidan bajariladigan elementar operatsiyalar soni",
-    "noAnswer1": "Ikki qo’shni takt impulslarining boshlanishi orasidagi vaqt oralig’i",
-    "noAnswer2": "Bu bir vaqtning o’zida ishlov berilishi yoki uzatilishi mumkin bo’lgan ikkilik kodlarning maksimal sonidir",
-    "noAnswer3": "Generator tomonidan bir soniyada hosil qilingan impulslar soni"
-  },
-  {
-    "question": "+\r\n\r\n PS / 2 porti unga ...ni ulanish uchun mo’ljallangan:",
-    "answer": "Klaviatura va sichqonlar",
-    "noAnswer1": "Qattiq disklar",
-    "noAnswer2": "Videokameralar",
-    "noAnswer3": "Printerlar va skanerlar"
-  },
-  {
-    "question": "+\r\n\r\n Qaysi funktsional birlik kompyuter protsessorini o’z ichiga olmaydi?",
-    "answer": "Flesh – xotira",
-    "noAnswer1": "Arifmetik – mantiqiy qurilma",
-    "noAnswer2": "Kesh – xotirasi",
-    "noAnswer3": "Boshqarish qurilmasi"
-  },
-  {
-    "question": "+\r\n\r\n Qaysi tugmachalar kompyuterni yoqganda BIOS- ga kirishga imkon beradi :",
-    "answer": "Del, F2",
-    "noAnswer1": "Alt, Enter",
-    "noAnswer2": "Home, Insert",
-    "noAnswer3": "Tab, Shift"
-  },
-  {
-    "question": "+\r\n\r\n Qaysi xotira o’zgaruvchan emas?",
-    "answer": " Barcha javoblar to’g’ri",
-    "noAnswer1": "Disket",
-    "noAnswer2": "Qattiq disk",
-    "noAnswer3": "Fleshli xotira"
-  },
-  {
-    "question": "+\r\n\r\n Qog’oz maydalagichlarda qanday hujjatlarni maydalash usuli qo’llanilmaydi?",
-    "answer": "Termal",
-    "noAnswer1": "Ovoz",
-    "noAnswer2": "Kimyoviy",
-    "noAnswer3": "Mexanik"
-  },
-  {
-    "question": "+\r\n\r\n Quyidagi dasturlarning qaysi biri optik belgilarni aniqlash uchun mo’ljallangan?",
-    "answer": "Fine Reader",
-    "noAnswer1": "Windows Movie Maker",
-    "noAnswer2": "Acrobat Reader",
-    "noAnswer3": "Partition Magic"
-  },
-  {
-    "question": "+\r\n\r\n Quyidagi suyuq kristalli monitorlar (LCD) matritsalarining qaysi biri fotografik tasvirlarning ranglari va ohanglarini yaxshi aks ettiradi?",
-    "answer": " IPS",
-    "noAnswer1": "PVA",
-    "noAnswer2": "MVA",
-    "noAnswer3": "TN + Film"
-  },
-  {
-    "question": "+\r\n\r\n Rangli tasvirlarni bosib chiqarish uchun siyohli printerlar qanday rang modelidan foydalanadilar?",
-    "answer": " CMYK",
-    "noAnswer1": "HSB",
-    "noAnswer2": "RGB",
-    "noAnswer3": "HSV"
-  },
-  {
-    "question": "+\r\n\r\n Raqaamli tizimlarning zamonaviy element bazasi bo'lib turli mikroprosesorli majmualari MPM tarkibiga kiruvchi qanday sxemalar hisoblanadi",
-    "answer": " Integral (KIS)",
-    "noAnswer1": "Kolektor",
-    "noAnswer2": "Integral (MPI)",
-    "noAnswer3": "Mantiqiy"
-  },
-  {
-    "question": "+\r\n\r\n Raqamli bo‘lmagan ma’lumotlar turini ko'rsating",
-    "answer": " Simvolli, Qator  ko'rinishidagi, Mantiqiy ma'lumotlar",
-    "noAnswer1": "Butun sonlar va rim raqamlari",
-    "noAnswer2": "Belgili ma'lumotlar",
-    "noAnswer3": "Mantiqiy va simvolli ma'lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Raqamli ma'lumotlar - bu …",
-    "answer": " sonlar bilan ifodalanuvchi ma’lumotlar",
-    "noAnswer1": "simvollar bilan ifodalanuvchi ma’lumotlar",
-    "noAnswer2": "belgilar bilan ifodalanuvchi ma’lumotlar",
-    "noAnswer3": "shifrlangan  ma’lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Sahifalar jadvalidagi yozuvdagi A biti qanday sharoitlarda 1 ga o’rnatiladi?",
-    "answer": " o’qish uchun sahifaga kirishda",
-    "noAnswer1": "operatsion tizim ma’lum vaqt bo’lagidan keyin",
-    "noAnswer2": "Ushbu sahifaga murojaat qilganingizda",
-    "noAnswer3": "yozuv uchun sahifaga kirishda"
-  },
-  {
-    "question": "+\r\n\r\n Segment tavsiflovchisidagi chegara maydonining uzunligi qancha?",
-    "answer": " 20",
-    "noAnswer1": "8",
-    "noAnswer2": "16",
-    "noAnswer3": "64"
-  },
-  {
-    "question": "+\r\n\r\n Shahsiy kompyuterlar necha hil boladi?",
-    "answer": "2",
-    "noAnswer1": "4",
-    "noAnswer2": "1",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "+\r\n\r\n SHaxsiy kompyuterning корпуси нима uchun mo’ljallangan:",
-    "answer": "Kompyuterning ichki qismidagi mexanik shikastlanishlardan himoya qilish",
-    "noAnswer1": "Kompyuterning ishonchliligini oshirish",
-    "noAnswer2": "Kompyuteringizni tezligini oshiring",
-    "noAnswer3": "Kompyuter elektr energiyasini tejash"
-  },
-  {
-    "question": "+\r\n\r\n SHina ISA ( Industry Standard Architecture ) quyidagicha maksimal o’tkazuvchanlikni ta’minlaydi",
-    "answer": " 2 MB / sek",
-    "noAnswer1": "33 MB / sek",
-    "noAnswer2": "4,5 MB / sek",
-    "noAnswer3": "5,5 MB / sek"
-  },
-  {
-    "question": "+\r\n\r\n SHina PCI-Express x1 versiyasi odatda ...ni ulanish uchun ishlatilad",
-    "answer": "Ovoz kartalari",
-    "noAnswer1": "Qattiq disklar",
-    "noAnswer2": "Protsessorlar",
-    "noAnswer3": "Video adapterlar"
-  },
-  {
-    "question": "+\r\n\r\n Sichqonchani kompyuterga ulash uchun qanday interfeys mavjud emas",
-    "answer": " LPT",
-    "noAnswer1": "COM",
-    "noAnswer2": "USB",
-    "noAnswer3": "PS/2"
-  },
-  {
-    "question": "+\r\n\r\n Simvolli ma’lumotlar kodini  ko'rsating",
-    "answer": "ASCII, UNICODE",
-    "noAnswer1": "ASCII",
-    "noAnswer2": "ASCII, UNICODE, MySQL",
-    "noAnswer3": "ASCII, NortonCMD, MySQL"
-  },
-  {
-    "question": "+\r\n\r\n Simvolli ma’lumotlarning uzunliklari necha razryadli bo'lishi mumkin?",
-    "answer": " 7 (8) va 16 razryadli",
-    "noAnswer1": "16 va 32 razryadli",
-    "noAnswer2": "64 va 80 razryadli",
-    "noAnswer3": "32 va 64 razryadli"
-  },
-  {
-    "question": "+\r\n\r\n Skanerning eng muhim xususiyati qaysi?",
-    "answer": " Optik o’lchamlari",
-    "noAnswer1": "Interpolatsiyalangan rezolyutsiya",
-    "noAnswer2": "Ish tezligi",
-    "noAnswer3": "Rang chuqurligi"
-  },
-  {
-    "question": "+\r\n\r\n Suriluvchi nuqtali sonlarning uzunliklari qancha bo'ladi?",
-    "answer": "32, 64 yoki 128 bitgacha",
-    "noAnswer1": "32, 64 yoki 128 baytgacha",
-    "noAnswer2": "32, 64 yoki 128 mb gacha",
-    "noAnswer3": "32, 64 yoki 128 kb gacha"
-  },
-  {
-    "question": "+\r\n\r\n Sxemalarda mantiqiy qiymatlar ma’lum bir kattalikdagi kuchlanishlar bilan ifodalanadi. Mantiqiy 0 uchun kuchlanish qiymati qancha?",
-    "answer": " 3V gacha",
-    "noAnswer1": "2V gacha",
-    "noAnswer2": "4V gacha",
-    "noAnswer3": "5V gacha"
-  },
-  {
-    "question": "+\r\n\r\n Tashqi qismida ikki qatorli chiqish oyoqchalariga ega bo‘lgan integral sxemalar qanday ataladi?",
-    "answer": "Dual Inline Package (DIP) yoki mikrosxema",
-    "noAnswer1": "Source Inline Package (SIP) yoki Ikki tomonli sxema",
-    "noAnswer2": "Oyoqchali integral sxema",
-    "noAnswer3": "Katta integral sxema"
-  },
-  {
-    "question": "+\r\n\r\n Tezkor xotira nima uchun mo’ljallangan:",
-    "answer": " Unga bajariladigan dasturlar va ma’lumotlarni kiritish",
-    "noAnswer1": "Ma’lumotlarni kompyuterda uzoq muddatli saqlash",
-    "noAnswer2": "Sonlar ustida arifmetik amallarni bajarish",
-    "noAnswer3": "CHipset va K / CH portlari o’rtasida ma’lumotlar almashinuvini amalga oshiradi"
-  },
-  {
-    "question": "+\r\n\r\n Tizim va yordamchi dasturlarining kompleksi nima deyiladi",
-    "answer": " operatsion tizim;",
-    "noAnswer1": "matn muharriri;",
-    "noAnswer2": "grafik muharriri;",
-    "noAnswer3": "drayver."
-  },
-  {
-    "question": "+\r\n\r\n Tonerni bo’yoq sifatida qanday printerlar ishlatadi?",
-    "answer": "Lazerda",
-    "noAnswer1": "Matritsada",
-    "noAnswer2": "Inkjet ichida",
-    "noAnswer3": "Sublimatsiyada"
-  },
-  {
-    "question": "+\r\n\r\n Tortinchi avlod kompyuterlari qanday kompyuterlar?",
-    "answer": "katta integral sxemali kompyuterlar",
-    "noAnswer1": "integral sxemali kompyuterlar",
-    "noAnswer2": "mehanik kompyuterlar",
-    "noAnswer3": "elektron lampali kompyuterlar"
-  },
-  {
-    "question": "+\r\n\r\n Trekbolning sichqoncha tipidagi manipulyatorlardan afzalligi nimada?",
-    "answer": "Bilaklarning kamroq charchashi",
-    "noAnswer1": "Arzonroq narx",
-    "noAnswer2": "Ko’proq tutish joylari",
-    "noAnswer3": "Xotira resurslarini kamroq iste’mol qilish"
-  },
-  {
-    "question": "+\r\n\r\nMonitorni boshqaradi:",
-    "answer": "RAM;",
-    "noAnswer1": "ovoz kartasi;",
-    "noAnswer2": "video kartalar;",
-    "noAnswer3": "ROM"
-  },
-  {
-    "question": "+\r\n\r\n Dinamik xotira statik xotiradan quyidagi afzalliklarga ega:",
-    "answer": "Arzonroq narx",
-    "noAnswer1": "Unga kirishning yuqori tezligi",
-    "noAnswer2": "Ishonchlilik",
-    "noAnswer3": "Ikki kanalli rejimda ishlash qobiliyati"
-  },
-  {
-    "question": "+\r\n\r\n Drayver bu:",
-    "answer": "kompyuter qurilmalari bilan ishlash dasturi;",
-    "noAnswer1": "kompyuter qurilmasi;",
-    "noAnswer2": "amaliy dastur;",
-    "noAnswer3": "dasturlash tili."
-  },
-  {
-    "question": "+\r\nMarkaziy protsessorni o’rnatish uchun ulagich qanday nomlanadi?",
-    "answer": "Soket",
-    "noAnswer1": "Port",
-    "noAnswer2": "Chipset",
-    "noAnswer3": "Shima"
-  },
-  {
-    "question": "+\r\n\r\n Eksponentalar nima?",
-    "answer": "darajalar, tartiblar",
-    "noAnswer1": "butun son",
-    "noAnswer2": "kasr son",
-    "noAnswer3": "kasrning butun qismi"
-  },
-  {
-    "question": "+\r\n\r\n Markaziy protsessorni o’rnatish uchun ulagich (raz’em) nomi?",
-    "answer": " Soket",
-    "noAnswer1": "Port",
-    "noAnswer2": "Chipset",
-    "noAnswer3": "SHina"
-  },
-  {
-    "question": "+\r\n\r\n Matritsali printerlarda bosib chiqarish elementi",
-    "answer": "Baraban",
-    "noAnswer1": "Lazer nurlari",
-    "noAnswer2": "Igna",
-    "noAnswer3": "Nozul"
-  },
-  {
-    "question": "+\r\n\r\n MOP texnalogiyasida 1-ga to'g'ri keladigon kuchlanish qancha bo'lishi mumkin",
-    "answer": " 3.3 V",
-    "noAnswer1": "2.2 V",
-    "noAnswer2": "5 V",
-    "noAnswer3": "4 V"
-  },
-  {
-    "question": "+\r\n\r\n Sahifa jadvali katalogi elementidagi manzil maydonining uzunligi qancha?",
-    "answer": "Soket",
-    "noAnswer1": "16",
-    "noAnswer2": "10",
-    "noAnswer3": "13\r\n\r\nMarkaziy protsessorni o’rnatish uchun ulagich qanday nomlanadi?"
-  },
-  {
-    "question": "Asosiy platadagi shimoliy ko'prik quyidagilarni qo'llab-quvvatlaydi:",
-    "answer": "Tizimli shina, operativ xotira, videoadapter",
-    "noAnswer1": "Qattiq disklar va optik disklar",
-    "noAnswer2": "Ovoz kartasi va modem",
-    "noAnswer3": "Klaviaturalar, sichqonlar, printerlar, skanerlar"
-  },
-  {
-    "question": "Janubiy ko'prik protsessorni va ... ni bog'laydi:",
-    "answer": "Qattiq disklar",
-    "noAnswer1": "RAM",
-    "noAnswer2": "Video kartalar",
-    "noAnswer3": "Tizim shinasi"
-  },
-  {
-    "question": "Asosiy  platadagi chipset bu…:",
-    "answer": "Shimoliy va janubiy ko'prikning mikrosxemalari to'plami",
-    "noAnswer1": "Tizim shinasi va operativ xotiraning umumiyligi",
-    "noAnswer2": "Asosiy platada joylashgan barcha qurilmalar to'plami",
-    "noAnswer3": "Asosiy platadagi barcha portlar va ulagichlar to'plami"
-  },
-  {
-    "question": "Shaxsiy kompyuterning korpusi quyidagilar uchun mo'ljallangan:",
-    "answer": "Kompyuterning ichki qismlarini mexanik shikastlanishdan himoya qilish",
-    "noAnswer1": "Kompyuterning ishonchliligini oshirish",
-    "noAnswer2": "Kompyuteringizni tezlashtiring",
-    "noAnswer3": "Kompyuteringizning elektr energiyasini tejash"
-  },
-  {
-    "question": "Kompyuter quvvat manbai qaysi vazifani bajarmaydi:",
-    "answer": "Elektr ta'minoti uzilib qolganda uzluksiz ishlashni ta'minlash",
-    "noAnswer1": "Barcha qurilmalarni elektr energiyasi bilan ta'minlash",
-    "noAnswer2": "Kuchlanishni belgilangan qiymatlarga aylantirish",
-    "noAnswer3": "Kichik elektr shovqinlarini filtrlash"
-  },
-  {
-    "question": "Kompyuter quvvat manbaining asosiy xarakteristikalari quyidagilardir:",
-    "answer": "Quvvat",
-    "noAnswer1": "O‘lchamlar",
-    "noAnswer2": "Narxi",
-    "noAnswer3": "Unga ulangan turli qurilmalarni elektr ta'minoti uchun ulagichlar soni"
-  },
-  {
-    "question": "Kompyuter protsessoriga qaysi funksional birlik kirmaydi?",
-    "answer": "Flash xotira",
-    "noAnswer1": "Arifmetik mantiq birligi",
-    "noAnswer2": "Kesh xotirasi",
-    "noAnswer3": "Boshqarish moslamasi"
-  },
-  {
-    "question": "Qaysi darajadagi kesh eng tezkor?",
-    "answer": "Birinchi",
-    "noAnswer1": "Ikkinchi",
-    "noAnswer2": "Uchinchi",
-    "noAnswer3": "To`rtinchi"
-  },
-  {
-    "question": "Kompyuterning eng tez xotirasi nima?",
-    "answer": "Protsessor registr xotirasi",
-    "noAnswer1": "Kesh xotirasi",
-    "noAnswer2": "RAM",
-    "noAnswer3": "Qattiq disklar"
-  },
-  {
-    "question": "Protsessor tezligi nima?",
-    "answer": "Protsessor tomonidan vaqt birligida bajariladigan elementar amallar soni",
-    "noAnswer1": "Ikki qo'shni soat pulslarining boshlanishi o'rtasidagi vaqt oralig'i",
-    "noAnswer2": "Bu bir vaqtning o'zida qayta ishlanishi yoki uzatilishi mumkin bo'lgan ikkilik kod bitlarining maksimal soni",
-    "noAnswer3": "Generator tomonidan bir soniyada hosil bo'lgan impulslar soni"
-  },
-  {
-    "question": "Tasodifiy xotiraning xarakteristikasi nima emas?",
-    "answer": "Narx",
-    "noAnswer1": "Tarmoq kengligi",
-    "noAnswer2": "Taymingi",
-    "noAnswer3": "Xotira turi"
-  },
-  {
-    "question": "Tasodifiy kirish xotirasi quyidagilar uchun mo'ljallangan:",
-    "answer": "Unda bajarilayotgan dasturlar va ma'lumotlarni joylashtirish",
-    "noAnswer1": "Kompyuterda ma'lumotlarni uzoq muddatli saqlash",
-    "noAnswer2": "Sonlar ustida arifmetik amallarni bajarish",
-    "noAnswer3": "Chipset va kiritish-chiqarish portlari o'rtasida ma'lumotlar almashinuvini amalga oshiradi"
-  },
-  {
-    "question": "Dinamik tasodifiy xotira statik xotiraga nisbatan quyidagi afzalliklarga ega:",
-    "answer": "Pastroq narx",
-    "noAnswer1": "Unga kirishning yuqori tezligi",
-    "noAnswer2": "Ishonchlilik",
-    "noAnswer3": "Ikki kanalli rejimda ishlash imkoniyati"
-  },
-  {
-    "question": "Statik xotira quyidagi qurilma sifatida ishlatiladi:",
-    "answer": "Kesh xotirasi",
-    "noAnswer1": "Video xotira",
-    "noAnswer2": "Qattiq disklardagi xotira",
-    "noAnswer3": "Flash xotira"
-  },
-  {
-    "question": "Operativ xotiraning ikki kanalli ishlash rejimi unumdorlikni taxminan ...  ga oshirish imkonini beradi:",
-    "answer": "10-15%",
-    "noAnswer1": "2-3%",
-    "noAnswer2": "40-60%",
-    "noAnswer3": "90-95%"
-  },
-  {
-    "question": "Front Side Bus (FSB) shinasi qaysi qurilmalar o'rtasidagi aloqani ta'minlaydi:",
-    "answer": "Protsessor va boshqa qurilmalar o'rtasida",
-    "noAnswer1": "Qattiq disklar o'rtasida",
-    "noAnswer2": "Asosiy platadagi Shimoliy va Janubiy ko'priklar",
-    "noAnswer3": "Ma'lumotlar shinasi va manzil shinasi o'rtasida"
-  },
-  {
-    "question": "Kompyuter bu:",
-    "answer": "axborot bilan ishlash uchun ko'p funksiyali elektron qurilma;",
-    "noAnswer1": "raqamlarni qayta ishlash uchun elektron hisoblash qurilmasi;",
-    "noAnswer2": "har qanday turdagi ma'lumotlarni saqlash uchun qurilma;",
-    "noAnswer3": "matnlar bilan ishlash uchun qurilma;"
-  },
-  {
-    "question": "Axborotni qayta ishlash uchun kompyuterning qaysi qurilmasidan foydalaniladi?",
-    "answer": "Protsessor",
-    "noAnswer1": "sichqonchani manipulyatori",
-    "noAnswer2": "Klaviatura",
-    "noAnswer3": "RAM"
-  },
-  {
-    "question": "Kompyuterning tezligi quyidagilarga bog'liq:",
-    "answer": "protsessorda axborotni qayta ishlashning taktli chastotasi;",
-    "noAnswer1": "ulangan printerning mavjudligi yoki yo'qligi;",
-    "noAnswer2": "tashqi xotira qurilmasining hajmi;",
-    "noAnswer3": "qayta ishlangan axborot hajmi."
-  },
-  {
-    "question": "Protsessorning takt chastotasi:",
-    "answer": "kompyuter tugunlarining ishini sinxronlashtiruvchi bir soniyada hosil bo'ladigan impulslar soni;",
-    "noAnswer1": "protsessor tomonidan vaqt birligida bajariladigan ikkilik amallar soni;",
-    "noAnswer2": "protsessorning tezkor xotiraga vaqt birligiga kirishi mumkin bo'lgan soni;",
-    "noAnswer3": "protsessor va ROM o'rtasida axborot almashish tezligi."
-  },
-  {
-    "question": "Tezkor xotira hajmi quyidagilarni belgilaydi:",
-    "answer": "qattiq diskga murojat etmasdan qancha ma’lumotni qayta ishlash mumkin",
-    "noAnswer1": "qattiq diskda qancha ma’lumot saqlanishi mumkinligi.",
-    "noAnswer2": "qancha ma’lumotni chop etish mumkin.",
-    "noAnswer3": "protsessor va ROM o`rtasida ma’lumot almashish tezligi"
-  },
-  {
-    "question": "Kompyuterning asosiy qurilmalarning eng toʻliq roʻyxatini belgilang:",
-    "answer": "markaziy protsessor, tasodifiy xotira, kiritish/chiqarish qurilmalari;",
-    "noAnswer1": "mikroprotsessor, soprotsessor, monitor;",
-    "noAnswer2": "monitor, qattiq disk, printer;",
-    "noAnswer3": "ALU, UU, soprotsessor;"
-  },
-  {
-    "question": "Zamonaviy shaxsiy kompyuterlar arxitekturasining magistral-modul prinsipi uning apparat komponentlarini shunday mantiqiy tashkil qilishni nazarda tutadi, bunda:",
-    "answer": "ularning barchasi ma’lumotlar, manzil va boshqaruv shinalarini o`z ichiga olgan magistral orqali bir-biri bilan aloqa qiladi;",
-    "noAnswer1": "har bir qurilma boshqalar bilan bevosita, shuningdek, bitta markaziy magistral orqali aloqa qiladi;",
-    "noAnswer2": "har bir qurilma boshqalar bilan bevosita muloqot qiladi;",
-    "noAnswer3": "bir-biri bilan ma’lum bir qat’iy ketma-ketlikda (halqa) aloqa qilish;"
-  },
-  {
-    "question": "Protsessorni tashkil etuvchi qurilmalarni ayting:",
-    "answer": "arifmetik mantiq qurilma, boshqaruv qurilmasi;",
-    "noAnswer1": "tasodifiy xotira, printer;",
-    "noAnswer2": "kesh xotira, videoxotira;",
-    "noAnswer3": "skaner, ROM;"
-  },
-  {
-    "question": "Protsessor axborotni qaysi sanoq tizimida qayta ishlaydi:",
-    "answer": "ikkilik tizimida",
-    "noAnswer1": "o`nli tizimida",
-    "noAnswer2": "matn shaklida",
-    "noAnswer3": "ikkilik-o`nlik tizimida"
-  },
-  {
-    "question": "Doimiy xotira nima uchun ishlatiladi:",
-    "answer": "kompyuterni dastlabki yuklash va uning qismlarini sinash uchun dasturlarni saqlash;",
-    "noAnswer1": "foydalanuvchi dasturini ishlash vaqtida saqlash;",
-    "noAnswer2": "ayniqsa qimmatli amaliy dasturlarning yozuvlarini saqlash;",
-    "noAnswer3": "doimiy foydalaniladigan dasturlarni saqlash;"
-  },
-  {
-    "question": "Bajaralish jarayonida dasturlar qayerda saqlanadi:",
-    "answer": "tezkor xotirada;",
-    "noAnswer1": "protsessorda;",
-    "noAnswer2": "videoxotirada;",
-    "noAnswer3": "qattiq diskda;"
-  },
-  {
-    "question": "Mashinaning funktsional imkoniyatlarini quyidagilarga bo'lish mumkin:",
-    "answer": "asosiy va qo'shimcha.",
-    "noAnswer1": "apparat va dasturiy ta'minot",
-    "noAnswer2": "samarali va samarasiz",
-    "noAnswer3": "diskret va mustaqil"
-  },
-  {
-    "question": "Agar siz quyidagilarni o'chirib qo'ysangiz, shaxsiy kompyuter ishlamaydi:",
-    "answer": "tezkor xotirani;",
-    "noAnswer1": "diskovodni;",
-    "noAnswer2": "sichqonchani;",
-    "noAnswer3": "printerni;"
-  },
-  {
-    "question": "Axborotni uzoq muddatli saqlash uchun nima xizmat qiladi:",
-    "answer": "tashqi xotira;",
-    "noAnswer1": "protsessor;",
-    "noAnswer2": "tasodifiy kirish xotirasi;",
-    "noAnswer3": "diskovod;"
-  },
-  {
-    "question": "Tashqi xotirada axborotni saqlash jarayoni tezkor xotirada axborotni saqlash jarayonidan qanday farq qiladi:",
-    "answer": "kompyuter o`chirilgandan so`ng axborotni tashqi muhitda saqlash mumkinligi;",
-    "noAnswer1": "saqlanadigan ma’lumotlarning miqdori;",
-    "noAnswer2": "saqlangan ma’lumotlarga kirishning turli tezligi;",
-    "noAnswer3": "saqlangan axborotga kirish usullari."
-  },
-  {
-    "question": "Kompyuterni o'chirganingizda ma'lumotlar:",
-    "answer": "tezkor xotiradan yo'qoladi;",
-    "noAnswer1": "doimiy saqlash joyidan yo'qoladi;",
-    "noAnswer2": "\"qattiq diskda\" o'chirilgan;",
-    "noAnswer3": "magnit diskda o'chiriladi;"
-  },
-  {
-    "question": "Diskovod quyidagilar uchun qurilmadir:",
-    "answer": "disklardan ma'lumotlarni o'qish / yozish;",
-    "noAnswer1": "bajariladigan dasturning buyruqlarini qayta ishlash;",
-    "noAnswer2": "bajariladigan dastur buyruqlarini saqlash;",
-    "noAnswer3": "axborotni uzoq muddatli saqlash;"
-  },
-  {
-    "question": "Qaysi qurilma eng tez aloqa tezligiga ega?",
-    "answer": "RAM mikrosxemalari",
-    "noAnswer1": "qattiq disk",
-    "noAnswer2": "diskovod;",
-    "noAnswer3": "CD-ROM drayveri"
-  },
-  {
-    "question": "Qurilmalarning qaysi biri ma’lumotlarni kiritish uchun mo‘ljallangan?",
-    "answer": "klaviatura;",
-    "noAnswer1": "printer;",
-    "noAnswer2": "ROM;",
-    "noAnswer3": "protsessor;"
-  },
-  {
-    "question": "\"Sichqoncha\" manipulyatori - bu qurilma:",
-    "answer": "ma'lumotlarni kiritish;",
-    "noAnswer1": "ma'lumotlarni o'qish;",
-    "noAnswer2": "axborotni uzoq muddat saqlash;",
-    "noAnswer3": "modulyatsiya va demodulyatsiya;"
-  },
-  {
-    "question": "Kompyuterni telefon tarmog'iga ulash uchun quyidagilardan foydalaning:",
-    "answer": "modem;",
-    "noAnswer1": "faks;",
-    "noAnswer2": "skaner;",
-    "noAnswer3": "printer;"
-  },
-  {
-    "question": "Monitorni boshqaradi:",
-    "answer": "RAM;",
-    "noAnswer1": "ovoz kartasi;",
-    "noAnswer2": "video kartalar;",
-    "noAnswer3": "ROM"
-  },
-  {
-    "question": "Dastur bu ...",
-    "answer": "ma’lumotlarni qayta ishlash uchun berilgan masalani hal qilish uchun kompyuter bajarishi kerak bo`lgan harakatlar ketma-ketligi tavsifi;",
-    "noAnswer1": "tashqi qurilmaning ishlashini boshqaruvchi elektron sxema;",
-    "noAnswer2": "kompyuter xotirasida maxsus shaklda berilgan qayta ishlangan axborot;",
-    "noAnswer3": "tashqi va ichki xotiralarning ishlashini boshqaruvchi elektron sxema."
-  },
-  {
-    "question": "Yangi ma'lumotlarni bir necha marta yozib olish uchun mo'ljallangan kompakt disk ... deyiladi.",
-    "answer": "CD-RW;",
-    "noAnswer1": "CD-ROM;",
-    "noAnswer2": "DVD-ROM;",
-    "noAnswer3": "CD-R"
-  },
-  {
-    "question": "Kompyuterning tuzilmasi bu ... :",
-    "answer": "uning tarkibiy qismlarining tarkibi, tartibi va munosabatlarining tamoyillarini o'rnatadigan qandaydir model",
-    "noAnswer1": "Axborotni qayta ishlash uchun elektron vositalar majmuasi",
-    "noAnswer2": "dasturiy va texnik vositalar majmuasi",
-    "noAnswer3": "Kompyuterni boshqarish va ma'lumotlarni qayta ishlash majmuasi"
-  },
-  {
-    "question": "Mikroprotsessor quyidagilar uchun mo'ljallangan:",
-    "answer": "Kompyuterni boshqarish va ma'lumotlarni qayta ishlash",
-    "noAnswer1": "shaxsiy kompyuterga axborot kiritish va uni printerga chiqarish",
-    "noAnswer2": "matnli ma'lumotlarni qayta ishlash",
-    "noAnswer3": "dasturiy va texnik qayta ishlash"
-  },
-  {
-    "question": "Muayyan boshqaruv signallarini hosil qiladi va barcha bloklarga yuboradi – bu…:",
-    "answer": "boshqaruv apparati",
-    "noAnswer1": "mikroprotsessor xotirasi",
-    "noAnswer2": "arifmetik mantiq birligi",
-    "noAnswer3": "RAM"
-  },
-  {
-    "question": "Operatsion tizim qayerda saqlanadi?",
-    "answer": "qattiq diskdagi tashqi xotirada.",
-    "noAnswer1": "RAMda",
-    "noAnswer2": "ROMda",
-    "noAnswer3": "Kechda"
-  },
-  {
-    "question": "Birinchi superkompyuter qachon yaratilgan ?",
-    "answer": "60-yillarning o'rtalarida",
-    "noAnswer1": "70-yillarning o'rtalarida",
-    "noAnswer2": "80-yillarning boshlarida",
-    "noAnswer3": "80-yillarning boshlarida"
-  },
-  {
-    "question": "Birinchi superkompyuterni kim yaratdi?",
-    "answer": "Seymur Krey",
-    "noAnswer1": "Jon fon Neyman",
-    "noAnswer2": "Tomas Sterling",
-    "noAnswer3": "Don Bekker"
-  },
-  {
-    "question": "Noto'g'ri tasdiqni toping.",
-    "answer": "SIMD - ko'pgina zamonaviy kompyuterlar ushbu toifaga kiradi",
-    "noAnswer1": "SISD-lar oddiy seriyali kompyuterlardir",
-    "noAnswer2": "MISD - bu sinfdagi kompyuterlar kam",
-    "noAnswer3": "MIMD - bu bir nechta buyruq oqimlari va ma'lumotlar oqimlarining amalga oshirilishi"
-  },
-  {
-    "question": "Konveyerni qayta ishlash uchun u xosdir:",
-    "answer": "umumiy jarayonning alohida bosqichlarini ta'kidlash",
-    "noAnswer1": "matritsa operatsiyalari",
-    "noAnswer2": "operandlarni vektor registrlariga yuklash",
-    "noAnswer3": "2 operandni bir vaqtning o'zida barcha ikkilik raqamlarini qo'shish orqali qo'shish"
-  },
-  {
-    "question": "Ustuvorlik - bu ...",
-    "answer": "har bir jarayon yoki masala uchun OS tomonidan tayinlangan tartib",
-    "noAnswer1": "algoritmning qandaydir rasmiylashtirilgan tilda tavsifi",
-    "noAnswer2": "umumiy operatsiyaning alohida bosqichi",
-    "noAnswer3": "o'zaro ta'sirning u yoki bu shakli to'g'risida operatsion tizimdan xabarnoma"
-  },
-  {
-    "question": "Klaster (parallel dasturlash kontekstida) bu ...",
-    "answer": "Mahalliy tarmoq orqali ulangan 2 yoki undan ortiq tugunlar",
-    "noAnswer1": "bir yoki bir nechta kristall nazorat qilish moslamasi",
-    "noAnswer2": "RAM maydoni",
-    "noAnswer3": "qattiq disk bo'limi"
-  },
-  {
-    "question": "Jarayon bu ...",
-    "answer": "bu dasturning dinamik mohiyati, uni bajarish jarayonida uning kodi",
-    "noAnswer1": "bu har bir vazifaga operatsion tizim tomonidan tayinlangan raqam",
-    "noAnswer2": "blok uzatish boshqaruvchisi tarmoq interfeysi",
-    "noAnswer3": "takrorlanuvchi operatsion tizim"
-  },
-  {
-    "question": "Buyruqni bajarish sikliga xos bo'lmagan qadam(lar)ni tanlang:",
-    "answer": "keyingi buyruqni keshlash",
-    "noAnswer1": "natijani xotiraga yozish",
-    "noAnswer2": "buyruqni bajarish",
-    "noAnswer3": "buyruqni dekodlash, operandning manzilini hisoblash va uni olish"
-  },
-  {
-    "question": "Resurs - bu ...",
-    "answer": "jarayon yoki vazifani bajarishi kerak bo'lgan ob'ekt",
-    "noAnswer1": "OT tomonidan jarayonga yetkazilgan xabar",
-    "noAnswer2": "kompilyatsiya qilingan kodni dasturga aylantirish jarayoni",
-    "noAnswer3": "har bir jarayon va vazifa uchun OS tomonidan tayinlangan raqam"
-  },
-  {
-    "question": "Faol resurslar...by",
-    "answer": "xotiradagi ma'lumotlarni o'zgartirishga qodir",
-    "noAnswer1": "bir vaqtning o'zida bir nechta jarayonlar tomonidan ishlatilishi mumkin",
-    "noAnswer2": "o'zaro istisnolardan foydalanadi",
-    "noAnswer3": "resursdan chiqmaguncha faqat bitta protsessor tomonidan foydalaniladi"
-  },
-  {
-    "question": "Jarayon quyidagilarga ega:",
-    "answer": "hususiy holatga",
-    "noAnswer1": "hususiy protsessorga",
-    "noAnswer2": "hususiy tizimga",
-    "noAnswer3": "hususiy semafor"
-  },
-  {
-    "question": "MPI bu ...",
-    "answer": "Parallel dasturlash uchun funktsiyalar, turlar va konstantalar to'plamini o'z ichiga olgan interfeys",
-    "noAnswer1": "parallel dasturlash uchun maxsus OT",
-    "noAnswer2": "tizimdagi parallel ishlov berish moduli",
-    "noAnswer3": "parallel interfeyslarni ishlab chiqishni muvofiqlashtiruvchi tashkilot"
-  },
-  {
-    "question": "Konveyer texnologiyasi ... o'z ichiga oladi.",
-    "answer": "bir vaqtning o'zida bir nechta buyruqlarni qayta ishlashni",
-    "noAnswer1": "muayyan mezonlarga javob beradigan buyruqlarni qayta ishlashni",
-    "noAnswer2": "ketma-ket buyruqlarni qayta ishlashni",
-    "noAnswer3": "xotira buyruqlarini almashishni"
-  },
-  {
-    "question": "Umumiy fizik xotiraga ega va u barcha protsessorlarga taqsimlangan tizim... deyiladi.",
-    "answer": "SMP",
-    "noAnswer1": "NUMA",
-    "noAnswer2": "MPP",
-    "noAnswer3": "PVP"
-  },
-  {
-    "question": "NUMA arxitekturasining asosiy xususiyati nimada?",
-    "answer": "bir xil bo'lmagan xotiraga kirish",
-    "noAnswer1": "ultra yuqori ishlash",
-    "noAnswer2": "vektorli konveyyerli protsessorlarning mavjudligi",
-    "noAnswer3": "barcha protsessorlar tomonidan umumiy fizik xotira mavjudligi"
-  },
-  {
-    "question": "Qaysi arxitekturaga ega hisoblash mashinalari eng arzon?",
-    "answer": "klaster tizimlari",
-    "noAnswer1": "vektor protsessorlari bilan parallel arxitektura",
-    "noAnswer2": "simmetrik ko'p ishlov berish",
-    "noAnswer3": "massiv parallel arxitektura"
-  },
-  {
-    "question": "Tizimning eng yuqori unimdorligi quyidagilarda aniqlanadi:",
-    "answer": "MFloplar",
-    "noAnswer1": "MIPS",
-    "noAnswer2": "Megahertz",
-    "noAnswer3": "Mbayt"
-  },
-  {
-    "question": "Tizimning eng yuqori unimdorligi quyidagilar bilan belgilanadi:",
-    "answer": "tizimdagi protsessorlar sonini 1-protsessorning ishlashi unumdorligiga ko`paytmasi",
-    "noAnswer1": "Real masalalarni bajarish vaqti",
-    "noAnswer2": "test topshiriqlarini bajarish vaqti",
-    "noAnswer3": "uzatiladigan ma'lumotlar miqdori"
-  },
-  {
-    "question": "Ko'p protsessorli kompyuter tizimining ishlashi quyidagilar bilan tavsiflanadi:",
-    "answer": "vaqt birligida bajariladigan operatsiyalar soni",
-    "noAnswer1": "vaqt birligida uzatiladigan ma'lumotlarning baytlari soni",
-    "noAnswer2": "vaqt birligida hosil bo'ladigan impulslar soni",
-    "noAnswer3": "mavjud hisoblash xotirasi"
-  },
-  {
-    "question": "Konfiguratsiyaga yangi tugunlarni qo'shishda ulanishlar murakkabligining oshishi qanday tushuncha bilan tavsiflanadi.",
-    "answer": "masshtablilik",
-    "noAnswer1": "Tezlashtirish",
-    "noAnswer2": "Samaradorlik",
-    "noAnswer3": "eng yuqori samaradorlik"
-  },
-  {
-    "question": "Klaster uchun eng tezkor tarmoqni ko'rsating.",
-    "answer": "Infinyband",
-    "noAnswer1": "Myrinet",
-    "noAnswer2": "Gigabit Ethernet",
-    "noAnswer3": "Ethernet"
-  },
-  {
-    "question": "Kommunikator - bu ...",
-    "answer": "jarayon guruhi identifikatori",
-    "noAnswer1": "parallel tizimda intercom",
-    "noAnswer2": "kalit bilan bir xil",
-    "noAnswer3": "Klaster aloqa simulyatori"
-  },
-  {
-    "question": "Parallel dastur bu ...",
-    "answer": "birgalikda ishlaydigan bir nechta jarayonlarni o'z ichiga olgan dastur",
-    "noAnswer1": "katta hajmdagi ma'lumotlar dasturi",
-    "noAnswer2": "tarmoq xabar almashish dasturi",
-    "noAnswer3": "bir vaqtning o'zida bir nechta kompyuterlarda ishlaydigan dastur"
-  },
-  {
-    "question": "Qanday amallarni parallel bajarish mumkin?",
-    "answer": "mustaqil",
-    "noAnswer1": "mustaqil bo`lmagan",
-    "noAnswer2": "Oddiy",
-    "noAnswer3": "bo'linmas"
-  },
-  {
-    "question": "Zamonaviy protsessorlarda unimdorligini oshirish uchun qanday texnologiyalar qo'llanilmaydi?",
-    "answer": "Ko'p oqimlilik",
-    "noAnswer1": "Superskalarlik",
-    "noAnswer2": "quvurlarni o'tkazish",
-    "noAnswer3": "Vektorli ma'lumotlarni qayta ishlash"
-  },
-  {
-    "question": "Superskalarlik nima?",
-    "answer": "Bir vaqtning o'zida bir nechta buyruqlarni bajarish",
-    "noAnswer1": "Buyruqlarning turli qismlarini parallel bajarish",
-    "noAnswer2": "Ultra tez xotirada ma'lumotlarni saqlash",
-    "noAnswer3": "Katta hajmdagi ma'lumotlarni qayta ishlash"
-  },
-  {
-    "question": "MIMD texnologiyasiga qanday tizimlar tegishli?",
-    "answer": "Vektorli protsessorlar",
-    "noAnswer1": "Matritsali protsessorlar",
-    "noAnswer2": "Klasterlar, Simmetrik multiprotsessor",
-    "noAnswer3": "Vektorli protsessorlar, matritsali protsessorlar"
-  },
-  {
-    "question": "Ko'p yadroli tizimlar qaysi sinfga kiradi?",
-    "answer": "Umumiy xotiraga ega tizimlar",
-    "noAnswer1": "taqsimlangan tizimlar",
-    "noAnswer2": "Klasterlar",
-    "noAnswer3": "Matritsali protsessorlar"
-  },
-  {
-    "question": "Klaster tizimlari qaysi sinfga kiradi?",
-    "answer": "Taqsimlangan tizimlar",
-    "noAnswer1": "Matritsali protsessorlar",
-    "noAnswer2": "Simmetrik multiprotsessorlar",
-    "noAnswer3": "Umumiy xotiraga ega tizimlar"
-  },
-  {
-    "question": "Qanday ob'ektlar umumiy xotiraga ega?",
-    "answer": "Ikki oqimli",
-    "noAnswer1": "Ikki jarayonli",
-    "noAnswer2": "Oqim va jarayonli",
-    "noAnswer3": "Klaster tugunlarini hisoblash"
-  },
-  {
-    "question": "Nima ma'lumotlar uchun xususiy xotiraga ega?",
-    "answer": "Jarayon",
-    "noAnswer1": "Oqim",
-    "noAnswer2": "Ham jarayon, ham oqim",
-    "noAnswer3": "Hech narsa"
-  },
-  {
-    "question": "Jarayonlarning o'zaro ta'siri qanday tashkil etilgan?",
-    "answer": "Xabarlarni almashish orqali, aayl tizimi orqali",
-    "noAnswer1": "Umumiy xotira orqali, tezkor orqali",
-    "noAnswer2": "Kesh xotirasi orqali",
-    "noAnswer3": "Protsessor registrlari orqali"
-  },
-  {
-    "question": "Parallel dasturning tezlanishi nima?",
-    "answer": "Ketma-ket dasturning ishlash vaqtining parallel dasturning ishlash vaqtiga nisbati",
-    "noAnswer1": "Parallel dasturning ishlash vaqtining ketma-ket dasturning ishlash vaqtiga nisbati",
-    "noAnswer2": "Eng sekin jarayonning ishlash vaqtining eng tez ish vaqtiga nisbati",
-    "noAnswer3": "Eng tez jarayonning ishlash vaqtining eng sekin ish vaqtiga nisbati"
-  },
-  {
-    "question": "Parallel dasturning samaradorligi qanday?",
-    "answer": "Parallel dastur tezlashuvining protsessorlar soniga nisbati",
-    "noAnswer1": "Ketma-ket dasturning ishlash vaqtining parallel dasturning ishlash vaqtiga nisbati",
-    "noAnswer2": "Protsessorlar sonining dastur tezlashishiga nisbati",
-    "noAnswer3": "Parallel dasturning ishlash vaqtining ketma-ket dasturning ishlash vaqtiga nisbati"
-  },
-  {
-    "question": "Parallel dasturda hisoblashning narxi nima?",
-    "answer": "Barcha parallel jarayonlarning umumiy bajarilish vaqti",
-    "noAnswer1": "Parallel jarayonlarning eng kichik bajarilish vaqti",
-    "noAnswer2": "Parallel jarayonlarning eng uzun bajarilish vaqti",
-    "noAnswer3": "Protsessorlar soniga ko'paytirilgan samaradorlik"
-  },
-  {
-    "question": "Superchiziqli tezlanish nima?",
-    "answer": "Samaradorlik birdan katta bo'lganda",
-    "noAnswer1": "Tezlashtirish protsessorlar sonidan kam bo'lganda",
-    "noAnswer2": "Tezlashtirish protsessorlar soniga teng bo'lganda",
-    "noAnswer3": "Samaradorlik birdan kam bo'lsa"
-  },
-  {
-    "question": "Samaradorlikni saqlash odatda talab qiladi",
-    "noAnswer1": "Qayta ishlangan axborot hajmini oshirish.",
-    "noAnswer2": "Qayta ishlangan ma'lumotlar miqdorini kamaytiring.",
-    "noAnswer3": "Protsessorlar sonini ko'paytirish"
-  },
-  {
-    "question": "Asosiy mantiqiy sxemalarning qanday xillari mavjud?",
-    "answer": " arifmetik va kombinator",
-    "noAnswer1": "kombinator va algoritmik",
-    "noAnswer2": "algoritmik va komparator",
-    "noAnswer3": "Komparator"
-  },
-  {
-    "question": "Asosiy menyu ochilad",
-    "answer": "Pusk tugmasi orqali;",
-    "noAnswer1": "Mening kompyuterim belgisini bosish orqali;",
-    "noAnswer2": "kontekst menyusi orqali;",
-    "noAnswer3": "Vazifalar panelini bosish orqali."
-  },
-  {
-    "question": "BIOS bu:",
-    "answer": "kompyuterni yoqgandan so’ng uni sinovdan o’tkazadigan dastur;",
-    "noAnswer1": "drayver – dasturi;",
-    "noAnswer2": "Utilita – dastur;",
-    "noAnswer3": "dastur – ilova."
-  },
-  {
-    "question": "BIOS nima uchun mo’ljallangan:",
-    "answer": "Ona plata va unga ulangan qurilmalarni diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer1": "Klaviatura va printerlarni diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer2": "Monitorlarning diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer3": "Plotterlar, risograflar va nusxa ko’chirish moslamalarini diagnostikadan va testdan o’tkazish uchun"
-  },
-  {
-    "question": "Bir nechta ventillar yordamida 0 va 1 raqamlarini saqlay oladigan 1 bitli xotira elementlari, yani …….. Hosil qilinadi",
-    "answer": "triggerlar",
-    "noAnswer1": "Interpretorlar",
-    "noAnswer2": "Registrlar",
-    "noAnswer3": "Elementlar"
-  },
-  {
-    "question": "Bul funktsiyasiga ta’rif bering.",
-    "answer": "O’zgaruvchilari va qiymati ikkita mantiqiy qiymatdan birini   qabul qilishi mumkin bo’lgan funktsiya",
-    "noAnswer1": "Ushbu sxemalarning kirishiga  0 yoki 1 ga teng bo’lgan mantiqiy o’zgaruvchilar berilmaydi",
-    "noAnswer2": "Mantiqiy qiymatlar ma’lum bir kattalikdagi funktsiya",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Butun bo‘lmagan sonlarni ifodalash uchun qanday sonlar ishlatiladi?",
-    "answer": "suriluvchi nuqtali  sonlar",
-    "noAnswer1": "rim raqamlari",
-    "noAnswer2": "kasr sonlar",
-    "noAnswer3": "ratsional sonlar"
-  },
-  {
-    "question": "Buyruqlarda  … har doim bo'ladi, ammo …. bo'lmasligi ham mumkin",
-    "answer": "amal kodi, adreslar",
-    "noAnswer1": "adreslar, amal kodi",
-    "noAnswer2": "adreslar, kod",
-    "noAnswer3": "kodlar, adreslar"
-  },
-  {
-    "question": "Dinamik xotira statik xotiradan quyidagi afzalliklarga ega:",
-    "answer": "Arzonroq narx",
-    "noAnswer1": "Unga kirishning yuqori tezligi",
-    "noAnswer2": "Ishonchlilik",
-    "noAnswer3": "Ikki kanalli rejimda ishlash qobiliyati"
-  },
-  {
-    "question": "Drayver bu:",
-    "answer": "kompyuter qurilmalari bilan ishlash dasturi;",
-    "noAnswer1": "kompyuter qurilmasi;",
-    "noAnswer2": "amaliy dastur;",
-    "noAnswer3": "dasturlash tili."
-  },
-  {
-    "question": "Fayl yoki papkani faollashtirishingiz yoki tanlashingiz uchun:",
-    "answer": "sichqonchani bir marta bosish orqali;",
-    "noAnswer1": "sichqonchani ikki marta bosish orqali;",
-    "noAnswer2": "tortib olish;",
-    "noAnswer3": "Fayl yoki papkani sichqoncha bilan ko’rsatish orqali."
-  },
-  {
-    "question": "Floppi qanday form faktor mavjud emas?",
-    "answer": "10 dyuym",
-    "noAnswer1": "5,25 dyuym",
-    "noAnswer2": "3.5 dyuym",
-    "noAnswer3": "8 dyuym"
-  },
-  {
-    "question": "hozirda ishlab chiqarilayotgan kompyuterlarni qurilishi asoslarini ozida mujassam etgan dastlabki kompyuterlardan biri kim tomonidan ishlab chiqilgan?",
-    "answer": "Djon Fon Heyman",
-    "noAnswer1": "Cray Research",
-    "noAnswer2": "Bebbidj",
-    "noAnswer3": "Leybnits"
-  },
-  {
-    "question": "Kesh xotirasining qaysi darajasi eng tezkor?",
-    "answer": "Birinchi",
-    "noAnswer1": "Ikkinchi",
-    "noAnswer2": "Uchinchidan",
-    "noAnswer3": "To’rtinchi"
-  },
-  {
-    "question": "Kichik integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "1 tadan 10 tagacha",
-    "noAnswer1": "10 tadan 15 tagacha",
-    "noAnswer2": "cheksiz bo'lishi mumkin",
-    "noAnswer3": "5 tadan 35 tagacha"
-  },
-  {
-    "question": "Kichik integral sxemalarning kengligi qanchani tashkil qiladi?",
-    "answer": " 5-15 mm",
-    "noAnswer1": "5-10 mm",
-    "noAnswer2": "3-5 mm",
-    "noAnswer3": "5-15 sm"
-  },
-  {
-    "question": "Kompyuter nima?",
-    "answer": "Ma’lumotlar ustida turli amallar bajaruvchi kichik hajmdagi elektron hisoblash mashinasi.",
-    "noAnswer1": "Faqat yozishga mo’ljallangan elektron hisoblash mashinasi.",
-    "noAnswer2": "Faqat o’qish uchun mo’ljallangan elektron hisoblash mashinasi.",
-    "noAnswer3": "Ma'lumotlarni ekranga chiqaruvchi qurilma"
-  },
-  {
-    "question": "Kompyuter quvvat manbai quyidagilarni bajarmaydi",
-    "answer": " Elektr uzilib qolganda uzluksiz ishlashni ta’minlash",
-    "noAnswer1": "Barcha qurilmalarni elektr energiyasi bilan ta’minlash",
-    "noAnswer2": "Kuchlanishni belgilangan qiymatlarga o’tkazish",
-    "noAnswer3": "Kichik elektr shovqinlarini filtrlash"
-  },
-  {
-    "question": "Kompyuter tarmog’ining topologiyasi",
-    "answer": "Tarmoq kompyuterlarining bir-biriga nisbatan jismoniy joylashuvi va ularni chiziqlar bilan bog’lash usuli",
-    "noAnswer1": "Tarmoq uchun ishlatiladigan kabel turi",
-    "noAnswer2": "Tarmoq simini siqish usuli",
-    "noAnswer3": "Butun tarmoqning o’tkazuvchanligi"
-  },
-  {
-    "question": "Kompyuter yoqsangiz , protsessor quyidagilarga murojat qiladi",
-    "answer": "doimiy hotiraga;",
-    "noAnswer1": "tezkor xotiraga;",
-    "noAnswer2": "qattiq diskga;",
-    "noAnswer3": "diskga."
-  },
-  {
-    "question": "Kompyuterda ifodalanishi mumkin bolgan malumotlar hillarini necha turkumga ajratish mumkin?",
-    "answer": "2",
-    "noAnswer1": "1",
-    "noAnswer2": "3",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "Kompyuterdagi eng tezkor xotira qaysi?",
-    "answer": "Protsessor registrining xotirasi",
-    "noAnswer1": "Kesh xotirasi",
-    "noAnswer2": "RAM",
-    "noAnswer3": "Qattiq disklar"
-  },
-  {
-    "question": "Kompyuterlarda ifodalanishi mumkin bo‘lgan ma’lumotlar necha xil bo'ladi?",
-    "answer": "2 xil",
-    "noAnswer1": "3 xil",
-    "noAnswer2": "1 xil",
-    "noAnswer3": "4 xil"
-  },
-  {
-    "question": "Kompyuterlarda ifodalanishi mumkin bo‘lgan ma’lumotlar turini ko'rsating",
-    "answer": " raqamli va raqamli bo'lmagan ma'lumotlar",
-    "noAnswer1": "Mantiqiy  va belgili ma’lumotlar",
-    "noAnswer2": "Simvolli va mantiqiy ma'lumotlar",
-    "noAnswer3": "Mantiqiy , raqamli, raqamli bo'lmagan va  simvolli ma'lumotlar"
-  },
-  {
-    "question": "Kompyuterni elektr bilan ta’minlash blokining asosiy xususiyatlari",
-    "answer": "Quvvat",
-    "noAnswer1": "O’lchamlari",
-    "noAnswer2": "Narx",
-    "noAnswer3": "Unga ulangan turli xil qurilmalarni elektr ta’minoti uchun ulagichlar soni"
-  },
-  {
-    "question": "LPT porti unga ... ni ulanish uchun mo’ljallangan:",
-    "answer": "Printerlar va skanerlar",
-    "noAnswer1": "Ovoz va video adapterlari",
-    "noAnswer2": "Klaviatura va sichqoncha manipulyatorlari",
-    "noAnswer3": "Modemlar"
-  },
-  {
-    "question": "Magneto-optik disklarning kamchiligi",
-    "answer": "Magnit maydonlarga nisbatan sezgirligi past",
-    "noAnswer1": "Himoyalavchi plastik sumkasi",
-    "noAnswer2": "Yozish tezligining pastligi",
-    "noAnswer3": "Ma’lumotlarni saqlash davri"
-  },
-  {
-    "question": "Klaster uchun eng tezkor tarmoqni ko'rsating.",
-    "answer": "Infinyband",
-    "noAnswer1": "Myrinet",
-    "noAnswer2": "Gigabit Ethernet",
-    "noAnswer3": "Ethernet"
-  },
-  {
-    "question": "+\r\n\r\nAmdal qonuni … hisoblab chiqadi:",
-    "answer": "bir nechta protsessorlarda hisob-kitoblarni tezlashtirishini",
-    "noAnswer1": "o'rnatilgan operatsiyalar sonini",
-    "noAnswer2": "konveyer chuqurligini",
-    "noAnswer3": "hisoblash uchun sarflangan vaqtni"
-  },
-  {
-    "question": "+\r\n\r\nKommunikator - bu ...",
-    "answer": "jarayon guruhi identifikatori",
-    "noAnswer1": "parallel tizimda intercom",
-    "noAnswer2": "kalit bilan bir xil",
-    "noAnswer3": "Klaster aloqa simulyatori"
-  },
-  {
-    "question": "+\r\n\r\nMPI xotiradan foydalanishning qanday strategiyasini taklif qiladi?",
-    "answer": "Tarqalgan",
-    "noAnswer1": "Ulashgan",
-    "noAnswer2": "Masofadan",
-    "noAnswer3": "Mahalliy"
-  },
-  {
-    "question": "+\r\n\r\nParallel dastur bu ...",
-    "answer": "birgalikda ishlaydigan bir nechta jarayonlarni o'z ichiga olgan dastur",
-    "noAnswer1": "katta hajmdagi ma'lumotlar dasturi",
-    "noAnswer2": "tarmoq xabar almashish dasturi",
-    "noAnswer3": "bir vaqtning o'zida bir nechta kompyuterlarda ishlaydigan dastur"
-  },
-  {
-    "question": "+\r\n\r\nAsinxron parallel hisoblash modeli quyidagi xususiyatlarga ega:",
-    "answer": "turli jarayonlar turli masalalarni hal qiladi",
-    "noAnswer1": "barcha jarayonlar o'z ma'lumotlari bilan bir xil harakatlarni bajaradi",
-    "noAnswer2": "barcha jarayonlar umumiy xotiradan foydalanadi",
-    "noAnswer3": "barcha jarayonlar o'zlarining muhim bo'limlarida ishlaydi"
-  },
-  {
-    "question": "+\r\n\r\nSinxron parallel hisoblash modeli quyidagi xususiyatlarga ega:",
-    "answer": "barcha jarayonlar o'z ma'lumotlari bilan bir xil harakatlarni bajaradi",
-    "noAnswer1": "turli jarayonlar turli muammolarni hal qiladi",
-    "noAnswer2": "barcha jarayonlar umumiy xotiradan foydalanadi",
-    "noAnswer3": "barcha jarayonlar o'zlarining muhim bo'limlarida ishlaydi"
-  },
-  {
-    "question": "+\r\n\r\nQanday amallarni parallel bajarish mumkin?",
-    "answer": "mustaqil",
-    "noAnswer1": "mustaqil bo`lmagan",
-    "noAnswer2": "Oddiy",
-    "noAnswer3": "bo'linmas"
-  },
-  {
-    "question": "+\r\n\r\nQanday jarayon iste'molchi deb ataladi?",
-    "answer": "Ma'lumotlarni qabul qiluvchi jarayon",
-    "noAnswer1": "Ma'lumotlarni uzatishni qayta ishlash",
-    "noAnswer2": "Ma'lumotlarni kiritish jarayoni",
-    "noAnswer3": "Ma'lumotlarni chiqaradigan jarayon"
-  },
-  {
-    "question": "+\r\n\r\nIshlab chiqaruvchi deb qanday jarayonga aytiladi?",
-    "answer": "Ma'lumotlarni uzatuvchi jarayon",
-    "noAnswer1": "Ma'lumotlarni qabul qiluvchi jarayon",
-    "noAnswer2": "Ma'lumotlarni kiritish jarayoni",
-    "noAnswer3": "Ma'lumotlarni chiqaradigan jarayon"
-  },
-  {
-    "question": "+\r\n\r\nZamonaviy protsessorlarda unimdorligini oshirish uchun qanday texnologiyalar qo'llanilmaydi?",
-    "answer": "Ko'p oqimlilik",
-    "noAnswer1": "Superskalarlik",
-    "noAnswer2": "quvurlarni o'tkazish",
-    "noAnswer3": "Vektorli ma'lumotlarni qayta ishlash"
-  },
-  {
-    "question": "+\r\n\r\nKonveyyerlashtirish nima?",
-    "answer": "Buyruqlarning turli qismlarini parallel bajarish",
-    "noAnswer1": "Bir vaqtning o'zida bir nechta buyruqlarni bajarish",
-    "noAnswer2": "Ultra tez xotirada ma'lumotlarni saqlash",
-    "noAnswer3": "Katta hajmdagi ma'lumotlarni qayta ishlash"
-  },
-  {
-    "question": "+\r\n\r\nSuperskalarlik nima?",
-    "answer": "Bir vaqtning o'zida bir nechta buyruqlarni bajarish",
-    "noAnswer1": "Buyruqlarning turli qismlarini parallel bajarish",
-    "noAnswer2": "Ultra tez xotirada ma'lumotlarni saqlash",
-    "noAnswer3": "Katta hajmdagi ma'lumotlarni qayta ishlash"
-  },
-  {
-    "question": "+\r\n\r\nMIMD texnologiyasiga qanday tizimlar tegishli?",
-    "answer": "Vektorli protsessorlar",
-    "noAnswer1": "Matritsali protsessorlar",
-    "noAnswer2": "Klasterlar, Simmetrik multiprotsessor",
-    "noAnswer3": "Vektorli protsessorlar, matritsali protsessorlar"
-  },
-  {
-    "question": "+\r\n\r\nKo'p yadroli tizimlar qaysi sinfga kiradi?",
-    "answer": "Umumiy xotiraga ega tizimlar",
-    "noAnswer1": "taqsimlangan tizimlar",
-    "noAnswer2": "Klasterlar",
-    "noAnswer3": "Matritsali protsessorlar"
-  },
-  {
-    "question": "+\r\n\r\nKlaster tizimlari qaysi sinfga kiradi?",
-    "answer": "Taqsimlangan tizimlar",
-    "noAnswer1": "Matritsali protsessorlar",
-    "noAnswer2": "Simmetrik multiprotsessorlar",
-    "noAnswer3": "Umumiy xotiraga ega tizimlar"
-  },
-  {
-    "question": "+\r\n\r\nQanday ob'ektlar umumiy xotiraga ega?",
-    "answer": "Ikki oqimli",
-    "noAnswer1": "Ikki jarayonli",
-    "noAnswer2": "Oqim va jarayonli",
-    "noAnswer3": "Klaster tugunlarini hisoblash"
-  },
-  {
-    "question": "+\r\n\r\nNima ma'lumotlar uchun xususiy xotiraga ega?",
-    "answer": "Jarayon",
-    "noAnswer1": "Oqim",
-    "noAnswer2": "Ham jarayon, ham oqim",
-    "noAnswer3": "Hech narsa"
-  },
-  {
-    "question": "+\r\n\r\nJarayonlarning o'zaro ta'siri qanday tashkil etilgan?",
-    "answer": "Xabarlarni almashish orqali, aayl tizimi orqali",
-    "noAnswer1": "Umumiy xotira orqali, tezkor orqali",
-    "noAnswer2": "Kesh xotirasi orqali",
-    "noAnswer3": "Protsessor registrlari orqali"
-  },
-  {
-    "question": "+\r\n\r\nParallel dasturning tezlanishi nima?",
-    "answer": "Ketma-ket dasturning ishlash vaqtining parallel dasturning ishlash vaqtiga nisbati",
-    "noAnswer1": "Parallel dasturning ishlash vaqtining ketma-ket dasturning ishlash vaqtiga nisbati",
-    "noAnswer2": "Eng sekin jarayonning ishlash vaqtining eng tez ish vaqtiga nisbati",
-    "noAnswer3": "Eng tez jarayonning ishlash vaqtining eng sekin ish vaqtiga nisbati"
-  },
-  {
-    "question": "+\r\n\r\nParallel dasturning samaradorligi qanday?",
-    "answer": "Parallel dastur tezlashuvining protsessorlar soniga nisbati",
-    "noAnswer1": "Ketma-ket dasturning ishlash vaqtining parallel dasturning ishlash vaqtiga nisbati",
-    "noAnswer2": "Protsessorlar sonining dastur tezlashishiga nisbati",
-    "noAnswer3": "Parallel dasturning ishlash vaqtining ketma-ket dasturning ishlash vaqtiga nisbati"
-  },
-  {
-    "question": "+\r\n\r\nParallel dasturda hisoblashning narxi nima?",
-    "answer": "Barcha parallel jarayonlarning umumiy bajarilish vaqti",
-    "noAnswer1": "Parallel jarayonlarning eng kichik bajarilish vaqti",
-    "noAnswer2": "Parallel jarayonlarning eng uzun bajarilish vaqti",
-    "noAnswer3": "Protsessorlar soniga ko'paytirilgan samaradorlik"
-  },
-  {
-    "question": "+\r\n\r\nSuperchiziqli tezlanish nima?",
-    "answer": "Samaradorlik birdan katta bo'lganda",
-    "noAnswer1": "Tezlashtirish protsessorlar sonidan kam bo'lganda",
-    "noAnswer2": "Tezlashtirish protsessorlar soniga teng bo'lganda",
-    "noAnswer3": "Samaradorlik birdan kam bo'lsa"
-  },
-  {
-    "question": "+\r\n\r\nSamaradorlikni saqlash odatda talab qiladi",
-    "answer": "Qayta ishlangan axborot hajmini oshirish.",
-    "noAnswer1": "Qayta ishlangan ma'lumotlar miqdorini kamaytiring.",
-    "noAnswer2": "Protsessorlar sonini ko'paytirish",
-    "noAnswer3": "Protsessorlar sonini kamaytiring"
-  },
-  {
-    "question": "+\r\n\r\nAsosiy mantiqiy sxemalarning qanday xillari mavjud?",
-    "answer": " arifmetik va kombinator",
-    "noAnswer1": "kombinator va algoritmik",
-    "noAnswer2": "algoritmik va komparator",
-    "noAnswer3": "Komparator"
-  },
-  {
-    "question": "+\r\n\r\n Asosiy menyu ochilad",
-    "answer": "Pusk tugmasi orqali;",
-    "noAnswer1": "Mening kompyuterim belgisini bosish orqali;",
-    "noAnswer2": "kontekst menyusi orqali;",
-    "noAnswer3": "Vazifalar panelini bosish orqali."
-  },
-  {
-    "question": "+\r\n\r\n BIOS nima uchun mo’ljallangan:",
-    "answer": "Ona plata va unga ulangan qurilmalarni diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer1": "Klaviatura va printerlarni diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer2": "Monitorlarning diagnostikadan va testdan o’tkazish uchun",
-    "noAnswer3": "Plotterlar, risograflar va nusxa ko’chirish moslamalarini diagnostikadan va testdan o’tkazish uchun"
-  },
-  {
-    "question": "+\r\n\r\n Bir nechta ventillar yordamida 0 va 1 raqamlarini saqlay oladigan 1 bitli xotira elementlari, yani …….. Hosil qilinadi",
-    "answer": "triggerlar",
-    "noAnswer1": "Interpretorlar",
-    "noAnswer2": "Registrlar",
-    "noAnswer3": "Elementlar"
-  },
-  {
-    "question": "+\r\n\r\n Birinchi ommaviy mikroprotsessor qaysi yilda chiqarildi?",
-    "answer": "1971 yil",
-    "noAnswer1": "1968 yil",
-    "noAnswer2": "1945 yil",
-    "noAnswer3": "1956 yil"
-  },
-  {
-    "question": "+\r\n\r\n Bitta chipli DLP proektorlarning kamchiliklar",
-    "answer": "Kamalak effekti",
-    "noAnswer1": "Past kontrastligi",
-    "noAnswer2": "Yuqori narx",
-    "noAnswer3": "Mikrooynalarning kuchli isishi"
-  },
-  {
-    "question": "+\r\n\r\n Bul funktsiyasiga ta’rif bering.",
-    "answer": "O’zgaruvchilari va qiymati ikkita mantiqiy qiymatdan birini   qabul qilishi mumkin bo’lgan funktsiya",
-    "noAnswer1": "Ushbu sxemalarning kirishiga  0 yoki 1 ga teng bo’lgan mantiqiy o’zgaruvchilar berilmaydi",
-    "noAnswer2": "Mantiqiy qiymatlar ma’lum bir kattalikdagi funktsiya",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "+\r\n\r\n Butun bo‘lmagan sonlarni ifodalash uchun qanday sonlar ishlatiladi?",
-    "answer": "suriluvchi nuqtali  sonlar",
-    "noAnswer1": "rim raqamlari",
-    "noAnswer2": "kasr sonlar",
-    "noAnswer3": "ratsional sonlar"
-  },
-  {
-    "question": "+\r\n\r\n Buyruqlarda  … har doim bo'ladi, ammo …. bo'lmasligi ham mumkin",
-    "answer": "amal kodi, adreslar",
-    "noAnswer1": "adreslar, amal kodi",
-    "noAnswer2": "adreslar, kod",
-    "noAnswer3": "kodlar, adreslar"
-  },
-  {
-    "question": "+\r\n\r\n Core I7 protssesori nechta tranzistorlardan iborat?",
-    "answer": "1 160 000 000",
-    "noAnswer1": "11 600 000",
-    "noAnswer2": "160 000 000",
-    "noAnswer3": "1 000 000 000"
-  },
-  {
-    "question": "+\r\n\r\n Core i7 protssesori qachon yaratilgan?",
-    "answer": "2011",
-    "noAnswer1": "2012",
-    "noAnswer2": "2013",
-    "noAnswer3": "2015"
-  },
-  {
-    "question": "+\r\n\r\n Elektron nurli trubkaga asoslangan monitorning asosiy element",
-    "answer": "Kineskop va elektron pushka",
-    "noAnswer1": "G’lof",
-    "noAnswer2": "Lyuminofor",
-    "noAnswer3": "Elektr ta’minoti"
-  },
-  {
-    "question": "+\r\n\r\n Fayl yoki papkani faollashtirishingiz yoki tanlashingiz uchun:",
-    "answer": "sichqonchani bir marta bosish orqali;",
-    "noAnswer1": "sichqonchani ikki marta bosish orqali;",
-    "noAnswer2": "tortib olish;",
-    "noAnswer3": "Fayl yoki papkani sichqoncha bilan ko’rsatish orqali."
-  },
-  {
-    "question": "+\r\n\r\n Floppi qanday form faktor mavjud emas?",
-    "answer": "10 dyuym",
-    "noAnswer1": "5,25 dyuym",
-    "noAnswer2": "3.5 dyuym",
-    "noAnswer3": "8 dyuym"
-  },
-  {
-    "question": "+\r\n\r\n Front Side Bus  (FSB) quyidagilar o’rtasida aloqani ta’minlaydi",
-    "answer": "Protsessor va boshqa qurilmalar o’rtasida",
-    "noAnswer1": "Qattiq disklar o’rtasida",
-    "noAnswer2": "Ona platadagi shimoliy va janubiy ko’priklar",
-    "noAnswer3": "Ma’lumotlar shinasi va manzil shinasi o’rtasida"
-  },
-  {
-    "question": "+\r\n\r\n hozirda ishlab chiqarilayotgan kompyuterlarni qurilishi asoslarini ozida mujassam etgan dastlabki kompyuterlardan biri kim tomonidan ishlab chiqilgan?",
-    "answer": "Djon Fon Heyman",
-    "noAnswer1": "Cray Research",
-    "noAnswer2": "Bebbidj",
-    "noAnswer3": "Leybnits"
-  },
-  {
-    "question": "+\r\n\r\n hozirda ishlab chiqarilayotgan kompyuterlarni qurilishi asoslarini ozida mujassam etgan dastlabki kompyuterlardan biri nechanchi yilda ishlab chiqilgan?",
-    "answer": "1952",
-    "noAnswer1": "1950",
-    "noAnswer2": "1955",
-    "noAnswer3": "1960"
-  },
-  {
-    "question": "+\r\n\r\n IA-32 arxitekturasiga ega bo’lgan MP selektorining quvvati qanday?",
-    "answer": "16",
-    "noAnswer1": "64",
-    "noAnswer2": "8",
-    "noAnswer3": "32"
-  },
-  {
-    "question": "+\r\n\r\n IA-32 arxitekturasiga ega MP-ning IDTR registrining kengligi qancha?",
-    "answer": "48",
-    "noAnswer1": "32",
-    "noAnswer2": "64",
-    "noAnswer3": "16"
-  },
-  {
-    "question": "+\r\n\r\n IA-32 MP umumiy foydalanish registrlarida nechta 32 bitli registrlar mavjud?",
-    "answer": "8",
-    "noAnswer1": "4",
-    "noAnswer2": "16",
-    "noAnswer3": "64"
-  },
-  {
-    "question": "+\r\n\r\n Ikki kanalli rejimda tezkor xotiraning ishlashi unumdorlikni necha foiz oshiradi",
-    "answer": "10-15%",
-    "noAnswer1": "2-3%",
-    "noAnswer2": "40-60%",
-    "noAnswer3": "90-95%"
-  },
-  {
-    "question": "+\r\n\r\n Ikkilik sanoq tizimidagi raqamlarni o‘nlik sanoq tizimidagi kodga  o‘zgartiruvchi kombinatsion mantiqiy qurilma",
-    "answer": "Dekoderlar",
-    "noAnswer1": "Komparatorlar",
-    "noAnswer2": "Jamlagich",
-    "noAnswer3": "Mutipleksor"
-  },
-  {
-    "question": "+\r\n\r\n Integral sxema o‘lchamlari tahminan qancha bo'ladi? (mm)",
-    "answer": "5x5 kvadrat shaklida",
-    "noAnswer1": "5x4 to'g'ri to'rtburchak shaklida",
-    "noAnswer2": "4x4 doira shaklida",
-    "noAnswer3": "6x4 ko'pburchak shaklida"
-  },
-  {
-    "question": "+\r\n\r\n Intelning birinchi 64-bitli mikroprotsessori qanday nomlangan?",
-    "answer": " Itanium",
-    "noAnswer1": "Pentium 4",
-    "noAnswer2": "Pentium MMX",
-    "noAnswer3": "Pentium"
-  },
-  {
-    "question": "+\r\n\r\n Janubiy ko’prik protsessor va ...  ni bog’laydi",
-    "answer": " Qattiq disklar",
-    "noAnswer1": "RAM",
-    "noAnswer2": "Video kartalar",
-    "noAnswer3": "Tizim shinasi"
-  },
-  {
-    "question": "+\r\n\r\n Katta integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "100 tadan 100 000 tagacha",
-    "noAnswer1": "10 tadan 100 tagacha",
-    "noAnswer2": "10 tadan 1000 tagacha",
-    "noAnswer3": "100 tadan 10 000 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n Kesh xotirasining qaysi darajasi eng tezkor?",
-    "answer": "Birinchi",
-    "noAnswer1": "Ikkinchi",
-    "noAnswer2": "Uchinchidan",
-    "noAnswer3": "To’rtinchi"
-  },
-  {
-    "question": "+\r\n\r\n Kichik integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "1 tadan 10 tagacha",
-    "noAnswer1": "10 tadan 15 tagacha",
-    "noAnswer2": "cheksiz bo'lishi mumkin",
-    "noAnswer3": "5 tadan 35 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n Kichik integral sxemalarning kengligi qanchani tashkil qiladi?",
-    "answer": " 5-15 mm",
-    "noAnswer1": "5-10 mm",
-    "noAnswer2": "3-5 mm",
-    "noAnswer3": "5-15 sm"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter nima?",
-    "answer": "Ma’lumotlar ustida turli amallar bajaruvchi kichik hajmdagi elektron hisoblash mashinasi.",
-    "noAnswer1": "Faqat yozishga mo’ljallangan elektron hisoblash mashinasi.",
-    "noAnswer2": "Faqat o’qish uchun mo’ljallangan elektron hisoblash mashinasi.",
-    "noAnswer3": "Ma'lumotlarni ekranga chiqaruvchi qurilma"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter quvvat manbai quyidagilarni bajarmaydi",
-    "answer": " Elektr uzilib qolganda uzluksiz ishlashni ta’minlash",
-    "noAnswer1": "Barcha qurilmalarni elektr energiyasi bilan ta’minlash",
-    "noAnswer2": "Kuchlanishni belgilangan qiymatlarga o’tkazish",
-    "noAnswer3": "Kichik elektr shovqinlarini filtrlash"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter tarmog’ining topologiyasi",
-    "answer": "Tarmoq kompyuterlarining bir-biriga nisbatan jismoniy joylashuvi va ularni chiziqlar bilan bog’lash usuli",
-    "noAnswer1": "Tarmoq uchun ishlatiladigan kabel turi",
-    "noAnswer2": "Tarmoq simini siqish usuli",
-    "noAnswer3": "Butun tarmoqning o’tkazuvchanligi"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuter yoqsangiz , protsessor quyidagilarga murojat qiladi",
-    "answer": "doimiy hotiraga;",
-    "noAnswer1": "tezkor xotiraga;",
-    "noAnswer2": "qattiq diskga;",
-    "noAnswer3": "diskga."
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterda ifodalanishi mumkin bolgan malumotlar hillarini necha turkumga ajratish mumkin?",
-    "answer": "2",
-    "noAnswer1": "1",
-    "noAnswer2": "3",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterdagi eng tezkor xotira qaysi?",
-    "answer": "Protsessor registrining xotirasi",
-    "noAnswer1": "Kesh xotirasi",
-    "noAnswer2": "RAM",
-    "noAnswer3": "Qattiq disklar"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterlarda ifodalanishi mumkin bo‘lgan ma’lumotlar necha xil bo'ladi?",
-    "answer": "2 xil",
-    "noAnswer1": "3 xil",
-    "noAnswer2": "1 xil",
-    "noAnswer3": "4 xil"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterlarda ifodalanishi mumkin bo‘lgan ma’lumotlar turini ko'rsating",
-    "answer": " raqamli va raqamli bo'lmagan ma'lumotlar",
-    "noAnswer1": "Mantiqiy  va belgili ma’lumotlar",
-    "noAnswer2": "Simvolli va mantiqiy ma'lumotlar",
-    "noAnswer3": "Mantiqiy , raqamli, raqamli bo'lmagan va  simvolli ma'lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Kompyuterni elektr bilan ta’minlash blokining asosiy xususiyatlari",
-    "answer": "Printerlar va skanerlar",
-    "noAnswer1": "O’lchamlari",
-    "noAnswer2": "Narx",
-    "noAnswer3": "Unga ulangan turli xil qurilmalarni elektr ta’minoti uchun ulagichlar soni"
-  },
-  {
-    "question": "+\r\n\r\n Magneto-optik disklarning kamchiligi",
-    "answer": "Magnit maydonlarga nisbatan sezgirligi past",
-    "noAnswer1": "Himoyalavchi plastik sumkasi",
-    "noAnswer2": "Yozish tezligining pastligi",
-    "noAnswer3": "Ma’lumotlarni saqlash davri"
-  },
-  {
-    "question": "+\r\n\r\n Mantiqiy manzilni jismoniy manzilga tarjima qilish mantiqiy manzil maydonini segment-sahifali tashkiloti bilan qanday tashkil etilgan?",
-    "answer": "birinchi navbatda disk xotira birligi tomonidan, keyin esa mikroprotsessor MMU-ga murojaat qilish orqali.",
-    "noAnswer1": "manzil tarjimasi talab qilinmaydi.",
-    "noAnswer2": "mikroprotsessorning MMU sahifa adreslash birligi.",
-    "noAnswer3": "mikroprotsessorning MMU segmentining adreslash birligi."
-  },
-  {
-    "question": "+\r\n\r\nOLED monitorlarida LCD monitorlardan farqli o’laroq, qanday tarkibiy element etishmayapti?",
-    "answer": "Orqa yorug’lik chiroqlari",
-    "noAnswer1": "Ilovalar",
-    "noAnswer2": "Tasviriy naycha",
-    "noAnswer3": "Katod nurlari trubkasi"
-  },
-  {
-    "question": "+\r\n\r\n Ona platadagi chipset ... ni o’zida aks ettiradi",
-    "answer": "Shimoliy va janubiy ko’prik mikrosxemalari to’plami",
-    "noAnswer1": "Tizim shinasi va operativ xotira hajmi",
-    "noAnswer2": "Ona platada joylashgan barcha qurilmalarning to’plami",
-    "noAnswer3": "Ona platadagi barcha portlar va ulagichlarning to’plami"
-  },
-  {
-    "question": "+\r\n\r\n Ona platadagi shimoliy ko’prik quyidagilarni qo’llab-quvvatlaydi",
-    "answer": "Tizim shinasi, operativ xotira, videoadapter",
-    "noAnswer1": "Qattiq disklar va optik disklar",
-    "noAnswer2": "Ovoz kartasi va modem",
-    "noAnswer3": "Klaviatura, sichqonlar, printerlar, skanerlar"
-  },
-  {
-    "question": "+\r\n\r\n Ona platadan elektr manbasi elementlarini olib tashlab, qayta o’rnatgandan so’ng nima bo’ladi",
-    "answer": " Barcha BIOS sozlamalarini sukut bo’yicha (po umolchaniyu)  sozlash",
-    "noAnswer1": "BIOS parolini tiklash",
-    "noAnswer2": "BIOS mikodasturini o’chirish",
-    "noAnswer3": "Hech narsa bo’lmaydi"
-  },
-  {
-    "question": "+\r\n\r\n Operativ xotira xossasiga nima xos emas?",
-    "answer": "Narx",
-    "noAnswer1": "O’tkazish qobiliyati",
-    "noAnswer2": "Vaqt (Tayming)",
-    "noAnswer3": "Xotira turi"
-  },
-  {
-    "question": "+\r\n\r\n Operatsion tizim bu:",
-    "answer": "tizim dasturi;",
-    "noAnswer1": "amaliy dastur;",
-    "noAnswer2": "dasturlash tizimi;",
-    "noAnswer3": "matn muharriri."
-  },
-  {
-    "question": "+\r\n\r\n Optik disklarning birinchi avlodi quyidagilarni o’z ichiga oladi",
-    "answer": "CD disklar",
-    "noAnswer1": "Blu-ray disklari",
-    "noAnswer2": "DVD disklar",
-    "noAnswer3": "Golografik disklar"
-  },
-  {
-    "question": "+\r\n\r\n O'rta integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "10 tadan 100 tagacha",
-    "noAnswer1": "1 tadan 10 tagacha",
-    "noAnswer2": "100 tadan 1000 tagacha",
-    "noAnswer3": "10 tadan 50 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n O'ta katta integral sxemalarda ventillar soni qanchani tashkil qiladi?",
-    "answer": "100 000 tadan ortiq",
-    "noAnswer1": "1000 tadan 100 000 tagacha",
-    "noAnswer2": "100 tadan 10 000 tagacha",
-    "noAnswer3": "100 tadan 100 000 tagacha"
-  },
-  {
-    "question": "+\r\n\r\n Oxirida maxsus belgi yoki qatorning  uzunligini ko‘rsatuvchi qismi mavjud bo'lgan ma'lumot - bu …",
-    "answer": "Qatorlar ko‘rinishidagi ma’lumotlar",
-    "noAnswer1": "Mantiqiy ma’lumotlar",
-    "noAnswer2": "Simvolli ma'lumotlar",
-    "noAnswer3": "Mantiqiy va simvolli ma'lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Oyna bu:",
-    "answer": "Windows bilan aloqa qilishning asosiy vositasi;",
-    "noAnswer1": "ish maydoni;",
-    "noAnswer2": "Windows ilovasi;",
-    "noAnswer3": "Windows hodisasi."
-  },
-  {
-    "question": "+\r\n\r\n Oyna kengligi va balandligi bo’yicha bir tekis o’zgartirish uchun quyidagilar kerak:",
-    "answer": "burchakni torting;",
-    "noAnswer1": "gorizontal ramkani torting;",
-    "noAnswer2": "vertikal ramkani torting;",
-    "noAnswer3": "sarlavhani torting."
-  },
-  {
-    "question": "+\r\n\r\n Oyna menyusi satri qaerda joylashgan:",
-    "answer": "yuqorida;",
-    "noAnswer1": "pastdanda;",
-    "noAnswer2": "chapda;",
-    "noAnswer3": "o’ng tomonda."
-  },
-  {
-    "question": "+\r\n\r\n PCI ( Periferik Component Interconnect ) shinasi  ... ni ulanishga imkon beradi",
-    "answer": "Ovoz va video adapterlari",
-    "noAnswer1": "Protsessor",
-    "noAnswer2": "Qattiq disklar",
-    "noAnswer3": "Mikrofonlar va karnay tizimi"
-  },
-  {
-    "question": "+\r\n\r\n Pentium 4 protsessorida buyruq formatlari nechi  xil bo'ladi?",
-    "answer": "4 xil",
-    "noAnswer1": "5 xil",
-    "noAnswer2": "3 xil",
-    "noAnswer3": "2 xil"
-  },
-  {
-    "question": "+\r\n\r\n Pentium 4 protssesori qachon yaratilgan?",
-    "answer": "2000",
-    "noAnswer1": "1997",
-    "noAnswer2": "2001",
-    "noAnswer3": "1999"
-  },
-  {
-    "question": "+\r\n\r\n Printerni shaxsiy kompyuterga ulash uchun odatda qaysi portlardan foydalaniladi?",
-    "answer": "LPT va USB",
-    "noAnswer1": "PS / 2 va FireWire",
-    "noAnswer2": "MAQOMOTI va LAN",
-    "noAnswer3": "USB va VGA"
-  },
-  {
-    "question": "+\r\n\r\n Protsessorning tezkorligi nima?",
-    "answer": "Vaqt birligida protsessor tomonidan bajariladigan elementar operatsiyalar soni",
-    "noAnswer1": "Ikki qo’shni takt impulslarining boshlanishi orasidagi vaqt oralig’i",
-    "noAnswer2": "Bu bir vaqtning o’zida ishlov berilishi yoki uzatilishi mumkin bo’lgan ikkilik kodlarning maksimal sonidir",
-    "noAnswer3": "Generator tomonidan bir soniyada hosil qilingan impulslar soni"
-  },
-  {
-    "question": "+\r\n\r\n PS / 2 porti unga ...ni ulanish uchun mo’ljallangan:",
-    "answer": "Klaviatura va sichqonlar",
-    "noAnswer1": "Qattiq disklar",
-    "noAnswer2": "Videokameralar",
-    "noAnswer3": "Printerlar va skanerlar"
-  },
-  {
-    "question": "+\r\n\r\n Qaysi funktsional birlik kompyuter protsessorini o’z ichiga olmaydi?",
-    "answer": "Flesh – xotira",
-    "noAnswer1": "Arifmetik – mantiqiy qurilma",
-    "noAnswer2": "Kesh – xotirasi",
-    "noAnswer3": "Boshqarish qurilmasi"
-  },
-  {
-    "question": "+\r\n\r\n Qaysi tugmachalar kompyuterni yoqganda BIOS- ga kirishga imkon beradi :",
-    "answer": "Del, F2",
-    "noAnswer1": "Alt, Enter",
-    "noAnswer2": "Home, Insert",
-    "noAnswer3": "Tab, Shift"
-  },
-  {
-    "question": "+\r\n\r\n Qaysi xotira o’zgaruvchan emas?",
-    "answer": " Barcha javoblar to’g’ri",
-    "noAnswer1": "Disket",
-    "noAnswer2": "Qattiq disk",
-    "noAnswer3": "Fleshli xotira"
-  },
-  {
-    "question": "+\r\n\r\n Qog’oz maydalagichlarda qanday hujjatlarni maydalash usuli qo’llanilmaydi?",
-    "answer": "Termal",
-    "noAnswer1": "Ovoz",
-    "noAnswer2": "Kimyoviy",
-    "noAnswer3": "Mexanik"
-  },
-  {
-    "question": "+\r\n\r\n Quyidagi dasturlarning qaysi biri optik belgilarni aniqlash uchun mo’ljallangan?",
-    "answer": "Fine Reader",
-    "noAnswer1": "Windows Movie Maker",
-    "noAnswer2": "Acrobat Reader",
-    "noAnswer3": "Partition Magic"
-  },
-  {
-    "question": "+\r\n\r\n Quyidagi suyuq kristalli monitorlar (LCD) matritsalarining qaysi biri fotografik tasvirlarning ranglari va ohanglarini yaxshi aks ettiradi?",
-    "answer": " IPS",
-    "noAnswer1": "PVA",
-    "noAnswer2": "MVA",
-    "noAnswer3": "TN + Film"
-  },
-  {
-    "question": "+\r\n\r\n Rangli tasvirlarni bosib chiqarish uchun siyohli printerlar qanday rang modelidan foydalanadilar?",
-    "answer": " CMYK",
-    "noAnswer1": "HSB",
-    "noAnswer2": "RGB",
-    "noAnswer3": "HSV"
-  },
-  {
-    "question": "+\r\n\r\n Raqaamli tizimlarning zamonaviy element bazasi bo'lib turli mikroprosesorli majmualari MPM tarkibiga kiruvchi qanday sxemalar hisoblanadi",
-    "answer": " Integral (KIS)",
-    "noAnswer1": "Kolektor",
-    "noAnswer2": "Integral (MPI)",
-    "noAnswer3": "Mantiqiy"
-  },
-  {
-    "question": "+\r\n\r\n Raqamli bo‘lmagan ma’lumotlar turini ko'rsating",
-    "answer": " Simvolli, Qator  ko'rinishidagi, Mantiqiy ma'lumotlar",
-    "noAnswer1": "Butun sonlar va rim raqamlari",
-    "noAnswer2": "Belgili ma'lumotlar",
-    "noAnswer3": "Mantiqiy va simvolli ma'lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Raqamli ma'lumotlar - bu …",
-    "answer": " sonlar bilan ifodalanuvchi ma’lumotlar",
-    "noAnswer1": "simvollar bilan ifodalanuvchi ma’lumotlar",
-    "noAnswer2": "belgilar bilan ifodalanuvchi ma’lumotlar",
-    "noAnswer3": "shifrlangan  ma’lumotlar"
-  },
-  {
-    "question": "+\r\n\r\n Sahifalar jadvalidagi yozuvdagi A biti qanday sharoitlarda 1 ga o’rnatiladi?",
-    "answer": " o’qish uchun sahifaga kirishda",
-    "noAnswer1": "operatsion tizim ma’lum vaqt bo’lagidan keyin",
-    "noAnswer2": "Ushbu sahifaga murojaat qilganingizda",
-    "noAnswer3": "yozuv uchun sahifaga kirishda"
-  },
-  {
-    "question": "+\r\n\r\n Segment tavsiflovchisidagi chegara maydonining uzunligi qancha?",
-    "answer": " 20",
-    "noAnswer1": "8",
-    "noAnswer2": "16",
-    "noAnswer3": "64"
-  },
-  {
-    "question": "+\r\n\r\n Shahsiy kompyuterlar necha hil boladi?",
-    "answer": "2",
-    "noAnswer1": "4",
-    "noAnswer2": "1",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "+\r\n\r\n SHaxsiy kompyuterning корпуси нима uchun mo’ljallangan:",
-    "answer": "Kompyuterning ichki qismidagi mexanik shikastlanishlardan himoya qilish",
-    "noAnswer1": "Kompyuterning ishonchliligini oshirish",
-    "noAnswer2": "Kompyuteringizni tezligini oshiring",
-    "noAnswer3": "Kompyuter elektr energiyasini tejash"
-  },
-  {
-    "question": "+\r\n\r\n SHina ISA ( Industry Standard Architecture ) quyidagicha maksimal o’tkazuvchanlikni ta’minlaydi",
-    "answer": " 2 MB / sek",
-    "noAnswer1": "33 MB / sek",
-    "noAnswer2": "4,5 MB / sek",
-    "noAnswer3": "5,5 MB / sek"
-  },
-  {
-    "question": "+\r\n\r\n SHina PCI-Express x1 versiyasi odatda ...ni ulanish uchun ishlatilad",
-    "answer": "Ovoz kartalari",
-    "noAnswer1": "Qattiq disklar",
-    "noAnswer2": "Protsessorlar",
-    "noAnswer3": "Video adapterlar"
-  },
-  {
-    "question": "+\r\n\r\n Sichqonchani kompyuterga ulash uchun qanday interfeys mavjud emas",
-    "answer": " LPT",
-    "noAnswer1": "COM",
-    "noAnswer2": "USB",
-    "noAnswer3": "PS/2"
-  },
-  {
-    "question": "+\r\n\r\n Simvolli ma’lumotlar kodini  ko'rsating",
-    "answer": "ASCII, UNICODE",
-    "noAnswer1": "ASCII",
-    "noAnswer2": "ASCII, UNICODE, MySQL",
-    "noAnswer3": "ASCII, NortonCMD, MySQL"
-  },
-  {
-    "question": "+\r\n\r\n Simvolli ma’lumotlarning uzunliklari necha razryadli bo'lishi mumkin?",
-    "answer": " 7 (8) va 16 razryadli",
-    "noAnswer1": "16 va 32 razryadli",
-    "noAnswer2": "64 va 80 razryadli",
-    "noAnswer3": "32 va 64 razryadli"
-  },
-  {
-    "question": "+\r\n\r\n Skanerning eng muhim xususiyati qaysi?",
-    "answer": " Optik o’lchamlari",
-    "noAnswer1": "Interpolatsiyalangan rezolyutsiya",
-    "noAnswer2": "Ish tezligi",
-    "noAnswer3": "Rang chuqurligi"
-  },
-  {
-    "question": "+\r\n\r\n Suriluvchi nuqtali sonlarning uzunliklari qancha bo'ladi?",
-    "answer": "32, 64 yoki 128 bitgacha",
-    "noAnswer1": "32, 64 yoki 128 baytgacha",
-    "noAnswer2": "32, 64 yoki 128 mb gacha",
-    "noAnswer3": "32, 64 yoki 128 kb gacha"
-  },
-  {
-    "question": "+\r\n\r\n Sxemalarda mantiqiy qiymatlar ma’lum bir kattalikdagi kuchlanishlar bilan ifodalanadi. Mantiqiy 0 uchun kuchlanish qiymati qancha?",
-    "answer": " 3V gacha",
-    "noAnswer1": "2V gacha",
-    "noAnswer2": "4V gacha",
-    "noAnswer3": "5V gacha"
-  },
-  {
-    "question": "+\r\n\r\n Tashqi qismida ikki qatorli chiqish oyoqchalariga ega bo‘lgan integral sxemalar qanday ataladi?",
-    "answer": "Dual Inline Package (DIP) yoki mikrosxema",
-    "noAnswer1": "Source Inline Package (SIP) yoki Ikki tomonli sxema",
-    "noAnswer2": "Oyoqchali integral sxema",
-    "noAnswer3": "Katta integral sxema"
-  },
-  {
-    "question": "+\r\n\r\n Tezkor xotira nima uchun mo’ljallangan:",
-    "answer": " Unga bajariladigan dasturlar va ma’lumotlarni kiritish",
-    "noAnswer1": "Ma’lumotlarni kompyuterda uzoq muddatli saqlash",
-    "noAnswer2": "Sonlar ustida arifmetik amallarni bajarish",
-    "noAnswer3": "CHipset va K / CH portlari o’rtasida ma’lumotlar almashinuvini amalga oshiradi"
-  },
-  {
-    "question": "+\r\n\r\n Tizim va yordamchi dasturlarining kompleksi nima deyiladi",
-    "answer": " operatsion tizim;",
-    "noAnswer1": "matn muharriri;",
-    "noAnswer2": "grafik muharriri;",
-    "noAnswer3": "drayver."
-  },
-  {
-    "question": "+\r\n\r\n Tonerni bo’yoq sifatida qanday printerlar ishlatadi?",
-    "answer": "Lazerda",
-    "noAnswer1": "Matritsada",
-    "noAnswer2": "Inkjet ichida",
-    "noAnswer3": "Sublimatsiyada"
-  },
-  {
-    "question": "+\r\n\r\n Tortinchi avlod kompyuterlari qanday kompyuterlar?",
-    "answer": "katta integral sxemali kompyuterlar",
-    "noAnswer1": "integral sxemali kompyuterlar",
-    "noAnswer2": "mehanik kompyuterlar",
-    "noAnswer3": "elektron lampali kompyuterlar"
-  },
-  {
-    "question": "+\r\n\r\n Trekbolning sichqoncha tipidagi manipulyatorlardan afzalligi nimada?",
-    "answer": "Bilaklarning kamroq charchashi",
-    "noAnswer1": "Arzonroq narx",
-    "noAnswer2": "Ko’proq tutish joylari",
-    "noAnswer3": "Xotira resurslarini kamroq iste’mol qilish"
-  },
-  {
-    "question": "+\r\n\r\nMonitorni boshqaradi:",
-    "answer": "RAM;",
-    "noAnswer1": "ovoz kartasi;",
-    "noAnswer2": "video kartalar;",
-    "noAnswer3": "ROM"
-  },
-  {
-    "question": "+\r\n\r\n Dinamik xotira statik xotiradan quyidagi afzalliklarga ega:",
-    "answer": "Arzonroq narx",
-    "noAnswer1": "Unga kirishning yuqori tezligi",
-    "noAnswer2": "Ishonchlilik",
-    "noAnswer3": "Ikki kanalli rejimda ishlash qobiliyati"
-  },
-  {
-    "question": "+\r\n\r\n Drayver bu:",
-    "answer": "kompyuter qurilmalari bilan ishlash dasturi;",
-    "noAnswer1": "kompyuter qurilmasi;",
-    "noAnswer2": "amaliy dastur;",
-    "noAnswer3": "dasturlash tili."
-  },
-  {
-    "question": "+\r\nMarkaziy protsessorni o’rnatish uchun ulagich qanday nomlanadi?",
-    "answer": "Soket",
-    "noAnswer1": "Port",
-    "noAnswer2": "Chipset",
-    "noAnswer3": "Shima"
-  },
-  {
-    "question": "+\r\n\r\n Eksponentalar nima?",
-    "answer": "darajalar, tartiblar",
-    "noAnswer1": "butun son",
-    "noAnswer2": "kasr son",
-    "noAnswer3": "kasrning butun qismi"
-  },
-  {
-    "question": "+\r\n\r\n Markaziy protsessorni o’rnatish uchun ulagich (raz’em) nomi?",
-    "answer": " Soket",
-    "noAnswer1": "Port",
-    "noAnswer2": "Chipset",
-    "noAnswer3": "SHina"
-  },
-  {
-    "question": "+\r\n\r\n Matritsali printerlarda bosib chiqarish elementi",
-    "answer": "Baraban",
-    "noAnswer1": "Lazer nurlari",
-    "noAnswer2": "Igna",
-    "noAnswer3": "Nozul"
-  },
-  {
-    "question": "+\r\n\r\n MOP texnalogiyasida 1-ga to'g'ri keladigon kuchlanish qancha bo'lishi mumkin",
-    "answer": " 3.3 V",
-    "noAnswer1": "2.2 V",
-    "noAnswer2": "5 V",
-    "noAnswer3": "4 V"
-  },
-  {
-    "question": "+\r\n\r\n Sahifa jadvali katalogi elementidagi manzil maydonining uzunligi qancha?",
-    "answer": " 20",
-    "noAnswer1": "16",
-    "noAnswer2": "10",
-    "noAnswer3": "13"
+    "question": "xDSL texnologiyasi keltirilgan javobni belgilang.",
+    "answer": "ADSL, VDSL, RDSL",
+    "noAnswer1": "FTTX, FTTH",
+    "noAnswer2": "PON, GPON, EPON",
+    "noAnswer3": "ATM, Ethernet"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
