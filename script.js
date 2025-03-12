@@ -1,2305 +1,2859 @@
 const data = [
   {
-    "question": "Matlab paketida signalni ekranda tasvirlash uchun qaysi buyruqdan foydalaniladi?",
-    "answer": "Plot()",
-    "noAnswer1": "Wavread()",
-    "noAnswer2": "Clc",
-    "noAnswer3": "Pwelch()"
+    "question": "CIFAR10 datasetda necha tanlama bor",
+    "answer": "60000",
+    "noAnswer1": "70000",
+    "noAnswer2": "50000",
+    "noAnswer3": "10000"
   },
   {
-    "question": "Signalni kodlash nima?",
-    "answer": "signalni ikkilik sanoq sistemasiga o'tkazish",
-    "noAnswer1": "signalni qabul qilish",
-    "noAnswer2": "signalni qism-qism qilib bo'laklash",
-    "noAnswer3": "signalni diskretlangan qismini hisoblash"
+    "question": "O’ratuvchi tanlamadagi test to’plam bu?",
+    "answer": "modelni testlash uchun ishlatiladi",
+    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
+    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
+    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
   },
   {
-    "question": "Signalni segmentlash jarayoni qanday?",
-    "answer": "signalni ma’lum bo’laklarga ajratish",
-    "noAnswer1": "signalni tanish",
-    "noAnswer2": "signalni kvantlash",
-    "noAnswer3": "signalni kodlash"
+    "question": "Owerfitting bu - …",
+    "answer": "Model juda muarkkab. Shuning evaziga model train to’plamda past, test to’plamda yuqori\r\nxatolik bo’lishiga olib keladi",
+    "noAnswer1": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolikbo’lishiga olib keladi",
+    "noAnswer2": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda kattaxatolik bo’lishiga olib keladi",
+    "noAnswer3": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolikbo’lishiga olib keladi"
   },
   {
-    "question": "Qanday turdagi signal tashqi ta’sirlarda kamroq o’zgaradi?",
-    "answer": "Raqamli signal",
-    "noAnswer1": "Analog signal",
-    "noAnswer2": "Analog va raqamli signal",
-    "noAnswer3": "To’g’ri javob A va B javoblar"
+    "question": "Logistik regressiya masalasida asosan qaysi aktivlashtirish funksiyasidan foydalaniladi?",
+    "answer": "Sigmoid",
+    "noAnswer1": "Tanh",
+    "noAnswer2": "ReLU",
+    "noAnswer3": "Sigmoid va ReLU"
   },
   {
-    "question": "16 kHz chastota necha Hz chastota bo’ladi?",
-    "answer": "16000",
-    "noAnswer1": "16384",
-    "noAnswer2": "16100",
-    "noAnswer3": "16050"
+    "question": "Model qurishda bo’ladigan Underfitting muammosi qanday hal qilsa bo’ladi?",
+    "answer": "Modelni murakkabligini oshirib ko’rish kerak",
+    "noAnswer1": "Modelni murakkabligini pasaytirib ko’rish kerak",
+    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
+    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
   },
   {
-    "question": "KIX (eng: FIR) filtr uchun to’g’ri ta’rif berilgan qatorni toping.",
-    "answer": "Chekli impuls xarakteristikali filtr",
-    "noAnswer1": "Cheksiz impuls xarakteristikali filtr",
-    "noAnswer2": "Impuls xarakteristikali filtr emas",
-    "noAnswer3": "Tog’ri javob yo’q"
+    "question": "Model qurishda bo’ladigan Owerfitting muammosi qanday hal qilsa bo’ladi?",
+    "answer": "Modelni murakkabligini pasaytirib ko’rish kerak",
+    "noAnswer1": "Modelni murakkabligini oshirib ko’rish kerak",
+    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
+    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
   },
   {
-    "question": "Raqamli filtrlar nechta katta turga bo’linadi?",
-    "answer": "2",
-    "noAnswer1": "5",
-    "noAnswer2": "7",
-    "noAnswer3": "1"
+    "question": "O’rgatuvchi tanlama nima?",
+    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
+    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
+    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
+    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
   },
   {
-    "question": "Qanday turdagi signal tashqi ta’sirlarda kamroq o’zgaradi?",
-    "answer": "Raqamli signal",
-    "noAnswer1": "Analog signal",
-    "noAnswer2": "Analog va raqamli signal",
-    "noAnswer3": "To’g’ri javob A va B javoblar"
+    "question": "O’ratuvchi tanlamadagi train to’plam …",
+    "answer": "modelni o’qitish uchun ishlatiladi",
+    "noAnswer1": "modelni testlash uchun ishlatiladi",
+    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
+    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
   },
   {
-    "question": "Svyortka amalidan ko’p foydalaniladigan jarayon qaysi?",
-    "answer": "Filtrlash jarayoni",
-    "noAnswer1": "Kvantlash jarayoni",
-    "noAnswer2": "Diskretlash jarayoni",
+    "question": "O’ratuvchi tanlamadagi val (validation) to’plam bu?",
+    "answer": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
+    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
+    "noAnswer2": "modelni testlash uchun ishlatiladi",
+    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
+  },
+  {
+    "question": "Neyron tarmoqlarida sinflashtirish masalasini yechishda chiquvchi qatlamda qaysi turdagi\r\naktivlash funksiyasidan foydalaniladi",
+    "answer": "Softmax",
+    "noAnswer1": "Sigmoid",
+    "noAnswer2": "ReLu",
     "noAnswer3": "To’g’ri javob yo’q"
   },
   {
-    "question": "Qanday jarayon asosida diskret signal paydo bo’ladi?",
-    "answer": "Diskretlash",
-    "noAnswer1": "Kvantlash",
-    "noAnswer2": "Shifrlash",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Tasvir signalining piksellari necha xil rangdan tashkil topgan?",
-    "answer": "3",
-    "noAnswer1": "5",
-    "noAnswer2": "6",
-    "noAnswer3": "8"
-  },
-  {
-    "question": "Low Pass Filtr uchun to’g’ri ta’rif berilgan qatorni toping.",
-    "answer": "Bu turdagi filtr chastotasi aniqlangan qiymatdan past bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlaydi",
-    "noAnswer1": "Bu turdagi filtr chastotasi aniqlangan qiymatdan past bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi",
-    "noAnswer2": "Bu turdagi filtr chastotasi aniqlangan qiymatdan yuqori bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlaydi",
-    "noAnswer3": "Bu turdagi filtr chastotasi aniqlangan qiymatdan yuqori bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi"
-  },
-  {
-    "question": "Qayta ishlanadigan signallar qanday guruhlarga bo’linadi?",
-    "answer": "Barcha javoblar to’g’ri",
-    "noAnswer1": "Diskret",
-    "noAnswer2": "Raqamli",
-    "noAnswer3": "Analogli"
-  },
-  {
-    "question": "Diskretlash natijasida qanday signal paydo bo’ladi?",
-    "answer": "Diskret",
-    "noAnswer1": "Filtr",
-    "noAnswer2": "Analog",
-    "noAnswer3": "Hech qanaqa signal paydo bo’lmaydi"
-  },
-  {
-    "question": "Signalga to’g’ri ta’rif berilgan qatorni belgilang",
-    "answer": "bu fizik jarayon bo’lib, uning parametrlari uzatilayotgan xabarga muvofiq o’zgaradi",
-    "noAnswer1": "bu fizik jarayon bo’lib, uning parametrlari uzatilayotgan xabarga muvofiq o’zgarmaydi",
-    "noAnswer2": "bu fizik jarayon bo’lib, uning parametrlari uzatilmayotgan xabarga muvofiq o’zgaradi",
-    "noAnswer3": "bu fizik jarayon bo’lib, uning parametrlari bo’lmaydi"
-  },
-  {
-    "question": "Raqamli signal qanday bo’ladi?",
-    "answer": "Raqamli signal uzlukli bo’ladi",
-    "noAnswer1": "Raqamli signal uzlukliz bo’ladi",
-    "noAnswer2": "Raqamli signal analog bo’ladi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Analog signal qanday bo’ladi?",
-    "answer": "Analog signal uzliksiz bo’ladi",
-    "noAnswer1": "Analog signal kavntlangan bo’ladi",
-    "noAnswer2": "Analog signal diskretlangan bo’ladi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Analog signal bilan raqamli signal o’rtasida qanday farq bor?",
-    "answer": "Analog signal uzluksiz, raqamli signal uzlukli bo’ladi",
-    "noAnswer1": "Analog signal uzluksiz, raqamli signal uzlukliz bo’ladi",
-    "noAnswer2": "Analog signal uzlukli, raqamli signal uzlukli bo’ladi",
-    "noAnswer3": "Analog signal uzlukli, raqamli signal uzlukliz bo’ladi"
-  },
-  {
-    "question": "Raqamli signal protsessorlari qanday sinf protsessorlari hisoblanadi?",
-    "answer": "keladigan analogli signallarning raqamli qayta ishlanishiga yo’naltirilgan maxsus mikroprotsessorlar sinfi",
-    "noAnswer1": "keladigan analogli signallarning raqamli qayta ishlanishiga yo’naltirilgan maxsus tranzistorlar sinfi",
-    "noAnswer2": "keladigan analogli signallarning raqamli qayta ishlanishiga yo’naltirilgan maxsus triggerlar sinfi",
-    "noAnswer3": "keladigan analogli signallarning raqamli qayta ishlanishiga yo’naltirilmagan maxsus mikroprotsessorlar sinfi"
-  },
-  {
-    "question": "Qanday signallar davriy signal hisoblanadi?",
-    "answer": "Ma’lum vaqt o’tishi bilan takrorlanadigan signal",
-    "noAnswer1": "Ma’lum vaqt o’tishi bilan takrorlanmaydigan signal",
-    "noAnswer2": "Ma’lum vaqt o’tmasligi bilan takrorlanadigan signal",
-    "noAnswer3": "Ma’lum vaqt o’tmaslgi bilan takrorlanmaydigan signal"
-  },
-  {
-    "question": "Real vaqt tizimlari bu....?",
-    "answer": "boshqaruv paytida tashqi ta’sirlarga javob berishga ulguradigan tizimlar",
-    "noAnswer1": "boshqariladigan har qanday tizimlar",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "kompleks tizimlarning barchasi"
-  },
-  {
-    "question": "Signalni diskretlash nima?",
-    "answer": "signalni vaqt o’qi bo’yicha bo’laklash",
-    "noAnswer1": "signalni vaqt o’qi bo’yicha uzatish",
-    "noAnswer2": "signalni vaqt o’qi bo’yicha qabul qilish",
-    "noAnswer3": "signalni vaqt o’qi bo’yicha kodlash"
-  },
-  {
-    "question": "Kompyuter markaziy boshqaruv vositalariga qaysilar kiradi?",
-    "answer": "mikroprotsessor, mikrokontroller",
-    "noAnswer1": "ARO’, mikrokontroller",
-    "noAnswer2": "yuborgichlar, boshqaruvchilar",
-    "noAnswer3": "kitirish-chiqarish modullari, ARO’"
-  },
-  {
-    "question": "Signalni kvantlash nima?",
-    "answer": "signalni amplituda o’qi bo’yicha bo’laklash",
-    "noAnswer1": "signalni amplituda o’qi bo’yicha uzatish",
-    "noAnswer2": "signalni Z o’qi bo’yicha perpendikulyar",
-    "noAnswer3": "signalni qabul qilish"
-  },
-  {
-    "question": "Tibbiyotda ishlatiladigan signal turlarini belgilang.",
-    "answer": "elektromiografiya signali, elektroensefalografiya signali, elektrokardiografiya signal",
-    "noAnswer1": "davriy signal, statsionar signal, garmonik signal",
-    "noAnswer2": "tovush signali, garmonik signal, EKG signallari",
-    "noAnswer3": "barcha javoblar to’g’ri"
-  },
-  {
-    "question": "Signallarni korrelyatsiya qilishning nechta shakli mavjud?",
-    "answer": "2",
-    "noAnswer1": "5",
-    "noAnswer2": "7",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "Signalni dastlabki holati uni qaysi sohasini anglatadi?",
-    "answer": "Amplituda -Vaqt soxasi",
-    "noAnswer1": "Chastota soxasi",
-    "noAnswer2": "Vaqt-chastota soxasi",
-    "noAnswer3": "barcha javoblar to’g’ri"
-  },
-  {
-    "question": "Signal protsessorlari ishlab chiqaruvchi mashhur firmalarni ko'rsating.",
-    "answer": "Analog Device, Motorola, Texas Instruments",
-    "noAnswer1": "Analog Device, Lenovo",
-    "noAnswer2": "Analog Device, HP, Acer",
-    "noAnswer3": "barchasi to’g’ri"
-  },
-  {
-    "question": "Tasvir signalining piksellari qanday ranglardan tashkil topgan?",
-    "answer": "qizil ko’k yashil",
-    "noAnswer1": "qora oq qizil",
-    "noAnswer2": "sariq qora oq",
-    "noAnswer3": "ko’k qora qizil"
-  },
-  {
-    "question": "To‘g‘ri javobni tanlang: o‘zaro korrelyatsiya …..",
-    "answer": "ikkita signalning o’xshashligi yoki umumiy xususiyatlarining ko’rsatkichidir",
-    "noAnswer1": "ikkita signalning o’xshamasligi yoki umumiy xususiyatlarining ko’rsatkichidir",
-    "noAnswer2": "umumiy xususiyatlari ko’rsatkichimas",
-    "noAnswer3": "to’g’ri javob yo'q"
-  },
-  {
-    "question": "Raqamli filtr uchun to‘g‘ri javobni aniqlang.",
-    "answer": "Raqamli ishlov berish usuli, ma'lum chegaraga ajratuvchi jarayon, ketma-ketlik",
-    "noAnswer1": "Analog signallarni raqamli qilish uchun ishlatiladigan ketma-ketlik",
-    "noAnswer2": "To'g'ri javob yo'q",
-    "noAnswer3": "Turli rejimda ishlovchi, raqamli signallarni demodulyatsiya qilish ketma-ketligi"
-  },
-  {
-    "question": "Raqamli filtrning afzalligi nimada?",
-    "answer": "barcha javoblar to'g'ri",
-    "noAnswer1": "aniqligi",
-    "noAnswer2": "barqarorligi",
-    "noAnswer3": "sozlashga egiluvchanligi va kompaktligi"
-  },
-  {
-    "question": "Raqamli filtrning kamchiligi nimada?",
-    "answer": "barcha javoblar to'g'ri",
-    "noAnswer1": "baland chastotali signallar bilan ishlash qiyinligi",
-    "noAnswer2": "real vaqt davrida ishlash qiyinligi",
-    "noAnswer3": "signalni qayta ishlashda protsessorning quvvatli bo'lishi"
-  },
-  {
-    "question": "To‘g‘ri javobni tanlang: Avtokorrelyatsiya bu ?",
-    "answer": "Faqat bitta signalning mavjudligi nazarda tutadi va vaqt o’tishi bilan signalning tuzilishi yoki uning harakati haqida malumot beradi",
-    "noAnswer1": "Ko’plab signalning mavjudligi nazarda tutadi va vaqt o’tishi bilan signalning tuzilishi yoki uning harakati haqida malumot beradi",
-    "noAnswer2": "Faqat bitta signalning mavjudligi nazarda tutmaydi va vaqt o’tishi bilan signalning tuzilishi yoki uning harakati haqida malumot beradi",
-    "noAnswer3": "Faqat bitta signalning mavjudligi nazarda tutadi va vaqt o’tishi bilan signalning tuzilishi yoki uning harakati haqida malumot bermaydi"
-  },
-  {
-    "question": "Chekli impuls harakteristikali(KIX ing: FIR) filtr uchun to‘g‘ri ta'rifni belgilang?",
-    "answer": "impuls tavsifnomasini vaqt mobaynida cheklangan xususiyatli bo‘ladi",
-    "noAnswer1": "impuls tavsifnomasini vaqt mobaynida cheklanmagan xususiyatli bo‘ladi",
-    "noAnswer2": "barcha javoblar to'g'ri",
-    "noAnswer3": "bunday filtrlar odatda ishlatilmaydi"
-  },
-  {
-    "question": "Chekli impuls harakteristikali(KIX ing: FIR) filtrni afzalligi nimada?",
-    "answer": "barcha javoblar to'g'ri",
-    "noAnswer1": "chidamli",
-    "noAnswer2": "qarama-qarshi aloqani talab qilmaydi",
-    "noAnswer3": "filtrlar fazasi chiziqli qilinishi mumkin"
-  },
-  {
-    "question": "Cheksiz impuls harakteristikali(BIX ing: IIR)  filtr uchun to‘g‘ri ta'rifni belgilang?",
-    "answer": "impuls tavsifnomasini vaqt mobaynida cheklanmagan xususiyatli bo‘ladi",
-    "noAnswer1": "impuls tavsifnomasini vaqt mobaynida cheklangan xususiyati hisoblanadi",
-    "noAnswer2": "barcha javoblar to'g'ri",
-    "noAnswer3": "bunday filtrlar odatda ishlatilmaydi"
-  },
-  {
-    "question": "Real vaqt tizimlari uchun to‘g‘ri bo‘lgan javobni ko‘rsating.",
-    "answer": "boshqaruv paytida tashqi ta'sirlarga javob berishga ulguradigan tizimlar",
-    "noAnswer1": "boshqariladigan xar qanday tizimlar",
-    "noAnswer2": "kompleks tizimlarning barchasi",
-    "noAnswer3": "To'g'ri javob yo'q"
-  },
-  {
-    "question": "Signal protsessori ishlab chiqaradigan dunyoda yetakchi kompaniya?",
-    "answer": "Analog Devices",
-    "noAnswer1": "Microsoft",
-    "noAnswer2": "IBM",
-    "noAnswer3": "Microsystem Sun"
-  },
-  {
-    "question": "QNX operatsion tizimi operatsion tizimi qachon ishlab chiqilgan?",
-    "answer": "1982",
-    "noAnswer1": "1984",
-    "noAnswer2": "1986",
-    "noAnswer3": "1970"
-  },
-  {
-    "question": "QNX operatsion tizimiga to'g'ri ta'rif berilgan qatorni toping?",
-    "answer": "real vaqt tizimida ishlovchi mikroyadroli operatsion tizim",
-    "noAnswer1": "Operatsion tizim yopiq kodli",
-    "noAnswer2": "Faqat bir foydalanuvchi uchun ishlab chiqilgan",
-    "noAnswer3": "barcha javoblar to'g'ri"
-  },
-  {
-    "question": "Korrelyatsiya ikki shakli mavjud ularni nomini aniqlang.",
-    "answer": "Avtokorrelyasiya va o'zaro korrelyasiya",
-    "noAnswer1": "O'zaro korrelyasiya va siklik",
-    "noAnswer2": "Radar signalar va chastotalar",
-    "noAnswer3": "To'gri javob yo'q"
-  },
-  {
-    "question": "Raqamli signal prosessorlari ishlab chiqaradigan firmalar qatorini ko'rsating.",
-    "answer": "Analog Device,Motorola,Texas Insruments",
-    "noAnswer1": "Motorola, Nokia, Samsung",
-    "noAnswer2": "LG,Samsung",
-    "noAnswer3": "To'gri javob yo'q"
-  },
-  {
-    "question": "Raqamli filtrlar impuls javob reaksiyalariga ko‘ra 2ta katta turga bo'linadi ularni nomi keltirilgan qatorni ko'rsating.",
-    "answer": "Cheksiz va chekli",
-    "noAnswer1": "Chekli va uzluksiz",
-    "noAnswer2": "Davriy va chekli",
-    "noAnswer3": "To'gri javob yo'q"
-  },
-  {
-    "question": "Diskretlash chastotasi aniqlash qaysi teorema asosida olingan.",
-    "answer": "Kotelnikov",
-    "noAnswer1": "Nuyton",
-    "noAnswer2": "Filips",
-    "noAnswer3": "Nobel"
-  },
-  {
-    "question": "Furye tahlili ……",
-    "answer": "Signalni asl domenidan chastota domeniga o‘zgartiradi",
-    "noAnswer1": "Signalni ma’lum darajada pasaytirish uchun ishlatiladi",
-    "noAnswer2": "Kiruvchi signal fragmentlarga ajratadi",
-    "noAnswer3": "Qisqa vaqtli energiya qiymati hisoblanadi"
-  },
-  {
-    "question": "Signal deb ………………………………… aytiladi?",
-    "answer": "biror bir fizik jarayonning bir yoki nechta parametlarini xabarga mos ravishda o‘zgarishiga",
-    "noAnswer1": "inson haqida ma’lumot beruvchi kundalik",
-    "noAnswer2": "bu xar xil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to‘g‘risidagi ma'lumotnomaga",
-    "noAnswer3": "uzatish uchun uni ma'lum bir shaklga keltirish lozim tekst, jadval, grafik, rasm, xarakatdagi tasvir, va boshqalarga."
-  },
-  {
-    "question": "Tabiatda signallar asosan qanday holatda bo‘ladi ?",
-    "answer": "analog",
-    "noAnswer1": "raqamli",
-    "noAnswer2": "kvantlashgan",
-    "noAnswer3": "to‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "Tibbiyotda ishlatiladigan signal turlarini belgilang?",
-    "answer": "elektromiografiya signali, elektroensefalografiya signali, elektrokardiografiya signali",
-    "noAnswer1": "davriy signal, statsionar signal, garmonik signal",
-    "noAnswer2": "tovush signali, garmonik signal, EKG signallari",
-    "noAnswer3": "barcha javoblar to'g'ri"
-  },
-  {
-    "question": "Elektr signal deb –",
-    "answer": "elektr jarayonining bir yoki bir nechta parametrlarini xabarga mos ravishda o’zgarishiga aytiladi",
-    "noAnswer1": "xabarni fazoniy bir nuqtasidan ikkinchi nuqtasiga uzatish uchun xabarni biror bir fizik jarayonga yuklashimiz ya'ni\r\nuni signalga aylantirishimiz",
-    "noAnswer2": "bu xar xil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to‘g‘risidagi ma'lumotga",
-    "noAnswer3": "uzatish uchun uni ma'lum bir shaklga keltirish lozim tekst, jadval, grafik, rasm, xarakatdagi tasvir, va boshqalar"
-  },
-  {
-    "question": "Kvantlash jarayonida . . . .",
-    "answer": "signallarning butun diapazoni darajalarga bo'linadi, ularning soni berilgan bit kengligi sonlari bilan ifodalanishi kerak.",
-    "noAnswer1": "raqamli signallar o‘zaro bir-biri bilan qo‘shiladi",
-    "noAnswer2": "diskretlanmagan signallarni jamlash amalga oshiradi",
-    "noAnswer3": "to‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "Xabar manbadan xabar iste’molchiga yetkazib berish uchun foydalaniladigan texnik qurilmalar to’plamiga …………………  deb ataladi.",
-    "answer": "Aloqa tizimi",
-    "noAnswer1": "Aloqa liniyasi",
-    "noAnswer2": "Aloqa qurilmasi",
-    "noAnswer3": "Aloqa tuguni"
-  },
-  {
-    "question": "Matematik nuqtai nazardan, uzluksiz signal doimiy....... ifodalanadi.",
-    "answer": "funktsiyani",
-    "noAnswer1": "grafikni",
-    "noAnswer2": "matematikani",
-    "noAnswer3": "fizikani"
-  },
-  {
-    "question": "Aloqa tizimi deb…………… aytiladi.",
-    "answer": "xabar manbasi va iste'molchi o‘rtasidagi xohlagan ikkita nuqta orasidagi texnik qurilmalar to‘plamiga",
-    "noAnswer1": "xabarni fazoniy bir nuqtasidan ikkinchi nuqtasiga uzatish uchun xabarni biror bir fizik jarayonga yuklashimiz ya'ni uni signalga aylantirishimiz",
-    "noAnswer2": "bu xar xil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to‘g‘risidagi ma'lumotga",
-    "noAnswer3": "uzatish uchun uni ma'lum bir shaklga keltirish lozim tekst, jadval, grafik, rasm, xarakatdagi tasvir, va boshqalar"
-  },
-  {
-    "question": "Telefon signali (ovoz) spektr kengligi qancha ?",
-    "answer": "300 Hz ÷ 3400 Hz",
-    "noAnswer1": "300 Hz ÷ 3000 Hz",
-    "noAnswer2": "300 Hz ÷ 3800 Hz",
-    "noAnswer3": "300 Hz ÷ 400 Hz"
-  },
-  {
-    "question": "Signalni kvatlash qaysi o’q bo’yicha amalga oshiriladi?",
-    "answer": "amplituda",
-    "noAnswer1": "vaqt",
-    "noAnswer2": "chastota",
-    "noAnswer3": "quvvat"
-  },
-  {
-    "question": "Signalni diskretlash qaysi o’q bo’yicha amalga oshiriladi?",
-    "answer": "vaqt",
-    "noAnswer1": "amplituda",
-    "noAnswer2": "chastota",
-    "noAnswer3": "quvvat"
-  },
-  {
-    "question": "Nutq signali sohasidagi boshlang’ich va tugallanish koeffitsiyentlari orasidagi farqni aniqlash nutq signalining qaysi parametrini ifodalaydi?",
-    "answer": "Takrorlanuvchi oraliq qiymatlar soni",
-    "noAnswer1": "Energiya",
-    "noAnswer2": "Quvvat",
-    "noAnswer3": "Tovush spektrogramma qiymati"
-  },
-  {
-    "question": "Dastlab Analog signallarni qanday filtrlar yordamida filtrlanadi?",
-    "answer": "Analog filtrlar",
-    "noAnswer1": "Raqamli filtrlar",
-    "noAnswer2": "Gibrid filtrlar",
-    "noAnswer3": "filtrlanmaydi"
-  },
-  {
-    "question": "Signallar Analog filtr bilan filtrlanganda qanday signal hosil bo’ladi?",
-    "answer": "Analog signal",
-    "noAnswer1": "Raqamli signal",
-    "noAnswer2": "Diskret signal",
-    "noAnswer3": "Kvant signal"
-  },
-  {
-    "question": "Qanday filtrlarni ishlatish yordamida Raqamli signallarni filtrlash mumkin?",
-    "answer": "Raqamli filtrlar",
-    "noAnswer1": "Analog filtrlar",
-    "noAnswer2": "Raqamli signal filtrlanmaydi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Signalni bo’laklarga taqsimlash(bo’lish) qanday jarayon?",
-    "answer": "Segmentlash",
-    "noAnswer1": "Svyortkalash",
-    "noAnswer2": "Korelyatsiyalash",
-    "noAnswer3": "Filtrlash"
-  },
-  {
-    "question": "Turli turdagi signallarni turli shovqinlardan, halaqitlardan tozalash qanday jarayon?",
-    "answer": "Filtrlash",
-    "noAnswer1": "Segmentlash",
-    "noAnswer2": "Korelyatsiyalash",
-    "noAnswer3": "Aproksimatsiyalash"
-  },
-  {
-    "question": "Signallarni bir biriga mosligini tekshirish qanday jarayon?",
-    "answer": "Korrelyatsiyalash",
-    "noAnswer1": "Segmentlash",
-    "noAnswer2": "Filtrlash",
-    "noAnswer3": "Interpolyatsiyalash"
-  },
-  {
-    "question": "1KHz chastota necha Hz chastota bo’ladi?",
-    "answer": "1000",
-    "noAnswer1": "1024",
-    "noAnswer2": "1050",
-    "noAnswer3": "1100"
-  },
-  {
-    "question": "Mushaklardan olinadigan biosignallar qanday signallar turiga mansub?",
-    "answer": "Elektromiografiya signali",
-    "noAnswer1": "Elektrokardiografiya signali",
-    "noAnswer2": "Ensofologramma signali",
-    "noAnswer3": "Nutq signali"
-  },
-  {
-    "question": "Miyadan olinadigan signallar qanday signallar turiga kiradi?",
-    "answer": "Ensofologramma signali",
-    "noAnswer1": "Elektromiografiya signali",
-    "noAnswer2": "Elektrokardiografiya signali",
-    "noAnswer3": "Nutq signali"
-  },
-  {
-    "question": "Yurak mushagidan olinadigan signal qanday signal turiga kiradi?",
-    "answer": "Elektrokardiogramma signali",
-    "noAnswer1": "Elektromiografiya signali",
-    "noAnswer2": "Ensofologramma signali",
-    "noAnswer3": "Nutq signali"
-  },
-  {
-    "question": "Tabiatda uchraydigan signallar …. turlarga bo’linadi.",
-    "answer": "Vaqt bo’yicha o’zgaradigan va o’zgarmaydigan",
-    "noAnswer1": "Diskret va raqamli",
-    "noAnswer2": "Spektral ishlov berilgan va berilmagan",
-    "noAnswer3": "Svyortyka qilingan va qilinmagan"
-  },
-  {
-    "question": "Korrelyatsiya jarayoni nechta shakli mavjud?",
-    "answer": "2",
-    "noAnswer1": "5",
-    "noAnswer2": "7",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "Signallarni qayta ishlashda analog signallarni raqamli signalga aylantirishning asosiy amallari qaysilar?",
-    "answer": "Diskretlash,  kvantlash va Kodlash",
-    "noAnswer1": "Diskretlash",
-    "noAnswer2": "Kvantlash va Kodlash",
-    "noAnswer3": "Kodlash"
-  },
-  {
-    "question": "Raqamli mahlumotlar qanday qiymatlarni qabul qiladi:?",
-    "answer": " faqat diskret qiymatlarni qabul qiladi;",
-    "noAnswer1": "Qandaydir diapazondan uzluksiz qiymatlarni;",
-    "noAnswer2": "Raqamli qiymatlarni qabul qilmaydi;",
-    "noAnswer3": "0 dan 9 gacha qiymatlarni qabul qiladi;"
-  },
-  {
-    "question": "Diskret modulyatsiya turlaridan qaysi biri eng katta xalaqitbardoshlikka ega?",
-    "answer": " faza modulyatsiyasi;",
-    "noAnswer1": "amplituda modulyatsiyasi;",
-    "noAnswer2": "chastota modulyatsiyasi;",
-    "noAnswer3": "nisbiy modulyatsiyasi;"
-  },
-  {
-    "question": "Signalni uzatishda modulyatorga nechta signal beriladi?",
-    "answer": " asosan 2 ta signal beriladi;",
-    "noAnswer1": "asosan 1 ta signal beriladi;",
-    "noAnswer2": "asosan 3 ta signal beriladi;",
-    "noAnswer3": "asosan 4 ta signal beriladi;"
-  },
-  {
-    "question": "Faza Modulyatsiyasi signalning o’zgaraishini ifodalash atatamasi:?",
-    "answer": " Faza indeksi;",
-    "noAnswer1": "Chastota  yandeksi;",
-    "noAnswer2": "Chastota  indeksi;",
-    "noAnswer3": "Chastota davri;"
-  },
-  {
-    "question": "Chastita Modulyatsiyasi signalning o’zgaraishini ifodalash atatamasi:?",
-    "answer": " Chastota deviyatsiasi;",
-    "noAnswer1": "Chastota devolvatsiasi;",
-    "noAnswer2": "Chastota reviyutsiasi;",
-    "noAnswer3": "Chastota formatsiasi;"
-  },
-  {
-    "question": "Signallarni qayta ishlashda signal o‘lchamining sekundiga qilingan o‘lchashlar soni nima deb aytiladi?",
-    "answer": "Diskretlash",
-    "noAnswer1": "kvantlash chastotasi",
-    "noAnswer2": "freymlash chastotasi",
-    "noAnswer3": "to’g’ri javob keltirilmagan"
-  },
-  {
-    "question": "Signallarni uzluksiz yoki diskret miqdor qiymatlarining qatorini chekli oraliqlarga bo‘lish jarayoni qanday nomladi?",
-    "answer": "Kvantlash",
-    "noAnswer1": "Freymlash",
-    "noAnswer2": "Diskretlash",
-    "noAnswer3": "Taqsimlash"
-  },
-  {
-    "question": "Nutqiy signal tarkibidagi so'zlashuv, bo'g'in yoki fonemalar orasidagi chegaralarni aniqlash jarayoni nima deb ataladi?",
-    "answer": "Nutq signalini segmentlash",
-    "noAnswer1": "Nutq signalini kvantlash",
-    "noAnswer2": "Nutq signalini diskretlash",
-    "noAnswer3": "Nutq signalini yaxlitlash"
-  },
-  {
-    "question": "Nutq signalining asosiy parametrlari qaysilar?",
-    "answer": "qisqa vaqtli energiyasi va noldan o‘tuvchi nuqtalar soni",
-    "noAnswer1": "qisqa vaqtli energiyasi",
-    "noAnswer2": "noldan o‘tuvchi nuqtalar soni",
-    "noAnswer3": "signalning diskretlash chastotasi"
-  },
-  {
-    "question": "Signallarni qayta ishlash jarayonlarida analog raqamli o’zgartirish jarayoniga  tarkibiga qaysi amallar kiradi?",
-    "answer": "Diskretlash,kvantlash,kodlash",
-    "noAnswer1": "Diskretlash, segmentlash, filtrlash",
-    "noAnswer2": "Kvantlash,kodlash, segmentlash",
-    "noAnswer3": "Kvantlash"
-  },
-  {
-    "question": "Signallarni sinus va kosinusga asoslangan spektral o’zgartirish algoritmi qaysi?",
-    "answer": "Fure",
-    "noAnswer1": "Adamar",
-    "noAnswer2": "DCT",
-    "noAnswer3": "Haara"
-  },
-  {
-    "question": "Elektromiografiya signallari qanday signal?",
-    "answer": "Biosignal",
-    "noAnswer1": "Nutq signali",
-    "noAnswer2": "Akustik signal",
-    "noAnswer3": "Sinusoid signal"
-  },
-  {
-    "question": "Elektrokardiografiya signallari qanday signal?",
-    "answer": "Biosignal",
-    "noAnswer1": "Nutq signali",
-    "noAnswer2": "Akustik signal",
-    "noAnswer3": "Sinusoid signal"
-  },
-  {
-    "question": "Elektroensofologramma signallari qanday signal?",
-    "answer": "Biosignal",
-    "noAnswer1": "Nutq signali",
-    "noAnswer2": "Akustik signal",
-    "noAnswer3": "Sinusoid signal"
-  },
-  {
-    "question": "Quyidagi formatlardan qaysi biri audio signallariga mansub?",
-    "answer": "wav, mp3, ogg",
-    "noAnswer1": "c3d, txt",
-    "noAnswer2": "mp4, max, dll",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Audio signallarining turlari to‘g‘ri keltirilgan javobni aniqlang",
-    "answer": "Mono va stereo",
-    "noAnswer1": "3d,7d",
-    "noAnswer2": "Mp3,wav",
-    "noAnswer3": "Ogg,aac"
-  },
-  {
-    "question": "Mono turidagi audio signallar qanday o’lchamda bo’ladi ?",
-    "answer": "1 kanalli",
-    "noAnswer1": "2 kanalli",
-    "noAnswer2": "3 kanalli",
-    "noAnswer3": "4 kanalli"
-  },
-  {
-    "question": "Stereo turidagi audio signallar qanday o’lchamda bo’ladi ?",
-    "answer": "2 kanalli",
-    "noAnswer1": "1 kanalli",
-    "noAnswer2": "3 kanalli",
-    "noAnswer3": "4 kanalli"
-  },
-  {
-    "question": "Inson qulog‘i eshita oladigan tovush chastotalari oraliqlarini belgilang?",
-    "answer": "20-20000 Hz",
-    "noAnswer1": "20 kHz-20MHz",
-    "noAnswer2": "20 Hz dan past",
-    "noAnswer3": "20 mHz – 20 kHz"
-  },
-  {
-    "question": "Analog signallar ....",
-    "answer": "vaqt o'tishi bilan doimiy ravishda o'zgarib turadi",
-    "noAnswer1": "\"0\" va \"1\" nollarning ketma-ketliklaridan iborat",
-    "noAnswer2": "qadamlar (qadamlar) o'zgarishi",
-    "noAnswer3": "faqat chastota domenida mavjud"
-  },
-  {
-    "question": "Bazis funksiyasi tashkil etuvchilari sinus va kosinusga ega spektral o'zgartirish turini aniqlang?",
-    "answer": "Fure",
-    "noAnswer1": "Haara",
-    "noAnswer2": "Adamar",
-    "noAnswer3": "Wavelet"
-  },
-  {
-    "question": "Tasodifiy signallarning parametrlarini aniqlang",
-    "answer": "Barchasi to‘g‘ri",
-    "noAnswer1": "Matematik kutilma",
-    "noAnswer2": "Dispersiya",
-    "noAnswer3": "O‘rtacha kvadratik og‘ish"
-  },
-  {
-    "question": "Raqamli filtrlar nima uchun analog filtrlardan afzalroq ( eng asosiy sabablardan birini keltiring)",
-    "answer": "ularni oson dasturlashtirilishi mumkin",
-    "noAnswer1": "ishlab chiqaruvchilar ko'pincha yangi protsessorlarni ishlab chiqaradilar",
-    "noAnswer2": "ular barqaror",
-    "noAnswer3": "to'g'ri javob yo'q"
-  },
-  {
-    "question": "Oddiy raqamli signal protsessorlari tizimi quyidagilardan iborat.",
-    "answer": "DSP, xotira, ADC, DAC va aloqa portlari",
-    "noAnswer1": "mikroprotsessor va xotira",
-    "noAnswer2": "mikroprotsessor, ADC va DAC",
-    "noAnswer3": "mikroprotsessor va yordamchi ombor"
-  },
-  {
-    "question": "Nutq signallari qanday signal?",
-    "answer": "Biosignal",
-    "noAnswer1": "O'zgarmas signal",
-    "noAnswer2": "tangensial signal",
-    "noAnswer3": "Sinusoid signal"
-  },
-  {
-    "question": "Vaqtga nisbatan fizik signallarni tahlil qilish nima deb ataladi",
-    "answer": "Vaqt sohasida signallarini qayta ishlash",
-    "noAnswer1": "Faza sohasida signallarini qayta ishlash",
-    "noAnswer2": "Chastota sohasida signallarini qayta ishlash",
-    "noAnswer3": "Amplituda sohasida signallarini qayta ishlash"
-  },
-  {
-    "question": "Signallarga ishlov berishda qaysi sohalarda jarayonlarni amalga oshirish mumkin?",
-    "answer": "Vaqt va chastota sohasida",
-    "noAnswer1": "Faza va chastota sohasida",
-    "noAnswer2": "Vaqt va faza sohasida",
-    "noAnswer3": "Faza va amplituda sohasida"
-  },
-  {
-    "question": "Deterministik signallar qanday ko’rinishlarda bo’ladi?",
-    "answer": "Davriy va davriy bo’lmagan",
-    "noAnswer1": "Aniq va noaniq",
-    "noAnswer2": "Chekli va cheksiz",
-    "noAnswer3": "Tog’ri javob keltirilmagan"
-  },
-  {
-    "question": "QNX operatsion tizimi qaysi arxitektura asosida qurilgan?",
-    "answer": "Mikroyadroli",
-    "noAnswer1": "SIMD",
-    "noAnswer2": "MIMD",
-    "noAnswer3": "MISD"
-  },
-  {
-    "question": "Signallarni qayta ishlashda eng ko`p ishlatiladigan amal?",
-    "answer": "Svyortka",
-    "noAnswer1": "Korrelyatsiya",
-    "noAnswer2": "Tanib olish masalalari",
-    "noAnswer3": "Identifikatsiya"
-  },
-  {
-    "question": "Raqamli video sifatini baholovchi eng ishonchli va mukammal tizim?",
-    "answer": "Inson ko`z tizimi",
-    "noAnswer1": "Telefon kamerasi tizimi",
-    "noAnswer2": "Kompyuter tizimi",
-    "noAnswer3": "Ekran tizimlari"
-  },
-  {
-    "question": "Filtrlarni loyihalashda signallarni nimalar yordamida filtrlanadi?",
-    "answer": "Filtr koeffisentlari",
-    "noAnswer1": "Kiruvchi signal",
-    "noAnswer2": "Chiquvchi signal",
-    "noAnswer3": "Shovqin signal"
-  },
-  {
-    "question": "Signallarni adaptiv filtrlashda filtr koeffisentlari qanday hosil qilinadi?",
-    "answer": "Shovqin hamda kiruvchi signallar",
-    "noAnswer1": "O`zimiz ishlab chiqamiz",
-    "noAnswer2": "Tasodifiy holatida",
-    "noAnswer3": "To‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "Kotelnikov teoremasiga to’gri ta'rif berilgan variantni ko’rsating?",
-    "answer": "diskretlash chastota asosiy signal  chastotasidan 2 marta  katta bo'lishi kerak",
-    "noAnswer1": "diskretlash chastota asosiy signal  chastotasidan 6 marta  katta bo'lishi kerak",
-    "noAnswer2": "diskretlash chastota asosiy signal  chastotasidan 4 marta  katta bo'lishi kerak",
-    "noAnswer3": "diskretlash chastota asosiy signal  chastotasiuga teng bo'lishi kerak"
-  },
-  {
-    "question": "Integral bazis o'zgartirish algoritmini ko'rsating?",
-    "answer": "Furye",
-    "noAnswer1": "Haara",
-    "noAnswer2": "Adamar",
-    "noAnswer3": "Wavelet"
-  },
-  {
-    "question": "Oddiy raqamli signal protsessorlari tizimi quyidagilardan iborat:",
-    "answer": "DSP, xotira, ADC, DAC va aloqa portlari",
-    "noAnswer1": "mikroprotsessor va xotira",
-    "noAnswer2": "mikroprotsessor, ADC va DAC",
-    "noAnswer3": "mikroprotsessor va yordamchi ombor"
-  },
-  {
-    "question": "Fourier transform (FT) quyidagilar uchun ishlatiladi:",
-    "answer": "vaqt domenidan davriy bo'lmagan signallarni chastota domeniga o'zgartirish",
-    "noAnswer1": "faqat vaqt domenidan chastota domeniga davriy signallarni va aksincha",
-    "noAnswer2": "diskret signallarni siqish",
-    "noAnswer3": "kiruvchi signal chastotalarini filtrlash"
-  },
-  {
-    "question": "Signallarni qayta ishlashda eng ko`p ishlatiladigan amal",
-    "answer": "Svyortka",
-    "noAnswer1": "Korrelyatisiya",
-    "noAnswer2": "Tanib olish masalalari",
-    "noAnswer3": "Identifikatsiya"
-  },
-  {
-    "question": "Signal chastotasi 230 Hz va qurilmaning disktretlash chastotasi 16 kHz bo'lsa, qurilma 1 sekundda nechta qiymat qabul qiladi.",
-    "answer": "qisqa vaqtli energiyasi va noldan o‘tuvchi nuqtalar soni",
-    "noAnswer1": "15670",
-    "noAnswer2": "16230",
-    "noAnswer3": "8230\r\n\r\n\r\nNutq signalining asosiy parametrlari qaysilar?"
-  },
-  {
-    "question": "Band Stop Filtr uchun to'g'ri javobni belgilang?",
-    "answer": "Chastotasi filtr hisoblanayotganda berilgan chastota o’tkazuvchanlik kengligidan tashqaridagi barcha signallarni o’tkazadi",
-    "noAnswer1": "Chastotasi filtr hisoblanmayotganda berilgan o’tkazish chastota kengligi ichida bo’lgan signallarni o’tkazmaydi",
-    "noAnswer2": "Bu turdagi filtr chastotasi aniqlangan qiymatdan yuqori bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi",
-    "noAnswer3": "Bu turdagi filtr chastotasi aniqlangan qiymatdan past bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi"
-  },
-  {
-    "question": "Signallarga raqamli ishlov berish jarayonlarida teskari jarayonlar nimani ifodalaydi?",
-    "answer": "Signalning sinusoidalar bo‘yicha sintezi",
-    "noAnswer1": "Davriy signallarni  turi",
-    "noAnswer2": "Chastotali signallar",
-    "noAnswer3": "Karrali chastotalar"
-  },
-  {
-    "question": "Diskret signal qanday bo'ladi?",
-    "answer": "uzlukli holda",
-    "noAnswer1": "davriy impulsli",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "raqamli"
-  },
-  {
-    "question": "A punktidan B punktiga xabarni uzatish uchun qo’llanuvchi qurilmalar yig’indisiga nima deb ataladi?",
-    "answer": " aloqa tizimi;",
-    "noAnswer1": "aloqa kanali;",
-    "noAnswer2": "modulyator;",
-    "noAnswer3": "uzatgich;"
-  },
-  {
-    "question": "Elektromagnit  tulqinning  to’lqin uzunligi deb  nimaga aуtaladi , to’g’ri tahrifni belgilang?",
-    "answer": " Elektromagnit to’lqinining T vaqt ichida  bosib  o’tgan  to’gri  masofasi uning to’lqin uzunligi deb ataladi;",
-    "noAnswer1": "Elektromagnit  to’lqinining  1 sekund  ichida  bosib  o’tgan  to’gri  masofasi uning to’lqin uzunligi deb ataladi;",
-    "noAnswer2": "Elektromagnit  to’lqinining   10 sekund ichida  bosib  o’tgan  to’gri  masofasi uning to’lqin uzunligi deb ataladi;",
-    "noAnswer3": "Elektromagnit  to’lqinining  qiska  vakt  ichida  bosib  o’tgan  to’gri  masofasi uning to’lqin uzunligi deb ataladi;"
-  },
-  {
-    "question": "Chastota modulyatsiyasida signalning kaysi parametir o’zgaradi?",
-    "answer": " Modulyatsiyalovchi signalga рroрortsional ravishda tashuvchini chastotasi o’zgaradi;",
-    "noAnswer1": "Modulyatsiyalovchi signalga рroрortsional ravishda tashuvchini fazasi o’zgaradi;",
-    "noAnswer2": "Modulyatsiyalovchi signalga рroрortsional ravishda tashuvchini amрlitudasi o’zgaradi;",
-    "noAnswer3": "Modulyatsiyalovchi signalga рroрortsional ravishda tashuvchini amрlitudasi va chastotasi o’zgaradi;"
-  },
-  {
-    "question": "Elektr tokining chastotasi bu ……..?",
-    "answer": " elektr tokini bir sekund ichidagi  tebranishlar sonidir;",
-    "noAnswer1": "elektr tokini ikki bir on ichidagi  tebranishlar sonidir;",
-    "noAnswer2": "elektr tokini qisqa vaqt ichidagi  tebranishlar sonidir;",
-    "noAnswer3": "elektr tokini bir minut ichidagi  tebranishlar sonidir;"
-  },
-  {
-    "question": "Vaqt bo’yicha diskretlangan signaldan uzluksiz signalni qayta tiklash uchun uni quyidagi qurilmadan o’tkazish lozim:?",
-    "answer": " ideal past chastotali filg’trdan;",
-    "noAnswer1": "koderdan;",
-    "noAnswer2": "dekoderdan;",
-    "noAnswer3": "differentsiatordan;"
-  },
-  {
-    "question": "Modulyatsiya deb, qanday jarayonga aytiladi?",
-    "answer": " yuqori chastotali tashuvchi tebranishning amрlitudasi, chastotasi yoki fazasining boshqaruv-chi tebranishning oniy qiymatlarini o’zgarish qonuniga mos ravishda o’zgarishi;",
-    "noAnswer1": "yuqori chastotali tashuvchi tebranishning рarametr ini boshqaruvchi рast chastotali signalning amрlitudasi, chastotasi yoki fazasining o’zgarish qonuniga mos ravishda o’zgarishi;",
-    "noAnswer2": "рast chastotali tashuvchi tebranishning рarametr ini boshqaruvchi yuqori chastotali signalning oniy qiymatlarini o’zgarish qonuniga mos ravishda o’zgarishi;",
-    "noAnswer3": "рast chastotali tashuvchi tebranishning рarametr ini boshqaruvchi yuqori chastotali signalning oniy qiymatlarini o’zgarish qonuniga mos ravishda o’zgarishi;"
-  },
-  {
-    "question": "Elektr to'k tebranishning fazasi bu  ………….. ni  bildiradi?",
-    "answer": " burchak;",
-    "noAnswer1": "quvvat;",
-    "noAnswer2": "indeks;",
-    "noAnswer3": "chastota;"
-  },
-  {
-    "question": "Amрlituda modulyatoridagi asosiy o’zgarish bu-?",
-    "answer": " yuqori chastotali tashuvchini amрlitudasini o’zgarishi;",
-    "noAnswer1": "tashuvchi va boshqaruvchi signallarni amрlitudasini ko’ayishi (kuchaytirilishi);",
-    "noAnswer2": "tashuvchi yuqori chastotali tebranishning amрlitudasini kamayishi;",
-    "noAnswer3": "kirish signalini filtrlash;"
-  },
-  {
-    "question": "Detektorlash jarayoni buzilishsiz amalga oshiriladi, agar:?",
-    "answer": " detektorning detektorlash xarakteristikasi chiziqli bo’lsa;",
-    "noAnswer1": "nochiziqli elementning volg’t-amрer xarakteristikasini ish uchastkasi chiziqli bo’lsa;",
-    "noAnswer2": "va   tugri tanlangan bo’lsa;",
-    "noAnswer3": "nochiziqli elementning volt-amрer xarakteristikasini ish uchastkasi ikkinchi darajali ko’рxad yordamida aproksimatsiya qilingan bo’lsa;"
-  },
-  {
-    "question": "High Pass Filtr uchun to’g’ri ta’rif berilgan qatorni toping.",
-    "answer": "Chastotasi aniqlangan qiymatdan baland bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlaydi.",
-    "noAnswer1": "Chastotasi aniqlangan qiymatdan past bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlaydi.",
-    "noAnswer2": "Chastotasi aniqlangan qiymatdan baland bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Band Pass Filtr uchun to’g’ri ta’rif berilgan qatorni toping.",
-    "answer": "Signal chastotasi berilgan o’tkazish chastota kengligi ichida bo’lgan qismini o’tkazadi",
-    "noAnswer1": "Signal chastotasi berilgan o’tkazish chastota kengligi ichida bo’lgan qismini o’tkazmaydi",
-    "noAnswer2": "Signal chastotasi berilgan o’tkazish chastota kengligi ichida bo’lmagan qismini o’tkazadi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Signallarga raqamli ishlov berishda Korrelyatsiya jarayonining necha xil shakli mavjud?",
-    "answer": "2",
-    "noAnswer1": "5",
-    "noAnswer2": "6",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "To’g’ri ta’rifni keltiring: Svertka jarayoni bu?",
-    "answer": "Bu funktsional tahlil bo’lib, 2 ta signalning ko’paytmasidan uchinchi o’zaro bog’lovchi signalning hosil bo’lishi jarayonidir",
-    "noAnswer1": "Bu funktsional tahlil bolib, 2 ta signalning ko’paytmasidan ikkita o’zaro bog’lovchi signalning hosil bo’lishi jarayonidir",
-    "noAnswer2": "Bu funktsional tahlil bolib, 2 ta signalning ko’paytmasidan uchinchi o’zaro bog’lovchi signalning hosil bo’lmaslik jarayonidir",
-    "noAnswer3": "Kvantlashdan xosil bo’lgan jarayon"
-  },
-  {
-    "question": "Nutq signalining asosiy parametrlari qaysilar?",
-    "answer": "qisqa vaqtli energiyasi va noldan o‘tuvchi nuqtalar soni",
-    "noAnswer1": "qisqa vaqtli energiyasi",
-    "noAnswer2": "noldan o‘tuvchi nuqtalar soni",
-    "noAnswer3": "signalning diskretlash chastotasi"
-  },
-  {
-    "question": "Band Stop Filtr uchun to'g'ri javobni belgilang?",
-    "answer": "Chastotasi filtr hisoblanayotganda berilgan chastota o’tkazuvchanlik kengligidan tashqaridagi barcha signallarni o’tkazadi",
-    "noAnswer1": "Chastotasi filtr hisoblanmayotganda berilgan o’tkazish chastota kengligi ichida bo’lgan signallarni o’tkazmaydi",
-    "noAnswer2": "Bu turdagi filtr chastotasi aniqlangan qiymatdan yuqori bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi",
-    "noAnswer3": "Bu turdagi filtr chastotasi aniqlangan qiymatdan past bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi"
-  },
-  {
-    "question": "Signallarga raqamli ishlov berish jarayonlarida teskari jarayonlar nimani ifodalaydi?",
-    "answer": "Signalning sinusoidalar bo‘yicha sintezi",
-    "noAnswer1": "Davriy signallarni  turi",
-    "noAnswer2": "Chastotali signallar",
-    "noAnswer3": "Karrali chastotalar"
-  },
-  {
-    "question": "Signallarga raqamli ishlov berishda blokli kodlash 2 turga bo'linadi, ular qaysi qatorda ko'rsatilgan?",
-    "answer": "Chiziqli,davriy",
-    "noAnswer1": "Davriy, analog",
-    "noAnswer2": "Analog va raqamli",
-    "noAnswer3": "Filtrli"
-  },
-  {
-    "question": "Diskret signal qanday bo'ladi?",
-    "answer": "uzlukli holda",
-    "noAnswer1": "davriy impulsli",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "raqamli"
-  },
-  {
-    "question": "A punktidan B punktiga xabarni uzatish uchun qo’llanuvchi qurilmalar yig’indisiga nima deb ataladi?",
-    "answer": " aloqa tizimi;",
-    "noAnswer1": "aloqa kanali;",
-    "noAnswer2": "modulyator;",
-    "noAnswer3": "uzatgich;"
-  },
-  {
-    "question": "AM  signallari modulyatsiya koeffitsient m va tashuvchi tebranishning amрlitudasi U bo’lganda amрlitudasi bo’yicha modulyatsiyalangan tebranishning kuchlanishini oniy qiymatlari qaysi oraliqda yotadi ?",
-    "answer": " -(1-m)U dan +(1+m)U gacha;",
-    "noAnswer1": "0 dan Um gacha;",
-    "noAnswer2": "- mU dan + mU gacha;",
-    "noAnswer3": "-(1+m)U dan +(1+m)U;"
-  },
-  {
-    "question": "TDMA tizimi qaysi zichlashtirish usulini qo’llaydi?",
-    "answer": " vaqt bo’ycha kanallarni zichlashtirish usulini;",
-    "noAnswer1": "Chastota bo’ycha kanallarni  zichlashtirish usulini;",
-    "noAnswer2": "Fazo  bo’ycha kanallarni zichlashtirish usulini;",
-    "noAnswer3": "kod bo’ycha kanallarni  zichlashtirish usulini;"
-  },
-  {
-    "question": "Elektromagnit  tulqinning  to’lqin uzunligi deb  nimaga aуtaladi , to’g’ri tahrifni belgilang?",
-    "answer": " Elektromagnit to’lqinining T vaqt ichida  bosib  o’tgan  to’gri  masofasi uning to’lqin uzunligi deb ataladi;",
-    "noAnswer1": "Elektromagnit  to’lqinining  1 sekund  ichida  bosib  o’tgan  to’gri  masofasi uning to’lqin uzunligi deb ataladi;",
-    "noAnswer2": "Elektromagnit  to’lqinining   10 sekund ichida  bosib  o’tgan  to’gri  masofasi uning to’lqin uzunligi deb ataladi;",
-    "noAnswer3": "Elektromagnit  to’lqinining  qiska  vakt  ichida  bosib  o’tgan  to’gri  masofasi uning to’lqin uzunligi deb ataladi;"
-  },
-  {
-    "question": "Chastota modulyatsiyasida signalning kaysi parametir o’zgaradi?",
-    "answer": " Modulyatsiyalovchi signalga рroрortsional ravishda tashuvchini chastotasi o’zgaradi;",
-    "noAnswer1": "Modulyatsiyalovchi signalga рroрortsional ravishda tashuvchini fazasi o’zgaradi;",
-    "noAnswer2": "Modulyatsiyalovchi signalga рroрortsional ravishda tashuvchini amрlitudasi o’zgaradi;",
-    "noAnswer3": "Modulyatsiyalovchi signalga рroрortsional ravishda tashuvchini amрlitudasi va chastotasi o’zgaradi;"
-  },
-  {
-    "question": "Elektr tokining chastotasi bu ……..?",
-    "answer": " elektr tokini bir sekund ichidagi  tebranishlar sonidir;",
-    "noAnswer1": "elektr tokini ikki bir on ichidagi  tebranishlar sonidir;",
-    "noAnswer2": "elektr tokini qisqa vaqt ichidagi  tebranishlar sonidir;",
-    "noAnswer3": "elektr tokini bir minut ichidagi  tebranishlar sonidir;"
-  },
-  {
-    "question": "Standart radioaloqa tizimiga qaysi variantdagi javob kirmaydi?",
-    "answer": " GSM-327;",
-    "noAnswer1": "GSM-900;",
-    "noAnswer2": "GSM-1800;",
-    "noAnswer3": "UTRAN;"
-  },
-  {
-    "question": "Tebranish dastlab qanday qurilmada sodir bo’ladi?",
-    "answer": " rezonatorda;",
-    "noAnswer1": "bezonatorda;",
-    "noAnswer2": "tenzonatorda;",
-    "noAnswer3": "azonatorda;"
-  },
-  {
-    "question": "Radioaloqa tizimlari  antennalari yo’naltirilganligi  xususiyati?",
-    "answer": " yo’naltirilganlik diagrammasi;",
-    "noAnswer1": "yo’naltirilganlik diafragmasi;",
-    "noAnswer2": "yo’naltirilganlik diagonali;",
-    "noAnswer3": "yo’naltirilganlik galogrammasi;"
-  },
-  {
-    "question": "Vaqt bo’yicha diskretlangan signaldan uzluksiz signalni qayta tiklash uchun uni quyidagi qurilmadan o’tkazish lozim:?",
-    "answer": " ideal past chastotali filg’trdan;",
-    "noAnswer1": "koderdan;",
-    "noAnswer2": "dekoderdan;",
-    "noAnswer3": "differentsiatordan;"
-  },
-  {
-    "question": "Modulyatsiya deb, qanday jarayonga aytiladi?",
-    "answer": " yuqori chastotali tashuvchi tebranishning amрlitudasi, chastotasi yoki fazasining boshqaruv-chi tebranishning oniy qiymatlarini o’zgarish qonuniga mos ravishda o’zgarishi;",
-    "noAnswer1": "yuqori chastotali tashuvchi tebranishning рarametr ini boshqaruvchi рast chastotali signalning amрlitudasi, chastotasi yoki fazasining o’zgarish qonuniga mos ravishda o’zgarishi;",
-    "noAnswer2": "рast chastotali tashuvchi tebranishning рarametr ini boshqaruvchi yuqori chastotali signalning oniy qiymatlarini o’zgarish qonuniga mos ravishda o’zgarishi;",
-    "noAnswer3": "рast chastotali tashuvchi tebranishning рarametr ini boshqaruvchi yuqori chastotali signalning oniy qiymatlarini o’zgarish qonuniga mos ravishda o’zgarishi;"
-  },
-  {
-    "question": "Aloqa tizimining qaysi bo’g’inida shovqinlar signalga eng katta tahsir qiladi?",
-    "answer": " uzatish muhitida;",
-    "noAnswer1": "kodlash muhitida;",
-    "noAnswer2": "modulyatorda;",
-    "noAnswer3": "demodulyator;"
-  },
-  {
-    "question": "FDMA tizimi qaysi usulni qo’llaydi?",
-    "answer": " Chastota bo’ycha  zichlashtirish usulini;",
-    "noAnswer1": "Vaqt bo’ycha  zichlashtirish usulini;",
-    "noAnswer2": "Fazo  bo’ycha  zichlashtirish usulini;",
-    "noAnswer3": "kod bo’ycha  zichlashtirish usulini;"
-  },
-  {
-    "question": "Elektr to'k tebranishning fazasi bu  ………….. ni  bildiradi?",
-    "answer": " burchak;",
-    "noAnswer1": "quvvat;",
-    "noAnswer2": "indeks;",
-    "noAnswer3": "chastota;"
-  },
-  {
-    "question": "Rаdioaloqa tizimi asosiy qurilmalaridan biri?",
-    "answer": " Qabul qilgich;",
-    "noAnswer1": "qaytargich;",
-    "noAnswer2": "birlashtirgich;",
-    "noAnswer3": "ajratgich;"
-  },
-  {
-    "question": "Amрlituda modulyatoridagi asosiy o’zgarish bu-?",
-    "answer": " yuqori chastotali tashuvchini amрlitudasini o’zgarishi;",
-    "noAnswer1": "tashuvchi va boshqaruvchi signallarni amрlitudasini ko’ayishi (kuchaytirilishi);",
-    "noAnswer2": "tashuvchi yuqori chastotali tebranishning amрlitudasini kamayishi;",
-    "noAnswer3": "kirish signalini filtrlash;"
-  },
-  {
-    "question": "Amрlituda modulyatori chiqishidagi kerakciz sрektrlarni yo’qotish uchun qanday qurilma ishlatiladi:?",
-    "answer": " mintaqa filtri;",
-    "noAnswer1": "yuqori chastota filtri;",
-    "noAnswer2": "рast chastota filtri;",
-    "noAnswer3": "yuklamani nochiziqli filtri;"
-  },
-  {
-    "question": "Detektorlash jarayoni buzilishsiz amalga oshiriladi, agar:?",
-    "answer": " detektorning detektorlash xarakteristikasi chiziqli bo’lsa;",
-    "noAnswer1": "nochiziqli elementning volg’t-amрer xarakteristikasini ish uchastkasi chiziqli bo’lsa;",
-    "noAnswer2": "va   tugri tanlangan bo’lsa;",
-    "noAnswer3": "nochiziqli elementning volt-amрer xarakteristikasini ish uchastkasi ikkinchi darajali ko’рxad yordamida aproksimatsiya qilingan bo’lsa;"
-  },
-  {
-    "question": "High Pass Filtr uchun to’g’ri ta’rif berilgan qatorni toping.",
-    "answer": "Chastotasi aniqlangan qiymatdan baland bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlaydi.",
-    "noAnswer1": "Chastotasi aniqlangan qiymatdan past bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlaydi.",
-    "noAnswer2": "Chastotasi aniqlangan qiymatdan baland bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Band Pass Filtr uchun to’g’ri ta’rif berilgan qatorni toping.",
-    "answer": "Signal chastotasi berilgan o’tkazish chastota kengligi ichida bo’lgan qismini o’tkazadi",
-    "noAnswer1": "Signal chastotasi berilgan o’tkazish chastota kengligi ichida bo’lgan qismini o’tkazmaydi",
-    "noAnswer2": "Signal chastotasi berilgan o’tkazish chastota kengligi ichida bo’lmagan qismini o’tkazadi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Quyidagi filtrlash formulasida keltirilgan x[n] qanday signal?\r\ny[n] = (b0*x[n] + b1*x[n-1] + b2*x[n-2] – a1*y[n-1] – a2*y[n-2])/a0",
-    "answer": "Filtrlanishi kerak bo’lgan signal",
-    "noAnswer1": "Shovqin signali",
-    "noAnswer2": "Filtrlanishi kerak bo’lmagan signal",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Signallarga raqamli ishlov berishda Korrelyatsiya jarayonining necha xil shakli mavjud?",
-    "answer": "2",
-    "noAnswer1": "5",
-    "noAnswer2": "6",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "To’g’ri ta’rifni keltiring: Svertka jarayoni bu?",
-    "answer": "Bu funktsional tahlil bo’lib, 2 ta signalning ko’paytmasidan uchinchi o’zaro bog’lovchi signalning hosil bo’lishi jarayonidir",
-    "noAnswer1": "Bu funktsional tahlil bolib, 2 ta signalning ko’paytmasidan ikkita o’zaro bog’lovchi signalning hosil bo’lishi jarayonidir",
-    "noAnswer2": "Bu funktsional tahlil bolib, 2 ta signalning ko’paytmasidan uchinchi o’zaro bog’lovchi signalning hosil bo’lmaslik jarayonidir",
-    "noAnswer3": "Kvantlashdan xosil bo’lgan jarayon"
-  },
-  {
-    "question": "Diskretlash chastotasi aniqlash qaysi teorema asosida olingan.",
-    "answer": "Kotelnikov",
-    "noAnswer1": "Nuyton",
-    "noAnswer2": "Filips",
-    "noAnswer3": "Nobel"
-  },
-  {
-    "question": "Integral bazis o'zgartirish algoritmini ko'rsating?",
-    "answer": "Furye",
-    "noAnswer1": "Haara",
-    "noAnswer2": "Adamar",
-    "noAnswer3": "Wavelet"
-  },
-  {
-    "question": "Qanday jarayon asosida diskret signal paydo bo’ladi?",
-    "answer": "Diskretlash",
-    "noAnswer1": "Kvantlash",
-    "noAnswer2": "Shifrlash",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Signalni diskretlash qaysi o’q bo’yicha amalga oshiriladi?",
-    "answer": "vaqt",
-    "noAnswer1": "amplituda",
-    "noAnswer2": "chastota",
-    "noAnswer3": "quvvat"
-  },
-  {
-    "question": "Nutq signali sohasidagi boshlang’ich va tugallanish koeffitsiyentlari orasidagi farqni aniqlash nutq signalining qaysi parametrini ifodalaydi?",
-    "answer": "Takrorlanuvchi oraliq qiymatlar soni",
-    "noAnswer1": "Energiya",
-    "noAnswer2": "Quvvat",
-    "noAnswer3": "Tovush spektrogramma qiymati"
-  },
-  {
-    "question": "Matlab paketida  tasvirni qaysi buyruq orqali gistogrammasini chiqarish mumkin?",
-    "answer": "Imhist()",
-    "noAnswer1": "Imshow()",
-    "noAnswer2": "Imread()",
-    "noAnswer3": "Info()"
-  },
-  {
-    "question": "MATLAB paketida ma’lumotlar qanday shaklda ifodalanadi?",
-    "answer": "matritsa",
-    "noAnswer1": "text",
-    "noAnswer2": "excel",
-    "noAnswer3": "file"
-  },
-  {
-    "question": "Tasvir signalining piksellari necha xil rangdan tashkil topgan?",
-    "answer": "3",
-    "noAnswer1": "5",
-    "noAnswer2": "6",
-    "noAnswer3": "8"
-  },
-  {
-    "question": "Matlab paketida signalni ekranda tasvirlash uchun qaysi buyruqdan foydalaniladi?",
-    "answer": "Plot()",
-    "noAnswer1": "Wavread()",
-    "noAnswer2": "Clc",
-    "noAnswer3": "Pwelch()"
-  },
-  {
-    "question": "Signalni kodlash nima?",
-    "answer": "signalni ikkilik sanoq sistemasiga o'tkazish",
-    "noAnswer1": "signalni qabul qilish",
-    "noAnswer2": "signalni qism-qism qilib bo'laklash",
-    "noAnswer3": "signalni diskretlangan qismini hisoblash"
-  },
-  {
-    "question": "Signalni segmentlash jarayoni qanday?",
-    "answer": "signalni ma’lum bo’laklarga ajratish",
-    "noAnswer1": "signalni tanish",
-    "noAnswer2": "signalni kvantlash",
-    "noAnswer3": "signalni kodlash"
-  },
-  {
-    "question": "Qanday turdagi signal tashqi ta’sirlarda kamroq o’zgaradi?",
-    "answer": "Raqamli signal",
-    "noAnswer1": "Analog signal",
-    "noAnswer2": "Analog va raqamli signal",
-    "noAnswer3": "To’g’ri javob A va B javoblar"
-  },
-  {
-    "question": "16 kHz chastota necha Hz chastota bo’ladi?",
-    "answer": "16000",
-    "noAnswer1": "16384",
-    "noAnswer2": "16100",
-    "noAnswer3": "16050"
-  },
-  {
-    "question": "KIX (eng: FIR) filtr uchun to’g’ri ta’rif berilgan qatorni toping.",
-    "answer": "Chekli impuls xarakteristikali filtr",
-    "noAnswer1": "Cheksiz impuls xarakteristikali filtr",
-    "noAnswer2": "Impuls xarakteristikali filtr emas",
-    "noAnswer3": "Tog’ri javob yo’q"
-  },
-  {
-    "question": "Raqamli filtrlar nechta katta turga bo’linadi?",
-    "answer": "2",
-    "noAnswer1": "5",
-    "noAnswer2": "7",
-    "noAnswer3": "1"
-  },
-  {
-    "question": "Qanday turdagi signal tashqi ta’sirlarda kamroq o’zgaradi?",
-    "answer": "Raqamli signal",
-    "noAnswer1": "Analog signal",
-    "noAnswer2": "Analog va raqamli signal",
-    "noAnswer3": "To’g’ri javob A va B javoblar"
-  },
-  {
-    "question": "Svyortka amalidan ko’p foydalaniladigan jarayon qaysi?",
-    "answer": "Filtrlash jarayoni",
-    "noAnswer1": "Kvantlash jarayoni",
-    "noAnswer2": "Diskretlash jarayoni",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Raqamli signal protsessorlari qanday sinf protsessorlari hisoblanadi?",
-    "answer": "keladigan analogli signallarning raqamli qayta ishlanishiga yo’naltirilgan maxsus mikroprotsessorlar sinfi",
-    "noAnswer1": "keladigan analogli signallarning raqamli qayta ishlanishiga yo’naltirilgan maxsus tranzistorlar sinfi",
-    "noAnswer2": "keladigan analogli signallarning raqamli qayta ishlanishiga yo’naltirilgan maxsus triggerlar sinfi",
-    "noAnswer3": "keladigan analogli signallarning raqamli qayta ishlanishiga yo’naltirilmagan maxsus mikroprotsessorlar sinfi"
-  },
-  {
-    "question": "Qanday signallar davriy signal hisoblanadi?",
-    "answer": "Ma’lum vaqt o’tishi bilan takrorlanadigan signal",
-    "noAnswer1": "Ma’lum vaqt o’tishi bilan takrorlanmaydigan signal",
-    "noAnswer2": "Ma’lum vaqt o’tmasligi bilan takrorlanadigan signal",
-    "noAnswer3": "Ma’lum vaqt o’tmaslgi bilan takrorlanmaydigan signal"
-  },
-  {
-    "question": "Matlabda clc – buyrug’i nima vazifani bajaradi?",
-    "answer": "ishchi oynani tozalash",
-    "noAnswer1": "buyruq",
-    "noAnswer2": "o’zgartiruvchi sonni kiritish",
-    "noAnswer3": "barchasi to’g’ri"
-  },
-  {
-    "question": "Real vaqt tizimlari bu....?",
-    "answer": "boshqaruv paytida tashqi ta’sirlarga javob berishga ulguradigan tizimlar",
-    "noAnswer1": "boshqariladigan har qanday tizimlar",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "kompleks tizimlarning barchasi"
-  },
-  {
-    "question": "Signalni diskretlash nima?",
-    "answer": "signalni vaqt o’qi bo’yicha bo’laklash",
-    "noAnswer1": "signalni vaqt o’qi bo’yicha uzatish",
-    "noAnswer2": "signalni vaqt o’qi bo’yicha qabul qilish",
-    "noAnswer3": "signalni vaqt o’qi bo’yicha kodlash"
-  },
-  {
-    "question": "Kompyuter markaziy boshqaruv vositalariga qaysilar kiradi?",
-    "answer": "mikroprotsessor, mikrokontroller",
-    "noAnswer1": "ARO’, mikrokontroller",
-    "noAnswer2": "yuborgichlar, boshqaruvchilar",
-    "noAnswer3": "kitirish-chiqarish modullari, ARO’"
-  },
-  {
-    "question": "Signalni kvantlash nima?",
-    "answer": "signalni amplituda o’qi bo’yicha bo’laklash",
-    "noAnswer1": "signalni amplituda o’qi bo’yicha uzatish",
-    "noAnswer2": "signalni Z o’qi bo’yicha perpendikulyar",
-    "noAnswer3": "signalni qabul qilish"
-  },
-  {
-    "question": "Raqamli filtrlar impuls javob reaksiyalariga ko‘ra 2ta katta turga bo'linadi ularni nomi keltirilgan qatorni ko'rsating.",
-    "answer": "Cheksiz va chekli",
-    "noAnswer1": "Chekli va uzluksiz",
-    "noAnswer2": "Davriy va chekli",
-    "noAnswer3": "To'gri javob yo'q"
-  },
-  {
-    "question": "Cheksiz impuls harakteristikali(BIX ing: IIR)  filtr uchun to‘g‘ri ta'rifni belgilang?",
-    "answer": "impuls tavsifnomasini vaqt mobaynida cheklanmagan xususiyatli bo‘ladi",
-    "noAnswer1": "impuls tavsifnomasini vaqt mobaynida cheklangan xususiyati hisoblanadi",
-    "noAnswer2": "barcha javoblar to'g'ri",
-    "noAnswer3": "bunday filtrlar odatda ishlatilmaydi"
-  },
-  {
-    "question": "Real vaqt tizimlari uchun to‘g‘ri bo‘lgan javobni ko‘rsating.",
-    "answer": "boshqaruv paytida tashqi ta'sirlarga javob berishga ulguradigan tizimlar",
-    "noAnswer1": "boshqariladigan xar qanday tizimlar",
-    "noAnswer2": "kompleks tizimlarning barchasi",
-    "noAnswer3": "To'g'ri javob yo'q"
-  },
-  {
-    "question": "Signal protsessori ishlab chiqaradigan dunyoda yetakchi kompaniya?",
-    "answer": "Analog Devices",
-    "noAnswer1": "Microsoft",
-    "noAnswer2": "IBM",
-    "noAnswer3": "Microsystem Sun"
-  },
-  {
-    "question": "AVR mikrokontrollerlari qaysi firmaga tegishli?",
-    "answer": "Atmel",
-    "noAnswer1": "MicroSystem Sun",
-    "noAnswer2": "Anolog Dvices",
-    "noAnswer3": "AVR Company"
-  },
-  {
-    "question": "QNX operatsion tizimi operatsion tizimi qachon ishlab chiqilgan?",
-    "answer": "1982",
-    "noAnswer1": "1984",
-    "noAnswer2": "1986",
-    "noAnswer3": "1970"
-  },
-  {
-    "question": "Signallarni qayta ishlashning an’anaviy bosqichlarini belgilang?",
-    "answer": "signalni olish, dastlabki ishlov berish, belgilarini aniqlash",
-    "noAnswer1": "tasniflash, filtrlash, dastlabki ishlov berish",
-    "noAnswer2": "signalni tanish, qayd qilish, filtrlash",
-    "noAnswer3": "barcha javoblar to'g'ri"
-  },
-  {
-    "question": "QNX operatsion tizimiga to'g'ri ta'rif berilgan qatorni toping?",
-    "answer": "real vaqt tizimida ishlovchi mikroyadroli operatsion tizim",
-    "noAnswer1": "Operatsion tizim yopiq kodli",
-    "noAnswer2": "Faqat bir foydalanuvchi uchun ishlab chiqilgan",
-    "noAnswer3": "barcha javoblar to'g'ri"
-  },
-  {
-    "question": "Korrelyatsiya ikki shakli mavjud ularni nomini aniqlang.",
-    "answer": "Avtokorrelyasiya va o'zaro korrelyasiya",
-    "noAnswer1": "O'zaro korrelyasiya va siklik",
-    "noAnswer2": "Radar signalar va chastotalar",
-    "noAnswer3": "To'gri javob yo'q"
-  },
-  {
-    "question": "Raqamli signal prosessorlari ishlab chiqaradigan firmalar qatorini ko'rsating.",
-    "answer": "Analog Device,Motorola,Texas Insruments",
-    "noAnswer1": "Motorola, Nokia, Samsung",
-    "noAnswer2": "LG,Samsung",
-    "noAnswer3": "To'gri javob yo'q"
-  },
-  {
-    "question": "Elektr signal deb –",
-    "answer": "elektr jarayonining bir yoki bir nechta parametrlarini xabarga mos ravishda o’zgarishiga aytiladi",
-    "noAnswer1": "xabarni fazoniy bir nuqtasidan ikkinchi nuqtasiga uzatish uchun xabarni biror bir fizik jarayonga yuklashimiz ya'ni\r\nuni signalga aylantirishimiz",
-    "noAnswer2": "bu xar xil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to‘g‘risidagi ma'lumotga",
-    "noAnswer3": "uzatish uchun uni ma'lum bir shaklga keltirish lozim tekst, jadval, grafik, rasm, xarakatdagi tasvir, va boshqalar"
-  },
-  {
-    "question": "Kvantlash jarayonida . . . .",
-    "answer": "signallarning butun diapazoni darajalarga bo'linadi, ularning soni berilgan bit kengligi sonlari bilan ifodalanishi kerak.",
-    "noAnswer1": "raqamli signallar o‘zaro bir-biri bilan qo‘shiladi",
-    "noAnswer2": "diskretlanmagan signallarni jamlash amalga oshiradi",
-    "noAnswer3": "to‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "Xabar manbadan xabar iste’molchiga yetkazib berish uchun foydalaniladigan texnik qurilmalar to’plamiga …………………  deb ataladi.",
-    "answer": "Aloqa tizimi",
-    "noAnswer1": "Aloqa liniyasi",
-    "noAnswer2": "Aloqa qurilmasi",
-    "noAnswer3": "Aloqa tuguni"
-  },
-  {
-    "question": "Matematik nuqtai nazardan, uzluksiz signal doimiy....... ifodalanadi.",
-    "answer": "funktsiyani",
-    "noAnswer1": "grafikni",
-    "noAnswer2": "matematikani",
-    "noAnswer3": "fizikani"
-  },
-  {
-    "question": "Aloqa tizimi deb…………… aytiladi.",
-    "answer": "xabar manbasi va iste'molchi o‘rtasidagi xohlagan ikkita nuqta orasidagi texnik qurilmalar to‘plamiga",
-    "noAnswer1": "xabarni fazoniy bir nuqtasidan ikkinchi nuqtasiga uzatish uchun xabarni biror bir fizik jarayonga yuklashimiz ya'ni uni signalga aylantirishimiz",
-    "noAnswer2": "bu xar xil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to‘g‘risidagi ma'lumotga",
-    "noAnswer3": "uzatish uchun uni ma'lum bir shaklga keltirish lozim tekst, jadval, grafik, rasm, xarakatdagi tasvir, va boshqalar"
-  },
-  {
-    "question": "Telefon signali (ovoz) spektr kengligi qancha ?",
-    "answer": "300 Hz ÷ 3400 Hz",
-    "noAnswer1": "300 Hz ÷ 3000 Hz",
-    "noAnswer2": "300 Hz ÷ 3800 Hz",
-    "noAnswer3": "300 Hz ÷ 400 Hz"
-  },
-  {
-    "question": "Radioeshittirish signali spektr kengligi qancha?",
-    "answer": "20  Hz   ÷  20000 Hz",
-    "noAnswer1": "20  Hz   ÷  200 Hz",
-    "noAnswer2": "20  Hz  ÷  2400 Hz",
-    "noAnswer3": "20  Hz   ÷  26000 Hz"
-  },
-  {
-    "question": "Matlab paketida “Workspace” qismda nimalar joylashgan?",
-    "answer": "Natijalar, o’zgaruvchi qiymatlari",
-    "noAnswer1": "Buyruqlar",
-    "noAnswer2": "Fayllar",
+    "question": "Nima uchun logistik regressiyada sigmoid funksiyadan foydalaniladi?",
+    "answer": "qiymatlarni (0,1) oraliqda keltirish",
+    "noAnswer1": "qiymatlarni [-1,1] oraliqda keltirish",
+    "noAnswer2": "qiymatlarni [0,1] oraliqda keltirish",
+    "noAnswer3": "qiymatlarni (-1,1) oraliqda keltirish"
+  },
+  {
+    "question": "Logistik regressiyada qaror chegrasi uchun topilgan modeldan olingan qiymat qaysi\r\nbo’sag’a qiymati orqali solishtiriladi va qaror qabul qilinadi?",
+    "answer": "0",
+    "noAnswer1": "1",
+    "noAnswer2": "0.5",
+    "noAnswer3": "-1 va 1"
+  },
+  {
+    "question": "SVM algoritmida suppor vectors bu?",
+    "answer": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlaydi",
+    "noAnswer1": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlaydi",
+    "noAnswer2": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlamaydi",
+    "noAnswer3": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlamaydi"
+  },
+  {
+    "question": "SVM algoritmidagi hisoblaanadigan orqaliq (margin) qanday bo’lsa model ishonchli debtopiladi?",
+    "answer": "Oraliq eng kattta bo’lsa",
+    "noAnswer1": "Oraliq eng kichik bo’lsa",
+    "noAnswer2": "Oraliq hech narsani anglatmaydi",
     "noAnswer3": "To’gri javob yo’q"
   },
   {
-    "question": "Matlab paketida “Command History” qismida nimalar joylashgan?",
-    "answer": "Buyruqlar tarixi",
-    "noAnswer1": "Natijalar, o’zgaruvchi qiymatlari",
-    "noAnswer2": "Fayllar",
-    "noAnswer3": "To’gri javob yo’q"
+    "question": "SVM algoritmida yadro(kernel) funksiyalari nima uchun xizmat qiladi?",
+    "answer": "Kiruvchi xususiyatlarni ma’lum o’lchov sohasidan boshqasiga o’zgartirish uchun xizmat qiladi. Misol uchun 1D -&gt; 2D",
+    "noAnswer1": "Kiruvchi xususiyatlarni 1D o’lchov sohasidan 2D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
+    "noAnswer2": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 1D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
+    "noAnswer3": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 3D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi"
   },
   {
-    "question": "1KHz chastota necha Hz chastota bo’ladi?",
-    "answer": "1000",
-    "noAnswer1": "1024",
-    "noAnswer2": "1050",
-    "noAnswer3": "1100"
+    "question": "SVM orqali ..",
+    "answer": "Faqat bir nechta sinfga tegishli bo’lgan obyektlar sinflanadi",
+    "noAnswer1": "Faqat ikkita sinfga tegishli bo’lgan obyektlar sinflanadi",
+    "noAnswer2": "Faqat regressiya masalasini yechish mumkin",
+    "noAnswer3": "Ham sinflashrish, ham regressiya masalasini ishlash mumkin."
   },
   {
-    "question": "Matlab paketida Adamard matritsasini hosil qilish buyrug’i qanday?",
-    "answer": "Hadamard()",
-    "noAnswer1": "Matrix()",
-    "noAnswer2": "Adamard()",
-    "noAnswer3": "Adamard_matrix()"
+    "question": "Qidiruv tizimlarida sun’iy intellektdan foydalanish mumkinmi",
+    "answer": "ha, mumkin va hozirda keng qo‘llanilmoqda (misol uchun Google, Yandex qidiruv tizimlari)",
+    "noAnswer1": "qisman amaliy natijalari bor lekin yetarlicha nazariy jihatdan formallashtirilmagan",
+    "noAnswer2": "nazariy jihatdan mumkin, lekin hozircha amaliy jihatdan natijalarga erishilmagan",
+    "noAnswer3": "qidiruv tizimlarida sun’iy intellektdan foydalanish qidiruv vaqtini oshiradi"
   },
   {
-    "question": "Matlab paketida signallarni svyortka qilish buyrug’i qanday?",
-    "answer": "Conv()",
-    "noAnswer1": "Convolution_s()",
-    "noAnswer2": "Coor()",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Logistik regression model nima uchun ishlatiladi",
+    "answer": "Sinflashtirsh masalasini yechish uchun",
+    "noAnswer1": "Klasterlash masalasini ishlash uchun",
+    "noAnswer2": "Neyron tarmoqni qurish uchun",
+    "noAnswer3": "Qiymatni bashoratlash uchun"
   },
   {
-    "question": "Matlab paketida “conv()” buyrug’i qanday vazifani bajaradi?",
-    "answer": "Signallarni svyortka qiladi",
-    "noAnswer1": "Signallarni korelyatsiya qiladi",
-    "noAnswer2": "Signallarni filtrlaydi",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Numpy kutubxonasidagi polyfit() funksiyasi nima uchun ishlatiladi?",
+    "answer": "Chiziqli regressiya uchun model paramertlarini aniqlash uchun",
+    "noAnswer1": "Loginstik regressiya uchun model paramertlarini aniqlash uchun",
+    "noAnswer2": "Chiziqli va logistik regressiya uchun model paramertlarini aniqlash uchun",
+    "noAnswer3": "Polynom funksiya yaratish uchun"
   },
   {
-    "question": "Matlab paketida “close all” buyrug’i qanday vazifani bajaradi?",
-    "answer": "Barcha ochiq figuralarni yopadi",
-    "noAnswer1": "\"Command Window\"ni tozalaydi",
-    "noAnswer2": "Figuralarni ochadi",
-    "noAnswer3": "O’zgaruvchilarni ifodalaydi"
+    "question": "Numpy kutubxonasidagi poly1d() funksiyasi nima uchun ishlatiladi?",
+    "answer": "Berilgan parametrlar asosida polinomal funksiya hosil qilish",
+    "noAnswer1": "Berilgan parametrlar asosida polinomal Class hosil qilish",
+    "noAnswer2": "Berilgan parametrlar asosida logistik regressiya modelini qurish",
+    "noAnswer3": "Berilgan parametrlar asosida giperbolik regressiya modelini qurish"
   },
   {
-    "question": "Ochiq figuralarni yopuvchi buyruq Matlab paketida qanday yoziladi?",
-    "answer": "Close all",
-    "noAnswer1": "Clear all",
-    "noAnswer2": "CLC",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Neyron tarmoqlarini qurishga mo’ljallangan python kutubxonalarini ko'rsating.",
+    "answer": "Numpy, keras, tensorflow",
+    "noAnswer1": "Numpy, pandas, keras",
+    "noAnswer2": "Tensorflow, numpy, pandas",
+    "noAnswer3": "Python, Matlab, Octave"
   },
   {
-    "question": "Mushaklardan olinadigan biosignallar qanday signallar turiga mansub?",
-    "answer": "Elektromiografiya signali",
-    "noAnswer1": "Elektrokardiografiya signali",
-    "noAnswer2": "Ensofologramma signali",
-    "noAnswer3": "Nutq signali"
+    "question": "Neyron tarmoq asosida sinflashtirish masalasini yechish mumkinmi?",
+    "answer": "Ha",
+    "noAnswer1": "Yoq, faqat regressiya masalasini yechadi.",
+    "noAnswer2": "Faqat ikkilik sinflashtirganda",
+    "noAnswer3": "Yoq, klasterlash masalasini yechadi."
   },
   {
-    "question": "Miyadan olinadigan signallar qanday signallar turiga kiradi?",
-    "answer": "Ensofologramma signali",
-    "noAnswer1": "Elektromiografiya signali",
-    "noAnswer2": "Elektrokardiografiya signali",
-    "noAnswer3": "Nutq signali"
-  },
-  {
-    "question": "Spektral o’zgartirish algoritmlari mavjud qatorni aniqlang:",
-    "answer": "DCT, FFT, Haar, Adamar",
-    "noAnswer1": "Hamming",
-    "noAnswer2": "Hanning",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Signallarni qayta ishlashda analog signallarni raqamli signalga aylantirishning asosiy amallari qaysilar?",
-    "answer": "Diskretlash,  kvantlash va Kodlash",
-    "noAnswer1": "Diskretlash",
-    "noAnswer2": "Kvantlash va Kodlash",
-    "noAnswer3": "Kodlash"
-  },
-  {
-    "question": "Garmonik CHM signalning tashuvchisining chastotasini oniy qiymati quyidagi ifoda asosida o’zgaradi:?",
-    "answer": " ω= +Δω cosΩt;",
-    "noAnswer1": "ω=ΔωcosΩt;",
-    "noAnswer2": "ω= cosΩt;",
-    "noAnswer3": "ω= +cosΩt;"
-  },
-  {
-    "question": "Raqamli mahlumotlar qanday qiymatlarni qabul qiladi:?",
-    "answer": " faqat diskret qiymatlarni qabul qiladi;",
-    "noAnswer1": "Qandaydir diapazondan uzluksiz qiymatlarni;",
-    "noAnswer2": "Raqamli qiymatlarni qabul qilmaydi;",
-    "noAnswer3": "0 dan 9 gacha qiymatlarni qabul qiladi;"
-  },
-  {
-    "question": "Chastota detektorida LC tebranish konturi .......... uchun ishlatiladi.?",
-    "answer": " chastotasi modulyatsiyalangan signalni amplitudasi modulyatsiyalangan signalga aylantirish;",
-    "noAnswer1": "signalni chastotasini kuchaytirish;",
-    "noAnswer2": "tashuvchi chastotaga sozlash;",
-    "noAnswer3": "filtrlash;"
-  },
-  {
-    "question": "ChM detectorida qaysi qurilma mavjud?",
-    "answer": " Amplituda cheklagichi;",
-    "noAnswer1": "amplituda chizgichi;",
-    "noAnswer2": "chastota cheklagichi;",
-    "noAnswer3": "tok cheklagichi;"
-  },
-  {
-    "question": "Diskret modulyatsiya turlaridan qaysi biri eng katta xalaqitbardoshlikka ega?",
-    "answer": " faza modulyatsiyasi;",
-    "noAnswer1": "amplituda modulyatsiyasi;",
-    "noAnswer2": "chastota modulyatsiyasi;",
-    "noAnswer3": "nisbiy modulyatsiyasi;"
-  },
-  {
-    "question": "Signalni uzatishda modulyatorga nechta signal beriladi?",
-    "answer": " asosan 2 ta signal beriladi;",
-    "noAnswer1": "asosan 1 ta signal beriladi;",
-    "noAnswer2": "asosan 3 ta signal beriladi;",
-    "noAnswer3": "asosan 4 ta signal beriladi;"
-  },
-  {
-    "question": "CDMA tizimi qaysi zichlashtirish usulini qo’llaydi?",
-    "answer": " Kod bo’ycha  zichlashtirish usulini;",
-    "noAnswer1": "Chastota bo’ycha  zichlashtirish usulini;",
-    "noAnswer2": "Fazo  bo’ycha  zichlashtirish usulini;",
-    "noAnswer3": "Vaqt bo’ycha  zichlashtirish usulini;"
-  },
-  {
-    "question": "Nutq signalining asosiy parametrlari qaysilar?",
-    "answer": "qisqa vaqtli energiyasi va noldan o‘tuvchi nuqtalar soni",
-    "noAnswer1": "qisqa vaqtli energiyasi",
-    "noAnswer2": "noldan o‘tuvchi nuqtalar soni",
-    "noAnswer3": "signalning diskretlash chastotasi"
-  },
-  {
-    "question": "Raqamli 16 lik mahlumotlar  qanday qiymatlarni qabul qiladi:?",
-    "answer": "00, 10, FF, 1A, A1 va xokozo qiymatlarni qabul qiladi;",
-    "noAnswer1": "ЯЯ, «, @, &, ZZ va xokozo qiymatlarni qabul qiladi;",
-    "noAnswer2": "Я1, 2«, 3@, 4&, QZ va xokozo qiymatlarni qabul qiladi;",
-    "noAnswer3": "Я1Я, «», @, &, Z1Z va xokozo qiymatlarni qabul qiladi;"
-  },
-  {
-    "question": "Chastota modulyatsiyasida chastota deviatsiyasi nimaga  bog’liq bo’ladi?",
-    "answer": " modulyatsiyalovchining amplitude va chastotasiga;",
-    "noAnswer1": "modulyatsiyalovchining fazasiga;",
-    "noAnswer2": "tashuvchining chastotasiga;",
-    "noAnswer3": "tashuvchining fazasiga;"
-  },
-  {
-    "question": "FM signalning o’zgaraishini ifodalash atatamasi:?",
-    "answer": " Faza indeksi;",
-    "noAnswer1": "Chastota  yandeksi;",
-    "noAnswer2": "Chastota  indeksi;",
-    "noAnswer3": "Chastota davri;"
-  },
-  {
-    "question": "ChM signalning o’zgaraishini ifodalash atatamasi:?",
-    "answer": " Chastota deviyatsiasi;",
-    "noAnswer1": "Chastota devolvatsiasi;",
-    "noAnswer2": "Chastota reviyutsiasi;",
-    "noAnswer3": "Chastota formatsiasi;"
-  },
-  {
-    "question": "Nochiziqli element  turi qaysi javobda to’g’ri berilgan?",
-    "answer": " Tranzistor;",
-    "noAnswer1": "Kondensator;",
-    "noAnswer2": "Qarshilik;",
-    "noAnswer3": "Termorezistor;"
-  },
-  {
-    "question": "Qabul qilgichning kirish paramtri atamasi?",
-    "answer": " sezgirlik;",
-    "noAnswer1": "dilgirlik;",
-    "noAnswer2": "quvvatlik;",
-    "noAnswer3": "qarshlik;"
-  },
-  {
-    "question": "Signallarni qayta ishlashda signal o‘lchamining sekundiga qilingan o‘lchashlar soni nima deb aytiladi?",
-    "answer": "Diskretlash",
-    "noAnswer1": "kvantlash chastotasi",
-    "noAnswer2": "freymlash chastotasi",
-    "noAnswer3": "to’g’ri javob keltirilmagan"
-  },
-  {
-    "question": "Signallarni uzluksiz yoki diskret miqdor qiymatlarining qatorini chekli oraliqlarga bo‘lish jarayoni qanday nomladi?",
-    "answer": "Kvantlash",
-    "noAnswer1": "Freymlash",
-    "noAnswer2": "Diskretlash",
-    "noAnswer3": "Taqsimlash"
-  },
-  {
-    "question": "Nutqiy signal tarkibidagi so'zlashuv, bo'g'in yoki fonemalar orasidagi chegaralarni aniqlash jarayoni nima deb ataladi?",
-    "answer": "Nutq signalini segmentlash",
-    "noAnswer1": "Nutq signalini kvantlash",
-    "noAnswer2": "Nutq signalini diskretlash",
-    "noAnswer3": "Nutq signalini yaxlitlash"
-  },
-  {
-    "question": "Signallarni qayta ishlash jarayonlarida analog raqamli o’zgartirish jarayoniga  tarkibiga qaysi amallar kiradi?",
-    "answer": "Diskretlash,kvantlash,kodlash",
-    "noAnswer1": "Diskretlash, segmentlash, filtrlash",
-    "noAnswer2": "Kvantlash,kodlash, segmentlash",
-    "noAnswer3": "Kvantlash"
-  },
-  {
-    "question": "Signallarni matritsalarga asoslangan spektral o’zgartirish algoritmini toping.",
-    "answer": "Adamar",
-    "noAnswer1": "DCT",
-    "noAnswer2": "Fure",
-    "noAnswer3": "DFT"
-  },
-  {
-    "question": "Signallarni sinus va kosinusga asoslangan spektral o’zgartirish algoritmi qaysi?",
-    "answer": "Fure",
-    "noAnswer1": "Adamar",
-    "noAnswer2": "DCT",
-    "noAnswer3": "Haara"
-  },
-  {
-    "question": "Qaysi spektral o’zgartirish algoritmi kosinusga asoslangan?",
-    "answer": "DCT",
-    "noAnswer1": "Fure",
-    "noAnswer2": "Adamar",
-    "noAnswer3": "Haara"
-  },
-  {
-    "question": "Nutq hamda tovush signallarni segmentlashning turlari qaysi?",
-    "answer": "Ketma-ket, suriluvchi",
-    "noAnswer1": "Sektorli, segmentli",
-    "noAnswer2": "Sigmoid",
-    "noAnswer3": "Kosmoid"
-  },
-  {
-    "question": "Nutq hamda tovush signallarni segmentlashning necha xil turi mavjud?",
-    "answer": "2",
-    "noAnswer1": "4",
+    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
+    "answer": "0",
+    "noAnswer1": "44682",
     "noAnswer2": "5",
-    "noAnswer3": "7"
+    "noAnswer3": "-5"
   },
   {
-    "question": "Elektromiografiya signallari qanday signal?",
-    "answer": "Biosignal",
-    "noAnswer1": "Nutq signali",
-    "noAnswer2": "Akustik signal",
-    "noAnswer3": "Sinusoid signal"
+    "question": "Neyron tarmoqdagi tugun qiymati 0 ga teng. Ushbu tugun sigmoid funksiyasi yordamidafaollashtirilsa qanday qiymatga o’zgaradi",
+    "answer": "0.5",
+    "noAnswer1": "0",
+    "noAnswer2": "1",
+    "noAnswer3": "2.785661"
   },
   {
-    "question": "Elektrokardiografiya signallari qanday signal?",
-    "answer": "Biosignal",
-    "noAnswer1": "Nutq signali",
-    "noAnswer2": "Akustik signal",
-    "noAnswer3": "Sinusoid signal"
+    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur o’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
+    "answer": "hozirda tasvirlardan ob’ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalardakeng foydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
+    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli\r\nfodalanilmaydi",
+    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
+    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
   },
   {
-    "question": "Elektroensofologramma signallari qanday signal?",
-    "answer": "Biosignal",
-    "noAnswer1": "Nutq signali",
-    "noAnswer2": "Akustik signal",
-    "noAnswer3": "Sinusoid signal"
+    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
+    "answer": "neyron tarmoqlar asosida",
+    "noAnswer1": "lokal tarmoqlar asosida",
+    "noAnswer2": "global tarmoqlar asosida",
+    "noAnswer3": "internet tarmoqlar asosida"
   },
   {
-    "question": "Quyidagi formatlardan qaysi biri audio signallariga mansub?",
-    "answer": "wav, mp3, ogg",
-    "noAnswer1": "c3d, txt",
-    "noAnswer2": "mp4, max, dll",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "MATLAB paketida tasvirlarni qaysi buyruq orqali o’qib olinadi?",
-    "answer": "Imread()",
-    "noAnswer1": "Imshow()",
-    "noAnswer2": "Imhist()",
-    "noAnswer3": "Info()"
-  },
-  {
-    "question": "MATLAB paketida tasvirni qaysi buyruq orqali ekranga chiqariladi?",
-    "answer": "Imshow()",
-    "noAnswer1": "Imread()",
-    "noAnswer2": "Imhist()",
-    "noAnswer3": "Info()"
-  },
-  {
-    "question": "Audio signallarining turlari to‘g‘ri keltirilgan javobni aniqlang",
-    "answer": "Mono va stereo",
-    "noAnswer1": "3d,7d",
-    "noAnswer2": "Mp3,wav",
-    "noAnswer3": "Ogg,aac"
-  },
-  {
-    "question": "Mono turidagi audio signallar qanday o’lchamda bo’ladi ?",
-    "answer": "1 kanalli",
-    "noAnswer1": "2 kanalli",
-    "noAnswer2": "3 kanalli",
-    "noAnswer3": "4 kanalli"
-  },
-  {
-    "question": "Stereo turidagi audio signallar qanday o’lchamda bo’ladi ?",
-    "answer": "2 kanalli",
-    "noAnswer1": "1 kanalli",
-    "noAnswer2": "3 kanalli",
-    "noAnswer3": "4 kanalli"
-  },
-  {
-    "question": "Matlab paketida audio signallarini qaysi buyruq orqali o’qib olinadi?",
-    "answer": "Audioread(), wavread()",
-    "noAnswer1": "Audiomread(), imshow()",
-    "noAnswer2": "Imread()",
-    "noAnswer3": "Imhist()"
-  },
-  {
-    "question": "Matlab paketida tasvir signallarini gistogrammasi orqali normallashtirish qaysi buyruq orqali amalga oshiriladi?",
-    "answer": "Histeq()",
-    "noAnswer1": "Imhist()",
-    "noAnswer2": "Histogram()",
-    "noAnswer3": "Pspectrum()"
-  },
-  {
-    "question": "Matlab paketida natijani chiqarish ekranini taqsimlash buyrug’i qaysi?",
-    "answer": "Subplot()",
-    "noAnswer1": "Plot()",
-    "noAnswer2": "Spectrogram()",
-    "noAnswer3": "Pspectrum()"
-  },
-  {
-    "question": "Inson qulog‘i eshita oladigan tovush chastotalari oraliqlarini belgilang?",
-    "answer": "20-20000 Hz",
-    "noAnswer1": "20 kHz-20MHz",
-    "noAnswer2": "20 Hz dan past",
-    "noAnswer3": "20 mHz – 20 kHz"
-  },
-  {
-    "question": "Analog signallar ....",
-    "answer": "vaqt o'tishi bilan doimiy ravishda o'zgarib turadi",
-    "noAnswer1": "\"0\" va \"1\" nollarning ketma-ketliklaridan iborat",
-    "noAnswer2": "qadamlar (qadamlar) o'zgarishi",
-    "noAnswer3": "faqat chastota domenida mavjud"
-  },
-  {
-    "question": "Bazis funksiyasi tashkil etuvchilari sinus va kosinusga ega spektral o'zgartirish turini aniqlang?",
-    "answer": "Fure",
-    "noAnswer1": "Haara",
-    "noAnswer2": "Adamar",
-    "noAnswer3": "Wavelet"
-  },
-  {
-    "question": "Tasodifiy signallarning parametrlarini aniqlang",
-    "answer": "Barchasi to‘g‘ri",
-    "noAnswer1": "Matematik kutilma",
-    "noAnswer2": "Dispersiya",
-    "noAnswer3": "O‘rtacha kvadratik og‘ish"
-  },
-  {
-    "question": "Nutq signallarini tanib olishda qaysi modeldan foydalangan maqsadga muvofiq?",
-    "answer": "Markov modellari",
-    "noAnswer1": "So`zlarning turli 3d modellari",
-    "noAnswer2": "Gap tuzilishi modellari",
-    "noAnswer3": "To`g`ri javob yo`q"
-  },
-  {
-    "question": "Bazis funksiyasi tashkil etuvchilari 1 va -1 ga ega spektral o'zgartirish turini aniqlang?",
-    "answer": "Adamar",
-    "noAnswer1": "DCT",
-    "noAnswer2": "Furye",
-    "noAnswer3": "Wavelet"
-  },
-  {
-    "question": "Bazis funksiyasi tashkil etuvchilari sinus va kosinusga ega spektral o'zgartirish turini aniqlang?",
-    "answer": "Furye",
-    "noAnswer1": "Haara",
-    "noAnswer2": "Adamar",
-    "noAnswer3": "Wavelet"
-  },
-  {
-    "question": "Ko'p protsessorli tizimlarda hisoblash jarayonini tashkil qilish usuli:",
-    "answer": "Ko'p protsessorli ishlov berish",
-    "noAnswer1": "Ko'p vazifali ishlov berish",
-    "noAnswer2": "Geterogen",
-    "noAnswer3": "Ko'p yadroli ishlov berish"
-  },
-  {
-    "question": "Oddiy raqamli signal protsessorlari tizimi quyidagilardan iborat:",
-    "answer": "DSP, xotira, ADC, DAC va aloqa portlari",
-    "noAnswer1": "mikroprotsessor va xotira",
-    "noAnswer2": "mikroprotsessor, ADC va DAC",
-    "noAnswer3": "mikroprotsessor va yordamchi ombor"
-  },
-  {
-    "question": "Raqamli filtrlarning asosiy afzalligi shundaki, ular:",
-    "answer": "nisbatan arzon",
-    "noAnswer1": "dizayni osonroq",
-    "noAnswer2": "dasturlashtiriladigan",
-    "noAnswer3": "o'tish zonasida keskin pasayishni ta'minlash"
-  },
-  {
-    "question": "Fourier transform (FT) quyidagilar uchun ishlatiladi:",
-    "answer": "vaqt domenidan davriy bo'lmagan signallarni chastota domeniga o'zgartirish",
-    "noAnswer1": "faqat vaqt domenidan chastota domeniga davriy signallarni va aksincha",
-    "noAnswer2": "diskret signallarni siqish",
-    "noAnswer3": "kiruvchi signal chastotalarini filtrlash"
-  },
-  {
-    "question": "Signallarni qayta ishlashda eng ko`p ishlatiladigan amal",
-    "answer": "Svyortka",
-    "noAnswer1": "Korrelyatisiya",
-    "noAnswer2": "Tanib olish masalalari",
-    "noAnswer3": "Identifikatsiya"
-  },
-  {
-    "question": "Signal chastotasi 230 Hz va qurilmaning disktretlash chastotasi 16 kHz bo'lsa, qurilma 1 sekundda nechta qiymat qabul qiladi.",
-    "answer": "16000",
-    "noAnswer1": "15670",
-    "noAnswer2": "16230",
-    "noAnswer3": "8230"
-  },
-  {
-    "question": "Qaysi spektral o’zgartirish algoritmi kosinusga asoslangan?",
-    "answer": "DCT",
-    "noAnswer1": "Fure",
-    "noAnswer2": "Adamar",
-    "noAnswer3": "Haara"
-  },
-  {
-    "question": "Aloqa qurilmasini energiya manbasi nima bo’lishi mumkin?",
-    "answer": " To’grilagich, akkamulyator, quyosh va shamol generatorlari;",
-    "noAnswer1": "avtogeneratorlar;",
-    "noAnswer2": "bloking-generatorlar;",
-    "noAnswer3": "servomotorlar;"
-  },
-  {
-    "question": "Low Pass Filtr uchun to’g’ri ta’rif berilgan qatorni toping.",
-    "answer": "Bu turdagi filtr chastotasi aniqlangan qiymatdan past bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlaydi",
-    "noAnswer1": "Bu turdagi filtr chastotasi aniqlangan qiymatdan past bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi",
-    "noAnswer2": "Bu turdagi filtr chastotasi aniqlangan qiymatdan yuqori bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlaydi",
-    "noAnswer3": "Bu turdagi filtr chastotasi aniqlangan qiymatdan yuqori bo’lgan signallarni o’tkazadi, boshqa signallarni kesib tashlamaydi"
-  },
-  {
-    "question": "Qayta ishlanadigan signallar qanday guruhlarga bo’linadi?",
-    "answer": "Barcha javoblar to’g’ri",
-    "noAnswer1": "Diskret",
-    "noAnswer2": "Raqamli",
-    "noAnswer3": "Analogli"
-  },
-  {
-    "question": "Diskretlash natijasida qanday signal paydo bo’ladi?",
-    "answer": "Diskret",
-    "noAnswer1": "Filtr",
-    "noAnswer2": "Analog",
-    "noAnswer3": "Hech qanaqa signal paydo bo’lmaydi"
-  },
-  {
-    "question": "Signalga to’g’ri ta’rif berilgan qatorni belgilang",
-    "answer": "bu fizik jarayon bo’lib, uning parametrlari uzatilayotgan xabarga muvofiq o’zgaradi",
-    "noAnswer1": "bu fizik jarayon bo’lib, uning parametrlari uzatilayotgan xabarga muvofiq o’zgarmaydi",
-    "noAnswer2": "bu fizik jarayon bo’lib, uning parametrlari uzatilmayotgan xabarga muvofiq o’zgaradi",
-    "noAnswer3": "bu fizik jarayon bo’lib, uning parametrlari bo’lmaydi"
-  },
-  {
-    "question": "Raqamli signal qanday bo’ladi?",
-    "answer": "Raqamli signal uzlukli bo’ladi",
-    "noAnswer1": "Raqamli signal uzlukliz bo’ladi",
-    "noAnswer2": "Raqamli signal analog bo’ladi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Analog signal qanday bo’ladi?",
-    "answer": "Analog signal uzliksiz bo’ladi",
-    "noAnswer1": "Analog signal kavntlangan bo’ladi",
-    "noAnswer2": "Analog signal diskretlangan bo’ladi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Analog signal bilan raqamli signal o’rtasida qanday farq bor?",
-    "answer": "Analog signal uzluksiz, raqamli signal uzlukli bo’ladi",
-    "noAnswer1": "Analog signal uzluksiz, raqamli signal uzlukliz bo’ladi",
-    "noAnswer2": "Analog signal uzlukli, raqamli signal uzlukli bo’ladi",
-    "noAnswer3": "Analog signal uzlukli, raqamli signal uzlukliz bo’ladi"
-  },
-  {
-    "question": "Chekli impuls harakteristikali(KIX ing: FIR) filtrni afzalligi nimada?",
-    "answer": "barcha javoblar to'g'ri",
-    "noAnswer1": "chidamli",
-    "noAnswer2": "qarama-qarshi aloqani talab qilmaydi",
-    "noAnswer3": "filtrlar fazasi chiziqli qilinishi mumkin"
-  },
-  {
-    "question": "Tibbiyotda ishlatiladigan signal turlarini belgilang.",
-    "answer": "elektromiografiya signali, elektroensefalografiya signali, elektrokardiografiya signal",
-    "noAnswer1": "davriy signal, statsionar signal, garmonik signal",
-    "noAnswer2": "tovush signali, garmonik signal, EKG signallari",
-    "noAnswer3": "barcha javoblar to’g’ri"
-  },
-  {
-    "question": "Signallarni korrelyatsiya qilishning nechta shakli mavjud?",
-    "answer": "2",
-    "noAnswer1": "5",
-    "noAnswer2": "7",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "Signallarni svyortka qilishning necha xil turi bor?",
-    "answer": "2",
+    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
+    "answer": "5",
     "noAnswer1": "4",
-    "noAnswer2": "5",
+    "noAnswer2": "3",
+    "noAnswer3": "6"
+  },
+  {
+    "question": "Chuqur o’qitishning birinchi bosqichi qanday jarayondan iborat?",
+    "answer": "Muammoni tushunib olish.",
+    "noAnswer1": "Ma’lumotlarni aniqlash.",
+    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer3": "Modelni o’qitish."
+  },
+  {
+    "question": "Chuqur o’qitishning ikkinchi bosqichi qanday jarayondan iborat?",
+    "answer": "Ma’lumotlarni aniqlash.",
+    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer2": "Modelni o’qitish.",
+    "noAnswer3": "Modelni testlash."
+  },
+  {
+    "question": "Chuqur o’qitishning turtinchi bosqichi qanday jarayondan iborat?",
+    "answer": "Modelni o’qitish.",
+    "noAnswer1": "Modelni testlash.",
+    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer3": "Muammoni tushunib olish."
+  },
+  {
+    "question": "Chuqur o’qitishning oxirgi bosqichi qanday jarayondan iborat?",
+    "answer": "Modelni testlash.",
+    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer2": "Modelni o’qitish.",
+    "noAnswer3": "Ma’lumotlarni aniqlash."
+  },
+  {
+    "question": "MNIST dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
+    "answer": "10",
+    "noAnswer1": "9",
+    "noAnswer2": "100",
+    "noAnswer3": "3"
+  },
+  {
+    "question": "CIFAR10 dataset da nechta sinfga tegishli obyektlarini ma’lumotlari bor",
+    "answer": "10",
+    "noAnswer1": "9",
+    "noAnswer2": "100",
+    "noAnswer3": "3"
+  },
+  {
+    "question": "CIFAR10 datasetda tasvirlarning o’lchami qaysi o’lchamda",
+    "answer": "To’g’ri javob yo’q",
+    "noAnswer1": "28x28",
+    "noAnswer2": "128x128",
+    "noAnswer3": "64x64"
+  },
+  {
+    "question": "CIFAR10 datasetda necha tanlama bor",
+    "answer": "60000",
+    "noAnswer1": "70000",
+    "noAnswer2": "50000",
+    "noAnswer3": "10000"
+  },
+  {
+    "question": "CIFAR100 dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
+    "answer": "100",
+    "noAnswer1": "99",
+    "noAnswer2": "10",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "IRIS dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
+    "answer": "3",
+    "noAnswer1": "2",
+    "noAnswer2": "10",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "IRIS dataset da obyektni xarakterlovchi xususiyatlari nechta",
+    "answer": "4",
+    "noAnswer1": "2",
+    "noAnswer2": "3",
     "noAnswer3": "8"
   },
   {
-    "question": "Signalni dastlabki holati uni qaysi sohasini anglatadi?",
-    "answer": "Amplituda -Vaqt soxasi",
-    "noAnswer1": "Chastota soxasi",
-    "noAnswer2": "Vaqt-chastota soxasi",
-    "noAnswer3": "barcha javoblar to’g’ri"
+    "question": "pip install tensorflow buyrug’i asosida nima sodir bo’ladi?",
+    "answer": "tensorflow kutubxonasi o’rnatiladi",
+    "noAnswer1": "keras va tensorflow kutubxonasi o’rnatiladi",
+    "noAnswer2": "tensorflow kutubxonasi chaqiriladi",
+    "noAnswer3": "keras va tensorflow kutubxonasi chaqiriladi"
   },
   {
-    "question": "Signalni vaqt soxasidan chastota sohasiga o’zgartiruvchi algoritmlar berilgan qatorni belgilang.",
-    "answer": "Fourier, DCT, Wavelet",
-    "noAnswer1": "KIX, BIX, Fourier",
-    "noAnswer2": "Low-pass, high-pass",
-    "noAnswer3": "barcha javoblar to’g’ri"
+    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 95% aniqliq va test dataset bilan testlaganimizda 92% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda.",
+    "answer": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer1": "Underfitting",
+    "noAnswer2": "Owerfitting",
+    "noAnswer3": "Everfitting"
   },
   {
-    "question": "Signal protsessorlari ishlab chiqaruvchi mashhur firmalarni ko'rsating.",
-    "answer": "Analog Device, Motorola, Texas Instruments",
-    "noAnswer1": "Analog Device, Lenovo",
-    "noAnswer2": "Analog Device, HP, Acer",
-    "noAnswer3": "barchasi to’g’ri"
-  },
-  {
-    "question": "Hisoblash moslamalari necha bitli ma'lumotlarni qayta ishlaydi?",
-    "answer": "16-bitli",
-    "noAnswer1": "23-bitli",
-    "noAnswer2": "17-bitli",
-    "noAnswer3": "15-bitli"
-  },
-  {
-    "question": "Tasvir signalining piksellari qanday ranglardan tashkil topgan?",
-    "answer": "qizil ko’k yashil",
-    "noAnswer1": "qora oq qizil",
-    "noAnswer2": "sariq qora oq",
-    "noAnswer3": "ko’k qora qizil"
-  },
-  {
-    "question": "Ma’lumotlarning siqish algoritmlari necha guruhga bo’linadi?",
-    "answer": "2",
-    "noAnswer1": "8",
-    "noAnswer2": "6",
-    "noAnswer3": "7"
-  },
-  {
-    "question": "Quyidagi keltirilgan filtrlash jarayoning ifodasida y[n] qanday signal?\r\ny[n] = (b0*x[n] + b1*x[n-1] + b2*x[n-2] – a1*y[n-1] – a2*y[n-2])/a0",
-    "answer": "Filtrlangan signal",
-    "noAnswer1": "Filtrlanganmagan signal",
-    "noAnswer2": "Shovqin signali",
-    "noAnswer3": "to’g’ri javob yo'q"
-  },
-  {
-    "question": "To‘g‘ri javobni tanlang: o‘zaro korrelyatsiya …..",
-    "answer": "ikkita signalning o’xshashligi yoki umumiy xususiyatlarining ko’rsatkichidir",
-    "noAnswer1": "ikkita signalning o’xshamasligi yoki umumiy xususiyatlarining ko’rsatkichidir",
-    "noAnswer2": "umumiy xususiyatlari ko’rsatkichimas",
-    "noAnswer3": "to’g’ri javob yo'q"
-  },
-  {
-    "question": "Raqamli filtr uchun to‘g‘ri javobni aniqlang.",
-    "answer": "Raqamli ishlov berish usuli, ma'lum chegaraga ajratuvchi jarayon, ketma-ketlik",
-    "noAnswer1": "Analog signallarni raqamli qilish uchun ishlatiladigan ketma-ketlik",
-    "noAnswer2": "To'g'ri javob yo'q",
-    "noAnswer3": "Turli rejimda ishlovchi, raqamli signallarni demodulyatsiya qilish ketma-ketligi"
-  },
-  {
-    "question": "Raqamli filtrning afzalligi nimada?",
-    "answer": "barcha javoblar to'g'ri",
-    "noAnswer1": "aniqligi",
-    "noAnswer2": "barqarorligi",
-    "noAnswer3": "sozlashga egiluvchanligi va kompaktligi"
-  },
-  {
-    "question": "Raqamli filtrning kamchiligi nimada?",
-    "answer": "barcha javoblar to'g'ri",
-    "noAnswer1": "baland chastotali signallar bilan ishlash qiyinligi",
-    "noAnswer2": "real vaqt davrida ishlash qiyinligi",
-    "noAnswer3": "signalni qayta ishlashda protsessorning quvvatli bo'lishi"
-  },
-  {
-    "question": "Diskret holda svyortkaning ikki turi mavjud ularni nomini aniqlang.",
-    "answer": "Chiziqli va siklik",
-    "noAnswer1": "Nochiziq va davr",
-    "noAnswer2": "Siklik va qiymat",
-    "noAnswer3": "To'gri javob yo'q"
-  },
-  {
-    "question": "To‘g‘ri javobni tanlang: Avtokorrelyatsiya bu ?",
-    "answer": "Faqat bitta signalning mavjudligi nazarda tutadi va vaqt o’tishi bilan signalning tuzilishi yoki uning harakati haqida malumot beradi",
-    "noAnswer1": "Ko’plab signalning mavjudligi nazarda tutadi va vaqt o’tishi bilan signalning tuzilishi yoki uning harakati haqida malumot beradi",
-    "noAnswer2": "Faqat bitta signalning mavjudligi nazarda tutmaydi va vaqt o’tishi bilan signalning tuzilishi yoki uning harakati haqida malumot beradi",
-    "noAnswer3": "Faqat bitta signalning mavjudligi nazarda tutadi va vaqt o’tishi bilan signalning tuzilishi yoki uning harakati haqida malumot bermaydi"
-  },
-  {
-    "question": "Chekli impuls harakteristikali(KIX ing: FIR) filtr uchun to‘g‘ri ta'rifni belgilang?",
-    "answer": "impuls tavsifnomasini vaqt mobaynida cheklangan xususiyatli bo‘ladi",
-    "noAnswer1": "impuls tavsifnomasini vaqt mobaynida cheklanmagan xususiyatli bo‘ladi",
-    "noAnswer2": "barcha javoblar to'g'ri",
-    "noAnswer3": "bunday filtrlar odatda ishlatilmaydi"
-  },
-  {
-    "question": "Raqamli sxemalar bilan taqqoslaganda analog sxemalar quyidagilarga nisbatan sezgirroqdir.\r\nharoratning o'zgarishi, qarish va elementlarning bardoshlik darajasi",
-    "answer": "dasturiy ta'minotdagi xatolar",
-    "noAnswer1": "dizayndagi kamchiliklar",
-    "noAnswer2": "chiqish signalidagi o'zgarishlar"
-  },
-  {
-    "question": "Furye tahlili ……",
-    "answer": "Signalni asl domenidan chastota domeniga o‘zgartiradi",
-    "noAnswer1": "Signalni ma’lum darajada pasaytirish uchun ishlatiladi",
-    "noAnswer2": "Kiruvchi signal fragmentlarga ajratadi",
-    "noAnswer3": "Qisqa vaqtli energiya qiymati hisoblanadi"
-  },
-  {
-    "question": "Signal deb ………………………………… aytiladi?",
-    "answer": "biror bir fizik jarayonning bir yoki nechta parametlarini xabarga mos ravishda o‘zgarishiga",
-    "noAnswer1": "inson haqida ma’lumot beruvchi kundalik",
-    "noAnswer2": "bu xar xil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to‘g‘risidagi ma'lumotnomaga",
-    "noAnswer3": "uzatish uchun uni ma'lum bir shaklga keltirish lozim tekst, jadval, grafik, rasm, xarakatdagi tasvir, va boshqalarga."
-  },
-  {
-    "question": "Tabiatda signallar asosan qanday holatda bo‘ladi ?",
-    "answer": "analog",
-    "noAnswer1": "raqamli",
-    "noAnswer2": "kvantlashgan",
-    "noAnswer3": "to‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "DFT(Discrete Fourier Transform) qiymatlarini qanday olinadi?",
-    "answer": "Qiymatlarni ketma-ketlikni turli chastotalarning tarkibiy qismlariga ajratish orqali",
-    "noAnswer1": "Qiymatlarni birma-bir murojaatlar asosida",
-    "noAnswer2": "Qiymatlarni turli yo‘nalishlarda berilgan so‘rovlar orqali",
-    "noAnswer3": "To‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "Tibbiyotda ishlatiladigan signal turlarini belgilang?",
-    "answer": "elektromiografiya signali, elektroensefalografiya signali, elektrokardiografiya signali",
-    "noAnswer1": "davriy signal, statsionar signal, garmonik signal",
-    "noAnswer2": "tovush signali, garmonik signal, EKG signallari",
-    "noAnswer3": "barcha javoblar to'g'ri"
-  },
-  {
-    "question": "Diskretlash chastotasi 11 kHz signalni vaqt o’qi bo’yicha nechta bo’lakka diskretlanadi",
-    "answer": "11050",
-    "noAnswer1": "11500",
-    "noAnswer2": "11000",
-    "noAnswer3": "11800"
-  },
-  {
-    "question": "Signalni kvatlash qaysi o’q bo’yicha amalga oshiriladi?",
-    "answer": "amplituda",
-    "noAnswer1": "vaqt",
-    "noAnswer2": "chastota",
-    "noAnswer3": "quvvat"
-  },
-  {
-    "question": "Signalda diskret kosinus o’zgartirishi amalga oshirilganda uning natijaviy qiymatlari qaysi sohada ifodalanadi?",
-    "answer": "Amplituda-chastota",
-    "noAnswer1": "Amplituda-vaqt",
-    "noAnswer2": "Kuchlanish-tok kuchi",
-    "noAnswer3": "Kuchlanish-vaqt"
-  },
-  {
-    "question": "Signalda tezkor Fure o’zgartirishi amalga oshirilganda uning natijaviy qiymatlari qaysi sohada ifodalanadi?",
-    "answer": "Amplituda-chastota",
-    "noAnswer1": "Amplituda-vaqt",
-    "noAnswer2": "Kuchlanish-tok kuchi",
-    "noAnswer3": "Kuchlanish-vaqt"
-  },
-  {
-    "question": "Signalda Adamar o’zgartirishi amalga oshirilganda uning natijaviy qiymatlari qaysi sohada ifodalanadi?",
-    "answer": "Amplituda-chastota",
-    "noAnswer1": "Amplituda-vaqt",
-    "noAnswer2": "Kuchlanish-tok kuchi",
-    "noAnswer3": "Kuchlanish-vaqt"
-  },
-  {
-    "question": "Signalda Wevylet o’zgartirishi amalga oshirilganda uning natijaviy qiymatlari qaysi sohada ifodalanadi?",
-    "answer": "Amplituda-chastota",
-    "noAnswer1": "Amplituda-vaqt",
-    "noAnswer2": "Kuchlanish-tok kuchi",
-    "noAnswer3": "Kuchlanish-vaqt"
-  },
-  {
-    "question": "Dastlab Analog signallarni qanday filtrlar yordamida filtrlanadi?",
-    "answer": "Analog filtrlar",
-    "noAnswer1": "Raqamli filtrlar",
-    "noAnswer2": "Gibrid filtrlar",
-    "noAnswer3": "filtrlanmaydi"
-  },
-  {
-    "question": "Signallar Analog filtr bilan filtrlanganda qanday signal hosil bo’ladi?",
-    "answer": "Analog signal",
-    "noAnswer1": "Raqamli signal",
-    "noAnswer2": "Diskret signal",
-    "noAnswer3": "Kvant signal"
-  },
-  {
-    "question": "Qanday filtrlarni ishlatish yordamida Raqamli signallarni filtrlash mumkin?",
-    "answer": "Raqamli filtrlar",
-    "noAnswer1": "Analog filtrlar",
-    "noAnswer2": "Raqamli signal filtrlanmaydi",
+    "question": "Pandas kutubxonasida head() funksiyasi nima vazifa bajaradi?",
+    "answer": "To’plamning dastlabgi bir nechta(5ta) satrini olib beradi.",
+    "noAnswer1": "To’plamning ustunlar nomini olib beradi.",
+    "noAnswer2": "To’plamning ustunlar nomisiz bir nechta satrini olib beradi.",
     "noAnswer3": "To’g’ri javob yo’q"
   },
   {
-    "question": "Signalni bo’laklarga taqsimlash(bo’lish) qanday jarayon?",
-    "answer": "Segmentlash",
-    "noAnswer1": "Svyortkalash",
-    "noAnswer2": "Korelyatsiyalash",
-    "noAnswer3": "Filtrlash"
+    "question": "Pythonda funksiya e’lon qilish uchun qaysi kalit so’zidan foydalaniladi?",
+    "answer": "def",
+    "noAnswer1": "function",
+    "noAnswer2": "void",
+    "noAnswer3": "define"
   },
   {
-    "question": "Turli turdagi signallarni turli shovqinlardan, halaqitlardan tozalash qanday jarayon?",
-    "answer": "Filtrlash",
-    "noAnswer1": "Segmentlash",
-    "noAnswer2": "Korelyatsiyalash",
-    "noAnswer3": "Aproksimatsiyalash"
+    "question": "Neyron tarmoqlarida dastlab vazn koeffitsentlari qanday bo’ladi?",
+    "answer": "random() funksiyasi orqali taxminiy beriladi.",
+    "noAnswer1": "musbat qiymatlar bilan to’ldiriladi.",
+    "noAnswer2": "To’ldirish shart emas.",
+    "noAnswer3": "manfiy qiymatlar bilan to’ldiriladi."
   },
   {
-    "question": "Signallarni bir biriga mosligini tekshirish qanday jarayon?",
-    "answer": "Korrelyatsiyalash",
-    "noAnswer1": "Segmentlash",
-    "noAnswer2": "Filtrlash",
-    "noAnswer3": "Interpolyatsiyalash"
+    "question": "Neyron tarmoqlarida topilgan vazn koeffitsentlari qanday bo’ladi?",
+    "answer": "Musbat va manfiy bo’lishi mumkin",
+    "noAnswer1": "Faqat musbat bo’ladi",
+    "noAnswer2": "Faqat manfiy bo’ladi",
+    "noAnswer3": "Qiymatlar [0,1] oraliqda bo’ladi."
   },
   {
-    "question": "Yurak mushagidan olinadigan signal qanday signal turiga kiradi?",
-    "answer": "Elektrokardiogramma signali",
-    "noAnswer1": "Elektromiografiya signali",
-    "noAnswer2": "Ensofologramma signali",
-    "noAnswer3": "Nutq signali"
+    "question": "KMaens algoritmida qo’llaniladigan ikki nuqta orasidagi masofa … deb yuritiladi.Nutqlar\r\no’rniga mos variantni qo’ying.",
+    "answer": "Euclidean masofasi",
+    "noAnswer1": "Chebyshev masofasi",
+    "noAnswer2": "Manhattan masofasi",
+    "noAnswer3": "Minkowski masofasi"
   },
   {
-    "question": "Tabiatda uchraydigan signallar …. turlarga bo’linadi.",
-    "answer": "Vaqt bo’yicha o’zgaradigan va o’zgarmaydigan",
-    "noAnswer1": "Diskret va raqamli",
-    "noAnswer2": "Spektral ishlov berilgan va berilmagan",
-    "noAnswer3": "Svyortyka qilingan va qilinmagan"
+    "question": "Gradient tushish algoritmidagi ‘learning rate’ parameter nimani xarakterlaydi?",
+    "answer": "O’qish qadamini",
+    "noAnswer1": "O’qishitda takrorlanishlar sonini",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Model aniqligini"
   },
   {
-    "question": "Signallar Bul algebrasida qanday ifodalanadi?",
-    "answer": "0 va 1 orqali",
-    "noAnswer1": "0-7 orqali",
-    "noAnswer2": "0-10 orqali",
-    "noAnswer3": "0-15 orqali"
+    "question": "UCI Machine Learning Repository nima ?",
+    "answer": "Mashinili o’qitishning ochiq manbali datasetlarini qidirishga mo’ljallangan tizim",
+    "noAnswer1": "GitHub Repository",
+    "noAnswer2": "Gitlab Repository",
+    "noAnswer3": "Kaggle Repository"
   },
   {
-    "question": "Signallarga raqamli ishlov berish amallarining qaysi birini asosida “svyortka algoritmi” yotadi?",
-    "answer": "Filtrlash",
-    "noAnswer1": "Furye o’zgartirish",
-    "noAnswer2": "Segmentlash",
-    "noAnswer3": "Interpolyatsiyalash"
+    "question": "Google Dataset Search qancha ma’lumotni qamrab oladi?",
+    "answer": "25 mln",
+    "noAnswer1": "250mln",
+    "noAnswer2": "15mln",
+    "noAnswer3": "6mln"
   },
   {
-    "question": "Raqamli signallar qanday formula asosida  filtrlanadi ?",
-    "answer": "y[n] = b0*x[n] + b1*x[n-1]",
-    "noAnswer1": "y[n] = (b0*x[n] + a1*x[n-1] )",
-    "noAnswer2": "y[n] = b2*x[n-2] – a1*y[n-1] – a2*y[n-2])/a0",
-    "noAnswer3": "To’g’ri javob yo'q"
+    "question": "Python array bu -",
+    "answer": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan",
+    "noAnswer1": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
+    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
+    "noAnswer3": "To’g’ri javob yo’q"
   },
   {
-    "question": "AVR mikrokontrollerlari qanday arxitekturada tuzilgan?",
-    "answer": "RISC-arxitektura asosidagi",
-    "noAnswer1": "CISC arxitektura asosida",
-    "noAnswer2": "CISC VA RISC",
-    "noAnswer3": "To'g'ri javob yo'q"
+    "question": "O’qituvchili o’qitish (supervised learning) nima?",
+    "answer": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) hamishlatish",
+    "noAnswer1": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
+    "noAnswer2": "modelni o’qitish uchun tasvir ma’lumotlaridan (image) foydalanish",
+    "noAnswer3": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish"
   },
   {
-    "question": "'fft(x)' - buyrug'i Matlab paketida qanday vazifani bajaradi?",
-    "answer": "X-signalni tezkor Furye o'zgartirishi yordamida chastota sohasiga olib o'tadi",
-    "noAnswer1": "X-signalni diskret kosinus o'zgartirishi yordamida chastota sohasiga olib o'tadi",
-    "noAnswer2": "X-signalni diskret sinus o'zgartirishi yordamida chastota sohasiga olib o'tadi",
-    "noAnswer3": "X-signalni diskret tangens o'zgartirishi yordamida chastota sohasiga olib o'tadi"
+    "question": "Keras muhitida qurilgan neyron tarmoqda joriy qatlam uchun faollashtirish funksiyasini\r\nqo’shishda quyidagilarning qaysi biridan foydalaniladi?",
+    "answer": "model.add(Activation(‘relu’))",
+    "noAnswer1": "model.insert(Activation(‘relu’))",
+    "noAnswer2": "model.function(Activate(‘relu’))",
+    "noAnswer3": "model.add(ActiveFunction(‘relu’))"
   },
   {
-    "question": "Korrelyatsiya jarayoni nechta shakli mavjud?",
-    "answer": "2",
+    "question": "O’qituvchisiz (unsupervised) o’qitish algortimlari to’g’ri ko’rsatilgan javobni ko’rsating?",
+    "answer": "k-means clustering, hierarchical clustering, independent component analysis",
+    "noAnswer1": "linear regression, nearest neighbor, random forest, decision tree",
+    "noAnswer2": "k-means clustering, deep learning, logistic regression, random forest",
+    "noAnswer3": "k-nn, decision tree, linear regression, k-means clustering"
+  },
+  {
+    "question": "O’qituvchisiz o’qitish (unsupervised learning) nima?",
+    "answer": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
+    "noAnswer1": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish",
+    "noAnswer2": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) hamishlatish",
+    "noAnswer3": "modelni o’qitish uchun tasvir ma’lumotlari va ularning belgilaridan (image+label) foydalanish"
+  },
+  {
+    "question": "Sigmoid funksiyasini hisoblash formulasini ko’rsating?",
+    "answer": "sig(x)=1/(1+exp(-x))",
+    "noAnswer1": "sig(x)=1/(1-exp(x))",
+    "noAnswer2": "sig(x)=1/exp(-x)",
+    "noAnswer3": "sig(x)=1/exp(x)"
+  },
+  {
+    "question": "Mashinali o’qitish nima?",
+    "answer": "kompyuter dasturining ma’lumotlarni o’qib olish asosida xususiyatlarni o’rganish qobiliyatidir",
+    "noAnswer1": "faqat kompyuter o’yinlarini yaratish uchun dastur xususiyatlarni o’rganish qobiliyatidir",
+    "noAnswer2": "bu robotni o’rgatishning an’anaviy usuli",
+    "noAnswer3": "kompyuter dasturlarini lug’at yordamida o’qitish usuli"
+  },
+  {
+    "question": "Pythonda massivni e’lon qilish uchun qanday toifalardan foydalaniladi?",
+    "answer": "array, matrix",
+    "noAnswer1": "tuple, arr",
+    "noAnswer2": "list, tuple",
+    "noAnswer3": "arr, list"
+  },
+  {
+    "question": "Sun'iy intellekt bu …?",
+    "answer": "bu kompyuterda insonning aqlli xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
+    "noAnswer1": "bu kompyuterda insonning jismoniy xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
+    "noAnswer2": "bu kompyuterda insonning bialogik xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Keras kutubxonasidagi Sequential() nima vazifani bajaradi?",
+    "answer": "neyron tarmoq modelini qurish uchun dastlabki obyektni yaratadi",
+    "noAnswer1": "ketma-ket kamida 2 qatlamdan iborat neyron tarmoq quradi",
+    "noAnswer2": "neyron tarmoq modelini o’qitish uchun ishlatiladi",
+    "noAnswer3": "qurilgan neyron tarmoqni ketma-ket ko’rinishga keltiradi"
+  },
+  {
+    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(10) ifodasida i indekso’zgaruvchisiga qanday qiymatlar keladi?",
+    "answer": "0 1 2 3 4 5 6 7 8 9",
+    "noAnswer1": "0 1 2 3 4 5 6 7 8 9 10",
+    "noAnswer2": "0 9",
+    "noAnswer3": "1 2 3 4 5 6 7 8 9 10"
+  },
+  {
+    "question": "Qanday turdagi faollashtirish funksiyalari mavud?",
+    "answer": "ReLU, sigmoid, softmax",
+    "noAnswer1": "loss, sigmoid, ReLU",
+    "noAnswer2": "ReLU, cost, softmax",
+    "noAnswer3": "cost, loss, sigmoid"
+  },
+  {
+    "question": "Chuqur o’qitish – bu?",
+    "answer": "bu ko'p qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilganjarayondir",
+    "noAnswer1": "bu bir qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilganjarayondir",
+    "noAnswer2": "bu bu modelni qurib olish uchun amalga oshiriladigan o’qitish jarayonidir",
+    "noAnswer3": "bu modelni tezroq va aniqroq qurib olish uchun amalga oshiriladigan jarayon"
+  },
+  {
+    "question": "Python muhitida turli xil matematik funksiya grafiklarini va tasvirlarni vizuallashtirish uchunishlatiladigan paket qaysi?",
+    "answer": "matplotlib",
+    "noAnswer1": "keras",
+    "noAnswer2": "pandas",
+    "noAnswer3": "numpy"
+  },
+  {
+    "question": "Sun’iy neyron tarmoq tashkil etuvchilarini ko’rsating?",
+    "answer": "node, input, weights, output",
+    "noAnswer1": "cell body, dendrites, synapse, axon",
+    "noAnswer2": "input, dendrites, synapse, output",
+    "noAnswer3": "synapse, axon, weights, node"
+  },
+  {
+    "question": "Python muhitida scatter() funksiyasi qanday vazifani bajaradi?",
+    "answer": "berilgan x,y to'plam bo’yicha 2 o’lchovli grafigini chizish uchun ishlatiladi",
+    "noAnswer1": "chiziqli regression model koeffitsentlarini (ko’pi bilan 3 ta) hisoblaydi",
+    "noAnswer2": "polinomial regression model koeffitsentlarini hisoblaydi",
+    "noAnswer3": "qurilgan model koeffitsentlari bo’yicha bashorat qilinadigan qiymatlarni hisoblaydi"
+  },
+  {
+    "question": "KNN bu…?",
+    "answer": "K ta yaqin qo’shnilar agoritmi",
+    "noAnswer1": "Svyortkali neyron tarmoq",
+    "noAnswer2": "Adamar almashtririshli Neyron tarmoq",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
+    "answer": "Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali\r\no’qitishda aqlli mashinalarga dasturlashning muqobil usulidir.",
+    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
+    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
+    "answer": "O’qtuvchili va O’qituvchisiz",
+    "noAnswer1": "Tanlanma",
+    "noAnswer2": "Ma’lumotlar bazasi",
+    "noAnswer3": "Chiziqli va logistik"
+  },
+  {
+    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
+    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
+    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
+    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
+    "noAnswer3": "Oddiy algoritm"
+  },
+  {
+    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
+    "answer": "mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilano’qitish amalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchunmodelga o'z ustida ishlashga imkon yaratib beriladi",
+    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
+    "noAnswer2": "Bunday o’qitish mavjud emas",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
+    "answer": "klasterlash",
+    "noAnswer1": "normallashtirish",
+    "noAnswer2": "sinflashtirish",
+    "noAnswer3": "Signallarga ishlov berish"
+  },
+  {
+    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
+    "answer": "Hierarchical clustering va K-means clustering",
+    "noAnswer1": "SVM va CNN",
+    "noAnswer2": "RNN va GMM",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Ma’lumotlarni tozalashga to'liq ta'rif berilgan qatorini toping?",
+    "answer": "Ushbu bosqichda ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan model\r\nturg’unligiga ta’sir qiluvchi ma’lumotlar olib tashlanadi.",
+    "noAnswer1": "Dataset ma’lumotlarini testlash",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Qaror daraxtidan ma’lumotlarni olib tashlash"
+  },
+  {
+    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
+    "answer": "klasterlash",
+    "noAnswer1": "normallashtirish",
+    "noAnswer2": "sinflashtirish",
+    "noAnswer3": "Signallarga ishlov berish"
+  },
+  {
+    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
+    "answer": "Hierarchical clustering va K-means clustering",
+    "noAnswer1": "SVM va CNN",
+    "noAnswer2": "RNN va GMM",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur o’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
+    "answer": "hozirda tasvirlardan ob’ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalardakeng foydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
+    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli\r\nfodalanilmaydi",
+    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
+    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
+  },
+  {
+    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
+    "answer": "Format, Data Cleaning, Feature Extraction",
+    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
+    "noAnswer2": "Resizing, Feature Extraction, Format",
+    "noAnswer3": "Format, Resizing, Data Cleaning"
+  },
+  {
+    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
+    "answer": "chiziqli, nochiziqli va logistik regressiya usullari asosida",
+    "noAnswer1": "sintaktik usullar asosida",
+    "noAnswer2": "dinamik usillar asosida",
+    "noAnswer3": "semantik usullari asosida"
+  },
+  {
+    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviyma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonningbosqichlari hisoblanadi",
+    "answer": "Mashinali o’qitish",
+    "noAnswer1": "Chuqur o’qitish",
+    "noAnswer2": "Regression tahlil",
+    "noAnswer3": "Statistik tahlil"
+  },
+  {
+    "question": "Keras bu – ...",
+    "answer": "tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
+    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
+    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
+    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
+  },
+  {
+    "question": "Gradient tushish bu?",
+    "answer": "Model parametrlarini sozlash uchun ishlatiladigan algoritm",
+    "noAnswer1": "Xatolik funksiyasi",
+    "noAnswer2": "Kiruvchi ma’lumotlarni narmallashtirish uchun qiymatlarni 0,1oraliqqa tushirish",
+    "noAnswer3": "Mashinali o’qitish turi"
+  },
+  {
+    "question": "Tensorflow bu – ...",
+    "answer": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
+  },
+  {
+    "question": "Sklearn bu - …",
+    "answer": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalgaoshirishga mo’ljallangan maxsus paket",
+    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishgamo’ljallangan hisoblanadi",
+    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitishalgortimlarini ishlab chiqishga mo’ljallangan",
+    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili\r\nalgoritmlarini amalga oshirishga mo’ljallangan maxsus paket"
+  },
+  {
+    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
+    "answer": "neyron tarmoqlar asosida",
+    "noAnswer1": "lokal tarmoqlar asosida",
+    "noAnswer2": "global tarmoqlar asosida",
+    "noAnswer3": "internet tarmoqlar asosida"
+  },
+  {
+    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
+    "answer": "5",
+    "noAnswer1": "4",
+    "noAnswer2": "3",
+    "noAnswer3": "6"
+  },
+  {
+    "question": "IRIS dataset da obyektni xarakterlovchi xususiyatlari nechta",
+    "answer": "4",
+    "noAnswer1": "2",
+    "noAnswer2": "3",
+    "noAnswer3": "8"
+  },
+  {
+    "question": "Supervised learning ?",
+    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
+    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
+    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
+  },
+  {
+    "question": "Mashinali o’qitishning o’qituvchili sinflashtirish algoritmini ko’rsating",
+    "answer": "KNN,SVM,Logistik regresiya",
+    "noAnswer1": "Kmaens",
+    "noAnswer2": "Chiziqli regressiya",
+    "noAnswer3": "Kmaens,KNN"
+  },
+  {
+    "question": "Sun’iy intellekti bo’lmagan elementni ko’rsating",
+    "answer": "Hub",
+    "noAnswer1": "Kalkulyator",
+    "noAnswer2": "Telefon",
+    "noAnswer3": "Foto Radar"
+  },
+  {
+    "question": "Logistik regressiyada qaror chegrasi uchun topilgan modeldan olingan qiymat qaysi\r\nbo’sag’a qiymati orqali solishtiriladi va qaror qabul qilinadi?",
+    "answer": "0",
+    "noAnswer1": "1",
+    "noAnswer2": "0.5",
+    "noAnswer3": "-1 va 1"
+  },
+  {
+    "question": "Mashinali o’qitish va suniy intellekt",
+    "answer": "Mashinali o’qitish sun’iy intellekt tizimlarini ishlab chiqishga xizmat qiladi",
+    "noAnswer1": "Bir tushunchani ifodalaydi",
+    "noAnswer2": "Sun’iy intellekt mashinali o’qitish tizimlarini ishlab chiqishga xizmat qiladi",
+    "noAnswer3": "Turli tushunchalarni ifodalaydi"
+  },
+  {
+    "question": "Mashinali o’qitishning asosiy turlari qaysilar",
+    "answer": "O’qituvchili,O’qituvchisiz",
+    "noAnswer1": "Regressiya,Sinflashtirish",
+    "noAnswer2": "KNN,SVM,Kmaens",
+    "noAnswer3": "Logistik va chiziqli regressiya"
+  },
+  {
+    "question": "Chiziqli va logistic regressiyaning asosiy farqi",
+    "answer": "Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli regressiya basharotlash, logisticregressiya sinflashtirish",
+    "noAnswer1": "Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli sinflashtirish basharotlash, logisticregressiya regressiya",
+    "noAnswer2": "Ikkalasi ham bir turdagi masalani ishlash uchun mo’ljallangan",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Python dasturlash tilida ma’lumotlarni visuallashtirish uchun ishlatiladigan kutubxona",
+    "answer": "Matplotlib",
+    "noAnswer1": "plotData",
+    "noAnswer2": "Pillow",
+    "noAnswer3": "PyPlot"
+  },
+  {
+    "question": "Numpy kutubxonasida ikkita vektorni vektor ko’paytirish amali qanaqa?",
+    "answer": "A@B",
+    "noAnswer1": "A*B",
+    "noAnswer2": "np.dot([A,B])",
+    "noAnswer3": "np.multiply([A,B])"
+  },
+  {
+    "question": "Pythonda ikkita vektorni birlashtirishda xatolik sodir bo’ladigan javobni tanlang",
+    "answer": "a=append(a,b)",
+    "noAnswer1": "a=np.append(a,b)",
+    "noAnswer2": "a=np.append(b,a)",
+    "noAnswer3": "Varinatlarning barchasida vektorlar birlashtiriladi"
+  },
+  {
+    "question": "Cost funksiya bu?",
+    "answer": "Modelni o’qitish davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamadaberilgan qiymat oralidagi farqlarni hisoblash funksiyasi",
+    "noAnswer1": "Cosinius funksiyasini qisqartma ko’rinishi?",
+    "noAnswer2": "Bunday nomdagi funksiya yo’q.",
+    "noAnswer3": "Modelni testlash davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamadaberilgan qiymat oralidagi farqlarni hisoblash funksiyasi"
+  },
+  {
+    "question": "Chiziqli regression model nechta qiymat qaytaradi",
+    "answer": "Har doim bitta",
+    "noAnswer1": "Ixtiyoriy ravishdagi sonda qiymat qaytarishi mumkin",
+    "noAnswer2": "Har doim bittadan ko’p",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "QR code mashinali o’qitilish algoritmi asosida ishlab chiqilgan ?",
+    "answer": "Noto’g’ri,",
+    "noAnswer1": "To’g’ri",
+    "noAnswer2": "Bo’lishi mumkin",
+    "noAnswer3": "Bilmayman"
+  },
+  {
+    "question": "Bias va Variance tushunchalarining farqi nimada?",
+    "answer": "Bias modelni train to’plam bilan testlagandagi xatolik, Variance esa test to’plambilantestlagandagi xatolik",
+    "noAnswer1": "Bias modelni test to’plam bilan testlagandagi xatolik, Variance esa train to’plambilantestlagandagi xatolik",
+    "noAnswer2": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat test\r\nto’plam bilan testlagandagi xatolik",
+    "noAnswer3": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat trainto’plam bilan testlagandagi xatolik"
+  },
+  {
+    "question": "Agar bias yuqori bo’lsa qaysi turdagi muammo sodir bo’lmoqda?",
+    "answer": "Underfitting",
+    "noAnswer1": "Owerfitting",
+    "noAnswer2": "Bias ni yuqoriligi mumamo hisoblanmaydi",
+    "noAnswer3": "Model juda murakkab"
+  },
+  {
+    "question": "Agar Variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
+    "answer": "Owerfitting",
+    "noAnswer1": "Underfitting",
+    "noAnswer2": "Variance ni yuqoriligi mumamo hisoblanmaydi",
+    "noAnswer3": "Model juda sodda"
+  },
+  {
+    "question": "Agar biass quyi va variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
+    "answer": "Owerfitting",
+    "noAnswer1": "Underfitting",
+    "noAnswer2": "Bias ni quyi variance ni yuqoriligi mumamo hisoblanmaydi",
+    "noAnswer3": "Model juda sodda"
+  },
+  {
+    "question": "Model murakkab bo’lsa bias qanday bo’ladi?",
+    "answer": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi past bo’ladi",
+    "noAnswer1": "To’g’ri javob yo’q",
+    "noAnswer2": "Bias ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas.",
+    "noAnswer3": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi yuqori\r\nbo’ladi"
+  },
+  {
+    "question": "Model murakkab bo’lsa variance qanday bo’ladi?",
+    "answer": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi yuqori\r\nbo’ladi",
+    "noAnswer1": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi past bo’ladi",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Variance ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas."
+  },
+  {
+    "question": "Uy narxini bashorat qilish uchun mashinali o’qitishning qaysi algoritmidan foydalanadi",
+    "answer": "Chiziqli regressiya",
+    "noAnswer1": "Logistik regressiya",
+    "noAnswer2": "Kmeans",
+    "noAnswer3": "SVM"
+  },
+  {
+    "question": "O’ratuvchi tanlamadagi test to’plam bu?",
+    "answer": "modelni testlash uchun ishlatiladi",
+    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
+    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
+    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
+  },
+  {
+    "question": "O’rgatuvchi tanlamada normallashtirish tushunchasi bu?",
+    "answer": "O’ratuvchi tanlamdagi qiymatlarni bir xil shkalaga o’tkazish",
+    "noAnswer1": "O’ratuvchi tanlamdagi qiymatlarni turli xil shkalaga o’tkazish",
+    "noAnswer2": "O’ratuvchi tanlamdagi qiymatlarni faqat [0,1] shkalaga o’tkazish",
+    "noAnswer3": "O’ratuvchi tanlamdagi qiymatlarni faqat [-1,1] shkalaga o’tkazish"
+  },
+  {
+    "question": "Logistik regressiya masalasida asosan qaysi aktivlashtirish funksiyasidan foydalaniladi?",
+    "answer": "Sigmoid",
+    "noAnswer1": "Tanh",
+    "noAnswer2": "ReLU",
+    "noAnswer3": "Sigmoid va ReLU"
+  },
+  {
+    "question": "Nima uchun o’rgatuvchi tanlama normallashtiriladi?",
+    "answer": "Obyektni xarakterlovchi xususiyatlari bir xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish",
+    "noAnswer1": "Obyektni xarakterlovchi xususiyatlari faqat [0,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
+    "noAnswer2": "Obyektni xarakterlovchi xususiyatlari faqat [-1,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
+    "noAnswer3": "Obyektni xarakterlovchi xususiyatlari turli xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish"
+  },
+  {
+    "question": "Validation dataset qayerda ishlatiladi?",
+    "answer": "Modelni qurish davomida paramertlarni sozlashda",
+    "noAnswer1": "Model qurib bo’linganidan so’ng aniqlikni baholashda",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Validation datasetdan foydalanilmaydi"
+  },
+  {
+    "question": "Klasterlash bu ?",
+    "answer": "O’qituvchisiz o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
+    "noAnswer1": "O’qituvchili o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
+    "noAnswer2": "Mashinali o’qitishda buday tushuncha yo’q.",
+    "noAnswer3": "Logistik regressiya asosida amalga oshiriladigan mashinali o’qitish algoritmi"
+  },
+  {
+    "question": "KNN algoritmida k qiymat nimani xaratterlaydi?",
+    "answer": "k ta eng yaqin qo’shnini",
+    "noAnswer1": "k ta eng uzoq qo’shnini",
+    "noAnswer2": "O’qitish qadami",
+    "noAnswer3": "O’qitishlar sonini"
+  },
+  {
+    "question": "Logistik regressiyada qaror qabul qilishimiz uchun modeldan olingan qiymat qaysi bo’sag’aqiymati orqali solishtiriladi?",
+    "answer": "0.5",
+    "noAnswer1": "0",
+    "noAnswer2": "1",
+    "noAnswer3": "-1 va 1"
+  },
+  {
+    "question": "Nima uchun logistik regressiyada sigmoid funksiyadan foydalaniladi?",
+    "answer": "qiymatlarni (0,1) oraliqda keltirish",
+    "noAnswer1": "qiymatlarni [-1,1] oraliqda keltirish",
+    "noAnswer2": "qiymatlarni [0,1] oraliqda keltirish",
+    "noAnswer3": "qiymatlarni (-1,1) oraliqda keltirish"
+  },
+  {
+    "question": "SVM algoritmida suppor vectors bu?",
+    "answer": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlaydi",
+    "noAnswer1": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlaydi",
+    "noAnswer2": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlamaydi",
+    "noAnswer3": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlamaydi"
+  },
+  {
+    "question": "SVM algoritmidagi hisoblaanadigan orqaliq (margin) qanday bo’lsa model ishonchli debtopiladi?",
+    "answer": "Oraliq eng kattta bo’lsa",
+    "noAnswer1": "Oraliq eng kichik bo’lsa",
+    "noAnswer2": "Oraliq hech narsani anglatmaydi",
+    "noAnswer3": "To’gri javob yo’q"
+  },
+  {
+    "question": "SVM algoritmida yadro(kernel) funksiyalari nima uchun xizmat qiladi?",
+    "answer": "Kiruvchi xususiyatlarni ma’lum o’lchov sohasidan boshqasiga o’zgartirish uchun xizmat qiladi. Misol uchun 1D -&gt; 2D",
+    "noAnswer1": "Kiruvchi xususiyatlarni 1D o’lchov sohasidan 2D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
+    "noAnswer2": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 1D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
+    "noAnswer3": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 3D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi"
+  },
+  {
+    "question": "SVM orqali ..",
+    "answer": "Faqat bir nechta sinfga tegishli bo’lgan obyektlar sinflanadi",
+    "noAnswer1": "Faqat ikkita sinfga tegishli bo’lgan obyektlar sinflanadi",
+    "noAnswer2": "Faqat regressiya masalasini yechish mumkin",
+    "noAnswer3": "Ham sinflashrish, ham regressiya masalasini ishlash mumkin."
+  },
+  {
+    "question": "Modelni o’qitish uchun o’quv tanlanma (dataset) qanday turlarga bo’lindi",
+    "answer": "training, validation, testing",
+    "noAnswer1": "testing, value-x, training",
+    "noAnswer2": "validation, labels, training",
+    "noAnswer3": "labels, validation, testing"
+  },
+  {
+    "question": "O’qitish uchun ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan, model turg’unligigata’sir qiluvchi ma’lumotlarni olib tashlash jarayoni nima deb ataladi",
+    "answer": "Ma’lumotlarni tozalash (Data cleaning)",
+    "noAnswer1": "Xususiyatlarni aniqlash (Feature detection)",
+    "noAnswer2": "Ma’lumotlarni o’chirish (Data deletion)",
+    "noAnswer3": "Ma’lumotlar turini aniqlash (Data formatting)"
+  },
+  {
+    "question": "Neyron tarmoqlarida sinflashtirish masalasini yechishda chiquvchi qatlamda qaysi turdagi\r\naktivlash funksiyasidan foydalaniladi",
+    "answer": "Softmax",
+    "noAnswer1": "Sigmoid",
+    "noAnswer2": "ReLu",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Logistik regression model nima uchun ishlatiladi",
+    "answer": "Sinflashtirsh masalasini yechish uchun",
+    "noAnswer1": "Klasterlash masalasini ishlash uchun",
+    "noAnswer2": "Neyron tarmoqni qurish uchun",
+    "noAnswer3": "Qiymatni bashoratlash uchun"
+  },
+  {
+    "question": "Numpy kutubxonasidagi polyfit() funksiyasi nima uchun ishlatiladi?",
+    "answer": "Chiziqli regressiya uchun model paramertlarini aniqlash uchun",
+    "noAnswer1": "Loginstik regressiya uchun model paramertlarini aniqlash uchun",
+    "noAnswer2": "Chiziqli va logistik regressiya uchun model paramertlarini aniqlash uchun",
+    "noAnswer3": "Polynom funksiya yaratish uchun"
+  },
+  {
+    "question": "Numpy kutubxonasidagi poly1d() funksiyasi nima uchun ishlatiladi?",
+    "answer": "Berilgan parametrlar asosida polinomal funksiya hosil qilish",
+    "noAnswer1": "Berilgan parametrlar asosida polinomal Class hosil qilish",
+    "noAnswer2": "Berilgan parametrlar asosida logistik regressiya modelini qurish",
+    "noAnswer3": "Berilgan parametrlar asosida giperbolik regressiya modelini qurish"
+  },
+  {
+    "question": "Neyron tarmoqlarini qurishga mo’ljallangan python kutubxonalarini ko'rsating.",
+    "answer": "Numpy, keras, tensorflow",
+    "noAnswer1": "Numpy, pandas, keras",
+    "noAnswer2": "Tensorflow, numpy, pandas",
+    "noAnswer3": "Python, Matlab, Octave"
+  },
+  {
+    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
+    "answer": "Format, Data Cleaning, Feature Extraction",
+    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
+    "noAnswer2": "Resizing, Feature Extraction, Format",
+    "noAnswer3": "Format, Resizing, Data Cleaning"
+  },
+  {
+    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
+    "answer": "chiziqli, nochiziqli va logistik regressiya usullari asosida",
+    "noAnswer1": "sintaktik usullar asosida",
+    "noAnswer2": "dinamik usillar asosida",
+    "noAnswer3": "semantik usullari asosida"
+  },
+  {
+    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviyma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonningbosqichlari hisoblanadi",
+    "answer": "Mashinali o’qitish",
+    "noAnswer1": "Chuqur o’qitish",
+    "noAnswer2": "Regression tahlil",
+    "noAnswer3": "Statistik tahlil"
+  },
+  {
+    "question": "Keras bu – ...",
+    "answer": "tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
+    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
+    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
+    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
+  },
+  {
+    "question": "Tensorflow bu – ...",
+    "answer": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
+  },
+  {
+    "question": "Sklearn bu - …",
+    "answer": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalgaoshirishga mo’ljallangan maxsus paket",
+    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishgamo’ljallangan hisoblanadi",
+    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitishalgortimlarini ishlab chiqishga mo’ljallangan",
+    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili\r\nalgoritmlarini amalga oshirishga mo’ljallangan maxsus paket"
+  },
+  {
+    "question": "Chiziqli va logistik regression model qurilayotganda bitta o’rgatuvchi tanlamadan foydalansabo’ladimi?",
+    "answer": "Ha, faqat yorliqlari uchun ikkita qiymat saqlangan bo’lsa",
+    "noAnswer1": "Ha, regression model uchun hamma vaqt dataset bir xilda bo’ladi.",
+    "noAnswer2": "Buning imkoni yo’q",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Chiziqli regresiya va Logistik regresiya uchun Cost funksiyasi bir xilda bo’ladimi?",
+    "answer": "Yoq",
+    "noAnswer1": "Ha",
+    "noAnswer2": "Logistik regressiyada cost funksiyasi bo’lmaydi",
+    "noAnswer3": "Chiziqli regressiyada cost funksiyasi bo’lmaydi"
+  },
+  {
+    "question": "Python ning scipy kutubxonasidan qaysi Classs chiziqli regressiya modelini qurishdaishlatiladi",
+    "answer": "stats",
+    "noAnswer1": "sklearn",
+    "noAnswer2": "numpy",
+    "noAnswer3": "ployfit"
+  },
+  {
+    "question": "Python sklearn kutubxonasidagi qaysi Classs chiziqli regressiya modelini qurishda ishlatiladi",
+    "answer": "LinearRegression",
+    "noAnswer1": "Polyfit",
+    "noAnswer2": "poly1d",
+    "noAnswer3": "Linear_model"
+  },
+  {
+    "question": "Chiziqli regressiyada modelni murakkab tanlansa qaysi turdagi muammo yuzaga keladi",
+    "answer": "Owerfitting",
+    "noAnswer1": "Underfitting",
+    "noAnswer2": "Model aniq ishlaydigan bo’lib, shakllanadi.",
+    "noAnswer3": "Muammo sodir bo’lmaydi"
+  },
+  {
+    "question": "Chiziqli regressiyada modelni sodda tanlansa qaysi turdagi muammo yuzaga keladi",
+    "answer": "Underfitting",
+    "noAnswer1": "Owerfitting",
+    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer3": "Muammo sodir bo’lmaydi"
+  },
+  {
+    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 65% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
+    "answer": "Underfitting",
+    "noAnswer1": "Owerfitting",
+    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer3": "Everfitting"
+  },
+  {
+    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 25% aniqliq va test dataset bilan testlaganimizda 95% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
+    "answer": "Underfitting",
+    "noAnswer1": "Owerfitting",
+    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer3": "Everfitting"
+  },
+  {
+    "question": "KMaens algoritmida qo’llaniladigan ikki nuqta orasidagi masofa … deb yuritiladi.Nutqlar\r\no’rniga mos variantni qo’ying.",
+    "answer": "Euclidean masofasi",
+    "noAnswer1": "Chebyshev masofasi",
+    "noAnswer2": "Manhattan masofasi",
+    "noAnswer3": "Minkowski masofasi"
+  },
+  {
+    "question": "Gradient tushish algoritmidagi ‘learning rate’ parameter nimani xarakterlaydi?",
+    "answer": "O’qish qadamini",
+    "noAnswer1": "O’qishitda takrorlanishlar sonini",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Model aniqligini"
+  },
+  {
+    "question": "UCI Machine Learning Repository nima ?",
+    "answer": "Mashinili o’qitishning ochiq manbali datasetlarini qidirishga mo’ljallangan tizim",
+    "noAnswer1": "GitHub Repository",
+    "noAnswer2": "Gitlab Repository",
+    "noAnswer3": "Kaggle Repository"
+  },
+  {
+    "question": "Google Dataset Search qancha ma’lumotni qamrab oladi?",
+    "answer": "25 mln",
+    "noAnswer1": "250mln",
+    "noAnswer2": "15mln",
+    "noAnswer3": "6mln"
+  },
+  {
+    "question": "Python array bu -",
+    "answer": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan",
+    "noAnswer1": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
+    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Python list bu -",
+    "answer": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
+    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
+    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Python tuple bu -",
+    "answer": "turli tipdagi elementlar to’plamidan iborat statik massiv",
+    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
+    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Mashinali o’qitishda samaradorlikni baholash uchun qanday matritsadan foydalaniladi?",
+    "answer": "Tartibsizlik matritsasi (confusion matrix)",
+    "noAnswer1": "Aniqliq matritsasi (accuracy matrix)",
+    "noAnswer2": "Xatolik matritsasi (loss matrix)",
+    "noAnswer3": "Barchasi to’g’ri"
+  },
+  {
+    "question": "pip freeze",
+    "answer": "Environment o’rnatilgan barcha paketlar ro’yxatini chop qiladi",
+    "noAnswer1": "Environment o’rnatilgan eng oxirgi paketlar ro’yxatini chop qiladi",
+    "noAnswer2": "Environment o’rnatilgan eng oxirgi 10 ta paket ro’yxatini chop qiladi",
+    "noAnswer3": "Environment o’rnatilgan mashinali o’qitishga xizmat qiladigan paketlar ro’yxatini chop qilish"
+  },
+  {
+    "question": "pip install numpy as np",
+    "answer": "Xatolik sodir bo’ladi",
+    "noAnswer1": "Numpy kutubxonasi o’rnatiladi",
+    "noAnswer2": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "import numpy as nb",
+    "answer": "Numpy kutubxonasi yuklash va quyida uni nb deb yuritish mumkin",
+    "noAnswer1": "Xatolik sodir bo’ladi",
+    "noAnswer2": "Numpy kutubxonasi o’rnatiladi",
+    "noAnswer3": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin"
+  },
+  {
+    "question": "Agar mashinali o’qitish qo’llaniladigan sklearn kutubxonasi o’rnatilmagan bo’lsa uni\r\nqanday o’rnatish mumkin.",
+    "answer": "Barchasi to’g’ri",
+    "noAnswer1": "pip install sklearn",
+    "noAnswer2": "conda install scikit-learn",
+    "noAnswer3": "pip install scikit-learn"
+  },
+  {
+    "question": "O’rgatuvchi tanlamasiz(dataset siz) mashinali o’qitish algoritmlarini ishlata olamizmi",
+    "answer": "Imkoni yoq",
+    "noAnswer1": "Ha, albatta",
+    "noAnswer2": "Ba’zan",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Python muhitida neyron tarmoq qurish uchun qaysi paketlardan foydalaniladi?",
+    "answer": "keras, tensorflow",
+    "noAnswer1": "tensorflow, pandas",
+    "noAnswer2": "numpy, matplotlib",
+    "noAnswer3": "pandas, opencv"
+  },
+  {
+    "question": "Keras muhitida modelni testlash uchun mavjud funksiyalardan qaysi biri ishlatiladi?",
+    "answer": "fit()",
+    "noAnswer1": "compile()",
+    "noAnswer2": "evaluate()",
+    "noAnswer3": "test()"
+  },
+  {
+    "question": "O’qituvchili o’qitish (supervised learning) nima?",
+    "answer": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) hamishlatish",
+    "noAnswer1": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
+    "noAnswer2": "modelni o’qitish uchun tasvir ma’lumotlaridan (image) foydalanish",
+    "noAnswer3": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish"
+  },
+  {
+    "question": "Keras muhitida qurilgan neyron tarmoqda joriy qatlam uchun faollashtirish funksiyasini\r\nqo’shishda quyidagilarning qaysi biridan foydalaniladi?",
+    "answer": "model.add(Activation(‘relu’))",
+    "noAnswer1": "model.insert(Activation(‘relu’))",
+    "noAnswer2": "model.function(Activate(‘relu’))",
+    "noAnswer3": "model.add(ActiveFunction(‘relu’))"
+  },
+  {
+    "question": "O’qituvchisiz (unsupervised) o’qitish algortimlari to’g’ri ko’rsatilgan javobni ko’rsating?",
+    "answer": "k-means clustering, hierarchical clustering, independent component analysis",
+    "noAnswer1": "linear regression, nearest neighbor, random forest, decision tree",
+    "noAnswer2": "k-means clustering, deep learning, logistic regression, random forest",
+    "noAnswer3": "k-nn, decision tree, linear regression, k-means clustering"
+  },
+  {
+    "question": "O’qituvchisiz o’qitish (unsupervised learning) nima?",
+    "answer": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
+    "noAnswer1": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish",
+    "noAnswer2": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) hamishlatish",
+    "noAnswer3": "modelni o’qitish uchun tasvir ma’lumotlari va ularning belgilaridan (image+label) foydalanish"
+  },
+  {
+    "question": "Sigmoid funksiyasini hisoblash formulasini ko’rsating?",
+    "answer": "sig(x)=1/(1+exp(-x))",
+    "noAnswer1": "sig(x)=1/(1-exp(x))",
+    "noAnswer2": "sig(x)=1/exp(-x)",
+    "noAnswer3": "sig(x)=1/exp(x)"
+  },
+  {
+    "question": "Mashinali o’qitish nima?",
+    "answer": "kompyuter dasturining ma’lumotlarni o’qib olish asosida xususiyatlarni o’rganish qobiliyatidir",
+    "noAnswer1": "faqat kompyuter o’yinlarini yaratish uchun dastur xususiyatlarni o’rganish qobiliyatidir",
+    "noAnswer2": "bu robotni o’rgatishning an’anaviy usuli",
+    "noAnswer3": "kompyuter dasturlarini lug’at yordamida o’qitish usuli"
+  },
+  {
+    "question": "Pythonda massivni e’lon qilish uchun qanday toifalardan foydalaniladi?",
+    "answer": "array, matrix",
+    "noAnswer1": "tuple, arr",
+    "noAnswer2": "list, tuple",
+    "noAnswer3": "arr, list"
+  },
+  {
+    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
+    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
+    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
+    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
+    "noAnswer3": "Oddiy algoritm"
+  },
+  {
+    "question": "…… bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir. Nuqtalar o’rniga quyidagilardan mos keldiganini qo’ying?",
+    "answer": "perceptron",
+    "noAnswer1": "sigmoid funksiyasi",
+    "noAnswer2": "neyron",
+    "noAnswer3": "ReLU funksiyasi"
+  },
+  {
+    "question": "Regressiya nima?",
+    "answer": "ma’lumotlarni intellektual tahlil qilish usullaridan biri",
+    "noAnswer1": "ma’lumotlarni ustida arifmetik usullaridan biri",
+    "noAnswer2": "ma’lumotlarni raqamli ishlov berish usullaridan biri",
+    "noAnswer3": "ma’lumotlarni jamlash usullaridan biri"
+  },
+  {
+    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(0,10,2) ifodasida i indekso’zgaruvchisiga qanday qiymatlar keladi?",
+    "answer": "0 2 4 6 8",
+    "noAnswer1": "0 2 10",
+    "noAnswer2": "0 10",
+    "noAnswer3": "2 4 6 8 10"
+  },
+  {
+    "question": "Supervised o’qitish algoritmlari asosan qanday masalani yechishga qaratilgan?",
+    "answer": "regressiya va sinflashtirish masalasiga",
+    "noAnswer1": "statistik usullar yordamida ma’lumotlarni ajratish masalasiga",
+    "noAnswer2": "statistik usullar yordamida ma’lumotlarni sinflashtirish masalasiga",
+    "noAnswer3": "sinflashtirish va segmentlash masalasiga"
+  },
+  {
+    "question": "Neyron tarmoqda qanday turdagi qatlamlar (layers) bo’lishi mumkin?",
+    "answer": "kiruvchi, chiquvchi, yashirin",
+    "noAnswer1": "kiruvchi, yashirin, oraliq",
+    "noAnswer2": "qabul qiluvchi, hisoblovchi, chiquvchi",
+    "noAnswer3": "kiruvchi, qabul qiluvchi, chiquvchi"
+  },
+  {
+    "question": "Chiziqli regression model nima uchun ishlatiladi?",
+    "answer": "bashorat qilish uchun",
+    "noAnswer1": "mantiqiy model qurish uchun",
+    "noAnswer2": "sinflashtirish masalasini yechish uchun",
+    "noAnswer3": "segmentlash masalasini yechish uchun"
+  },
+  {
+    "question": "Neyron tarmoq nima?",
+    "answer": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi tuzilma",
+    "noAnswer1": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi dataset",
+    "noAnswer2": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi dataset",
+    "noAnswer3": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi tuzilma"
+  },
+  {
+    "question": "Sun’iy intellekt deganda nimani tushunasiz?",
+    "answer": "insonning onggi kabi fikrlovchi dastur",
+    "noAnswer1": "oddiy kompyuter dasturi",
+    "noAnswer2": "qaror qabul qiluvchi ilovalar",
+    "noAnswer3": "bunday termin fanda mavjud emas"
+  },
+  {
+    "question": "Sun'iy intellekt bu …?",
+    "answer": "bu kompyuterda insonning aqlli xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
+    "noAnswer1": "bu kompyuterda insonning jismoniy xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
+    "noAnswer2": "bu kompyuterda insonning bialogik xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Keras kutubxonasidagi Sequential() nima vazifani bajaradi?",
+    "answer": "neyron tarmoq modelini qurish uchun dastlabki obyektni yaratadi",
+    "noAnswer1": "ketma-ket kamida 2 qatlamdan iborat neyron tarmoq quradi",
+    "noAnswer2": "neyron tarmoq modelini o’qitish uchun ishlatiladi",
+    "noAnswer3": "qurilgan neyron tarmoqni ketma-ket ko’rinishga keltiradi"
+  },
+  {
+    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(10) ifodasida i indekso’zgaruvchisiga qanday qiymatlar keladi?",
+    "answer": "0 1 2 3 4 5 6 7 8 9",
+    "noAnswer1": "0 1 2 3 4 5 6 7 8 9 10",
+    "noAnswer2": "0 9",
+    "noAnswer3": "1 2 3 4 5 6 7 8 9 10"
+  },
+  {
+    "question": "Qanday turdagi faollashtirish funksiyalari mavud?",
+    "answer": "ReLU, sigmoid, softmax",
+    "noAnswer1": "loss, sigmoid, ReLU",
+    "noAnswer2": "ReLU, cost, softmax",
+    "noAnswer3": "cost, loss, sigmoid"
+  },
+  {
+    "question": "Chuqur o’qitish – bu?",
+    "answer": "bu ko'p qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilganjarayondir",
+    "noAnswer1": "bu bir qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilganjarayondir",
+    "noAnswer2": "bu bu modelni qurib olish uchun amalga oshiriladigan o’qitish jarayonidir",
+    "noAnswer3": "bu modelni tezroq va aniqroq qurib olish uchun amalga oshiriladigan jarayon"
+  },
+  {
+    "question": "Python muhitida turli xil matematik funksiya grafiklarini va tasvirlarni vizuallashtirish uchunishlatiladigan paket qaysi?",
+    "answer": "matplotlib",
+    "noAnswer1": "keras",
+    "noAnswer2": "pandas",
+    "noAnswer3": "numpy"
+  },
+  {
+    "question": "Sun’iy neyron tarmoq tashkil etuvchilarini ko’rsating?",
+    "answer": "node, input, weights, output",
+    "noAnswer1": "cell body, dendrites, synapse, axon",
+    "noAnswer2": "input, dendrites, synapse, output",
+    "noAnswer3": "synapse, axon, weights, node"
+  },
+  {
+    "question": "Python muhitida scatter() funksiyasi qanday vazifani bajaradi?",
+    "answer": "berilgan x,y to'plam bo’yicha 2 o’lchovli grafigini chizish uchun ishlatiladi",
+    "noAnswer1": "chiziqli regression model koeffitsentlarini (ko’pi bilan 3 ta) hisoblaydi",
+    "noAnswer2": "polinomial regression model koeffitsentlarini hisoblaydi",
+    "noAnswer3": "qurilgan model koeffitsentlari bo’yicha bashorat qilinadigan qiymatlarni hisoblaydi"
+  },
+  {
+    "question": "pip install tensorflow buyrug’i asosida nima sodir bo’ladi?",
+    "answer": "tensorflow kutubxonasi o’rnatiladi",
+    "noAnswer1": "keras va tensorflow kutubxonasi o’rnatiladi",
+    "noAnswer2": "tensorflow kutubxonasi chaqiriladi",
+    "noAnswer3": "keras va tensorflow kutubxonasi chaqiriladi"
+  },
+  {
+    "question": "Biologik neyron tarmoq tashkil etuvchilarini ko’rsating?",
+    "answer": "cell body, dendrites, synapse, axon",
+    "noAnswer1": "input, dendrites, synapse, output",
+    "noAnswer2": "node, input, weights, output",
+    "noAnswer3": "synapse, axon, weights, node"
+  },
+  {
+    "question": "Dataset bu nima?",
+    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
+    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
+    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
+    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
+  },
+  {
+    "question": "Convolutional neural networks (CNN) – bu?",
+    "answer": "bu ko'p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
+    "noAnswer1": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
+    "noAnswer2": "bu ko’p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli",
+    "noAnswer3": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli"
+  },
+  {
+    "question": "Sun’iy intellektga asoslangan dasturlarni ishlab chiqishdan maqsad nima?",
+    "answer": "mustaqil fikrlovchi va qaror qabul qiluvchi dasturlarni hayotga tadbiq qilish",
+    "noAnswer1": "vaqtni maroqli o‘tkazish",
+    "noAnswer2": "insonlarning yashash darajasini yaxshilash",
+    "noAnswer3": "ortiqcha sarf-xarajatni kamaytirish"
+  },
+  {
+    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o’zgaradi?",
+    "answer": "0",
     "noAnswer1": "5",
-    "noAnswer2": "7",
-    "noAnswer3": "4"
+    "noAnswer2": "-5",
+    "noAnswer3": "3,5"
   },
   {
-    "question": "“pwelch” buyrug‘i MATLAB muhitida nima vazifani bajaradi",
-    "answer": "Signalning spektral quvvat zichligini ifodalaydi",
-    "noAnswer1": "Signalni svyortka qiladi",
-    "noAnswer2": "Signalni korrelyatsiya qiladi",
-    "noAnswer3": "Bunday buyruq mavjud emas"
+    "question": "Mashinani o’qitish turlari to’g’ri ko’rsatilgan javobni tanlang?",
+    "answer": "supervised, unsupervised, Semi-supervised, reinforcement",
+    "noAnswer1": "regressiya, Ehtimollar nazariyasi, Supervised, unsupervised",
+    "noAnswer2": "supervised, unsupervised, Regressiya, Sinflashtirish",
+    "noAnswer3": "regressiya, Sinflashtirish, Semi-supervised, reinforcement"
   },
   {
-    "question": "Raqamli filtrlar nima uchun analog filtrlardan afzalroq ( eng asosiy sabablardan birini keltiring)",
-    "answer": "ularni oson dasturlashtirilishi mumkin",
-    "noAnswer1": "ishlab chiqaruvchilar ko'pincha yangi protsessorlarni ishlab chiqaradilar",
-    "noAnswer2": "ular barqaror",
-    "noAnswer3": "to'g'ri javob yo'q"
+    "question": "Neyron tarmoqlari bu…?",
+    "answer": "Neyron tarmoqlari juda ko’p muhim xususiyatlarga ega, ammo asosiysi bu o’rganishqobiliyatidir.",
+    "noAnswer1": "Neyron tarmoqlari ma’lumotlarni bog’lash uchun xizmat qiladi.",
+    "noAnswer2": "Bunday tarmoq mavjud emas",
+    "noAnswer3": "Ikkilik kod sifatidagi algoritm"
   },
   {
-    "question": "Oddiy raqamli signal protsessorlari tizimi quyidagilardan iborat.",
-    "answer": "DSP, xotira, ADC, DAC va aloqa portlari",
-    "noAnswer1": "mikroprotsessor va xotira",
-    "noAnswer2": "mikroprotsessor, ADC va DAC",
-    "noAnswer3": "mikroprotsessor va yordamchi ombor"
+    "question": "Mashinali o’qitishda asosan qaysi instrumental vositalardan foydalaniladi",
+    "answer": "Python, Matlab, Octave",
+    "noAnswer1": "Python,NLP,Keras",
+    "noAnswer2": "Numpy,Pandas",
+    "noAnswer3": "Python,Keras,Pandas"
   },
   {
-    "question": "Ko'p protsessorli tizimlarda hisoblash jarayonini tashkil qilish usuli:",
-    "answer": "Ko'p protsessorli ishlov berish",
-    "noAnswer1": "Ko'p vazifali ishlov berish",
-    "noAnswer2": "Geterogen",
-    "noAnswer3": "Ko'p yadroli ishlov berish"
+    "question": "KNN bu - …",
+    "answer": "Barchasi to’gri",
+    "noAnswer1": "Klasterlash algoritmi",
+    "noAnswer2": "Regressiya algoritmi",
+    "noAnswer3": "Sinflashrirish algoritmi"
   },
   {
-    "question": "Nutq signallari qanday signal?",
-    "answer": "Biosignal",
-    "noAnswer1": "O'zgarmas signal",
-    "noAnswer2": "tangensial signal",
-    "noAnswer3": "Sinusoid signal"
+    "question": "Chiziqli regressiyaga to’g’ri ta’rifni toping?",
+    "answer": "Chiziqli regressiya kuzatilgan ma'lumotlarga chiziqli tenglamani bog’lash orqali ikkitao'zgaruvchi o'rtasidagi munosabatni modellashtirishga aytiladi.",
+    "noAnswer1": "Chiziqli regressiya ma’lumotlarni klassifikatsiyalaydi.",
+    "noAnswer2": "Chiziqli Regressiya bu tanlangan ma’lumotlar ichidan kerakli ma’lumotni qidirish algoritmi.",
+    "noAnswer3": "To’g’ri javob yo’q."
   },
   {
-    "question": "Vaqtga nisbatan fizik signallarni tahlil qilish nima deb ataladi",
-    "answer": "Vaqt sohasida signallarini qayta ishlash",
-    "noAnswer1": "Faza sohasida signallarini qayta ishlash",
-    "noAnswer2": "Chastota sohasida signallarini qayta ishlash",
-    "noAnswer3": "Amplituda sohasida signallarini qayta ishlash"
+    "question": "Quyidagi usullardan qaysi biri har qanday chiziqli bo'linadigan ma'lumotlar to'plamida nol\r\no'qitish(zero training) xatosiga erishishi mumkin?",
+    "answer": "KNN",
+    "noAnswer1": "Qaror daraxti",
+    "noAnswer2": "SVM(support vector machine)",
+    "noAnswer3": "CNN"
   },
   {
-    "question": "Signallarga ishlov berishda qaysi sohalarda jarayonlarni amalga oshirish mumkin?",
-    "answer": "Vaqt va chastota sohasida",
-    "noAnswer1": "Faza va chastota sohasida",
-    "noAnswer2": "Vaqt va faza sohasida",
-    "noAnswer3": "Faza va amplituda sohasida"
+    "question": "CNN bu…?",
+    "answer": "Svyortkali neyron tarmoq",
+    "noAnswer1": "Adamar neyron tarmog’i",
+    "noAnswer2": "K ta yaqin qo’shnilar",
+    "noAnswer3": "Qayta murojaat neyron tarmog’i"
   },
   {
-    "question": "Deterministik signallar qanday ko’rinishlarda bo’ladi?",
-    "answer": "Davriy va davriy bo’lmagan",
-    "noAnswer1": "Aniq va noaniq",
-    "noAnswer2": "Chekli va cheksiz",
-    "noAnswer3": "Tog’ri javob keltirilmagan"
+    "question": "KNN bu…?",
+    "answer": "K ta yaqin qo’shnilar agoritmi",
+    "noAnswer1": "Svyortkali neyron tarmoq",
+    "noAnswer2": "Adamar almashtririshli Neyron tarmoq",
+    "noAnswer3": "To’g’ri javob yo’q"
   },
   {
-    "question": "QNX operatsion tizimi qaysi arxitektura asosida qurilgan?",
-    "answer": "Mikroyadroli",
-    "noAnswer1": "SIMD",
-    "noAnswer2": "MIMD",
-    "noAnswer3": "MISD"
+    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
+    "answer": "Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali\r\no’qitishda aqlli mashinalarga dasturlashning muqobil usulidir.",
+    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
+    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
+    "noAnswer3": "To’g’ri javob yo’q"
   },
   {
-    "question": "Signallarni qayta ishlashda eng ko`p ishlatiladigan amal?",
-    "answer": "Svyortka",
-    "noAnswer1": "Korrelyatsiya",
-    "noAnswer2": "Tanib olish masalalari",
-    "noAnswer3": "Identifikatsiya"
+    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
+    "answer": "mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilano’qitish amalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchunmodelga o'z ustida ishlashga imkon yaratib beriladi",
+    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
+    "noAnswer2": "Bunday o’qitish mavjud emas",
+    "noAnswer3": "To’g’ri javob yo’q"
   },
   {
-    "question": "Lokal bazis o'zgartirish algoritmini ko'rsating?",
-    "answer": "Haara",
-    "noAnswer1": "Furye",
-    "noAnswer2": "Adamar",
-    "noAnswer3": "Tezkor-Furye"
+    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
+    "answer": "klasterlash",
+    "noAnswer1": "normallashtirish",
+    "noAnswer2": "sinflashtirish",
+    "noAnswer3": "Signallarga ishlov berish"
   },
   {
-    "question": "Uchuvchi apparatlar uchun turbalentlik qanday signallarga misol bo`ladi?",
-    "answer": "Tasodifiy",
-    "noAnswer1": "Determinallashgan",
-    "noAnswer2": "Raqamli",
-    "noAnswer3": "To`g`ri javob yo`q"
+    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
+    "answer": "Hierarchical clustering va K-means clustering",
+    "noAnswer1": "SVM va CNN",
+    "noAnswer2": "RNN va GMM",
+    "noAnswer3": "To’g’ri javob yo’q"
   },
   {
-    "question": "Raqamli video sifatini baholovchi eng ishonchli va mukammal tizim?",
-    "answer": "Inson ko`z tizimi",
-    "noAnswer1": "Telefon kamerasi tizimi",
-    "noAnswer2": "Kompyuter tizimi",
-    "noAnswer3": "Ekran tizimlari"
+    "question": "Ma’lumotlarni tozalashga to'liq ta'rif berilgan qatorini toping?",
+    "answer": "Ushbu bosqichda ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan model\r\nturg’unligiga ta’sir qiluvchi ma’lumotlar olib tashlanadi.",
+    "noAnswer1": "Dataset ma’lumotlarini testlash",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Qaror daraxtidan ma’lumotlarni olib tashlash"
   },
   {
-    "question": "Python dasturlash tilida ekranga ma`lumotlarni chiqarish buyrug‘i?",
-    "answer": "Print()",
-    "noAnswer1": "Show()",
-    "noAnswer2": "Cout()",
-    "noAnswer3": "Read()"
+    "question": "Xususiyatlarni ajratib olishga to'liq ta'rif berilgan qatorini toping?",
+    "answer": "o’qituvchi to’plamdagi ma’lumotlar xususiyatlari o’rganib chiqiladi va bashoratlash, tashxislash, sinflashtirish, qaror qabul qilish uchun kerakli xususiyatlar ajratib olish",
+    "noAnswer1": "Qaror qabul qilish daraxti qiymatlari",
+    "noAnswer2": "Sinflashtirish masalasini yechish algoritmi to’plami",
+    "noAnswer3": "To’g’ri javob yo’q"
   },
   {
-    "question": "Python dasturlash tilida grafik interfeysni hosil qilib berishga yordam beradigan modul?",
-    "answer": "Tkinter",
-    "noAnswer1": "Library",
-    "noAnswer2": "Math",
-    "noAnswer3": "Grap"
+    "question": "Neyron tarmoqdagi tugun qiymati 0.5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
+    "answer": "0.5",
+    "noAnswer1": "1",
+    "noAnswer2": "0",
+    "noAnswer3": "2"
   },
   {
-    "question": "Python dasturlash tilida matrissalar bilan ishlovchi modullar?",
-    "answer": "Numpy,scipy",
+    "question": "Chiziqli regressiya qaysi mashinali o’qitish algoritmlari tarkibiga kiradi?",
+    "answer": "O’qituvchili o’qitish",
+    "noAnswer1": "O’qituvchisiz o’qitish",
+    "noAnswer2": "Reinforcementli o'qitish",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Neyron tarmoqdagi tugun qiymati 2.5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
+    "answer": "2,5",
+    "noAnswer1": "2",
+    "noAnswer2": "0",
+    "noAnswer3": "44595"
+  },
+  {
+    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
+    "answer": "Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali\r\no’qitishda aqlli mashinalarga dasturlashning muqobil usulidir.",
+    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
+    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
+    "answer": "O’qtuvchili va O’qituvchisiz",
+    "noAnswer1": "Tanlanma",
+    "noAnswer2": "Ma’lumotlar bazasi",
+    "noAnswer3": "Chiziqli va logistik"
+  },
+  {
+    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
+    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
+    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
+    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
+    "noAnswer3": "Oddiy algoritm"
+  },
+  {
+    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
+    "answer": "mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilano’qitish amalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchunmodelga o'z ustida ishlashga imkon yaratib beriladi",
+    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
+    "noAnswer2": "Bunday o’qitish mavjud emas",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
+    "answer": "klasterlash",
+    "noAnswer1": "normallashtirish",
+    "noAnswer2": "sinflashtirish",
+    "noAnswer3": "Signallarga ishlov berish"
+  },
+  {
+    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
+    "answer": "Hierarchical clustering va K-means clustering",
+    "noAnswer1": "SVM va CNN",
+    "noAnswer2": "RNN va GMM",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur o’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
+    "answer": "hozirda tasvirlardan ob’ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalardakeng foydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
+    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli\r\nfodalanilmaydi",
+    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
+    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
+  },
+  {
+    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
+    "answer": "Format, Data Cleaning, Feature Extraction",
+    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
+    "noAnswer2": "Resizing, Feature Extraction, Format",
+    "noAnswer3": "Format, Resizing, Data Cleaning"
+  },
+  {
+    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
+    "answer": "chiziqli, nochiziqli va logistik regressiya usullari asosida",
+    "noAnswer1": "sintaktik usullar asosida",
+    "noAnswer2": "dinamik usillar asosida",
+    "noAnswer3": "semantik usullari asosida"
+  },
+  {
+    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviyma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonningbosqichlari hisoblanadi",
+    "answer": "Mashinali o’qitish",
+    "noAnswer1": "Chuqur o’qitish",
+    "noAnswer2": "Regression tahlil",
+    "noAnswer3": "Statistik tahlil"
+  },
+  {
+    "question": "Keras bu – ...",
+    "answer": "tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
+    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
+    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
+    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
+  },
+  {
+    "question": "Tensorflow bu – ...",
+    "answer": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
+  },
+  {
+    "question": "Sklearn bu - …",
+    "answer": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalgaoshirishga mo’ljallangan maxsus paket",
+    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishgamo’ljallangan hisoblanadi",
+    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitishalgortimlarini ishlab chiqishga mo’ljallangan",
+    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili\r\nalgoritmlarini amalga oshirishga mo’ljallangan maxsus paket"
+  },
+  {
+    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
+    "answer": "neyron tarmoqlar asosida",
+    "noAnswer1": "lokal tarmoqlar asosida",
+    "noAnswer2": "global tarmoqlar asosida",
+    "noAnswer3": "internet tarmoqlar asosida"
+  },
+  {
+    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
+    "answer": "5",
+    "noAnswer1": "4",
+    "noAnswer2": "3",
+    "noAnswer3": "6"
+  },
+  {
+    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
+    "answer": "O’qtuvchili va O’qituvchisiz",
+    "noAnswer1": "Tanlanma",
+    "noAnswer2": "Ma’lumotlar bazasi",
+    "noAnswer3": "Chiziqli va logistik"
+  },
+  {
+    "question": "Modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "answer": "Semi-supervised learning",
+    "noAnswer1": "Reinforcement learning",
+    "noAnswer2": "Unsupervised learning",
+    "noAnswer3": "Supervised learning"
+  },
+  {
+    "question": "Modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
+    "answer": "Unsupervised learning",
+    "noAnswer1": "Supervised learning",
+    "noAnswer2": "Semi-supervised learning",
+    "noAnswer3": "Reinforcement learning"
+  },
+  {
+    "question": "Bir o’zgaruvchili chiziqli regressiya bu - ….",
+    "answer": "Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat\r\nqiladigan model yaratish",
+    "noAnswer1": "Bashoratlash uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib bashoratlashgaxizmat qiladigan model yaratish",
+    "noAnswer2": "Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat\r\nqiladigan model yaratish",
+    "noAnswer3": "Siflashtirish uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib siflashtirishgaxizmat qiladigan model yaratish"
+  },
+  {
+    "question": "Ko’p o’zgaruvchili chiziqli regressiya bu -...",
+    "answer": "Bashoratlash uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib bashoratlashgaxizmat qiladigan model yaratish",
+    "noAnswer1": "Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat\r\nqiladigan model yaratish",
+    "noAnswer2": "Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat\r\nqiladigan model yaratish",
+    "noAnswer3": "Siflashtirish uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib siflashtirishgaxizmat qiladigan model yaratish"
+  },
+  {
+    "question": "Logistik regressiya bu?",
+    "answer": "Regression tahlil asosida sinflashtirish masalasini yechish",
+    "noAnswer1": "Regression tahlil asosida klasterlash masalasini yechish",
+    "noAnswer2": "Regression tahlil asosida bashoratlash masalasini yechish",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "O’ratuvchi tanlamadagi val (validation) to’plam bu?",
+    "answer": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
+    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
+    "noAnswer2": "modelni testlash uchun ishlatiladi",
+    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
+  },
+  {
+    "question": "O’qitish jarayonida regulyarizatsiyalash bu?",
+    "answer": "Modelni o’qitish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
+    "noAnswer1": "Barcha javob to’g’ri",
+    "noAnswer2": "Modelni testlash jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
+    "noAnswer3": "Modelni qurish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish"
+  },
+  {
+    "question": "KNN algoritmida k ni katta tanlasak nima sodir bo’ladi?",
+    "answer": "Model qurish vaqti oshib ketadi. Bazan k ning katta tanlanishi sinflashtirishda xatolikka ko’puchrashi mumkin",
+    "noAnswer1": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
+    "noAnswer2": "KNN algoritmida k parametr yo’q.",
+    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
+  },
+  {
+    "question": "Modelni qurishda bo’ladigan Underfitting muammosi bu?",
+    "answer": "Model train to’plmada ham, test to’plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan.",
+    "noAnswer1": "Model train to’plmada ham, test to’plamda ham yuqori aniqlik bermaydi. Model murakkabtuzilgan.",
+    "noAnswer2": "Model train to’plmada yuqori, test to’plamda esa past aniqlik beradi. Model sodda tuzilgan.",
+    "noAnswer3": "Model train to’plmada yuqori, test to’plamda esa past aniqlik beradi. Model murakkab tuzilgan."
+  },
+  {
+    "question": "Model qurishda bo’ladigan Owerfitting muammosi bu?",
+    "answer": "Rasmlarni joylashtirish uchun",
+    "noAnswer1": "Ma’lumotlarni jadval ko‘rinishida chop etish uchun",
+    "noAnswer2": "Audioma’lumotlarni joylashtirish uchun",
+    "noAnswer3": "Matnli ma’lumotlarni joylashtirish uchun"
+  },
+  {
+    "question": "Mobil ilovadagi element ustiga sichqoncha chap tugmasi bilan bosilganda qaysi metod ishga\r\ntushadi?",
+    "answer": "Model train to’plamda yuqori, test to’plamda esa past aniqlik beradi. Model murakkab tuzilgan.",
+    "noAnswer1": "Model train to’plamda ham, test to’plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan.",
+    "noAnswer2": "Model train to’plamda ham, test to’plamda ham yuqori aniqlik bermaydi. Model murakkabtuzilgan.",
+    "noAnswer3": "Model train to’plamda yuqori, test to’plamda esa past aniqlik beradi. Model sodda tuzilgan."
+  },
+  {
+    "question": "Bias tushunchasi?",
+    "answer": "Modelni train to’plam bilan testlaganda bo’ladigan xatolik",
+    "noAnswer1": "Modelni test to’plam bilan testlaganda bo’ladigan xatolik",
+    "noAnswer2": "Modelni train + test to’plam bilan testlaganda bo’ladigangadi umumiy xatolik",
+    "noAnswer3": "Modelni validation to’plam bilan testlaganda bo’ladigangadi umumiy xatolik"
+  },
+  {
+    "question": "Variance tushunchasi?",
+    "answer": "Modelni test to’plam bilan testlaganda bo’ladigan xatolik",
+    "noAnswer1": "Modelni train to’plam bilan testlaganda bo’ladigan xatolik",
+    "noAnswer2": "Modelni train + test to’plam bilan testlaganda bo’ladigangadi umumiy xatolik",
+    "noAnswer3": "Modelni validation to’plam bilan testlaganda bo’ladigangadi umumiy xatolik"
+  },
+  {
+    "question": "Underfitting bu - …",
+    "answer": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolikbo’lishiga olib keladi",
+    "noAnswer1": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda kattaxatolik bo’lishiga olib keladi",
+    "noAnswer2": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolikbo’lishiga olib keladi",
+    "noAnswer3": "Model juda muarkkab. Shuning evaziga model train to’plamda yuqori, test to’plamda past\r\nxatolik bo’lishiga olib keladi"
+  },
+  {
+    "question": "Owerfitting bu - …",
+    "answer": "Model juda muarkkab. Shuning evaziga model train to’plamda past, test to’plamda yuqori\r\nxatolik bo’lishiga olib keladi",
+    "noAnswer1": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolikbo’lishiga olib keladi",
+    "noAnswer2": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda kattaxatolik bo’lishiga olib keladi",
+    "noAnswer3": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolikbo’lishiga olib keladi"
+  },
+  {
+    "question": "Model qurishda bo’ladigan Underfitting muammosi qanday hal qilsa bo’ladi?",
+    "answer": "Modelni murakkabligini oshirib ko’rish kerak",
+    "noAnswer1": "Modelni murakkabligini pasaytirib ko’rish kerak",
+    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
+    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
+  },
+  {
+    "question": "Model qurishda bo’ladigan Owerfitting muammosi qanday hal qilsa bo’ladi?",
+    "answer": "Modelni murakkabligini pasaytirib ko’rish kerak",
+    "noAnswer1": "Modelni murakkabligini oshirib ko’rish kerak",
+    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
+    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
+  },
+  {
+    "question": "O’rgatuvchi tanlama nima?",
+    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
+    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
+    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
+    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
+  },
+  {
+    "question": "O’ratuvchi tanlamadagi train to’plam …",
+    "answer": "modelni o’qitish uchun ishlatiladi",
+    "noAnswer1": "modelni testlash uchun ishlatiladi",
+    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
+    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
+  },
+  {
+    "question": "Uyning xarakterlovchi xususiyatlari asosida ikkita guruhga(klasterga) (biznes, ekanom)\r\najratish uchun qaysi mashinali o’qitish algoritmidan foydalaniladi",
+    "answer": "Kmeans",
+    "noAnswer1": "SVM",
+    "noAnswer2": "Random Forest",
+    "noAnswer3": "Logistik regressiya"
+  },
+  {
+    "question": "KNN algoritmida k ni kichik tanlasak nima sodir bo’ladi?",
+    "answer": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
+    "noAnswer1": "Shovqinga sezgir bo’lmaydi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
+    "noAnswer2": "KNN algoritmida k parametr yo’q.",
+    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
+  },
+  {
+    "question": "KNN algoritmida k ta eng yaqin qo’shni qanday aniqlanadi?",
+    "answer": "To’plamdagi barcha elemetlar orasidagi masofa hisoblanib chiqiladi va eng yaqin k tasi\r\ntanlanadi",
+    "noAnswer1": "Taxminiy random() funksiyasi orqali aniqlanadi",
+    "noAnswer2": "To’plamdagi k ta elemetlar orasidagi masofa hisoblanib chiqiladi va ular o’sish tartibidasaralanadi.",
+    "noAnswer3": "KNN algoritmida k ta eng yaqin qo’shni tushunchasi yo’q."
+  },
+  {
+    "question": "SVM algorimi qaysi masalani yechish uchun xizmat qiladi?",
+    "answer": "Sinflashtirsh",
+    "noAnswer1": "Chiziqli regressiya",
+    "noAnswer2": "Klasterlash",
+    "noAnswer3": "Normallashtirish"
+  },
+  {
+    "question": "KNN algoritmi qaysi masalani yechish uchun xizmat qiladi",
+    "answer": "Barcha javob to’g’ri",
+    "noAnswer1": "Sinflashtirish",
+    "noAnswer2": "Regressiya",
+    "noAnswer3": "Klasterlash"
+  },
+  {
+    "question": "KMeans bu -",
+    "answer": "O’qituvchisiz o’qitish algoritmi",
+    "noAnswer1": "O’qituvchili o’qitish algoritmi",
+    "noAnswer2": "O’zini o’zi o’qitadigan algoritmi",
+    "noAnswer3": "to’g’ri javob yo’q"
+  },
+  {
+    "question": "Kmaens algoritmi qaysi masalani yechish uchun xizmat qiladi",
+    "answer": "Klasterlash",
+    "noAnswer1": "Barcha javob to’g’ri",
+    "noAnswer2": "Sinflashtirish",
+    "noAnswer3": "Regressiya"
+  },
+  {
+    "question": "Qidiruv tizimlarida sun’iy intellektdan foydalanish mumkinmi",
+    "answer": "ha, mumkin va hozirda keng qo‘llanilmoqda (misol uchun Google, Yandex qidiruv tizimlari)",
+    "noAnswer1": "qisman amaliy natijalari bor lekin yetarlicha nazariy jihatdan formallashtirilmagan",
+    "noAnswer2": "nazariy jihatdan mumkin, lekin hozircha amaliy jihatdan natijalarga erishilmagan",
+    "noAnswer3": "qidiruv tizimlarida sun’iy intellektdan foydalanish qidiruv vaqtini oshiradi"
+  },
+  {
+    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
+    "answer": "Ma’lumotlar formatlari bir xillashtiriladi",
+    "noAnswer1": "Ma’lumotlarni tozalash",
+    "noAnswer2": "Ma’lumotlardan xususiyatlarni ajratish",
+    "noAnswer3": "Barchasi to’g’ri"
+  },
+  {
+    "question": "Sun’iy neyron tarmoqlarida perceptron tushunchasi?",
+    "answer": "bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir.",
+    "noAnswer1": "bu ikkita qatlamdan iborat ya’ni kiruvchi va faollashtish qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir.",
+    "noAnswer2": "bu bir qatlamdan iborat bo’lgan neyronni hisoblash tugunidir.",
+    "noAnswer3": "bu uch qatlamdan iborat bo’lgan neyronni hisoblash tugunidir."
+  },
+  {
+    "question": "CIFAR10 datasetda tasvirlarning o’lchami qaysi o’lchamda",
+    "answer": "To’g’ri javob yo’q",
+    "noAnswer1": "28x28",
+    "noAnswer2": "128x128",
+    "noAnswer3": "64x64"
+  },
+  {
+    "question": "Sun’iy neyron tarmoqlarida yashirin qatlam tushunchasi?",
+    "answer": "Kiruvchi va chiquvchi qatlamlar orasida joylashadigan neyron",
+    "noAnswer1": "Ko’rinmaydigan qatlam",
+    "noAnswer2": "Neyron tarmoqda yashirin qatlam tushunchasi yo’q",
+    "noAnswer3": "Kiruvchi qatlamdan kiyin keladigan barcha qatlamalar"
+  },
+  {
+    "question": "Sun’iy neyron tarmoqlarida aktivlashtirish funksiyasi tushunchasi?",
+    "answer": "Neyron tugunlaridan chiqqan qiymatni ma’lum bir diapozonga tushirish uchun ishlatiladi",
+    "noAnswer1": "Neyron tarmoqda aktivlashtirish funksiyasi tushunchasi yo’q",
+    "noAnswer2": "Bu faol bo’lmagan tugunlarni faollashtish uchun ishlatiladi.",
+    "noAnswer3": "To’g’ri javob yoq"
+  },
+  {
+    "question": "Chuqur o’qitilish deyiladi, qachonki …",
+    "answer": "Nayron tarmog’imizda yashirin qatlamlar soni bittadan ko’p bo’lsa.",
+    "noAnswer1": "Nayron tarmog’imizda yashirin qatlamlar soni bitta bo’lsa.",
+    "noAnswer2": "Ikkita neyron orasidagi masofa katta bo’lsa",
+    "noAnswer3": "Neyronlar soni ikkitadan ko’p bo’lsa"
+  },
+  {
+    "question": "CIFAR100 dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
+    "answer": "100",
+    "noAnswer1": "99",
+    "noAnswer2": "10",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "Neyron tarmoq asosida sinflashtirish masalasini yechish mumkinmi?",
+    "answer": "Ha",
+    "noAnswer1": "Yoq, faqat regressiya masalasini yechadi.",
+    "noAnswer2": "Faqat ikkilik sinflashtirganda",
+    "noAnswer3": "Yoq, klasterlash masalasini yechadi."
+  },
+  {
+    "question": "Python muhitida chiziqli regression model qurish uchun ishlatiladigan stats.linregress(x,y)\r\nfunksiyasi nechta qiymat qaytaradi",
+    "answer": "5",
+    "noAnswer1": "4",
+    "noAnswer2": "3",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "Neyron tarmoqda tugunlar nimalar bilan bog’lanadi",
+    "answer": "og’irlik koeffitsentlari",
+    "noAnswer1": "o’zgarmas koeffitsentlar",
+    "noAnswer2": "tasodifiy koeffitsentlar",
+    "noAnswer3": "ozod had koeffitsentlari"
+  },
+  {
+    "question": "Qanday turdagi faollashtirish funksiyadan neyron tarmoqda foydalaniladi",
+    "answer": "Barchasi to’g’ri",
+    "noAnswer1": "ReLU",
+    "noAnswer2": "softmax",
+    "noAnswer3": "Sigmoid"
+  },
+  {
+    "question": "Neyron tarmoqdagi tugun qiymati 5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
+    "answer": "5",
+    "noAnswer1": "4",
+    "noAnswer2": "0",
+    "noAnswer3": "44682"
+  },
+  {
+    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
+    "answer": "0",
+    "noAnswer1": "44682",
+    "noAnswer2": "5",
+    "noAnswer3": "-5"
+  },
+  {
+    "question": "Neyron tarmoqdagi tugun qiymati 0 ga teng. Ushbu tugun sigmoid funksiyasi yordamidafaollashtirilsa qanday qiymatga o’zgaradi",
+    "answer": "0.5",
+    "noAnswer1": "0",
+    "noAnswer2": "1",
+    "noAnswer3": "2.785661"
+  },
+  {
+    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur o’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
+    "answer": "hozirda tasvirlardan ob’ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalardakeng foydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
+    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli\r\nfodalanilmaydi",
+    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
+    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
+  },
+  {
+    "question": "IRIS dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
+    "answer": "3",
+    "noAnswer1": "2",
+    "noAnswer2": "10",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
+    "answer": "neyron tarmoqlar asosida",
+    "noAnswer1": "lokal tarmoqlar asosida",
+    "noAnswer2": "global tarmoqlar asosida",
+    "noAnswer3": "internet tarmoqlar asosida"
+  },
+  {
+    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
+    "answer": "5",
+    "noAnswer1": "4",
+    "noAnswer2": "3",
+    "noAnswer3": "6"
+  },
+  {
+    "question": "Chuqur o’qitishning birinchi bosqichi qanday jarayondan iborat?",
+    "answer": "Muammoni tushunib olish.",
+    "noAnswer1": "Ma’lumotlarni aniqlash.",
+    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer3": "Modelni o’qitish."
+  },
+  {
+    "question": "Chuqur o’qitishning ikkinchi bosqichi qanday jarayondan iborat?",
+    "answer": "Ma’lumotlarni aniqlash.",
+    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer2": "Modelni o’qitish.",
+    "noAnswer3": "Modelni testlash."
+  },
+  {
+    "question": "Chuqur o’qitishning uchunchi bosqichi qanday jarayondan iborat?",
+    "answer": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer1": "Modelni testlash.",
+    "noAnswer2": "Muammoni tushunib olish.",
+    "noAnswer3": "Modelni o’qitish."
+  },
+  {
+    "question": "Chuqur o’qitishning turtinchi bosqichi qanday jarayondan iborat?",
+    "answer": "Modelni o’qitish.",
+    "noAnswer1": "Modelni testlash.",
+    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer3": "Muammoni tushunib olish."
+  },
+  {
+    "question": "Chuqur o’qitishning oxirgi bosqichi qanday jarayondan iborat?",
+    "answer": "Modelni testlash.",
+    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer2": "Modelni o’qitish.",
+    "noAnswer3": "Ma’lumotlarni aniqlash."
+  },
+  {
+    "question": "MNIST dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
+    "answer": "10",
+    "noAnswer1": "9",
+    "noAnswer2": "100",
+    "noAnswer3": "3"
+  },
+  {
+    "question": "CIFAR10 dataset da nechta sinfga tegishli obyektlarini ma’lumotlari bor",
+    "answer": "10",
+    "noAnswer1": "9",
+    "noAnswer2": "100",
+    "noAnswer3": "3"
+  },
+  {
+    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 95% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
+    "answer": "Owerfitting",
+    "noAnswer1": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer2": "Underfitting",
+    "noAnswer3": "Everfitting"
+  },
+  {
+    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 95% aniqliq va test dataset bilan testlaganimizda 92% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda.",
+    "answer": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer1": "Underfitting",
+    "noAnswer2": "Owerfitting",
+    "noAnswer3": "Everfitting"
+  },
+  {
+    "question": "Python ning qaysi kutubxona oraqli vector va matritsalar ustida amalar bajarish mumkin",
+    "answer": "Numpy",
     "noAnswer1": "Math",
-    "noAnswer2": "Filtr",
-    "noAnswer3": "Array"
+    "noAnswer2": "Pandas",
+    "noAnswer3": "VecMat"
   },
   {
-    "question": "Filtrlarni loyihalashda signallarni nimalar yordamida filtrlanadi?",
-    "answer": "Filtr koeffisentlari",
-    "noAnswer1": "Kiruvchi signal",
-    "noAnswer2": "Chiquvchi signal",
-    "noAnswer3": "Shovqin signal"
+    "question": "Ochiq datasetlarni qidirishga mo’ljallangan tizim qaysi?",
+    "answer": "Barchasi to’g’ri",
+    "noAnswer1": "UCI Machine Learning Repository",
+    "noAnswer2": "VisualData",
+    "noAnswer3": "Google Dataset Search"
   },
   {
-    "question": "Signallarni adaptiv filtrlashda filtr koeffisentlari qanday hosil qilinadi?",
-    "answer": "Shovqin hamda kiruvchi signallar",
-    "noAnswer1": "O`zimiz ishlab chiqamiz",
-    "noAnswer2": "Tasodifiy holatida",
-    "noAnswer3": "To‘g‘ri javob yo‘q"
+    "question": "Pandas kutubxonasida head() funksiyasi nima vazifa bajaradi?",
+    "answer": "To’plamning dastlabgi bir nechta(5ta) satrini olib beradi.",
+    "noAnswer1": "To’plamning ustunlar nomini olib beradi.",
+    "noAnswer2": "To’plamning ustunlar nomisiz bir nechta satrini olib beradi.",
+    "noAnswer3": "To’g’ri javob yo’q"
   },
   {
-    "question": "Blokli kodlash nechi turga  bo'linadi?",
-    "answer": "2",
+    "question": "Pythonda funksiya e’lon qilish uchun qaysi kalit so’zidan foydalaniladi?",
+    "answer": "def",
+    "noAnswer1": "function",
+    "noAnswer2": "void",
+    "noAnswer3": "define"
+  },
+  {
+    "question": "Neyron tarmoqlarida dastlab vazn koeffitsentlari qanday bo’ladi?",
+    "answer": "random() funksiyasi orqali taxminiy beriladi.",
+    "noAnswer1": "musbat qiymatlar bilan to’ldiriladi.",
+    "noAnswer2": "To’ldirish shart emas.",
+    "noAnswer3": "manfiy qiymatlar bilan to’ldiriladi."
+  },
+  {
+    "question": "Neyron tarmoqlarida topilgan vazn koeffitsentlari qanday bo’ladi?",
+    "answer": "Musbat va manfiy bo’lishi mumkin",
+    "noAnswer1": "Faqat musbat bo’ladi",
+    "noAnswer2": "Faqat manfiy bo’ladi",
+    "noAnswer3": "Qiymatlar [0,1] oraliqda bo’ladi."
+  },
+  {
+    "question": "Unsupervised learning ?",
+    "answer": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
+    "noAnswer1": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
+    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
+  },
+  {
+    "question": "Semi- supervised learning",
+    "answer": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
+    "noAnswer2": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
+    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
+  },
+  {
+    "question": "Reinforcement learning ?",
+    "answer": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi.",
+    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
+    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "noAnswer3": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish"
+  },
+  {
+    "question": "O’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va natijalarni\r\nyaxshilash imkoniyatiga ega bo’ladi.",
+    "answer": "Reinforcement learning",
+    "noAnswer1": "Semi-supervised learning",
+    "noAnswer2": "Supervised learning",
+    "noAnswer3": "Unsupervised learning"
+  },
+  {
+    "question": "Modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
+    "answer": "Supervised learning",
+    "noAnswer1": "Semi-supervised learning",
+    "noAnswer2": "Reinforcement learning",
+    "noAnswer3": "Unsupervised learning"
+  },
+  {
+    "question": "IRIS dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
+    "answer": "3",
+    "noAnswer1": "2",
+    "noAnswer2": "10",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "CIFAR10 datasetda tasvirlarning o’lchami qaysi o’lchamda",
+    "answer": "To’g’ri javob yo’q",
+    "noAnswer1": "28x28",
+    "noAnswer2": "128x128",
+    "noAnswer3": "64x64"
+  },
+  {
+    "question": "CIFAR10 datasetda necha tanlama bor",
+    "answer": "60000",
+    "noAnswer1": "70000",
+    "noAnswer2": "50000",
+    "noAnswer3": "10000"
+  },
+  {
+    "question": "CIFAR100 dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
+    "answer": "100",
+    "noAnswer1": "99",
+    "noAnswer2": "10",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "Modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "answer": "Semi-supervised learning",
+    "noAnswer1": "Reinforcement learning",
+    "noAnswer2": "Unsupervised learning",
+    "noAnswer3": "Supervised learning"
+  },
+  {
+    "question": "IRIS dataset da obyektni xarakterlovchi xususiyatlari nechta",
+    "answer": "4",
+    "noAnswer1": "2",
+    "noAnswer2": "3",
+    "noAnswer3": "8"
+  },
+  {
+    "question": "Pythonda massivni e’lon qilish uchun qanday toifalardan foydalaniladi?",
+    "answer": "array, matrix",
+    "noAnswer1": "tuple, arr",
+    "noAnswer2": "list, tuple",
+    "noAnswer3": "arr, list"
+  },
+  {
+    "question": "Supervised learning ?",
+    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
+    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
+    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va\r\nnatijalarni yaxshilash imkoniyatiga ega bo’ladi."
+  },
+  {
+    "question": "Unsupervised learning ?",
+    "answer": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
+    "noAnswer1": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
+    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
+  },
+  {
+    "question": "Semi- supervised learning",
+    "answer": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
+    "noAnswer2": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
+    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
+  },
+  {
+    "question": "Reinforcement learning ?",
+    "answer": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi.",
+    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
+    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
+    "noAnswer3": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish"
+  },
+  {
+    "question": "O’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va natijalarni\r\nyaxshilash imkoniyatiga ega bo’ladi.",
+    "answer": "Reinforcement learning",
+    "noAnswer1": "Semi-supervised learning",
+    "noAnswer2": "Supervised learning",
+    "noAnswer3": "Unsupervised learning"
+  },
+  {
+    "question": "Logistik regressiyada qaror qabul qilishimiz uchun modeldan olingan qiymat qaysi bo’sag’aqiymati orqali solishtiriladi?",
+    "answer": "0.5",
+    "noAnswer1": "0",
+    "noAnswer2": "1",
+    "noAnswer3": "-1 va 1"
+  },
+  {
+    "question": "Pythonda ikkita vektorni birlashtirishda xatolik sodir bo’ladigan javobni tanlang",
+    "answer": "a=append(a,b)",
+    "noAnswer1": "a=np.append(a,b)",
+    "noAnswer2": "a=np.append(b,a)",
+    "noAnswer3": "Varinatlarning barchasida vektorlar birlashtiriladi"
+  },
+  {
+    "question": "&gt;&gt;a=[1,5,’ML’,False]<br> &gt;&gt;print(type(a))",
+    "answer": "class 'list'",
+    "noAnswer1": "class ‘tuple’",
+    "noAnswer2": "class ‘array’",
+    "noAnswer3": "class 'dec'"
+  },
+  {
+    "question": "Cost funksiya bu?",
+    "answer": "Modelni o’qitish davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamadaberilgan qiymat oralidagi farqlarni hisoblash funksiyasi",
+    "noAnswer1": "Cosinius funksiyasini qisqartma ko’rinishi?",
+    "noAnswer2": "Bunday nomdagi funksiya yo’q.",
+    "noAnswer3": "Modelni testlash davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamadaberilgan qiymat oralidagi farqlarni hisoblash funksiyasi"
+  },
+  {
+    "question": "Chiziqli regression model nechta qiymat qaytaradi",
+    "answer": "Har doim bitta",
+    "noAnswer1": "Ixtiyoriy ravishdagi sonda qiymat qaytarishi mumkin",
+    "noAnswer2": "Har doim bittadan ko’p",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "QR code mashinali o’qitilish algoritmi asosida ishlab chiqilgan ?",
+    "answer": "Noto’g’ri,",
+    "noAnswer1": "To’g’ri",
+    "noAnswer2": "Bo’lishi mumkin",
+    "noAnswer3": "Bilmayman"
+  },
+  {
+    "question": "Gradient tushish bu?",
+    "answer": "Model parametrlarini sozlash uchun ishlatiladigan algoritm",
+    "noAnswer1": "Xatolik funksiyasi",
+    "noAnswer2": "Kiruvchi ma’lumotlarni narmallashtirish uchun qiymatlarni 0,1oraliqqa tushirish",
+    "noAnswer3": "Mashinali o’qitish turi"
+  },
+  {
+    "question": "O’qitish jarayonida regulyarizatsiyalash bu?",
+    "answer": "Modelni o’qitish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
+    "noAnswer1": "Barcha javob to’g’ri",
+    "noAnswer2": "Modelni testlash jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
+    "noAnswer3": "Modelni qurish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish"
+  },
+  {
+    "question": "O’ratuvchi tanlamadagi val (validation) to’plam bu?",
+    "answer": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
+    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
+    "noAnswer2": "modelni testlash uchun ishlatiladi",
+    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
+  },
+  {
+    "question": "Logistik regression model nima uchun ishlatiladi",
+    "answer": "Sinflashtirsh masalasini yechish uchun",
+    "noAnswer1": "Klasterlash masalasini ishlash uchun",
+    "noAnswer2": "Neyron tarmoqni qurish uchun",
+    "noAnswer3": "Qiymatni bashoratlash uchun"
+  },
+  {
+    "question": "Bias va Variance tushunchalarining farqi nimada?",
+    "answer": "Bias modelni train to’plam bilan testlagandagi xatolik, Variance esa test to’plambilantestlagandagi xatolik",
+    "noAnswer1": "Bias modelni test to’plam bilan testlagandagi xatolik, Variance esa train to’plambilantestlagandagi xatolik",
+    "noAnswer2": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat test\r\nto’plam bilan testlagandagi xatolik",
+    "noAnswer3": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat trainto’plam bilan testlagandagi xatolik"
+  },
+  {
+    "question": "Agar bias yuqori bo’lsa qaysi turdagi muammo sodir bo’lmoqda?",
+    "answer": "Underfitting",
+    "noAnswer1": "Owerfitting",
+    "noAnswer2": "Bias ni yuqoriligi mumamo hisoblanmaydi",
+    "noAnswer3": "Model juda murakkab"
+  },
+  {
+    "question": "Agar Variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
+    "answer": "Owerfitting",
+    "noAnswer1": "Underfitting",
+    "noAnswer2": "Variance ni yuqoriligi mumamo hisoblanmaydi",
+    "noAnswer3": "Model juda sodda"
+  },
+  {
+    "question": "Agar biass quyi va variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
+    "answer": "Owerfitting",
+    "noAnswer1": "Underfitting",
+    "noAnswer2": "Bias ni quyi variance ni yuqoriligi mumamo hisoblanmaydi",
+    "noAnswer3": "Model juda sodda"
+  },
+  {
+    "question": "Model murakkab bo’lsa bias qanday bo’ladi?",
+    "answer": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi past bo’ladi",
+    "noAnswer1": "To’g’ri javob yo’q",
+    "noAnswer2": "Bias ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas.",
+    "noAnswer3": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi yuqori\r\nbo’ladi"
+  },
+  {
+    "question": "Model murakkab bo’lsa variance qanday bo’ladi?",
+    "answer": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi yuqori\r\nbo’ladi",
+    "noAnswer1": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi past bo’ladi",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Variance ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas."
+  },
+  {
+    "question": "KNN algoritmida k qiymat nimani xaratterlaydi?",
+    "answer": "k ta eng yaqin qo’shnini",
+    "noAnswer1": "k ta eng uzoq qo’shnini",
+    "noAnswer2": "O’qitish qadami",
+    "noAnswer3": "O’qitishlar sonini"
+  },
+  {
+    "question": "Model qurish uchun o’rgatuvchi tanalaga qaysi nisbatda bo’linsa maqsadga muoffiq bo’ladi?",
+    "answer": "Train - 75%\r\nVal - 15 %\r\nTest - 10%",
+    "noAnswer1": "Train - 50%\r\nTest - 50%",
+    "noAnswer2": "Train - 50%\r\nVal - 25 %\r\nTest - 25%",
+    "noAnswer3": "Train - 75%\r\nVal - 25 %"
+  },
+  {
+    "question": "O’rgatuvchi tanlamada normallashtirish tushunchasi bu?",
+    "answer": "O’ratuvchi tanlamdagi qiymatlarni bir xil shkalaga o’tkazish",
+    "noAnswer1": "O’ratuvchi tanlamdagi qiymatlarni turli xil shkalaga o’tkazish",
+    "noAnswer2": "O’ratuvchi tanlamdagi qiymatlarni faqat [0,1] shkalaga o’tkazish",
+    "noAnswer3": "O’ratuvchi tanlamdagi qiymatlarni faqat [-1,1] shkalaga o’tkazish"
+  },
+  {
+    "question": "Logistik regressiya masalasida asosan qaysi aktivlashtirish funksiyasidan foydalaniladi?",
+    "answer": "Sigmoid",
+    "noAnswer1": "Tanh",
+    "noAnswer2": "ReLU",
+    "noAnswer3": "Sigmoid va ReLU"
+  },
+  {
+    "question": "Nima uchun o’rgatuvchi tanlama normallashtiriladi?",
+    "answer": "Obyektni xarakterlovchi xususiyatlari bir xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish",
+    "noAnswer1": "Obyektni xarakterlovchi xususiyatlari faqat [0,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
+    "noAnswer2": "Obyektni xarakterlovchi xususiyatlari faqat [-1,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
+    "noAnswer3": "Obyektni xarakterlovchi xususiyatlari turli xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish"
+  },
+  {
+    "question": "Validation dataset qayerda ishlatiladi?",
+    "answer": "Modelni qurish davomida paramertlarni sozlashda",
+    "noAnswer1": "Model qurib bo’linganidan so’ng aniqlikni baholashda",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Validation datasetdan foydalanilmaydi"
+  },
+  {
+    "question": "Klasterlash bu ?",
+    "answer": "O’qituvchisiz o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
+    "noAnswer1": "O’qituvchili o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
+    "noAnswer2": "Mashinali o’qitishda buday tushuncha yo’q.",
+    "noAnswer3": "Logistik regressiya asosida amalga oshiriladigan mashinali o’qitish algoritmi"
+  },
+  {
+    "question": "O’qituvchisiz o’qitish algoritmiga qaysi algoritim kiradi?",
+    "answer": "Kmaens\r\nSingular Value Decomposition",
+    "noAnswer1": "KNN\r\nSVM",
+    "noAnswer2": "SVM\r\nKmaens",
+    "noAnswer3": "Random Forest"
+  },
+  {
+    "question": "Nima uchun logistik regressiyada sigmoid funksiyadan foydalaniladi?",
+    "answer": "qiymatlarni (0,1) oraliqda keltirish",
+    "noAnswer1": "qiymatlarni [-1,1] oraliqda keltirish",
+    "noAnswer2": "qiymatlarni [0,1] oraliqda keltirish",
+    "noAnswer3": "qiymatlarni (-1,1) oraliqda keltirish"
+  },
+  {
+    "question": "Logistik regressiyada qaror chegrasi uchun topilgan modeldan olingan qiymat qaysi\r\nbo’sag’a qiymati orqali solishtiriladi va qaror qabul qilinadi?",
+    "answer": "0",
+    "noAnswer1": "1",
+    "noAnswer2": "0.5",
+    "noAnswer3": "-1 va 1"
+  },
+  {
+    "question": "SVM algoritmida suppor vectors bu?",
+    "answer": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlaydi",
+    "noAnswer1": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlaydi",
+    "noAnswer2": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlamaydi",
+    "noAnswer3": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlamaydi"
+  },
+  {
+    "question": "SVM algoritmidagi hisoblaanadigan orqaliq (margin) qanday bo’lsa model ishonchli debtopiladi?",
+    "answer": "Oraliq eng kattta bo’lsa",
+    "noAnswer1": "Oraliq eng kichik bo’lsa",
+    "noAnswer2": "Oraliq hech narsani anglatmaydi",
+    "noAnswer3": "To’gri javob yo’q"
+  },
+  {
+    "question": "SVM algoritmida yadro(kernel) funksiyalari nima uchun xizmat qiladi?",
+    "answer": "Kiruvchi xususiyatlarni ma’lum o’lchov sohasidan boshqasiga o’zgartirish uchun xizmat qiladi. Misol uchun 1D -&gt; 2D",
+    "noAnswer1": "Kiruvchi xususiyatlarni 1D o’lchov sohasidan 2D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
+    "noAnswer2": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 1D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
+    "noAnswer3": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 3D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi"
+  },
+  {
+    "question": "SVM orqali ..",
+    "answer": "Faqat bir nechta sinfga tegishli bo’lgan obyektlar sinflanadi",
+    "noAnswer1": "Faqat ikkita sinfga tegishli bo’lgan obyektlar sinflanadi",
+    "noAnswer2": "Faqat regressiya masalasini yechish mumkin",
+    "noAnswer3": "Ham sinflashrish, ham regressiya masalasini ishlash mumkin."
+  },
+  {
+    "question": "Modelni o’qitish uchun o’quv tanlanma (dataset) qanday turlarga bo’lindi",
+    "answer": "training, validation, testing",
+    "noAnswer1": "testing, value-x, training",
+    "noAnswer2": "validation, labels, training",
+    "noAnswer3": "labels, validation, testing"
+  },
+  {
+    "question": "O’qitish uchun ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan, model turg’unligigata’sir qiluvchi ma’lumotlarni olib tashlash jarayoni nima deb ataladi",
+    "answer": "Ma’lumotlarni tozalash (Data cleaning)",
+    "noAnswer1": "Xususiyatlarni aniqlash (Feature detection)",
+    "noAnswer2": "Ma’lumotlarni o’chirish (Data deletion)",
+    "noAnswer3": "Ma’lumotlar turini aniqlash (Data formatting)"
+  },
+  {
+    "question": "Neyron tarmoqlarida sinflashtirish masalasini yechishda chiquvchi qatlamda qaysi turdagi\r\naktivlash funksiyasidan foydalaniladi",
+    "answer": "Softmax",
+    "noAnswer1": "Sigmoid",
+    "noAnswer2": "ReLu",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Numpy kutubxonasidagi polyfit() funksiyasi nima uchun ishlatiladi?",
+    "answer": "Chiziqli regressiya uchun model paramertlarini aniqlash uchun",
+    "noAnswer1": "Loginstik regressiya uchun model paramertlarini aniqlash uchun",
+    "noAnswer2": "Chiziqli va logistik regressiya uchun model paramertlarini aniqlash uchun",
+    "noAnswer3": "Polynom funksiya yaratish uchun"
+  },
+  {
+    "question": "Numpy kutubxonasidagi poly1d() funksiyasi nima uchun ishlatiladi?",
+    "answer": "Berilgan parametrlar asosida polinomal funksiya hosil qilish",
+    "noAnswer1": "Berilgan parametrlar asosida polinomal Class hosil qilish",
+    "noAnswer2": "Berilgan parametrlar asosida logistik regressiya modelini qurish",
+    "noAnswer3": "Berilgan parametrlar asosida giperbolik regressiya modelini qurish"
+  },
+  {
+    "question": "Neyron tarmoqlarini qurishga mo’ljallangan python kutubxonalarini ko'rsating.",
+    "answer": "Numpy, keras, tensorflow",
+    "noAnswer1": "Numpy, pandas, keras",
+    "noAnswer2": "Tensorflow, numpy, pandas",
+    "noAnswer3": "Python, Matlab, Octave"
+  },
+  {
+    "question": "Agar biass quyi va variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
+    "answer": "Owerfitting",
+    "noAnswer1": "Underfitting",
+    "noAnswer2": "Bias ni quyi variance ni yuqoriligi mumamo hisoblanmaydi",
+    "noAnswer3": "Model juda sodda"
+  },
+  {
+    "question": "Model murakkab bo’lsa bias qanday bo’ladi?",
+    "answer": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi past bo’ladi",
+    "noAnswer1": "To’g’ri javob yo’q",
+    "noAnswer2": "Bias ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas.",
+    "noAnswer3": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi yuqori\r\nbo’ladi"
+  },
+  {
+    "question": "Model murakkab bo’lsa variance qanday bo’ladi?",
+    "answer": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi yuqori\r\nbo’ladi",
+    "noAnswer1": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi past bo’ladi",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Variance ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas."
+  },
+  {
+    "question": "Underfitting bu - …",
+    "answer": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolikbo’lishiga olib keladi",
+    "noAnswer1": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda kattaxatolik bo’lishiga olib keladi",
+    "noAnswer2": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolikbo’lishiga olib keladi",
+    "noAnswer3": "Model juda muarkkab. Shuning evaziga model train to’plamda yuqori, test to’plamda past\r\nxatolik bo’lishiga olib keladi"
+  },
+  {
+    "question": "Uyning xarakterlovchi xususiyatlari asosida ikkita guruhga(klasterga) (biznes, ekanom)\r\najratish uchun qaysi mashinali o’qitish algoritmidan foydalaniladi",
+    "answer": "Kmeans",
+    "noAnswer1": "SVM",
+    "noAnswer2": "Random Forest",
+    "noAnswer3": "Logistik regressiya"
+  },
+  {
+    "question": "KNN algoritmida k ni kichik tanlasak nima sodir bo’ladi?",
+    "answer": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
+    "noAnswer1": "Shovqinga sezgir bo’lmaydi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
+    "noAnswer2": "KNN algoritmida k parametr yo’q.",
+    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
+  },
+  {
+    "question": "KNN algoritmida k ni katta tanlasak nima sodir bo’ladi?",
+    "answer": "Model qurish vaqti oshib ketadi. Bazan k ning katta tanlanishi sinflashtirishda xatolikka ko’puchrashi mumkin",
+    "noAnswer1": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
+    "noAnswer2": "KNN algoritmida k parametr yo’q.",
+    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
+  },
+  {
+    "question": "KNN algoritmida k ta eng yaqin qo’shni qanday aniqlanadi?",
+    "answer": "To’plamdagi barcha elemetlar orasidagi masofa hisoblanib chiqiladi va eng yaqin k tasi\r\ntanlanadi",
+    "noAnswer1": "Taxminiy random() funksiyasi orqali aniqlanadi",
+    "noAnswer2": "To’plamdagi k ta elemetlar orasidagi masofa hisoblanib chiqiladi va ular o’sish tartibidasaralanadi.",
+    "noAnswer3": "KNN algoritmida k ta eng yaqin qo’shni tushunchasi yo’q."
+  },
+  {
+    "question": "SVM algorimi qaysi masalani yechish uchun xizmat qiladi?",
+    "answer": "Sinflashtirsh",
+    "noAnswer1": "Chiziqli regressiya",
+    "noAnswer2": "Klasterlash",
+    "noAnswer3": "Normallashtirish"
+  },
+  {
+    "question": "KNN algoritmi qaysi masalani yechish uchun xizmat qiladi",
+    "answer": "Barcha javob to’g’ri",
+    "noAnswer1": "Sinflashtirish",
+    "noAnswer2": "Regressiya",
+    "noAnswer3": "Klasterlash"
+  },
+  {
+    "question": "KMeans bu -",
+    "answer": "O’qituvchisiz o’qitish algoritmi",
+    "noAnswer1": "O’qituvchili o’qitish algoritmi",
+    "noAnswer2": "O’zini o’zi o’qitadigan algoritmi",
+    "noAnswer3": "to’g’ri javob yo’q"
+  },
+  {
+    "question": "Kmaens algoritmi qaysi masalani yechish uchun xizmat qiladi",
+    "answer": "Klasterlash",
+    "noAnswer1": "Barcha javob to’g’ri",
+    "noAnswer2": "Sinflashtirish",
+    "noAnswer3": "Regressiya"
+  },
+  {
+    "question": "Logistik regressiyada qaror qabul qilishimiz uchun modeldan olingan qiymat qaysi bo’sag’aqiymati orqali solishtiriladi?",
+    "answer": "0.5",
+    "noAnswer1": "0",
+    "noAnswer2": "1",
+    "noAnswer3": "-1 va 1"
+  },
+  {
+    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
+    "answer": "Ma’lumotlar formatlari bir xillashtiriladi",
+    "noAnswer1": "Ma’lumotlarni tozalash",
+    "noAnswer2": "Ma’lumotlardan xususiyatlarni ajratish",
+    "noAnswer3": "Barchasi to’g’ri"
+  },
+  {
+    "question": "Sun’iy neyron tarmoqlarida perceptron tushunchasi?",
+    "answer": "bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir.",
+    "noAnswer1": "bu ikkita qatlamdan iborat ya’ni kiruvchi va faollashtish qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir.",
+    "noAnswer2": "bu bir qatlamdan iborat bo’lgan neyronni hisoblash tugunidir.",
+    "noAnswer3": "bu uch qatlamdan iborat bo’lgan neyronni hisoblash tugunidir."
+  },
+  {
+    "question": "Sun’iy neyron tarmoqlarida yashirin qatlam tushunchasi?",
+    "answer": "Kiruvchi va chiquvchi qatlamlar orasida joylashadigan neyron",
+    "noAnswer1": "Ko’rinmaydigan qatlam",
+    "noAnswer2": "Neyron tarmoqda yashirin qatlam tushunchasi yo’q",
+    "noAnswer3": "Kiruvchi qatlamdan kiyin keladigan barcha qatlamalar"
+  },
+  {
+    "question": "Sun’iy neyron tarmoqlarida aktivlashtirish funksiyasi tushunchasi?",
+    "answer": "Neyron tugunlaridan chiqqan qiymatni ma’lum bir diapozonga tushirish uchun ishlatiladi",
+    "noAnswer1": "Neyron tarmoqda aktivlashtirish funksiyasi tushunchasi yo’q",
+    "noAnswer2": "Bu faol bo’lmagan tugunlarni faollashtish uchun ishlatiladi.",
+    "noAnswer3": "To’g’ri javob yoq"
+  },
+  {
+    "question": "Chuqur o’qitilish deyiladi, qachonki …",
+    "answer": "Nayron tarmog’imizda yashirin qatlamlar soni bittadan ko’p bo’lsa.",
+    "noAnswer1": "Nayron tarmog’imizda yashirin qatlamlar soni bitta bo’lsa.",
+    "noAnswer2": "Ikkita neyron orasidagi masofa katta bo’lsa",
+    "noAnswer3": "Neyronlar soni ikkitadan ko’p bo’lsa"
+  },
+  {
+    "question": "Modelni o’qitish uchun o’quv tanlanma (dataset) qanday turlarga bo’lindi",
+    "answer": "training, validation, testing",
+    "noAnswer1": "testing, value-x, training",
+    "noAnswer2": "validation, labels, training",
+    "noAnswer3": "labels, validation, testing"
+  },
+  {
+    "question": "Python muhitida chiziqli regression model qurish uchun ishlatiladigan stats.linregress(x,y)\r\nfunksiyasi nechta qiymat qaytaradi",
+    "answer": "5",
     "noAnswer1": "4",
-    "noAnswer2": "5",
-    "noAnswer3": "1"
+    "noAnswer2": "3",
+    "noAnswer3": "2"
   },
   {
-    "question": "Ikki o'lchamli signallarda yani tasvirlarda filtrlash amalarini qanday usulda  bajariladi?",
-    "answer": "Matrisa",
-    "noAnswer1": "Vektor",
-    "noAnswer2": "Ketma-ket",
-    "noAnswer3": "Parallel"
+    "question": "O’qitish uchun ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan, model turg’unligigata’sir qiluvchi ma’lumotlarni olib tashlash jarayoni nima deb ataladi",
+    "answer": "Ma’lumotlarni tozalash (Data cleaning)",
+    "noAnswer1": "Xususiyatlarni aniqlash (Feature detection)",
+    "noAnswer2": "Ma’lumotlarni o’chirish (Data deletion)",
+    "noAnswer3": "Ma’lumotlar turini aniqlash (Data formatting)"
   },
   {
-    "question": "Kotelnikov teoremasiga to’gri ta'rif berilgan variantni ko’rsating?",
-    "answer": "diskretlash chastota asosiy signal  chastotasidan 2 marta  katta bo'lishi kerak",
-    "noAnswer1": "diskretlash chastota asosiy signal  chastotasidan 6 marta  katta bo'lishi kerak",
-    "noAnswer2": "diskretlash chastota asosiy signal  chastotasidan 4 marta  katta bo'lishi kerak",
-    "noAnswer3": "diskretlash chastota asosiy signal  chastotasiuga teng bo'lishi kerak"
+    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
+    "answer": "Format, Data Cleaning, Feature Extraction",
+    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
+    "noAnswer2": "Resizing, Feature Extraction, Format",
+    "noAnswer3": "Format, Resizing, Data Cleaning"
+  },
+  {
+    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
+    "answer": "chiziqli, nochiziqli va logistik regressiya usullari asosida",
+    "noAnswer1": "sintaktik usullar asosida",
+    "noAnswer2": "dinamik usillar asosida",
+    "noAnswer3": "semantik usullari asosida"
+  },
+  {
+    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviyma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonningbosqichlari hisoblanadi",
+    "answer": "Mashinali o’qitish",
+    "noAnswer1": "Chuqur o’qitish",
+    "noAnswer2": "Regression tahlil",
+    "noAnswer3": "Statistik tahlil"
+  },
+  {
+    "question": "Chuqur o’qitishning uchunchi bosqichi qanday jarayondan iborat?",
+    "answer": "Chuqur o’qitish algoritmini belgilash.",
+    "noAnswer1": "Modelni testlash.",
+    "noAnswer2": "Muammoni tushunib olish.",
+    "noAnswer3": "Modelni o’qitish."
+  },
+  {
+    "question": "Keras bu – ...",
+    "answer": "tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
+    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
+    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
+    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
+  },
+  {
+    "question": "Tensorflow bu – ...",
+    "answer": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
+    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
+  },
+  {
+    "question": "Sklearn bu - …",
+    "answer": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalgaoshirishga mo’ljallangan maxsus paket",
+    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishgamo’ljallangan hisoblanadi",
+    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitishalgortimlarini ishlab chiqishga mo’ljallangan",
+    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili\r\nalgoritmlarini amalga oshirishga mo’ljallangan maxsus paket"
+  },
+  {
+    "question": "Chiziqli va logistik regression model qurilayotganda bitta o’rgatuvchi tanlamadan foydalansabo’ladimi?",
+    "answer": "Ha, faqat yorliqlari uchun ikkita qiymat saqlangan bo’lsa",
+    "noAnswer1": "Ha, regression model uchun hamma vaqt dataset bir xilda bo’ladi.",
+    "noAnswer2": "Buning imkoni yo’q",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Chiziqli regresiya va Logistik regresiya uchun Cost funksiyasi bir xilda bo’ladimi?",
+    "answer": "Yoq",
+    "noAnswer1": "Ha",
+    "noAnswer2": "Logistik regressiyada cost funksiyasi bo’lmaydi",
+    "noAnswer3": "Chiziqli regressiyada cost funksiyasi bo’lmaydi"
+  },
+  {
+    "question": "Python sklearn kutubxonasidagi qaysi Classs chiziqli regressiya modelini qurishda ishlatiladi",
+    "answer": "LinearRegression",
+    "noAnswer1": "Polyfit",
+    "noAnswer2": "poly1d",
+    "noAnswer3": "Linear_model"
+  },
+  {
+    "question": "Chiziqli regressiyada modelni murakkab tanlansa qaysi turdagi muammo yuzaga keladi",
+    "answer": "Owerfitting",
+    "noAnswer1": "Underfitting",
+    "noAnswer2": "Model aniq ishlaydigan bo’lib, shakllanadi.",
+    "noAnswer3": "Muammo sodir bo’lmaydi"
+  },
+  {
+    "question": "Chiziqli regressiyada modelni sodda tanlansa qaysi turdagi muammo yuzaga keladi",
+    "answer": "Underfitting",
+    "noAnswer1": "Owerfitting",
+    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer3": "Muammo sodir bo’lmaydi"
+  },
+  {
+    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 65% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
+    "answer": "Underfitting",
+    "noAnswer1": "Owerfitting",
+    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer3": "Everfitting"
+  },
+  {
+    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 25% aniqliq va test dataset bilan testlaganimizda 95% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
+    "answer": "Underfitting",
+    "noAnswer1": "Owerfitting",
+    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer3": "Everfitting"
+  },
+  {
+    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 95% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
+    "answer": "Owerfitting",
+    "noAnswer1": "Model ishonchli, hech qanaday muammo yo’q",
+    "noAnswer2": "Underfitting",
+    "noAnswer3": "Everfitting"
+  },
+  {
+    "question": "Biologik neyron tarmoq tashkil etuvchilarini ko’rsating?",
+    "answer": "cell body, dendrites, synapse, axon",
+    "noAnswer1": "input, dendrites, synapse, output",
+    "noAnswer2": "node, input, weights, output",
+    "noAnswer3": "synapse, axon, weights, node"
+  },
+  {
+    "question": "Python list bu -",
+    "answer": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
+    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
+    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Python tuple bu -",
+    "answer": "turli tipdagi elementlar to’plamidan iborat statik massiv",
+    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
+    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Mashinali o’qitishda samaradorlikni baholash uchun qanday matritsadan foydalaniladi?",
+    "answer": "Tartibsizlik matritsasi (confusion matrix)",
+    "noAnswer1": "Aniqliq matritsasi (accuracy matrix)",
+    "noAnswer2": "Xatolik matritsasi (loss matrix)",
+    "noAnswer3": "Barchasi to’g’ri"
+  },
+  {
+    "question": "pip freeze",
+    "answer": "Environment o’rnatilgan barcha paketlar ro’yxatini chop qiladi",
+    "noAnswer1": "Environment o’rnatilgan eng oxirgi paketlar ro’yxatini chop qiladi",
+    "noAnswer2": "Environment o’rnatilgan eng oxirgi 10 ta paket ro’yxatini chop qiladi",
+    "noAnswer3": "Environment o’rnatilgan mashinali o’qitishga xizmat qiladigan paketlar ro’yxatini chop qilish"
+  },
+  {
+    "question": "pip install numpy as np",
+    "answer": "Xatolik sodir bo’ladi",
+    "noAnswer1": "Numpy kutubxonasi o’rnatiladi",
+    "noAnswer2": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "import numpy as nb",
+    "answer": "Numpy kutubxonasi yuklash va quyida uni nb deb yuritish mumkin",
+    "noAnswer1": "Xatolik sodir bo’ladi",
+    "noAnswer2": "Numpy kutubxonasi o’rnatiladi",
+    "noAnswer3": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin"
+  },
+  {
+    "question": "Agar mashinali o’qitish qo’llaniladigan sklearn kutubxonasi o’rnatilmagan bo’lsa uni\r\nqanday o’rnatish mumkin.",
+    "answer": "Barchasi to’g’ri",
+    "noAnswer1": "pip install sklearn",
+    "noAnswer2": "conda install scikit-learn",
+    "noAnswer3": "pip install scikit-learn"
+  },
+  {
+    "question": "O’rgatuvchi tanlamasiz(dataset siz) mashinali o’qitish algoritmlarini ishlata olamizmi",
+    "answer": "Imkoni yoq",
+    "noAnswer1": "Ha, albatta",
+    "noAnswer2": "Ba’zan",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Python muhitida neyron tarmoq qurish uchun qaysi paketlardan foydalaniladi?",
+    "answer": "keras, tensorflow",
+    "noAnswer1": "tensorflow, pandas",
+    "noAnswer2": "numpy, matplotlib",
+    "noAnswer3": "pandas, opencv"
+  },
+  {
+    "question": "…… bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir. Nuqtalar o’rniga quyidagilardan mos keldiganini qo’ying?",
+    "answer": "perceptron",
+    "noAnswer1": "sigmoid funksiyasi",
+    "noAnswer2": "neyron",
+    "noAnswer3": "ReLU funksiyasi"
+  },
+  {
+    "question": "Regressiya nima?",
+    "answer": "ma’lumotlarni intellektual tahlil qilish usullaridan biri",
+    "noAnswer1": "ma’lumotlarni ustida arifmetik usullaridan biri",
+    "noAnswer2": "ma’lumotlarni raqamli ishlov berish usullaridan biri",
+    "noAnswer3": "ma’lumotlarni jamlash usullaridan biri"
+  },
+  {
+    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(0,10,2) ifodasida i indekso’zgaruvchisiga qanday qiymatlar keladi?",
+    "answer": "0 2 4 6 8",
+    "noAnswer1": "0 2 10",
+    "noAnswer2": "0 10",
+    "noAnswer3": "2 4 6 8 10"
+  },
+  {
+    "question": "Supervised o’qitish algoritmlari asosan qanday masalani yechishga qaratilgan?",
+    "answer": "regressiya va sinflashtirish masalasiga",
+    "noAnswer1": "statistik usullar yordamida ma’lumotlarni ajratish masalasiga",
+    "noAnswer2": "statistik usullar yordamida ma’lumotlarni sinflashtirish masalasiga",
+    "noAnswer3": "sinflashtirish va segmentlash masalasiga"
+  },
+  {
+    "question": "Neyron tarmoqda qanday turdagi qatlamlar (layers) bo’lishi mumkin?",
+    "answer": "kiruvchi, chiquvchi, yashirin",
+    "noAnswer1": "kiruvchi, yashirin, oraliq",
+    "noAnswer2": "qabul qiluvchi, hisoblovchi, chiquvchi",
+    "noAnswer3": "kiruvchi, qabul qiluvchi, chiquvchi"
+  },
+  {
+    "question": "Chiziqli regression model nima uchun ishlatiladi?",
+    "answer": "bashorat qilish uchun",
+    "noAnswer1": "mantiqiy model qurish uchun",
+    "noAnswer2": "sinflashtirish masalasini yechish uchun",
+    "noAnswer3": "segmentlash masalasini yechish uchun"
+  },
+  {
+    "question": "Neyron tarmoq nima?",
+    "answer": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi tuzilma",
+    "noAnswer1": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi dataset",
+    "noAnswer2": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi dataset",
+    "noAnswer3": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi tuzilma"
+  },
+  {
+    "question": "Sun’iy intellekt deganda nimani tushunasiz?",
+    "answer": "insonning onggi kabi fikrlovchi dastur",
+    "noAnswer1": "oddiy kompyuter dasturi",
+    "noAnswer2": "qaror qabul qiluvchi ilovalar",
+    "noAnswer3": "bunday termin fanda mavjud emas"
+  },
+  {
+    "question": "Dataset bu nima?",
+    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
+    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
+    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
+    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
+  },
+  {
+    "question": "Convolutional neural networks (CNN) – bu?",
+    "answer": "bu ko'p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
+    "noAnswer1": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
+    "noAnswer2": "bu ko’p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli",
+    "noAnswer3": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli"
+  },
+  {
+    "question": "Sun’iy intellektga asoslangan dasturlarni ishlab chiqishdan maqsad nima?",
+    "answer": "mustaqil fikrlovchi va qaror qabul qiluvchi dasturlarni hayotga tadbiq qilish",
+    "noAnswer1": "vaqtni maroqli o‘tkazish",
+    "noAnswer2": "insonlarning yashash darajasini yaxshilash",
+    "noAnswer3": "ortiqcha sarf-xarajatni kamaytirish"
+  },
+  {
+    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o’zgaradi?",
+    "answer": "0",
+    "noAnswer1": "5",
+    "noAnswer2": "-5",
+    "noAnswer3": "3,5"
+  },
+  {
+    "question": "Mashinani o’qitish turlari to’g’ri ko’rsatilgan javobni tanlang?",
+    "answer": "supervised, unsupervised, Semi-supervised, reinforcement",
+    "noAnswer1": "regressiya, Ehtimollar nazariyasi, Supervised, unsupervised",
+    "noAnswer2": "supervised, unsupervised, Regressiya, Sinflashtirish",
+    "noAnswer3": "regressiya, Sinflashtirish, Semi-supervised, reinforcement"
+  },
+  {
+    "question": "Neyron tarmoqlari bu…?",
+    "answer": "Neyron tarmoqlari juda ko’p muhim xususiyatlarga ega, ammo asosiysi bu o’rganishqobiliyatidir.",
+    "noAnswer1": "Neyron tarmoqlari ma’lumotlarni bog’lash uchun xizmat qiladi.",
+    "noAnswer2": "Bunday tarmoq mavjud emas",
+    "noAnswer3": "Ikkilik kod sifatidagi algoritm"
+  },
+  {
+    "question": "Chiziqli regressiyaga to’g’ri ta’rifni toping?",
+    "answer": "Chiziqli regressiya kuzatilgan ma'lumotlarga chiziqli tenglamani bog’lash orqali ikkitao'zgaruvchi o'rtasidagi munosabatni modellashtirishga aytiladi.",
+    "noAnswer1": "Chiziqli regressiya ma’lumotlarni klassifikatsiyalaydi.",
+    "noAnswer2": "Chiziqli Regressiya bu tanlangan ma’lumotlar ichidan kerakli ma’lumotni qidirish algoritmi.",
+    "noAnswer3": "To’g’ri javob yo’q."
+  },
+  {
+    "question": "Quyidagi usullardan qaysi biri har qanday chiziqli bo'linadigan ma'lumotlar to'plamida nol\r\no'qitish(zero training) xatosiga erishishi mumkin?",
+    "answer": "KNN",
+    "noAnswer1": "Qaror daraxti",
+    "noAnswer2": "SVM(support vector machine)",
+    "noAnswer3": "CNN"
+  },
+  {
+    "question": "CNN bu…?",
+    "answer": "Svyortkali neyron tarmoq",
+    "noAnswer1": "Adamar neyron tarmog’i",
+    "noAnswer2": "K ta yaqin qo’shnilar",
+    "noAnswer3": "Qayta murojaat neyron tarmog’i"
+  },
+  {
+    "question": "Xususiyatlarni ajratib olishga to'liq ta'rif berilgan qatorini toping?",
+    "answer": "o’qituvchi to’plamdagi ma’lumotlar xususiyatlari o’rganib chiqiladi va bashoratlash, tashxislash, sinflashtirish, qaror qabul qilish uchun kerakli xususiyatlar ajratib olish",
+    "noAnswer1": "Qaror qabul qilish daraxti qiymatlari",
+    "noAnswer2": "Sinflashtirish masalasini yechish algoritmi to’plami",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Neyron tarmoqdagi tugun qiymati 0.5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
+    "answer": "0.5",
+    "noAnswer1": "1",
+    "noAnswer2": "0",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "Chiziqli regressiya qaysi mashinali o’qitish algoritmlari tarkibiga kiradi?",
+    "answer": "O’qituvchili o’qitish",
+    "noAnswer1": "O’qituvchisiz o’qitish",
+    "noAnswer2": "Reinforcementli o'qitish",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Neyron tarmoqdagi tugun qiymati 2.5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
+    "answer": "2,5",
+    "noAnswer1": "2",
+    "noAnswer2": "0",
+    "noAnswer3": "44595"
+  },
+  {
+    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
+    "answer": "Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali\r\no’qitishda aqlli mashinalarga dasturlashning muqobil usulidir.",
+    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
+    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
+    "answer": "O’qtuvchili va O’qituvchisiz",
+    "noAnswer1": "Tanlanma",
+    "noAnswer2": "Ma’lumotlar bazasi",
+    "noAnswer3": "Chiziqli va logistik"
+  },
+  {
+    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
+    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
+    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
+    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
+    "noAnswer3": "Oddiy algoritm"
+  },
+  {
+    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
+    "answer": "mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilano’qitish amalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchunmodelga o'z ustida ishlashga imkon yaratib beriladi",
+    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
+    "noAnswer2": "Bunday o’qitish mavjud emas",
+    "noAnswer3": "To’g’ri javob yo’q"
+  },
+  {
+    "question": "O’rgatuvchi tanlamada normallashtirish tushunchasi bu?",
+    "answer": "O’ratuvchi tanlamdagi qiymatlarni bir xil shkalaga o’tkazish",
+    "noAnswer1": "O’ratuvchi tanlamdagi qiymatlarni turli xil shkalaga o’tkazish",
+    "noAnswer2": "O’ratuvchi tanlamdagi qiymatlarni faqat [0,1] shkalaga o’tkazish",
+    "noAnswer3": "O’ratuvchi tanlamdagi qiymatlarni faqat [-1,1] shkalaga o’tkazish"
+  },
+  {
+    "question": "Nima uchun o’rgatuvchi tanlama normallashtiriladi?",
+    "answer": "Obyektni xarakterlovchi xususiyatlari bir xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish",
+    "noAnswer1": "Obyektni xarakterlovchi xususiyatlari faqat [0,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
+    "noAnswer2": "Obyektni xarakterlovchi xususiyatlari faqat [-1,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
+    "noAnswer3": "Obyektni xarakterlovchi xususiyatlari turli xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish"
+  },
+  {
+    "question": "Validation dataset qayerda ishlatiladi?",
+    "answer": "Modelni qurish davomida paramertlarni sozlashda",
+    "noAnswer1": "Model qurib bo’linganidan so’ng aniqlikni baholashda",
+    "noAnswer2": "To’g’ri javob yo’q",
+    "noAnswer3": "Validation datasetdan foydalanilmaydi"
+  },
+  {
+    "question": "Klasterlash bu ?",
+    "answer": "O’qituvchisiz o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
+    "noAnswer1": "O’qituvchili o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
+    "noAnswer2": "Mashinali o’qitishda buday tushuncha yo’q.",
+    "noAnswer3": "Logistik regressiya asosida amalga oshiriladigan mashinali o’qitish algoritmi"
+  },
+  {
+    "question": "KNN algoritmida k qiymat nimani xaratterlaydi?",
+    "answer": "k ta eng yaqin qo’shnini",
+    "noAnswer1": "k ta eng uzoq qo’shnini",
+    "noAnswer2": "O’qitish qadami",
+    "noAnswer3": "O’qitishlar sonini"
+  },
+  {
+    "question": "Uy narxini bashorat qilish uchun mashinali o’qitishning qaysi algoritmidan foydalanadi",
+    "answer": "Chiziqli regressiya",
+    "noAnswer1": "Logistik regressiya",
+    "noAnswer2": "Kmeans",
+    "noAnswer3": "SVM"
+  },
+  {
+    "question": "Keras muhitida modelni testlash uchun mavjud funksiyalardan qaysi biri ishlatiladi?",
+    "answer": "fit()",
+    "noAnswer1": "compile()",
+    "noAnswer2": "evaluate()",
+    "noAnswer3": "test()"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
