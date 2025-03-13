@@ -1,6317 +1,1887 @@
 const data = [
   {
-    "question": "Kmaens algoritmi qaysi masalani yechish uchun xizmat qiladi",
-    "answer": "Klasterlash",
-    "noAnswer1": "Barcha javob to’g’ri",
-    "noAnswer2": "Sinflashtirish",
-    "noAnswer3": "Regressiya"
+    "question": "Inson ichki mexanizmlarini nima o’rganadi?",
+    "answer": "Tarbiya",
+    "noAnswer1": "Ta’lim",
+    "noAnswer2": "Bilim",
+    "noAnswer3": "Sharoit"
   },
   {
-    "question": "Logistik regressiyada qaror qabul qilishimiz uchun modeldan olingan qiymat qaysi bo’sag’a qiymati orqali solishtiriladi?",
-    "answer": "0.5",
-    "noAnswer1": "0",
-    "noAnswer2": "1",
-    "noAnswer3": "-1 va 1"
+    "question": "Ta'lim mazmuni ta'rifini belgilang",
+    "answer": "o‘quvchilarga beriladigan bilim, ko’nikma va malakalarning belgilangan doirasi",
+    "noAnswer1": "o‘quvchilarga beriladigan nazariy bilim va amaliy tajribalar majmuyi",
+    "noAnswer2": "o‘quvchilarga beriladigan bilim, ko’nikma, malakalar xajmi",
+    "noAnswer3": "o‘quv rejasi, dasturi va darsliklar yig‘indisi majmui"
   },
   {
-    "question": "Sun’iy intellekti bo’lmagan elementni ko’rsating",
-    "answer": "Hub",
-    "noAnswer1": "Kalkulyator",
-    "noAnswer2": "Telefon",
-    "noAnswer3": "Foto Radar"
+    "question": "Qaysi fan pedagogika fani uchun metodologik asos bo’lib xizmat qiladi?",
+    "answer": "O‘quvchilarga beriladigan bilim, ko’nikma va malakalarning oldindan belgilangan doirasi",
+    "noAnswer1": "O‘quvchilarga beriladigan nazariy bilim va amaliy tajribalar majmuyi",
+    "noAnswer2": "O‘quvchilarga beriladigan bilim, ko’nikma, malakalar hajmi",
+    "noAnswer3": "O‘quv rejasi, dasturi va darsliklar yig‘indisi"
   },
   {
-    "question": "Ko’p o’zgaruvchili chiziqli regressiya bu -...",
-    "answer": "Bashoratlash uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib bashoratlashga xizmat qiladigan model yaratish",
-    "noAnswer1": "Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat qiladigan model yaratish",
-    "noAnswer2": "Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga  xizmat qiladigan model yaratish",
-    "noAnswer3": "Siflashtirish uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib siflashtirishga xizmat qiladigan model yaratish"
+    "question": "Psixologiya fani….",
+    "answer": "ruhiy hodisalar va ruhiy holatlarni o‘rganadi",
+    "noAnswer1": "bizning sezgilarimiz, fikrlarimiz, his-tuygularimizni o‘rganadi",
+    "noAnswer2": "ruhiy hodisalarni, ularning fakt va mexanizmlarini o‘rganadi",
+    "noAnswer3": "miya jarayonlari va uning qonuniyatlarini o‘rganadi"
   },
   {
-    "question": "Mashinali o’qitish va suniy intellekt",
-    "answer": "Mashinali o’qitish sun’iy intellekt tizimlarini ishlab chiqishga xizmat qiladi",
-    "noAnswer1": "Bir tushunchani ifodalaydi",
-    "noAnswer2": "Sun’iy intellekt mashinali o’qitish tizimlarini ishlab chiqishga xizmat qiladi",
-    "noAnswer3": "Turli tushunchalarni ifodalaydi"
+    "question": "O‘zbekiston Respublikasi “Ta'lim to‘g‘risida”gi Qonunining maqsadi?",
+    "answer": "Fuqarolarga ta'lim, tarbiya berish, kasb-hunar o‘rgatishning huquqiy asoslarini belgilashdan iborat konstitutsiyaviy huquqini ta'minlash",
+    "noAnswer1": "O‘zbekiston Respublikasida ta'lim sohasidagi munosabatlarni huquqiy tartibga solish",
+    "noAnswer2": "O‘zbekiston Respublikasi va Qoraqolpag‘iston Respublikasida ta'lim \r\nsohasidagi munosabatlarni huquqiy tartibga solish",
+    "noAnswer3": "Ta'lim sohasidagi davlat siyosatining asosiy printsiplaridan iborat xuquqlarini belgilash."
   },
   {
-    "question": "Mashinali o’qitishning asosiy turlari qaysilar",
-    "answer": "O’qituvchili,O’qituvchisiz",
-    "noAnswer1": "Regressiya,Sinflashtirish",
-    "noAnswer2": "KNN,SVM,Kmaens",
-    "noAnswer3": "Logistik va chiziqli regressiya"
+    "question": "Psixika-bu ….",
+    "answer": "tashqi olamni, ongli tarzda aks ettirishimizni ta'minlaydi",
+    "noAnswer1": "miya mahsuli nerv sistemasining funktsiyasidir",
+    "noAnswer2": "odamning ruhi, uning ruhiy xolatlaridir",
+    "noAnswer3": "bizning sezgilarimiz, fikrlarimiz, his-tuygularimiz va kechinmalarimizdir"
   },
   {
-    "question": "Mashinali o’qitishning o’qituvchili sinflashtirish algoritmini ko’rsating",
-    "answer": "KNN,SVM,Logistik regresiya",
-    "noAnswer1": "Kmaens",
-    "noAnswer2": "Chiziqli regressiya",
-    "noAnswer3": "Kmaens,KNN"
+    "question": "Test - so‘rov…",
+    "answer": "Oldindan qat'iy tarzda qabul qilingan savollarga beriladigan javoblarni taqazo etadi",
+    "noAnswer1": "odam psixikasining masala yechish, vazifalarni bajarish jarayonida kuzatishdir",
+    "noAnswer2": "psixik hodisalarni tushuntirib beruvchi usullar majmuidir.",
+    "noAnswer3": "odam psixikasini o‘rganishdagi vazifalar to‘plamidir"
   },
   {
-    "question": "Supervised learning ?",
-    "answer": "bu modelni xususiyatlari  aniq bo’lgan  ma’lumotlar bilan  o’qitish",
-    "noAnswer1": "bu modelni xususiyatlari aniq  bo’lmagan ma’lumotlar  bilan  o’qitish",
-    "noAnswer2": "bu modelni  ham aniq ham aniq  bo’lmagan xususiyatli  ma’lumotlar bilan  o’qitishdir.",
-    "noAnswer3": "bu  o’qitishning mukammal  usuli bo’lib, bunda  model o’zini-o’zi qayta  o’qitish va natijalarni  yaxshilash imkoniyatiga  ega bo’ladi."
+    "question": "\"Vatanga sodiq, tarbiyali inson” sifatlarini to’liq belgilang",
+    "answer": "o’zligini anglash, o’zini ozod, erkin, nodir, ulug, siymoligini anglash",
+    "noAnswer1": "o’ziga xos milliy insoniy sifatlarini ochib beruvchi ma'naviy-insoniy asoslarini anglash",
+    "noAnswer2": "ezgu niyat, fikr, ezgu suz, xushmuomila, ezgu ish, ezgu faoliyat",
+    "noAnswer3": "aqlan yetuk, jimonan soglom, ma'naviy pok tuygularni anglash"
   },
   {
-    "question": "Unsupervised learning ?",
-    "answer": "bu modelni xususiyatlari aniq  bo’lmagan ma’lumotlar  bilan  o’qitish",
-    "noAnswer1": "bu modelni xususiyatlari  aniq bo’lgan  ma’lumotlar bilan  o’qitish",
-    "noAnswer2": "bu modelni  ham aniq ham aniq  bo’lmagan xususiyatli  ma’lumotlar bilan  o’qitishdir.",
-    "noAnswer3": "bu  o’qitishning mukammal  usuli bo’lib, bunda  model o’zini-o’zi qayta  o’qitish va natijalarni  yaxshilash imkoniyatiga  ega bo’ladi."
+    "question": "Qaysi buyuk rus pedagogi o’zining asarida mashgulotlar orasida tanaffuslar berilishini,\r\n guruhlardagi bolalar yoshi va sonini bir xil bo’lishiga e'tibor berilishini aytgan",
+    "answer": "Ya.A. Komenskiy",
+    "noAnswer1": "A.M. Makarenko",
+    "noAnswer2": "V.A. Suxomlinskiy",
+    "noAnswer3": "D.K. Ushinskiy"
   },
   {
-    "question": "Bir o’zgaruvchili chiziqli regressiya bu - ….",
-    "answer": "Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat qiladigan model yaratish",
-    "noAnswer1": "Bashoratlash uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib bashoratlashga xizmat qiladigan model yaratish",
-    "noAnswer2": "Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat qiladigan model yaratish",
-    "noAnswer3": "Siflashtirish uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib siflashtirishga xizmat qiladigan model yaratish"
+    "question": "Pedagog butun ta'lim jarayonida  nimani namoyish etib borishi zarur.",
+    "answer": "bolalarga bo‘lgan ishonchini",
+    "noAnswer1": "darsga bo‘lgan munosabatini",
+    "noAnswer2": "o‘ziga bo‘lgan ishonchini",
+    "noAnswer3": "kasbiga bo‘lgan qiziqishi"
   },
   {
-    "question": "O’ratuvchi tanlamadagi train to’plam …",
-    "answer": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer1": "modelni testlash uchun ishlatiladi",
-    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
+    "question": "\"Innovatsion pedagogik texnologiyalar” – bu?",
+    "answer": "noan'anaviy pedagogik texnologiyalar bo‘lib, yangi axborot texnologiyalarining paydo bo‘lishi, talabalarning shaxsini  eng yaxshi xususiyatlarini olib chiqish.",
+    "noAnswer1": "Bu ishning natijasi sifatida o‘quvchilar yozilgan so‘zlar orasidan kitoblarda uchragan so‘zlarga aytiladi",
+    "noAnswer2": "Modulli ta'limning mohiyati shundaki, talaba modul bilan ishlashda mutlaqo mustaqil ravishda (yoki muayyan kam yordam bilan) o‘quv jarayonining aniq maqsadlariga erishish",
+    "noAnswer3": "o‘rganilayotgan bo‘lim bo‘yicha bir nechta kitoblar beriladi va ularning mazmuni va mavzusi ko‘rsatkichlarni diqqat bilan o‘rganishni taklif qiladi"
   },
   {
-    "question": "O’ratuvchi tanlamadagi val (validation) to’plam bu?",
-    "answer": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer2": "modelni testlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
+    "question": "\"Klaster\" -  texnologiyasi qaysi davlatda yaratilgan ?",
+    "answer": "AQShda",
+    "noAnswer1": "Germaniyada",
+    "noAnswer2": "Frantsiyada",
+    "noAnswer3": "Rossiyada"
   },
   {
-    "question": "O’ratuvchi tanlamadagi test to’plam bu?",
-    "answer": "modelni testlash uchun ishlatiladi",
-    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
+    "question": "Muammoli o‘qitish bu ….",
+    "answer": "takomillashgan o‘qitish",
+    "noAnswer1": "innovatsion ta'lim",
+    "noAnswer2": "mustaqil ta'lim",
+    "noAnswer3": "zamonaviy ta'lim tehnologiyalari"
   },
   {
-    "question": "Model qurish uchun o’rgatuvchi tanalaga qaysi nisbatda bo’linsa maqsadga muoffiq bo’ladi?",
-    "answer": "Train - 75%\r\nVal - 15 %\r\nTest - 10%",
-    "noAnswer1": "Train - 50%\r\nTest - 50%",
-    "noAnswer2": "Train - 50%\r\nVal - 25 %\r\nTest - 25%",
-    "noAnswer3": "Train - 75%\r\nVal - 25 %"
+    "question": "\"Ijodiy metod” deb nimaga aytiladi.",
+    "answer": "ta'lim oluvchining ijodiy mustaqilligini to‘la amalga oshiradi",
+    "noAnswer1": "ta'lim oluvchining darsdaligini amalga oshiradi",
+    "noAnswer2": "ta'lim oluvchilarning samaradorligini oshirish",
+    "noAnswer3": "Ta'lim oluvchining  darsda qatnashishi"
   },
   {
-    "question": "O’rgatuvchi tanlamada normallashtirish tushunchasi bu?",
-    "answer": "O’ratuvchi tanlamdagi qiymatlarni bir xil shkalaga o’tkazish",
-    "noAnswer1": "O’ratuvchi tanlamdagi qiymatlarni turli xil shkalaga o’tkazish",
-    "noAnswer2": "O’ratuvchi tanlamdagi qiymatlarni faqat [0,1] shkalaga o’tkazish",
-    "noAnswer3": "O’ratuvchi tanlamdagi qiymatlarni faqat [-1,1] shkalaga o’tkazish"
+    "question": "\"Pedagogika” –",
+    "answer": "bu shaxsni maqsadini shakllantirish xaqidagi fan",
+    "noAnswer1": "bu insonni ichki olami va o‘zini tutishi normalarini o‘rganuvchi fan",
+    "noAnswer2": "bakalavr va magistirlarni tayyorlashda asosiy rol o‘ynovchi fan",
+    "noAnswer3": "bu insonning psixologiyasini  o‘rganuvchi fan"
   },
   {
-    "question": "Logistik regressiya masalasida asosan qaysi aktivlashtirish funksiyasidan foydalaniladi?",
-    "answer": "Sigmoid",
-    "noAnswer1": "Tanh",
-    "noAnswer2": "ReLU",
-    "noAnswer3": "Sigmoid va ReLU"
+    "question": "\"Shaxs dinamikasi” deganda nimani tushuniladi?",
+    "answer": "kishining ontogenetik rivojlanishini o‘z ichiga olgan holda sub'ektning xususiyatlari va sifatining vaqtga nisbatan o‘zgarish jarayoni",
+    "noAnswer1": "shaxs tomonidan o‘zining axloqiy, ruhiy va ishchanlik qobiliyatining ijtimoiy ahamiyatini, jamiyatdagi o‘rnini anglay olish xususiyati",
+    "noAnswer2": "shaxs amal qiladigan bilim, tamoyil va idealarning haqqoniyligiga qalban va asosli ishonch bilan bog‘langan, uning atrof-muhitga bo‘lgan sub'ektiv munosabati",
+    "noAnswer3": "Shaxs haqida ma'lumot; malaka oshirganlik to‘g‘risidagi ma'lumot; ta'limiy yoki pedagogik kontseptsiya; yutuqlar"
   },
   {
-    "question": "KNN algoritmida k ni katta tanlasak nima sodir bo’ladi?",
-    "answer": "Model qurish vaqti oshib ketadi. Bazan k ning katta tanlanishi sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer1": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer2": "KNN algoritmida k parametr yo’q.",
-    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
+    "question": "Pedagogning kishilar bilan qisqa muddatda muloqot o‘rnata olishi, \r\nular bilan muloqot o‘rnatishga bo‘lgan doimiy intilishi - ?",
+    "answer": "Pedagogning kommunikativ madaniyati",
+    "noAnswer1": "Pedagog nuqtai nazari (pozitsiya)",
+    "noAnswer2": "Pedagogik faoliyat",
+    "noAnswer3": "Pedagogik texnologiyalar tizim darajalari"
   },
   {
-    "question": "KNN algoritmida k ta eng yaqin qo’shni qanday aniqlanadi?",
-    "answer": "To’plamdagi barcha elemetlar orasidagi masofa hisoblanib chiqiladi va eng yaqin k tasi tanlanadi",
-    "noAnswer1": "Taxminiy random() funksiyasi orqali aniqlanadi",
-    "noAnswer2": "To’plamdagi k ta elemetlar orasidagi masofa hisoblanib chiqiladi va ular o’sish tartibida saralanadi.",
-    "noAnswer3": "KNN algoritmida k ta eng yaqin qo’shni tushunchasi yo’q."
+    "question": "Maxsus pedagogik tarmoqlarni ko’rsatib bering?",
+    "answer": "defektologiya",
+    "noAnswer1": "oila pedagogikasi",
+    "noAnswer2": "kichik maktab yoshidagi o‘quvchilar pedagogikasi",
+    "noAnswer3": "o‘smirlar pedagogikasi"
   },
   {
-    "question": "SVM algorimi qaysi masalani yechish uchun xizmat qiladi?",
-    "answer": "Sinflashtirsh",
-    "noAnswer1": "Chiziqli regressiya",
-    "noAnswer2": "Klasterlash",
-    "noAnswer3": "Normallashtirish"
+    "question": "«Ma'naviyat» so’zining ma'nosini belgilang?",
+    "answer": "«ma'naviy goya» so’zlaridan olingan bo’lib, \"ruhiy holat\"  degan ma'noni anglatadi",
+    "noAnswer1": "odob-axloq tushunchasini anglatadi",
+    "noAnswer2": "madaniyatli, odobli, axloqli ma'nosini anglatadi",
+    "noAnswer3": "bilimli, odobli, madaniyatli ma'nosini anglatadi"
   },
   {
-    "question": "Neyron tarmoqlarida sinflashtirish masalasini yechishda chiquvchi qatlamda qaysi turdagi aktivlash funksiyasidan foydalaniladi",
-    "answer": "Softmax",
-    "noAnswer1": "Sigmoid",
-    "noAnswer2": "ReLu",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Pedagogika taraqqiyotida goyaviy-ilmiy muammolarning o’rni",
+    "answer": "Pedagogikaning fan sifatida taraqqiyoti uchun asos",
+    "noAnswer1": "Pedagogik jarayonni to’gri tashkil etish uchun asos",
+    "noAnswer2": "O’qituvchilar, tarbiyachilar, ustozlar uchun qo’llanma",
+    "noAnswer3": "Pedagogika mutaxassisliklari uchun qo’llanma"
   },
   {
-    "question": "Logistik regression model nima uchun ishlatiladi",
-    "answer": "Sinflashtirsh masalasini yechish uchun",
-    "noAnswer1": "Klasterlash masalasini ishlash uchun",
-    "noAnswer2": "Neyron tarmoqni qurish uchun",
-    "noAnswer3": "Qiymatni bashoratlash uchun"
+    "question": "Pedagogikaning ilmiy tadqiqot usullari",
+    "answer": "Maktab xujjatlarini o’rganish, taqdirlash, jazolash",
+    "noAnswer1": "Ishontirish, o’rgatish va mashq qildirish",
+    "noAnswer2": "Pedagogik kuzatish, suxbat, pedagogik tajriba",
+    "noAnswer3": "Ma'ruza, himoya, tushuntirish, muammoli ta'lim"
   },
   {
-    "question": "Numpy kutubxonasidagi polyfit() funksiyasi nima uchun ishlatiladi?",
-    "answer": "Chiziqli regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer1": "Loginstik  regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer2": "Chiziqli va logistik   regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer3": "Polynom funksiya yaratish uchun"
+    "question": "“Yetuk shaxs” bo‘lgandagi sifatlarni aniqlang",
+    "answer": "Aqliy, jismoniy yetukligi",
+    "noAnswer1": "Zexn o’tkirligi",
+    "noAnswer2": "Ma'naviy pokligi",
+    "noAnswer3": "Iqtidorliligi va madaniyatliligi"
   },
   {
-    "question": "Numpy kutubxonasidagi poly1d() funksiyasi nima uchun ishlatiladi?",
-    "answer": "Berilgan parametrlar asosida polinomal  funksiya hosil qilish",
-    "noAnswer1": "Berilgan parametrlar asosida polinomal  Class  hosil qilish",
-    "noAnswer2": "Berilgan parametrlar asosida logistik regressiya modelini qurish",
-    "noAnswer3": "Berilgan parametrlar asosida giperbolik  regressiya modelini qurish"
+    "question": "Ta'lim maqsadini belgilash omillari",
+    "answer": "Jamiyatning ijtimoiy mafkuraviy, ma'naviy shart-sharoitlari",
+    "noAnswer1": "Pedagog, ota-ona, o’qituvchilarning xohish istaklari",
+    "noAnswer2": "Jamiyat taraqqiyotining istiqboli",
+    "noAnswer3": "Jamiyat taraqqiyotining ijtimoiy ehtiyojlari"
   },
   {
-    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviy ma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonning bosqichlari hisoblanadi",
-    "answer": "Mashinali o’qitish",
-    "noAnswer1": "Chuqur o’qitish",
-    "noAnswer2": "Regression tahlil",
-    "noAnswer3": "Statistik tahlil"
+    "question": "\"O‘z-o‘zini baholash” deganda nima tushuniladi ?",
+    "answer": "shaxsning o‘z psixologik sifatlari, xulqi, yutuqlari va muvaffaqiyatsizliklari, qadr-qimmati, kamchiliklarini baholash",
+    "noAnswer1": "shaxsga xos bo‘lgan madaniyatning shakllanishi va rivojlanishiga qaratilgan izchil va ongli faoliyati",
+    "noAnswer2": "shaxsning o‘z jismoniy, ruhiy va axloqiy sifatlarini tinmay amalga oshirish",
+    "noAnswer3": "faoliyatining bir turi bo‘lib, ijtimoiy tajribalarni o‘zlashtirish va bunyod etishga qaratilgan bo‘ladi"
   },
   {
-    "question": "Keras bu – ...",
-    "answer": "tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
-    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
+    "question": "Shaxs taraqqiyotida pedagogik omillarni o’rni",
+    "answer": "Bilim, ko’nikma berish orqali dunyoqarashni shakllantirish",
+    "noAnswer1": "Xulq, madaniyat odatini shakllantirish",
+    "noAnswer2": "Talant iste'dodlarini o‘stirish",
+    "noAnswer3": "Biologik, ijtimoiy omillarni boshqarish"
   },
   {
-    "question": "Tensorflow bu – ...",
-    "answer": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
+    "question": "Motivatsiya nima?",
+    "answer": "Inson xulq-atvori, uning bog’lanishi, yo’nalishi va faolligiga undovchi kuch.",
+    "noAnswer1": "Uning jarayonida bilimlar, malaka va turli ko’nikmalar o’zlashtiriladi",
+    "noAnswer2": "Shaxs individual rivojlanishi jarayonida namoyon bo’ladigan birlamchi faoliyat turlaridan biri.",
+    "noAnswer3": "Ongrivojlanishiningbosqichlari."
   },
   {
-    "question": "Chiziqli regressiyada modelni sodda tanlansa qaysi turdagi muammo yuzaga keladi",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Muammo sodir bo’lmaydi"
+    "question": "Konkret odamni boshqa bir konkret odamdan farqlovchi barcha  o’ziga xos\r\n xususiyatlar majmui nima deb ataladi?",
+    "answer": "individuallik",
+    "noAnswer1": "qobiliyat",
+    "noAnswer2": "iqtidor",
+    "noAnswer3": "iste'dod"
   },
   {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilan testlanganda 65% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi turdagi mauammo sodir bo’lmoqda",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Everfitting"
+    "question": "Qaysi qatorda psixik jarayonlar kiritilganligini aniqlang",
+    "answer": "sezgi, idrok, xotira, tafakkur, nutq, hayol",
+    "noAnswer1": "diqqat ,alanga, katak, miya, xavo, tuygu",
+    "noAnswer2": "qiziqish, fikr, diqqatlilik, odat",
+    "noAnswer3": "ovoz, qobiliyat, tovush, hayol, muhabbat"
   },
   {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilan testlanganda 25% aniqliq va test dataset bilan testlaganimizda 95% aniqlik bersa, qaysi turdagi mauammo sodir bo’lmoqda",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Everfitting"
+    "question": "Psixologiyaning taraqqiyot bosqichlari bo’yicha tarmoqlari qaysi qatorda ko’rsatilgan?",
+    "answer": "yosh davrlari psixologiyasi: bolalar, o’smirlar, o’spirinlar",
+    "noAnswer1": "diqqatlilik,tafakkur munosabat, mehnat",
+    "noAnswer2": "tibbiyot, o’smirlar, sport, xarbiy psixologiya",
+    "noAnswer3": "ijtimoiy psixologiya, xarbiy va savdo psixologiyasi"
   },
   {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilan testlanganda 95% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi turdagi mauammo sodir bo’lmoqda",
-    "answer": "Owerfitting",
-    "noAnswer1": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer2": "Underfitting",
-    "noAnswer3": "Everfitting"
+    "question": "Sezgi bu….",
+    "answer": "oddiy bilishdan  iborat psixik jarayon bo’lib,  \r\nmoddiy borliqdagi narsa va hodisalarni aks ettirishdan iborat",
+    "noAnswer1": "moddiy borliqdagi narsa va hodisalarni ayrim xususiyatlarini  \r\naks ettirishdan iborat bosh miya po’sti rektsiyasidir",
+    "noAnswer2": "moddiy borliqdagi narsa va hodisalarni  bosh miya po’stida \r\naks ettirish jarayonidir",
+    "noAnswer3": "sezgilar tirik organizmning tashki dunyoga moslashish xususiyatini ichiga olgandir"
   },
   {
-    "question": ">>import numpy as np  \r\n>>arr =np.array([1, 2, 3, 4, 5, 6])\r\n>>newarr = arr.reshape(2, 3)\r\n>>print(newarr)",
-    "answer": "[[1,2,3],[4,5,6]]",
-    "noAnswer1": "[[1,2],[3,4],[5,6]]",
-    "noAnswer2": "[3,4]",
-    "noAnswer3": "<pre class=\"language-markup\"><code>1,2,3],[4,5,6</code></pre>"
+    "question": "Xotira bu …",
+    "answer": "tajribamizga aloqador xar qanday ma'lumotni  eslab qolish, \r\nesda saqlash bilan bog‘liq murakkab jarayondir",
+    "noAnswer1": "oldin qabul qilingan taassurotlarni  esda saqlash bilan bog’lik jarayondir",
+    "noAnswer2": "pegallagan tajribalarni  amaliy faoliyatda qo’llashdan iborat psixik jarayondir",
+    "noAnswer3": "kishining sezgi va idroklari asosida  o’z tajribasini boyitish  qobiliyati"
   },
   {
-    "question": "Agar mashinali o’qitish  qo’llaniladigan  sklearn kutubxonasi o’rnatilmagan bo’lsa uni qanday o’rnatish mumkin.",
-    "answer": "Barchasi to’g’ri",
-    "noAnswer1": "pip install  sklearn",
-    "noAnswer2": "conda install scikit-learn",
-    "noAnswer3": "pip install  scikit-learn"
+    "question": "Pedagogikada \"shaxs\" ta'rifi",
+    "answer": "Shaxs ta'lim-tarbiya va vaziyatlar mahsuli",
+    "noAnswer1": "Shaxs-ijtimoiy munosabatlar mahsuli",
+    "noAnswer2": "Shaxs axborotlarni\r\nqabul qiluvchi",
+    "noAnswer3": "Shaxs-o’qituvchi, o‘quvchi, ota-ona"
   },
   {
-    "question": "O’rgatuvchi tanlamasiz(dataset siz) mashinali o’qitish algoritmlarini ishlata olamizmi",
-    "answer": "Imkoni yoq",
-    "noAnswer1": "Ha, albatta",
-    "noAnswer2": "Ba’zan",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Ta'lim jarayoni ta'sirida shaxsning aqliy kamolotini bilish qobiliyati, o‘qishga, \r\nmehnatga bo‘lgan munosabatini rivojlantirish ta'limning qaysi \r\nmaqsadlari orqali amalga oshiriladi?",
+    "answer": "Ta'limiy",
+    "noAnswer1": "Rivojlantiruvchi",
+    "noAnswer2": "Tarbiyaviy",
+    "noAnswer3": "iMa'naviy"
   },
   {
-    "question": "Python muhitida neyron tarmoq qurish uchun qaysi paketlardan foydalaniladi?",
-    "answer": "keras, tensorflow",
-    "noAnswer1": "tensorflow, pandas",
-    "noAnswer2": "numpy, matplotlib",
-    "noAnswer3": "pandas, opencv"
+    "question": "Materialni nisbatan dadil va to‘la tushunilishi va material bilan bog‘liq tushunchalarni \r\najratilishi xarakterlanishi qaysi olimning nazariyalarida berilgan?",
+    "answer": "P.Ya.Galperin",
+    "noAnswer1": "D.B.Elkonin",
+    "noAnswer2": "S.L.Rubinshteyn",
+    "noAnswer3": "Yan.Amos Komenskiy"
   },
   {
-    "question": "Keras muhitida modelni testlash uchun mavjud funksiyalardan qaysi biri ishlatiladi?",
-    "answer": "fit()",
-    "noAnswer1": "compile()",
-    "noAnswer2": "evaluate()",
-    "noAnswer3": "test()"
+    "question": "“Didaktikaning otasi, asoschisi” nomini olgan olim kim?",
+    "answer": "Yan Amos Komenskiy",
+    "noAnswer1": "P.Ya.Galperin",
+    "noAnswer2": "S.L.Rubinshteyn",
+    "noAnswer3": "D.B.Elkonin"
   },
   {
-    "question": "…… bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni hisoblash tugunidir. Nuqtalar o’rniga quyidagilardan mos keldiganini qo’ying?",
-    "answer": "perceptron",
-    "noAnswer1": "sigmoid funksiyasi",
-    "noAnswer2": "neyron",
-    "noAnswer3": "ReLU funksiyasi"
+    "question": "Ma’lum bir maqsadga yo’naltirilgan tizimli bilim va ko’nikmalar bilan qurollangan jarayon bu....",
+    "answer": "Ta’lim;",
+    "noAnswer1": "O’qitish;",
+    "noAnswer2": "Masofaviy o’qitish;",
+    "noAnswer3": "Internatsionallilik."
   },
   {
-    "question": "Regressiya nima?",
-    "answer": "ma’lumotlarni intellektual tahlil qilish usullaridan biri",
-    "noAnswer1": "ma’lumotlarni ustida arifmetik usullaridan biri",
-    "noAnswer2": "ma’lumotlarni raqamli ishlov berish usullaridan biri",
-    "noAnswer3": "ma’lumotlarni jamlash usullaridan biri"
+    "question": "\"Keys stadi” metodi  ma ‘nosi qanday?",
+    "answer": "Aniq vaziyatlarni o‘rganish",
+    "noAnswer1": "Natijalarni belgilash",
+    "noAnswer2": "Boshqa vaziyatni baholash",
+    "noAnswer3": "Vaziyatdan chetlashish"
   },
   {
-    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(0,10,2) ifodasida i indeks o’zgaruvchisiga qanday qiymatlar keladi?",
-    "answer": "0 2 4 6 8",
-    "noAnswer1": "0 2 10",
-    "noAnswer2": "0 10",
-    "noAnswer3": "2 4 6 8 10"
+    "question": "\"Pedagogik mahorat\" nima  ?",
+    "answer": "pedagogik jarayonni tashkil etish  harakatni ko‘rsata olish",
+    "noAnswer1": "zamonaviy texnikalar asosida dars o‘tish",
+    "noAnswer2": "ko‘proq yangi  usullar bilan tanishtirib dars o‘tish",
+    "noAnswer3": "hamma usullar  bilan darsni to‘liq yoritib berish"
   },
   {
-    "question": "Supervised o’qitish algoritmlari asosan qanday masalani yechishga qaratilgan?",
-    "answer": "regressiya va sinflashtirish masalasiga",
-    "noAnswer1": "statistik usullar yordamida ma’lumotlarni ajratish masalasiga",
-    "noAnswer2": "statistik usullar yordamida ma’lumotlarni sinflashtirish masalasiga",
-    "noAnswer3": "sinflashtirish va segmentlash masalasiga"
+    "question": "Pedagogning kommunikativ madaniyati?",
+    "answer": "pedagogning   kishilar bilan qisqa muddat ichida muloqatga kirishi",
+    "noAnswer1": "pedagog kishilar  bialn to‘liq muloqotga ega emasligi",
+    "noAnswer2": "pedagog doim  uzviy va doimiy harakatda bo‘lishi",
+    "noAnswer3": "pedagog  mahoratga ega bo‘lishi"
   },
   {
-    "question": "Neyron tarmoqda qanday turdagi qatlamlar (layers) bo’lishi mumkin?",
-    "answer": "kiruvchi, chiquvchi, yashirin",
-    "noAnswer1": "kiruvchi, yashirin, oraliq",
-    "noAnswer2": "qabul qiluvchi, hisoblovchi, chiquvchi",
-    "noAnswer3": "kiruvchi, qabul qiluvchi, chiquvchi"
+    "question": "Pedagog nuqtai nazari….",
+    "answer": "Pedagogning dunyoga,pedagogik voqelikka intellektual va hissiy munosabati",
+    "noAnswer1": "pedagogning shaxsiy fikrlashini xisobga olgan xolda ish olib borish",
+    "noAnswer2": "Pedagogning aqliy faoliyatini rivojlantirib reja tuzish ishlash",
+    "noAnswer3": "Pedagogning dunyoqarashi fikrlash doirasi e’tiborga olib munosabatlarini rivojlantirish"
   },
   {
-    "question": "Chiziqli regression model nima uchun ishlatiladi?",
-    "answer": "bashorat qilish uchun",
-    "noAnswer1": "mantiqiy model qurish uchun",
-    "noAnswer2": "sinflashtirish masalasini yechish uchun",
-    "noAnswer3": "segmentlash masalasini yechish uchun"
+    "question": "Pedagogika faninning «Didaktika» ta’lim nazariyasi qismi qaysi \r\nqadimiy lotincha so‘z nomi bilan aytiladi?",
+    "answer": "O‘qituvchi",
+    "noAnswer1": "Tarbiyachi",
+    "noAnswer2": "Yetaklovchi",
+    "noAnswer3": "Murabbiy"
   },
   {
-    "question": "Neyron tarmoq nima?",
-    "answer": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi tuzilma",
-    "noAnswer1": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi dataset",
-    "noAnswer2": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi dataset",
-    "noAnswer3": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi tuzilma"
+    "question": "Kreativlik – bu",
+    "answer": "shaxsning ijodga nisbatan umumiy qobiliyati",
+    "noAnswer1": "pedagogik jarayonni qurish",
+    "noAnswer2": "talabalarga nisbatan sabr-toqatli bo‘lish",
+    "noAnswer3": "zarur axborotlarni tahlil qilish qobiliyati"
   },
   {
-    "question": "Sun’iy intellekt deganda nimani tushunasiz?",
-    "answer": "insonning onggi kabi fikrlovchi dastur",
-    "noAnswer1": "oddiy kompyuter dasturi",
-    "noAnswer2": "qaror qabul qiluvchi ilovalar",
-    "noAnswer3": "bunday termin fanda mavjud emas"
+    "question": "Pedagog ixtiyorida bo‘lgan eng kuchli vosita nima?",
+    "answer": "Shaxsiy namuna",
+    "noAnswer1": "Pedagogik maxorat",
+    "noAnswer2": "Pedagogik texnologiya",
+    "noAnswer3": "Nutq"
   },
   {
-    "question": "Sun'iy intellekt bu …?",
-    "answer": "bu kompyuterda insonning aqlli xatti harakatlarini qanday amalga oshirishni o'rganadigan tadqiqot sohasi",
-    "noAnswer1": "bu kompyuterda insonning jismoniy xatti harakatlarini qanday amalga oshirishni o'rganadigan tadqiqot sohasi",
-    "noAnswer2": "bu kompyuterda insonning bialogik xatti harakatlarini qanday amalga oshirishni o'rganadigan tadqiqot sohasi",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "...  - faoliyat jarayonida paydo bo‘ladi va rivojlanadi. ... malaka va uddaburonlikdan farq qiladi",
+    "answer": "qobiliyat",
+    "noAnswer1": "bilim",
+    "noAnswer2": "ko‘nikma",
+    "noAnswer3": "faoliyat"
   },
   {
-    "question": "Neyron tarmoqdagi tugun qiymati 0.5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "0.5",
-    "noAnswer1": "1",
-    "noAnswer2": "0",
-    "noAnswer3": "2"
+    "question": "Pedagogik psixologiya nimani o‘rganadi?",
+    "answer": "kishiga  ta’lim -tarbiya berishning psixologik qonuniyatlarini o‘rganadi",
+    "noAnswer1": "tafakkurning shakllanishini o‘rganadi",
+    "noAnswer2": "pedagog bilan ukuvchilar urtasidagi munosabatni o‘rganadi",
+    "noAnswer3": "psixik rivojlanishdan orkada kolish sabablarini o‘rgandi"
   },
   {
-    "question": "Biologik neyron tarmoq tashkil etuvchilarini ko’rsating?",
-    "answer": "cell body, dendrites, synapse, axon",
-    "noAnswer1": "input, dendrites, synapse, output",
-    "noAnswer2": "node, input, weights, output",
-    "noAnswer3": "synapse, axon, weights, node"
+    "question": "Metod, ya’ni usul axborotni uzatish va qabul qilish xarakteriga qarab qanday usullarga bo’linadi?",
+    "noAnswer1": "Ijtimoiy ehtiyojlar",
+    "answer": "So’z orqali ifodalash usuli, ko’rgazmalilik usuli, amaliy, namuna usuli, rag’batlantirish, jazo.",
+    "noAnswer2": "Faoliyat turi bilan shug’ullanishiga majbur qilgan psixologik omillar",
+    "noAnswer3": "Narsa va xodisalarning mohiyati"
   },
   {
-    "question": "Dataset bu nima?",
-    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
-    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
-    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
-    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
+    "question": "Tarbiyalanganlik –deganda nimani tushunasiz?",
+    "answer": "Milliy urf-odatimiz mezoniga kirmagan, o’zgalarning nafratini qo’zg’atadigan \r\nxatti-harakatlardan o’zini tiyabilish",
+    "noAnswer1": "O’ziga baho berish",
+    "noAnswer2": "O’zgalarning fikrini amalda qo’llash",
+    "noAnswer3": "Noto’g’ri qilgan ishiga o’zini iqror qildirish"
   },
   {
-    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
-    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
-    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
-    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
-    "noAnswer3": "Oddiy algoritm"
+    "question": "Pedagogikaning asosiy tushunchalari",
+    "noAnswer1": "pedagogik muloqot, ma’naviyat",
+    "answer": "ta’lim, tarbiya, ma’lumot,",
+    "noAnswer2": "ta’lim, ilm, malaka, ko‘nikma",
+    "noAnswer3": "ilm, ma’rifat, madaniyat"
   },
   {
-    "question": "Keras kutubxonasida neyron tarmoq modelini qurish jarayonida quyidagi dastur kodi nima vazifani bajaradi?\r\nmodel = Sequential()\r\nmodel.add(Dense(16, input_shape=(64,)))",
-    "answer": "kirish qatlamida 64 ta va chiqish qatlamida 16 ta neyrondan iborat neyron tarmoq quradi",
-    "noAnswer1": "kirish qatlamida 16 ta va 1-yashirin qatlamda 64 ta neyrondan iborat neyron tarmoq quradi",
-    "noAnswer2": "1-yashirin qatlamida 64 ta va 2-yashirin qatlamda 16 ta neyrondan iborat neyron tarmoq quradi",
-    "noAnswer3": "kirish qatlamida 64 ta va 1-yashirin qatlamda 16 ta neyrondan iborat neyron tarmoq quradi"
+    "question": "................ - ma\t’tkaziladigan, o’quvchilarni bilim, \r\nko’nikma va malakalar bilan qurollantiradigan, bilim, qobiliyatlarini o’stiradigan, \r\nularning dunyoqarashini tarkib toptiradigan jarayondir",
+    "answer": "ta’lim",
+    "noAnswer1": "ko’nikma",
+    "noAnswer2": "bilim",
+    "noAnswer3": "qobiliyat"
   },
   {
-    "question": "Convolutional neural networks (CNN) – bu?",
-    "answer": "bu ko'p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
-    "noAnswer1": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
-    "noAnswer2": "bu ko’p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli",
-    "noAnswer3": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli"
+    "question": "Pedagogning kishilar bilan qisqa muddatda muloqot o‘rnata olishi, ular bilan muloqot o‘rnatishga bo‘lgan doimiy intilishi?",
+    "answer": "Pedagogning kommunikativ madaniyati",
+    "noAnswer1": "Pedagog nuqtai nazari (pozitsiya)",
+    "noAnswer2": "Pedagogik faoliyat",
+    "noAnswer3": "Pedagogik texnologiyalar tizim darajalari"
   },
   {
-    "question": "Sun’iy intellektga asoslangan dasturlarni ishlab chiqishdan maqsad nima?",
-    "answer": "mustaqil fikrlovchi va qaror qabul qiluvchi dasturlarni hayotga tadbiq qilish",
-    "noAnswer1": "vaqtni maroqli o‘tkazish",
-    "noAnswer2": "insonlarning yashash darajasini yaxshilash",
-    "noAnswer3": "ortiqcha sarf-xarajatni kamaytirish"
+    "question": "Ko‘zi ojiz tarbiyalanuvchilar ta'lim-tarbiyasi  bilan shug‘ullanuvchi fan qaysi?",
+    "answer": "Tiflopedagogika",
+    "noAnswer1": "Surdopedagogika",
+    "noAnswer2": "Oligofrenopedagogika",
+    "noAnswer3": "Ordopedagogika"
   },
   {
-    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa qanday qiymatga o’zgaradi?",
-    "answer": "0",
-    "noAnswer1": "5",
-    "noAnswer2": "-5",
-    "noAnswer3": "3,5"
+    "question": "Ta'lim usullarini tanlash bilan bir qatorda o‘qituvchi darsdagi talabalarni yosh\r\n va individual xarakter xususiyatlarini o‘rganishi hamda tahlil qilishi shart.\r\n Qaysi usul asosan ta'lim-tarbiya jarayoniga aloqador ilmiy faraz yoki amaliy\r\n ishlarning tatbiqi jarayonlarini tekshirish, aniqlash maqsadida o‘tkaziladi?",
+    "answer": "Eksperiment-tajriba-sinov usuli",
+    "noAnswer1": "Test sinovlar usuli",
+    "noAnswer2": "Matematika va kibernetika usullari",
+    "noAnswer3": "Test - surov metodi"
   },
   {
-    "question": "Numpy kutubxonasida ikkita vektorni skalyar ko’paytirish amali qanaqa?",
-    "answer": "A*B",
-    "noAnswer1": "A@B",
-    "noAnswer2": "np.multiply([A,B])",
-    "noAnswer3": "np.dot([a,b])"
+    "question": "52 .............– bu yosh avlodni hayotga, mehnatga tayyorlash uchun xalq oldida, \r\ndavlat oldida javob beradigan, yosh avlodga ta'lim-tarbiya berish uchun maxsus \r\ntayyorlangan mutaxassislarning mehnat faoliyati",
+    "answer": "Pedagogik faoliyat",
+    "noAnswer1": "Pedagogik qobiliyat",
+    "noAnswer2": "Pedagogik mahorat",
+    "noAnswer3": "Pedagogik jarayon"
   },
   {
-    "question": "Chiziqli regressiya qaysi mashinali o’qitish algoritmlari tarkibiga kiradi?",
-    "answer": "O’qituvchili o’qitish",
-    "noAnswer1": "O’qituvchisiz o’qitish",
-    "noAnswer2": "Reinforcementli o'qitish",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Shaxsning faolliyatini yo‘naltirib turadigan va mavjud vaziyatlarga nisbatan bog‘liq\r\n bo‘lmagan barqaror motivlar majmuyi ................ deb ataladi?",
+    "answer": "kishi shaxsining yo‘naltirilganligi",
+    "noAnswer1": "kishining motivatsiya xolati",
+    "noAnswer2": "kishining qiziqish yo‘nalishi",
+    "noAnswer3": "kishining faoliyat yo‘nalishi"
   },
   {
-    "question": "Neyron tarmoqdagi tugun qiymati 2.5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "2,5",
-    "noAnswer1": "2",
-    "noAnswer2": "0",
-    "noAnswer3": "44595"
+    "question": "“Milliy mafkura - bu xalqning, millatning o‘tda yonmaydigan, suvda cho‘kmaydigan o‘lmas  ......”",
+    "answer": "e'tiqodidir",
+    "noAnswer1": "iymonidir",
+    "noAnswer2": "ma'naviyatidir",
+    "noAnswer3": "madaniyatidir"
   },
   {
-    "question": "Semi- supervised learning",
-    "answer": "bu modelni  ham aniq ham aniq  bo’lmagan xususiyatli  ma’lumotlar bilan  o’qitishdir.",
-    "noAnswer1": "bu modelni xususiyatlari aniq  bo’lmagan ma’lumotlar  bilan  o’qitish",
-    "noAnswer2": "bu modelni xususiyatlari  aniq bo’lgan  ma’lumotlar bilan  o’qitish",
-    "noAnswer3": "bu  o’qitishning mukammal  usuli bo’lib, bunda  model o’zini-o’zi qayta  o’qitish va natijalarni  yaxshilash imkoniyatiga  ega bo’ladi."
+    "question": ".... -  tadqiqotchining boshqa kishilardan pedagogik tajribaning biror\r\n tomoni yoki hodisalari haqida axborot olish jarayoni bu metodning asosini tashkil qiladi.",
+    "answer": "Pedagogik so‘rash metodi",
+    "noAnswer1": "Test sinovlar metodi",
+    "noAnswer2": "Eksperiment-tajriba-sinov usuli",
+    "noAnswer3": "Kuzatish metodi"
   },
   {
-    "question": "Reinforcement learning ?",
-    "answer": "bu  o’qitishning mukammal  usuli bo’lib, bunda  model o’zini-o’zi qayta  o’qitish va natijalarni  yaxshilash imkoniyatiga  ega bo’ladi.",
-    "noAnswer1": "bu modelni xususiyatlari aniq  bo’lmagan ma’lumotlar  bilan  o’qitish",
-    "noAnswer2": "bu modelni  ham aniq ham aniq  bo’lmagan xususiyatli  ma’lumotlar bilan  o’qitishdir.",
-    "noAnswer3": "bu modelni xususiyatlari  aniq bo’lgan  ma’lumotlar bilan  o’qitish"
+    "question": ".............– ma'naviy manbalar va xozirgi zamon talablari va extiyojlarini \r\nnazarda tutgan xolda, o‘qituvchining o‘quvchi bilan aniq bir maqsadga qaratilgan\r\n o‘zaro amaliy va nazariy muloqotidir",
+    "answer": "Tarbiya",
+    "noAnswer1": "Ko‘nikma",
+    "noAnswer2": "Bilim",
+    "noAnswer3": "Ta'lim"
   },
   {
-    "question": "O’qitishning mukammal  usuli bo’lib, bunda  model o’zini-o’zi qayta  o’qitish va natijalarni  yaxshilash imkoniyatiga  ega bo’ladi.",
-    "answer": "Reinforcement learning",
-    "noAnswer1": "Semi-supervised learning",
-    "noAnswer2": "Supervised learning",
-    "noAnswer3": "Unsupervised learning"
+    "question": "Lug‘aviy jihatdan “interfaol” tushunchasi qanday ma'noni anglatadi?",
+    "answer": "o‘zaro harakat qilmoq",
+    "noAnswer1": "o‘zaro fikr almashmoq",
+    "noAnswer2": "o‘zaro yordam bermoq",
+    "noAnswer3": "o‘zaro kelishib olmoq"
   },
   {
-    "question": "Modelni  ham aniq ham aniq  bo’lmagan xususiyatli  ma’lumotlar bilan  o’qitishdir.",
-    "answer": "Semi-supervised learning",
-    "noAnswer1": "Reinforcement learning",
-    "noAnswer2": "Unsupervised learning",
-    "noAnswer3": "Supervised learning"
+    "question": "Talabalarning bilim, ko‘nikma, malaka va muayyan axloqiy sifatlarni o‘zlashtirish \r\nyo‘lidagi o‘zaro harakatlarini tashkil etishga asoslanuvchi ta'lim qanday nomlanadi?",
+    "answer": "muammoli ta'lim;",
+    "noAnswer1": "rivojlantiruvchi ta'lim",
+    "noAnswer2": "dasturiy ta'lim",
+    "noAnswer3": "interfaol ta'lim"
   },
   {
-    "question": "Modelni xususiyatlari  aniq bo’lgan  ma’lumotlar bilan  o’qitish",
-    "answer": "Supervised learning",
-    "noAnswer1": "Semi-supervised learning",
-    "noAnswer2": "Reinforcement learning",
-    "noAnswer3": "Unsupervised learning"
+    "question": "..... - deganda biz shaxsning ham jismoniy, ham aqliy va ma'naviy kamol topish jarayonini tushunamiz",
+    "answer": "rivojlanish",
+    "noAnswer1": "tarbiya",
+    "noAnswer2": "bilim",
+    "noAnswer3": "ma'naviyat"
   },
   {
-    "question": "Modelni xususiyatlari aniq  bo’lmagan ma’lumotlar  bilan  o’qitish",
-    "answer": "Unsupervised learning",
-    "noAnswer1": "Supervised learning",
-    "noAnswer2": "Semi-supervised learning",
-    "noAnswer3": "Reinforcement learning"
+    "question": ".........– hulqning asosiy anglanilgan motivi. U butun shaxs faoliyatiga alohida mazmun va \r\naniq yo‘nalish bahsh etadi",
+    "answer": "e'tiqod",
+    "noAnswer1": "motivatsiya",
+    "noAnswer2": "extiyoj",
+    "noAnswer3": "madaniyat"
   },
   {
-    "question": "Mashinali o’qitishda asosan qaysi instrumental vositalardan foydalaniladi",
-    "answer": "Python, Matlab, Octave",
-    "noAnswer1": "Python,NLP,Keras",
-    "noAnswer2": "Numpy,Pandas",
-    "noAnswer3": "Python,Keras,Pandas"
+    "question": "\"Shaxsiy fazilat nima?",
+    "answer": "Shaxs tomonidan o‘zining ahloqiy ruhiy va ishchanlik qobiliyatining anglay olish hususiyati",
+    "noAnswer1": "Shaxs amal qiladigan bilim tamoyil va ideallarning haqqoniyligiga qalban subьektiv munosabati",
+    "noAnswer2": "Insonning xayotiy tajribaga asoslangan munosabat turlarini xisobga olishishmiz mumkin",
+    "noAnswer3": "Individning biror narsa hodisaga muhtojligini ko’rishimiz mumkin bo‘ladi"
   },
   {
-    "question": "Model murakkab bo’lsa bias qanday bo’ladi?",
-    "answer": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi past bo’ladi",
-    "noAnswer1": "To’g’ri javob yo’q",
-    "noAnswer2": "Bias ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas.",
-    "noAnswer3": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi yuqori bo’ladi"
+    "question": "\"Estetik tarbiya” nima?",
+    "answer": "Go‘zallikini his qilish, go‘zallikni payqay olish qobiliyatini tarbiyalash",
+    "noAnswer1": "Individning biror narsaga muhtojligi, go‘zalligini misol qilib olamiz",
+    "noAnswer2": "Tasodifiylik xaqidagi tasavvurni go’zallika, mantiqqa bog‘lash",
+    "noAnswer3": "Tadqiqot ob’ekti to‘grisida har tomonlama tasavvur hosil qilish"
   },
   {
-    "question": "Model murakkab bo’lsa variance qanday bo’ladi?",
-    "answer": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi yuqori bo’ladi",
-    "noAnswer1": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi past bo’ladi",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Variance ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas."
+    "question": "\"Faoliyat” nima?",
+    "answer": "Ongli maqsad bilan boshqariladigan ichki va tashqi faolligi",
+    "noAnswer1": "Insonning atrof-muhitga bo‘lgan ta'siri",
+    "noAnswer2": "Bilim, ko‘nikma va tajribadan kelib chiqib ishlash",
+    "noAnswer3": "Shaxs psihikasi motivlarining shakllanishi"
   },
   {
-    "question": "Underfitting bu - …",
-    "answer": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolik bo’lishiga olib keladi",
-    "noAnswer1": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolik bo’lishiga olib keladi",
-    "noAnswer2": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolik bo’lishiga olib keladi",
-    "noAnswer3": "Model juda muarkkab. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolik bo’lishiga olib keladi"
+    "question": "Tushuncha nima?",
+    "answer": "buyum va xodisalar xususiyatlarining umumiy va muhim belgilarini yaxlit holda ifodalash",
+    "noAnswer1": "Shaxs hayotining muayyan davrdagi psihik rivojlanishini nazarda tutadi",
+    "noAnswer2": "Insonnig atrof muhitga munosabatini o‘rganish orqali munosabatlarni o‘rganish",
+    "noAnswer3": "Insonning anglay bilish qobiliyati shakllantirish orqali ish uslubini olib borish"
   },
   {
-    "question": "Owerfitting bu - …",
-    "answer": "Model juda muarkkab. Shuning evaziga model train to’plamda past, test to’plamda yuqori xatolik bo’lishiga olib keladi",
-    "noAnswer1": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolik bo’lishiga olib keladi",
-    "noAnswer2": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolik bo’lishiga olib keladi",
-    "noAnswer3": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolik bo’lishiga olib keladi"
+    "question": "Tushuncha nima?",
+    "answer": "buyum va xodisalar xususiyatlarining umumiy va muhim belgilarini yaxlit holda ifodalash",
+    "noAnswer1": "Shaxs hayotining muayyan davrdagi psihik rivojlanishini nazarda tutadi",
+    "noAnswer2": "Insonnig atrof muhitga munosabatini o‘rganish orqali munosabatlarni o‘rganish",
+    "noAnswer3": "Insonning anglay bilish qobiliyati shakllantirish orqali ish uslubini olib borish"
   },
   {
-    "question": "Model qurishda bo’ladigan Underfitting muammosi qanday hal qilsa bo’ladi?",
-    "answer": "Modelni murakkabligini oshirib ko’rish kerak",
-    "noAnswer1": "Modelni murakkabligini pasaytirib  ko’rish kerak",
-    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
-    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
+    "question": "\"Tarbiya” nima?",
+    "answer": "Shaxsning ma'naviy va jismoniy holatga muntazam maqsadga muvofiq ta'sir etish",
+    "noAnswer1": "biror harakat fikrni takrorlash orqali ta'lim tarbiya masalasini rivojlantirish",
+    "noAnswer2": "ta'lim maqsadlarini amalga oshirishga qaratilgan fikrlar",
+    "noAnswer3": "ta'limning yo‘nalishlaridan birini tanlab faoliyat olib borishdir"
   },
   {
-    "question": "Model qurishda bo’ladigan Owerfitting muammosi qanday hal qilsa bo’ladi?",
-    "answer": "Modelni murakkabligini pasaytirib  ko’rish kerak",
-    "noAnswer1": "Modelni murakkabligini oshirib ko’rish kerak",
-    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
-    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
+    "question": "Ilmiy tushuncha sifatida “........” so‘zi keng ma'noda muayyan maqsadga erishish yo‘lini, \r\ntor ma'noda - tabiat va ijtimoiy xayot xodisalari va qonuniyatlarini bilish maqsadida\r\n qandaydir vazifani xal etish usulini bildiradi",
+    "answer": "metod",
+    "noAnswer1": "ma'naviyat",
+    "noAnswer2": "texnologiya",
+    "noAnswer3": "qobiliyat"
   },
   {
-    "question": "SVM algoritmida yadro(kernel) funksiyalari nima uchun xizmat qiladi?",
-    "answer": "Kiruvchi xususiyatlarni ma’lum o’lchov sohasidan boshqasiga o’zgartirish uchun xizmat qiladi. Misol uchun 1D -> 2D",
-    "noAnswer1": "Kiruvchi xususiyatlarni 1D o’lchov sohasidan 2D o’lchov sohasiga o’tkazish uchun xizmat qiladi",
-    "noAnswer2": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 1D o’lchov sohasiga o’tkazish uchun xizmat qiladi",
-    "noAnswer3": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 3D o’lchov sohasiga o’tkazish uchun xizmat qiladi"
+    "question": "Hissiyot - bu ….",
+    "answer": "kishining tevarak atrofdagi  narsa va hodisalarga  bulgan munosabatlarini \r\n kechinishi",
+    "noAnswer1": "kishining emotsiyasini boshqara olishni rivojlantirish",
+    "noAnswer2": "ichki a'zolardagi  aniq xarakat va o’zgarishlarni  anglash",
+    "noAnswer3": "kishining extiyojlarga bo’lgan o’z munosabatlarini farqlay olishi"
   },
   {
-    "question": "SVM orqali ..",
-    "answer": "Faqat bir nechta  sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer1": "Faqat ikkita sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer2": "Faqat regressiya masalasini yechish mumkin",
-    "noAnswer3": "Ham sinflashrish, ham regressiya masalasini ishlash mumkin."
+    "question": "Iroda – bu ….",
+    "answer": "shaxsning maqsadga erishish yo’lidagi jismoniy va ruhiy qiyinchiliklarini yengishi",
+    "noAnswer1": "kishilarning ixtiyoriy xarakatlari yig‘indisini olishimiz mumkin",
+    "noAnswer2": "shaxsning yashash tartibi va sharoitlari bilan belgilanadigan aktivligi",
+    "noAnswer3": "kishining ixtiyorsiz xarakatlari yig‘indisini rivojlantirish"
   },
   {
-    "question": "Qidiruv tizimlarida sun’iy intellektdan foydalanish mumkinmi",
-    "answer": "ha, mumkin va hozirda keng qo‘llanilmoqda (misol uchun Google, Yandex qidiruv tizimlari)",
-    "noAnswer1": "qisman amaliy natijalari bor lekin yetarlicha nazariy jihatdan formallashtirilmagan",
-    "noAnswer2": "nazariy jihatdan mumkin, lekin hozircha amaliy jihatdan natijalarga erishilmagan",
-    "noAnswer3": "qidiruv tizimlarida sun’iy intellektdan foydalanish qidiruv vaqtini oshiradi"
+    "question": "Temperament – bu …",
+    "answer": "kishining nerv sistemasi xolati bo’lib, odamlarga va xayot sharoitiga bo’lgan\r\n munosabatlarining yakka xususiyatlari",
+    "noAnswer1": "Kishining o’zini tuta olmasligi xaqidagi xarakterlarni o‘rganadi",
+    "noAnswer2": "Shaxs faoliyati va xulqining dinamik o‘zgaruvchan va emotsional-hissiy tomonlarini \r\nxarakterlovchi individual xususiyatlar",
+    "noAnswer3": "shaxs faoliyati va xulqining dinamik xususiyatlari yig‘indisini olishimiz mumkin"
   },
   {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": "Ma’lumotlar formatlari bir xillashtiriladi",
-    "noAnswer1": "Ma’lumotlarni tozalash",
-    "noAnswer2": "Ma’lumotlardan xususiyatlarni ajratish",
-    "noAnswer3": "Barchasi to’g’ri"
+    "question": "Xarakter – bu …",
+    "answer": "Shaxsdagi shunday psixologik, sub'ektiv munosabatlar majmuiki, ular uning borliqqa, odamlarga\r\n munosabatini ifodalaydi",
+    "noAnswer1": "Kishining xulq -atvorida namoyon bo’ladigan tug’ma xususiyatlari",
+    "noAnswer2": "Kishining oliy nerv sistemasi bilan bog’lanmagan holda shakllanadigan psixik xususiyatlari",
+    "noAnswer3": "Kishining fe'l-atvoridan kelib chiqqan xolda o‘z-o‘ziga munosabatini ifodalaydi"
   },
   {
-    "question": "Sun’iy neyron tarmoqlarida perceptron tushunchasi?",
-    "answer": "bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni hisoblash tugunidir.",
-    "noAnswer1": "bu ikkita qatlamdan iborat ya’ni kiruvchi va faollashtish qatlamdan iborat bo’lgan neyronni hisoblash tugunidir.",
-    "noAnswer2": "bu bir qatlamdan iborat bo’lgan neyronni hisoblash tugunidir.",
-    "noAnswer3": "bu uch qatlamdan iborat bo’lgan neyronni hisoblash tugunidir."
+    "question": ".......– o'quvchining ichki dunyosiga kira olish qobiliyati, o'quvchi shaxsini va uning ruhiy holatlarini juda yaxshi tushuna bilish bilan bog'liq bo'lgan psixologik kuzatuvchanlikdir",
+    "answer": "Kuzatuvchanlik qobiliyati",
+    "noAnswer1": "Tushuntira olish qobiliyati",
+    "noAnswer2": "Bilish qobiliyati",
+    "noAnswer3": "Pedagogik maxorat"
   },
   {
-    "question": "Sun’iy neyron tarmoqlarida yashirin qatlam  tushunchasi?",
-    "answer": "Kiruvchi va chiquvchi qatlamlar orasida joylashadigan neyron",
-    "noAnswer1": "Ko’rinmaydigan qatlam",
-    "noAnswer2": "Neyron tarmoqda yashirin qatlam tushunchasi yo’q",
-    "noAnswer3": "Kiruvchi qatlamdan kiyin keladigan barcha qatlamalar"
+    "question": "Kaysi fan pedagogika fani uchun metodologik asos bulib xizmat kiladi?\n",
+    "answer": "Ukuvchilarga beriladigan bilim, kunikma va malakalarning oldindan belgilangan doirasi ",
+    "noAnswer1": "Ukuvchilarga beriladigan nazariy \nbilim va amaliy tajribalar majmuyi",
+    "noAnswer2": "Ukuvchilarga beriladigan bilim, kunikma, malakalar xajmi",
+    "noAnswer3": "Ukuv rejasi, dasturi va darsliklar yigindisi"
   },
   {
-    "question": "Neyron tarmoqlarini qurishga mo’ljallangan python kutubxonalarini ko'rsating.",
-    "answer": "Numpy, keras, tensorflow",
-    "noAnswer1": "Numpy, pandas, keras",
-    "noAnswer2": "Tensorflow, numpy, pandas",
-    "noAnswer3": "Python, Matlab, Octave"
+    "question": " Psixologiya fani....",
+    "answer": "ruhiy hodisalar va ruhiy xolatlarni o'rganadi",
+    "noAnswer1": "bizning sezgilarimiz, fikrlarimiz, his-tuygularimizni o'rganadi .",
+    "noAnswer2": "ruhiy hodisalarni, ularning fakt va mexanizmlarini o'rganadi",
+    "noAnswer3": "miya jarayonlari va uning qonuniyatlarini o'rganadi"
   },
   {
-    "question": "Neyron tarmoq asosida sinflashtirish masalasini yechish mumkinmi?",
-    "answer": "Ha",
-    "noAnswer1": "Yoq, faqat regressiya masalasini yechadi.",
-    "noAnswer2": "Faqat ikkilik sinflashtirganda",
-    "noAnswer3": "Yoq, klasterlash masalasini yechadi."
+    "question": "O'zbekiston Respublikasi \"ta'lim to'g'risida\"gi Qonunining maqsadi?",
+    "answer": "Fuqarolarga ta'lim, tarbiya berish, kasb-hunar o'rgatishning huquqiy asoslarini belgilashdan iborat konstitusiyaviy huquqini ta'minlash",
+    "noAnswer1": "O'zbekiston Respublikasidata'lim sohasidagi munosabatlarni huquqiy tartibga solish",
+    "noAnswer2": "O'zbekiston Respublikasi va Qoraqolpag'iston Respublikasidata'lim sohasidagi munosabatlarni huquqiy tartibga solish",
+    "noAnswer3": "Ta'lim sohasidagi davlat siyosatining asosiy printsiplaridan iborat xukuklarini belgilash."
   },
   {
-    "question": "Python muhitida chiziqli regression model qurish uchun ishlatiladigan stats.linregress(x,y) funksiyasi nechta qiymat qaytaradi",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "2"
+    "question": "Psixika-bu ....",
+    "answer": "u tashqi olamni, ongli tarzda aks ettirishimizni ta'minlaydi",
+    "noAnswer1": "miya maxsuli nerv sistemasining funktsiyasidir",
+    "noAnswer2": "odamning ruxi, uning ruhiy xolatlaridir",
+    "noAnswer3": "bizning sezgilarimiz, fikrlarimiz, his-tuygularimiz va kechinmalarimizdir"
   },
   {
-    "question": "Neyron tarmoqda tugunlar nimalar bilan bog’lanadi",
-    "answer": "og’irlik koeffitsentlari",
-    "noAnswer1": "o’zgarmas koeffitsentlar",
-    "noAnswer2": "tasodifiy koeffitsentlar",
-    "noAnswer3": "ozod had koeffitsentlari"
+    "question": "Test - so'rov…\n\n",
+    "answer": "Oldindan qat'iy tarzda qabul qilingan savollarga beriladigan javoblarni taqazo etadi",
+    "noAnswer1": "odam psixikasining masala echish, vazifalarni bajarish jarayonida kuzatishdir",
+    "noAnswer2": "psixik hodisalarni tushuntirib beruvchi usullar majmuidir.    ",
+    "noAnswer3": "odam psixikasini o'rganishdagi vazifalar to'plamidir"
   },
   {
-    "question": "Qanday turdagi faollashtirish funksiyadan neyron tarmoqda foydalaniladi",
-    "answer": "Barchasi to’g’ri",
-    "noAnswer1": "ReLU",
-    "noAnswer2": "softmax",
-    "noAnswer3": "Sigmoid"
+    "question": "Vatanga sodiq, tarbiyali inson sifatlarini tulik belgilang\n",
+    "answer": "uzligini anglash, uzini ozod, erkin, Nodir, ulug, siymoligini anglash",
+    "noAnswer1": "uziga xos milliy insoniy sifatlarini ochib beruvchi ma'naviy-insoniy asoslarini anglash ",
+    "noAnswer2": "ezgu niyat, fikr, ezgu suz, xushmuomila, ezgu ish, ezgu faoliyat",
+    "noAnswer3": "aklan etuk, jimonan soglom, ma'naviy pok tuygularni anglash",
+    "Column7": " "
   },
   {
-    "question": "Neyron tarmoqdagi tugun qiymati 5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "0",
-    "noAnswer3": "44682"
+    "question": "Kaysi buyuk rus pedagogi uzining asarida mashgulotlar orasida tanafuslar berilishini, guruxlardagi bolalar yoshi va sonini bir xil bulishiga e'tibor berilishini aytgan",
+    "answer": "Ya.A. Komenskiy ",
+    "noAnswer1": "A.M. Makarenko",
+    "noAnswer2": "V.A. Suxomlinskiy ",
+    "noAnswer3": "D.K. Ushinskiy"
   },
   {
-    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "0",
-    "noAnswer1": "44682",
-    "noAnswer2": "5",
-    "noAnswer3": "-5"
+    "question": "O'zbekiston Respublikasi \"ta'lim tugrisida konun\" amaldagisi kachon kabul kilingan",
+    "answer": "1997 yil 29 avgust",
+    "noAnswer1": "1995 yil 10 mart",
+    "noAnswer2": "1992 yil 20 oktyabr",
+    "noAnswer3": "1999 yil 16 avgust"
   },
   {
-    "question": "Neyron tarmoqdagi tugun qiymati 0 ga teng. Ushbu tugun sigmoid funksiyasi yordamida faollashtirilsa qanday qiymatga o’zgaradi",
-    "answer": "0.5",
-    "noAnswer1": "0",
-    "noAnswer2": "1",
-    "noAnswer3": "2.785661"
+    "question": "O'zbekiston Respublikasi \"Kadrlar tayyorlash milliy dasturi\" kachon kabul kilingan",
+    "answer": "1997 yil 29 avgust",
+    "noAnswer1": "1992 yil 20 oktyabr",
+    "noAnswer2": "1999 yil 16 avgust",
+    "noAnswer3": "1993 yil 15 noyabr"
   },
   {
-    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur o’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
-    "answer": "hozirda tasvirlardan ob’ektlarni tanib olish,  video nazorat, ovozni tanib olish kabi sohalarda keng foydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
-    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli fodalanilmaydi",
-    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
-    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
+    "question": "Pedagog butun ta'lim jarayonida nimani namoyish etib borishi zarur.",
+    "answer": "bolalarga bo'lgan ishonchini",
+    "noAnswer1": "darsga bo'lgan munosabatini",
+    "noAnswer2": "o'ziga bo'lgan ishonchini",
+    "noAnswer3": "kasbiga bo'lgan kizikishi"
   },
   {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": "Format, Data Cleaning, Feature Extraction",
-    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
-    "noAnswer2": "Resizing, Feature Extraction, Format",
-    "noAnswer3": "Format, Resizing, Data Cleaning"
+    "question": "Innovasion pedagogik texnologiyalar – bu?\n",
+    "answer": "noan'anaviy pedagogik texnologiyalar bo'lib, yangi axborot texnologiyalarining paydo bo'lishi, talabalarning shaxsini eng yaxshi xususiyatlarini olib chiqish.",
+    "noAnswer1": "Bu ishning natijasi sifatida o'quvchilar yozilgan so'zlar orasidan kitoblarda uchragan so'zlarga aytiladi",
+    "noAnswer2": "Modulli ta'limning mohiyati shundaki, talaba modul bilan ishlashda mutlaqo mustaqil ravishda (yoki muayyan kam yordam bilan) o'quv jarayonining aniq maqsadlariga erishish",
+    "noAnswer3": "o'rganilayotgan bo'lim bo'yicha bir nechta kitoblar beriladi va ularning mazmuni va mavzusi ko'rsatkichlarni diqqat bilan o'rganishni taklif qiladi"
   },
   {
-    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
-    "answer": "chiziqli, nochiziqli va logistik regressiya usullari asosida",
-    "noAnswer1": "sintaktik usullar asosida",
-    "noAnswer2": "dinamik usillar asosida",
-    "noAnswer3": "semantik usullari asosida"
+    "question": "\"Klaster\" - texnologiyasi qaysi davlatda yaratilgan ?\n\n",
+    "answer": " AQShda",
+    "noAnswer1": "Germaniyada",
+    "noAnswer2": "Frantsiyada",
+    "noAnswer3": "Rossiyada"
   },
   {
-    "question": "Chuqur o’qitish bosqichlari to’g’ri tartiblangan javobni belgilang",
-    "answer": "1. Muammoni tushunib olish.\r\n2. Ma’lumotlarni aniqlash.\r\n3. Chuqur o’qitish algoritmini belgilash.\r\n4. Modelni o’qitish.\r\n5. Modelni testlash.",
-    "noAnswer1": "1. Ma’lumotlarni aniqlash.\r\n2. Muammoni tushunib olish.\r\n3. Chuqur o’qitish algoritmini belgilash.\r\n4. Modelni o’qitish.\r\n5. Modelni testlash.",
-    "noAnswer2": "1. Muammoni tushunib olish.\r\n2. Ma’lumotlarni aniqlash.\r\n3. Chuqur o’qitish algoritmini belgilash.\r\n4. Modelni o’qitish.",
-    "noAnswer3": "1. Chuqur o’qitish algoritmini belgilash.\r\n2. Modelni o’qitish.\r\n3. Modelni testlash."
+    "question": "Muammoli o'qitish bu .... ",
+    "answer": "takomillashgan o'qitish",
+    "noAnswer1": "innovasion ta'lim ",
+    "noAnswer2": "mustaqil ta'lim",
+    "noAnswer3": "zamonaviy ta'lim tehnologiyalari"
   },
   {
-    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "6"
+    "question": "  Ijodiy metod deb nimaga aytiladi.\n",
+    "answer": "ta'lim oluvchining ijodiy mustaqilligini to'la amalga oshiradi",
+    "noAnswer1": "ta'lim oluvchining darsdaligini amalga oshiradi",
+    "noAnswer2": "ta'lim oluvchilarning samaradorligini oshirish",
+    "noAnswer3": "Ta'lim oluvchining darsda qatnashishi"
   },
   {
-    "question": "Chuqur o’qitishning birinchi bosqichi qanday jarayondan iborat?",
-    "answer": "Muammoni tushunib olish.",
-    "noAnswer1": "Ma’lumotlarni aniqlash.",
-    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer3": "Modelni o’qitish."
+    "question": "Pedagogika – \n\n",
+    "answer": "bu shaxsni maqsadini shakllantirish xaqidagi fan",
+    "noAnswer1": "bu insonni ichki olami va o'zini tutishi narmallarini o'rganuvchi fan ",
+    "noAnswer2": "bakalavr va magistirlarni tayyorlashda asosiy rol o'ynovchi fan",
+    "noAnswer3": "bu insonning psixologiyasini o'rganuvchi fan"
   },
   {
-    "question": "Chuqur o’qitishning ikkinchi bosqichi qanday jarayondan iborat?",
-    "answer": "Ma’lumotlarni aniqlash.",
-    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer2": "Modelni o’qitish.",
-    "noAnswer3": "Modelni testlash."
+    "question": "Shaxs dinamikasi deganda nimani tushuniladi?\n\n",
+    "answer": "kishining ontogenetik rivojlanishini o'z ichiga olgan holda sub'ektning xususiyatlari va sifatining vaqtga nisbatan o'zgarish jarayoni",
+    "noAnswer1": "shaxs tomonidan o'zining axloqiy, ruhiy va ishchanlik qobiliyatining ijtimoiy ahamiyatini, jamiyatdagi o'rnini anglay olish xususiyati",
+    "noAnswer2": "shaxs amal qiladigan bilim, tamoyil va idealarning haqoniyligiga qalban va asosli ishonch bilan bog'langan, uning atrof-muhitga bo'lgan sub'ektiv munosabati",
+    "noAnswer3": "Shaxs haqida ma'lumot; malaka oshirganlik to'g'risidagi ma'lumot; ta'limiy yoki pedagogik kontsepsiya; yutuqlar"
   },
   {
-    "question": "Chuqur o’qitishning uchunchi bosqichi qanday jarayondan iborat?",
-    "answer": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer1": "Modelni testlash.",
-    "noAnswer2": "Muammoni tushunib olish.",
-    "noAnswer3": "Modelni o’qitish."
+    "question": "Pedagogning kishilar bilan qiska muddatda muloqot o'rnata olishi, ular bilan muloqot o'rnatishga bo'lgan doimiy intilishi nimaga boglik?\n\n",
+    "answer": "Pedagogning kommunikativ madaniyati",
+    "noAnswer1": "Pedagog nuqtai nazari (pozisiya)",
+    "noAnswer2": "Pedagogik faoliyat",
+    "noAnswer3": "Pedagogik texnologiyalar tizim darajalari"
   },
   {
-    "question": "Chuqur o’qitishning turtinchi bosqichi qanday jarayondan iborat?",
-    "answer": "Modelni o’qitish.",
-    "noAnswer1": "Modelni testlash.",
-    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer3": "Muammoni tushunib olish."
+    "question": "Maxsus pedagogik tarmoklarini kursatib bering? ",
+    "answer": "Defektologiya ",
+    "noAnswer1": "oila pedagogikasi",
+    "noAnswer2": "kichik maktab yoshidagi ukuvchilar pedagogikasi ",
+    "noAnswer3": "o'smirlar pedagogikasi"
   },
   {
-    "question": "Chuqur o’qitishning oxirgi bosqichi qanday jarayondan iborat?",
-    "answer": "Modelni testlash.",
-    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer2": "Modelni o’qitish.",
-    "noAnswer3": "Ma’lumotlarni aniqlash."
+    "question": "\"Ma'naviyat\" suzining ma'nosini belgilang?",
+    "answer": "\"ma'naviy goya\" suzlaridan olingan bulib ruxiy xolat degan ma'noni anglatadi",
+    "noAnswer1": "odob-axlok tushunchasini anglatadi",
+    "noAnswer2": "madaniyatli, odobli, axlokli ma'nosini anglatadi",
+    "noAnswer3": "bilimli, odobli, madaniyatli ma'nosini anglatadi"
   },
   {
-    "question": "MNIST dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "10",
-    "noAnswer1": "9",
-    "noAnswer2": "100",
-    "noAnswer3": "3"
+    "question": "Pedagogika taraqqiyotida goyaviy-ilmiy muammolarning urni",
+    "answer": "Pedagogikaning fan sifatida tarakkiyoti uchun asos",
+    "noAnswer1": "Pedagogik jarayonni tugri tashkil etish uchun asos",
+    "noAnswer2": "Ukituvchilar, tarbiyachilar, ustozlar uchun kullanma",
+    "noAnswer3": "Pedagogika mutaxassisliklari uchun kullanma"
   },
   {
-    "question": "CIFAR10 dataset da nechta sinfga tegishli obyektlarini ma’lumotlari bor",
-    "answer": "10",
-    "noAnswer1": "9",
-    "noAnswer2": "100",
-    "noAnswer3": "3"
+    "question": "Pedagogikaning ilmiy tadkikod usullari",
+    "answer": "Maktab xujjatlarini urganish takdirlash, jazolash",
+    "noAnswer1": "Ishontirish, urgatish va mashk kildirish",
+    "noAnswer2": "Pedagogik kuzatish, suxbat, pedagogik tajriba",
+    "noAnswer3": "Ma'ruza ximoya, tushuntirish, muammoli ta'lim"
   },
   {
-    "question": "CIFAR10 datasetda tasvirlarning o’lchami qaysi o’lchamda",
-    "answer": "To’g’ri javob yo’q",
-    "noAnswer1": "28x28",
-    "noAnswer2": "128x128",
-    "noAnswer3": "64x64"
+    "question": "Yetuk shaxs bo'lgandagi sifatlarni aniqlang",
+    "answer": "Aqliy, jismoniy yetukligi",
+    "noAnswer1": "Zexn utkirligi",
+    "noAnswer2": "Ma'naviy pokligi",
+    "noAnswer3": "Iktidorliligi va madaniyatliligi"
   },
   {
-    "question": "CIFAR10 datasetda necha tanlama bor",
-    "answer": "60000",
-    "noAnswer1": "70000",
-    "noAnswer2": "50000",
-    "noAnswer3": "10000"
+    "question": "Ta'lim maksadini belgilash omillari",
+    "answer": "Jamiyatning ijtimoiy mafkuraviy, ma'naviy shart-sharoitlari",
+    "noAnswer1": "Pedagog, ota-ona, ukituvchilarning xoxish istaklari",
+    "noAnswer2": "Jamiyat tarakkiyotining istikboli",
+    "noAnswer3": "Jamiyat tarakkiyotining ijtimoiy extiyojlari"
   },
   {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilan testlanganda 95% aniqliq va test dataset bilan testlaganimizda 92% aniqlik bersa, qaysi turdagi mauammo sodir bo’lmoqda.",
-    "answer": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Owerfitting",
-    "noAnswer3": "Everfitting"
+    "question": "O'z-o'zini baholash deganda nima tushuniladi ?\n",
+    "answer": "shaxsning o'z psixologik sifatlari, xulqi, yutuqlari va muvaffaqiyatsizliklari, qadr-qimmati, kamchiliklarini baholash",
+    "noAnswer1": "shaxsga xos bo'lgan madaniyatning shakllanishi va rivojlanishiga qaratilgan izchil va ongli faoliyati",
+    "noAnswer2": "shaxsning o'z jismoniy, ruhiy va axloqiy sifatlarini tinmay amalga oshirish",
+    "noAnswer3": " faoliyatining bir turi bo'lib, ijtimoiy tajribalarni o'zlashtirish va bunyod etishga qaratilgan bo'ladi"
   },
   {
-    "question": "Python ning qaysi kutubxona oraqli vector va matritsalar ustida amalar bajarish mumkin",
-    "answer": "Numpy",
-    "noAnswer1": "Math",
-    "noAnswer2": "Pandas",
-    "noAnswer3": "VecMat"
+    "question": "Shaxs tarakkiyotida pedagogik omillarni urni",
+    "answer": "Bilim kunikma berish orkali dunyokarashni shakllantirish",
+    "noAnswer1": "Xulk madaniyat odatini shakllantirish",
+    "noAnswer2": "Talant iste'dodlarini o'stirish",
+    "noAnswer3": "Biologik, ijtimoiy omillarni boshkarish"
   },
   {
-    "question": "Ochiq datasetlarni qidirishga mo’ljallangan tizim qaysi?",
-    "answer": "Barchasi to’g’ri",
-    "noAnswer1": "UCI Machine Learning Repository",
-    "noAnswer2": "VisualData",
-    "noAnswer3": "Google Dataset Search"
+    "question": "Qaysi katorda psixik jarayonlar kiritilganligini aniqlang",
+    "answer": "sezgi, idrok, xotira, tafakkur, nutk, hayol",
+    "noAnswer1": " diqqat, alanga, katak, miya, xavo, tuygu",
+    "noAnswer2": "qiziqish, fikr, diqqatlilik, odat",
+    "noAnswer3": "ovoz, qobiliyat, tovush, hayol, muhabbat"
   },
   {
-    "question": "Pandas kutubxonasida head() funksiyasi nima vazifa bajaradi?",
-    "answer": "To’plamning dastlabgi bir nechta(5ta) satrini olib beradi.",
-    "noAnswer1": "To’plamning ustunlar nomini olib beradi.",
-    "noAnswer2": "To’plamning ustunlar nomisiz  bir nechta  satrini olib beradi.",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Psixologiyaning tarakkiyot boskichlari buyicha tarmoklari kaysi katorda kursatilgan?",
+    "answer": "yosh davrlari psixologiyasi: bolalar, usmirlar, uspirinlar",
+    "noAnswer1": "diqqatlilik,tafakkur munosabat, mehnat",
+    "noAnswer2": "tibbiyot, usmirlar, sport, xarbiy psixologiya",
+    "noAnswer3": "ijtimoiy psixologiya, xarbiy va savdo psixologiyasi"
   },
   {
-    "question": "Pythonda funksiya e’lon qilish uchun qaysi kalit so’zidan foydalaniladi?",
-    "answer": "def",
-    "noAnswer1": "function",
-    "noAnswer2": "void",
-    "noAnswer3": "define"
+    "question": "Sezgi bu....",
+    "answer": "oddiy bilishdan iborat psixik jarayon bulib, moddiy borlikdagi narsa va hodisalarning aks ettirishdan iborat",
+    "noAnswer1": "moddiy borlikdagi narsa va hodisalarni ayrim xususiyatlarini aks ettirishdan iborat bosh miya pusti rektsiyasidir",
+    "noAnswer2": "moddiy borlikdagi narsa va hodisalarni bosh miya pustida aks ettirish jarayonidir",
+    "noAnswer3": "sezgilar tirik organizmning tashki dunyoga moslashish xususiyatini ichiga olgandir"
   },
   {
-    "question": "Neyron tarmoqlarida dastlab vazn koeffitsentlari qanday bo’ladi?",
-    "answer": "random() funksiyasi orqali taxminiy beriladi.",
-    "noAnswer1": "musbat qiymatlar bilan to’ldiriladi.",
-    "noAnswer2": "To’ldirish shart emas.",
-    "noAnswer3": "manfiy qiymatlar bilan to’ldiriladi."
+    "question": "Xotira bu …",
+    "answer": "tajribamizga aloqador xar qanday ma'lumotni eslab qolish, esda saklashga bog'liq murakkab jarayondir",
+    "noAnswer1": "oldin kabul kilingan taassurotlarni esda saklash bilan boglik jarayondir",
+    "noAnswer2": "egallagan tajribalarni amaliy faoliyatda kullashdan iborat psixik jarayondir",
+    "noAnswer3": "kishining sezgi va idroklari asosida uz tajribasini boyitish qobiliyati"
   },
   {
-    "question": "Neyron tarmoqlarida topilgan vazn koeffitsentlari qanday bo’ladi?",
-    "answer": "Musbat va manfiy bo’lishi mumkin",
-    "noAnswer1": "Faqat musbat bo’ladi",
-    "noAnswer2": "Faqat manfiy bo’ladi",
-    "noAnswer3": "Qiymatlar [0,1] oraliqda bo’ladi."
+    "question": "Pedagogikada shaxs ta'rifi",
+    "answer": "Shaxs ta'lim-tarbiya va vaziyatlar maxsuli",
+    "noAnswer1": "Shaxs-ijtimoiy munosabatlar maxsuli",
+    "noAnswer2": "Shaxs axborotlarni\nkabul kiluvchi ",
+    "noAnswer3": "Shaxs-ukituvchi, ukuvchi, ota-ona"
   },
   {
-    "question": "KNN algoritmida qo’llaniladigan ikki nuqta orasidagi masofa … deb yuritiladi.\r\nNutqlar o’rniga mos variantni qo’ying.",
-    "answer": "Euclidean masofasi",
-    "noAnswer1": "Chebyshev masofasi",
-    "noAnswer2": "Manhattan masofasi",
-    "noAnswer3": "Minkowski masofasi"
+    "question": "Ta'lim jarayoni ta'sirida shaxsning aqliy kamolotini \nbilish qobiliyati, o'qishga, mexnatga bo'lgan munosabatini rivojlantirish ta'limning qaysi maqsadlari orqali amalga oshiriladi?",
+    "answer": "Ta'limiy",
+    "noAnswer1": "Rivojlantiruvchi",
+    "noAnswer2": "Tarbiyaviy",
+    "noAnswer3": "Ma'naviy "
   },
   {
-    "question": "KMaens algoritmida qo’llaniladigan ikki nuqta orasidagi masofa … deb yuritiladi.\r\nNutqlar o’rniga mos variantni qo’ying.",
-    "answer": "Euclidean masofasi",
-    "noAnswer1": "Chebyshev masofasi",
-    "noAnswer2": "Manhattan masofasi",
-    "noAnswer3": "Minkowski masofasi"
+    "question": "Materialni nisbatan dadil va to'la tushunilishi va material bilan bog'liq tushunchalarni ajratilishi xarakterlanishi qaysi olimning nazariyalarida berilgan?",
+    "answer": "P.Ya.Galperin",
+    "noAnswer1": "D.B.Elkonin",
+    "noAnswer2": "S.L.Rubinshteyn",
+    "noAnswer3": "Yan.Amos Komenskiy"
   },
   {
-    "question": "Gradient tushish algoritmidagi ‘learning rate’ parameter nimani xarakterlaydi?",
-    "answer": "O’qish qadamini",
-    "noAnswer1": "O’qishitda takrorlanishlar sonini",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Model aniqligini"
+    "question": "\"Didaktikaning otasi, asoschisi\" nomini olgan olim kim?",
+    "answer": "Yan Amos Komenskiy",
+    "noAnswer1": "P.Ya.Galperin",
+    "noAnswer2": "S.L.Rubinshteyn",
+    "noAnswer3": "D.B.Elkonin"
   },
   {
-    "question": "UCI Machine Learning Repository nima ?",
-    "answer": "Mashinili o’qitishning ochiq manbali datasetlarini qidirishga mo’ljallangan tizim",
-    "noAnswer1": "GitHub  Repository",
-    "noAnswer2": "Gitlab  Repository",
-    "noAnswer3": "Kaggle  Repository"
+    "question": "Ma'lum bir maqsadga yo'naltirilgan tizimli bilim va ko'nikmalar bilan qurollangan jarayon bu....",
+    "answer": "Ta'lim;",
+    "noAnswer1": "O'qitish;",
+    "noAnswer2": "Masofaviy o'qitish; ",
+    "noAnswer3": "Internatsionallilik."
   },
   {
-    "question": "Google Dataset Search qancha ma’lumotni qamrab oladi?",
-    "answer": "25 mln",
-    "noAnswer1": "250mln",
-    "noAnswer2": "15mln",
-    "noAnswer3": "6mln"
+    "question": "Keys stadi metodi manosi kanday\n",
+    "answer": " Aniq vaziyatlarni o'rganish",
+    "noAnswer1": "Natijalarni nbelgilash",
+    "noAnswer2": "Boshqa vaziyatni baholash",
+    "noAnswer3": " Vaziyatdan chetlashish"
   },
   {
-    "question": "Python array bu -",
-    "answer": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan",
-    "noAnswer1": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Pedagogik mahorat nima?\n",
+    "answer": "pedagogik jarayoni tashkil etish, harakatni ko‘rsata olish",
+    "noAnswer1": "zamonaviy texnikalar asosida dars o'tish",
+    "noAnswer2": "ko'proq yangi usullar bilan tanishtirib dars o'tish",
+    "noAnswer3": "hamma usullar bilan darsni to'liq yoritib berish"
   },
   {
-    "question": "Python list bu -",
-    "answer": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Pedagogning kommunikativ madaniyati?\n",
+    "answer": "pedagog kishilar bilan qisqa muddat ichida muloqatga kirishi ",
+    "noAnswer1": "pedagog kishilar bilan to'liq muloqotga ega emasligi ",
+    "noAnswer2": "pedagog doim uzviy va doimiy harakatda bo'lishi",
+    "noAnswer3": "pedagog mahoratga ega bo'lishi"
   },
   {
-    "question": "Python tuple bu -",
-    "answer": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Metodning maqsadi:........\n\n",
+    "answer": "mavjud nazariy bilimlar va amaliy tajribalarni tahlil qilish",
+    "noAnswer1": "muammoni hal etish yo'llarni topishga",
+    "noAnswer2": "bilimlarni mustahkamlash",
+    "noAnswer3": "takrorlash"
   },
   {
-    "question": "Mashinali o’qitishda samaradorlikni baholash uchun qanday matritsadan foydalaniladi?",
-    "answer": "Tartibsizlik matritsasi (confusion matrix)",
-    "noAnswer1": "Aniqliq matritsasi (accuracy matrix)",
-    "noAnswer2": "Xatolik matritsasi (loss matrix)",
-    "noAnswer3": "Barchasi to’g’ri"
+    "question": "Biror-bir masala yoki savolning muhokamasiga bag'ishlangan qisqa press-konferentsiya bu.....\n",
+    "answer": "\"Brifing\" metodi",
+    "noAnswer1": "Venn diagrammasi metodi",
+    "noAnswer2": "\"Insert\" metodi",
+    "noAnswer3": "Aqliy xujum"
   },
   {
-    "question": "pip freeze",
-    "answer": "Environment o’rnatilgan barcha paketlar ro’yxatini chop qiladi",
-    "noAnswer1": "Environment  o’rnatilgan eng oxirgi paketlar ro’yxatini chop qiladi",
-    "noAnswer2": "Environment  o’rnatilgan eng oxirgi 10 ta paket ro’yxatini chop qiladi",
-    "noAnswer3": "Environment o’rnatilgan mashinali o’qitishga xizmat qiladigan paketlar ro’yxatini chop qilish"
+    "question": "O'qitishni individuallashtirish texnologiyasi .....\n",
+    "answer": "tadkikotlarida individual o'kitish o'kuv jarayonini tashkil etish shakli",
+    "noAnswer1": "pedagog fakat birgina talaba bilan o'zaro munosabatda bo'ladi",
+    "noAnswer2": "bir talaba faqat o'kitish vositalari",
+    "noAnswer3": "Individual o'kitishda faoliyatning mazmuni"
   },
   {
-    "question": "pip install numpy as np",
-    "answer": "Xatolik sodir bo’ladi",
-    "noAnswer1": "Numpy kutubxonasi o’rnatiladi",
-    "noAnswer2": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "\"O'z mustaqil fikriga ega bo'lgan, o'z kuchiga, o'zi tanlagan yo'lning to'g'riligiga ishongan inson doimo kelajakka ishonch bilan qaraydi\"kimning so'zlari",
+    "answer": "I.Karimov",
+    "noAnswer1": "Abu Ali Ibn Sino",
+    "noAnswer2": "Sh.Mirzieyov",
+    "noAnswer3": "P.Ya.Galperin"
   },
   {
-    "question": "import numpy as nb",
-    "answer": "Numpy kutubxonasi yuklash va quyida uni nb deb yuritish mumkin",
-    "noAnswer1": "Xatolik sodir bo’ladi",
-    "noAnswer2": "Numpy kutubxonasi o’rnatiladi",
-    "noAnswer3": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin"
+    "question": "Shaxsning rivojlanishi jarayoni bir qancha omillar ta'sirida sodir bo'ladi. Bular ",
+    "answer": "irsiyat, muhit, ta'lim va tarbiya, shaxs faolligi",
+    "noAnswer1": "ichki omillar, shaxs faolligi, irsiyat, muhit",
+    "noAnswer2": "shaxs faolligi, tashqi omillar, irsiyat, muhit",
+    "noAnswer3": "ichki omillar, shaxs faolligi, faoliyat shartlari va boshkalar "
   },
   {
-    "question": "Python dasturlash tilida quyidagi kod qanday natija qaytaradi:\r\n>>k=55//10\r\n>>print(‘k’)",
-    "answer": "k",
-    "noAnswer1": "44686",
-    "noAnswer2": "Xatolik sodir bo’ladi",
-    "noAnswer3": "5"
+    "question": "Aqliy rivojlanishdan orqada qolgan bolalarni tarbiyalash va o'qitish masalalari defektalogiya bo'limining qaysi tarmog'iga kiradi",
+    "answer": "Oligofrenopedagogika",
+    "noAnswer1": "Surdopedagogika",
+    "noAnswer2": "Tiflopedagogika",
+    "noAnswer3": "Logopediya"
   },
   {
-    "question": "Python dasturlash tilida quyidagi kod qanday natija qaytaradi:\r\n>>a=[0,4,5,7,8,9,3]\r\n>>b=a[-2]\r\n>>print(b)",
-    "answer": "9",
-    "noAnswer1": "8",
-    "noAnswer2": "[0,4,5]",
-    "noAnswer3": "[3,9,8]"
+    "question": "Metod, ya'ni usul axborotni uzatish va qabul qilish xarakteriga qarab qanday usullarga bo'linadi?",
+    "answer": "so‘z orqali ifodalash usuli, ko‘rgazmalilik usuli, amaliy, namuna usuli, rag‘batlantirish va jazo usuli",
+    "noAnswer1": "maslaxat berish, ko'rgazmalilik usuli, amaliy, namuna usuli, rag'batlantirish va jazo usuli",
+    "noAnswer2": "o'rnak ko'rsatish, ko'rish orqali tarbiyalash, xikoya, ma'ruza, rag'batlantirish va jazo usuli",
+    "noAnswer3": "xikoya, ma'ruza, rag'batlantirish, namuna ko'rsatish, rag'batlantirish usullari"
   },
   {
-    "question": "Bias tushunchasi?",
-    "answer": "Modelni train to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer1": "Modelni test to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer2": "Modelni train + test to’plam bilan testlaganda bo’ladigangadi umumiy xatolik",
-    "noAnswer3": "Modelni validation to’plam bilan testlaganda bo’ladigangadi umumiy xatolik"
+    "question": "Pedagogika inson dunyoqarashining shakllanishi, jamiyat va shaxsning o'zaro munosabati hamda bilish faoliyati muammolarini o'rganuvchi....... fani bilan hamkorlik qiladi?",
+    "answer": "Falsafa",
+    "noAnswer1": "Sosiologiya",
+    "noAnswer2": "Psixologiya",
+    "noAnswer3": "Mantiq "
   },
   {
-    "question": "Variance tushunchasi?",
-    "answer": "Modelni test to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer1": "Modelni train to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer2": "Modelni train + test to’plam bilan testlaganda bo’ladigangadi umumiy xatolik",
-    "noAnswer3": "Modelni validation to’plam bilan testlaganda bo’ladigangadi umumiy xatolik"
+    "question": "Insonning jamiyatdagi o'rni, ijtimoiy muhitning shaxs rivojlanishi va tarbiyasiga ta'sirini o'rgatishda pedagogika qaysi bilan hamkorlik qilmoqda?",
+    "answer": "sosiologiya, siyosatshunoslik",
+    "noAnswer1": "falsafa, mantiq",
+    "noAnswer2": "psixologiya, fiziologiya",
+    "noAnswer3": "pedagogika, fiziologiya"
   },
   {
-    "question": "Bias va Variance tushunchalarining farqi nimada?",
-    "answer": "Bias modelni train to’plam bilan testlagandagi xatolik, Variance esa test to’plam bilan testlagandagi xatolik",
-    "noAnswer1": "Bias modelni test to’plam bilan testlagandagi xatolik, Variance esa train to’plam bilan testlagandagi xatolik",
-    "noAnswer2": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat test to’plam bilan testlagandagi xatolik",
-    "noAnswer3": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat train to’plam bilan testlagandagi xatolik"
+    "question": "Pedagogikaning bosh masalasi tarbiyadir. Tarbiyadagi keng ma'no ................. bilan bog'langan holda barkamol insonni voyaga etkazishdir.",
+    "answer": "bola etaklovchi",
+    "noAnswer1": "nazariy va amaliy materiallar",
+    "noAnswer2": "ta'lim, rivojlanish",
+    "noAnswer3": "ma'lumot, tarbiya"
   },
   {
-    "question": "Agar bias yuqori bo’lsa qaysi turdagi muammo sodir bo’lmoqda?",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Bias ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda murakkab"
+    "question": "Ko'zi ojiz tarbiyalanuvchilar ta'lim-tarbiyasi bilan shug'ullanuvchi fan qaysi?",
+    "answer": "Tiflopedagogika",
+    "noAnswer1": "Surdopedagogika",
+    "noAnswer2": "Oligofrenopedagogika",
+    "noAnswer3": "Ordopedagogika"
   },
   {
-    "question": "Agar Variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Variance ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda sodda"
+    "question": "Ta'lim usullarini tanlash bilan bir katorda o'qituvchi darsdagi talabalarni yosh va individual xarakter xususiyatlarini o'rganishi hamda tahlil qilishi shart. Qaysi usul asosan ta'lim-tarbiya jarayoniga aloqador ilmiy faraz yoki amaliy ishlarning tatbiqi jarayonlarini tekshirish, aniqlash maqsadida o'tkaziladi",
+    "answer": "Eksperiment-tajriba-sinov usuli",
+    "noAnswer1": "Test sinovlar usuli",
+    "noAnswer2": "Matematika va kibernetika usullari",
+    "noAnswer3": "Test - surov metodi"
   },
   {
-    "question": "Agar biass quyi va variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Bias ni quyi variance ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda sodda"
+    "question": ".............– bu yosh avlodni hayotga, mehnatga tayyorlash uchun xalq oldida, davlat oldida javob beradigan, yosh avlodga ta'lim-tarbiya berish uchun maxsus tayyorlangan mutaxassislarning mehnat faoliyati",
+    "answer": "Pedagogik faoliyat",
+    "noAnswer1": "Pedagogik qobiliyat",
+    "noAnswer2": "Pedagogik mahorat",
+    "noAnswer3": "Pedagogik jarayon"
   },
   {
-    "question": "O’rgatuvchi tanlama nima?",
-    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
-    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
-    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
-    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
+    "question": "Shaxsning faolliyatini yo'naltirib turadigan va mavjud vaziyatlarga nisbatan bog'liq bo'lmagan barqaror motivlar majmuyi ................ deb ataladi",
+    "answer": "kishi shaxsining yo'naltirilganligi",
+    "noAnswer1": "kishining motivasiya xolati",
+    "noAnswer2": "kishining qiziqish yo'nalishi",
+    "noAnswer3": "kishining faoliyat yo'nalishi"
   },
   {
-    "question": "KMeans bu -",
-    "answer": "O’qituvchisiz o’qitish algoritmi",
-    "noAnswer1": "O’qituvchili o’qitish algoritmi",
-    "noAnswer2": "O’zini o’zi o’qitadigan algoritmi",
-    "noAnswer3": "to’g’ri javob yo’q"
+    "question": "\"Milliy mafkura - bu xalqning, millatning o'tda yonmaydigan, suvda cho'kmaydigan o'lmas ......”",
+    "answer": "e'tiqodidir",
+    "noAnswer1": "iymonidir",
+    "noAnswer2": "ma'naviyatidir",
+    "noAnswer3": "madaniyatidir"
   },
   {
-    "question": "Nima uchun logistik regressiyada sigmoid funksiyadan foydalaniladi?",
-    "answer": "qiymatlarni (0,1) oraliqda keltirish",
-    "noAnswer1": "qiymatlarni [-1,1] oraliqda keltirish",
-    "noAnswer2": "qiymatlarni [0,1] oraliqda keltirish",
-    "noAnswer3": "qiymatlarni (-1,1) oraliqda keltirish"
+    "question": "......................    - tadqiqotchining boshqa kishilardan pedagogik tajribaning biror tomoni yoki hodisalari haqida axborot olish jarayoni bu metodning asosini tashkil qiladi.",
+    "answer": "Pedagogik so'rash metodi",
+    "noAnswer1": "Test sinovlar metodi",
+    "noAnswer2": "Eksperiment-tajriba-sinov usuli",
+    "noAnswer3": "Kuzatish metodi"
   },
   {
-    "question": "Logistik regressiyada qaror chegrasi uchun topilgan modeldan  olingan qiymat qaysi bo’sag’a qiymati orqali solishtiriladi va qaror qabul qilinadi?",
-    "answer": "0",
-    "noAnswer1": "1",
-    "noAnswer2": "0.5",
-    "noAnswer3": "-1 va 1"
+    "question": "................ - maxsus tayyorlangan kishilar rahbarligida o'tkaziladigan, o'quvchilarni bilim, ko'nikma va malakalar bilan qurollantiradigan, bilim, qobiliyatlarini o'stiradigan, ularning dunyoqarashini tarkib toptiradigan jarayondir",
+    "answer": "Ta'lim",
+    "noAnswer1": "Tarbiya",
+    "noAnswer2": "Ko'nikma",
+    "noAnswer3": "Bilim "
   },
   {
-    "question": "SVM algoritmida suppor vectors bu?",
-    "answer": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlaydi",
-    "noAnswer1": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlaydi",
-    "noAnswer2": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlamaydi",
-    "noAnswer3": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlamaydi"
+    "question": ".............– ma'naviy manbalar va xozirgi zamon talablari va extiyojlarini nazarda tutgan xolda, o'qituvchining o'quvchi bilan aniq bir maqsadga qaratilgan o'zaro amaliy va nazariy muloqotidir",
+    "answer": "Tarbiya ",
+    "noAnswer1": "Ko'nikma",
+    "noAnswer2": "Bilim ",
+    "noAnswer3": "Ta'lim"
   },
   {
-    "question": "SVM algoritmidagi hisoblaanadigan orqaliq (margin) qanday bo’lsa model ishonchli deb topiladi?",
-    "answer": "Oraliq eng kattta bo’lsa",
-    "noAnswer1": "Oraliq eng kichik bo’lsa",
-    "noAnswer2": "Oraliq hech narsani anglatmaydi",
-    "noAnswer3": "To’gri javob yo’q"
+    "question": "Ong va faoliyat birligi printsipi dastavval ....... tomonidan isbotlab berilgan. Muallif tashqi sabablar, omillar ichki shart sharoitlarining bevosita ta'siri orqali xarakat qiladi - deb tushuntiradi.",
+    "answer": "S.L.Rubinshteyn",
+    "noAnswer1": "P.Ya.Galperin",
+    "noAnswer2": "Yan Amos Komenskiy",
+    "noAnswer3": "D.B.Elkonin"
   },
   {
-    "question": "Sun’iy neyron tarmoqlarida aktivlashtirish funksiyasi  tushunchasi?",
-    "answer": "Neyron tugunlaridan chiqqan qiymatni ma’lum bir diapozonga tushirish uchun ishlatiladi",
-    "noAnswer1": "Neyron tarmoqda aktivlashtirish funksiyasi tushunchasi yo’q",
-    "noAnswer2": "Bu faol bo’lmagan tugunlarni faollashtish uchun ishlatiladi.",
-    "noAnswer3": "To’g’ri javob yoq"
+    "question": "Pedagogning kishilar bilan qiska muddatda muloqot o'rnata olishi, ular bilan muloqot o'rnatishga bo'lgan doimiy intilishi.?\n",
+    "answer": "Pedagogning kommunikativ madaniyati",
+    "noAnswer1": "Pedagog nuqtai nazari (pozisiya)",
+    "noAnswer2": "Pedagogik faoliyat",
+    "noAnswer3": "Pedagog va talaba"
   },
   {
-    "question": "Chuqur o’qitilish deyiladi, qachonki …",
-    "answer": "Nayron tarmog’imizda yashirin qatlamlar soni bittadan ko’p bo’lsa.",
-    "noAnswer1": "Nayron tarmog’imizda yashirin qatlamlar soni bitta bo’lsa.",
-    "noAnswer2": "Ikkita neyron orasidagi masofa katta bo’lsa",
-    "noAnswer3": "Neyronlar soni ikkitadan ko’p bo’lsa"
+    "question": "Pedagogning kommunikativ madaniyati bu?\n\n",
+    "answer": "pedagogning kishilar bilan qisqa muddatda muloqot o'rnata olishi, ular bilan muloqot o'rnatishga bo'lgan doimiy intilishi",
+    "noAnswer1": "pedagogning dunyoga, pedagogik voqelikka va pedagogik jarayonga bo'lgan intellektual va xissiy munosabati",
+    "noAnswer2": "o'qituvchining ob'ektivlik mezoni, uning ma'naviy tayyorgarlik darajasi",
+    "noAnswer3": "Pedagogik jarayonda ta'lim maqsadlarini amalga oshirish "
   },
   {
-    "question": "Modelni o’qitish uchun o’quv tanlanma (dataset) qanday turlarga bo’lindi",
-    "answer": "training, validation, testing",
-    "noAnswer1": "testing, value-x, training",
-    "noAnswer2": "validation, labels, training",
-    "noAnswer3": "labels, validation, testing"
+    "question": "Lug'aviy jihatdan \"interfaol\" tushunchasi qanday ma'nosini anglatadi?",
+    "answer": "\"o'zaro harakat qilmoq\";",
+    "noAnswer1": "\"o'zaro fikr almashmoq",
+    "noAnswer2": "\"o'zaro yordam bermoq\";",
+    "noAnswer3": "\"o'zaro kelishib olmoq\"."
   },
   {
-    "question": "O’qitish uchun ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan, model turg’unligiga ta’sir qiluvchi ma’lumotlarni olib tashlash jarayoni nima deb ataladi",
-    "answer": "Ma’lumotlarni tozalash (Data cleaning)",
-    "noAnswer1": "Xususiyatlarni aniqlash (Feature detection)",
-    "noAnswer2": "Ma’lumotlarni o’chirish (Data deletion)",
-    "noAnswer3": "Ma’lumotlar turini aniqlash (Data formatting)"
+    "question": "Talabalarning bilim, ko'nikma, malaka va muayyan axloqiy sifatlarni o'zlashtirish yo'lidagi o'zaro harakatlarini tashkil etishga asoslanuvchi ta'lim qanday nomlanadi?",
+    "answer": "muammoli ta'lim;",
+    "noAnswer1": "rivojlantiruvchi ta'lim;",
+    "noAnswer2": "dasturiy ta'lim;",
+    "noAnswer3": "interfaol ta'lim."
   },
   {
-    "question": "Sklearn bu - …",
-    "answer": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalga oshirishga mo’ljallangan maxsus paket",
-    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishga mo’ljallangan hisoblanadi",
-    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitish algortimlarini ishlab chiqishga mo’ljallangan",
-    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili algoritmlarini amalga oshirishga mo’ljallangan maxsus paket"
+    "question": "Pedagog so'zining ma'nosi qanday?",
+    "answer": "Bola etaklovchi   ",
+    "noAnswer1": "Ta'lim beruvchi",
+    "noAnswer2": "Bolani tarbiyalovchi   ",
+    "noAnswer3": "O'qituvchi"
   },
   {
-    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
-    "answer": "neyron tarmoqlar asosida",
-    "noAnswer1": "lokal tarmoqlar asosida",
-    "noAnswer2": "global tarmoqlar asosida",
-    "noAnswer3": "internet tarmoqlar asosida"
+    "question": "Talabalar bilan tarbiyaviy ishda foydalaniladigan vositalarni toping",
+    "answer": "Televidenie, radio, shaxslar jalb qilinadigan faoliyat turlari",
+    "noAnswer1": "O'quv muassasalari, Internet, tadbirlar o'tkaziladigan klublar",
+    "noAnswer2": "Televidenie, kitoblar, darsdan tashqari shaxsiy ishlar",
+    "noAnswer3": "Videokurslar, tadbirlar, o'quv kurslari, tashqi ta'sirlar"
   },
   {
-    "question": "CIFAR100 dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "100",
-    "noAnswer1": "99",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
+    "question": "Yoshlar ongini shakllantirish usullariga qaysilar kiradi?",
+    "answer": "tushuntirish, suhbat va o'rnak ko'rsatish",
+    "noAnswer1": "darsdan tashqari suxbatlar olib borish ishlari",
+    "noAnswer2": "atrofdagi voqealar, hulq atvor",
+    "noAnswer3": "hulq atvor, davlatning ichki va tashqi siyosati"
   },
   {
-    "question": "IRIS dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "3",
-    "noAnswer1": "2",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
+    "question": "..... - deganda biz shaxsning ham jismoniy, ham aqliy va ma'naviy kamol topish jarayonini tushunamiz",
+    "answer": "rivojlanish",
+    "noAnswer1": " tarbiya",
+    "noAnswer2": "bilim",
+    "noAnswer3": "ma'naviyat"
   },
   {
-    "question": "IRIS dataset da obyektni xarakterlovchi  xususiyatlari nechta",
-    "answer": "4",
-    "noAnswer1": "2",
-    "noAnswer2": "3",
-    "noAnswer3": "8"
+    "question": "Shaxs shakllanishining psixologik mexanizmlari ..........  fikricha, shaxsning shakllantirish asosiy mexanizmlariga motivni maqsadga qarab ko'chirish, ijtimoiy rollarni qiyoslab o'xshatish (identifikasiya qilishi) ular tartibsiz mexanizmlar bo'lib xisoblanadi",
+    "answer": "Yu.B. Gippenreyter",
+    "noAnswer1": "Yan Amos Komenskiy",
+    "noAnswer2": "P.Ya.Galperin",
+    "noAnswer3": "S.Ushinskiy"
   },
   {
-    "question": "Chiziqli va logistik regression model qurilayotganda bitta o’rgatuvchi tanlamadan foydalansa bo’ladimi?",
-    "answer": "Ha, faqat yorliqlari uchun ikkita qiymat saqlangan bo’lsa",
-    "noAnswer1": "Ha, regression model uchun hamma vaqt dataset bir xilda bo’ladi.",
-    "noAnswer2": "Buning imkoni yo’q",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": ".........– hulqning asosiy anglanilgan motivi. U butun shaxs faoliyatiga alohida mazmun va aniq yo'nalish baxsh etadi",
+    "answer": "e'tiqod",
+    "noAnswer1": "motivasiya",
+    "noAnswer2": "extiyoj",
+    "noAnswer3": "madaniyat"
   },
   {
-    "question": "Chiziqli regresiya va Logistik regresiya uchun Cost funksiyasi bir xilda bo’ladimi?",
-    "answer": "Yoq",
-    "noAnswer1": "Ha",
-    "noAnswer2": "Logistik regressiyada cost funksiyasi bo’lmaydi",
-    "noAnswer3": "Chiziqli regressiyada cost funksiyasi bo’lmaydi"
+    "question": "Pedagogikaning aniq masalalarini ishlab chiqishda qaysi fanlarga suyanadi?",
+    "answer": "falsafa, sotsiologiya, etika, estetika",
+    "noAnswer1": "yoshlar pedagogikasi, oila pedagogikasi",
+    "noAnswer2": "falsafa, mantiq, tarix",
+    "noAnswer3": "psixologiya, fiziologiya,mantiq"
   },
   {
-    "question": "Python ning scipy kutubxonasidan qaysi  Classs chiziqli regressiya modelini qurishda ishlatiladi",
-    "answer": "stats",
-    "noAnswer1": "sklearn",
-    "noAnswer2": "numpy",
-    "noAnswer3": "ployfit"
+    "question": "Shaxsning rivojlanishi jarayoni bir qancha omillar ta'sirida sodir bo'ladi. Bular:",
+    "answer": "irsiyat, muhit, ta'lim va tarbiya, shaxs faolligi",
+    "noAnswer1": "tashqi muhit, oila, Internet, klublar",
+    "noAnswer2": "ta'lim va tarbiya, irsiyat, tadbirlar",
+    "noAnswer3": "Televidenie,darsdan tashqari shaxsiy ishlar"
   },
   {
-    "question": "Python sklearn kutubxonasidagi qaysi Classs chiziqli regressiya modelini qurishda ishlatiladi",
-    "answer": "LinearRegression",
-    "noAnswer1": "Polyfit",
-    "noAnswer2": "poly1d",
-    "noAnswer3": "Linear_model"
+    "question": "Shaxsiy fazilat nima?\n",
+    "answer": "Shaxs tomonidan o'zining ahloqiy ruhiy va ishchanlik qobiliyatining anglay olish hususiyati",
+    "noAnswer1": "Shaxs amal qiladigan bilim tamoyil va ideallarning haqqoniyligiga qalban subektiv munosabati",
+    "noAnswer2": "Insonning xayot tajribaga asoslangan munosabat turlarini xisobga olishishmiz mumkin",
+    "noAnswer3": "Individning biror narsa hodisaga muhtojligi kurishimiz mumkin bo'ladi"
   },
   {
-    "question": "Chiziqli regressiyada modelni murakkab tanlansa qaysi turdagi muammo yuzaga keladi",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Model aniq ishlaydigan bo’lib, shakllanadi.",
-    "noAnswer3": "Muammo sodir bo’lmaydi"
+    "question": "Estetik tarbiya nima?\n",
+    "answer": "Go'zallikini his qilish go'zallikni payqay olish qobiliyatini tarbiyalash",
+    "noAnswer1": "Individning biror narsaga muhtojligi go'zalligini misol qilish olamiz ",
+    "noAnswer2": "Tasodifiylik xaqidagi tasavvurni guzallikaa, mantiqqa bog'lash",
+    "noAnswer3": " Tadqiqot obektiv to'grisida har tomonlama tasavvur hosil qilish"
   },
   {
-    "question": "O’qituvchili o’qitish (supervised learning) nima?",
-    "answer": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) ham ishlatish",
-    "noAnswer1": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
-    "noAnswer2": "modelni o’qitish uchun tasvir ma’lumotlaridan (image) foydalanish",
-    "noAnswer3": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish"
+    "question": "O'qituvchining inovasion faoliyati nima?\n",
+    "answer": "Ijodiy imkoniyatni aks ettirish kundalik faoliyatdan chetga chiqish",
+    "noAnswer1": "Yangi innovasion tehnologiyalar bilan iishlash",
+    "noAnswer2": "Individual o'qitish qobiliyati rivojlantirish usullari",
+    "noAnswer3": " Masofaviy ta'lim texnologiyalaridan kelib chiqqib dars olib borish"
   },
   {
-    "question": "Keras muhitida qurilgan neyron tarmoqda joriy qatlam uchun faollashtirish funksiyasini qo’shishda quyidagilarning qaysi biridan foydalaniladi?",
-    "answer": "model.add(Activation(‘relu’))",
-    "noAnswer1": "model.insert(Activation(‘relu’))",
-    "noAnswer2": "model.function(Activate(‘relu’))",
-    "noAnswer3": "model.add(ActiveFunction(‘relu’))"
+    "question": "Faoliyat nima?\n",
+    "answer": "Ongli maqsad bilan boshqariladigan ichki va tashqi faolligi",
+    "noAnswer1": "Insonning atrof-muhitga bo'lgan ta'siri ",
+    "noAnswer2": "Bilim ko'nikma va tajriba kelib chiqib ishlash",
+    "noAnswer3": "Shaxs psihikasi motivlarining shakllanishi"
   },
   {
-    "question": "O’qituvchisiz (unsupervised) o’qitish algortimlari to’g’ri ko’rsatilgan javobni ko’rsating?",
-    "answer": "k-means clustering, hierarchical clustering, independent component analysis",
-    "noAnswer1": "linear regression, nearest neighbor, random forest, decision tree",
-    "noAnswer2": "k-means clustering, deep learning, logistic regression, random forest",
-    "noAnswer3": "k-nn, decision tree, linear regression, k-means clustering"
+    "question": "Individual o'qitish usulini, ya'ni ma'ruza tinglashni, kitob o'qishni va yozma vazifalarni bajarishni yoqtiridigan o'quvchi .",
+    "answer": " introvert-o'quvchi",
+    "noAnswer1": "ekstravert-o'quvchi",
+    "noAnswer2": " ekstremal – o'quvchi",
+    "noAnswer3": "o'qituvchi-o'quvchi"
   },
   {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) nima?",
-    "answer": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
-    "noAnswer1": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish",
-    "noAnswer2": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) ham ishlatish",
-    "noAnswer3": "modelni o’qitish uchun tasvir ma’lumotlari va ularning belgilaridan (image+label) foydalanish"
+    "question": "Tushuncha nima?\n\n",
+    "answer": "Atrof - muhitda hodisa predmetlarining muhim hususiyatlari ular orasidagi munosabatlarini bilish",
+    "noAnswer1": "Shaxs hayotining muayyan davrdagi psihik rivojlanishini nazarda tutadi",
+    "noAnswer2": "Insonnig atrof muhitga munosabatini o'rganish orqali munosabatlarni o'rganish ",
+    "noAnswer3": "Insonning anglay bilish qobiliyati shakllantirish orqali ish uslubini olib borish"
   },
   {
-    "question": "Sigmoid funksiyasini hisoblash formulasini ko’rsating?",
-    "answer": "sig(x)=1/(1+exp(-x))",
-    "noAnswer1": "sig(x)=1/(1-exp(x))",
-    "noAnswer2": "sig(x)=1/exp(-x)",
-    "noAnswer3": "sig(x)=1/exp(x)"
+    "question": "Pedagog nuqtai nazari....\n",
+    "answer": " Pedagogning dunyoga,pedagogik voqelikka intellektual va hissiy munosabati",
+    "noAnswer1": "pedagogning shaxsiy fikrlashini xisobga olgan xolda ish olib borish",
+    "noAnswer2": "Pedagogning aqliy faoliyatini rivojlantirib reja tuzish ishlash",
+    "noAnswer3": "Pedagogning dunyoqarashi fikrlash doirasi e'tiborga olib munosabatlarini rivojlantirish"
   },
   {
-    "question": "Mashinali o’qitish nima?",
-    "answer": "kompyuter dasturining ma’lumotlarni o’qib olish asosida xususiyatlarni o’rganish qobiliyatidir",
-    "noAnswer1": "faqat kompyuter o’yinlarini yaratish uchun dastur xususiyatlarni o’rganish qobiliyatidir",
-    "noAnswer2": "bu robotni o’rgatishning an’anaviy usuli",
-    "noAnswer3": "kompyuter dasturlarini lug’at yordamida o’qitish usuli"
+    "question": "Tarbiya nima?\n\n",
+    "answer": "Shaxsning ma'naviy va jismoniy holatga muntazam maqsadga muvofiq ta'sir etish",
+    "noAnswer1": "biror harakat fikrni takrorlash orkali ta'lim tarbiya masalasini rivojlantirish ",
+    "noAnswer2": "Ta'lim maqsadlarini amalga oshirishga qaratilgan fikrlar",
+    "noAnswer3": " ta'limning yo'nalishlaridan birini tanlab faoliyat olib borishdir"
   },
   {
-    "question": "Pythonda massivni e’lon qilish uchun qanday toifalardan foydalaniladi?",
-    "answer": "array, matrix",
-    "noAnswer1": "tuple, arr",
-    "noAnswer2": "list, tuple",
-    "noAnswer3": "arr, list"
+    "question": "Iborani to'ldiring ... \"Yomon o'qituvchi bilimlarni aytib beradi, yaxshi o'qituvchi esa ...”",
+    "answer": "uni topishga ko'maklashadi",
+    "noAnswer1": " tushuntirib beradi ",
+    "noAnswer2": "vazifa qilib beradi",
+    "noAnswer3": "kamsitadi"
   },
   {
-    "question": "Keras kutubxonasidagi Sequential() nima vazifani bajaradi?",
-    "answer": "neyron tarmoq modelini qurish uchun dastlabki obyektni yaratadi",
-    "noAnswer1": "ketma-ket kamida 2 qatlamdan iborat neyron tarmoq quradi",
-    "noAnswer2": "neyron tarmoq modelini o’qitish uchun ishlatiladi",
-    "noAnswer3": "qurilgan neyron tarmoqni ketma-ket ko’rinishga keltiradi"
+    "question": "Bir-biri bilan aloqador bo'lgan elementlar to'plami nima deyiladi?",
+    "answer": "tizim",
+    "noAnswer1": "tizimli yondashuv",
+    "noAnswer2": "faoliyat",
+    "noAnswer3": " to'plam"
   },
   {
-    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(10) ifodasida i indeks o’zgaruvchisiga qanday qiymatlar keladi?",
-    "answer": "0 1 2 3 4 5 6 7 8 9",
-    "noAnswer1": "0 1 2 3 4 5 6 7 8 9",
-    "noAnswer2": "0 9",
-    "noAnswer3": "1 2 3 4 5 6 7 8 9 10"
+    "question": "Pedagogik tizim markazida kim turadi?",
+    "answer": " o'qituvchi va o'quvchi",
+    "noAnswer1": "rahbar va pedagog",
+    "noAnswer2": "rahbar",
+    "noAnswer3": "xodimlar"
   },
   {
-    "question": "Qanday turdagi faollashtirish funksiyalari mavud?",
-    "answer": "ReLU, sigmoid, softmax",
-    "noAnswer1": "loss, sigmoid, ReLU",
-    "noAnswer2": "ReLU, cost, softmax",
-    "noAnswer3": "cost, loss, sigmoid"
+    "question": "Pedagogik sharoitlar qaysilar?",
+    "answer": "ta'limiy, tarbiyaviy, tashkiliy",
+    "noAnswer1": "iqtisodiy, ijtimoiy, siyosiy",
+    "noAnswer2": "moddiy, tashkiliy, psixologik",
+    "noAnswer3": " moddiy, ma'rifiy, psixologik"
   },
   {
-    "question": "Chuqur o’qitish – bu?",
-    "answer": "bu ko'p qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilgan jarayondir",
-    "noAnswer1": "bu bir qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilgan jarayondir",
-    "noAnswer2": "bu bu modelni qurib olish uchun amalga oshiriladigan o’qitish jarayonidir",
-    "noAnswer3": "bu modelni tezroq va aniqroq qurib olish uchun amalga oshiriladigan jarayon"
+    "question": "O'z faoliyatiga tuzatish kiritish qaysi pedagogik faoliyatga kiradi?",
+    "answer": "refleksiv",
+    "noAnswer1": " kommunikativlik",
+    "noAnswer2": "tashkilotchilik",
+    "noAnswer3": "bashorat qila olish"
   },
   {
-    "question": "Python muhitida turli xil matematik funksiya grafiklarini va tasvirlarni vizuallashtirish uchun ishlatiladigan paket qaysi?",
-    "answer": "matplotlib",
-    "noAnswer1": "keras",
-    "noAnswer2": "pandas",
-    "noAnswer3": "numpy"
+    "question": "Insonning kasbiy faoliyatdagi etukligini aniqlovchi sifatlar?",
+    "answer": "maxsus, ijtimoiy, shaxsiy, individual ",
+    "noAnswer1": "kasbiy, ijtimoiy, individual",
+    "noAnswer2": " maxsus, shaxsiy, kasbiy, amaliy",
+    "noAnswer3": "moddiy, ijtimoiy, iqtisodiy"
   },
   {
-    "question": "Sun’iy neyron tarmoq tashkil etuvchilarini ko’rsating?",
-    "answer": "node, input, weights, output",
-    "noAnswer1": "cell body, dendrites, synapse, axon",
-    "noAnswer2": "input, dendrites, synapse, output",
-    "noAnswer3": "synapse, axon, weights, node"
+    "question": "Kasbiy professionalizmning eng yuqori cho'qqisi –",
+    "answer": "pedagogik mahorat",
+    "noAnswer1": " pedagogik faoliyat",
+    "noAnswer2": " kasbiy taraqqiyotini loyihalay olish",
+    "noAnswer3": " kasbiy muloqot uslublarini bilish"
   },
   {
-    "question": "Python muhitida scatter() funksiyasi qanday vazifani bajaradi?",
-    "answer": "berilgan x,y to'plam bo’yicha 2 o’lchovli grafigini chizish uchun ishlatiladi",
-    "noAnswer1": "chiziqli regression model koeffitsentlarini (ko’pi bilan 3 ta) hisoblaydi",
-    "noAnswer2": "polinomial regression model koeffitsentlarini hisoblaydi",
-    "noAnswer3": "qurilgan model koeffitsentlari bo’yicha bashorat qilinadigan qiymatlarni hisoblaydi"
+    "question": "Pedagogika faninning «Didaktika» ta’lim nazariyasi qismi qaysi kadimiy lotincha so‘z nomi bilan aytiladi",
+    "answer": "O'qituvchi",
+    "noAnswer1": "Tarbiyachi",
+    "noAnswer2": "Etaklovchi",
+    "noAnswer3": "Murabbiy"
   },
   {
-    "question": "pip install tensorflow buyrug’i asosida nima sodir bo’ladi?",
-    "answer": "tensorflow kutubxonasi o’rnatiladi",
-    "noAnswer1": "keras va tensorflow kutubxonasi o’rnatiladi",
-    "noAnswer2": "tensorflow kutubxonasi chaqiriladi",
-    "noAnswer3": "keras va tensorflow kutubxonasi chaqiriladi"
+    "question": "Tolerantlik – bu ...",
+    "answer": "diniy bag'rikenglik",
+    "noAnswer1": "bo'ysunuvchanlik",
+    "noAnswer2": " bardoshli bo'lish",
+    "noAnswer3": "sabr-toqatli bo'lish"
   },
   {
-    "question": "KNN bu - …",
-    "answer": "Barchasi to’gri",
-    "noAnswer1": "Klasterlash algoritmi",
-    "noAnswer2": "Regressiya algoritmi",
-    "noAnswer3": "Sinflashrirish algoritmi"
+    "question": "Kreativlik – bu",
+    "answer": "shaxsning ijodga nisbatan umumiy qobiliyati",
+    "noAnswer1": " pedagogik jarayonni qurish",
+    "noAnswer2": "talabalarga nisbatan sabr-toqatli bo'lish ",
+    "noAnswer3": "zarur axborotlarni tahlil qilish qobiliyati"
   },
   {
-    "question": "Mashinani o’qitish turlari to’g’ri ko’rsatilgan javobni tanlang?",
-    "answer": "supervised, unsupervised, Semi-supervised, reinforcement",
-    "noAnswer1": "regressiya, Ehtimollar nazariyasi, Supervised, unsupervised",
-    "noAnswer2": "supervised, unsupervised, Regressiya, Sinflashtirish",
-    "noAnswer3": "regressiya, Sinflashtirish, Semi-supervised, reinforcement"
+    "question": " Pedagog ixtiyorida bo'lgan eng kuchli vosita nima?",
+    "answer": " Shaxsiy namuna",
+    "noAnswer1": " Pedagogik maxorat ",
+    "noAnswer2": "Pedagogik texnologiya",
+    "noAnswer3": "Nutk"
   },
   {
-    "question": "Neyron tarmoqlari bu…?",
-    "answer": "Neyron tarmoqlari juda ko’p muhim xususiyatlarga ega, ammo asosiysi bu o’rganish qobiliyatidir.",
-    "noAnswer1": "Neyron tarmoqlari ma’lumotlarni bog’lash uchun xizmat qiladi.",
-    "noAnswer2": "Bunday tarmoq mavjud emas",
-    "noAnswer3": "Ikkilik kod sifatidagi algoritm"
+    "question": "...  - faoliyat jarayonida paydo bo'ladi va rivojlanadi. ... malaka va uddaburonlikdan farq qiladi",
+    "answer": "qobiliyat",
+    "noAnswer1": "bilim",
+    "noAnswer2": "ko'nikma",
+    "noAnswer3": "faoliyat"
   },
   {
-    "question": "O’qituvchili o’qitish algoritmlari qaysi?",
-    "answer": "Chiziqli regressiya",
-    "noAnswer1": "SVM\r\nCNN\r\nRNN",
-    "noAnswer2": "Bunday algoritmlar mavjud emas",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Tabiiyki, milliy tafakkur rivojining tamal toshi ona tilidir. Ona tiliga muxabbat, ona tilida sobitlik milliy tafakkur parvozini muntazam ta'min etadigan ...........",
+    "answer": "muqaddas tuyg'ulardir",
+    "noAnswer1": "beqiyos tuyg'udir",
+    "noAnswer2": "onalik tuyg'usidir",
+    "noAnswer3": "Vatan tuyg'usidir"
   },
   {
-    "question": "Chiziqli regressiyaga to’g’ri ta’rifni toping?",
-    "answer": "Chiziqli regressiya kuzatilgan ma'lumotlarga chiziqli tenglamani bog’lash orqali ikkita o'zgaruvchi o'rtasidagi munosabatni modellashtirishga aytiladi.",
-    "noAnswer1": "Chiziqli regressiya ma’lumotlarni klassifikatsiyalaydi.",
-    "noAnswer2": "Chiziqli Regressiya bu tanlangan ma’lumotlar ichidan kerakli ma’lumotni qidirish algoritmi.",
-    "noAnswer3": "To’g’ri javob yo’q."
+    "question": "Ilmiy tushuncha sifatida \"........\"so'zi keng ma'noda muayyan maqsadga erishish yo'lini, tor ma'noda - tabiat va ijtimoiy xayot xodisalari va qonuniyatlarini bilish maqsadida qandaydir vazifani xal etish usulini bildiradi",
+    "answer": "metod",
+    "noAnswer1": "ma'naviyat",
+    "noAnswer2": "texnologiya",
+    "noAnswer3": "qobiiliyat"
   },
   {
-    "question": "Quyidagi usullardan qaysi biri har qanday chiziqli bo'linadigan ma'lumotlar to'plamida nol o'qitish(zero training) xatosiga erishishi mumkin?",
-    "answer": "KNN",
-    "noAnswer1": "Qaror daraxti",
-    "noAnswer2": "SVM(support vector machine)",
-    "noAnswer3": "CNN"
+    "question": ".......– o'quvchining ichki dunyosiga kira olish qobiliyati, o'quvchi shaxsini va uning ruhiy holatlarini juda yaxshi tushuna bilish bilan bog'liq bo'lgan psixologik kuzatuvchanlikdir.",
+    "answer": "Kuzatuvchanlik qobiliyati",
+    "noAnswer1": "Tushuntira olish qobiliyati",
+    "noAnswer2": "Bilish qobiliyati",
+    "noAnswer3": "Tinglay olish qobiliyati"
   },
   {
-    "question": "CNN bu…?",
-    "answer": "Svyortkali neyron tarmoq",
-    "noAnswer1": "Adamar neyron tarmog’i",
-    "noAnswer2": "K ta yaqin qo’shnilar",
-    "noAnswer3": "Qayta murojaat neyron tarmog’i"
+    "question": "Hissiyot - bu ....",
+    "answer": "kishining tevarak atrofdagi narsa va hodisalarga bulgan munosabatlarini kechinishi",
+    "noAnswer1": "kishining emosiyasi boshqara olishni rivojlantirish",
+    "noAnswer2": "ichki a'zolardagi anik xarakat va uzgarishlarni anglash",
+    "noAnswer3": "kishining extiyojlarga bulgan uz munosabatlari farqlay olish  "
   },
   {
-    "question": "KNN bu…?",
-    "answer": "K ta yaqin qo’shnilar  agoritmi",
-    "noAnswer1": "Svyortkali neyron tarmoq",
-    "noAnswer2": "Adamar almashtririshli Neyron tarmoq",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": " Iroda – bu ....",
+    "answer": "shaxsning maksadga erishish yulidagi jismoniy va ruhiy kiyinchiliklarini engishi",
+    "noAnswer1": "kishilarning ixtiyoriy xarakatlari yigindisini olishimiz mumkin",
+    "noAnswer2": "shaxsning yashash tartibi va sharoitlari bilan belgilanadigan aktivligi",
+    "noAnswer3": "kishining ixtiyorsiz xarakatlari yigindisini rivojlantirish"
   },
   {
-    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
-    "answer": "Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali o’qitishda aqlli mashinalarga dasturlashning muqobil usulidir.",
-    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
-    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Temperament – bu …",
+    "answer": " kishining nerv sistemasi xolati bulib, odamlarga va xayot sharoitiga bulgan munosabatlarining yakka xususiyatlari",
+    "noAnswer1": "Kishining uzini tuta olmasligi xaqidagi xarakterlarni o'rganadi",
+    "noAnswer2": "Shaxs faoliyati va ulqining dinamik o'zgaruvchan) va emosional-hissiy tomonlarini xarakterlovchi individual xususiyatlar ",
+    "noAnswer3": "shaxs faoliyati va xulkining dinamik xususiyatlari yigindisini \nolishimiz mumkin"
   },
   {
-    "question": "Mashinani o’qitish jarayoni bosqichlari ketma – ket to’g’ri berilgan qatorni toping",
-    "answer": "◦ Muammoni aniqlash.\r\n◦ Ma’lumotlarni tayyorlash.\r\n◦ Algoritmni ishlab chiqish va baholash (testlash).\r\n◦ Natijaviy ma’lumotlar aniqligini oshirish.\r\n Yakuniy natijani (ishlab chiqilgan model) taqdim qilish",
-    "noAnswer1": "◦ Natijaviy ma’lumotlar aniqligini oshirish.\r\n ◦ Yakuniy natijani (ishlab chiqilgan model) taqdim qilish",
-    "noAnswer2": "◦ Muammoni aniqlash.\r\n◦ Ma’lumotlarni tayyorlash.\r\n◦ Algoritmni ishlab chiqish va baholash (testlash).",
-    "noAnswer3": "Bunaqa Bosqichlar mavjud emas"
+    "question": "Xarakter – bu …",
+    "answer": "Shaxsdagi shunday psixologik, sub'ektiv munosabatlar majmuiki, ular uning borliqqa, odamlarga munosabatini ifodalaydi",
+    "noAnswer1": "Kishining xulk atvorida namoyon buladigan tugma xususiyatlari",
+    "noAnswer2": "Kishining oliy nerv sistemasi bilan boglanmagan xolda shakllanadigan psixik xususiyatlari",
+    "noAnswer3": "Kishining fe'l-atvoridan kelib chiqqan xolda o'z-o'ziga munosabatini ifodalaydi"
   },
   {
-    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
-    "answer": "O’qtuvchili va O’qituvchisiz",
-    "noAnswer1": "Tanlanma",
-    "noAnswer2": "Ma’lumotlar bazasi",
-    "noAnswer3": "Chiziqli va logistik"
+    "question": "Pedagogik psixologiya nimani o'rganadi?",
+    "answer": "kishiga ta'lim -tarbiya berishning psixologik qonuniyatlarini o'rganadi",
+    "noAnswer1": "tafakkurning shakllanishini o'rganadi",
+    "noAnswer2": "pedagog bilan ukuvchilar urtasidagi munosabatni o'rganadi",
+    "noAnswer3": "psixik rivojlanishdan orkada kolish sabablarini o'rgandi"
   },
   {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
-    "answer": "mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilan o’qitish amalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchun modelga o'z ustida ishlashga imkon yaratib beriladi",
-    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
-    "noAnswer2": "Bunday o’qitish mavjud emas",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Psixologiya fanining asosiy vazifalari.",
+    "answer": "psixik hodisalar moxiyati va qonuniyatini o'rganish",
+    "noAnswer1": "psixik kasalliklarning sababini o'rganish",
+    "noAnswer2": "oliy nerv faoliyatini o'rganish",
+    "noAnswer3": "psixika tabiatini o'rganish"
   },
   {
-    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
-    "answer": "klasterlash",
-    "noAnswer1": "normallashtirish",
-    "noAnswer2": "sinflashtirish",
-    "noAnswer3": "Signallarga ishlov berish"
+    "question": "Psixologiya kaysi fanlar bilan kuprok alokador.",
+    "answer": "jamiyatshunoslik, tabiiy fanlar, pedagogika, falsafa",
+    "noAnswer1": "fizika, kimyo, matematika, mantiq",
+    "noAnswer2": "tilshunoslik, xukukshunoslik, iktisodiyot",
+    "noAnswer3": "zoologiya, kosmonavtika, xorijiy tillar"
   },
   {
-    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
-    "answer": "Hierarchical clustering va K-means clustering",
-    "noAnswer1": "SVM va CNN",
-    "noAnswer2": "RNN va GMM",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Extiyoj – bu …",
+    "answer": "odamning xayot va tarakkiyoti uchun zarur extiyojlarni his etish xolati ",
+    "noAnswer1": "ma'lum xatti xarakatlarning zarurligini anglash",
+    "noAnswer2": "odamning biologik extiyojlarini anglashi",
+    "noAnswer3": "kishining moddiy boyliklarga extiyojini anglashi"
   },
   {
-    "question": "Ma’lumotlarni tozalashga to'liq ta'rif berilgan qatorini toping?",
-    "answer": "Ushbu bosqichda ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan model turg’unligiga ta’sir qiluvchi ma’lumotlar olib tashlanadi.",
-    "noAnswer1": "Dataset ma’lumotlarini testlash",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Qaror daraxtidan ma’lumotlarni olib tashlash"
+    "question": "Motiv – bu …",
+    "answer": "anglangan,anglanmagan xarakat bulib,extiyojning sub'ektiv ifodasi",
+    "noAnswer1": "extiyojni kondirishga moyillikning ifodasi xisoblanadi",
+    "noAnswer2": "anglanilmagan xatti-xarakatlar istagini olishimiz mumkin",
+    "noAnswer3": "uzok maksadlar bilan boglik bulmagan niyatlarni rivojlantirish"
   },
   {
-    "question": "Xususiyatlarni ajratib olishga to'liq ta'rif berilgan qatorini toping?",
-    "answer": "o’qituvchi to’plamdagi ma’lumotlar xususiyatlari o’rganib chiqiladi va bashoratlash, tashxislash, sinflashtirish, qaror qabul qilish uchun kerakli xususiyatlar ajratib olish",
-    "noAnswer1": "Qaror qabul qilish daraxti qiymatlari",
-    "noAnswer2": "Sinflashtirish masalasini yechish algoritmi to’plami",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Malaka – bu …",
+    "answer": "takrorlash natijasida paydo buladigan ish xarakatlarini avtomatlashgan usullaridir",
+    "noAnswer1": "u yoki bu xildagi faoliyatga kiruvchi anglanmagan ish xarakatdir faoliyatlaridir ",
+    "noAnswer2": "murakkab faoliyatni bajarishga tayyorgarlik natijasidagi usullardir",
+    "noAnswer3": " takrorlanadigan ish xarakatlarni rivojlantirish usullaridir"
   },
   {
-    "question": "Pythonda ikkita vektorni birlashtirishda xatolik sodir bo’ladigan javobni tanlang",
-    "answer": "a=append(a,b)",
-    "noAnswer1": "a=np.append(a,b)",
-    "noAnswer2": "a=np.append(b,a)",
-    "noAnswer3": "Varinatlarning barchasida vektorlar birlashtiriladi"
+    "question": "Shaxs xulq-atvorini ichkaridan, ichki psixologik sabablar tufayli boshqarish odatda nima deyiladi?",
+    "answer": "Shaxsiy ichki boshqaruv",
+    "noAnswer1": "Ijtimoiy ehtiyojlar",
+    "noAnswer2": "Mexnat qilish",
+    "noAnswer3": "Jismoniy boshqarish"
   },
   {
-    "question": "Cost funksiya bu?",
-    "answer": "Modelni o’qitish davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamada berilgan qiymat oralidagi farqlarni hisoblash funksiyasi",
-    "noAnswer1": "Cosinius funksiyasini qisqartma ko’rinishi?",
-    "noAnswer2": "Bunday nomdagi funksiya yo’q.",
-    "noAnswer3": "Modelni testlash davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamada berilgan qiymat oralidagi farqlarni hisoblash funksiyasi"
+    "question": " Tarbiya nima?",
+    "answer": "Ma'naviy manbalar va hozirgi zamon talablari va ehtiyojlarini nazarda tutgan holda, o'qituvchining o'quvchi bilan aniq bir maqsadga qaratilgan o'zaro amaliy va nazariy muloqotidir",
+    "noAnswer1": "Bu - mehnatqilish, bilish, estetik va ahloqiy-ma'naviy ehtiyojlar, qayd qilish mumkin bo'lgan harakatlarimiz,maqsadga qaratilgan o'zaro amaliy va nazariy muloqotidir",
+    "noAnswer2": "Bu faoliyat turi bilan shug'ullanishiga majbur qilgan psixologik omillar, o'z ichki istak-xoxishlarimiz ta'sirida bevosita ko'rish orqali namoyon bo'ladigan faollik.",
+    "noAnswer3": "Bu tashqaridan va o'z ichki istak-xoxishlarimiz ta'sirida bevosita ko'rish, qayd qilish mumkin bo'lgan harakatlarimiz, mushaklarimizning harakatlari orqali namoyon bo'ladigan faollik."
   },
   {
-    "question": "Chiziqli regression model nechta qiymat qaytaradi",
-    "answer": "Har doim bitta",
-    "noAnswer1": "Ixtiyoriy ravishdagi sonda qiymat qaytarishi mumkin",
-    "noAnswer2": "Har doim bittadan ko’p",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Aniq maqsadga qaratilgan tarbiya jarayoni necha tamoyilga asoslanadi?",
+    "answer": "Ta'limiy, Tarbiyaviy, Rivojlantiruvchi",
+    "noAnswer1": "Ta'limiy, Yo'naltiruvchi, Yetaklovchi",
+    "noAnswer2": "Yo'naltiruvchi, Yetaklovchi, Bog'lovchi, ",
+    "noAnswer3": "Etaklovchi, Bog'lovchi, Rivojlantiruvchi"
   },
   {
-    "question": "QR code mashinali o’qitilish algoritmi asosida ishlab chiqilgan ?",
-    "answer": "Noto’g’ri,",
-    "noAnswer1": "To’g’ri",
-    "noAnswer2": "Bo’lishi mumkin",
-    "noAnswer3": "Bilmayman"
+    "question": "Muloqot nima?",
+    "answer": "Shaxs individual rivojlanishi jarayonida namoyon bo'ladigan birlamchi faoliyat turlaridan biri",
+    "noAnswer1": "Shunday faoliyat turiki, u bevosita biror moddiy yoki ma'naviy mehnatlar yaratishni nazarda tutadi",
+    "noAnswer2": "Narsa va xodisalarning mohiyati va mazmuniga aloqador materialning eslab qolinishi, esga tushirilishi hamda esda saqlab qolish",
+    "noAnswer3": "O'zaro suhbat jarayonidagi holat"
   },
   {
-    "question": "Gradient tushish bu?",
-    "answer": "Model parametrlarini sozlash uchun ishlatiladigan algoritm",
-    "noAnswer1": "Xatolik funksiyasi",
-    "noAnswer2": "Kiruvchi ma’lumotlarni narmallashtirish uchun qiymatlarni 0,1oraliqqa tushirish",
-    "noAnswer3": "Mashinali o’qitish turi"
+    "question": "Metod, ya'ni usul axborotni uzatish va qabul qilish xarakteriga qarab qanday usullarga bo'linadi?",
+    "answer": "So'z orqali ifodalash usuli, ko'rgazmalilik usuli, amaliy, namuna usuli, rag'batlantirish, jazo.",
+    "noAnswer1": "Faoliyat turi bilan shug'ullanishiga majbur qilgan psixologik omillar",
+    "noAnswer2": "Narsa va xodisalarning mohiyati",
+    "noAnswer3": "Ijtimoiy ehtiyojlar"
   },
   {
-    "question": "O’qitish jarayonida regulyarizatsiyalash bu?",
-    "answer": "Modelni o’qitish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
-    "noAnswer1": "Barcha javob to’g’ri",
-    "noAnswer2": "Modelni testlash jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
-    "noAnswer3": "Modelni qurish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish"
+    "question": "Tarbiyachining rag'batlantirish usuli nechaga bo'linadi:",
+    "answer": "Ikkiga",
+    "noAnswer1": "To'rtga",
+    "noAnswer2": "Oltiga",
+    "noAnswer3": "Uchga"
   },
   {
-    "question": "Modelni qurishda bo’ladigan Underfitting muammosi bu?",
-    "answer": "Model train to’plmada ham, test to’plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan.",
-    "noAnswer1": "Model train to’plmada ham, test to’plamda ham yuqori aniqlik bermaydi. Model murakkab tuzilgan.",
-    "noAnswer2": "Model train to’plmada yuqori, test to’plamda esa past aniqlik beradi. Model sodda tuzilgan.",
-    "noAnswer3": "Model train to’plmada yuqori, test to’plamda esa past aniqlik beradi. Model murakkab tuzilgan."
+    "question": "Jazo – bu....",
+    "answer": "Noto'g'ri bajarilgan ishga beriladigan aks javob",
+    "noAnswer1": "Noto'g'ri qilgan ishiga o'zini iqror qildirish",
+    "noAnswer2": "Aybini tan olmaslik",
+    "noAnswer3": "Qilgan ishiga yarasha javob berishi"
   },
   {
-    "question": "Model qurishda bo’ladigan Owerfitting muammosi bu?",
-    "answer": "Rasmlarni joylashtirish uchun",
-    "noAnswer1": "Ma’lumotlarni jadval ko‘rinishida chop etish uchun",
-    "noAnswer2": "Audioma’lumotlarni joylashtirish uchun",
-    "noAnswer3": "Matnli ma’lumotlarni joylashtirish uchun"
+    "question": "Tarbiyalanganlik –deganda nimani tushunasiz?",
+    "answer": "Milliy urf-odatimiz mezoniga kirmagan, o'zgalarning nafratini qo'zg'atadigan xatti-harakatlardan o'zini tiyabilish",
+    "noAnswer1": "O'ziga baho berish",
+    "noAnswer2": "O'zgalarning fikrini amalda qo'llash",
+    "noAnswer3": "Noto'g'ri qilgan ishiga o'zini iqror qildirish"
   },
   {
-    "question": "Nima uchun o’rgatuvchi tanlama normallashtiriladi?",
-    "answer": "Obyektni xarakterlovchi xususiyatlari bir xil shkalaga olib kelish orqali ularning ta’sir kuchini barobarlashtirish",
-    "noAnswer1": "Obyektni xarakterlovchi xususiyatlari faqat [0,1] shkalaga olib kelish orqali ularning ta’sir kuchini barobarlashtirish",
-    "noAnswer2": "Obyektni xarakterlovchi xususiyatlari faqat [-1,1] shkalaga olib kelish orqali ularning ta’sir kuchini barobarlashtirish",
-    "noAnswer3": "Obyektni xarakterlovchi xususiyatlari turli xil shkalaga olib kelish orqali ularning ta’sir kuchini barobarlashtirish"
+    "question": "Ta'lim xakidagi konun nechta bob va nechta moddadan iborat",
+    "answer": "5 - bob va 34 modda",
+    "noAnswer1": "3 - bob va 37 modda ",
+    "noAnswer2": "7 - bob va 30 modda",
+    "noAnswer3": "4 - bob va 20 modda"
   },
   {
-    "question": "Validation dataset qayerda ishlatiladi?",
-    "answer": "Modelni qurish davomida paramertlarni sozlashda",
-    "noAnswer1": "Model qurib bo’linganidan so’ng aniqlikni baholashda",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Validation datasetdan foydalanilmaydi"
+    "question": "Komillik bosqichlarini ko'rsating.",
+    "answer": "Jismoniy salomatlik, axloqiy poklik, aqliy etuklik",
+    "noAnswer1": "Axloqiy qilingan ishlar",
+    "noAnswer2": "O'ziga baho berish",
+    "noAnswer3": "Ongrivojlanishi"
   },
   {
-    "question": "Klasterlash bu ?",
-    "answer": "O’qituvchisiz o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari asosida guruhlash",
-    "noAnswer1": "O’qituvchili o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari asosida guruhlash",
-    "noAnswer2": "Mashinali o’qitishda buday tushuncha yo’q.",
-    "noAnswer3": "Logistik regressiya asosida amalga oshiriladigan mashinali o’qitish algoritmi"
+    "question": "His-tuyg'ular nimalarda aks etmaydi?",
+    "answer": "Ichki a'zolarni faoliyatida     ",
+    "noAnswer1": "Pantomimikada",
+    "noAnswer2": "Mimikada     ",
+    "noAnswer3": "San'at, musiqada"
   },
   {
-    "question": "O’qituvchisiz o’qitish algoritmiga qaysi algoritim kiradi?",
-    "answer": "Kmaens\r\nSingular Value Decomposition",
-    "noAnswer1": "KNN\r\nSVM",
-    "noAnswer2": "SVM\r\nKmaens",
-    "noAnswer3": "Random Forest"
+    "question": "Jazolash ... .",
+    "answer": " ma'lum xulq-atvor shakllariga to'sqinlik qiladi.",
+    "noAnswer1": "tashabbuskorlik harakat shakllarini keltirib chiqaradi;",
+    "noAnswer2": "xulq-atvorni shakllantiradi, o'zgartiradi;",
+    "noAnswer3": "salbiy xulk-atvor shaklini mustaxkamlash;"
   },
   {
-    "question": "KNN algoritmida k qiymat nimani xaratterlaydi?",
-    "answer": "k ta eng yaqin qo’shnini",
-    "noAnswer1": "k ta eng uzoq qo’shnini",
-    "noAnswer2": "O’qitish qadami",
-    "noAnswer3": "O’qitishlar sonini"
+    "question": "Pedagogikaning asosiy tushunchalari",
+    "answer": "ta'lim, tarbiya, ma'lumot,  ",
+    "noAnswer1": "pedagogik mulokot, ma'naviyat ",
+    "noAnswer2": "ta'lim, ilm, malaka, ko'nikma ",
+    "noAnswer3": "ilm, ma'rifat, madaniyat "
   },
   {
-    "question": "Uy narxini bashorat qilish uchun mashinali o’qitishning qaysi algoritmidan foydalanadi",
-    "answer": "Chiziqli regressiya",
-    "noAnswer1": "Logistik regressiya",
-    "noAnswer2": "Kmeans",
-    "noAnswer3": "SVM"
+    "question": "Inson ichki mexanizmlarini nima o'rganadi?",
+    "answer": " Tarbiya",
+    "noAnswer1": "Bilim",
+    "noAnswer2": "Ta'lim",
+    "noAnswer3": "Sharoit"
   },
   {
-    "question": "Uyning xarakterlovchi xususiyatlari asosida ikkita guruhga(klasterga) (biznes, ekanom) ajratish uchun qaysi mashinali o’qitish algoritmidan foydalaniladi",
-    "answer": "Kmeans",
-    "noAnswer1": "SVM",
-    "noAnswer2": "Random Forest",
-    "noAnswer3": "Logistik regressiya"
+    "question": "Inson psixik taraqqiyotiga ta'sir etuvchi kuchlar nimalardan iborat?",
+    "answer": " inson nerv sistemasining xususiyatlari, qobiliyat kurtaklari",
+    "noAnswer1": "insondagi tug'ma mayllarning rivojlanishi",
+    "noAnswer2": "miya biologik, organik yetilishi",
+    "noAnswer3": "Ijtimoiy muhit sabablari"
   },
   {
-    "question": "KNN algoritmida k ni kichik tanlasak nima sodir bo’ladi?",
-    "answer": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer1": "Shovqinga sezgir bo’lmaydi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer2": "KNN algoritmida k parametr yo’q.",
-    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
+    "question": "Intelekt o'lchamini aniqlang",
+    "answer": " Verbal, miqdoriy, fazoviy",
+    "noAnswer1": "Verbal, noverbal, lingvistik",
+    "noAnswer2": "Mantiq, xotira, xayol",
+    "noAnswer3": "Fazoviy, davriy, kretiv "
   },
   {
-    "question": "Logistik regressiya bu?",
-    "answer": "Regression tahlil asosida sinflashtirish masalasini yechish",
-    "noAnswer1": "Regression tahlil asosida klasterlash  masalasini yechish",
-    "noAnswer2": "Regression tahlil asosida bashoratlash masalasini yechish",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Ma'lum bir davrlarda jismoniy qiyofasi va psixikasida keskin o'zgarishlar sodir bo'ladi. Bu qaysi davrga to'g'ri keladi? ",
+    "answer": " o'smirlik",
+    "noAnswer1": "ilk bolalik",
+    "noAnswer2": "ilk o'spirinlik",
+    "noAnswer3": "chaqaloqlik"
   },
   {
-    "question": "Chiziqli va logistic regressiyaning asosiy farqi",
-    "answer": "Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli  regressiya basharotlash, logistic regressiya sinflashtirish",
-    "noAnswer1": "Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli  sinflashtirish basharotlash, logistic regressiya regressiya",
-    "noAnswer2": "Ikkalasi ham bir turdagi masalani ishlash uchun mo’ljallangan",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Necha yoshdan bolalar o'zini kattalar bilan taqqoslaydi. ",
+    "answer": " 4 yoshdan",
+    "noAnswer1": "3 yoshdan",
+    "noAnswer2": "5 yoshdan",
+    "noAnswer3": "2 yoshdan"
   },
   {
-    "question": "Python dasturlash tilida ma’lumotlarni visuallashtirish uchun ishlatiladigan kutubxona",
-    "answer": "Matplotlib",
-    "noAnswer1": "plotData",
-    "noAnswer2": "Pillow",
-    "noAnswer3": "PyPlot"
+    "question": "Pedagogik psixologiyada qo'llaniladigan metodlar:",
+    "answer": " kuzatish va o'qitish birligi;",
+    "noAnswer1": "ong va faoliyat birligi;",
+    "noAnswer2": "o'qitish qonuniyatlari;",
+    "noAnswer3": "o'qishning asosiy qonuniyatlari;"
   },
   {
-    "question": "Python dasturlash tilida quyidagi kod qanday natija qaytaradi:\r\n>>i=10\r\n>>i++\r\n>>print(i)",
-    "answer": "Xatolik sodir bo’ladi.",
-    "noAnswer1": "0",
-    "noAnswer2": "9",
-    "noAnswer3": "i++"
+    "question": "Psixikaning rivojlanish manbalari nimalar?",
+    "answer": " ijtimoiy muhit, irsiyat, ta'lim – tarbiya",
+    "noAnswer1": "oila, maktab, jamiyat",
+    "noAnswer2": "yashash joyi, atrofdagi do'stlar davrasi",
+    "noAnswer3": "o'qish va mehnat jarayoni"
   },
   {
-    "question": "Python dasturlash tilida quyidagi kod qanday natija qaytaradi:\r\n>>a=[0,2,5,7,8]\r\n>>b=a[1:3]\r\n>>print(b)",
-    "answer": "[2,5]",
-    "noAnswer1": "[0,2,5]",
-    "noAnswer2": "[1,2,5,7]",
-    "noAnswer3": "[4,5]"
+    "question": "Talabalarda aqliy zo'riqishning negizi deb nimalarni hisoblaysiz?",
+    "answer": "yaqin dugonalari yoki befarq bo'lmagan odamining hiyonati ",
+    "noAnswer1": "aqliy mehnatda kuch va imkoniyatlarni bir tekis taqsimlay olmaslik",
+    "noAnswer2": "o'quv faoliyatining to'g'ri usullarini bilmasligi, ",
+    "noAnswer3": "aqliy bilimlarning yetishmasligi, dars mazmun – mohiyatini tushunmaslik"
   },
   {
-    "question": "Mobil ilovadagi element ustiga sichqoncha chap tugmasi bilan bosilganda qaysi metod ishga tushadi?",
-    "answer": "Model train to’plamda yuqori, test to’plamda esa past aniqlik beradi. Model murakkab tuzilgan.",
-    "noAnswer1": "Model train to’plamda ham, test to’plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan.",
-    "noAnswer2": "Model train to’plamda ham, test to’plamda ham yuqori aniqlik bermaydi. Model murakkab tuzilgan.",
-    "noAnswer3": "Model train to’plamda yuqori, test to’plamda esa past aniqlik beradi. Model sodda tuzilgan."
+    "question": "Tarbiya psixologiyasining predmeti nima?",
+    "answer": "shaxsning odob-axloq, dunyoqarash va e'tiqodini shakllantirishda bolalar faoliyatini maqsadli yo'naltirish",
+    "noAnswer1": "Sistemali o'qitish sharoitida bilim faoliyatini rivojlantirishning usullaridan foydalanish",
+    "noAnswer2": "prfessional pedagogik faoliyatining shakllantirishning psixologik aspektlarini o'rganish",
+    "noAnswer3": "ta'lim-tarbiya insonnning shaxs sifatida rivojlanishining psixologik qonuniyatlarini o'rganish"
   },
   {
-    "question": "KNN algoritmi qaysi masalani yechish uchun xizmat qiladi",
-    "answer": "Barcha javob to’g’ri",
-    "noAnswer1": "Sinflashtirish",
-    "noAnswer2": "Regressiya",
-    "noAnswer3": "Klasterlash"
+    "question": "Tarbiya turlarining eng ko'p tarqalgan klassifikatsiyasi qaysi?",
+    "answer": "Aqliy, mehnat, jismoniy ",
+    "noAnswer1": "Ahloqiy, siyosiy, jismoniy ",
+    "noAnswer2": "Avtoritar, erkin, demokratik",
+    "noAnswer3": "Fuqorolik, jamoviy, kommunikativ"
   },
   {
-    "question": "Python dasturlash tilida ma’lumotlarni visuallashtirish uchun ishlatiladigan kutubxona",
-    "answer": " Matplotlib",
-    "noAnswer1": "plotData",
-    "noAnswer2": "Pillow",
-    "noAnswer3": "PyPlot"
+    "question": "O'z-o'zini tarbiyalash zerikarli bo'lib qolmasligi uchun A.S.Makarenko qanday maslaxat bergan?",
+    "answer": " Istiqbolli rejani tushuntirishni",
+    "noAnswer1": "Individual yondashishni",
+    "noAnswer2": "Ayrim xususiyatlar tark etishni",
+    "noAnswer3": "Ta'sir usullaridan foydalanishni"
   },
   {
-    "question": "Python dasturlash tilida quyidagi kod qanday natija qaytaradi: >>i=10 >>i++ >>print(i)",
-    "answer": " Xatolik sodir bo’ladi.",
-    "noAnswer1": "0",
-    "noAnswer2": "9",
-    "noAnswer3": "i++"
+    "question": "Komil inson sifatlari",
+    "answer": "Akliy, jismoniy, ma'naviy etukligi",
+    "noAnswer1": "Zexn utkirligi, etukligi",
+    "noAnswer2": "Iktidorliligi va madaniyatliligi",
+    "noAnswer3": "ukish zexnining tezligi"
   },
   {
-    "question": "KNN algoritmida k ni katta tanlasak nima sodir bo’ladi?",
-    "answer": " Model qurish vaqti oshib ketadi. Bazan k ning katta tanlanishi sinflashtirishda xatolikka ko’p uchrashi\r\nmumkin",
-    "noAnswer1": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer2": "KNN algoritmida k parametr yo’q.",
-    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
+    "question": "Shaxsni o'z-o'zini tarbiyalash jarayoni qanday kechadi?",
+    "answer": " Muhit bilan faol munosabatda",
+    "noAnswer1": "Individual holda",
+    "noAnswer2": "Muhitdan ajralgan holda",
+    "noAnswer3": "Biologik omillar asosida"
   },
   {
-    "question": "Logistik regressiyada qaror qabul qilishimiz uchun modeldan olingan qiymat qaysi bo’sag’a qiymati\r\norqali solishtiriladi?",
-    "answer": " 0.5",
-    "noAnswer1": "0",
-    "noAnswer2": "1",
-    "noAnswer3": "-1 va 1"
+    "question": "Shaxsning o'z xatti-harakatlari, bilimlari, imkoniyatlari, malakalariga nisbatan sub'ektiv munosabati...",
+    "answer": " Iqtidor ",
+    "noAnswer1": "Iste'dod ",
+    "noAnswer2": "Layoqat ",
+    "noAnswer3": "daholik"
   },
   {
-    "question": "Sun’iy intellekti bo’lmagan elementni ko’rsating",
-    "answer": " Hub",
-    "noAnswer1": "Kalkulyator",
-    "noAnswer2": "Telefon",
-    "noAnswer3": "Foto Radar"
+    "question": "Inson faolligi qanday tushunchalar bilan chambarchas bog'liq?",
+    "answer": "Xarakat, faol, xulq",
+    "noAnswer1": "O'qish bilish, ko'rish",
+    "noAnswer2": "Ong, tafakkur, bilim",
+    "noAnswer3": "Tashabbuskorlik, sport"
   },
   {
-    "question": "Python dasturlash tilida quyidagi kod qanday natija qaytaradi: >>k=55//10 >>print(‘k’)",
-    "answer": " k",
-    "noAnswer1": "44686",
-    "noAnswer2": "Xatolik sodir bo’ladi",
-    "noAnswer3": "5"
+    "question": "Chaqaloqning inson zotiga mansubligini tasdiqlaydigan fakt qanday tushuncha bilan nomlanadi?",
+    "answer": "individ",
+    "noAnswer1": "individuallik",
+    "noAnswer2": "shaxs",
+    "noAnswer3": "yo'nalganlik"
   },
   {
-    "question": "Python dasturlash tilida quyidagi kod qanday natija qaytaradi: >>a=[0,4,5,7,8,9,3] >>b=a[-2] >>print(b)",
-    "answer": " 9",
-    "noAnswer1": "8",
-    "noAnswer2": "[0,4,5]",
-    "noAnswer3": "[3,9,8]"
+    "question": "O‘qituvchi pedagogik texnikasining muhim malakalaridan biri uning …….. texnikasidir",
+    "answer": "Nutqi, tempi, diksiyasi, ovoz butunligi",
+    "noAnswer1": "kasbkorlik malakalari, talablar qo'ya olishi",
+    "noAnswer2": "kiyinish madaniyati, ijodiy ishlari",
+    "noAnswer3": "muomala madaniyati, kiyinish madaniyati"
   },
   {
-    "question": "Ko’p o’zgaruvchili chiziqli regressiya bu -...",
-    "answer": " Bashoratlash uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib bashoratlashga xizmat\r\nqiladigan model yaratish",
-    "noAnswer1": "Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat qiladigan model\r\nyaratish",
-    "noAnswer2": "Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat qiladigan model\r\nyaratish",
-    "noAnswer3": "Siflashtirish uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib siflashtirishga xizmat\r\nqiladigan model yaratish"
+    "question": "Motivatsiya nima?",
+    "answer": "Inson xulq-atvori, uning bog'lanishi, yo'nalishi va faolligiga undovchi kuch.",
+    "noAnswer1": "Uning jarayonida bilimlar, malaka va turli ko'nikmalar o'zlashtiriladi",
+    "noAnswer2": "Shaxs individual rivojlanishi jarayonida namoyon bo'ladigan birlamchi faoliyat turlaridan biri.",
+    "noAnswer3": "Ongrivojlanishiningbosqichlari."
   },
   {
-    "question": "Logistik regressiya bu?",
-    "answer": " Regression tahlil asosida sinflashtirish masalasini yechish",
-    "noAnswer1": "Regression tahlil asosida klasterlash masalasini yechish",
-    "noAnswer2": "Regression tahlil asosida bashoratlash masalasini yechish",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Konkret odamni boshqa bir konkret odamdan farqlovchi barcha o'ziga xos\n xususiyatlar majmui nima deb ataladi?",
+    "answer": "individuallik",
+    "noAnswer1": "qobiliyat",
+    "noAnswer2": "iqtidor",
+    "noAnswer3": "iste'dod"
   },
   {
-    "question": "Chiziqli va logistic regressiyaning asosiy farqi",
-    "answer": " Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli regressiya basharotlash, logistic regressiya\r\nsinflashtirish",
-    "noAnswer1": "Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli sinflashtirish basharotlash, logistic regressiya\r\nregressiya",
-    "noAnswer2": "Ikkalasi ham bir turdagi masalani ishlash uchun mo’ljallangan",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Ko'zi ojiz tarbiyalanuvchilar ta'lim-tarbiyasi bilan shug'ullanuvchi fan qaysi?",
+    "answer": "Tiflopedagogika",
+    "noAnswer1": "Surdopsixologiya",
+    "noAnswer2": "Oligofrenopedagogika",
+    "noAnswer3": "Surdopedagogika"
   },
   {
-    "question": "Tensorflow bu – ...",
-    "answer": " Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
+    "question": ".............– bu yosh avlodni hayotga, mehnatga tayyorlash uchun xalq oldida, davlat oldida javob beradigan, yosh avlodga ta'lim-tarbiya berish uchun maxsus tayyorlangan mutaxassislarning mehnat faoliyati",
+    "answer": "Pedagogik faoliyat",
+    "noAnswer1": "Pedagogik mahorat",
+    "noAnswer2": "Pedagogik qobiliyat",
+    "noAnswer3": "Pedagogik so'zlashuv"
   },
   {
-    "question": "Chiziqli regressiyada modelni sodda tanlansa qaysi turdagi muammo yuzaga keladi",
-    "answer": " Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Muammo sodir bo’lmaydi"
+    "question": "Shaxsning faolliyatini yo'naltirib turadigan va mavjud vaziyatlarga nisbatan bog'liq bo'lmagan barqaror motivlar majmuyi ................ deb ataladi",
+    "answer": "kishi shaxsining yo'naltirilganligi",
+    "noAnswer1": "motivatsiya",
+    "noAnswer2": "qiziqish",
+    "noAnswer3": "ehtiyoj"
   },
   {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilan testlanganda 65%\r\naniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi turdagi mauammo sodir bo’lmoqda",
-    "answer": " Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Everfitting"
+    "question": "\"Milliy mafkura - bu xalqning, millatning o'tda yonmaydigan, suvda cho'kmaydigan o'lmas ......”",
+    "answer": "e'tiqodidir",
+    "noAnswer1": "ma'naviyatidir",
+    "noAnswer2": "iymonidir",
+    "noAnswer3": "ehtiyojidir"
   },
   {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilan testlanganda 25%\r\naniqliq va test dataset bilan testlaganimizda 95% aniqlik bersa, qaysi turdagi mauammo sodir bo’lmoqda",
-    "answer": " Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Everfitting"
+    "question": "......................    - tadqiqotchining boshqa kishilardan pedagogik tajribaning biror tomoni yoki hodisalari haqida axborot olish jarayoni bu metodning asosini tashkil qiladi",
+    "answer": "Pedagogik so'rash metodi",
+    "noAnswer1": "Eksperiment-tajriba-sinov usuli",
+    "noAnswer2": "Test sinovlar metodi",
+    "noAnswer3": "Modellashtirish metodi"
   },
   {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilan testlanganda 95%\r\naniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi turdagi mauammo sodir bo’lmoqda",
-    "answer": " Owerfitting",
-    "noAnswer1": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer2": "Underfitting",
-    "noAnswer3": "Everfitting"
+    "question": "................ - maxsus tayyorlangan kishilar rahbarligida o'tkaziladigan, o'quvchilarni bilim, ko'nikma va malakalar bilan qurollantiradigan, bilim, qobiliyatlarini o'stiradigan, ularning dunyoqarashini tarkib toptiradigan jarayondir",
+    "answer": "ta'lim",
+    "noAnswer1": "ko'nikma",
+    "noAnswer2": "bilim",
+    "noAnswer3": "qobiliyat"
   },
   {
-    "question": ">>import numpy as np >>arr =np.array([1, 2, 3, 4, 5, 6]) >>newarr = arr.reshape(2, 3) >>print(newarr)",
-    "answer": " [[1,2,3],[4,5,6]]",
-    "noAnswer1": "[[1,2],[3,4],[5,6]]",
-    "noAnswer2": "[3,4]",
-    "noAnswer3": "<pre class=\"language-markup\"><code>1,2,3],[4,5,6</code></pre>"
+    "question": "Yoshlar ongini shakllantirish usullariga qaysilar kiradi?",
+    "answer": "tushuntirish, suhbat va o'rnak ko'rsatish",
+    "noAnswer1": "darsdan tashqari suxbatlar olib borish ishlari",
+    "noAnswer2": "atrofdagi voqealar, hulq atvor, davlatning ichki va tashqi siyosati",
+    "noAnswer3": "uzluksiz ta'lim tizimini yanada rivojlashtirish muammolarini xal qilish"
   },
   {
-    "question": "Agar mashinali o’qitish qo’llaniladigan sklearn kutubxonasi o’rnatilmagan bo’lsa uni qanday o’rnatish\r\nmumkin.",
-    "answer": " Barchasi to’g’ri",
-    "noAnswer1": "pip install sklearn",
-    "noAnswer2": "conda install scikit-learn",
-    "noAnswer3": "pip install scikit-learn"
+    "question": "..... - deganda biz shaxsning ham jismoniy, ham aqliy va ma'naviy kamol topish jarayonini tushunamiz",
+    "answer": "rivojlanish",
+    "noAnswer1": "tarbiya",
+    "noAnswer2": "ma'naviyat",
+    "noAnswer3": "ko'nikma"
   },
   {
-    "question": "O’rgatuvchi tanlamasiz(dataset siz) mashinali o’qitish algoritmlarini ishlata olamizmi",
-    "answer": " Imkoni yoq",
-    "noAnswer1": "Ha, albatta",
-    "noAnswer2": "Ba’zan",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": ".................-inson ongining bilish ob'ektlari hisoblanmish narsa va hodisalar o'rtasida murakkab, har tomonlama aloqalarning bo'lishini ta'minlovchi umumlashgan va mavxumlashgan aks ettirish shaklidir.",
+    "answer": "tafakkur",
+    "noAnswer1": "xodisa",
+    "noAnswer2": "idrok",
+    "noAnswer3": "sezgi "
   },
   {
-    "question": "Sun’iy intellekt deganda nimani tushunasiz?",
-    "answer": " insonning onggi kabi fikrlovchi dastur",
-    "noAnswer1": "oddiy kompyuter dasturi",
-    "noAnswer2": "qaror qabul qiluvchi ilovalar",
-    "noAnswer3": "bunday termin fanda mavjud emas"
+    "question": ".........– hulqning asosiy anglanilgan motivi. U butun shaxs faoliyatiga alohida mazmun va aniq yo'nalish baxsh etadi",
+    "answer": "E'tiqod",
+    "noAnswer1": "Extiyoj",
+    "noAnswer2": "Motivatsiya",
+    "noAnswer3": "Rivojlanish"
   },
   {
-    "question": "Sun'iy intellekt bu …?",
-    "answer": " bu kompyuterda insonning aqlli xatti harakatlarini qanday amalga oshirishni o'rganadigan tadqiqot\r\nsohasi",
-    "noAnswer1": "bu kompyuterda insonning jismoniy xatti harakatlarini qanday amalga oshirishni o'rganadigan tadqiqot\r\nsohasi",
-    "noAnswer2": "bu kompyuterda insonning bialogik xatti harakatlarini qanday amalga oshirishni o'rganadigan tadqiqot\r\nsohasi",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Har qanday sharoitda ham barcha harakatlar ham ichki-psixologik, ham tashqi-muvofiqlik nuqtai nazaridan ...... tomonidan boshqarilib boradi",
+    "answer": "ong ",
+    "noAnswer1": "malaka",
+    "noAnswer2": "miya",
+    "noAnswer3": "sezgi"
   },
   {
-    "question": "Neyron tarmoqdagi tugun qiymati 0.5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa\r\nqanday qiymatga o‟zgaradi",
-    "answer": " 0.5",
-    "noAnswer1": "1",
-    "noAnswer2": "0",
-    "noAnswer3": "2"
+    "question": "Shaxsning rivojlanish jarayoni bir qancha omillar ta’sirida sodir bo‘ladi. Bular",
+    "answer": "irsiyat, muhit, ta'lim va tarbiya, shaxs faolligi",
+    "noAnswer1": "tashqi muhit, oila, internet, klublar",
+    "noAnswer2": "ta'lim va tarbiya, irsiyat, tadbirlar, turli uchrashuvlar",
+    "noAnswer3": "maslaxat berish, ko'rgazmalilik usuli, amaliy, namuna usul"
   },
   {
-    "question": "Biologik neyron tarmoq tashkil etuvchilarini ko’rsating?",
-    "answer": " cell body, dendrites, synapse, axon",
-    "noAnswer1": "input, dendrites, synapse, output",
-    "noAnswer2": "node, input, weights, output",
-    "noAnswer3": "synapse, axon, weights, node"
+    "question": "..................-birinchi navbatda aqliy faoliyat bo'lib, u sof psixologik jarayonlarning kechishidan kelib chiqadi.",
+    "answer": "ichki faoliyat ",
+    "noAnswer1": "umumiy faoliyat",
+    "noAnswer2": "tashqi faoliyat",
+    "noAnswer3": "umumiy faoliyat"
   },
   {
-    "question": "Dataset bu nima?",
-    "answer": " bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
-    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
-    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
-    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
+    "question": "………....- kishini o'zini tuta olmaydigan qilib qo'yadigan taassurotlar bilan bog'liq psixik jarayonlar, xarakatlar va xolatlar yig'indisidir.",
+    "answer": " Ongsizlik",
+    "noAnswer1": "Organizm",
+    "noAnswer2": "Tafakkur",
+    "noAnswer3": "fikr"
   },
   {
-    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
-    "answer": " bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
-    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
-    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
-    "noAnswer3": "Oddiy algoritm"
+    "question": "Jamiyat bilan doimiy munosabatni ushlab turuvchi, o'z - o'zini anglab, har bir harakatini muvofiqlashtiruvchi shaxsga xos bo'lgan eng muhim va umumiy xususiyat-bu ................",
+    "answer": "faollik",
+    "noAnswer1": "malaka",
+    "noAnswer2": "tafakkur",
+    "noAnswer3": "fikr"
   },
   {
-    "question": "Keras kutubxonasida neyron tarmoq modelini qurish jarayonida quyidagi dastur kodi nima vazifani\r\nbajaradi? >>model = Sequential() >>model.add(Dense(16, input_shape=(64,)))",
-    "answer": " kirish qatlamida 64 ta va chiqish qatlamida 16 ta neyrondan iborat neyron tarmoq quradi",
-    "noAnswer1": "kirish qatlamida 16 ta va 1-yashirin qatlamda 64 ta neyrondan iborat neyron tarmoq quradi",
-    "noAnswer2": "1-yashirin qatlamida 64 ta va 2-yashirin qatlamda 16 ta neyrondan iborat neyron tarmoq quradi",
-    "noAnswer3": "kirish qatlamida 64 ta va 1-yashirin qatlamda 16 ta neyrondan iborat neyron tarmoq quradi"
+    "question": "Tabiiyki, milliy tafakkur rivojining tamal toshi ona tilidir. Ona tiliga muxabbat, ona tilida sobitlik milliy tafakkur parvozini muntazam ta'min etadigan ...........   ",
+    "answer": "muqaddas tuyg'ulardir",
+    "noAnswer1": "beqiyos tuyg'udir",
+    "noAnswer2": "onalik tuyg'usidir",
+    "noAnswer3": "vatan tuyg'usidir"
   },
   {
-    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
-    "answer": " klasterlash",
-    "noAnswer1": "normallashtirish",
-    "noAnswer2": "sinflashtirish",
-    "noAnswer3": "Signallarga ishlov berish"
+    "question": "Ilmiy tushuncha sifatida \"........\"so'zi keng ma'noda muayyan maqsadga erishish yo'lini, tor ma'noda - tabiat va ijtimoiy xayot xodisalari va qonuniyatlarini bilish maqsadida qandaydir vazifani xal etish usulini bildiradi",
+    "answer": "metod",
+    "noAnswer1": "texnologiya",
+    "noAnswer2": "ma'naviyat",
+    "noAnswer3": "tarbiyaviy-tashkiliy"
   },
   {
-    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
-    "answer": " Hierarchical clustering va K-means clustering",
-    "noAnswer1": "SVM va CNN",
-    "noAnswer2": "RNN va GMM",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": ".......– o'quvchining ichki dunyosiga kira olish qobiliyati, o'quvchi shaxsini va uning ruhiy holatlarini juda yaxshi tushuna bilish bilan bog'liq bo'lgan psixologik kuzatuvchanlikdir",
+    "answer": "Kuzatuvchanlik qobiliyati",
+    "noAnswer1": "Tushuntira olish qobiliyati",
+    "noAnswer2": "Bilish qobiliyati",
+    "noAnswer3": "Aqliy qobiliyati"
   },
   {
-    "question": "Ma’lumotlarni tozalashga to'liq ta'rif berilgan qatorini toping?",
-    "answer": " Ushbu bosqichda ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan model turg’unligiga ta’sir\r\nqiluvchi ma’lumotlar olib tashlanadi.",
-    "noAnswer1": "Dataset ma’lumotlarini testlash",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Qaror daraxtidan ma’lumotlarni olib tashlash"
+    "question": "\"Aktual taraqqiyot zonasi\" mohiyati nimadan iborat?",
+    "answer": "bolaning mustaqil faoliyati kattalar bilan xamkorlikda amalga oshiriladi",
+    "noAnswer1": "kichik maktab yoshi davrida xatti – xarakatidan",
+    "noAnswer2": "bola taraqqiyotini maktab ta'limidan ajratib bo'lmaydi",
+    "noAnswer3": "rivojlanishning mohiyati qarama-qarshiliklar kurashidan iborat"
   },
   {
-    "question": "Xususiyatlarni ajratib olishga to'liq ta'rif berilgan qatorini toping?",
-    "answer": " o’qituvchi to’plamdagi ma’lumotlar xususiyatlari o’rganib chiqiladi va bashoratlash, tashxislash,\r\nsinflashtirish, qaror qabul qilish uchun kerakli xususiyatlar ajratib olish",
-    "noAnswer1": "Qaror qabul qilish daraxti qiymatlari",
-    "noAnswer2": "Sinflashtirish masalasini yechish algoritmi to’plami",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "\"Bolalarning aqliy taraqqiyotigina emas, balki axloqiy rivojlanish ham nasliy tamondan belgilangan\". Ushbu fikrlar muallifi kim? ",
+    "answer": " E. Torndayk",
+    "noAnswer1": "Z.Zazzo",
+    "noAnswer2": "F.Myuller",
+    "noAnswer3": "K. Byuller"
   },
   {
-    "question": "Pythonda ikkita vektorni birlashtirishda xatolik sodir bo’ladigan javobni tanlang",
-    "answer": " a=append(a,b)",
-    "noAnswer1": "a=np.append(a,b)",
-    "noAnswer2": "a=np.append(b,a)",
-    "noAnswer3": "Varinatlarning barchasida vektorlar birlashtiriladi"
+    "question": "\"Bu shunday qobiliyatki bunda o'quvchilarga bevosita emotsional irodaviy ta'sir etib ularda obro' orttira bilishdan iborat qobiliyatdir\" qaysi qobiliyat turiga ta'rif berilgan? ",
+    "answer": " Avtoritar qobiliyati",
+    "noAnswer1": "Kommunikativ qobiliyati",
+    "noAnswer2": "Nutq qobiliyati",
+    "noAnswer3": "Pedagogik qobiliyati"
   },
   {
-    "question": "Cost funksiya bu?",
-    "answer": " Modelni o’qitish davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamada berilgan\r\nqiymat oralidagi farqlarni hisoblash funksiyasi",
-    "noAnswer1": "Cosinius funksiyasini qisqartma ko’rinishi?",
-    "noAnswer2": "Bunday nomdagi funksiya yo’q.",
-    "noAnswer3": "Modelni testlash davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamada berilgan qiymat\r\noralidagi farqlarni hisoblash funksiyasi"
+    "question": "Bilim olishga maqsadga yo'naltirilgan anglash qobiliyati bolada qachon paydo bo'ladi?",
+    "answer": " 4-5 yoshda",
+    "noAnswer1": "2-3 yoshda",
+    "noAnswer2": "6-7 yoshda",
+    "noAnswer3": "8 yoshdan so'ng"
   },
   {
-    "question": "Chiziqli regression model nechta qiymat qaytaradi",
-    "answer": " Har doim bitta",
-    "noAnswer1": "Ixtiyoriy ravishdagi sonda qiymat qaytarishi mumkin",
-    "noAnswer2": "Har doim bittadan ko’p",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Bolalarda xayol necha yoshdan boshlab paydo bo'la boshlaydi? ",
+    "answer": "2 yoshga to'lib, 3 yoshga qadam qo'yganda",
+    "noAnswer1": "1-2 yoshiga qadam qo'yganda",
+    "noAnswer2": "4 yoshiga qadam qo'yganda",
+    "noAnswer3": "3 yoshiga to'lganida"
   },
   {
-    "question": "QR code mashinali o’qitilish algoritmi asosida ishlab chiqilgan ?",
-    "answer": " Noto’g’ri,",
-    "noAnswer1": "To’g’ri",
-    "noAnswer2": "Bo’lishi mumkin",
-    "noAnswer3": "Bilmayman"
+    "question": "Buyuk psixolog V.Shtern g'oyasi?",
+    "answer": "Ta'lim psixik rivojlanishning orqasidan boradi",
+    "noAnswer1": "Ta'lim-tarbiya birligi rivojlanishidir",
+    "noAnswer2": "Tarbiya, taraqqiyot vositasi",
+    "noAnswer3": "Ta'lim psixik rivojlanishni ergashtirib boradi"
   },
   {
-    "question": "Gradient tushish bu?",
-    "answer": " Model parametrlarini sozlash uchun ishlatiladigan algoritm",
-    "noAnswer1": "Xatolik funksiyasi",
-    "noAnswer2": "Kiruvchi ma’lumotlarni narmallashtirish uchun qiymatlarni 0,1oraliqqa tushirish",
-    "noAnswer3": "Mashinali o’qitish turi"
+    "question": "Diniy aqloqiy tarzdagi dastlabki pedagogik va psixologik asarlar qachon yozilgan? ",
+    "answer": "XVIIIasrda ",
+    "noAnswer1": "XX-asrda",
+    "noAnswer2": "XIX-asrda",
+    "noAnswer3": "XI - asrda"
   },
   {
-    "question": "O’qituvchisiz o’qitish algoritmiga qaysi algoritim kiradi?",
-    "answer": " Kmaens Singular Value Decomposition",
-    "noAnswer1": "KNN SVM",
-    "noAnswer2": "SVM Kmaens",
-    "noAnswer3": "Random Forest"
+    "question": "Yetuklik davri o'z ichiga necha yoshni oladi?",
+    "answer": " 30 – 35 yosh",
+    "noAnswer1": "25 – 30 yosh",
+    "noAnswer2": "55 – 70 yosh",
+    "noAnswer3": "36 – 60 yosh"
   },
   {
-    "question": "KNN algoritmida k qiymat nimani xaratterlaydi?",
-    "answer": " k ta eng yaqin qo’shnini",
-    "noAnswer1": "k ta eng uzoq qo’shnini",
-    "noAnswer2": "O’qitish qadami",
-    "noAnswer3": "O’qitishlar sonini"
+    "question": "Yoshlik davrida yigit – qizlar kamolotiga qanday psixologik mexanizmlar ta'sir ko'rsatadi?  ",
+    "answer": " mehnat jamoasi, oila muhiti va norasmiy ulfatlar",
+    "noAnswer1": "ota – onalar, turmush o'rtog'i",
+    "noAnswer2": "yaqin kishilari, kasb faoliyati",
+    "noAnswer3": "ijtimoiy ong, sevib – sevilish"
   },
   {
-    "question": "Uy narxini bashorat qilish uchun mashinali o’qitishning qaysi algoritmidan foydalanadi",
-    "answer": " Chiziqli regressiya",
-    "noAnswer1": "Logistik regressiya",
-    "noAnswer2": "Kmeans",
-    "noAnswer3": "SVM"
+    "question": "Yoshlik davrida sezgirlikning ortishi necha yoshgacha davom etadi?",
+    "answer": " 25 yoshgacha",
+    "noAnswer1": "30 yoshgacha",
+    "noAnswer2": "35 yoshgacha",
+    "noAnswer3": "28 yoshgacha"
   },
   {
-    "question": "Uyning xarakterlovchi xususiyatlari asosida ikkita guruhga(klasterga) (biznes, ekanom) ajratish uchun\r\nqaysi mashinali o’qitish algoritmidan foydalaniladi",
-    "answer": " Kmeans",
-    "noAnswer1": "SVM",
-    "noAnswer2": "Random Forest",
-    "noAnswer3": "Logistik regressiya"
+    "question": "....  -insonning yakka holdagi bir yoki bir necha turdagi faoliyatida namoyon bo'ladi. U insonga tayyor holda berilmaydi. U o'qitish va tarbiya jarayonida rivojlanish natijasi hisoblanadi.  Nuqtalar o'rniga kerakli so'zni qo'ying.",
+    "answer": "qobiliyat",
+    "noAnswer1": "iste'dod",
+    "noAnswer2": "aql",
+    "noAnswer3": "bilim"
   },
   {
-    "question": "KNN algoritmida k ni kichik tanlasak nima sodir bo’ladi?",
-    "answer": " Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer1": "Shovqinga sezgir bo’lmaydi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer2": "KNN algoritmida k parametr yo’q.",
-    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
+    "question": "\"Muallim, ustozlar nima so'rasalar kulib turib, odob bilan, chiroyli so'zlarni saralab, javob ber \"ushbu so'zlar kimning qalamiga mansub?",
+    "answer": "Mustafo Homiy",
+    "noAnswer1": "Y.A. Komenskiy",
+    "noAnswer2": "A. Navoiy",
+    "noAnswer3": "Al Farg'oniy"
   },
   {
-    "question": "SVM algoritmida yadro(kernel) funksiyalari nima uchun xizmat qiladi?",
-    "answer": " Kiruvchi xususiyatlarni ma’lum o’lchov sohasidan boshqasiga o’zgartirish uchun xizmat qiladi. Misol\r\nuchun 1D -> 2D",
-    "noAnswer1": "Kiruvchi xususiyatlarni 1D o’lchov sohasidan 2D o’lchov sohasiga o’tkazish uchun xizmat qiladi",
-    "noAnswer2": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 1D o’lchov sohasiga o’tkazish uchun xizmat qiladi",
-    "noAnswer3": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 3D o’lchov sohasiga o’tkazish uchun xizmat qiladi"
+    "question": "\"Diplomga ega bo'lish bu hali tom ma'nodagi ziyoli emas, ziyoli odam o'z tafakkur saviyasi, pok yuragi, ichki madaniyati bilan mutlaqo boshqacha bo'ladi\" , ushbu so'zlar kimga tegishli?",
+    "answer": "I. A. Karimov",
+    "noAnswer1": "A. Avloniy",
+    "noAnswer2": "Komenskiy",
+    "noAnswer3": "A. Qodiriy"
   },
   {
-    "question": "SVM orqali ..",
-    "answer": " Faqat bir nechta sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer1": "Faqat ikkita sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer2": "Faqat regressiya masalasini yechish mumkin",
-    "noAnswer3": "Ham sinflashrish, ham regressiya masalasini ishlash mumkin."
+    "question": "Kadrlar tayyorlash tayyorlash Milliy modulining asosiy tarkibiy qismlari bular...?",
+    "answer": "Uzluksiz ta'lim, shaxs, fan, davlat va jamiyat",
+    "noAnswer1": "Davlat va xokimiyat",
+    "noAnswer2": "Qonunchilik palatasi",
+    "noAnswer3": "Qonun va ijro"
   },
   {
-    "question": "Qidiruv tizimlarida sun’iy intellektdan foydalanish mumkinmi",
-    "answer": " ha, mumkin va hozirda keng qo‘llanilmoqda (misol uchun Google, Yandex qidiruv tizimlari)",
-    "noAnswer1": "qisman amaliy natijalari bor lekin yetarlicha nazariy jihatdan formallashtirilmagan",
-    "noAnswer2": "nazariy jihatdan mumkin, lekin hozircha amaliy jihatdan natijalarga erishilmagan",
-    "noAnswer3": "qidiruv tizimlarida sun’iy intellektdan foydalanish qidiruv vaqtini oshiradi"
+    "question": "  Uzluksiz ta'lim o'z ichiga necha ta'lim turini oladi?",
+    "answer": "Yettita",
+    "noAnswer1": "O'n ikkita",
+    "noAnswer2": "Oltita",
+    "noAnswer3": "O'nta"
   },
   {
-    "question": "Neyron tarmoqdagi tugun qiymati 0 ga teng. Ushbu tugun sigmoid funksiyasi yordamida faollashtirilsa\r\nqanday qiymatga o’zgaradi",
-    "answer": " 0.5",
-    "noAnswer1": "0",
-    "noAnswer2": "1",
-    "noAnswer3": "2.785661"
+    "question": "Kasb-hunar kollejlarini bitirgandan so'ng qanday ma'lumotli mutaxassislik beradi?",
+    "answer": "O'rta maxsus",
+    "noAnswer1": "Oliy",
+    "noAnswer2": "Tugallanmagan oliy",
+    "noAnswer3": "O'rta"
   },
   {
-    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur\r\no’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
-    "answer": " hozirda tasvirlardan ob’ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalarda keng\r\nfoydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
-    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli fodalanilmaydi",
-    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
-    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
+    "question": "Insonning qo'rqish va dovdirab qolish tuyg'usini yengish qobiliyati qaysi irodaviy sifatiga kiradi?",
+    "answer": "Qat'iylik",
+    "noAnswer1": "Sabr-matonat",
+    "noAnswer2": "Mustaqillik",
+    "noAnswer3": "Dadillik"
   },
   {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": " Format, Data Cleaning, Feature Extraction",
-    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
-    "noAnswer2": "Resizing, Feature Extraction, Format",
-    "noAnswer3": "Format, Resizing, Data Cleaning"
+    "question": "Guruh deganda nimani tushunasiz?",
+    "answer": "Muayyan belgi, maqsad, tashkil topish xususiyatiga qarab birlashgan insoniy umumiylik",
+    "noAnswer1": "Talabalar guruhi, ishchilar guruhi, oila",
+    "noAnswer2": "Norasmiy, rasmiy, real, shartli guruhlar bo'ladi",
+    "noAnswer3": "Guruh jamoadir"
   },
   {
-    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
-    "answer": " chiziqli, nochiziqli va logistik regressiya usullari asosida",
-    "noAnswer1": "sintaktik usullar asosida",
-    "noAnswer2": "dinamik usillar asosida",
-    "noAnswer3": "semantik usullari asosida"
+    "question": "Majburiy ta'lim necha yil?",
+    "answer": "O'n ikki yil",
+    "noAnswer1": "To'qqiz yil",
+    "noAnswer2": "O'n olti yil",
+    "noAnswer3": "O'n bir yil"
   },
   {
-    "question": "Chuqur o’qitish bosqichlari to’g’ri tartiblangan javobni belgilang",
-    "answer": " 1. Muammoni tushunib olish. 2. Ma’lumotlarni aniqlash. 3. Chuqur o’qitish algoritmini belgilash. 4.\r\nModelni o’qitish.5. Modelni testlash.",
-    "noAnswer1": "1. Ma’lumotlarni aniqlash. 2. Muammoni tushunib olish. 3. Chuqur o’qitish algoritmini belgilash. 4.\r\nModelni o’qitish. 5. Modelni testlash.",
-    "noAnswer2": "1. Muammoni tushunib olish. 2. Ma’lumotlarni aniqlash. 3. Chuqur o’qitish algoritmini belgilash. 4.\r\nModelni o’qitish",
-    "noAnswer3": "1. Chuqur o’qitish algoritmini belgilash. 2. Modelni o’qitish. 3. Modelni testlash."
+    "question": " \"Innovatsiya\" tushunchasi birinchi marta nechanchi asrda paydo bo'lgan?",
+    "answer": "XIX asrda",
+    "noAnswer1": "XX asrda",
+    "noAnswer2": "XVIII asrda",
+    "noAnswer3": "XVII asrda"
   },
   {
-    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
-    "answer": " 5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "6"
+    "question": "Qaysi metod o'quvchi-talabani savol berish, eshita olish, to'g'ri javob bera olish, savolni to'g'ri tuzishni o'rgatishga qaratilgan? ",
+    "answer": "Interv'yu metodi",
+    "noAnswer1": "Blits o'yin metodi",
+    "noAnswer2": "3x4 metodi",
+    "noAnswer3": "aqliy hujum"
   },
   {
-    "question": "Chuqur o’qitishning birinchi bosqichi qanday jarayondan iborat?",
-    "answer": " Muammoni tushunib olish.",
-    "noAnswer1": "Ma’lumotlarni aniqlash.",
-    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer3": "Modelni o’qitish."
+    "question": "Qaysi metod o'quvchi-talabalarni erkin fikrlashi, keng doirada turli g'oyalarni bera olishi, ta'lim jarayonida yakka, kichik guruh holda tahlil etib, xulosa chiqara olish, ta'rif bera olishiga qaratilgan?",
+    "answer": "3x4 metodi",
+    "noAnswer1": "Blits o'yin metodi",
+    "noAnswer2": "Intervyu metodi",
+    "noAnswer3": "aqliy hujum"
   },
   {
-    "question": "Chuqur o’qitishning ikkinchi bosqichi qanday jarayondan iborat?",
-    "answer": " Ma’lumotlarni aniqlash.",
-    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer2": "Modelni o’qitish.",
-    "noAnswer3": "Modelni testlash."
+    "question": "Qaysi metod harakatlar ketma-ketligini to'g'ri tashkil etishga, mantiqiy fikrlashga, o'rganayotgan fani asosida ko'p, xilma-xil fikrlardan, ma'lumotlardan keraklisini tanlab olishni o'rgatishga qaratilgan",
+    "answer": "Blitso'yin metodi",
+    "noAnswer1": "Intervyu metodi",
+    "noAnswer2": "3x4 metodi",
+    "noAnswer3": "aqliy hujum"
   },
   {
-    "question": "Neyron tarmoqlarida dastlab vazn koeffitsentlari qanday bo’ladi?",
-    "answer": " random() funksiyasi orqali taxminiy beriladi.",
-    "noAnswer1": "musbat qiymatlar bilan to’ldiriladi.",
-    "noAnswer2": "To’ldirish shart emas.",
-    "noAnswer3": "manfiy qiymatlar bilan to’ldiriladi."
+    "question": "Qaysi tushuncha inglizchada yangilik, yangilik kiritish, yangilikni o'rganish kabi ma'nolarni aks ettiradi?",
+    "answer": "Innovatsiya",
+    "noAnswer1": "Informatika",
+    "noAnswer2": "Innovatika",
+    "noAnswer3": "Ipoteka"
   },
   {
-    "question": "Neyron tarmoqlarida topilgan vazn koeffitsentlari qanday bo’ladi?",
-    "answer": " Musbat va manfiy bo’lishi mumkin",
-    "noAnswer1": "Faqat musbat bo’ladi",
-    "noAnswer2": "Faqat manfiy bo’ladi",
-    "noAnswer3": "Qiymatlar [0,1] oraliqda bo’ladi."
+    "question": "Qaysi metod o'qituvchi topshiriqlar tizimi bilan o'quvchilar bilish faoliyatini tashkil etadi?",
+    "answer": "Tadqiqot metodi",
+    "noAnswer1": "Eslash metodi",
+    "noAnswer2": "Tushuntirish metodi",
+    "noAnswer3": "bilim almashtirish"
   },
   {
-    "question": "KNN algoritmida qo’llaniladigan ikki nuqta orasidagi masofa … deb yuritiladi. Nutqlar o’rniga mos\r\nvariantni qo’ying.",
-    "answer": " Euclidean masofasi",
-    "noAnswer1": "Chebyshev masofasi",
-    "noAnswer2": "Manhattan masofasi",
-    "noAnswer3": "Minkowski masofasi"
+    "question": "Axloq nima ?",
+    "answer": "Jamiyatda qabul qilingan, jamoatchilik fikri bilan ma'qullangan xulq-odob normalari majmui",
+    "noAnswer1": "Jamiyatning va unda yashovchi fuqarolarning faoliyati jarayonida to'plangan barcha ijobiy yutuqlar majmuasi",
+    "noAnswer2": "Inson ongidagi mavjud ilmiy va hayotiy bilimlar majmuidan keragini saralab olish va amaliyotga qo'llash",
+    "noAnswer3": "Mutaxassisliklar yo'nalishlari bo'yicha fundamental va amaliy bilim berish"
   },
   {
-    "question": "KMaens algoritmida qo’llaniladigan ikki nuqta orasidagi masofa … deb yuritiladi. Nutqlar o’rniga mos\r\nvariantni qo’ying.",
-    "answer": " Euclidean masofasi",
-    "noAnswer1": "Chebyshev masofasi",
-    "noAnswer2": "Manhattan masofasi",
-    "noAnswer3": "Minkowski masofasi"
+    "question": "Ma'naviyat nima? ",
+    "answer": "Inson ongini aks ettiruvchi barcha ijobiy, ruhiy, intellektual fazilatlar majmuasidir",
+    "noAnswer1": "Insonning yakka holdagi bir yoki bir necha turdagi faoliyatida namoyon bo'lishi tushuniladi",
+    "noAnswer2": "Jamiyatda qabul qilingan, jamoatchilik fikri bilan ma'qullangan xulq-odob normalari majmui",
+    "noAnswer3": "Jamiyatning va unda yashovchi fuqarolarning faoliyati jarayonida to'plangan barcha ijobiy yutuqlar majmuasi."
   },
   {
-    "question": "Gradient tushish algoritmidagi ‘learning rate’ parameter nimani xarakterlaydi?",
-    "answer": " O’qish qadamini",
-    "noAnswer1": "O’qishitda takrorlanishlar sonini",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Model aniqligini"
+    "question": "Muloqot deganda nimani tushunasiz?",
+    "answer": "Kishilar faoliyatida nutqli va nutqsiz munosabatga kirishishishi muloqotdir",
+    "noAnswer1": "Kishilarni har xil imo ishoralaridan iborat bo'lgan munosabati – muloqotdir",
+    "noAnswer2": "Nutq orqali munosabatga kirishish muloqot deyiladi",
+    "noAnswer3": "Kishilarni o'zaro fikr almashishlari muloqotdeyiladi"
   },
   {
-    "question": "UCI Machine Learning Repository nima ?",
-    "answer": " Mashinili o’qitishning ochiq manbali datasetlarini qidirishga mo’ljallangan tizim",
-    "noAnswer1": "GitHub Repository",
-    "noAnswer2": "Gitlab Repository",
-    "noAnswer3": "Kaggle Repository"
+    "question": "Nutqsiz kommunikatsiya bu…",
+    "answer": "So'zlarni sistematik ravishda ifoda etishdir",
+    "noAnswer1": "So'zlarni to'ldiruvchi va kuchaytiruvchi belgilar sistemasi",
+    "noAnswer2": "Til yordamida munosabat qilish jarayoni",
+    "noAnswer3": "Monolog yordamida munosabat qilish jarayoni"
   },
   {
-    "question": "Google Dataset Search qancha ma’lumotni qamrab oladi?",
-    "answer": " 25 mln",
-    "noAnswer1": "250mln",
-    "noAnswer2": "15mln",
-    "noAnswer3": "6mln"
+    "question": "Bir vaqtning o'zida o'qituvchini tinglab, yozib, hamda o'rtog'ining iltimosini bajargan talaba diqqatining xarakterli xususiyatlari qaysi?",
+    "answer": "Diqqatning taqsimlanishi",
+    "noAnswer1": "Diqqatning barqarorligi",
+    "noAnswer2": "Diqqatningko'chishi",
+    "noAnswer3": "Diqqatning parishonligi"
   },
   {
-    "question": "Python array bu -",
-    "answer": " bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan",
-    "noAnswer1": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Shaxsning tarkib topishida va rivojlanishidagi asosiy faoliyat urlari qaysilar?",
+    "answer": "O'yin, o'qish, mehnat",
+    "noAnswer1": "O'yin, o'qish, o'zligini anglash",
+    "noAnswer2": "O'qish, mehnat",
+    "noAnswer3": "Mehnat, o'z-o'zini tarbiyalash"
   },
   {
-    "question": "Python list bu -",
-    "answer": " turli tipdagi elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
+    "question": "Kishining dunyoqarashi qanday shakllanadi?",
+    "answer": "Atrof muhitni yaxlit idrok qilish, farqlash, taqqoslash va izohlay olish",
+    "noAnswer1": "Ota-onalarimiz turmush tarzini o'rganish va ularga rioya etish orqali",
+    "noAnswer2": "O'quv fanlarini yaxshi o'rganish orqali",
+    "noAnswer3": "Ijtimoiy hayotni o'rganish orqali"
   },
   {
-    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(10) ifodasida i indeks o’zgaruvchisiga\r\nqanday qiymatlar keladi?",
-    "answer": " 0 1 2 3 4 5 6 7 8 9",
-    "noAnswer1": "0 1 2 3 4 5 6 7 8 9",
-    "noAnswer2": "0 9",
-    "noAnswer3": "1 2 3 4 5 6 7 8 9 10"
+    "question": "O'qituvchining akademik qobiliyati nima?",
+    "answer": "Barcha fanlar yuzasidan muayyan bilimga ega bo'lishlik qobiliyati",
+    "noAnswer1": "Talabalarni o'z fanidan to'liq o'zlashtirishni ta'minlash qobiliyati",
+    "noAnswer2": "Muayyan akademik soatga mo'ljallangan darsni ushbu vaqtda to'liq va aniq o'ta olish qobiliyati",
+    "noAnswer3": "\"Akademik\" unvonga ega bo'lishlik qobiliyati"
   },
   {
-    "question": "Supervised learning ?",
-    "answer": " bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va natijalarni\r\nyaxshilash imkoniyatiga ega bo’ladi."
+    "question": "O'qituvchi va talaba shaxsini kompleks o'rganishiga qaratilgan usul nima deyiladi?",
+    "answer": "Psixodiognostika",
+    "noAnswer1": "Psixogenetika",
+    "noAnswer2": "Psixoanaliz",
+    "noAnswer3": "Psixologik ta'sir"
   },
   {
-    "question": "Unsupervised learning ?",
-    "answer": " bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va natijalarni\r\nyaxshilash imkoniyatiga ega bo’ladi."
+    "question": "Faoliyatda motiv qanday vazifani bajaradi?",
+    "answer": "  Undovchilik",
+    "noAnswer1": "Signallik aks ettirish",
+    "noAnswer2": "Ekssperiv (ifodalash) va signallik",
+    "noAnswer3": "Maqsadga yunaltirish vaaks ettirish"
   },
   {
-    "question": "Bir o’zgaruvchili chiziqli regressiya bu - ….",
-    "answer": " Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat qiladigan\r\nmodel yaratish",
-    "noAnswer1": "Bashoratlash uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib bashoratlashga xizmat\r\nqiladigan model yaratish",
-    "noAnswer2": "Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat qiladigan model\r\nyaratish",
-    "noAnswer3": "Siflashtirish uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib siflashtirishga xizmat\r\nqiladigan model yaratish"
+    "question": "Faoliyatning asosiy turlariga qaysilar kiradi?",
+    "answer": " O'yin, o'qish, mehnat",
+    "noAnswer1": "Tashqi, ichki nutq",
+    "noAnswer2": "Malaka, ko'nikma",
+    "noAnswer3": "Mehnat, muloqot"
   },
   {
-    "question": "O’ratuvchi tanlamadagi train to’plam …",
-    "answer": " modelni o’qitish uchun ishlatiladi",
-    "noAnswer1": "modelni testlash uchun ishlatiladi",
-    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
+    "question": "Kommunikativ qobiliyat deganda nimani tushunasiz?",
+    "answer": "O'quv materiallarini tushunarli bayon etish",
+    "noAnswer1": "Bolalarga aralashish qobiliyati",
+    "noAnswer2": "O'quvchilar jamoasini uyushtirish",
+    "noAnswer3": "Bolalarga emotsional ta'sir ko'rsatish"
   },
   {
-    "question": "Bias tushunchasi?",
-    "answer": " Modelni train to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer1": "Modelni test to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer2": "Modelni train + test to’plam bilan testlaganda bo’ladigangadi umumiy xatolik",
-    "noAnswer3": "Modelni validation to’plam bilan testlaganda bo’ladigangadi umumiy xatolik"
+    "question": "  Ta'lim va tarbiyaning uzviy bog'liqligi, bu jarayonning xar tomonlama kamol topgan insonni shaklantirishga yo'naltirilganligi ta'rifi qaysi soxaga tegishli?",
+    "answer": "Uzluksiz ta'limning faoliyat kursatish printsipiga",
+    "noAnswer1": "Ta'lim soxasidagi davlat siyosatining asosiy printsipiga",
+    "noAnswer2": "Uzluksiz ta'limning islox kilish yunalishlariga",
+    "noAnswer3": "Ta'lim printsipining qanday qo'llanilishiga bog'liq"
   },
   {
-    "question": "Variance tushunchasi?",
-    "answer": " Modelni test to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer1": "Modelni train to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer2": "Modelni train + test to’plam bilan testlaganda bo’ladigangadi umumiy xatolik",
-    "noAnswer3": "Modelni validation to’plam bilan testlaganda bo’ladigangadi umumiy xatolik"
+    "question": "Shaxsda \"Men\" timsoli qachon paydo bo'lgan?",
+    "answer": "Ilk bolalik davrida ",
+    "noAnswer1": "O'smirlik davrida",
+    "noAnswer2": "Kichik maktab yoshi davrida",
+    "noAnswer3": "O'spirinlik davrida"
   },
   {
-    "question": "SVM algoritmida suppor vectors bu?",
-    "answer": " Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlaydi",
-    "noAnswer1": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlaydi",
-    "noAnswer2": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlamaydi",
-    "noAnswer3": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlamaydi"
+    "question": "Tyutor so'zini ma'nosi nima?",
+    "answer": "o'qituvchi konsultant",
+    "noAnswer1": "o'qituvchi taqrizchi",
+    "noAnswer2": "o'qituvchi maqolachi",
+    "noAnswer3": "o'qituvchi rahbar"
   },
   {
-    "question": "SVM algoritmidagi hisoblaanadigan orqaliq (margin) qanday bo’lsa model ishonchli deb topiladi?",
-    "answer": " Oraliq eng kattta bo’lsa",
-    "noAnswer1": "Oraliq eng kichik bo’lsa",
-    "noAnswer2": "Oraliq hech narsani anglatmaydi",
-    "noAnswer3": "To’gri javob yo’q"
+    "question": "Kardrlar tayyorlash tizimining asosi?",
+    "answer": "uzluksiz ta'lim     ",
+    "noAnswer1": "boshqarish",
+    "noAnswer2": "g'oya",
+    "noAnswer3": "maqsadli yo'nalish"
   },
   {
-    "question": "Sun’iy neyron tarmoqlarida aktivlashtirish funksiyasi tushunchasi?",
-    "answer": " Neyron tugunlaridan chiqqan qiymatni ma’lum bir diapozonga tushirish uchun ishlatiladi",
-    "noAnswer1": "Neyron tarmoqda aktivlashtirish funksiyasi tushunchasi yo’q",
-    "noAnswer2": "Bu faol bo’lmagan tugunlarni faollashtish uchun ishlatiladi.",
-    "noAnswer3": "To’g’ri javob yoq"
+    "question": "To'liq shakllanmagan shaxs psixologiyada\n qanday nom bilan yuritiladi?",
+    "answer": "Individ",
+    "noAnswer1": "Ideal",
+    "noAnswer2": "Reyal",
+    "noAnswer3": "To'liqsiz"
   },
   {
-    "question": "Chuqur o’qitilish deyiladi, qachonki …",
-    "answer": " Nayron tarmog’imizda yashirin qatlamlar soni bittadan ko’p bo’lsa.",
-    "noAnswer1": "Nayron tarmog’imizda yashirin qatlamlar soni bitta bo’lsa.",
-    "noAnswer2": "Ikkita neyron orasidagi masofa katta bo’lsa",
-    "noAnswer3": "Neyronlar soni ikkitadan ko’p bo’lsa"
+    "question": "Atrofdagi predmetlar va hodisalar\nto'g'risidagi yaxlit obraz qanday nomlanadi?",
+    "answer": "Pertseptiv",
+    "noAnswer1": "Mnemik faolyat",
+    "noAnswer2": " Fikrlash faolyati",
+    "noAnswer3": " Imajitiv"
   },
   {
-    "question": "Modelni o’qitish uchun o’quv tanlanma (dataset) qanday turlarga bo’lindi",
-    "answer": " training, validation, testing",
-    "noAnswer1": "testing, value-x, training",
-    "noAnswer2": "validation, labels, training",
-    "noAnswer3": "labels, validation, testing"
+    "question": " \"Image\"- so'zining ma'nosi nima?",
+    "answer": " \"image\"-o'braz\n\n",
+    "noAnswer1": "\"image\"-rasm",
+    "noAnswer2": "\"image\"- qo'shiq",
+    "noAnswer3": "\"image\"-video"
   },
   {
-    "question": "O’qitish uchun ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan, model turg’unligiga ta’sir\r\nqiluvchi ma’lumotlarni olib tashlash jarayoni nima deb ataladi",
-    "answer": " Ma’lumotlarni tozalash (Data cleaning)",
-    "noAnswer1": "Xususiyatlarni aniqlash (Feature detection)",
-    "noAnswer2": "Ma’lumotlarni o’chirish (Data deletion)",
-    "noAnswer3": "Ma’lumotlar turini aniqlash (Data formatting)"
-  },
-  {
-    "question": "O’qituvchili o’qitish (supervised learning) nima?",
-    "answer": " modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) ham ishlatish",
-    "noAnswer1": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
-    "noAnswer2": "modelni o’qitish uchun tasvir ma’lumotlaridan (image) foydalanish",
-    "noAnswer3": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish"
-  },
-  {
-    "question": "Keras muhitida qurilgan neyron tarmoqda joriy qatlam uchun faollashtirish funksiyasini qo’shishda\r\nquyidagilarning qaysi biridan foydalaniladi?",
-    "answer": " model.add(Activation(‘relu’))",
-    "noAnswer1": "model.insert(Activation(‘relu’))",
-    "noAnswer2": "model.function(Activate(‘relu’))",
-    "noAnswer3": "model.add(ActiveFunction(‘relu’))"
-  },
-  {
-    "question": "O’qituvchisiz (unsupervised) o’qitish algortimlari to’g’ri ko’rsatilgan javobni ko’rsating?",
-    "answer": " k-means clustering, hierarchical clustering, independent component analysis",
-    "noAnswer1": "linear regression, nearest neighbor, random forest, decision tree",
-    "noAnswer2": "k-means clustering, deep learning, logistic regression, random forest",
-    "noAnswer3": "k-nn, decision tree, linear regression, k-means clustering"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) nima?",
-    "answer": " modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
-    "noAnswer1": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish",
-    "noAnswer2": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) ham ishlatish",
-    "noAnswer3": "modelni o’qitish uchun tasvir ma’lumotlari va ularning belgilaridan (image+label) foydalanish"
-  },
-  {
-    "question": "Sigmoid funksiyasini hisoblash formulasini ko’rsating?",
-    "answer": " sig(x)=1/(1+exp(-x))",
-    "noAnswer1": "sig(x)=1/(1-exp(x))",
-    "noAnswer2": "sig(x)=1/exp(-x)",
-    "noAnswer3": "sig(x)=1/exp(x)"
-  },
-  {
-    "question": "Mashinali o’qitish nima?",
-    "answer": " kompyuter dasturining ma’lumotlarni o’qib olish asosida xususiyatlarni o’rganish qobiliyatidir",
-    "noAnswer1": "faqat kompyuter o’yinlarini yaratish uchun dastur xususiyatlarni o’rganish qobiliyatidir",
-    "noAnswer2": "bu robotni o’rgatishning an’anaviy usuli",
-    "noAnswer3": "kompyuter dasturlarini lug’at yordamida o’qitish usuli"
-  },
-  {
-    "question": "Pythonda massivni e’lon qilish uchun qanday toifalardan foydalaniladi?",
-    "answer": " array, matrix",
-    "noAnswer1": "tuple, arr",
-    "noAnswer2": "list, tuple",
-    "noAnswer3": "arr, list"
-  },
-  {
-    "question": "Keras kutubxonasidagi Sequential() nima vazifani bajaradi?",
-    "answer": " neyron tarmoq modelini qurish uchun dastlabki obyektni yaratadi",
-    "noAnswer1": "ketma-ket kamida 2 qatlamdan iborat neyron tarmoq quradi",
-    "noAnswer2": "neyron tarmoq modelini o’qitish uchun ishlatiladi",
-    "noAnswer3": "qurilgan neyron tarmoqni ketma-ket ko’rinishga keltiradi"
-  },
-  {
-    "question": "O’qituvchili o’qitish algoritmlari qaysi?",
-    "answer": " Chiziqli regressiya",
-    "noAnswer1": "SVM CNN RNN",
-    "noAnswer2": "Bunday algoritmlar mavjud emas",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Chuqur o’qitish – bu?",
-    "answer": " bu ko'p qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilgan jarayondir",
-    "noAnswer1": "bu bir qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilgan jarayondir",
-    "noAnswer2": "bu bu modelni qurib olish uchun amalga oshiriladigan o’qitish jarayonidir",
-    "noAnswer3": "bu modelni tezroq va aniqroq qurib olish uchun amalga oshiriladigan jarayon"
-  },
-  {
-    "question": "Python muhitida turli xil matematik funksiya grafiklarini va tasvirlarni vizuallashtirish uchun\r\nishlatiladigan paket qaysi?",
-    "answer": " matplotlib",
-    "noAnswer1": "keras",
-    "noAnswer2": "pandas",
-    "noAnswer3": "numpy"
-  },
-  {
-    "question": "Sun’iy neyron tarmoq tashkil etuvchilarini ko’rsating?",
-    "answer": " node, input, weights, output",
-    "noAnswer1": "cell body, dendrites, synapse, axon",
-    "noAnswer2": "input, dendrites, synapse, output",
-    "noAnswer3": "synapse, axon, weights, node"
-  },
-  {
-    "question": "Python muhitida scatter() funksiyasi qanday vazifani bajaradi?",
-    "answer": " berilgan x,y to'plam bo’yicha 2 o’lchovli grafigini chizish uchun ishlatiladi",
-    "noAnswer1": "chiziqli regression model koeffitsentlarini (ko’pi bilan 3 ta) hisoblaydi",
-    "noAnswer2": "polinomial regression model koeffitsentlarini hisoblaydi",
-    "noAnswer3": "qurilgan model koeffitsentlari bo’yicha bashorat qilinadigan qiymatlarni hisoblaydi"
-  },
-  {
-    "question": "pip install tensorflow buyrug’i asosida nima sodir bo’ladi?",
-    "answer": " tensorflow kutubxonasi o’rnatiladi",
-    "noAnswer1": "keras va tensorflow kutubxonasi o’rnatiladi",
-    "noAnswer2": "tensorflow kutubxonasi chaqiriladi",
-    "noAnswer3": "keras va tensorflow kutubxonasi chaqiriladi"
-  },
-  {
-    "question": "KNN bu - …",
-    "answer": " Barchasi to’gri",
-    "noAnswer1": "Klasterlash algoritmi",
-    "noAnswer2": "Regressiya algoritmi",
-    "noAnswer3": "Sinflashrirish algoritmi"
-  },
-  {
-    "question": "Mashinani o’qitish turlari to’g’ri ko’rsatilgan javobni tanlang?",
-    "answer": " supervised, unsupervised, Semi-supervised, reinforcement",
-    "noAnswer1": "regressiya, Ehtimollar nazariyasi, Supervised, unsupervised",
-    "noAnswer2": "supervised, unsupervised, Regressiya, Sinflashtirish",
-    "noAnswer3": "regressiya, Sinflashtirish, Semi-supervised, reinforcement"
-  },
-  {
-    "question": "Neyron tarmoqlari bu…?",
-    "answer": " Neyron tarmoqlari juda ko’p muhim xususiyatlarga ega, ammo asosiysi bu o’rganish qobiliyatidir.",
-    "noAnswer1": "Neyron tarmoqlari ma’lumotlarni bog’lash uchun xizmat qiladi.",
-    "noAnswer2": "Bunday tarmoq mavjud emas",
-    "noAnswer3": "Ikkilik kod sifatidagi algoritm"
-  },
-  {
-    "question": "Chiziqli regressiyaga to’g’ri ta’rifni toping?",
-    "answer": " Chiziqli regressiya kuzatilgan ma'lumotlarga chiziqli tenglamani bog’lash orqali ikkita o'zgaruvchi\r\no'rtasidagi munosabatni modellashtirishga aytiladi.",
-    "noAnswer1": "Chiziqli regressiya ma’lumotlarni klassifikatsiyalaydi.",
-    "noAnswer2": "Chiziqli Regressiya bu tanlangan ma’lumotlar ichidan kerakli ma’lumotni qidirish algoritmi.",
-    "noAnswer3": "To’g’ri javob yo’q."
-  },
-  {
-    "question": "Quyidagi usullardan qaysi biri har qanday chiziqli bo'linadigan ma'lumotlar to'plamida nol o'qitish(zero\r\ntraining) xatosiga erishishi mumkin?",
-    "answer": " KNN",
-    "noAnswer1": "Qaror daraxti",
-    "noAnswer2": "SVM(support vector machine)",
-    "noAnswer3": "CNN"
-  },
-  {
-    "question": "CNN bu…?",
-    "answer": " Svyortkali neyron tarmoq",
-    "noAnswer1": "Adamar neyron tarmog’i",
-    "noAnswer2": "K ta yaqin qo’shnilar",
-    "noAnswer3": "Qayta murojaat neyron tarmog’i"
-  },
-  {
-    "question": "KNN bu…?",
-    "answer": " K ta yaqin qo’shnilar agoritmi",
-    "noAnswer1": "Svyortkali neyron tarmoq",
-    "noAnswer2": "Adamar almashtririshli Neyron tarmoq",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
-    "answer": " Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali o’qitishda aqlli\r\nmashinalarga dasturlashning muqobil usulidir.",
-    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
-    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Chiziqli regressiya qaysi mashinali o’qitish algoritmlari tarkibiga kiradi?",
-    "answer": " O’qituvchili o’qitish",
-    "noAnswer1": "O’qituvchisiz o’qitish",
-    "noAnswer2": "Reinforcementli o'qitish",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati 2.5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa\r\nqanday qiymatga o‟zgaradi",
-    "answer": " 2.5",
-    "noAnswer1": "2",
-    "noAnswer2": "0",
-    "noAnswer3": "44595"
-  },
-  {
-    "question": "Semi- supervised learning",
-    "answer": " bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va natijalarni\r\nyaxshilash imkoniyatiga ega bo’ladi."
-  },
-  {
-    "question": "Reinforcement learning ?",
-    "answer": " bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va natijalarni\r\nyaxshilash imkoniyatiga ega bo’ladi.",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer3": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish"
-  },
-  {
-    "question": "O’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va natijalarni yaxshilash\r\nimkoniyatiga ega bo’ladi.",
-    "answer": " Reinforcement learning",
-    "noAnswer1": "Semi-supervised learning",
-    "noAnswer2": "Supervised learning",
-    "noAnswer3": "Unsupervised learning"
-  },
-  {
-    "question": "Modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "answer": " Semi-supervised learning",
-    "noAnswer1": "Reinforcement learning",
-    "noAnswer2": "Unsupervised learning",
-    "noAnswer3": "Supervised learning"
-  },
-  {
-    "question": "Modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "answer": " Supervised learning",
-    "noAnswer1": "Semi-supervised learning",
-    "noAnswer2": "Reinforcement learning",
-    "noAnswer3": "Unsupervised learning"
-  },
-  {
-    "question": "Modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "answer": " Unsupervised learning",
-    "noAnswer1": "Supervised learning",
-    "noAnswer2": "Semi-supervised learning",
-    "noAnswer3": "Reinforcement learning"
-  },
-  {
-    "question": "Mashinali o’qitishda asosan qaysi instrumental vositalardan foydalaniladi",
-    "answer": " Python, Matlab, Octave",
-    "noAnswer1": "Python,NLP,Keras",
-    "noAnswer2": "Numpy,Pandas",
-    "noAnswer3": "Python,Keras,Pandas"
-  },
-  {
-    "question": "Model murakkab bo’lsa bias qanday bo’ladi?",
-    "answer": " Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi past bo’ladi",
-    "noAnswer1": "To’g’ri javob yo’q",
-    "noAnswer2": "Bias ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas.",
-    "noAnswer3": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi yuqori bo’ladi"
-  },
-  {
-    "question": "Model murakkab bo’lsa variance qanday bo’ladi?",
-    "answer": " Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi yuqori bo’ladi",
-    "noAnswer1": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi past bo’ladi",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Variance ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas."
-  },
-  {
-    "question": "Underfitting bu - …",
-    "answer": " Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolik bo’lishiga\r\nolib keladi",
-    "noAnswer1": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolik bo’lishiga\r\nolib keladi",
-    "noAnswer2": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolik bo’lishiga\r\nolib keladi",
-    "noAnswer3": "Model juda muarkkab. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolik\r\nbo’lishiga olib keladi"
-  },
-  {
-    "question": "Owerfitting bu - …",
-    "answer": " Model juda muarkkab. Shuning evaziga model train to’plamda past, test to’plamda yuqori xatolik\r\nbo’lishiga olib keladi",
-    "noAnswer1": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolik bo’lishiga olib\r\nkeladi",
-    "noAnswer2": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolik bo’lishiga\r\nolib keladi",
-    "noAnswer3": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolik bo’lishiga\r\nolib keladi"
-  },
-  {
-    "question": "Model qurishda bo’ladigan Underfitting muammosi qanday hal qilsa bo’ladi?",
-    "answer": " Modelni murakkabligini oshirib ko’rish kerak",
-    "noAnswer1": "Modelni murakkabligini pasaytirib ko’rish kerak",
-    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
-    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
-  },
-  {
-    "question": "Model qurishda bo’ladigan Owerfitting muammosi qanday hal qilsa bo’ladi?",
-    "answer": " Modelni murakkabligini pasaytirib ko’rish kerak",
-    "noAnswer1": "Modelni murakkabligini oshirib ko’rish kerak",
-    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
-    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
-  },
-  {
-    "question": "Python dasturlash tilida quyidagi kod qanday natija qaytaradi: >>a=[0,2,5,7,8] >>b=a[1:3] >>print(b)",
-    "answer": " [2,5]",
-    "noAnswer1": "[0,2,5]",
-    "noAnswer2": "[1,2,5,7]",
-    "noAnswer3": "[4,5]"
-  },
-  {
-    "question": "Mobil ilovadagi element ustiga sichqoncha chap tugmasi bilan bosilganda qaysi metod ishga tushadi?",
-    "answer": " Model train to’plamda yuqori, test to’plamda esa past aniqlik beradi. Model murakkab tuzilgan.",
-    "noAnswer1": "Model train to’plamda ham, test to’plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan.",
-    "noAnswer2": "Model train to’plamda ham, test to’plamda ham yuqori aniqlik bermaydi. Model murakkab tuzilgan.",
-    "noAnswer3": "Model train to’plamda yuqori, test to’plamda esa past aniqlik beradi. Model sodda tuzilgan."
-  },
-  {
-    "question": "KNN algoritmi qaysi masalani yechish uchun xizmat qiladi",
-    "answer": " Barcha javob to’g’ri",
-    "noAnswer1": "Sinflashtirish",
-    "noAnswer2": "Regressiya",
-    "noAnswer3": "Klasterlash"
-  },
-  {
-    "question": "O’ratuvchi tanlamadagi val (validation) to’plam bu?",
-    "answer": " Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer2": "modelni testlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
-  },
-  {
-    "question": "O’ratuvchi tanlamadagi test to’plam bu?",
-    "answer": " modelni testlash uchun ishlatiladi",
-    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
-  },
-  {
-    "question": "Model qurish uchun o’rgatuvchi tanalaga qaysi nisbatda bo’linsa maqsadga muoffiq bo’ladi?",
-    "answer": " Train - 75% Val - 15 % Test - 10%",
-    "noAnswer1": "Train - 50% Test - 50%",
-    "noAnswer2": "Train - 50% Val - 25 % Test - 25%",
-    "noAnswer3": "Train - 75% Val - 25 %"
-  },
-  {
-    "question": "O’rgatuvchi tanlamada normallashtirish tushunchasi bu?",
-    "answer": " O’ratuvchi tanlamdagi qiymatlarni bir xil shkalaga o’tkazish",
-    "noAnswer1": "O’ratuvchi tanlamdagi qiymatlarni turli xil shkalaga o’tkazish",
-    "noAnswer2": "O’ratuvchi tanlamdagi qiymatlarni faqat [0,1] shkalaga o’tkazish",
-    "noAnswer3": "O’ratuvchi tanlamdagi qiymatlarni faqat [-1,1] shkalaga o’tkazish"
-  },
-  {
-    "question": "Logistik regressiya masalasida asosan qaysi aktivlashtirish funksiyasidan foydalaniladi?",
-    "answer": " Sigmoid",
-    "noAnswer1": "Tanh",
-    "noAnswer2": "ReLU",
-    "noAnswer3": "Sigmoid va ReLU"
-  },
-  {
-    "question": "Keras bu – ...",
-    "answer": " tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
-    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
-  },
-  {
-    "question": "Python muhitida neyron tarmoq qurish uchun qaysi paketlardan foydalaniladi?",
-    "answer": " keras, tensorflow",
-    "noAnswer1": "tensorflow, pandas",
-    "noAnswer2": "numpy, matplotlib",
-    "noAnswer3": "pandas, opencv"
-  },
-  {
-    "question": "Keras muhitida modelni testlash uchun mavjud funksiyalardan qaysi biri ishlatiladi?",
-    "answer": " fit()",
-    "noAnswer1": "compile()",
-    "noAnswer2": "evaluate()",
-    "noAnswer3": "test()"
-  },
-  {
-    "question": "…… bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni hisoblash\r\ntugunidir. Nuqtalar o’rniga quyidagilardan mos keldiganini qo’ying?",
-    "answer": " perceptron",
-    "noAnswer1": "sigmoid funksiyasi",
-    "noAnswer2": "neyron",
-    "noAnswer3": "ReLU funksiyasi"
-  },
-  {
-    "question": "Regressiya nima?",
-    "answer": " ma’lumotlarni intellektual tahlil qilish usullaridan biri",
-    "noAnswer1": "ma’lumotlarni ustida arifmetik usullaridan biri",
-    "noAnswer2": "ma’lumotlarni raqamli ishlov berish usullaridan biri",
-    "noAnswer3": "ma’lumotlarni jamlash usullaridan biri"
-  },
-  {
-    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(0,10,2) ifodasida i indeks\r\no’zgaruvchisiga qanday qiymatlar keladi?",
-    "answer": " 0 2 4 6 8",
-    "noAnswer1": "0 2 10",
-    "noAnswer2": "0 10",
-    "noAnswer3": "2 4 6 8 10"
-  },
-  {
-    "question": "Supervised o’qitish algoritmlari asosan qanday masalani yechishga qaratilgan?",
-    "answer": " regressiya va sinflashtirish masalasiga",
-    "noAnswer1": "statistik usullar yordamida ma’lumotlarni ajratish masalasiga",
-    "noAnswer2": "statistik usullar yordamida ma’lumotlarni sinflashtirish masalasiga",
-    "noAnswer3": "sinflashtirish va segmentlash masalasiga"
-  },
-  {
-    "question": "Neyron tarmoqda qanday turdagi qatlamlar (layers) bo’lishi mumkin?",
-    "answer": " kiruvchi, chiquvchi, yashirin",
-    "noAnswer1": "kiruvchi, yashirin, oraliq",
-    "noAnswer2": "qabul qiluvchi, hisoblovchi, chiquvchi",
-    "noAnswer3": "kiruvchi, qabul qiluvchi, chiquvchi"
-  },
-  {
-    "question": "Chiziqli regression model nima uchun ishlatiladi?",
-    "answer": " bashorat qilish uchun",
-    "noAnswer1": "mantiqiy model qurish uchun",
-    "noAnswer2": "sinflashtirish masalasini yechish uchun",
-    "noAnswer3": "segmentlash masalasini yechish uchun"
-  },
-  {
-    "question": "Neyron tarmoq nima?",
-    "answer": " bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi tuzilma",
-    "noAnswer1": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi dataset",
-    "noAnswer2": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi dataset",
-    "noAnswer3": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi tuzilma"
-  },
-  {
-    "question": "Convolutional neural networks (CNN) – bu?",
-    "answer": " bu ko'p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
-    "noAnswer1": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
-    "noAnswer2": "bu ko’p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli",
-    "noAnswer3": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli"
-  },
-  {
-    "question": "Sun’iy intellektga asoslangan dasturlarni ishlab chiqishdan maqsad nima?",
-    "answer": " mustaqil fikrlovchi va qaror qabul qiluvchi dasturlarni hayotga tadbiq qilish",
-    "noAnswer1": "vaqtni maroqli o‘tkazish",
-    "noAnswer2": "insonlarning yashash darajasini yaxshilash",
-    "noAnswer3": "ortiqcha sarf-xarajatni kamaytirish"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa\r\nqanday qiymatga o’zgaradi?",
-    "answer": " 0",
-    "noAnswer1": "5",
-    "noAnswer2": "-5",
-    "noAnswer3": "3.5"
-  },
-  {
-    "question": "Numpy kutubxonasida ikkita vektorni skalyar ko’paytirish amali qanaqa?",
-    "answer": " A*B",
-    "noAnswer1": "A@B",
-    "noAnswer2": "np.multiply([A,B])",
-    "noAnswer3": "np.dot([a,b])"
-  },
-  {
-    "question": "Mashinani o’qitish jarayoni bosqichlari ketma – ket to’g’ri berilgan qatorni toping",
-    "answer": " Muammoni aniqlash. Ma’lumotlarni tayyorlash. Algoritmni ishlab chiqish va baholash (testlash).\r\nNatijaviy ma’lumotlar aniqligini oshirish. Yakuniy natijani (ishlab chiqilgan model) taqdim qilish",
-    "noAnswer1": "Natijaviy ma’lumotlar aniqligini oshirish.Yakuniy natijani (ishlab chiqilgan model) taqdim qilish",
-    "noAnswer2": "Muammoni aniqlash. Ma’lumotlarni tayyorlash. Algoritmni ishlab chiqish va baholash (testlash).",
-    "noAnswer3": "Bunaqa Bosqichlar mavjud emas"
-  },
-  {
-    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
-    "answer": " O’qtuvchili va O’qituvchisiz",
-    "noAnswer1": "Tanlanma",
-    "noAnswer2": "Ma’lumotlar bazasi",
-    "noAnswer3": "Chiziqli va logistik"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
-    "answer": " mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilan o’qitish\r\namalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchun modelga o'z ustida\r\nishlashga imkon yaratib beriladi",
-    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
-    "noAnswer2": "Bunday o’qitish mavjud emas",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "O’qitish jarayonida regulyarizatsiyalash bu?",
-    "answer": " Modelni o’qitish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
-    "noAnswer1": "Barcha javob to’g’ri",
-    "noAnswer2": "Modelni testlash jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
-    "noAnswer3": "Modelni qurish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish"
-  },
-  {
-    "question": "Modelni qurishda bo’ladigan Underfitting muammosi bu?",
-    "answer": " Model train to’plmada ham, test to’plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan.",
-    "noAnswer1": "Model train to’plmada ham, test to’plamda ham yuqori aniqlik bermaydi. Model murakkab tuzilgan.",
-    "noAnswer2": "Model train to’plmada yuqori, test to’plamda esa past aniqlik beradi. Model sodda tuzilgan.",
-    "noAnswer3": "Model train to’plmada yuqori, test to’plamda esa past aniqlik beradi. Model murakkab tuzilgan."
-  },
-  {
-    "question": "Model qurishda bo’ladigan Owerfitting muammosi bu?",
-    "answer": " Rasmlarni joylashtirish uchun",
-    "noAnswer1": "Ma’lumotlarni jadval ko‘rinishida chop etish uchun",
-    "noAnswer2": "Audioma’lumotlarni joylashtirish uchun",
-    "noAnswer3": "Matnli ma’lumotlarni joylashtirish uchun"
-  },
-  {
-    "question": "Nima uchun o’rgatuvchi tanlama normallashtiriladi?",
-    "answer": " Obyektni xarakterlovchi xususiyatlari bir xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish",
-    "noAnswer1": "Obyektni xarakterlovchi xususiyatlari faqat [0,1] shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish",
-    "noAnswer2": "Obyektni xarakterlovchi xususiyatlari faqat [-1,1] shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish",
-    "noAnswer3": "Obyektni xarakterlovchi xususiyatlari turli xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish"
-  },
-  {
-    "question": "Validation dataset qayerda ishlatiladi?",
-    "answer": " Modelni qurish davomida paramertlarni sozlashda",
-    "noAnswer1": "Model qurib bo’linganidan so’ng aniqlikni baholashda",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Validation datasetdan foydalanilmaydi"
-  },
-  {
-    "question": "Klasterlash bu ?",
-    "answer": " O’qituvchisiz o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari asosida\r\nguruhlash",
-    "noAnswer1": "O’qituvchili o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari asosida\r\nguruhlash",
-    "noAnswer2": "Mashinali o’qitishda buday tushuncha yo’q.",
-    "noAnswer3": "Logistik regressiya asosida amalga oshiriladigan mashinali o’qitish algoritmi"
-  },
-  {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": " Ma’lumotlar formatlari bir xillashtiriladi",
-    "noAnswer1": "Ma’lumotlarni tozalash",
-    "noAnswer2": "Ma’lumotlardan xususiyatlarni ajratish",
-    "noAnswer3": "Barchasi to’g’ri"
-  },
-  {
-    "question": "Sun’iy neyron tarmoqlarida perceptron tushunchasi?",
-    "answer": " bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni hisoblash\r\ntugunidir.",
-    "noAnswer1": "bu ikkita qatlamdan iborat ya’ni kiruvchi va faollashtish qatlamdan iborat bo’lgan neyronni hisoblash\r\ntugunidir.",
-    "noAnswer2": "bu bir qatlamdan iborat bo’lgan neyronni hisoblash tugunidir.",
-    "noAnswer3": "bu uch qatlamdan iborat bo’lgan neyronni hisoblash tugunidir."
-  },
-  {
-    "question": "Sun’iy neyron tarmoqlarida yashirin qatlam tushunchasi?",
-    "answer": " Kiruvchi va chiquvchi qatlamlar orasida joylashadigan neyron",
-    "noAnswer1": "Ko’rinmaydigan qatlam",
-    "noAnswer2": "Neyron tarmoqda yashirin qatlam tushunchasi yo’q",
-    "noAnswer3": "Kiruvchi qatlamdan kiyin keladigan barcha qatlamalar"
-  },
-  {
-    "question": "Neyron tarmoqlarini qurishga mo’ljallangan python kutubxonalarini ko'rsating.",
-    "answer": " Numpy, keras, tensorflow",
-    "noAnswer1": "Numpy, pandas, keras",
-    "noAnswer2": "Tensorflow, numpy, pandas",
-    "noAnswer3": "Python, Matlab, Octave"
-  },
-  {
-    "question": "Neyron tarmoq asosida sinflashtirish masalasini yechish mumkinmi?",
-    "answer": " Ha",
-    "noAnswer1": "Yoq, faqat regressiya masalasini yechadi.",
-    "noAnswer2": "Faqat ikkilik sinflashtirganda",
-    "noAnswer3": "Yoq, klasterlash masalasini yechadi."
-  },
-  {
-    "question": "Python muhitida chiziqli regression model qurish uchun ishlatiladigan stats.linregress(x,y) funksiyasi\r\nnechta qiymat qaytaradi",
-    "answer": " 5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "Neyron tarmoqda tugunlar nimalar bilan bog’lanadi",
-    "answer": " og’irlik koeffitsentlari",
-    "noAnswer1": "o’zgarmas koeffitsentlar",
-    "noAnswer2": "tasodifiy koeffitsentlar",
-    "noAnswer3": "ozod had koeffitsentlari"
-  },
-  {
-    "question": "Qanday turdagi faollashtirish funksiyadan neyron tarmoqda foydalaniladi",
-    "answer": " Barchasi to’g’ri",
-    "noAnswer1": "ReLU",
-    "noAnswer2": "softmax",
-    "noAnswer3": "Sigmoid"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati 5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa\r\nqanday qiymatga o‟zgaradi",
-    "answer": " 5",
-    "noAnswer1": "4",
-    "noAnswer2": "0",
-    "noAnswer3": "44682"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamida faollashtirilsa\r\nqanday qiymatga o‟zgaradi",
-    "answer": " 0",
-    "noAnswer1": "44682",
-    "noAnswer2": "5",
-    "noAnswer3": "-5"
-  },
-  {
-    "question": "Chuqur o’qitishning uchunchi bosqichi qanday jarayondan iborat?",
-    "answer": " Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer1": "Modelni testlash.",
-    "noAnswer2": "Muammoni tushunib olish.",
-    "noAnswer3": "Modelni o’qitish."
-  },
-  {
-    "question": "Chuqur o’qitishning turtinchi bosqichi qanday jarayondan iborat?",
-    "answer": " Modelni o’qitish.",
-    "noAnswer1": "Modelni testlash.",
-    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer3": "Muammoni tushunib olish."
-  },
-  {
-    "question": "Chuqur o’qitishning oxirgi bosqichi qanday jarayondan iborat?",
-    "answer": " Modelni testlash.",
-    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer2": "Modelni o’qitish.",
-    "noAnswer3": "Ma’lumotlarni aniqlash."
-  },
-  {
-    "question": "MNIST dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": " 10",
-    "noAnswer1": "9",
-    "noAnswer2": "100",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "CIFAR10 dataset da nechta sinfga tegishli obyektlarini ma’lumotlari bor",
-    "answer": " 10",
-    "noAnswer1": "9",
-    "noAnswer2": "100",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "CIFAR10 datasetda tasvirlarning o’lchami qaysi o’lchamda",
-    "answer": " To’g’ri javob yo’q",
-    "noAnswer1": "28x28",
-    "noAnswer2": "128x128",
-    "noAnswer3": "64x64"
-  },
-  {
-    "question": "CIFAR10 datasetda necha tanlama bor",
-    "answer": " 60000",
-    "noAnswer1": "70000",
-    "noAnswer2": "50000",
-    "noAnswer3": "10000"
-  },
-  {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilan testlanganda 95%\r\naniqliq va test dataset bilan testlaganimizda 92% aniqlik bersa, qaysi turdagi mauammo sodir bo’lmoqda.",
-    "answer": " Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Owerfitting",
-    "noAnswer3": "Everfitting"
-  },
-  {
-    "question": "Python ning qaysi kutubxona oraqli vector va matritsalar ustida amalar bajarish mumkin",
-    "answer": " Numpy",
-    "noAnswer1": "Math",
-    "noAnswer2": "Pandas",
-    "noAnswer3": "VecMat"
-  },
-  {
-    "question": "Ochiq datasetlarni qidirishga mo’ljallangan tizim qaysi?",
-    "answer": " Barchasi to’g’ri",
-    "noAnswer1": "UCI Machine Learning Repository",
-    "noAnswer2": "VisualData",
-    "noAnswer3": "Google Dataset Search"
-  },
-  {
-    "question": "Pandas kutubxonasida head() funksiyasi nima vazifa bajaradi?",
-    "answer": " To’plamning dastlabgi bir nechta(5ta) satrini olib beradi.",
-    "noAnswer1": "To’plamning ustunlar nomini olib beradi.",
-    "noAnswer2": "To’plamning ustunlar nomisiz bir nechta satrini olib beradi.",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Pythonda funksiya e’lon qilish uchun qaysi kalit so’zidan foydalaniladi?",
-    "answer": " def",
-    "noAnswer1": "function",
-    "noAnswer2": "void",
-    "noAnswer3": "define"
-  },
-  {
-    "question": "Python tuple bu -",
-    "answer": " turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Mashinali o’qitishda samaradorlikni baholash uchun qanday matritsadan foydalaniladi?",
-    "answer": " Tartibsizlik matritsasi (confusion matrix)",
-    "noAnswer1": "Aniqliq matritsasi (accuracy matrix)",
-    "noAnswer2": "Xatolik matritsasi (loss matrix)",
-    "noAnswer3": "Barchasi to’g’ri"
-  },
-  {
-    "question": "pip freeze",
-    "answer": " Environment o’rnatilgan barcha paketlar ro’yxatini chop qiladi",
-    "noAnswer1": "Environment o’rnatilgan eng oxirgi paketlar ro’yxatini chop qiladi",
-    "noAnswer2": "Environment o’rnatilgan eng oxirgi 10 ta paket ro’yxatini chop qiladi",
-    "noAnswer3": "Environment o’rnatilgan mashinali o’qitishga xizmat qiladigan paketlar ro’yxatini chop qilish"
-  },
-  {
-    "question": "pip install numpy as np",
-    "answer": " Xatolik sodir bo’ladi",
-    "noAnswer1": "Numpy kutubxonasi o’rnatiladi",
-    "noAnswer2": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "import numpy as nb",
-    "answer": " Numpy kutubxonasi yuklash va quyida uni nb deb yuritish mumkin",
-    "noAnswer1": "Xatolik sodir bo’ladi",
-    "noAnswer2": "Numpy kutubxonasi o’rnatiladi",
-    "noAnswer3": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin"
-  },
-  {
-    "question": "Kmaens algoritmi qaysi masalani yechish uchun xizmat qiladi",
-    "answer": " Klasterlash",
-    "noAnswer1": "Barcha javob to’g’ri",
-    "noAnswer2": "Sinflashtirish",
-    "noAnswer3": "Regressiya"
-  },
-  {
-    "question": "Mashinali o’qitish va suniy intellekt",
-    "answer": " Mashinali o’qitish sun’iy intellekt tizimlarini ishlab chiqishga xizmat qiladi",
-    "noAnswer1": "Bir tushunchani ifodalaydi",
-    "noAnswer2": "Sun’iy intellekt mashinali o’qitish tizimlarini ishlab chiqishga xizmat qiladi",
-    "noAnswer3": "Turli tushunchalarni ifodalaydi"
-  },
-  {
-    "question": "Mashinali o’qitishning asosiy turlari qaysilar",
-    "answer": " O’qituvchili,O’qituvchisiz",
-    "noAnswer1": "Regressiya,Sinflashtirish",
-    "noAnswer2": "KNN,SVM,Kmaens",
-    "noAnswer3": "Logistik va chiziqli regressiya"
-  },
-  {
-    "question": "Mashinali o’qitishning o’qituvchili sinflashtirish algoritmini ko’rsating",
-    "answer": " KNN,SVM,Logistik regresiya",
-    "noAnswer1": "Kmaens",
-    "noAnswer2": "Chiziqli regressiya",
-    "noAnswer3": "Kmaens,KNN"
-  },
-  {
-    "question": "Bias va Variance tushunchalarining farqi nimada?",
-    "answer": " Bias modelni train to’plam bilan testlagandagi xatolik, Variance esa test to’plam bilan testlagandagi\r\nxatolik",
-    "noAnswer1": "Bias modelni test to’plam bilan testlagandagi xatolik, Variance esa train to’plam bilan testlagandagi\r\nxatolik",
-    "noAnswer2": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat test to’plam bilan\r\ntestlagandagi xatolik",
-    "noAnswer3": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat train to’plam\r\nbilan testlagandagi xatolik"
-  },
-  {
-    "question": "Agar bias yuqori bo’lsa qaysi turdagi muammo sodir bo’lmoqda?",
-    "answer": " Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Bias ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda murakkab"
-  },
-  {
-    "question": "Agar Variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
-    "answer": " Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Variance ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda sodda"
-  },
-  {
-    "question": "Agar biass quyi va variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
-    "answer": " Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Bias ni quyi variance ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda sodda"
-  },
-  {
-    "question": "O’rgatuvchi tanlama nima?",
-    "answer": " bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
-    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
-    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
-    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
-  },
-  {
-    "question": "KMeans bu -",
-    "answer": " O’qituvchisiz o’qitish algoritmi",
-    "noAnswer1": "O’qituvchili o’qitish algoritmi",
-    "noAnswer2": "O’zini o’zi o’qitadigan algoritmi",
-    "noAnswer3": "to’g’ri javob yo’q"
-  },
-  {
-    "question": "Nima uchun logistik regressiyada sigmoid funksiyadan foydalaniladi?",
-    "answer": " qiymatlarni (0,1) oraliqda keltirish",
-    "noAnswer1": "qiymatlarni [-1,1] oraliqda keltirish",
-    "noAnswer2": "qiymatlarni [0,1] oraliqda keltirish",
-    "noAnswer3": "qiymatlarni (-1,1) oraliqda keltirish"
-  },
-  {
-    "question": "Logistik regressiyada qaror chegrasi uchun topilgan modeldan olingan qiymat qaysi bo’sag’a qiymati\r\norqali solishtiriladi va qaror qabul qilinadi?",
-    "answer": " 0",
-    "noAnswer1": "1",
-    "noAnswer2": "0.5",
-    "noAnswer3": "-1 va 1"
-  },
-  {
-    "question": "Qanday turdagi faollashtirish funksiyalari mavud?",
-    "answer": " ReLU, sigmoid, softmax",
-    "noAnswer1": "loss, sigmoid, ReLU",
-    "noAnswer2": "ReLU, cost, softmax",
-    "noAnswer3": "cost, loss, sigmoid"
-  },
-  {
-    "question": "Sklearn bu - …",
-    "answer": " Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalga oshirishga\r\nmo’ljallangan maxsus paket",
-    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishga mo’ljallangan\r\nhisoblanadi",
-    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitish\r\nalgortimlarini ishlab chiqishga mo’ljallangan",
-    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili algoritmlarini\r\namalga oshirishga mo’ljallangan maxsus paket"
-  },
-  {
-    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
-    "answer": " neyron tarmoqlar asosida",
-    "noAnswer1": "lokal tarmoqlar asosida",
-    "noAnswer2": "global tarmoqlar asosida",
-    "noAnswer3": "internet tarmoqlar asosida"
-  },
-  {
-    "question": "CIFAR100 dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": " 100",
-    "noAnswer1": "99",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "IRIS dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": " 3",
-    "noAnswer1": "2",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "IRIS dataset da obyektni xarakterlovchi xususiyatlari nechta",
-    "answer": " 4",
-    "noAnswer1": "2",
-    "noAnswer2": "3",
-    "noAnswer3": "8"
-  },
-  {
-    "question": "Chiziqli va logistik regression model qurilayotganda bitta o’rgatuvchi tanlamadan foydalansa bo’ladimi?",
-    "answer": " Ha, faqat yorliqlari uchun ikkita qiymat saqlangan bo’lsa",
-    "noAnswer1": "Ha, regression model uchun hamma vaqt dataset bir xilda bo’ladi.",
-    "noAnswer2": "Buning imkoni yo’q",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Chiziqli regresiya va Logistik regresiya uchun Cost funksiyasi bir xilda bo’ladimi?",
-    "answer": " Yoq",
-    "noAnswer1": "Ha",
-    "noAnswer2": "Logistik regressiyada cost funksiyasi bo’lmaydi",
-    "noAnswer3": "Chiziqli regressiyada cost funksiyasi bo’lmaydi"
-  },
-  {
-    "question": "Python ning scipy kutubxonasidan qaysi Classs chiziqli regressiya modelini qurishda ishlatiladi",
-    "answer": " stats",
-    "noAnswer1": "sklearn",
-    "noAnswer2": "numpy",
-    "noAnswer3": "ployfit"
-  },
-  {
-    "question": "Python sklearn kutubxonasidagi qaysi Classs chiziqli regressiya modelini qurishda ishlatiladi",
-    "answer": " LinearRegression",
-    "noAnswer1": "Polyfit",
-    "noAnswer2": "poly1d",
-    "noAnswer3": "Linear_model"
-  },
-  {
-    "question": "Chiziqli regressiyada modelni murakkab tanlansa qaysi turdagi muammo yuzaga keladi",
-    "answer": " Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Model aniq ishlaydigan bo’lib, shakllanadi.",
-    "noAnswer3": "Muammo sodir bo’lmaydi"
-  },
-  {
-    "question": "KNN algoritmida k ta eng yaqin qo’shni qanday aniqlanadi?",
-    "answer": " To’plamdagi barcha elemetlar orasidagi masofa hisoblanib chiqiladi va eng yaqin k tasi tanlanadi",
-    "noAnswer1": "Taxminiy random() funksiyasi orqali aniqlanadi",
-    "noAnswer2": "To’plamdagi k ta elemetlar orasidagi masofa hisoblanib chiqiladi va ular o’sish tartibida saralanadi.",
-    "noAnswer3": "KNN algoritmida k ta eng yaqin qo’shni tushunchasi yo’q."
-  },
-  {
-    "question": "SVM algorimi qaysi masalani yechish uchun xizmat qiladi?",
-    "answer": " Sinflashtirsh",
-    "noAnswer1": "Chiziqli regressiya",
-    "noAnswer2": "Klasterlash",
-    "noAnswer3": "Normallashtirish"
-  },
-  {
-    "question": "Neyron tarmoqlarida sinflashtirish masalasini yechishda chiquvchi qatlamda qaysi turdagi aktivlash\r\nfunksiyasidan foydalaniladi",
-    "answer": " Softmax",
-    "noAnswer1": "Sigmoid",
-    "noAnswer2": "ReLu",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Logistik regression model nima uchun ishlatiladi",
-    "answer": " Sinflashtirsh masalasini yechish uchun",
-    "noAnswer1": "Klasterlash masalasini ishlash uchun",
-    "noAnswer2": "Neyron tarmoqni qurish uchun",
-    "noAnswer3": "Qiymatni bashoratlash uchun"
-  },
-  {
-    "question": "Numpy kutubxonasidagi polyfit() funksiyasi nima uchun ishlatiladi?",
-    "answer": " Chiziqli regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer1": "Loginstik regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer2": "Chiziqli va logistik regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer3": "Polynom funksiya yaratish uchun"
-  },
-  {
-    "question": "Numpy kutubxonasidagi poly1d() funksiyasi nima uchun ishlatiladi?",
-    "answer": " Berilgan parametrlar asosida polinomal funksiya hosil qilish",
-    "noAnswer1": "Berilgan parametrlar asosida polinomal Class hosil qilish",
-    "noAnswer2": "Berilgan parametrlar asosida logistik regressiya modelini qurish",
-    "noAnswer3": "Berilgan parametrlar asosida giperbolik regressiya modelini qurish"
-  },
-  {
-    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviy\r\nma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonning bosqichlari\r\nhisoblanadi",
-    "answer": " Mashinali o’qitish",
-    "noAnswer1": "Chuqur o’qitish",
-    "noAnswer2": "Regression tahlil",
-    "noAnswer3": "Statistik tahlil"
-  },
-  {
-    "question": "Sun'iy intellekt nima?",
-    "answer": " Kompyuterga inson aqli bilan ishlash imkoniyatini beruvchi texnologiya",
-    "noAnswer1": "Faqat ma'lumotlarni saqlash tizimi",
-    "noAnswer2": "Faqat matematik modellarga asoslangan hisoblash tizimi",
-    "noAnswer3": "Faoliyatni faqat ma'lum bir yo'nalishda amalga oshiradigan tizim"
-  },
-  {
-    "question": "Mashina o'qitishning asosiy turlari qaysilar?",
-    "answer": " Nazoratli va nazoratsiz o'qitish",
-    "noAnswer1": "Gibrid va no-gibrid o'qitish",
-    "noAnswer2": "Supervizorli va unsupervizorli o'qitish",
-    "noAnswer3": "Aktiv va passiv o'qitish"
-  },
-  {
-    "question": "Neural tarmoqning qaysi qatlamlari mavjud?",
-    "answer": " Kirish, yashirin, chiqish",
-    "noAnswer1": "O'qitish, test, kirish",
-    "noAnswer2": "Kirish, tahlil, chiqish",
-    "noAnswer3": "Input, process, output"
-  },
-  {
-    "question": "Gradient tushishi algoritmi qaysi vazifani bajaradi?",
-    "answer": " Modelni o'qitish uchun parametrlarni yangilash",
-    "noAnswer1": "Ma'lumotlarni normallashtirish",
-    "noAnswer2": "Yangi ma'lumotlarni sinovdan o'tkazish",
-    "noAnswer3": "Ma'lumotlarni tahlil qilish"
-  },
-  {
-    "question": "Qaysi biri tabiiy tilni qayta ishlashning asosiy bosqichlaridan biridir?",
-    "answer": " Matnni normalizatsiya qilish",
-    "noAnswer1": "Ma'lumotlarni tahlil qilish",
-    "noAnswer2": "O'zgaruvchilarni aniqlash",
-    "noAnswer3": "So'zlarni o'zgartirish"
-  },
-  {
-    "question": "Qaysi algoritm qiyin, yuqori darajadagi ma'lumotlar bo'yicha qaramlikni aniqlash uchun ishlatiladi?",
-    "answer": " Support vector machine (SVM)",
-    "noAnswer1": "Qaror daraxti",
-    "noAnswer2": "K-means klasterlash",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Convolutional Neural Network (CNN) asosan qaysi sohada ishlatiladi?",
-    "answer": " Tasvirni tanib olish",
-    "noAnswer1": "Tabiiy tilni qayta ishlash",
-    "noAnswer2": "Mashina o'qitish",
-    "noAnswer3": "Vaqtni bashorat qilish"
-  },
-  {
-    "question": "Qaysi metod asosida mashina o'qitish algoritmi tasodifiy xatolarni o'zgarishi mumkin bo'lgan\r\no'zgaruvchilarni o'rganadi?",
-    "answer": " Kross-validatsiya",
-    "noAnswer1": "Qayta o'qitish",
-    "noAnswer2": "Monte-Karlo usuli",
-    "noAnswer3": "Gradient tushishi"
-  },
-  {
-    "question": "Qaysi sun'iy intellekt sohasida markaziy o'rin tutadigan tamoyil “o'z-o'zini o'rganish” deb ataladi?",
-    "answer": " Reinforcement Learning",
-    "noAnswer1": "Mashina o'qitish",
-    "noAnswer2": "Tabiy tilni qayta ishlash",
-    "noAnswer3": "Neyron tarmoqlar"
-  },
-  {
-    "question": "Qaysi algoritm tasodifiy qarorlar orqali qaror qabul qilishda ishlatiladi?",
-    "answer": " Random Forest",
-    "noAnswer1": "Decision Trees",
-    "noAnswer2": "K-nearest neighbors",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi algoritmda eng asosiy vazifa neyronlar o'rtasidagi bog'lanishni kuchaytirishdir?",
-    "answer": " Backpropagation",
-    "noAnswer1": "Reinforcement learning",
-    "noAnswer2": "Decision trees",
-    "noAnswer3": "K-means clustering"
-  },
-  {
-    "question": "Mashina o'qitishda, \"overfitting\" nimani anglatadi?",
-    "answer": " Model trening ma'lumotlariga juda yaxshi moslashgan, ammo yangi ma'lumotlarda yomon ishlaydi",
-    "noAnswer1": "Model juda oddiy va umumiy",
-    "noAnswer2": "Model faqat yangi ma'lumotlarni eslab qoladi",
-    "noAnswer3": "Model aniq bir vazifani bajara olmaydi"
-  },
-  {
-    "question": "Qaysi metod orqali mashina o'qitishda modelning qobiliyatini baholash uchun bir necha turli test\r\nma'lumotlari ishlatiladi?",
-    "answer": " Kross-validatsiya",
-    "noAnswer1": "Reinforcement learning",
-    "noAnswer2": "Batch processing",
-    "noAnswer3": "Linear regression"
-  },
-  {
-    "question": "Qaysi algoritm tasvirlarni tanib olish uchun eng ko'p ishlatiladi?",
-    "answer": " Convolutional Neural Networks (CNN)",
-    "noAnswer1": "K-nearest neighbors (KNN)",
-    "noAnswer2": "Support Vector Machines (SVM)",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi metodda model faqat o'z xatti-harakatlari orqali tajriba orttiradi?",
-    "answer": " Reinforcement learning",
-    "noAnswer1": "Supervised learning",
-    "noAnswer2": "Unsupervised learning",
-    "noAnswer3": "Transfer learning"
-  },
-  {
-    "question": "Qaysi biri sun'iy intellektning asosiy yo'nalishlaridan biri emas?",
-    "answer": " Kompyuter grafikasini qayta ishlash",
-    "noAnswer1": "Mashina o'qitish",
-    "noAnswer2": "Tabiiy tilni qayta ishlash",
-    "noAnswer3": "Robototexnika"
-  },
-  {
-    "question": "Qaysi biri natural language processing (NLP) texnologiyasida ishlatiladigan metodlardan biridir?",
-    "answer": " Tokenization",
-    "noAnswer1": "Graphing",
-    "noAnswer2": "Linearity testing",
-    "noAnswer3": "K-means clustering"
-  },
-  {
-    "question": "Qaysi algoritm \"ma'lumotlarning ichki tuzilmasini o'rganib chiqib, yangi ma'lumotlarni tasniflashda\r\nishlatiladi\"?",
-    "answer": " K-means clustering",
-    "noAnswer1": "Naive Bayes",
-    "noAnswer2": "Decision trees",
-    "noAnswer3": "Random Forest"
-  },
-  {
-    "question": "Haqiqiy dunyo masalalarini hal qilishda \"feedback loop\" nima?",
-    "answer": " O'rganish jarayonida tajribalarni qayta ko'rib chiqish va tahlil qilish",
-    "noAnswer1": "Xatolikni aniqlash",
-    "noAnswer2": "Modelni tekshirish",
-    "noAnswer3": "Yangi algoritm yaratish"
-  },
-  {
-    "question": "Qaysi usulda ma'lumotlar keltirilgan modelga mos kelishi uchun yaxshilanadi va o'zgartiriladi?",
-    "answer": " Data preprocessing",
-    "noAnswer1": "Decision making",
-    "noAnswer2": "Reinforcement learning",
-    "noAnswer3": "Deep learning"
-  },
-  {
-    "question": "Qaysi algoritm orqali yangi ma'lumotlarni eski ma'lumotlardan o'rganish mumkin?",
-    "answer": " Transfer learning",
-    "noAnswer1": "Reinforcement learning",
-    "noAnswer2": "Supervised learning",
-    "noAnswer3": "Semi-supervised learning"
-  },
-  {
-    "question": "Neyron tarmog'ida ko'proq qatlamlar qo'shilishi qanday natija beradi?",
-    "answer": " Model murakkablashadi va chuqurroq xususiyatlarni o'rganadi",
-    "noAnswer1": "Model sekinlashadi",
-    "noAnswer2": "Modelni o'qitish osonlashadi",
-    "noAnswer3": "Modelda kamroq ma'lumot ishlanadi"
-  },
-  {
-    "question": "Qaysi biri mashina o'qitish jarayonida ma'lumotlar to'plami va modeli o'rtasidagi o'zaro aloqani o'rganadi?",
-    "answer": " Model fitting",
-    "noAnswer1": "Backpropagation",
-    "noAnswer2": "Feature selection",
-    "noAnswer3": "Model evaluation"
-  },
-  {
-    "question": "Neural networkda \"dropout\" texnikasi nima?",
-    "answer": " Ba'zi neyronlarni tasodifiy o'chirib, overfittingni kamaytirish",
-    "noAnswer1": "Modelni tezroq o'qitish",
-    "noAnswer2": "Yangi ma'lumotlarni o'rganishni tezlashtirish",
-    "noAnswer3": "Modelni o'qitishni yanada aniq qilish"
-  },
-  {
-    "question": "Qaysi algoritmni ishlatish orqali kattaroq ma'lumotlar bilan ishlashda optimallashtirish amalga oshiriladi?",
-    "answer": " Batch processing",
-    "noAnswer1": "Reinforcement learning",
-    "noAnswer2": "Deep learning",
-    "noAnswer3": "Supervised learning"
-  },
-  {
-    "question": "Mashina o'qitishda qatlamlar orasidagi uzilishlarni minimallashtirish qanday amalga oshiriladi?",
-    "answer": " Regularization",
-    "noAnswer1": "Hyperparameter tuning",
-    "noAnswer2": "Model evaluation",
-    "noAnswer3": "Cross-validation"
-  },
-  {
-    "question": "Qaysi metod bilan modelni sinovdan o'tkazishda o'zgaruvchilarni yig'ishdan oldin ularni o'rganish zarur?",
-    "answer": " Feature extraction",
-    "noAnswer1": "Data augmentation",
-    "noAnswer2": "Hyperparameter tuning",
-    "noAnswer3": "Data preprocessing"
-  },
-  {
-    "question": "Qaysi mashina o'qitish algoritmi tasniflash uchun ishlatiladi?",
-    "answer": " Support vector machines (SVM)",
-    "noAnswer1": "K-means clustering",
-    "noAnswer2": "Linear regression",
-    "noAnswer3": "K-nearest neighbors"
-  },
-  {
-    "question": "Tabiiy tilni qayta ishlashda qanday texnologiya matnni qismlarga ajratish va analiz qilish uchun\r\nishlatiladi?",
-    "answer": " Tokenization",
-    "noAnswer1": "Clustering",
-    "noAnswer2": "Regression",
-    "noAnswer3": "Reinforcement learning"
-  },
-  {
-    "question": "30. Qaysi algoritm odamlarning harakatlarini va qarorlarini kuzatib, o'zini o'zi rivojlantiradi?",
-    "answer": " Reinforcement learning",
-    "noAnswer1": "Supervised learning",
-    "noAnswer2": "Unsupervised learning",
-    "noAnswer3": "Deep learning"
-  },
-  {
-    "question": "Qaysi algoritm ko'p o'lchovli ma'lumotlar bilan ishlashda ishlatiladi?",
-    "answer": " Principal Component Analysis (PCA)",
-    "noAnswer1": "Linear regression",
-    "noAnswer2": "Decision trees",
-    "noAnswer3": "K-means clustering"
-  },
-  {
-    "question": "Qaysi sun'iy intellekt sohasida robotlar va mashinalarning inson kabi harakatlarini amalga oshirishni\r\no'rganish muhimdir?",
-    "answer": " Robototexnika",
-    "noAnswer1": "Tabiiy tilni qayta ishlash",
-    "noAnswer2": "Mashina o'qitish",
-    "noAnswer3": "Vizualizatsiya"
-  },
-  {
-    "question": "Mashina o'qitishning qaysi turi faqat javoblarni tayyor ma'lumotlardan olishni talab qiladi?",
-    "answer": " Nazoratli o'qitish",
-    "noAnswer1": "Nazoratsiz o'qitish",
-    "noAnswer2": "Mustaqil o'qitish",
-    "noAnswer3": "Transfer o'qitish"
-  },
-  {
-    "question": "Qaysi metod ma'lumotlar orasidagi o'xshashlikni topishga yordam beradi?",
-    "answer": " Clustering",
-    "noAnswer1": "Linear regression",
-    "noAnswer2": "Supervised learning",
-    "noAnswer3": "Reinforcement learning"
-  },
-  {
-    "question": "Qaysi sun'iy intellekt sohasida noaniqlik va qaror qabul qilishni o'rganish muhimdir?",
-    "answer": " Fuzzy logic",
-    "noAnswer1": "Tabiy tilni qayta ishlash",
-    "noAnswer2": "Mashina o'qitish",
-    "noAnswer3": "Robototexnika"
-  },
-  {
-    "question": "Qaysi algoritmni ishlatib, bir nechta variantni solishtirish va eng yaxshi natijani tanlash mumkin?",
-    "answer": " Genetic algorithms",
-    "noAnswer1": "K-means clustering",
-    "noAnswer2": "Naive Bayes",
-    "noAnswer3": "Decision trees"
-  },
-  {
-    "question": "Qaysi mashina o'qitish algoritmi ko'proq noaniq ma'lumotlarni qayta ishlashda ishlatiladi?",
-    "answer": " Naive Bayes",
-    "noAnswer1": "K-nearest neighbors",
-    "noAnswer2": "Support vector machines",
-    "noAnswer3": "Decision trees"
-  },
-  {
-    "question": "Qaysi metod yordamida modeldagi eng muhim o'zgaruvchilarni aniqlash mumkin?",
-    "answer": " Feature importance",
-    "noAnswer1": "Regression analysis",
-    "noAnswer2": "Cross-validation",
-    "noAnswer3": "Hyperparameter tuning"
-  },
-  {
-    "question": "Qaysi texnologiya yordamida inson tillarini kompyuter tushunish va ularga javob berish imkoniyatiga ega\r\nbo'ladi?",
-    "answer": " Natural Language Processing (NLP)",
-    "noAnswer1": "Computer Vision",
-    "noAnswer2": "Deep Learning",
-    "noAnswer3": "Reinforcement Learning"
-  },
-  {
-    "question": "Qaysi algoritm yordamida ma'lumotlar to'plamini ikki yoki undan ortiq guruhlarga ajratish mumkin?",
-    "answer": " K-means clustering",
-    "noAnswer1": "Linear regression",
-    "noAnswer2": "Logistic regression",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi algoritm orqali bir nechta o'zgaruvchilarni birlashtirish va ularning o'zaro bog'lanishini o'rganish\r\nmumkin?",
-    "answer": " Principal Component Analysis (PCA)",
-    "noAnswer1": "Naive Bayes",
-    "noAnswer2": "K-nearest neighbors",
-    "noAnswer3": "Decision trees"
-  },
-  {
-    "question": "Qaysi metod yordamida modelni tahlil qilishda ma'lumotlar orasidagi mustahkam aloqalarni o'rganish\r\nmumkin?",
-    "answer": " Association rule learning",
-    "noAnswer1": "K-means clustering",
-    "noAnswer2": "Gradient descent",
-    "noAnswer3": "Reinforcement learning"
-  },
-  {
-    "question": "Qaysi mashina o'qitish algoritmi tasniflash va regressiya masalalari uchun ishlatiladi?",
-    "answer": " Random Forest",
-    "noAnswer1": "K-means clustering",
-    "noAnswer2": "Naive Bayes",
-    "noAnswer3": "K-nearest neighbors"
-  },
-  {
-    "question": "Mashina o'qitishning qaysi turi ma'lumotlarsiz o'qitishda ishlatiladi?",
-    "answer": " Nazoratsiz o'qitish",
-    "noAnswer1": "Nazoratli o'qitish",
-    "noAnswer2": "Supervised learning",
-    "noAnswer3": "Reinforcement learning"
-  },
-  {
-    "question": "Qaysi algoritm yordamida tasniflash jarayonida xarakterli xususiyatlar tanlanadi?",
-    "answer": " Feature selection",
-    "noAnswer1": "Cross-validation",
-    "noAnswer2": "Grid search",
-    "noAnswer3": "Backpropagation"
-  },
-  {
-    "question": "Qaysi algoritm yordamida klasterlash amalga oshiriladi?",
-    "answer": " K-means clustering",
-    "noAnswer1": "Linear regression",
-    "noAnswer2": "Support vector machines",
-    "noAnswer3": "Decision trees"
-  },
-  {
-    "question": "Qaysi texnologiya orqali ko'p qatlamli neyron tarmoqlarni yaratish va o'qitish mumkin?",
-    "answer": " Deep learning",
-    "noAnswer1": "Supervised learning",
-    "noAnswer2": "Transfer learning",
-    "noAnswer3": "Reinforcement learning"
-  },
-  {
-    "question": "Qaysi metodda model o'qitilgandan so'ng faqat yangi ma'lumotlar bilan ishlaydi?",
-    "answer": " Online learning",
-    "noAnswer1": "Batch learning",
-    "noAnswer2": "Reinforcement learning",
-    "noAnswer3": "Semi-supervised learning"
-  },
-  {
-    "question": "Qaysi metodni ishlatib, modelda yuqori darajadagi xatolarni aniqlash mumkin?",
-    "answer": " Cross-validation",
-    "noAnswer1": "Batch learning",
-    "noAnswer2": "K-means clustering",
-    "noAnswer3": "Feature extraction"
-  },
-  {
-    "question": "Qaysi sun'iy intellekt texnologiyasi yordamida inson tomonidan o'qitilgan agentlar o'z harakatlarini tahlil\r\nqilishadi?",
-    "answer": " Reinforcement learning",
-    "noAnswer1": "Supervised learning",
-    "noAnswer2": "Unsupervised learning",
-    "noAnswer3": "Transfer learning"
-  },
-  {
-    "question": "Qaysi texnologiya yordamida mashinalarga tasvirlarni tanish va ma'lumotlarni ajratish o'rgatiladi?",
-    "answer": " Computer Vision",
-    "noAnswer1": "Natural Language Processing",
-    "noAnswer2": "Deep Learning",
-    "noAnswer3": "Reinforcement Learning"
-  },
-  {
-    "question": "Qaysi metod yordamida ma'lumotlar orasidagi o'xshashlikni tahlil qilish mumkin?",
-    "answer": " K-means clustering",
-    "noAnswer1": "Logistic regression",
-    "noAnswer2": "Support vector machines",
-    "noAnswer3": "Random Forest"
-  },
-  {
-    "question": "Qaysi algoritm orqali avvalgi tajriba asosida qarorlar qabul qilish mumkin?",
-    "answer": " Reinforcement learning",
-    "noAnswer1": "Supervised learning",
-    "noAnswer2": "Unsupervised learning",
-    "noAnswer3": "Transfer learning"
-  },
-  {
-    "question": "Qaysi texnologiya sun'iy intellektda ma'lumotlarni yoritish va uni tahlil qilish uchun ishlatiladi?",
-    "answer": " Data visualization",
-    "noAnswer1": "Feature extraction",
-    "noAnswer2": "Cross-validation",
-    "noAnswer3": "Model evaluation"
-  },
-  {
-    "question": "Qaysi algoritmni ishlatib, tasodifiy qarorlar asosida modelni yaratish mumkin?",
-    "answer": " Random Forest",
-    "noAnswer1": "Decision trees",
-    "noAnswer2": "Naive Bayes",
-    "noAnswer3": "Support vector machines"
-  },
-  {
-    "question": "Qaysi metod yordamida ma'lumotlar orasidagi bog'lanishlarni o'rganish mumkin?",
-    "answer": " Association rule learning",
-    "noAnswer1": "Clustering",
-    "noAnswer2": "Regression",
-    "noAnswer3": "Classification"
-  },
-  {
-    "question": "Qaysi algoritm yordamida xatolikni eng kichik darajaga tushirish uchun modelni sozlash mumkin?",
-    "answer": " Gradient descent",
-    "noAnswer1": "Backpropagation",
-    "noAnswer2": "K-means clustering",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi texnologiya orqali tasvirlarni tahlil qilish va ularni tasniflash mumkin?",
-    "answer": " Convolutional Neural Networks (CNN)",
-    "noAnswer1": "Linear regression",
-    "noAnswer2": "Decision trees",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi metodda modelni o'qitishning har bir bosqichida ma'lumotlar yangilanadi?",
-    "answer": " Online learning",
-    "noAnswer1": "Batch learning",
-    "noAnswer2": "Supervised learning",
-    "noAnswer3": "Unsupervised learning"
-  },
-  {
-    "question": "Qaysi algoritm yordamida tasvirlarni ajratish va tanish mumkin?",
-    "answer": " Convolutional Neural Networks (CNN)",
-    "noAnswer1": "Support vector machines",
-    "noAnswer2": "K-means clustering",
-    "noAnswer3": "Random Forest"
-  },
-  {
-    "question": "Qaysi metod yordamida sun'iy intellekt modellarining samaradorligini baholash mumkin?",
-    "answer": " Cross-validation",
-    "noAnswer1": "Batch processing",
-    "noAnswer2": "Gradient descent",
-    "noAnswer3": "Hyperparameter tuning"
-  },
-  {
-    "question": "Qaysi algoritm ma'lumotlarni klasifikatsiya qilish uchun ishlatiladi?",
-    "answer": " Naive Bayes",
-    "noAnswer1": "K-means clustering",
-    "noAnswer2": "Support vector machines",
-    "noAnswer3": "Linear regression"
-  },
-  {
-    "question": "Qaysi sun'iy intellekt texnologiyasi tasvirlarni ajratishda va tahlil qilishda ishlatiladi?",
-    "answer": " Computer Vision",
-    "noAnswer1": "Natural Language Processing",
-    "noAnswer2": "Reinforcement Learning",
-    "noAnswer3": "Transfer Learning"
-  },
-  {
-    "question": "Qaysi usul yordamida ma'lumotlar to'plamini tahlil qilishda modelni tekshirish mumkin?",
-    "answer": " Cross-validation",
-    "noAnswer1": "Hyperparameter tuning",
-    "noAnswer2": "Model fitting",
-    "noAnswer3": "Gradient descent"
-  },
-  {
-    "question": "Qaysi metodda modelning xatoliklarini aniqlash va tuzatish mumkin?",
-    "answer": " Backpropagation",
-    "noAnswer1": "K-means clustering",
-    "noAnswer2": "Naive Bayes",
-    "noAnswer3": "Support vector machines"
-  },
-  {
-    "question": "Qaysi texnologiya orqali mashinalarga o'z-o'zini o'rganish imkoniyati beriladi?",
-    "answer": " Reinforcement Learning",
-    "noAnswer1": "Supervised Learning",
-    "noAnswer2": "Unsupervised Learning",
-    "noAnswer3": "Transfer Learning"
-  },
-  {
-    "question": "Qaysi algoritm yordamida qaror daraxtlarini yaratish va tahlil qilish mumkin?",
-    "answer": " Decision Trees",
-    "noAnswer1": "Support Vector Machines",
-    "noAnswer2": "Random Forest",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi metod yordamida mashina o'qitishning qobiliyati oshiriladi?",
-    "answer": " Hyperparameter tuning",
-    "noAnswer1": "Backpropagation",
-    "noAnswer2": "K-means clustering",
-    "noAnswer3": "Feature extraction"
-  },
-  {
-    "question": "Qaysi texnologiya orqali mashinalar inson harakatlarini tushunib, javob bera olishadi?",
-    "answer": " Natural Language Processing",
-    "noAnswer1": "Computer Vision",
-    "noAnswer2": "Robotics",
-    "noAnswer3": "Deep Learning"
-  },
-  {
-    "question": "Qaysi metod yordamida ma'lumotlarning o'zgarishini va bog'lanishini o'rganish mumkin?",
-    "answer": " Feature engineering",
-    "noAnswer1": "Hyperparameter tuning",
-    "noAnswer2": "Data preprocessing",
-    "noAnswer3": "Decision trees"
-  },
-  {
-    "question": "Qaysi metod yordamida mashina o'qitishning samaradorligini baholash mumkin?",
-    "answer": " Cross-validation",
-    "noAnswer1": "Feature extraction",
-    "noAnswer2": "Data augmentation",
-    "noAnswer3": "Grid search"
-  },
-  {
-    "question": "Qaysi sun'iy intellekt texnologiyasi yordamida avtomatik ravishda qarorlar qabul qilinadi?",
-    "answer": " Reinforcement Learning",
-    "noAnswer1": "Natural Language Processing",
-    "noAnswer2": "Transfer Learning",
-    "noAnswer3": "Deep Learning"
-  },
-  {
-    "question": "Qaysi algoritm orqali ma'lumotlarni chiroyli va aniq ko'rsatish mumkin?",
-    "answer": " Data visualization",
-    "noAnswer1": "Data preprocessing",
-    "noAnswer2": "Cross-validation",
-    "noAnswer3": "Gradient descent"
-  },
-  {
-    "question": "Qaysi algoritm orqali tasvirlarni ajratib olish va tanish mumkin?",
-    "answer": " Convolutional Neural Networks (CNN)",
-    "noAnswer1": "Random Forest",
-    "noAnswer2": "K-means clustering",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi metod yordamida yangi ma'lumotlar asosida mashina o'qitish jarayonini tezlashtirish mumkin?",
-    "answer": " Transfer Learning",
-    "noAnswer1": "Reinforcement Learning",
-    "noAnswer2": "Supervised Learning",
-    "noAnswer3": "Unsupervised Learning"
-  },
-  {
-    "question": "Qaysi texnologiya orqali mashinalar o'zlarini o'zi rivojlantirishlari mumkin?",
-    "answer": " Reinforcement Learning",
-    "noAnswer1": "Transfer Learning",
-    "noAnswer2": "Supervised Learning",
-    "noAnswer3": "Deep Learning"
-  },
-  {
-    "question": "Qaysi metod yordamida mashina o'qitish jarayonida modelning kompleksligi kamaytiriladi?",
-    "answer": " Regularization",
-    "noAnswer1": "Hyperparameter tuning",
-    "noAnswer2": "Cross-validation",
-    "noAnswer3": "Feature selection"
-  },
-  {
-    "question": "Qaysi algoritm yordamida ma'lumotlar orasidagi qat'iy bog'lanishni o'rganish mumkin?",
-    "answer": " Association rule learning",
-    "noAnswer1": "Naive Bayes",
-    "noAnswer2": "Random Forest",
-    "noAnswer3": "K-means clustering"
-  },
-  {
-    "question": "Qaysi metod yordamida model o'qitishda faqat sinov ma'lumotlari ishlatiladi?",
-    "answer": " Test set",
-    "noAnswer1": "Training set",
-    "noAnswer2": "Validation set",
-    "noAnswer3": "Batch processing"
-  },
-  {
-    "question": "Qaysi sun'iy intellekt texnologiyasi orqali ma'lumotlarning eng yuqori darajali qismini ajratib olish\r\nmumkin?",
-    "answer": " Feature selection",
-    "noAnswer1": "Hyperparameter tuning",
-    "noAnswer2": "Cross-validation",
-    "noAnswer3": "Data augmentation"
-  },
-  {
-    "question": "Qaysi texnologiya orqali modelning xatoliklarini tahlil qilish va to'g'rilash mumkin?",
-    "answer": " Backpropagation",
-    "noAnswer1": "Naive Bayes",
-    "noAnswer2": "K-means clustering",
-    "noAnswer3": "Random Forest"
-  },
-  {
-    "question": "Qaysi metod yordamida mashina o'qitishning yangi usullarini sinovdan o'tkazish mumkin?",
-    "answer": " Hyperparameter tuning",
-    "noAnswer1": "Batch learning",
-    "noAnswer2": "Feature extraction",
-    "noAnswer3": "Cross-validation"
-  },
-  {
-    "question": "Qaysi algoritm orqali tizim o'z-o'zini o'rganish orqali qarorlar qabul qiladi?",
-    "answer": " Reinforcement Learning",
-    "noAnswer1": "Supervised Learning",
-    "noAnswer2": "Deep Learning",
-    "noAnswer3": "Transfer Learning"
-  },
-  {
-    "question": "Qaysi metod yordamida ma'lumotlar orasidagi munosabatni kuzatish mumkin?",
-    "answer": " Association rule learning",
-    "noAnswer1": "Regression analysis",
-    "noAnswer2": "Clustering",
-    "noAnswer3": "Decision trees"
-  },
-  {
-    "question": "Qaysi algoritm yordamida qaror daraxtlarini qurish va tahlil qilish mumkin?",
-    "answer": " Decision Trees",
-    "noAnswer1": "Support vector machines",
-    "noAnswer2": "Random Forest",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi texnologiya orqali o'zgaruvchilarni tanlab olish va ularga tahlil qilish mumkin?",
-    "answer": " Feature selection",
-    "noAnswer1": "Hyperparameter tuning",
-    "noAnswer2": "Model fitting",
-    "noAnswer3": "Batch learning"
-  },
-  {
-    "question": "Qaysi metod yordamida mashina o'qitishda yangi ma'lumotlarni qo'shish mumkin?",
-    "answer": " Online learning",
-    "noAnswer1": "Batch learning",
-    "noAnswer2": "Supervised learning",
-    "noAnswer3": "Unsupervised learning"
-  },
-  {
-    "question": "Qaysi texnologiya orqali mashinalarga o'z-o'zini tahlil qilish imkoniyati beriladi?",
-    "answer": " Reinforcement Learning",
-    "noAnswer1": "Natural Language Processing",
-    "noAnswer2": "Supervised Learning",
-    "noAnswer3": "Deep Learning"
-  },
-  {
-    "question": "Qaysi algoritm yordamida katta ma'lumotlarni tahlil qilishda samarali bo'ladi?",
-    "answer": " K-means clustering",
-    "noAnswer1": "Naive Bayes",
-    "noAnswer2": "Decision trees",
-    "noAnswer3": "Support vector machines"
-  },
-  {
-    "question": "Qaysi metod yordamida modelni tekshirishda ishonchli xatoliklar minimallashtiriladi?",
-    "answer": " Cross-validation",
-    "noAnswer1": "Grid search",
-    "noAnswer2": "Hyperparameter tuning",
-    "noAnswer3": "Feature selection"
-  },
-  {
-    "question": "Qaysi texnologiya yordamida tasvirlarni yanada aniqroq tanib olish mumkin?",
-    "answer": " Convolutional Neural Networks (CNN)",
-    "noAnswer1": "Random Forest",
-    "noAnswer2": "K-means clustering",
-    "noAnswer3": "Support vector machines"
-  },
-  {
-    "question": "Qaysi algoritm yordamida ko'p o'lchovli ma'lumotlar ustida tahlil qilish mumkin?",
-    "answer": " Principal Component Analysis (PCA)",
-    "noAnswer1": "Linear regression",
-    "noAnswer2": "Naive Bayes",
-    "noAnswer3": "K-means clustering"
-  },
-  {
-    "question": "Qaysi metod yordamida xatoliklar minimallashtiriladi va natijalar yanada aniqroq bo'ladi?",
-    "answer": " Gradient descent",
-    "noAnswer1": "Cross-validation",
-    "noAnswer2": "Feature selection",
-    "noAnswer3": "Data augmentation"
-  },
-  {
-    "question": "Qaysi algoritm yordamida modelni yanada samarali qilish mumkin?",
-    "answer": " Random Forest",
-    "noAnswer1": "Decision trees",
-    "noAnswer2": "Support vector machines",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi metod yordamida modelni o'qitish jarayonida parametrlarga e'tibor qaratiladi?",
-    "answer": " Hyperparameter tuning",
-    "noAnswer1": "Grid search",
-    "noAnswer2": "Backpropagation",
-    "noAnswer3": "K-means clustering"
-  },
-  {
-    "question": "Qaysi algoritm yordamida ma'lumotlar orasidagi bog'lanishlar aniqlanadi?",
-    "answer": " Association rule learning",
-    "noAnswer1": "K-means clustering",
-    "noAnswer2": "Random Forest",
-    "noAnswer3": "Linear regression"
-  },
-  {
-    "question": "Qaysi texnologiya yordamida mashina o'qitishda modelning samaradorligini oshirish mumkin?",
-    "answer": " Hyperparameter tuning",
-    "noAnswer1": "Cross-validation",
-    "noAnswer2": "Grid search",
-    "noAnswer3": "Feature extraction"
-  },
-  {
-    "question": "Qaysi metod yordamida o'zgaruvchilarni optimallashtirish mumkin?",
-    "answer": " Feature selection",
-    "noAnswer1": "Hyperparameter tuning",
-    "noAnswer2": "Batch learning",
-    "noAnswer3": "Decision trees"
-  },
-  {
-    "question": "Qaysi algoritm yordamida ma'lumotlar to'plamidan natijalar olish mumkin?",
-    "answer": " Random Forest",
-    "noAnswer1": "K-means clustering",
-    "noAnswer2": "Decision trees",
-    "noAnswer3": "Naive Bayes"
-  },
-  {
-    "question": "Qaysi metod yordamida ma'lumotlar to'plami va model o'rtasidagi aloqani kuzatish mumkin?",
-    "answer": " Feature selection",
-    "noAnswer1": "Cross-validation",
-    "noAnswer2": "Hyperparameter tuning",
-    "noAnswer3": "Data augmentation"
-  },
-  {
-    "question": "CIFAR10 datasetda necha tanlama bor",
-    "answer": "60000",
-    "noAnswer1": "70000",
-    "noAnswer2": "50000",
-    "noAnswer3": "10000"
-  },
-  {
-    "question": "O’ratuvchi tanlamadagi test to’plam bu?",
-    "answer": "modelni testlash uchun ishlatiladi",
-    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
-  },
-  {
-    "question": "Owerfitting bu - …",
-    "answer": "Model juda muarkkab. Shuning evaziga model train to’plamda past, test to’plamda yuqori\r\nxatolik bo’lishiga olib keladi",
-    "noAnswer1": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolikbo’lishiga olib keladi",
-    "noAnswer2": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda kattaxatolik bo’lishiga olib keladi",
-    "noAnswer3": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolikbo’lishiga olib keladi"
-  },
-  {
-    "question": "Logistik regressiya masalasida asosan qaysi aktivlashtirish funksiyasidan foydalaniladi?",
-    "answer": "Sigmoid",
-    "noAnswer1": "Tanh",
-    "noAnswer2": "ReLU",
-    "noAnswer3": "Sigmoid va ReLU"
-  },
-  {
-    "question": "Model qurishda bo’ladigan Underfitting muammosi qanday hal qilsa bo’ladi?",
-    "answer": "Modelni murakkabligini oshirib ko’rish kerak",
-    "noAnswer1": "Modelni murakkabligini pasaytirib ko’rish kerak",
-    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
-    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
-  },
-  {
-    "question": "Model qurishda bo’ladigan Owerfitting muammosi qanday hal qilsa bo’ladi?",
-    "answer": "Modelni murakkabligini pasaytirib ko’rish kerak",
-    "noAnswer1": "Modelni murakkabligini oshirib ko’rish kerak",
-    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
-    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
-  },
-  {
-    "question": "O’rgatuvchi tanlama nima?",
-    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
-    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
-    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
-    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
-  },
-  {
-    "question": "O’ratuvchi tanlamadagi train to’plam …",
-    "answer": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer1": "modelni testlash uchun ishlatiladi",
-    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
-  },
-  {
-    "question": "O’ratuvchi tanlamadagi val (validation) to’plam bu?",
-    "answer": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer2": "modelni testlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
-  },
-  {
-    "question": "Neyron tarmoqlarida sinflashtirish masalasini yechishda chiquvchi qatlamda qaysi turdagi\r\naktivlash funksiyasidan foydalaniladi",
-    "answer": "Softmax",
-    "noAnswer1": "Sigmoid",
-    "noAnswer2": "ReLu",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Nima uchun logistik regressiyada sigmoid funksiyadan foydalaniladi?",
-    "answer": "qiymatlarni (0,1) oraliqda keltirish",
-    "noAnswer1": "qiymatlarni [-1,1] oraliqda keltirish",
-    "noAnswer2": "qiymatlarni [0,1] oraliqda keltirish",
-    "noAnswer3": "qiymatlarni (-1,1) oraliqda keltirish"
-  },
-  {
-    "question": "Logistik regressiyada qaror chegrasi uchun topilgan modeldan olingan qiymat qaysi\r\nbo’sag’a qiymati orqali solishtiriladi va qaror qabul qilinadi?",
-    "answer": "0",
-    "noAnswer1": "1",
-    "noAnswer2": "0.5",
-    "noAnswer3": "-1 va 1"
-  },
-  {
-    "question": "SVM algoritmida suppor vectors bu?",
-    "answer": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlaydi",
-    "noAnswer1": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlaydi",
-    "noAnswer2": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlamaydi",
-    "noAnswer3": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlamaydi"
-  },
-  {
-    "question": "SVM algoritmidagi hisoblaanadigan orqaliq (margin) qanday bo’lsa model ishonchli debtopiladi?",
-    "answer": "Oraliq eng kattta bo’lsa",
-    "noAnswer1": "Oraliq eng kichik bo’lsa",
-    "noAnswer2": "Oraliq hech narsani anglatmaydi",
-    "noAnswer3": "To’gri javob yo’q"
-  },
-  {
-    "question": "SVM algoritmida yadro(kernel) funksiyalari nima uchun xizmat qiladi?",
-    "answer": "Kiruvchi xususiyatlarni ma’lum o’lchov sohasidan boshqasiga o’zgartirish uchun xizmat qiladi. Misol uchun 1D -&gt; 2D",
-    "noAnswer1": "Kiruvchi xususiyatlarni 1D o’lchov sohasidan 2D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
-    "noAnswer2": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 1D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
-    "noAnswer3": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 3D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi"
-  },
-  {
-    "question": "SVM orqali ..",
-    "answer": "Faqat bir nechta sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer1": "Faqat ikkita sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer2": "Faqat regressiya masalasini yechish mumkin",
-    "noAnswer3": "Ham sinflashrish, ham regressiya masalasini ishlash mumkin."
-  },
-  {
-    "question": "Qidiruv tizimlarida sun’iy intellektdan foydalanish mumkinmi",
-    "answer": "ha, mumkin va hozirda keng qo‘llanilmoqda (misol uchun Google, Yandex qidiruv tizimlari)",
-    "noAnswer1": "qisman amaliy natijalari bor lekin yetarlicha nazariy jihatdan formallashtirilmagan",
-    "noAnswer2": "nazariy jihatdan mumkin, lekin hozircha amaliy jihatdan natijalarga erishilmagan",
-    "noAnswer3": "qidiruv tizimlarida sun’iy intellektdan foydalanish qidiruv vaqtini oshiradi"
-  },
-  {
-    "question": "Logistik regression model nima uchun ishlatiladi",
-    "answer": "Sinflashtirsh masalasini yechish uchun",
-    "noAnswer1": "Klasterlash masalasini ishlash uchun",
-    "noAnswer2": "Neyron tarmoqni qurish uchun",
-    "noAnswer3": "Qiymatni bashoratlash uchun"
-  },
-  {
-    "question": "Numpy kutubxonasidagi polyfit() funksiyasi nima uchun ishlatiladi?",
-    "answer": "Chiziqli regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer1": "Loginstik regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer2": "Chiziqli va logistik regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer3": "Polynom funksiya yaratish uchun"
-  },
-  {
-    "question": "Numpy kutubxonasidagi poly1d() funksiyasi nima uchun ishlatiladi?",
-    "answer": "Berilgan parametrlar asosida polinomal funksiya hosil qilish",
-    "noAnswer1": "Berilgan parametrlar asosida polinomal Class hosil qilish",
-    "noAnswer2": "Berilgan parametrlar asosida logistik regressiya modelini qurish",
-    "noAnswer3": "Berilgan parametrlar asosida giperbolik regressiya modelini qurish"
-  },
-  {
-    "question": "Neyron tarmoqlarini qurishga mo’ljallangan python kutubxonalarini ko'rsating.",
-    "answer": "Numpy, keras, tensorflow",
-    "noAnswer1": "Numpy, pandas, keras",
-    "noAnswer2": "Tensorflow, numpy, pandas",
-    "noAnswer3": "Python, Matlab, Octave"
-  },
-  {
-    "question": "Neyron tarmoq asosida sinflashtirish masalasini yechish mumkinmi?",
-    "answer": "Ha",
-    "noAnswer1": "Yoq, faqat regressiya masalasini yechadi.",
-    "noAnswer2": "Faqat ikkilik sinflashtirganda",
-    "noAnswer3": "Yoq, klasterlash masalasini yechadi."
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "0",
-    "noAnswer1": "44682",
-    "noAnswer2": "5",
-    "noAnswer3": "-5"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati 0 ga teng. Ushbu tugun sigmoid funksiyasi yordamidafaollashtirilsa qanday qiymatga o’zgaradi",
-    "answer": "0.5",
-    "noAnswer1": "0",
-    "noAnswer2": "1",
-    "noAnswer3": "2.785661"
-  },
-  {
-    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur o’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
-    "answer": "hozirda tasvirlardan ob’ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalardakeng foydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
-    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli\r\nfodalanilmaydi",
-    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
-    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
-  },
-  {
-    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
-    "answer": "neyron tarmoqlar asosida",
-    "noAnswer1": "lokal tarmoqlar asosida",
-    "noAnswer2": "global tarmoqlar asosida",
-    "noAnswer3": "internet tarmoqlar asosida"
-  },
-  {
-    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "6"
-  },
-  {
-    "question": "Chuqur o’qitishning birinchi bosqichi qanday jarayondan iborat?",
-    "answer": "Muammoni tushunib olish.",
-    "noAnswer1": "Ma’lumotlarni aniqlash.",
-    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer3": "Modelni o’qitish."
-  },
-  {
-    "question": "Chuqur o’qitishning ikkinchi bosqichi qanday jarayondan iborat?",
-    "answer": "Ma’lumotlarni aniqlash.",
-    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer2": "Modelni o’qitish.",
-    "noAnswer3": "Modelni testlash."
-  },
-  {
-    "question": "Chuqur o’qitishning turtinchi bosqichi qanday jarayondan iborat?",
-    "answer": "Modelni o’qitish.",
-    "noAnswer1": "Modelni testlash.",
-    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer3": "Muammoni tushunib olish."
-  },
-  {
-    "question": "Chuqur o’qitishning oxirgi bosqichi qanday jarayondan iborat?",
-    "answer": "Modelni testlash.",
-    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer2": "Modelni o’qitish.",
-    "noAnswer3": "Ma’lumotlarni aniqlash."
-  },
-  {
-    "question": "MNIST dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "10",
-    "noAnswer1": "9",
-    "noAnswer2": "100",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "CIFAR10 dataset da nechta sinfga tegishli obyektlarini ma’lumotlari bor",
-    "answer": "10",
-    "noAnswer1": "9",
-    "noAnswer2": "100",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "CIFAR10 datasetda tasvirlarning o’lchami qaysi o’lchamda",
-    "answer": "To’g’ri javob yo’q",
-    "noAnswer1": "28x28",
-    "noAnswer2": "128x128",
-    "noAnswer3": "64x64"
-  },
-  {
-    "question": "CIFAR10 datasetda necha tanlama bor",
-    "answer": "60000",
-    "noAnswer1": "70000",
-    "noAnswer2": "50000",
-    "noAnswer3": "10000"
-  },
-  {
-    "question": "CIFAR100 dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "100",
-    "noAnswer1": "99",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "IRIS dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "3",
-    "noAnswer1": "2",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "IRIS dataset da obyektni xarakterlovchi xususiyatlari nechta",
-    "answer": "4",
-    "noAnswer1": "2",
-    "noAnswer2": "3",
-    "noAnswer3": "8"
-  },
-  {
-    "question": "pip install tensorflow buyrug’i asosida nima sodir bo’ladi?",
-    "answer": "tensorflow kutubxonasi o’rnatiladi",
-    "noAnswer1": "keras va tensorflow kutubxonasi o’rnatiladi",
-    "noAnswer2": "tensorflow kutubxonasi chaqiriladi",
-    "noAnswer3": "keras va tensorflow kutubxonasi chaqiriladi"
-  },
-  {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 95% aniqliq va test dataset bilan testlaganimizda 92% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda.",
-    "answer": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Owerfitting",
-    "noAnswer3": "Everfitting"
-  },
-  {
-    "question": "Pandas kutubxonasida head() funksiyasi nima vazifa bajaradi?",
-    "answer": "To’plamning dastlabgi bir nechta(5ta) satrini olib beradi.",
-    "noAnswer1": "To’plamning ustunlar nomini olib beradi.",
-    "noAnswer2": "To’plamning ustunlar nomisiz bir nechta satrini olib beradi.",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Pythonda funksiya e’lon qilish uchun qaysi kalit so’zidan foydalaniladi?",
-    "answer": "def",
-    "noAnswer1": "function",
-    "noAnswer2": "void",
-    "noAnswer3": "define"
-  },
-  {
-    "question": "Neyron tarmoqlarida dastlab vazn koeffitsentlari qanday bo’ladi?",
-    "answer": "random() funksiyasi orqali taxminiy beriladi.",
-    "noAnswer1": "musbat qiymatlar bilan to’ldiriladi.",
-    "noAnswer2": "To’ldirish shart emas.",
-    "noAnswer3": "manfiy qiymatlar bilan to’ldiriladi."
-  },
-  {
-    "question": "Neyron tarmoqlarida topilgan vazn koeffitsentlari qanday bo’ladi?",
-    "answer": "Musbat va manfiy bo’lishi mumkin",
-    "noAnswer1": "Faqat musbat bo’ladi",
-    "noAnswer2": "Faqat manfiy bo’ladi",
-    "noAnswer3": "Qiymatlar [0,1] oraliqda bo’ladi."
-  },
-  {
-    "question": "KMaens algoritmida qo’llaniladigan ikki nuqta orasidagi masofa … deb yuritiladi.Nutqlar\r\no’rniga mos variantni qo’ying.",
-    "answer": "Euclidean masofasi",
-    "noAnswer1": "Chebyshev masofasi",
-    "noAnswer2": "Manhattan masofasi",
-    "noAnswer3": "Minkowski masofasi"
-  },
-  {
-    "question": "Gradient tushish algoritmidagi ‘learning rate’ parameter nimani xarakterlaydi?",
-    "answer": "O’qish qadamini",
-    "noAnswer1": "O’qishitda takrorlanishlar sonini",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Model aniqligini"
-  },
-  {
-    "question": "UCI Machine Learning Repository nima ?",
-    "answer": "Mashinili o’qitishning ochiq manbali datasetlarini qidirishga mo’ljallangan tizim",
-    "noAnswer1": "GitHub Repository",
-    "noAnswer2": "Gitlab Repository",
-    "noAnswer3": "Kaggle Repository"
-  },
-  {
-    "question": "Google Dataset Search qancha ma’lumotni qamrab oladi?",
-    "answer": "25 mln",
-    "noAnswer1": "250mln",
-    "noAnswer2": "15mln",
-    "noAnswer3": "6mln"
-  },
-  {
-    "question": "Python array bu -",
-    "answer": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan",
-    "noAnswer1": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "O’qituvchili o’qitish (supervised learning) nima?",
-    "answer": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) hamishlatish",
-    "noAnswer1": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
-    "noAnswer2": "modelni o’qitish uchun tasvir ma’lumotlaridan (image) foydalanish",
-    "noAnswer3": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish"
-  },
-  {
-    "question": "Keras muhitida qurilgan neyron tarmoqda joriy qatlam uchun faollashtirish funksiyasini\r\nqo’shishda quyidagilarning qaysi biridan foydalaniladi?",
-    "answer": "model.add(Activation(‘relu’))",
-    "noAnswer1": "model.insert(Activation(‘relu’))",
-    "noAnswer2": "model.function(Activate(‘relu’))",
-    "noAnswer3": "model.add(ActiveFunction(‘relu’))"
-  },
-  {
-    "question": "O’qituvchisiz (unsupervised) o’qitish algortimlari to’g’ri ko’rsatilgan javobni ko’rsating?",
-    "answer": "k-means clustering, hierarchical clustering, independent component analysis",
-    "noAnswer1": "linear regression, nearest neighbor, random forest, decision tree",
-    "noAnswer2": "k-means clustering, deep learning, logistic regression, random forest",
-    "noAnswer3": "k-nn, decision tree, linear regression, k-means clustering"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) nima?",
-    "answer": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
-    "noAnswer1": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish",
-    "noAnswer2": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) hamishlatish",
-    "noAnswer3": "modelni o’qitish uchun tasvir ma’lumotlari va ularning belgilaridan (image+label) foydalanish"
-  },
-  {
-    "question": "Sigmoid funksiyasini hisoblash formulasini ko’rsating?",
-    "answer": "sig(x)=1/(1+exp(-x))",
-    "noAnswer1": "sig(x)=1/(1-exp(x))",
-    "noAnswer2": "sig(x)=1/exp(-x)",
-    "noAnswer3": "sig(x)=1/exp(x)"
-  },
-  {
-    "question": "Mashinali o’qitish nima?",
-    "answer": "kompyuter dasturining ma’lumotlarni o’qib olish asosida xususiyatlarni o’rganish qobiliyatidir",
-    "noAnswer1": "faqat kompyuter o’yinlarini yaratish uchun dastur xususiyatlarni o’rganish qobiliyatidir",
-    "noAnswer2": "bu robotni o’rgatishning an’anaviy usuli",
-    "noAnswer3": "kompyuter dasturlarini lug’at yordamida o’qitish usuli"
-  },
-  {
-    "question": "Pythonda massivni e’lon qilish uchun qanday toifalardan foydalaniladi?",
-    "answer": "array, matrix",
-    "noAnswer1": "tuple, arr",
-    "noAnswer2": "list, tuple",
-    "noAnswer3": "arr, list"
-  },
-  {
-    "question": "Sun'iy intellekt bu …?",
-    "answer": "bu kompyuterda insonning aqlli xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
-    "noAnswer1": "bu kompyuterda insonning jismoniy xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
-    "noAnswer2": "bu kompyuterda insonning bialogik xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Keras kutubxonasidagi Sequential() nima vazifani bajaradi?",
-    "answer": "neyron tarmoq modelini qurish uchun dastlabki obyektni yaratadi",
-    "noAnswer1": "ketma-ket kamida 2 qatlamdan iborat neyron tarmoq quradi",
-    "noAnswer2": "neyron tarmoq modelini o’qitish uchun ishlatiladi",
-    "noAnswer3": "qurilgan neyron tarmoqni ketma-ket ko’rinishga keltiradi"
-  },
-  {
-    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(10) ifodasida i indekso’zgaruvchisiga qanday qiymatlar keladi?",
-    "answer": "0 1 2 3 4 5 6 7 8 9",
-    "noAnswer1": "0 1 2 3 4 5 6 7 8 9 10",
-    "noAnswer2": "0 9",
-    "noAnswer3": "1 2 3 4 5 6 7 8 9 10"
-  },
-  {
-    "question": "Qanday turdagi faollashtirish funksiyalari mavud?",
-    "answer": "ReLU, sigmoid, softmax",
-    "noAnswer1": "loss, sigmoid, ReLU",
-    "noAnswer2": "ReLU, cost, softmax",
-    "noAnswer3": "cost, loss, sigmoid"
-  },
-  {
-    "question": "Chuqur o’qitish – bu?",
-    "answer": "bu ko'p qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilganjarayondir",
-    "noAnswer1": "bu bir qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilganjarayondir",
-    "noAnswer2": "bu bu modelni qurib olish uchun amalga oshiriladigan o’qitish jarayonidir",
-    "noAnswer3": "bu modelni tezroq va aniqroq qurib olish uchun amalga oshiriladigan jarayon"
-  },
-  {
-    "question": "Python muhitida turli xil matematik funksiya grafiklarini va tasvirlarni vizuallashtirish uchunishlatiladigan paket qaysi?",
-    "answer": "matplotlib",
-    "noAnswer1": "keras",
-    "noAnswer2": "pandas",
-    "noAnswer3": "numpy"
-  },
-  {
-    "question": "Sun’iy neyron tarmoq tashkil etuvchilarini ko’rsating?",
-    "answer": "node, input, weights, output",
-    "noAnswer1": "cell body, dendrites, synapse, axon",
-    "noAnswer2": "input, dendrites, synapse, output",
-    "noAnswer3": "synapse, axon, weights, node"
-  },
-  {
-    "question": "Python muhitida scatter() funksiyasi qanday vazifani bajaradi?",
-    "answer": "berilgan x,y to'plam bo’yicha 2 o’lchovli grafigini chizish uchun ishlatiladi",
-    "noAnswer1": "chiziqli regression model koeffitsentlarini (ko’pi bilan 3 ta) hisoblaydi",
-    "noAnswer2": "polinomial regression model koeffitsentlarini hisoblaydi",
-    "noAnswer3": "qurilgan model koeffitsentlari bo’yicha bashorat qilinadigan qiymatlarni hisoblaydi"
-  },
-  {
-    "question": "KNN bu…?",
-    "answer": "K ta yaqin qo’shnilar agoritmi",
-    "noAnswer1": "Svyortkali neyron tarmoq",
-    "noAnswer2": "Adamar almashtririshli Neyron tarmoq",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
-    "answer": "Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali\r\no’qitishda aqlli mashinalarga dasturlashning muqobil usulidir.",
-    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
-    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
-    "answer": "O’qtuvchili va O’qituvchisiz",
-    "noAnswer1": "Tanlanma",
-    "noAnswer2": "Ma’lumotlar bazasi",
-    "noAnswer3": "Chiziqli va logistik"
-  },
-  {
-    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
-    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
-    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
-    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
-    "noAnswer3": "Oddiy algoritm"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
-    "answer": "mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilano’qitish amalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchunmodelga o'z ustida ishlashga imkon yaratib beriladi",
-    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
-    "noAnswer2": "Bunday o’qitish mavjud emas",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
-    "answer": "klasterlash",
-    "noAnswer1": "normallashtirish",
-    "noAnswer2": "sinflashtirish",
-    "noAnswer3": "Signallarga ishlov berish"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
-    "answer": "Hierarchical clustering va K-means clustering",
-    "noAnswer1": "SVM va CNN",
-    "noAnswer2": "RNN va GMM",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Ma’lumotlarni tozalashga to'liq ta'rif berilgan qatorini toping?",
-    "answer": "Ushbu bosqichda ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan model\r\nturg’unligiga ta’sir qiluvchi ma’lumotlar olib tashlanadi.",
-    "noAnswer1": "Dataset ma’lumotlarini testlash",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Qaror daraxtidan ma’lumotlarni olib tashlash"
-  },
-  {
-    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
-    "answer": "klasterlash",
-    "noAnswer1": "normallashtirish",
-    "noAnswer2": "sinflashtirish",
-    "noAnswer3": "Signallarga ishlov berish"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
-    "answer": "Hierarchical clustering va K-means clustering",
-    "noAnswer1": "SVM va CNN",
-    "noAnswer2": "RNN va GMM",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur o’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
-    "answer": "hozirda tasvirlardan ob’ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalardakeng foydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
-    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli\r\nfodalanilmaydi",
-    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
-    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
-  },
-  {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": "Format, Data Cleaning, Feature Extraction",
-    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
-    "noAnswer2": "Resizing, Feature Extraction, Format",
-    "noAnswer3": "Format, Resizing, Data Cleaning"
-  },
-  {
-    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
-    "answer": "chiziqli, nochiziqli va logistik regressiya usullari asosida",
-    "noAnswer1": "sintaktik usullar asosida",
-    "noAnswer2": "dinamik usillar asosida",
-    "noAnswer3": "semantik usullari asosida"
-  },
-  {
-    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviyma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonningbosqichlari hisoblanadi",
-    "answer": "Mashinali o’qitish",
-    "noAnswer1": "Chuqur o’qitish",
-    "noAnswer2": "Regression tahlil",
-    "noAnswer3": "Statistik tahlil"
-  },
-  {
-    "question": "Keras bu – ...",
-    "answer": "tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
-    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
-  },
-  {
-    "question": "Gradient tushish bu?",
-    "answer": "Model parametrlarini sozlash uchun ishlatiladigan algoritm",
-    "noAnswer1": "Xatolik funksiyasi",
-    "noAnswer2": "Kiruvchi ma’lumotlarni narmallashtirish uchun qiymatlarni 0,1oraliqqa tushirish",
-    "noAnswer3": "Mashinali o’qitish turi"
-  },
-  {
-    "question": "Tensorflow bu – ...",
-    "answer": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
-  },
-  {
-    "question": "Sklearn bu - …",
-    "answer": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalgaoshirishga mo’ljallangan maxsus paket",
-    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishgamo’ljallangan hisoblanadi",
-    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitishalgortimlarini ishlab chiqishga mo’ljallangan",
-    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili\r\nalgoritmlarini amalga oshirishga mo’ljallangan maxsus paket"
-  },
-  {
-    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
-    "answer": "neyron tarmoqlar asosida",
-    "noAnswer1": "lokal tarmoqlar asosida",
-    "noAnswer2": "global tarmoqlar asosida",
-    "noAnswer3": "internet tarmoqlar asosida"
-  },
-  {
-    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "6"
-  },
-  {
-    "question": "IRIS dataset da obyektni xarakterlovchi xususiyatlari nechta",
-    "answer": "4",
-    "noAnswer1": "2",
-    "noAnswer2": "3",
-    "noAnswer3": "8"
-  },
-  {
-    "question": "Supervised learning ?",
-    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
-  },
-  {
-    "question": "Mashinali o’qitishning o’qituvchili sinflashtirish algoritmini ko’rsating",
-    "answer": "KNN,SVM,Logistik regresiya",
-    "noAnswer1": "Kmaens",
-    "noAnswer2": "Chiziqli regressiya",
-    "noAnswer3": "Kmaens,KNN"
-  },
-  {
-    "question": "Sun’iy intellekti bo’lmagan elementni ko’rsating",
-    "answer": "Hub",
-    "noAnswer1": "Kalkulyator",
-    "noAnswer2": "Telefon",
-    "noAnswer3": "Foto Radar"
-  },
-  {
-    "question": "Logistik regressiyada qaror chegrasi uchun topilgan modeldan olingan qiymat qaysi\r\nbo’sag’a qiymati orqali solishtiriladi va qaror qabul qilinadi?",
-    "answer": "0",
-    "noAnswer1": "1",
-    "noAnswer2": "0.5",
-    "noAnswer3": "-1 va 1"
-  },
-  {
-    "question": "Mashinali o’qitish va suniy intellekt",
-    "answer": "Mashinali o’qitish sun’iy intellekt tizimlarini ishlab chiqishga xizmat qiladi",
-    "noAnswer1": "Bir tushunchani ifodalaydi",
-    "noAnswer2": "Sun’iy intellekt mashinali o’qitish tizimlarini ishlab chiqishga xizmat qiladi",
-    "noAnswer3": "Turli tushunchalarni ifodalaydi"
-  },
-  {
-    "question": "Mashinali o’qitishning asosiy turlari qaysilar",
-    "answer": "O’qituvchili,O’qituvchisiz",
-    "noAnswer1": "Regressiya,Sinflashtirish",
-    "noAnswer2": "KNN,SVM,Kmaens",
-    "noAnswer3": "Logistik va chiziqli regressiya"
-  },
-  {
-    "question": "Chiziqli va logistic regressiyaning asosiy farqi",
-    "answer": "Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli regressiya basharotlash, logisticregressiya sinflashtirish",
-    "noAnswer1": "Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli sinflashtirish basharotlash, logisticregressiya regressiya",
-    "noAnswer2": "Ikkalasi ham bir turdagi masalani ishlash uchun mo’ljallangan",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Python dasturlash tilida ma’lumotlarni visuallashtirish uchun ishlatiladigan kutubxona",
-    "answer": "Matplotlib",
-    "noAnswer1": "plotData",
-    "noAnswer2": "Pillow",
-    "noAnswer3": "PyPlot"
-  },
-  {
-    "question": "Numpy kutubxonasida ikkita vektorni vektor ko’paytirish amali qanaqa?",
-    "answer": "A@B",
-    "noAnswer1": "A*B",
-    "noAnswer2": "np.dot([A,B])",
-    "noAnswer3": "np.multiply([A,B])"
-  },
-  {
-    "question": "Pythonda ikkita vektorni birlashtirishda xatolik sodir bo’ladigan javobni tanlang",
-    "answer": "a=append(a,b)",
-    "noAnswer1": "a=np.append(a,b)",
-    "noAnswer2": "a=np.append(b,a)",
-    "noAnswer3": "Varinatlarning barchasida vektorlar birlashtiriladi"
-  },
-  {
-    "question": "Cost funksiya bu?",
-    "answer": "Modelni o’qitish davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamadaberilgan qiymat oralidagi farqlarni hisoblash funksiyasi",
-    "noAnswer1": "Cosinius funksiyasini qisqartma ko’rinishi?",
-    "noAnswer2": "Bunday nomdagi funksiya yo’q.",
-    "noAnswer3": "Modelni testlash davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamadaberilgan qiymat oralidagi farqlarni hisoblash funksiyasi"
-  },
-  {
-    "question": "Chiziqli regression model nechta qiymat qaytaradi",
-    "answer": "Har doim bitta",
-    "noAnswer1": "Ixtiyoriy ravishdagi sonda qiymat qaytarishi mumkin",
-    "noAnswer2": "Har doim bittadan ko’p",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "QR code mashinali o’qitilish algoritmi asosida ishlab chiqilgan ?",
-    "answer": "Noto’g’ri,",
-    "noAnswer1": "To’g’ri",
-    "noAnswer2": "Bo’lishi mumkin",
-    "noAnswer3": "Bilmayman"
-  },
-  {
-    "question": "Bias va Variance tushunchalarining farqi nimada?",
-    "answer": "Bias modelni train to’plam bilan testlagandagi xatolik, Variance esa test to’plambilantestlagandagi xatolik",
-    "noAnswer1": "Bias modelni test to’plam bilan testlagandagi xatolik, Variance esa train to’plambilantestlagandagi xatolik",
-    "noAnswer2": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat test\r\nto’plam bilan testlagandagi xatolik",
-    "noAnswer3": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat trainto’plam bilan testlagandagi xatolik"
-  },
-  {
-    "question": "Agar bias yuqori bo’lsa qaysi turdagi muammo sodir bo’lmoqda?",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Bias ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda murakkab"
-  },
-  {
-    "question": "Agar Variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Variance ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda sodda"
-  },
-  {
-    "question": "Agar biass quyi va variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Bias ni quyi variance ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda sodda"
-  },
-  {
-    "question": "Model murakkab bo’lsa bias qanday bo’ladi?",
-    "answer": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi past bo’ladi",
-    "noAnswer1": "To’g’ri javob yo’q",
-    "noAnswer2": "Bias ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas.",
-    "noAnswer3": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi yuqori\r\nbo’ladi"
-  },
-  {
-    "question": "Model murakkab bo’lsa variance qanday bo’ladi?",
-    "answer": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi yuqori\r\nbo’ladi",
-    "noAnswer1": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi past bo’ladi",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Variance ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas."
-  },
-  {
-    "question": "Uy narxini bashorat qilish uchun mashinali o’qitishning qaysi algoritmidan foydalanadi",
-    "answer": "Chiziqli regressiya",
-    "noAnswer1": "Logistik regressiya",
-    "noAnswer2": "Kmeans",
-    "noAnswer3": "SVM"
-  },
-  {
-    "question": "O’ratuvchi tanlamadagi test to’plam bu?",
-    "answer": "modelni testlash uchun ishlatiladi",
-    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
-  },
-  {
-    "question": "O’rgatuvchi tanlamada normallashtirish tushunchasi bu?",
-    "answer": "O’ratuvchi tanlamdagi qiymatlarni bir xil shkalaga o’tkazish",
-    "noAnswer1": "O’ratuvchi tanlamdagi qiymatlarni turli xil shkalaga o’tkazish",
-    "noAnswer2": "O’ratuvchi tanlamdagi qiymatlarni faqat [0,1] shkalaga o’tkazish",
-    "noAnswer3": "O’ratuvchi tanlamdagi qiymatlarni faqat [-1,1] shkalaga o’tkazish"
-  },
-  {
-    "question": "Logistik regressiya masalasida asosan qaysi aktivlashtirish funksiyasidan foydalaniladi?",
-    "answer": "Sigmoid",
-    "noAnswer1": "Tanh",
-    "noAnswer2": "ReLU",
-    "noAnswer3": "Sigmoid va ReLU"
-  },
-  {
-    "question": "Nima uchun o’rgatuvchi tanlama normallashtiriladi?",
-    "answer": "Obyektni xarakterlovchi xususiyatlari bir xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish",
-    "noAnswer1": "Obyektni xarakterlovchi xususiyatlari faqat [0,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
-    "noAnswer2": "Obyektni xarakterlovchi xususiyatlari faqat [-1,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
-    "noAnswer3": "Obyektni xarakterlovchi xususiyatlari turli xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish"
-  },
-  {
-    "question": "Validation dataset qayerda ishlatiladi?",
-    "answer": "Modelni qurish davomida paramertlarni sozlashda",
-    "noAnswer1": "Model qurib bo’linganidan so’ng aniqlikni baholashda",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Validation datasetdan foydalanilmaydi"
-  },
-  {
-    "question": "Klasterlash bu ?",
-    "answer": "O’qituvchisiz o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
-    "noAnswer1": "O’qituvchili o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
-    "noAnswer2": "Mashinali o’qitishda buday tushuncha yo’q.",
-    "noAnswer3": "Logistik regressiya asosida amalga oshiriladigan mashinali o’qitish algoritmi"
-  },
-  {
-    "question": "KNN algoritmida k qiymat nimani xaratterlaydi?",
-    "answer": "k ta eng yaqin qo’shnini",
-    "noAnswer1": "k ta eng uzoq qo’shnini",
-    "noAnswer2": "O’qitish qadami",
-    "noAnswer3": "O’qitishlar sonini"
-  },
-  {
-    "question": "Logistik regressiyada qaror qabul qilishimiz uchun modeldan olingan qiymat qaysi bo’sag’aqiymati orqali solishtiriladi?",
-    "answer": "0.5",
-    "noAnswer1": "0",
-    "noAnswer2": "1",
-    "noAnswer3": "-1 va 1"
-  },
-  {
-    "question": "Nima uchun logistik regressiyada sigmoid funksiyadan foydalaniladi?",
-    "answer": "qiymatlarni (0,1) oraliqda keltirish",
-    "noAnswer1": "qiymatlarni [-1,1] oraliqda keltirish",
-    "noAnswer2": "qiymatlarni [0,1] oraliqda keltirish",
-    "noAnswer3": "qiymatlarni (-1,1) oraliqda keltirish"
-  },
-  {
-    "question": "SVM algoritmida suppor vectors bu?",
-    "answer": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlaydi",
-    "noAnswer1": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlaydi",
-    "noAnswer2": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlamaydi",
-    "noAnswer3": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlamaydi"
-  },
-  {
-    "question": "SVM algoritmidagi hisoblaanadigan orqaliq (margin) qanday bo’lsa model ishonchli debtopiladi?",
-    "answer": "Oraliq eng kattta bo’lsa",
-    "noAnswer1": "Oraliq eng kichik bo’lsa",
-    "noAnswer2": "Oraliq hech narsani anglatmaydi",
-    "noAnswer3": "To’gri javob yo’q"
-  },
-  {
-    "question": "SVM algoritmida yadro(kernel) funksiyalari nima uchun xizmat qiladi?",
-    "answer": "Kiruvchi xususiyatlarni ma’lum o’lchov sohasidan boshqasiga o’zgartirish uchun xizmat qiladi. Misol uchun 1D -&gt; 2D",
-    "noAnswer1": "Kiruvchi xususiyatlarni 1D o’lchov sohasidan 2D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
-    "noAnswer2": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 1D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
-    "noAnswer3": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 3D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi"
-  },
-  {
-    "question": "SVM orqali ..",
-    "answer": "Faqat bir nechta sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer1": "Faqat ikkita sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer2": "Faqat regressiya masalasini yechish mumkin",
-    "noAnswer3": "Ham sinflashrish, ham regressiya masalasini ishlash mumkin."
-  },
-  {
-    "question": "Modelni o’qitish uchun o’quv tanlanma (dataset) qanday turlarga bo’lindi",
-    "answer": "training, validation, testing",
-    "noAnswer1": "testing, value-x, training",
-    "noAnswer2": "validation, labels, training",
-    "noAnswer3": "labels, validation, testing"
-  },
-  {
-    "question": "O’qitish uchun ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan, model turg’unligigata’sir qiluvchi ma’lumotlarni olib tashlash jarayoni nima deb ataladi",
-    "answer": "Ma’lumotlarni tozalash (Data cleaning)",
-    "noAnswer1": "Xususiyatlarni aniqlash (Feature detection)",
-    "noAnswer2": "Ma’lumotlarni o’chirish (Data deletion)",
-    "noAnswer3": "Ma’lumotlar turini aniqlash (Data formatting)"
-  },
-  {
-    "question": "Neyron tarmoqlarida sinflashtirish masalasini yechishda chiquvchi qatlamda qaysi turdagi\r\naktivlash funksiyasidan foydalaniladi",
-    "answer": "Softmax",
-    "noAnswer1": "Sigmoid",
-    "noAnswer2": "ReLu",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Logistik regression model nima uchun ishlatiladi",
-    "answer": "Sinflashtirsh masalasini yechish uchun",
-    "noAnswer1": "Klasterlash masalasini ishlash uchun",
-    "noAnswer2": "Neyron tarmoqni qurish uchun",
-    "noAnswer3": "Qiymatni bashoratlash uchun"
-  },
-  {
-    "question": "Numpy kutubxonasidagi polyfit() funksiyasi nima uchun ishlatiladi?",
-    "answer": "Chiziqli regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer1": "Loginstik regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer2": "Chiziqli va logistik regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer3": "Polynom funksiya yaratish uchun"
-  },
-  {
-    "question": "Numpy kutubxonasidagi poly1d() funksiyasi nima uchun ishlatiladi?",
-    "answer": "Berilgan parametrlar asosida polinomal funksiya hosil qilish",
-    "noAnswer1": "Berilgan parametrlar asosida polinomal Class hosil qilish",
-    "noAnswer2": "Berilgan parametrlar asosida logistik regressiya modelini qurish",
-    "noAnswer3": "Berilgan parametrlar asosida giperbolik regressiya modelini qurish"
-  },
-  {
-    "question": "Neyron tarmoqlarini qurishga mo’ljallangan python kutubxonalarini ko'rsating.",
-    "answer": "Numpy, keras, tensorflow",
-    "noAnswer1": "Numpy, pandas, keras",
-    "noAnswer2": "Tensorflow, numpy, pandas",
-    "noAnswer3": "Python, Matlab, Octave"
-  },
-  {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": "Format, Data Cleaning, Feature Extraction",
-    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
-    "noAnswer2": "Resizing, Feature Extraction, Format",
-    "noAnswer3": "Format, Resizing, Data Cleaning"
-  },
-  {
-    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
-    "answer": "chiziqli, nochiziqli va logistik regressiya usullari asosida",
-    "noAnswer1": "sintaktik usullar asosida",
-    "noAnswer2": "dinamik usillar asosida",
-    "noAnswer3": "semantik usullari asosida"
-  },
-  {
-    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviyma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonningbosqichlari hisoblanadi",
-    "answer": "Mashinali o’qitish",
-    "noAnswer1": "Chuqur o’qitish",
-    "noAnswer2": "Regression tahlil",
-    "noAnswer3": "Statistik tahlil"
-  },
-  {
-    "question": "Keras bu – ...",
-    "answer": "tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
-    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
-  },
-  {
-    "question": "Tensorflow bu – ...",
-    "answer": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
-  },
-  {
-    "question": "Sklearn bu - …",
-    "answer": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalgaoshirishga mo’ljallangan maxsus paket",
-    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishgamo’ljallangan hisoblanadi",
-    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitishalgortimlarini ishlab chiqishga mo’ljallangan",
-    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili\r\nalgoritmlarini amalga oshirishga mo’ljallangan maxsus paket"
-  },
-  {
-    "question": "Chiziqli va logistik regression model qurilayotganda bitta o’rgatuvchi tanlamadan foydalansabo’ladimi?",
-    "answer": "Ha, faqat yorliqlari uchun ikkita qiymat saqlangan bo’lsa",
-    "noAnswer1": "Ha, regression model uchun hamma vaqt dataset bir xilda bo’ladi.",
-    "noAnswer2": "Buning imkoni yo’q",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Chiziqli regresiya va Logistik regresiya uchun Cost funksiyasi bir xilda bo’ladimi?",
-    "answer": "Yoq",
-    "noAnswer1": "Ha",
-    "noAnswer2": "Logistik regressiyada cost funksiyasi bo’lmaydi",
-    "noAnswer3": "Chiziqli regressiyada cost funksiyasi bo’lmaydi"
-  },
-  {
-    "question": "Python ning scipy kutubxonasidan qaysi Classs chiziqli regressiya modelini qurishdaishlatiladi",
-    "answer": "stats",
-    "noAnswer1": "sklearn",
-    "noAnswer2": "numpy",
-    "noAnswer3": "ployfit"
-  },
-  {
-    "question": "Python sklearn kutubxonasidagi qaysi Classs chiziqli regressiya modelini qurishda ishlatiladi",
-    "answer": "LinearRegression",
-    "noAnswer1": "Polyfit",
-    "noAnswer2": "poly1d",
-    "noAnswer3": "Linear_model"
-  },
-  {
-    "question": "Chiziqli regressiyada modelni murakkab tanlansa qaysi turdagi muammo yuzaga keladi",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Model aniq ishlaydigan bo’lib, shakllanadi.",
-    "noAnswer3": "Muammo sodir bo’lmaydi"
-  },
-  {
-    "question": "Chiziqli regressiyada modelni sodda tanlansa qaysi turdagi muammo yuzaga keladi",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Muammo sodir bo’lmaydi"
-  },
-  {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 65% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Everfitting"
-  },
-  {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 25% aniqliq va test dataset bilan testlaganimizda 95% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Everfitting"
-  },
-  {
-    "question": "KMaens algoritmida qo’llaniladigan ikki nuqta orasidagi masofa … deb yuritiladi.Nutqlar\r\no’rniga mos variantni qo’ying.",
-    "answer": "Euclidean masofasi",
-    "noAnswer1": "Chebyshev masofasi",
-    "noAnswer2": "Manhattan masofasi",
-    "noAnswer3": "Minkowski masofasi"
-  },
-  {
-    "question": "Gradient tushish algoritmidagi ‘learning rate’ parameter nimani xarakterlaydi?",
-    "answer": "O’qish qadamini",
-    "noAnswer1": "O’qishitda takrorlanishlar sonini",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Model aniqligini"
-  },
-  {
-    "question": "UCI Machine Learning Repository nima ?",
-    "answer": "Mashinili o’qitishning ochiq manbali datasetlarini qidirishga mo’ljallangan tizim",
-    "noAnswer1": "GitHub Repository",
-    "noAnswer2": "Gitlab Repository",
-    "noAnswer3": "Kaggle Repository"
-  },
-  {
-    "question": "Google Dataset Search qancha ma’lumotni qamrab oladi?",
-    "answer": "25 mln",
-    "noAnswer1": "250mln",
-    "noAnswer2": "15mln",
-    "noAnswer3": "6mln"
-  },
-  {
-    "question": "Python array bu -",
-    "answer": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan",
-    "noAnswer1": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Python list bu -",
-    "answer": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Python tuple bu -",
-    "answer": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Mashinali o’qitishda samaradorlikni baholash uchun qanday matritsadan foydalaniladi?",
-    "answer": "Tartibsizlik matritsasi (confusion matrix)",
-    "noAnswer1": "Aniqliq matritsasi (accuracy matrix)",
-    "noAnswer2": "Xatolik matritsasi (loss matrix)",
-    "noAnswer3": "Barchasi to’g’ri"
-  },
-  {
-    "question": "pip freeze",
-    "answer": "Environment o’rnatilgan barcha paketlar ro’yxatini chop qiladi",
-    "noAnswer1": "Environment o’rnatilgan eng oxirgi paketlar ro’yxatini chop qiladi",
-    "noAnswer2": "Environment o’rnatilgan eng oxirgi 10 ta paket ro’yxatini chop qiladi",
-    "noAnswer3": "Environment o’rnatilgan mashinali o’qitishga xizmat qiladigan paketlar ro’yxatini chop qilish"
-  },
-  {
-    "question": "pip install numpy as np",
-    "answer": "Xatolik sodir bo’ladi",
-    "noAnswer1": "Numpy kutubxonasi o’rnatiladi",
-    "noAnswer2": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "import numpy as nb",
-    "answer": "Numpy kutubxonasi yuklash va quyida uni nb deb yuritish mumkin",
-    "noAnswer1": "Xatolik sodir bo’ladi",
-    "noAnswer2": "Numpy kutubxonasi o’rnatiladi",
-    "noAnswer3": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin"
-  },
-  {
-    "question": "Agar mashinali o’qitish qo’llaniladigan sklearn kutubxonasi o’rnatilmagan bo’lsa uni\r\nqanday o’rnatish mumkin.",
-    "answer": "Barchasi to’g’ri",
-    "noAnswer1": "pip install sklearn",
-    "noAnswer2": "conda install scikit-learn",
-    "noAnswer3": "pip install scikit-learn"
-  },
-  {
-    "question": "O’rgatuvchi tanlamasiz(dataset siz) mashinali o’qitish algoritmlarini ishlata olamizmi",
-    "answer": "Imkoni yoq",
-    "noAnswer1": "Ha, albatta",
-    "noAnswer2": "Ba’zan",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Python muhitida neyron tarmoq qurish uchun qaysi paketlardan foydalaniladi?",
-    "answer": "keras, tensorflow",
-    "noAnswer1": "tensorflow, pandas",
-    "noAnswer2": "numpy, matplotlib",
-    "noAnswer3": "pandas, opencv"
-  },
-  {
-    "question": "Keras muhitida modelni testlash uchun mavjud funksiyalardan qaysi biri ishlatiladi?",
-    "answer": "fit()",
-    "noAnswer1": "compile()",
-    "noAnswer2": "evaluate()",
-    "noAnswer3": "test()"
-  },
-  {
-    "question": "O’qituvchili o’qitish (supervised learning) nima?",
-    "answer": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) hamishlatish",
-    "noAnswer1": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
-    "noAnswer2": "modelni o’qitish uchun tasvir ma’lumotlaridan (image) foydalanish",
-    "noAnswer3": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish"
-  },
-  {
-    "question": "Keras muhitida qurilgan neyron tarmoqda joriy qatlam uchun faollashtirish funksiyasini\r\nqo’shishda quyidagilarning qaysi biridan foydalaniladi?",
-    "answer": "model.add(Activation(‘relu’))",
-    "noAnswer1": "model.insert(Activation(‘relu’))",
-    "noAnswer2": "model.function(Activate(‘relu’))",
-    "noAnswer3": "model.add(ActiveFunction(‘relu’))"
-  },
-  {
-    "question": "O’qituvchisiz (unsupervised) o’qitish algortimlari to’g’ri ko’rsatilgan javobni ko’rsating?",
-    "answer": "k-means clustering, hierarchical clustering, independent component analysis",
-    "noAnswer1": "linear regression, nearest neighbor, random forest, decision tree",
-    "noAnswer2": "k-means clustering, deep learning, logistic regression, random forest",
-    "noAnswer3": "k-nn, decision tree, linear regression, k-means clustering"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) nima?",
-    "answer": "modelni o’qitish uchun ma’lumotlarni belgisisiz (data without label) ishlatish",
-    "noAnswer1": "modelni o’qitish uchun faqat ma’lumotlar belgisini (label) ishlatish",
-    "noAnswer2": "modelni o’qitish uchun ma’lumotlar bilan birgalikda ularning belgisini (data+label) hamishlatish",
-    "noAnswer3": "modelni o’qitish uchun tasvir ma’lumotlari va ularning belgilaridan (image+label) foydalanish"
-  },
-  {
-    "question": "Sigmoid funksiyasini hisoblash formulasini ko’rsating?",
-    "answer": "sig(x)=1/(1+exp(-x))",
-    "noAnswer1": "sig(x)=1/(1-exp(x))",
-    "noAnswer2": "sig(x)=1/exp(-x)",
-    "noAnswer3": "sig(x)=1/exp(x)"
-  },
-  {
-    "question": "Mashinali o’qitish nima?",
-    "answer": "kompyuter dasturining ma’lumotlarni o’qib olish asosida xususiyatlarni o’rganish qobiliyatidir",
-    "noAnswer1": "faqat kompyuter o’yinlarini yaratish uchun dastur xususiyatlarni o’rganish qobiliyatidir",
-    "noAnswer2": "bu robotni o’rgatishning an’anaviy usuli",
-    "noAnswer3": "kompyuter dasturlarini lug’at yordamida o’qitish usuli"
-  },
-  {
-    "question": "Pythonda massivni e’lon qilish uchun qanday toifalardan foydalaniladi?",
-    "answer": "array, matrix",
-    "noAnswer1": "tuple, arr",
-    "noAnswer2": "list, tuple",
-    "noAnswer3": "arr, list"
-  },
-  {
-    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
-    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
-    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
-    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
-    "noAnswer3": "Oddiy algoritm"
-  },
-  {
-    "question": "…… bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir. Nuqtalar o’rniga quyidagilardan mos keldiganini qo’ying?",
-    "answer": "perceptron",
-    "noAnswer1": "sigmoid funksiyasi",
-    "noAnswer2": "neyron",
-    "noAnswer3": "ReLU funksiyasi"
-  },
-  {
-    "question": "Regressiya nima?",
-    "answer": "ma’lumotlarni intellektual tahlil qilish usullaridan biri",
-    "noAnswer1": "ma’lumotlarni ustida arifmetik usullaridan biri",
-    "noAnswer2": "ma’lumotlarni raqamli ishlov berish usullaridan biri",
-    "noAnswer3": "ma’lumotlarni jamlash usullaridan biri"
-  },
-  {
-    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(0,10,2) ifodasida i indekso’zgaruvchisiga qanday qiymatlar keladi?",
-    "answer": "0 2 4 6 8",
-    "noAnswer1": "0 2 10",
-    "noAnswer2": "0 10",
-    "noAnswer3": "2 4 6 8 10"
-  },
-  {
-    "question": "Supervised o’qitish algoritmlari asosan qanday masalani yechishga qaratilgan?",
-    "answer": "regressiya va sinflashtirish masalasiga",
-    "noAnswer1": "statistik usullar yordamida ma’lumotlarni ajratish masalasiga",
-    "noAnswer2": "statistik usullar yordamida ma’lumotlarni sinflashtirish masalasiga",
-    "noAnswer3": "sinflashtirish va segmentlash masalasiga"
-  },
-  {
-    "question": "Neyron tarmoqda qanday turdagi qatlamlar (layers) bo’lishi mumkin?",
-    "answer": "kiruvchi, chiquvchi, yashirin",
-    "noAnswer1": "kiruvchi, yashirin, oraliq",
-    "noAnswer2": "qabul qiluvchi, hisoblovchi, chiquvchi",
-    "noAnswer3": "kiruvchi, qabul qiluvchi, chiquvchi"
-  },
-  {
-    "question": "Chiziqli regression model nima uchun ishlatiladi?",
-    "answer": "bashorat qilish uchun",
-    "noAnswer1": "mantiqiy model qurish uchun",
-    "noAnswer2": "sinflashtirish masalasini yechish uchun",
-    "noAnswer3": "segmentlash masalasini yechish uchun"
-  },
-  {
-    "question": "Neyron tarmoq nima?",
-    "answer": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi tuzilma",
-    "noAnswer1": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi dataset",
-    "noAnswer2": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi dataset",
-    "noAnswer3": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi tuzilma"
-  },
-  {
-    "question": "Sun’iy intellekt deganda nimani tushunasiz?",
-    "answer": "insonning onggi kabi fikrlovchi dastur",
-    "noAnswer1": "oddiy kompyuter dasturi",
-    "noAnswer2": "qaror qabul qiluvchi ilovalar",
-    "noAnswer3": "bunday termin fanda mavjud emas"
-  },
-  {
-    "question": "Sun'iy intellekt bu …?",
-    "answer": "bu kompyuterda insonning aqlli xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
-    "noAnswer1": "bu kompyuterda insonning jismoniy xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
-    "noAnswer2": "bu kompyuterda insonning bialogik xatti harakatlarini qanday amalga oshirishni o'rganadigantadqiqot sohasi",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Keras kutubxonasidagi Sequential() nima vazifani bajaradi?",
-    "answer": "neyron tarmoq modelini qurish uchun dastlabki obyektni yaratadi",
-    "noAnswer1": "ketma-ket kamida 2 qatlamdan iborat neyron tarmoq quradi",
-    "noAnswer2": "neyron tarmoq modelini o’qitish uchun ishlatiladi",
-    "noAnswer3": "qurilgan neyron tarmoqni ketma-ket ko’rinishga keltiradi"
-  },
-  {
-    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(10) ifodasida i indekso’zgaruvchisiga qanday qiymatlar keladi?",
-    "answer": "0 1 2 3 4 5 6 7 8 9",
-    "noAnswer1": "0 1 2 3 4 5 6 7 8 9 10",
-    "noAnswer2": "0 9",
-    "noAnswer3": "1 2 3 4 5 6 7 8 9 10"
-  },
-  {
-    "question": "Qanday turdagi faollashtirish funksiyalari mavud?",
-    "answer": "ReLU, sigmoid, softmax",
-    "noAnswer1": "loss, sigmoid, ReLU",
-    "noAnswer2": "ReLU, cost, softmax",
-    "noAnswer3": "cost, loss, sigmoid"
-  },
-  {
-    "question": "Chuqur o’qitish – bu?",
-    "answer": "bu ko'p qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilganjarayondir",
-    "noAnswer1": "bu bir qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilganjarayondir",
-    "noAnswer2": "bu bu modelni qurib olish uchun amalga oshiriladigan o’qitish jarayonidir",
-    "noAnswer3": "bu modelni tezroq va aniqroq qurib olish uchun amalga oshiriladigan jarayon"
-  },
-  {
-    "question": "Python muhitida turli xil matematik funksiya grafiklarini va tasvirlarni vizuallashtirish uchunishlatiladigan paket qaysi?",
-    "answer": "matplotlib",
-    "noAnswer1": "keras",
-    "noAnswer2": "pandas",
-    "noAnswer3": "numpy"
-  },
-  {
-    "question": "Sun’iy neyron tarmoq tashkil etuvchilarini ko’rsating?",
-    "answer": "node, input, weights, output",
-    "noAnswer1": "cell body, dendrites, synapse, axon",
-    "noAnswer2": "input, dendrites, synapse, output",
-    "noAnswer3": "synapse, axon, weights, node"
-  },
-  {
-    "question": "Python muhitida scatter() funksiyasi qanday vazifani bajaradi?",
-    "answer": "berilgan x,y to'plam bo’yicha 2 o’lchovli grafigini chizish uchun ishlatiladi",
-    "noAnswer1": "chiziqli regression model koeffitsentlarini (ko’pi bilan 3 ta) hisoblaydi",
-    "noAnswer2": "polinomial regression model koeffitsentlarini hisoblaydi",
-    "noAnswer3": "qurilgan model koeffitsentlari bo’yicha bashorat qilinadigan qiymatlarni hisoblaydi"
-  },
-  {
-    "question": "pip install tensorflow buyrug’i asosida nima sodir bo’ladi?",
-    "answer": "tensorflow kutubxonasi o’rnatiladi",
-    "noAnswer1": "keras va tensorflow kutubxonasi o’rnatiladi",
-    "noAnswer2": "tensorflow kutubxonasi chaqiriladi",
-    "noAnswer3": "keras va tensorflow kutubxonasi chaqiriladi"
-  },
-  {
-    "question": "Biologik neyron tarmoq tashkil etuvchilarini ko’rsating?",
-    "answer": "cell body, dendrites, synapse, axon",
-    "noAnswer1": "input, dendrites, synapse, output",
-    "noAnswer2": "node, input, weights, output",
-    "noAnswer3": "synapse, axon, weights, node"
-  },
-  {
-    "question": "Dataset bu nima?",
-    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
-    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
-    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
-    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
-  },
-  {
-    "question": "Convolutional neural networks (CNN) – bu?",
-    "answer": "bu ko'p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
-    "noAnswer1": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
-    "noAnswer2": "bu ko’p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli",
-    "noAnswer3": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli"
-  },
-  {
-    "question": "Sun’iy intellektga asoslangan dasturlarni ishlab chiqishdan maqsad nima?",
-    "answer": "mustaqil fikrlovchi va qaror qabul qiluvchi dasturlarni hayotga tadbiq qilish",
-    "noAnswer1": "vaqtni maroqli o‘tkazish",
-    "noAnswer2": "insonlarning yashash darajasini yaxshilash",
-    "noAnswer3": "ortiqcha sarf-xarajatni kamaytirish"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o’zgaradi?",
-    "answer": "0",
-    "noAnswer1": "5",
-    "noAnswer2": "-5",
-    "noAnswer3": "3,5"
-  },
-  {
-    "question": "Mashinani o’qitish turlari to’g’ri ko’rsatilgan javobni tanlang?",
-    "answer": "supervised, unsupervised, Semi-supervised, reinforcement",
-    "noAnswer1": "regressiya, Ehtimollar nazariyasi, Supervised, unsupervised",
-    "noAnswer2": "supervised, unsupervised, Regressiya, Sinflashtirish",
-    "noAnswer3": "regressiya, Sinflashtirish, Semi-supervised, reinforcement"
-  },
-  {
-    "question": "Neyron tarmoqlari bu…?",
-    "answer": "Neyron tarmoqlari juda ko’p muhim xususiyatlarga ega, ammo asosiysi bu o’rganishqobiliyatidir.",
-    "noAnswer1": "Neyron tarmoqlari ma’lumotlarni bog’lash uchun xizmat qiladi.",
-    "noAnswer2": "Bunday tarmoq mavjud emas",
-    "noAnswer3": "Ikkilik kod sifatidagi algoritm"
-  },
-  {
-    "question": "Mashinali o’qitishda asosan qaysi instrumental vositalardan foydalaniladi",
-    "answer": "Python, Matlab, Octave",
-    "noAnswer1": "Python,NLP,Keras",
-    "noAnswer2": "Numpy,Pandas",
-    "noAnswer3": "Python,Keras,Pandas"
-  },
-  {
-    "question": "KNN bu - …",
-    "answer": "Barchasi to’gri",
-    "noAnswer1": "Klasterlash algoritmi",
-    "noAnswer2": "Regressiya algoritmi",
-    "noAnswer3": "Sinflashrirish algoritmi"
-  },
-  {
-    "question": "Chiziqli regressiyaga to’g’ri ta’rifni toping?",
-    "answer": "Chiziqli regressiya kuzatilgan ma'lumotlarga chiziqli tenglamani bog’lash orqali ikkitao'zgaruvchi o'rtasidagi munosabatni modellashtirishga aytiladi.",
-    "noAnswer1": "Chiziqli regressiya ma’lumotlarni klassifikatsiyalaydi.",
-    "noAnswer2": "Chiziqli Regressiya bu tanlangan ma’lumotlar ichidan kerakli ma’lumotni qidirish algoritmi.",
-    "noAnswer3": "To’g’ri javob yo’q."
-  },
-  {
-    "question": "Quyidagi usullardan qaysi biri har qanday chiziqli bo'linadigan ma'lumotlar to'plamida nol\r\no'qitish(zero training) xatosiga erishishi mumkin?",
-    "answer": "KNN",
-    "noAnswer1": "Qaror daraxti",
-    "noAnswer2": "SVM(support vector machine)",
-    "noAnswer3": "CNN"
-  },
-  {
-    "question": "CNN bu…?",
-    "answer": "Svyortkali neyron tarmoq",
-    "noAnswer1": "Adamar neyron tarmog’i",
-    "noAnswer2": "K ta yaqin qo’shnilar",
-    "noAnswer3": "Qayta murojaat neyron tarmog’i"
-  },
-  {
-    "question": "KNN bu…?",
-    "answer": "K ta yaqin qo’shnilar agoritmi",
-    "noAnswer1": "Svyortkali neyron tarmoq",
-    "noAnswer2": "Adamar almashtririshli Neyron tarmoq",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
-    "answer": "Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali\r\no’qitishda aqlli mashinalarga dasturlashning muqobil usulidir.",
-    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
-    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
-    "answer": "mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilano’qitish amalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchunmodelga o'z ustida ishlashga imkon yaratib beriladi",
-    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
-    "noAnswer2": "Bunday o’qitish mavjud emas",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
-    "answer": "klasterlash",
-    "noAnswer1": "normallashtirish",
-    "noAnswer2": "sinflashtirish",
-    "noAnswer3": "Signallarga ishlov berish"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
-    "answer": "Hierarchical clustering va K-means clustering",
-    "noAnswer1": "SVM va CNN",
-    "noAnswer2": "RNN va GMM",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Ma’lumotlarni tozalashga to'liq ta'rif berilgan qatorini toping?",
-    "answer": "Ushbu bosqichda ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan model\r\nturg’unligiga ta’sir qiluvchi ma’lumotlar olib tashlanadi.",
-    "noAnswer1": "Dataset ma’lumotlarini testlash",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Qaror daraxtidan ma’lumotlarni olib tashlash"
-  },
-  {
-    "question": "Xususiyatlarni ajratib olishga to'liq ta'rif berilgan qatorini toping?",
-    "answer": "o’qituvchi to’plamdagi ma’lumotlar xususiyatlari o’rganib chiqiladi va bashoratlash, tashxislash, sinflashtirish, qaror qabul qilish uchun kerakli xususiyatlar ajratib olish",
-    "noAnswer1": "Qaror qabul qilish daraxti qiymatlari",
-    "noAnswer2": "Sinflashtirish masalasini yechish algoritmi to’plami",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati 0.5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "0.5",
-    "noAnswer1": "1",
-    "noAnswer2": "0",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "Chiziqli regressiya qaysi mashinali o’qitish algoritmlari tarkibiga kiradi?",
-    "answer": "O’qituvchili o’qitish",
-    "noAnswer1": "O’qituvchisiz o’qitish",
-    "noAnswer2": "Reinforcementli o'qitish",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati 2.5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "2,5",
-    "noAnswer1": "2",
-    "noAnswer2": "0",
-    "noAnswer3": "44595"
-  },
-  {
-    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
-    "answer": "Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali\r\no’qitishda aqlli mashinalarga dasturlashning muqobil usulidir.",
-    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
-    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
-    "answer": "O’qtuvchili va O’qituvchisiz",
-    "noAnswer1": "Tanlanma",
-    "noAnswer2": "Ma’lumotlar bazasi",
-    "noAnswer3": "Chiziqli va logistik"
-  },
-  {
-    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
-    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
-    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
-    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
-    "noAnswer3": "Oddiy algoritm"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
-    "answer": "mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilano’qitish amalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchunmodelga o'z ustida ishlashga imkon yaratib beriladi",
-    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
-    "noAnswer2": "Bunday o’qitish mavjud emas",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Unsupervised learning usulida asosan qanday masala yechiladi?",
-    "answer": "klasterlash",
-    "noAnswer1": "normallashtirish",
-    "noAnswer2": "sinflashtirish",
-    "noAnswer3": "Signallarga ishlov berish"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish algoritmlari qaysi?",
-    "answer": "Hierarchical clustering va K-means clustering",
-    "noAnswer1": "SVM va CNN",
-    "noAnswer2": "RNN va GMM",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur o’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
-    "answer": "hozirda tasvirlardan ob’ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalardakeng foydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
-    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli\r\nfodalanilmaydi",
-    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
-    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
-  },
-  {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": "Format, Data Cleaning, Feature Extraction",
-    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
-    "noAnswer2": "Resizing, Feature Extraction, Format",
-    "noAnswer3": "Format, Resizing, Data Cleaning"
-  },
-  {
-    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
-    "answer": "chiziqli, nochiziqli va logistik regressiya usullari asosida",
-    "noAnswer1": "sintaktik usullar asosida",
-    "noAnswer2": "dinamik usillar asosida",
-    "noAnswer3": "semantik usullari asosida"
-  },
-  {
-    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviyma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonningbosqichlari hisoblanadi",
-    "answer": "Mashinali o’qitish",
-    "noAnswer1": "Chuqur o’qitish",
-    "noAnswer2": "Regression tahlil",
-    "noAnswer3": "Statistik tahlil"
-  },
-  {
-    "question": "Keras bu – ...",
-    "answer": "tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
-    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
-  },
-  {
-    "question": "Tensorflow bu – ...",
-    "answer": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
-  },
-  {
-    "question": "Sklearn bu - …",
-    "answer": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalgaoshirishga mo’ljallangan maxsus paket",
-    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishgamo’ljallangan hisoblanadi",
-    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitishalgortimlarini ishlab chiqishga mo’ljallangan",
-    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili\r\nalgoritmlarini amalga oshirishga mo’ljallangan maxsus paket"
-  },
-  {
-    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
-    "answer": "neyron tarmoqlar asosida",
-    "noAnswer1": "lokal tarmoqlar asosida",
-    "noAnswer2": "global tarmoqlar asosida",
-    "noAnswer3": "internet tarmoqlar asosida"
-  },
-  {
-    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "6"
-  },
-  {
-    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
-    "answer": "O’qtuvchili va O’qituvchisiz",
-    "noAnswer1": "Tanlanma",
-    "noAnswer2": "Ma’lumotlar bazasi",
-    "noAnswer3": "Chiziqli va logistik"
-  },
-  {
-    "question": "Modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "answer": "Semi-supervised learning",
-    "noAnswer1": "Reinforcement learning",
-    "noAnswer2": "Unsupervised learning",
-    "noAnswer3": "Supervised learning"
-  },
-  {
-    "question": "Modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "answer": "Unsupervised learning",
-    "noAnswer1": "Supervised learning",
-    "noAnswer2": "Semi-supervised learning",
-    "noAnswer3": "Reinforcement learning"
-  },
-  {
-    "question": "Bir o’zgaruvchili chiziqli regressiya bu - ….",
-    "answer": "Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat\r\nqiladigan model yaratish",
-    "noAnswer1": "Bashoratlash uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib bashoratlashgaxizmat qiladigan model yaratish",
-    "noAnswer2": "Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat\r\nqiladigan model yaratish",
-    "noAnswer3": "Siflashtirish uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib siflashtirishgaxizmat qiladigan model yaratish"
-  },
-  {
-    "question": "Ko’p o’zgaruvchili chiziqli regressiya bu -...",
-    "answer": "Bashoratlash uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib bashoratlashgaxizmat qiladigan model yaratish",
-    "noAnswer1": "Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat\r\nqiladigan model yaratish",
-    "noAnswer2": "Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat\r\nqiladigan model yaratish",
-    "noAnswer3": "Siflashtirish uchun obyektni xarakterlovchi ko’p sondagi xususiyatlarini olib siflashtirishgaxizmat qiladigan model yaratish"
-  },
-  {
-    "question": "Logistik regressiya bu?",
-    "answer": "Regression tahlil asosida sinflashtirish masalasini yechish",
-    "noAnswer1": "Regression tahlil asosida klasterlash masalasini yechish",
-    "noAnswer2": "Regression tahlil asosida bashoratlash masalasini yechish",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "O’ratuvchi tanlamadagi val (validation) to’plam bu?",
-    "answer": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer2": "modelni testlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
-  },
-  {
-    "question": "O’qitish jarayonida regulyarizatsiyalash bu?",
-    "answer": "Modelni o’qitish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
-    "noAnswer1": "Barcha javob to’g’ri",
-    "noAnswer2": "Modelni testlash jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
-    "noAnswer3": "Modelni qurish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish"
-  },
-  {
-    "question": "KNN algoritmida k ni katta tanlasak nima sodir bo’ladi?",
-    "answer": "Model qurish vaqti oshib ketadi. Bazan k ning katta tanlanishi sinflashtirishda xatolikka ko’puchrashi mumkin",
-    "noAnswer1": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer2": "KNN algoritmida k parametr yo’q.",
-    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
-  },
-  {
-    "question": "Modelni qurishda bo’ladigan Underfitting muammosi bu?",
-    "answer": "Model train to’plmada ham, test to’plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan.",
-    "noAnswer1": "Model train to’plmada ham, test to’plamda ham yuqori aniqlik bermaydi. Model murakkabtuzilgan.",
-    "noAnswer2": "Model train to’plmada yuqori, test to’plamda esa past aniqlik beradi. Model sodda tuzilgan.",
-    "noAnswer3": "Model train to’plmada yuqori, test to’plamda esa past aniqlik beradi. Model murakkab tuzilgan."
-  },
-  {
-    "question": "Model qurishda bo’ladigan Owerfitting muammosi bu?",
-    "answer": "Rasmlarni joylashtirish uchun",
-    "noAnswer1": "Ma’lumotlarni jadval ko‘rinishida chop etish uchun",
-    "noAnswer2": "Audioma’lumotlarni joylashtirish uchun",
-    "noAnswer3": "Matnli ma’lumotlarni joylashtirish uchun"
-  },
-  {
-    "question": "Mobil ilovadagi element ustiga sichqoncha chap tugmasi bilan bosilganda qaysi metod ishga\r\ntushadi?",
-    "answer": "Model train to’plamda yuqori, test to’plamda esa past aniqlik beradi. Model murakkab tuzilgan.",
-    "noAnswer1": "Model train to’plamda ham, test to’plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan.",
-    "noAnswer2": "Model train to’plamda ham, test to’plamda ham yuqori aniqlik bermaydi. Model murakkabtuzilgan.",
-    "noAnswer3": "Model train to’plamda yuqori, test to’plamda esa past aniqlik beradi. Model sodda tuzilgan."
-  },
-  {
-    "question": "Bias tushunchasi?",
-    "answer": "Modelni train to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer1": "Modelni test to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer2": "Modelni train + test to’plam bilan testlaganda bo’ladigangadi umumiy xatolik",
-    "noAnswer3": "Modelni validation to’plam bilan testlaganda bo’ladigangadi umumiy xatolik"
-  },
-  {
-    "question": "Variance tushunchasi?",
-    "answer": "Modelni test to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer1": "Modelni train to’plam bilan testlaganda bo’ladigan xatolik",
-    "noAnswer2": "Modelni train + test to’plam bilan testlaganda bo’ladigangadi umumiy xatolik",
-    "noAnswer3": "Modelni validation to’plam bilan testlaganda bo’ladigangadi umumiy xatolik"
-  },
-  {
-    "question": "Underfitting bu - …",
-    "answer": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolikbo’lishiga olib keladi",
-    "noAnswer1": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda kattaxatolik bo’lishiga olib keladi",
-    "noAnswer2": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolikbo’lishiga olib keladi",
-    "noAnswer3": "Model juda muarkkab. Shuning evaziga model train to’plamda yuqori, test to’plamda past\r\nxatolik bo’lishiga olib keladi"
-  },
-  {
-    "question": "Owerfitting bu - …",
-    "answer": "Model juda muarkkab. Shuning evaziga model train to’plamda past, test to’plamda yuqori\r\nxatolik bo’lishiga olib keladi",
-    "noAnswer1": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolikbo’lishiga olib keladi",
-    "noAnswer2": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda kattaxatolik bo’lishiga olib keladi",
-    "noAnswer3": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolikbo’lishiga olib keladi"
-  },
-  {
-    "question": "Model qurishda bo’ladigan Underfitting muammosi qanday hal qilsa bo’ladi?",
-    "answer": "Modelni murakkabligini oshirib ko’rish kerak",
-    "noAnswer1": "Modelni murakkabligini pasaytirib ko’rish kerak",
-    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
-    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
-  },
-  {
-    "question": "Model qurishda bo’ladigan Owerfitting muammosi qanday hal qilsa bo’ladi?",
-    "answer": "Modelni murakkabligini pasaytirib ko’rish kerak",
-    "noAnswer1": "Modelni murakkabligini oshirib ko’rish kerak",
-    "noAnswer2": "Bu muammoni hal qilishning imkoni yoq",
-    "noAnswer3": "Datasetni hajmini kamaytirib ko’rish kerak"
-  },
-  {
-    "question": "O’rgatuvchi tanlama nima?",
-    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
-    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
-    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
-    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
-  },
-  {
-    "question": "O’ratuvchi tanlamadagi train to’plam …",
-    "answer": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer1": "modelni testlash uchun ishlatiladi",
-    "noAnswer2": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
-  },
-  {
-    "question": "Uyning xarakterlovchi xususiyatlari asosida ikkita guruhga(klasterga) (biznes, ekanom)\r\najratish uchun qaysi mashinali o’qitish algoritmidan foydalaniladi",
-    "answer": "Kmeans",
-    "noAnswer1": "SVM",
-    "noAnswer2": "Random Forest",
-    "noAnswer3": "Logistik regressiya"
-  },
-  {
-    "question": "KNN algoritmida k ni kichik tanlasak nima sodir bo’ladi?",
-    "answer": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer1": "Shovqinga sezgir bo’lmaydi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer2": "KNN algoritmida k parametr yo’q.",
-    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
-  },
-  {
-    "question": "KNN algoritmida k ta eng yaqin qo’shni qanday aniqlanadi?",
-    "answer": "To’plamdagi barcha elemetlar orasidagi masofa hisoblanib chiqiladi va eng yaqin k tasi\r\ntanlanadi",
-    "noAnswer1": "Taxminiy random() funksiyasi orqali aniqlanadi",
-    "noAnswer2": "To’plamdagi k ta elemetlar orasidagi masofa hisoblanib chiqiladi va ular o’sish tartibidasaralanadi.",
-    "noAnswer3": "KNN algoritmida k ta eng yaqin qo’shni tushunchasi yo’q."
-  },
-  {
-    "question": "SVM algorimi qaysi masalani yechish uchun xizmat qiladi?",
-    "answer": "Sinflashtirsh",
-    "noAnswer1": "Chiziqli regressiya",
-    "noAnswer2": "Klasterlash",
-    "noAnswer3": "Normallashtirish"
-  },
-  {
-    "question": "KNN algoritmi qaysi masalani yechish uchun xizmat qiladi",
-    "answer": "Barcha javob to’g’ri",
-    "noAnswer1": "Sinflashtirish",
-    "noAnswer2": "Regressiya",
-    "noAnswer3": "Klasterlash"
-  },
-  {
-    "question": "KMeans bu -",
-    "answer": "O’qituvchisiz o’qitish algoritmi",
-    "noAnswer1": "O’qituvchili o’qitish algoritmi",
-    "noAnswer2": "O’zini o’zi o’qitadigan algoritmi",
-    "noAnswer3": "to’g’ri javob yo’q"
-  },
-  {
-    "question": "Kmaens algoritmi qaysi masalani yechish uchun xizmat qiladi",
-    "answer": "Klasterlash",
-    "noAnswer1": "Barcha javob to’g’ri",
-    "noAnswer2": "Sinflashtirish",
-    "noAnswer3": "Regressiya"
-  },
-  {
-    "question": "Qidiruv tizimlarida sun’iy intellektdan foydalanish mumkinmi",
-    "answer": "ha, mumkin va hozirda keng qo‘llanilmoqda (misol uchun Google, Yandex qidiruv tizimlari)",
-    "noAnswer1": "qisman amaliy natijalari bor lekin yetarlicha nazariy jihatdan formallashtirilmagan",
-    "noAnswer2": "nazariy jihatdan mumkin, lekin hozircha amaliy jihatdan natijalarga erishilmagan",
-    "noAnswer3": "qidiruv tizimlarida sun’iy intellektdan foydalanish qidiruv vaqtini oshiradi"
-  },
-  {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": "Ma’lumotlar formatlari bir xillashtiriladi",
-    "noAnswer1": "Ma’lumotlarni tozalash",
-    "noAnswer2": "Ma’lumotlardan xususiyatlarni ajratish",
-    "noAnswer3": "Barchasi to’g’ri"
-  },
-  {
-    "question": "Sun’iy neyron tarmoqlarida perceptron tushunchasi?",
-    "answer": "bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir.",
-    "noAnswer1": "bu ikkita qatlamdan iborat ya’ni kiruvchi va faollashtish qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir.",
-    "noAnswer2": "bu bir qatlamdan iborat bo’lgan neyronni hisoblash tugunidir.",
-    "noAnswer3": "bu uch qatlamdan iborat bo’lgan neyronni hisoblash tugunidir."
-  },
-  {
-    "question": "CIFAR10 datasetda tasvirlarning o’lchami qaysi o’lchamda",
-    "answer": "To’g’ri javob yo’q",
-    "noAnswer1": "28x28",
-    "noAnswer2": "128x128",
-    "noAnswer3": "64x64"
-  },
-  {
-    "question": "Sun’iy neyron tarmoqlarida yashirin qatlam tushunchasi?",
-    "answer": "Kiruvchi va chiquvchi qatlamlar orasida joylashadigan neyron",
-    "noAnswer1": "Ko’rinmaydigan qatlam",
-    "noAnswer2": "Neyron tarmoqda yashirin qatlam tushunchasi yo’q",
-    "noAnswer3": "Kiruvchi qatlamdan kiyin keladigan barcha qatlamalar"
-  },
-  {
-    "question": "Sun’iy neyron tarmoqlarida aktivlashtirish funksiyasi tushunchasi?",
-    "answer": "Neyron tugunlaridan chiqqan qiymatni ma’lum bir diapozonga tushirish uchun ishlatiladi",
-    "noAnswer1": "Neyron tarmoqda aktivlashtirish funksiyasi tushunchasi yo’q",
-    "noAnswer2": "Bu faol bo’lmagan tugunlarni faollashtish uchun ishlatiladi.",
-    "noAnswer3": "To’g’ri javob yoq"
-  },
-  {
-    "question": "Chuqur o’qitilish deyiladi, qachonki …",
-    "answer": "Nayron tarmog’imizda yashirin qatlamlar soni bittadan ko’p bo’lsa.",
-    "noAnswer1": "Nayron tarmog’imizda yashirin qatlamlar soni bitta bo’lsa.",
-    "noAnswer2": "Ikkita neyron orasidagi masofa katta bo’lsa",
-    "noAnswer3": "Neyronlar soni ikkitadan ko’p bo’lsa"
-  },
-  {
-    "question": "CIFAR100 dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "100",
-    "noAnswer1": "99",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "Neyron tarmoq asosida sinflashtirish masalasini yechish mumkinmi?",
-    "answer": "Ha",
-    "noAnswer1": "Yoq, faqat regressiya masalasini yechadi.",
-    "noAnswer2": "Faqat ikkilik sinflashtirganda",
-    "noAnswer3": "Yoq, klasterlash masalasini yechadi."
-  },
-  {
-    "question": "Python muhitida chiziqli regression model qurish uchun ishlatiladigan stats.linregress(x,y)\r\nfunksiyasi nechta qiymat qaytaradi",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "Neyron tarmoqda tugunlar nimalar bilan bog’lanadi",
-    "answer": "og’irlik koeffitsentlari",
-    "noAnswer1": "o’zgarmas koeffitsentlar",
-    "noAnswer2": "tasodifiy koeffitsentlar",
-    "noAnswer3": "ozod had koeffitsentlari"
-  },
-  {
-    "question": "Qanday turdagi faollashtirish funksiyadan neyron tarmoqda foydalaniladi",
-    "answer": "Barchasi to’g’ri",
-    "noAnswer1": "ReLU",
-    "noAnswer2": "softmax",
-    "noAnswer3": "Sigmoid"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati 5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "0",
-    "noAnswer3": "44682"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "0",
-    "noAnswer1": "44682",
-    "noAnswer2": "5",
-    "noAnswer3": "-5"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati 0 ga teng. Ushbu tugun sigmoid funksiyasi yordamidafaollashtirilsa qanday qiymatga o’zgaradi",
-    "answer": "0.5",
-    "noAnswer1": "0",
-    "noAnswer2": "1",
-    "noAnswer3": "2.785661"
-  },
-  {
-    "question": "Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o’qitish (machine learning), chuqur o’qitish (deep learning) kabi usullar sun’iy intellekt bilan qanday bog’liq",
-    "answer": "hozirda tasvirlardan ob’ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalardakeng foydalaniladi va sun’iy intellekt tizimini yaratishda katta ahamiyat kasb etadi",
-    "noAnswer1": "faqat ovozni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda deyarli\r\nfodalanilmaydi",
-    "noAnswer2": "tasvirlarni tanib olishda ishlatiladi va sun’iy intellekt tizimini yaratishda foydalaniladi",
-    "noAnswer3": "faqatgina ma’lumotlarning intellektual tahliliga oid"
-  },
-  {
-    "question": "IRIS dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "3",
-    "noAnswer1": "2",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "Chuqur o’qitish qanday tarmoqlari asosida amalga oshiriladi?",
-    "answer": "neyron tarmoqlar asosida",
-    "noAnswer1": "lokal tarmoqlar asosida",
-    "noAnswer2": "global tarmoqlar asosida",
-    "noAnswer3": "internet tarmoqlar asosida"
-  },
-  {
-    "question": "Chuqur o’qitish necha asosiy bosqichlardan tashkil topgan?",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "6"
-  },
-  {
-    "question": "Chuqur o’qitishning birinchi bosqichi qanday jarayondan iborat?",
-    "answer": "Muammoni tushunib olish.",
-    "noAnswer1": "Ma’lumotlarni aniqlash.",
-    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer3": "Modelni o’qitish."
-  },
-  {
-    "question": "Chuqur o’qitishning ikkinchi bosqichi qanday jarayondan iborat?",
-    "answer": "Ma’lumotlarni aniqlash.",
-    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer2": "Modelni o’qitish.",
-    "noAnswer3": "Modelni testlash."
-  },
-  {
-    "question": "Chuqur o’qitishning uchunchi bosqichi qanday jarayondan iborat?",
-    "answer": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer1": "Modelni testlash.",
-    "noAnswer2": "Muammoni tushunib olish.",
-    "noAnswer3": "Modelni o’qitish."
-  },
-  {
-    "question": "Chuqur o’qitishning turtinchi bosqichi qanday jarayondan iborat?",
-    "answer": "Modelni o’qitish.",
-    "noAnswer1": "Modelni testlash.",
-    "noAnswer2": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer3": "Muammoni tushunib olish."
-  },
-  {
-    "question": "Chuqur o’qitishning oxirgi bosqichi qanday jarayondan iborat?",
-    "answer": "Modelni testlash.",
-    "noAnswer1": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer2": "Modelni o’qitish.",
-    "noAnswer3": "Ma’lumotlarni aniqlash."
-  },
-  {
-    "question": "MNIST dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "10",
-    "noAnswer1": "9",
-    "noAnswer2": "100",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "CIFAR10 dataset da nechta sinfga tegishli obyektlarini ma’lumotlari bor",
-    "answer": "10",
-    "noAnswer1": "9",
-    "noAnswer2": "100",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 95% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
-    "answer": "Owerfitting",
-    "noAnswer1": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer2": "Underfitting",
-    "noAnswer3": "Everfitting"
-  },
-  {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 95% aniqliq va test dataset bilan testlaganimizda 92% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda.",
-    "answer": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Owerfitting",
-    "noAnswer3": "Everfitting"
-  },
-  {
-    "question": "Python ning qaysi kutubxona oraqli vector va matritsalar ustida amalar bajarish mumkin",
-    "answer": "Numpy",
-    "noAnswer1": "Math",
-    "noAnswer2": "Pandas",
-    "noAnswer3": "VecMat"
-  },
-  {
-    "question": "Ochiq datasetlarni qidirishga mo’ljallangan tizim qaysi?",
-    "answer": "Barchasi to’g’ri",
-    "noAnswer1": "UCI Machine Learning Repository",
-    "noAnswer2": "VisualData",
-    "noAnswer3": "Google Dataset Search"
-  },
-  {
-    "question": "Pandas kutubxonasida head() funksiyasi nima vazifa bajaradi?",
-    "answer": "To’plamning dastlabgi bir nechta(5ta) satrini olib beradi.",
-    "noAnswer1": "To’plamning ustunlar nomini olib beradi.",
-    "noAnswer2": "To’plamning ustunlar nomisiz bir nechta satrini olib beradi.",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Pythonda funksiya e’lon qilish uchun qaysi kalit so’zidan foydalaniladi?",
-    "answer": "def",
-    "noAnswer1": "function",
-    "noAnswer2": "void",
-    "noAnswer3": "define"
-  },
-  {
-    "question": "Neyron tarmoqlarida dastlab vazn koeffitsentlari qanday bo’ladi?",
-    "answer": "random() funksiyasi orqali taxminiy beriladi.",
-    "noAnswer1": "musbat qiymatlar bilan to’ldiriladi.",
-    "noAnswer2": "To’ldirish shart emas.",
-    "noAnswer3": "manfiy qiymatlar bilan to’ldiriladi."
-  },
-  {
-    "question": "Neyron tarmoqlarida topilgan vazn koeffitsentlari qanday bo’ladi?",
-    "answer": "Musbat va manfiy bo’lishi mumkin",
-    "noAnswer1": "Faqat musbat bo’ladi",
-    "noAnswer2": "Faqat manfiy bo’ladi",
-    "noAnswer3": "Qiymatlar [0,1] oraliqda bo’ladi."
-  },
-  {
-    "question": "Unsupervised learning ?",
-    "answer": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
-  },
-  {
-    "question": "Semi- supervised learning",
-    "answer": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
-  },
-  {
-    "question": "Reinforcement learning ?",
-    "answer": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi.",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer3": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish"
-  },
-  {
-    "question": "O’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va natijalarni\r\nyaxshilash imkoniyatiga ega bo’ladi.",
-    "answer": "Reinforcement learning",
-    "noAnswer1": "Semi-supervised learning",
-    "noAnswer2": "Supervised learning",
-    "noAnswer3": "Unsupervised learning"
-  },
-  {
-    "question": "Modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "answer": "Supervised learning",
-    "noAnswer1": "Semi-supervised learning",
-    "noAnswer2": "Reinforcement learning",
-    "noAnswer3": "Unsupervised learning"
-  },
-  {
-    "question": "IRIS dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "3",
-    "noAnswer1": "2",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "CIFAR10 datasetda tasvirlarning o’lchami qaysi o’lchamda",
-    "answer": "To’g’ri javob yo’q",
-    "noAnswer1": "28x28",
-    "noAnswer2": "128x128",
-    "noAnswer3": "64x64"
-  },
-  {
-    "question": "CIFAR10 datasetda necha tanlama bor",
-    "answer": "60000",
-    "noAnswer1": "70000",
-    "noAnswer2": "50000",
-    "noAnswer3": "10000"
-  },
-  {
-    "question": "CIFAR100 dataset da nechta sinfga tegishli obyektlarni ma’lumotlari bor",
-    "answer": "100",
-    "noAnswer1": "99",
-    "noAnswer2": "10",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "Modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "answer": "Semi-supervised learning",
-    "noAnswer1": "Reinforcement learning",
-    "noAnswer2": "Unsupervised learning",
-    "noAnswer3": "Supervised learning"
-  },
-  {
-    "question": "IRIS dataset da obyektni xarakterlovchi xususiyatlari nechta",
-    "answer": "4",
-    "noAnswer1": "2",
-    "noAnswer2": "3",
-    "noAnswer3": "8"
-  },
-  {
-    "question": "Pythonda massivni e’lon qilish uchun qanday toifalardan foydalaniladi?",
-    "answer": "array, matrix",
-    "noAnswer1": "tuple, arr",
-    "noAnswer2": "list, tuple",
-    "noAnswer3": "arr, list"
-  },
-  {
-    "question": "Supervised learning ?",
-    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va\r\nnatijalarni yaxshilash imkoniyatiga ega bo’ladi."
-  },
-  {
-    "question": "Unsupervised learning ?",
-    "answer": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
-  },
-  {
-    "question": "Semi- supervised learning",
-    "answer": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish",
-    "noAnswer3": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi."
-  },
-  {
-    "question": "Reinforcement learning ?",
-    "answer": "bu o’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish vanatijalarni yaxshilash imkoniyatiga ega bo’ladi.",
-    "noAnswer1": "bu modelni xususiyatlari aniq bo’lmagan ma’lumotlar bilan o’qitish",
-    "noAnswer2": "bu modelni ham aniq ham aniq bo’lmagan xususiyatli ma’lumotlar bilan o’qitishdir.",
-    "noAnswer3": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish"
-  },
-  {
-    "question": "O’qitishning mukammal usuli bo’lib, bunda model o’zini-o’zi qayta o’qitish va natijalarni\r\nyaxshilash imkoniyatiga ega bo’ladi.",
-    "answer": "Reinforcement learning",
-    "noAnswer1": "Semi-supervised learning",
-    "noAnswer2": "Supervised learning",
-    "noAnswer3": "Unsupervised learning"
-  },
-  {
-    "question": "Logistik regressiyada qaror qabul qilishimiz uchun modeldan olingan qiymat qaysi bo’sag’aqiymati orqali solishtiriladi?",
-    "answer": "0.5",
-    "noAnswer1": "0",
-    "noAnswer2": "1",
-    "noAnswer3": "-1 va 1"
-  },
-  {
-    "question": "Pythonda ikkita vektorni birlashtirishda xatolik sodir bo’ladigan javobni tanlang",
-    "answer": "a=append(a,b)",
-    "noAnswer1": "a=np.append(a,b)",
-    "noAnswer2": "a=np.append(b,a)",
-    "noAnswer3": "Varinatlarning barchasida vektorlar birlashtiriladi"
-  },
-  {
-    "question": "&gt;&gt;a=[1,5,’ML’,False]<br> &gt;&gt;print(type(a))",
-    "answer": "class 'list'",
-    "noAnswer1": "class ‘tuple’",
-    "noAnswer2": "class ‘array’",
-    "noAnswer3": "class 'dec'"
-  },
-  {
-    "question": "Cost funksiya bu?",
-    "answer": "Modelni o’qitish davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamadaberilgan qiymat oralidagi farqlarni hisoblash funksiyasi",
-    "noAnswer1": "Cosinius funksiyasini qisqartma ko’rinishi?",
-    "noAnswer2": "Bunday nomdagi funksiya yo’q.",
-    "noAnswer3": "Modelni testlash davrida model tomonidan topilgan qiymat bilan o’rgatuvchi tanlamadaberilgan qiymat oralidagi farqlarni hisoblash funksiyasi"
-  },
-  {
-    "question": "Chiziqli regression model nechta qiymat qaytaradi",
-    "answer": "Har doim bitta",
-    "noAnswer1": "Ixtiyoriy ravishdagi sonda qiymat qaytarishi mumkin",
-    "noAnswer2": "Har doim bittadan ko’p",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "QR code mashinali o’qitilish algoritmi asosida ishlab chiqilgan ?",
-    "answer": "Noto’g’ri,",
-    "noAnswer1": "To’g’ri",
-    "noAnswer2": "Bo’lishi mumkin",
-    "noAnswer3": "Bilmayman"
-  },
-  {
-    "question": "Gradient tushish bu?",
-    "answer": "Model parametrlarini sozlash uchun ishlatiladigan algoritm",
-    "noAnswer1": "Xatolik funksiyasi",
-    "noAnswer2": "Kiruvchi ma’lumotlarni narmallashtirish uchun qiymatlarni 0,1oraliqqa tushirish",
-    "noAnswer3": "Mashinali o’qitish turi"
-  },
-  {
-    "question": "O’qitish jarayonida regulyarizatsiyalash bu?",
-    "answer": "Modelni o’qitish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
-    "noAnswer1": "Barcha javob to’g’ri",
-    "noAnswer2": "Modelni testlash jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish",
-    "noAnswer3": "Modelni qurish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish"
-  },
-  {
-    "question": "O’ratuvchi tanlamadagi val (validation) to’plam bu?",
-    "answer": "Modelni o’qitish davomida model parametrlarini sozlash uchun ishlatiladi",
-    "noAnswer1": "modelni o’qitish uchun ishlatiladi",
-    "noAnswer2": "modelni testlash uchun ishlatiladi",
-    "noAnswer3": "Bu turdagi o’rgatuvchi tanlamadan foydalanilmaydi"
-  },
-  {
-    "question": "Logistik regression model nima uchun ishlatiladi",
-    "answer": "Sinflashtirsh masalasini yechish uchun",
-    "noAnswer1": "Klasterlash masalasini ishlash uchun",
-    "noAnswer2": "Neyron tarmoqni qurish uchun",
-    "noAnswer3": "Qiymatni bashoratlash uchun"
-  },
-  {
-    "question": "Bias va Variance tushunchalarining farqi nimada?",
-    "answer": "Bias modelni train to’plam bilan testlagandagi xatolik, Variance esa test to’plambilantestlagandagi xatolik",
-    "noAnswer1": "Bias modelni test to’plam bilan testlagandagi xatolik, Variance esa train to’plambilantestlagandagi xatolik",
-    "noAnswer2": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat test\r\nto’plam bilan testlagandagi xatolik",
-    "noAnswer3": "Bias modelni train +test to’plam bilan testlagandagi umumiy xatolik, Variance esa faqat trainto’plam bilan testlagandagi xatolik"
-  },
-  {
-    "question": "Agar bias yuqori bo’lsa qaysi turdagi muammo sodir bo’lmoqda?",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Bias ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda murakkab"
-  },
-  {
-    "question": "Agar Variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Variance ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda sodda"
-  },
-  {
-    "question": "Agar biass quyi va variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Bias ni quyi variance ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda sodda"
-  },
-  {
-    "question": "Model murakkab bo’lsa bias qanday bo’ladi?",
-    "answer": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi past bo’ladi",
-    "noAnswer1": "To’g’ri javob yo’q",
-    "noAnswer2": "Bias ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas.",
-    "noAnswer3": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi yuqori\r\nbo’ladi"
-  },
-  {
-    "question": "Model murakkab bo’lsa variance qanday bo’ladi?",
-    "answer": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi yuqori\r\nbo’ladi",
-    "noAnswer1": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi past bo’ladi",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Variance ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas."
-  },
-  {
-    "question": "KNN algoritmida k qiymat nimani xaratterlaydi?",
-    "answer": "k ta eng yaqin qo’shnini",
-    "noAnswer1": "k ta eng uzoq qo’shnini",
-    "noAnswer2": "O’qitish qadami",
-    "noAnswer3": "O’qitishlar sonini"
-  },
-  {
-    "question": "Model qurish uchun o’rgatuvchi tanalaga qaysi nisbatda bo’linsa maqsadga muoffiq bo’ladi?",
-    "answer": "Train - 75%\r\nVal - 15 %\r\nTest - 10%",
-    "noAnswer1": "Train - 50%\r\nTest - 50%",
-    "noAnswer2": "Train - 50%\r\nVal - 25 %\r\nTest - 25%",
-    "noAnswer3": "Train - 75%\r\nVal - 25 %"
-  },
-  {
-    "question": "O’rgatuvchi tanlamada normallashtirish tushunchasi bu?",
-    "answer": "O’ratuvchi tanlamdagi qiymatlarni bir xil shkalaga o’tkazish",
-    "noAnswer1": "O’ratuvchi tanlamdagi qiymatlarni turli xil shkalaga o’tkazish",
-    "noAnswer2": "O’ratuvchi tanlamdagi qiymatlarni faqat [0,1] shkalaga o’tkazish",
-    "noAnswer3": "O’ratuvchi tanlamdagi qiymatlarni faqat [-1,1] shkalaga o’tkazish"
-  },
-  {
-    "question": "Logistik regressiya masalasida asosan qaysi aktivlashtirish funksiyasidan foydalaniladi?",
-    "answer": "Sigmoid",
-    "noAnswer1": "Tanh",
-    "noAnswer2": "ReLU",
-    "noAnswer3": "Sigmoid va ReLU"
-  },
-  {
-    "question": "Nima uchun o’rgatuvchi tanlama normallashtiriladi?",
-    "answer": "Obyektni xarakterlovchi xususiyatlari bir xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish",
-    "noAnswer1": "Obyektni xarakterlovchi xususiyatlari faqat [0,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
-    "noAnswer2": "Obyektni xarakterlovchi xususiyatlari faqat [-1,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
-    "noAnswer3": "Obyektni xarakterlovchi xususiyatlari turli xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish"
-  },
-  {
-    "question": "Validation dataset qayerda ishlatiladi?",
-    "answer": "Modelni qurish davomida paramertlarni sozlashda",
-    "noAnswer1": "Model qurib bo’linganidan so’ng aniqlikni baholashda",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Validation datasetdan foydalanilmaydi"
-  },
-  {
-    "question": "Klasterlash bu ?",
-    "answer": "O’qituvchisiz o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
-    "noAnswer1": "O’qituvchili o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
-    "noAnswer2": "Mashinali o’qitishda buday tushuncha yo’q.",
-    "noAnswer3": "Logistik regressiya asosida amalga oshiriladigan mashinali o’qitish algoritmi"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish algoritmiga qaysi algoritim kiradi?",
-    "answer": "Kmaens\r\nSingular Value Decomposition",
-    "noAnswer1": "KNN\r\nSVM",
-    "noAnswer2": "SVM\r\nKmaens",
-    "noAnswer3": "Random Forest"
-  },
-  {
-    "question": "Nima uchun logistik regressiyada sigmoid funksiyadan foydalaniladi?",
-    "answer": "qiymatlarni (0,1) oraliqda keltirish",
-    "noAnswer1": "qiymatlarni [-1,1] oraliqda keltirish",
-    "noAnswer2": "qiymatlarni [0,1] oraliqda keltirish",
-    "noAnswer3": "qiymatlarni (-1,1) oraliqda keltirish"
-  },
-  {
-    "question": "Logistik regressiyada qaror chegrasi uchun topilgan modeldan olingan qiymat qaysi\r\nbo’sag’a qiymati orqali solishtiriladi va qaror qabul qilinadi?",
-    "answer": "0",
-    "noAnswer1": "1",
-    "noAnswer2": "0.5",
-    "noAnswer3": "-1 va 1"
-  },
-  {
-    "question": "SVM algoritmida suppor vectors bu?",
-    "answer": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlaydi",
-    "noAnswer1": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlaydi",
-    "noAnswer2": "Sinflashtirishnig chegara sohasi bo’lib, eng yaqin tanlanmalar uni xarakterlamaydi",
-    "noAnswer3": "Sinflashtirishnig chegara sohasi bo’lib, eng uzoq tanlanmalar uni xarakterlamaydi"
-  },
-  {
-    "question": "SVM algoritmidagi hisoblaanadigan orqaliq (margin) qanday bo’lsa model ishonchli debtopiladi?",
-    "answer": "Oraliq eng kattta bo’lsa",
-    "noAnswer1": "Oraliq eng kichik bo’lsa",
-    "noAnswer2": "Oraliq hech narsani anglatmaydi",
-    "noAnswer3": "To’gri javob yo’q"
-  },
-  {
-    "question": "SVM algoritmida yadro(kernel) funksiyalari nima uchun xizmat qiladi?",
-    "answer": "Kiruvchi xususiyatlarni ma’lum o’lchov sohasidan boshqasiga o’zgartirish uchun xizmat qiladi. Misol uchun 1D -&gt; 2D",
-    "noAnswer1": "Kiruvchi xususiyatlarni 1D o’lchov sohasidan 2D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
-    "noAnswer2": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 1D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi",
-    "noAnswer3": "Kiruvchi xususiyatlarni 2D o’lchov sohasidan 3D o’lchov sohasiga o’tkazish uchun xizmat\r\nqiladi"
-  },
-  {
-    "question": "SVM orqali ..",
-    "answer": "Faqat bir nechta sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer1": "Faqat ikkita sinfga tegishli bo’lgan obyektlar sinflanadi",
-    "noAnswer2": "Faqat regressiya masalasini yechish mumkin",
-    "noAnswer3": "Ham sinflashrish, ham regressiya masalasini ishlash mumkin."
-  },
-  {
-    "question": "Modelni o’qitish uchun o’quv tanlanma (dataset) qanday turlarga bo’lindi",
-    "answer": "training, validation, testing",
-    "noAnswer1": "testing, value-x, training",
-    "noAnswer2": "validation, labels, training",
-    "noAnswer3": "labels, validation, testing"
-  },
-  {
-    "question": "O’qitish uchun ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan, model turg’unligigata’sir qiluvchi ma’lumotlarni olib tashlash jarayoni nima deb ataladi",
-    "answer": "Ma’lumotlarni tozalash (Data cleaning)",
-    "noAnswer1": "Xususiyatlarni aniqlash (Feature detection)",
-    "noAnswer2": "Ma’lumotlarni o’chirish (Data deletion)",
-    "noAnswer3": "Ma’lumotlar turini aniqlash (Data formatting)"
-  },
-  {
-    "question": "Neyron tarmoqlarida sinflashtirish masalasini yechishda chiquvchi qatlamda qaysi turdagi\r\naktivlash funksiyasidan foydalaniladi",
-    "answer": "Softmax",
-    "noAnswer1": "Sigmoid",
-    "noAnswer2": "ReLu",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Numpy kutubxonasidagi polyfit() funksiyasi nima uchun ishlatiladi?",
-    "answer": "Chiziqli regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer1": "Loginstik regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer2": "Chiziqli va logistik regressiya uchun model paramertlarini aniqlash uchun",
-    "noAnswer3": "Polynom funksiya yaratish uchun"
-  },
-  {
-    "question": "Numpy kutubxonasidagi poly1d() funksiyasi nima uchun ishlatiladi?",
-    "answer": "Berilgan parametrlar asosida polinomal funksiya hosil qilish",
-    "noAnswer1": "Berilgan parametrlar asosida polinomal Class hosil qilish",
-    "noAnswer2": "Berilgan parametrlar asosida logistik regressiya modelini qurish",
-    "noAnswer3": "Berilgan parametrlar asosida giperbolik regressiya modelini qurish"
-  },
-  {
-    "question": "Neyron tarmoqlarini qurishga mo’ljallangan python kutubxonalarini ko'rsating.",
-    "answer": "Numpy, keras, tensorflow",
-    "noAnswer1": "Numpy, pandas, keras",
-    "noAnswer2": "Tensorflow, numpy, pandas",
-    "noAnswer3": "Python, Matlab, Octave"
-  },
-  {
-    "question": "Agar biass quyi va variance yuqori bo’lsa qanday turdagi muammo sodir bo’lmoqda?",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Bias ni quyi variance ni yuqoriligi mumamo hisoblanmaydi",
-    "noAnswer3": "Model juda sodda"
-  },
-  {
-    "question": "Model murakkab bo’lsa bias qanday bo’ladi?",
-    "answer": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi past bo’ladi",
-    "noAnswer1": "To’g’ri javob yo’q",
-    "noAnswer2": "Bias ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas.",
-    "noAnswer3": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va train to’plamda xatoligi yuqori\r\nbo’ladi"
-  },
-  {
-    "question": "Model murakkab bo’lsa variance qanday bo’ladi?",
-    "answer": "Yuqori, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi yuqori\r\nbo’ladi",
-    "noAnswer1": "Quyi, model o’rgatuvchi tanlamaga mostlashib qoladi va test to’plamda xatoligi past bo’ladi",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Variance ning quyi yoki yuqori bo’lishi model murakkabligiga bog’liq emas."
-  },
-  {
-    "question": "Underfitting bu - …",
-    "answer": "Model juda soda. Shuning evaziga model train to’plamda ham, test to’plamda katta xatolikbo’lishiga olib keladi",
-    "noAnswer1": "Model juda muakkab. Shuning evaziga model train to’plamda ham, test to’plamda kattaxatolik bo’lishiga olib keladi",
-    "noAnswer2": "Model juda soda. Shuning evaziga model train to’plamda yuqori, test to’plamda past xatolikbo’lishiga olib keladi",
-    "noAnswer3": "Model juda muarkkab. Shuning evaziga model train to’plamda yuqori, test to’plamda past\r\nxatolik bo’lishiga olib keladi"
-  },
-  {
-    "question": "Uyning xarakterlovchi xususiyatlari asosida ikkita guruhga(klasterga) (biznes, ekanom)\r\najratish uchun qaysi mashinali o’qitish algoritmidan foydalaniladi",
-    "answer": "Kmeans",
-    "noAnswer1": "SVM",
-    "noAnswer2": "Random Forest",
-    "noAnswer3": "Logistik regressiya"
-  },
-  {
-    "question": "KNN algoritmida k ni kichik tanlasak nima sodir bo’ladi?",
-    "answer": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer1": "Shovqinga sezgir bo’lmaydi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer2": "KNN algoritmida k parametr yo’q.",
-    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
-  },
-  {
-    "question": "KNN algoritmida k ni katta tanlasak nima sodir bo’ladi?",
-    "answer": "Model qurish vaqti oshib ketadi. Bazan k ning katta tanlanishi sinflashtirishda xatolikka ko’puchrashi mumkin",
-    "noAnswer1": "Shovqinga sezgir bo’ladi va sinflashtirishda xatolikka ko’p uchrashi mumkin",
-    "noAnswer2": "KNN algoritmida k parametr yo’q.",
-    "noAnswer3": "k ni kichik yoki katta tanlash algoritm ishiga ta’sir qilmaydi"
-  },
-  {
-    "question": "KNN algoritmida k ta eng yaqin qo’shni qanday aniqlanadi?",
-    "answer": "To’plamdagi barcha elemetlar orasidagi masofa hisoblanib chiqiladi va eng yaqin k tasi\r\ntanlanadi",
-    "noAnswer1": "Taxminiy random() funksiyasi orqali aniqlanadi",
-    "noAnswer2": "To’plamdagi k ta elemetlar orasidagi masofa hisoblanib chiqiladi va ular o’sish tartibidasaralanadi.",
-    "noAnswer3": "KNN algoritmida k ta eng yaqin qo’shni tushunchasi yo’q."
-  },
-  {
-    "question": "SVM algorimi qaysi masalani yechish uchun xizmat qiladi?",
-    "answer": "Sinflashtirsh",
-    "noAnswer1": "Chiziqli regressiya",
-    "noAnswer2": "Klasterlash",
-    "noAnswer3": "Normallashtirish"
-  },
-  {
-    "question": "KNN algoritmi qaysi masalani yechish uchun xizmat qiladi",
-    "answer": "Barcha javob to’g’ri",
-    "noAnswer1": "Sinflashtirish",
-    "noAnswer2": "Regressiya",
-    "noAnswer3": "Klasterlash"
-  },
-  {
-    "question": "KMeans bu -",
-    "answer": "O’qituvchisiz o’qitish algoritmi",
-    "noAnswer1": "O’qituvchili o’qitish algoritmi",
-    "noAnswer2": "O’zini o’zi o’qitadigan algoritmi",
-    "noAnswer3": "to’g’ri javob yo’q"
-  },
-  {
-    "question": "Kmaens algoritmi qaysi masalani yechish uchun xizmat qiladi",
-    "answer": "Klasterlash",
-    "noAnswer1": "Barcha javob to’g’ri",
-    "noAnswer2": "Sinflashtirish",
-    "noAnswer3": "Regressiya"
-  },
-  {
-    "question": "Logistik regressiyada qaror qabul qilishimiz uchun modeldan olingan qiymat qaysi bo’sag’aqiymati orqali solishtiriladi?",
-    "answer": "0.5",
-    "noAnswer1": "0",
-    "noAnswer2": "1",
-    "noAnswer3": "-1 va 1"
-  },
-  {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": "Ma’lumotlar formatlari bir xillashtiriladi",
-    "noAnswer1": "Ma’lumotlarni tozalash",
-    "noAnswer2": "Ma’lumotlardan xususiyatlarni ajratish",
-    "noAnswer3": "Barchasi to’g’ri"
-  },
-  {
-    "question": "Sun’iy neyron tarmoqlarida perceptron tushunchasi?",
-    "answer": "bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir.",
-    "noAnswer1": "bu ikkita qatlamdan iborat ya’ni kiruvchi va faollashtish qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir.",
-    "noAnswer2": "bu bir qatlamdan iborat bo’lgan neyronni hisoblash tugunidir.",
-    "noAnswer3": "bu uch qatlamdan iborat bo’lgan neyronni hisoblash tugunidir."
-  },
-  {
-    "question": "Sun’iy neyron tarmoqlarida yashirin qatlam tushunchasi?",
-    "answer": "Kiruvchi va chiquvchi qatlamlar orasida joylashadigan neyron",
-    "noAnswer1": "Ko’rinmaydigan qatlam",
-    "noAnswer2": "Neyron tarmoqda yashirin qatlam tushunchasi yo’q",
-    "noAnswer3": "Kiruvchi qatlamdan kiyin keladigan barcha qatlamalar"
-  },
-  {
-    "question": "Sun’iy neyron tarmoqlarida aktivlashtirish funksiyasi tushunchasi?",
-    "answer": "Neyron tugunlaridan chiqqan qiymatni ma’lum bir diapozonga tushirish uchun ishlatiladi",
-    "noAnswer1": "Neyron tarmoqda aktivlashtirish funksiyasi tushunchasi yo’q",
-    "noAnswer2": "Bu faol bo’lmagan tugunlarni faollashtish uchun ishlatiladi.",
-    "noAnswer3": "To’g’ri javob yoq"
-  },
-  {
-    "question": "Chuqur o’qitilish deyiladi, qachonki …",
-    "answer": "Nayron tarmog’imizda yashirin qatlamlar soni bittadan ko’p bo’lsa.",
-    "noAnswer1": "Nayron tarmog’imizda yashirin qatlamlar soni bitta bo’lsa.",
-    "noAnswer2": "Ikkita neyron orasidagi masofa katta bo’lsa",
-    "noAnswer3": "Neyronlar soni ikkitadan ko’p bo’lsa"
-  },
-  {
-    "question": "Modelni o’qitish uchun o’quv tanlanma (dataset) qanday turlarga bo’lindi",
-    "answer": "training, validation, testing",
-    "noAnswer1": "testing, value-x, training",
-    "noAnswer2": "validation, labels, training",
-    "noAnswer3": "labels, validation, testing"
-  },
-  {
-    "question": "Python muhitida chiziqli regression model qurish uchun ishlatiladigan stats.linregress(x,y)\r\nfunksiyasi nechta qiymat qaytaradi",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "3",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "O’qitish uchun ma’lumotlar orasidan ortiqcha yoki ahamiyati past bo’lgan, model turg’unligigata’sir qiluvchi ma’lumotlarni olib tashlash jarayoni nima deb ataladi",
-    "answer": "Ma’lumotlarni tozalash (Data cleaning)",
-    "noAnswer1": "Xususiyatlarni aniqlash (Feature detection)",
-    "noAnswer2": "Ma’lumotlarni o’chirish (Data deletion)",
-    "noAnswer3": "Ma’lumotlar turini aniqlash (Data formatting)"
-  },
-  {
-    "question": "Mashinani o’qitish jarayonida ma’lumotlarga qanday dastlabki ishlov beriladi?",
-    "answer": "Format, Data Cleaning, Feature Extraction",
-    "noAnswer1": "Data Cleaning, Resizing, , Feature Extraction",
-    "noAnswer2": "Resizing, Feature Extraction, Format",
-    "noAnswer3": "Format, Resizing, Data Cleaning"
-  },
-  {
-    "question": "Regression tahlilni qanday usullar asosida amalga oshiriladi.",
-    "answer": "chiziqli, nochiziqli va logistik regressiya usullari asosida",
-    "noAnswer1": "sintaktik usullar asosida",
-    "noAnswer2": "dinamik usillar asosida",
-    "noAnswer3": "semantik usullari asosida"
-  },
-  {
-    "question": "Muammoni aniqlash, ma’lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviyma’lumotlar aniqligini oshirish va yakuniy natijani taqdim qilish – bular qanday jarayonningbosqichlari hisoblanadi",
-    "answer": "Mashinali o’qitish",
-    "noAnswer1": "Chuqur o’qitish",
-    "noAnswer2": "Regression tahlil",
-    "noAnswer3": "Statistik tahlil"
-  },
-  {
-    "question": "Chuqur o’qitishning uchunchi bosqichi qanday jarayondan iborat?",
-    "answer": "Chuqur o’qitish algoritmini belgilash.",
-    "noAnswer1": "Modelni testlash.",
-    "noAnswer2": "Muammoni tushunib olish.",
-    "noAnswer3": "Modelni o’qitish."
-  },
-  {
-    "question": "Keras bu – ...",
-    "answer": "tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer1": "numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona",
-    "noAnswer2": "ochiq kodli neyron tarmoq uchun mo’ljallangan dasturiy vosita",
-    "noAnswer3": "matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo’ljallangan kutubxona"
-  },
-  {
-    "question": "Tensorflow bu – ...",
-    "answer": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer1": "Matlab kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer2": "Ocatev kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallangan.",
-    "noAnswer3": "Python kutubxonasi bo’lib, neyron tarmoqlarini hosil qilishga mo’ljallanmagan."
-  },
-  {
-    "question": "Sklearn bu - …",
-    "answer": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitish algoritmlarini amalgaoshirishga mo’ljallangan maxsus paket",
-    "noAnswer1": "Matlabning maxsus paketi bo’lib, mashinali o’qitish algoritmlarini amalga oshirishgamo’ljallangan hisoblanadi",
-    "noAnswer2": "Python dasturlash tilidagi maxsus kutubxona bo’lib, o’zini o’zi o’qitadigan mashinali o’qitishalgortimlarini ishlab chiqishga mo’ljallangan",
-    "noAnswer3": "Python dasturlash tilidagi maxsus kutubxona bo’lib, mashinali o’qitishning o’qituvchili\r\nalgoritmlarini amalga oshirishga mo’ljallangan maxsus paket"
-  },
-  {
-    "question": "Chiziqli va logistik regression model qurilayotganda bitta o’rgatuvchi tanlamadan foydalansabo’ladimi?",
-    "answer": "Ha, faqat yorliqlari uchun ikkita qiymat saqlangan bo’lsa",
-    "noAnswer1": "Ha, regression model uchun hamma vaqt dataset bir xilda bo’ladi.",
-    "noAnswer2": "Buning imkoni yo’q",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Chiziqli regresiya va Logistik regresiya uchun Cost funksiyasi bir xilda bo’ladimi?",
-    "answer": "Yoq",
-    "noAnswer1": "Ha",
-    "noAnswer2": "Logistik regressiyada cost funksiyasi bo’lmaydi",
-    "noAnswer3": "Chiziqli regressiyada cost funksiyasi bo’lmaydi"
-  },
-  {
-    "question": "Python sklearn kutubxonasidagi qaysi Classs chiziqli regressiya modelini qurishda ishlatiladi",
-    "answer": "LinearRegression",
-    "noAnswer1": "Polyfit",
-    "noAnswer2": "poly1d",
-    "noAnswer3": "Linear_model"
-  },
-  {
-    "question": "Chiziqli regressiyada modelni murakkab tanlansa qaysi turdagi muammo yuzaga keladi",
-    "answer": "Owerfitting",
-    "noAnswer1": "Underfitting",
-    "noAnswer2": "Model aniq ishlaydigan bo’lib, shakllanadi.",
-    "noAnswer3": "Muammo sodir bo’lmaydi"
-  },
-  {
-    "question": "Chiziqli regressiyada modelni sodda tanlansa qaysi turdagi muammo yuzaga keladi",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Muammo sodir bo’lmaydi"
-  },
-  {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 65% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Everfitting"
-  },
-  {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 25% aniqliq va test dataset bilan testlaganimizda 95% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
-    "answer": "Underfitting",
-    "noAnswer1": "Owerfitting",
-    "noAnswer2": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer3": "Everfitting"
-  },
-  {
-    "question": "Chiziqli regression modelni qurib bo’lganimizdan so’ng modelni train dataset bilantestlanganda 95% aniqliq va test dataset bilan testlaganimizda 55% aniqlik bersa, qaysi\r\nturdagi mauammo sodir bo’lmoqda",
-    "answer": "Owerfitting",
-    "noAnswer1": "Model ishonchli, hech qanaday muammo yo’q",
-    "noAnswer2": "Underfitting",
-    "noAnswer3": "Everfitting"
-  },
-  {
-    "question": "Biologik neyron tarmoq tashkil etuvchilarini ko’rsating?",
-    "answer": "cell body, dendrites, synapse, axon",
-    "noAnswer1": "input, dendrites, synapse, output",
-    "noAnswer2": "node, input, weights, output",
-    "noAnswer3": "synapse, axon, weights, node"
-  },
-  {
-    "question": "Python list bu -",
-    "answer": "turli tipdagi elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Python tuple bu -",
-    "answer": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer1": "bir tipdagi (bir xil ma’lumotlar toifasiga tegishli) elementlar to’plamidan iborat dinamik massiv",
-    "noAnswer2": "turli tipdagi elementlar to’plamidan iborat statik massiv",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Mashinali o’qitishda samaradorlikni baholash uchun qanday matritsadan foydalaniladi?",
-    "answer": "Tartibsizlik matritsasi (confusion matrix)",
-    "noAnswer1": "Aniqliq matritsasi (accuracy matrix)",
-    "noAnswer2": "Xatolik matritsasi (loss matrix)",
-    "noAnswer3": "Barchasi to’g’ri"
-  },
-  {
-    "question": "pip freeze",
-    "answer": "Environment o’rnatilgan barcha paketlar ro’yxatini chop qiladi",
-    "noAnswer1": "Environment o’rnatilgan eng oxirgi paketlar ro’yxatini chop qiladi",
-    "noAnswer2": "Environment o’rnatilgan eng oxirgi 10 ta paket ro’yxatini chop qiladi",
-    "noAnswer3": "Environment o’rnatilgan mashinali o’qitishga xizmat qiladigan paketlar ro’yxatini chop qilish"
-  },
-  {
-    "question": "pip install numpy as np",
-    "answer": "Xatolik sodir bo’ladi",
-    "noAnswer1": "Numpy kutubxonasi o’rnatiladi",
-    "noAnswer2": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "import numpy as nb",
-    "answer": "Numpy kutubxonasi yuklash va quyida uni nb deb yuritish mumkin",
-    "noAnswer1": "Xatolik sodir bo’ladi",
-    "noAnswer2": "Numpy kutubxonasi o’rnatiladi",
-    "noAnswer3": "Numpy kutubxonasi yuklash va quyida uni np deb yuritish mumkin"
-  },
-  {
-    "question": "Agar mashinali o’qitish qo’llaniladigan sklearn kutubxonasi o’rnatilmagan bo’lsa uni\r\nqanday o’rnatish mumkin.",
-    "answer": "Barchasi to’g’ri",
-    "noAnswer1": "pip install sklearn",
-    "noAnswer2": "conda install scikit-learn",
-    "noAnswer3": "pip install scikit-learn"
-  },
-  {
-    "question": "O’rgatuvchi tanlamasiz(dataset siz) mashinali o’qitish algoritmlarini ishlata olamizmi",
-    "answer": "Imkoni yoq",
-    "noAnswer1": "Ha, albatta",
-    "noAnswer2": "Ba’zan",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Python muhitida neyron tarmoq qurish uchun qaysi paketlardan foydalaniladi?",
-    "answer": "keras, tensorflow",
-    "noAnswer1": "tensorflow, pandas",
-    "noAnswer2": "numpy, matplotlib",
-    "noAnswer3": "pandas, opencv"
-  },
-  {
-    "question": "…… bu ikkita qatlamdan iborat ya’ni kiruvchi va chiquvchi qatlamdan iborat bo’lgan neyronni\r\nhisoblash tugunidir. Nuqtalar o’rniga quyidagilardan mos keldiganini qo’ying?",
-    "answer": "perceptron",
-    "noAnswer1": "sigmoid funksiyasi",
-    "noAnswer2": "neyron",
-    "noAnswer3": "ReLU funksiyasi"
-  },
-  {
-    "question": "Regressiya nima?",
-    "answer": "ma’lumotlarni intellektual tahlil qilish usullaridan biri",
-    "noAnswer1": "ma’lumotlarni ustida arifmetik usullaridan biri",
-    "noAnswer2": "ma’lumotlarni raqamli ishlov berish usullaridan biri",
-    "noAnswer3": "ma’lumotlarni jamlash usullaridan biri"
-  },
-  {
-    "question": "Python muhitida for sikl operatorida ishlatiladigan for i in range(0,10,2) ifodasida i indekso’zgaruvchisiga qanday qiymatlar keladi?",
-    "answer": "0 2 4 6 8",
-    "noAnswer1": "0 2 10",
-    "noAnswer2": "0 10",
-    "noAnswer3": "2 4 6 8 10"
-  },
-  {
-    "question": "Supervised o’qitish algoritmlari asosan qanday masalani yechishga qaratilgan?",
-    "answer": "regressiya va sinflashtirish masalasiga",
-    "noAnswer1": "statistik usullar yordamida ma’lumotlarni ajratish masalasiga",
-    "noAnswer2": "statistik usullar yordamida ma’lumotlarni sinflashtirish masalasiga",
-    "noAnswer3": "sinflashtirish va segmentlash masalasiga"
-  },
-  {
-    "question": "Neyron tarmoqda qanday turdagi qatlamlar (layers) bo’lishi mumkin?",
-    "answer": "kiruvchi, chiquvchi, yashirin",
-    "noAnswer1": "kiruvchi, yashirin, oraliq",
-    "noAnswer2": "qabul qiluvchi, hisoblovchi, chiquvchi",
-    "noAnswer3": "kiruvchi, qabul qiluvchi, chiquvchi"
-  },
-  {
-    "question": "Chiziqli regression model nima uchun ishlatiladi?",
-    "answer": "bashorat qilish uchun",
-    "noAnswer1": "mantiqiy model qurish uchun",
-    "noAnswer2": "sinflashtirish masalasini yechish uchun",
-    "noAnswer3": "segmentlash masalasini yechish uchun"
-  },
-  {
-    "question": "Neyron tarmoq nima?",
-    "answer": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi tuzilma",
-    "noAnswer1": "bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi dataset",
-    "noAnswer2": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi dataset",
-    "noAnswer3": "bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi tuzilma"
-  },
-  {
-    "question": "Sun’iy intellekt deganda nimani tushunasiz?",
-    "answer": "insonning onggi kabi fikrlovchi dastur",
-    "noAnswer1": "oddiy kompyuter dasturi",
-    "noAnswer2": "qaror qabul qiluvchi ilovalar",
-    "noAnswer3": "bunday termin fanda mavjud emas"
-  },
-  {
-    "question": "Dataset bu nima?",
-    "answer": "bu o’qitish uchun kerakli bo’lgan ma'lumotlar to'plamidir",
-    "noAnswer1": "bu o’qitish uchun kerakli bo’lgan neyronlar to'plamidir",
-    "noAnswer2": "bu o’qitish uchun kerakli bo’lgan og’irliklar to'plamidir",
-    "noAnswer3": "bu o’qitish uchun kerakli bo’lgan neyron tarmoq qatlamlar to'plamidir"
-  },
-  {
-    "question": "Convolutional neural networks (CNN) – bu?",
-    "answer": "bu ko'p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
-    "noAnswer1": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus arxitekturasi",
-    "noAnswer2": "bu ko’p qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli",
-    "noAnswer3": "bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o’qitishning maxsus usuli"
-  },
-  {
-    "question": "Sun’iy intellektga asoslangan dasturlarni ishlab chiqishdan maqsad nima?",
-    "answer": "mustaqil fikrlovchi va qaror qabul qiluvchi dasturlarni hayotga tadbiq qilish",
-    "noAnswer1": "vaqtni maroqli o‘tkazish",
-    "noAnswer2": "insonlarning yashash darajasini yaxshilash",
-    "noAnswer3": "ortiqcha sarf-xarajatni kamaytirish"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati -5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o’zgaradi?",
-    "answer": "0",
-    "noAnswer1": "5",
-    "noAnswer2": "-5",
-    "noAnswer3": "3,5"
-  },
-  {
-    "question": "Mashinani o’qitish turlari to’g’ri ko’rsatilgan javobni tanlang?",
-    "answer": "supervised, unsupervised, Semi-supervised, reinforcement",
-    "noAnswer1": "regressiya, Ehtimollar nazariyasi, Supervised, unsupervised",
-    "noAnswer2": "supervised, unsupervised, Regressiya, Sinflashtirish",
-    "noAnswer3": "regressiya, Sinflashtirish, Semi-supervised, reinforcement"
-  },
-  {
-    "question": "Neyron tarmoqlari bu…?",
-    "answer": "Neyron tarmoqlari juda ko’p muhim xususiyatlarga ega, ammo asosiysi bu o’rganishqobiliyatidir.",
-    "noAnswer1": "Neyron tarmoqlari ma’lumotlarni bog’lash uchun xizmat qiladi.",
-    "noAnswer2": "Bunday tarmoq mavjud emas",
-    "noAnswer3": "Ikkilik kod sifatidagi algoritm"
-  },
-  {
-    "question": "Chiziqli regressiyaga to’g’ri ta’rifni toping?",
-    "answer": "Chiziqli regressiya kuzatilgan ma'lumotlarga chiziqli tenglamani bog’lash orqali ikkitao'zgaruvchi o'rtasidagi munosabatni modellashtirishga aytiladi.",
-    "noAnswer1": "Chiziqli regressiya ma’lumotlarni klassifikatsiyalaydi.",
-    "noAnswer2": "Chiziqli Regressiya bu tanlangan ma’lumotlar ichidan kerakli ma’lumotni qidirish algoritmi.",
-    "noAnswer3": "To’g’ri javob yo’q."
-  },
-  {
-    "question": "Quyidagi usullardan qaysi biri har qanday chiziqli bo'linadigan ma'lumotlar to'plamida nol\r\no'qitish(zero training) xatosiga erishishi mumkin?",
-    "answer": "KNN",
-    "noAnswer1": "Qaror daraxti",
-    "noAnswer2": "SVM(support vector machine)",
-    "noAnswer3": "CNN"
-  },
-  {
-    "question": "CNN bu…?",
-    "answer": "Svyortkali neyron tarmoq",
-    "noAnswer1": "Adamar neyron tarmog’i",
-    "noAnswer2": "K ta yaqin qo’shnilar",
-    "noAnswer3": "Qayta murojaat neyron tarmog’i"
-  },
-  {
-    "question": "Xususiyatlarni ajratib olishga to'liq ta'rif berilgan qatorini toping?",
-    "answer": "o’qituvchi to’plamdagi ma’lumotlar xususiyatlari o’rganib chiqiladi va bashoratlash, tashxislash, sinflashtirish, qaror qabul qilish uchun kerakli xususiyatlar ajratib olish",
-    "noAnswer1": "Qaror qabul qilish daraxti qiymatlari",
-    "noAnswer2": "Sinflashtirish masalasini yechish algoritmi to’plami",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati 0.5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "0.5",
-    "noAnswer1": "1",
-    "noAnswer2": "0",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "Chiziqli regressiya qaysi mashinali o’qitish algoritmlari tarkibiga kiradi?",
-    "answer": "O’qituvchili o’qitish",
-    "noAnswer1": "O’qituvchisiz o’qitish",
-    "noAnswer2": "Reinforcementli o'qitish",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Neyron tarmoqdagi tugun qiymati 2.5 ga teng. Ushbu tugun ReLU funksiyasi yordamidafaollashtirilsa qanday qiymatga o‟zgaradi",
-    "answer": "2,5",
-    "noAnswer1": "2",
-    "noAnswer2": "0",
-    "noAnswer3": "44595"
-  },
-  {
-    "question": "Sun’iy intellektda mashinani o'qitish uchun to’g’ri ta’rif berilgan qatorni tanlang",
-    "answer": "Sun’iy intellekt - bu inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali\r\no’qitishda aqlli mashinalarga dasturlashning muqobil usulidir.",
-    "noAnswer1": "Mashinali o’qitish - bu aqlli mashinalarni dasturlashning muqobil usuli.",
-    "noAnswer2": "Mashinali o’qitish va suniy intellektning maqsadlari juda boshqacha.",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "Mashinali o’qitish turlari qaysi qatorda to’g’ri berilgan",
-    "answer": "O’qtuvchili va O’qituvchisiz",
-    "noAnswer1": "Tanlanma",
-    "noAnswer2": "Ma’lumotlar bazasi",
-    "noAnswer3": "Chiziqli va logistik"
-  },
-  {
-    "question": "O’qituvchili o’qitish (Supervised learning) – bu .. ?",
-    "answer": "bu modelni xususiyatlari aniq bo’lgan ma’lumotlar bilan o’qitish .",
-    "noAnswer1": "Bu – modelning aniqligini aniqlash algoritmi",
-    "noAnswer2": "Ma’lumotlarga ishlov berish dasturi",
-    "noAnswer3": "Oddiy algoritm"
-  },
-  {
-    "question": "O’qituvchisiz o’qitish (unsupervised learning) – bu … ?",
-    "answer": "mashinani o’qitish usulidan biri bo’lib, bunda modelni oldindan aniq bo’lgan ma’lumotlar bilano’qitish amalga oshirilmaydi, aksincha obyekt parametrlarini (ma'lumotlarni) topish uchunmodelga o'z ustida ishlashga imkon yaratib beriladi",
-    "noAnswer1": "Ma’lumot qidirish algoritmlaridan tashkil topgan tizim",
-    "noAnswer2": "Bunday o’qitish mavjud emas",
-    "noAnswer3": "To’g’ri javob yo’q"
-  },
-  {
-    "question": "O’rgatuvchi tanlamada normallashtirish tushunchasi bu?",
-    "answer": "O’ratuvchi tanlamdagi qiymatlarni bir xil shkalaga o’tkazish",
-    "noAnswer1": "O’ratuvchi tanlamdagi qiymatlarni turli xil shkalaga o’tkazish",
-    "noAnswer2": "O’ratuvchi tanlamdagi qiymatlarni faqat [0,1] shkalaga o’tkazish",
-    "noAnswer3": "O’ratuvchi tanlamdagi qiymatlarni faqat [-1,1] shkalaga o’tkazish"
-  },
-  {
-    "question": "Nima uchun o’rgatuvchi tanlama normallashtiriladi?",
-    "answer": "Obyektni xarakterlovchi xususiyatlari bir xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish",
-    "noAnswer1": "Obyektni xarakterlovchi xususiyatlari faqat [0,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
-    "noAnswer2": "Obyektni xarakterlovchi xususiyatlari faqat [-1,1] shkalaga olib kelish orqali ularning ta’sir\r\nkuchini barobarlashtirish",
-    "noAnswer3": "Obyektni xarakterlovchi xususiyatlari turli xil shkalaga olib kelish orqali ularning ta’sir kuchini\r\nbarobarlashtirish"
-  },
-  {
-    "question": "Validation dataset qayerda ishlatiladi?",
-    "answer": "Modelni qurish davomida paramertlarni sozlashda",
-    "noAnswer1": "Model qurib bo’linganidan so’ng aniqlikni baholashda",
-    "noAnswer2": "To’g’ri javob yo’q",
-    "noAnswer3": "Validation datasetdan foydalanilmaydi"
-  },
-  {
-    "question": "Klasterlash bu ?",
-    "answer": "O’qituvchisiz o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
-    "noAnswer1": "O’qituvchili o’qitish algoritmi asosida obyektlarni xarakterlovchi o’xshash xususiyatlari\r\nasosida guruhlash",
-    "noAnswer2": "Mashinali o’qitishda buday tushuncha yo’q.",
-    "noAnswer3": "Logistik regressiya asosida amalga oshiriladigan mashinali o’qitish algoritmi"
-  },
-  {
-    "question": "KNN algoritmida k qiymat nimani xaratterlaydi?",
-    "answer": "k ta eng yaqin qo’shnini",
-    "noAnswer1": "k ta eng uzoq qo’shnini",
-    "noAnswer2": "O’qitish qadami",
-    "noAnswer3": "O’qitishlar sonini"
-  },
-  {
-    "question": "Uy narxini bashorat qilish uchun mashinali o’qitishning qaysi algoritmidan foydalanadi",
-    "answer": "Chiziqli regressiya",
-    "noAnswer1": "Logistik regressiya",
-    "noAnswer2": "Kmeans",
-    "noAnswer3": "SVM"
-  },
-  {
-    "question": "Keras muhitida modelni testlash uchun mavjud funksiyalardan qaysi biri ishlatiladi?",
-    "answer": "fit()",
-    "noAnswer1": "compile()",
-    "noAnswer2": "evaluate()",
-    "noAnswer3": "test()"
+    "question": "Ijodiy jaryonlarda hayol va fantaziya vositasida\n hozir bevosita ongda berilmagan narsalarning\n xususiyatlarini anglash va xayolda tiklashni taqozo\n etishi nima deyiladi?",
+    "answer": " Imajitiv\n",
+    "noAnswer1": "Pertseptiv",
+    "noAnswer2": "Mnemik faolyat",
+    "noAnswer3": "Fikrlash faolyati"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
