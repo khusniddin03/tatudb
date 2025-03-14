@@ -1,1887 +1,1374 @@
 const data = [
   {
-    "question": "Inson ichki mexanizmlarini nima o’rganadi?",
-    "answer": "Tarbiya",
-    "noAnswer1": "Ta’lim",
-    "noAnswer2": "Bilim",
-    "noAnswer3": "Sharoit"
+    "question": "Activityning onStart() metodiga mos ta’rifni aniqlang.",
+    "answer": "lbu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi",
+    "noAnswer1": "bu metodning vazifasi activity yaratilganida berilgan ketma–ketliklarni bajarishdan iborat va bir marta bajariladi.",
+    "noAnswer2": "ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi",
+    "noAnswer3": "ushbu metod activity ish faoliyati to‘xtatib, qayta ishga tushirilganida chiqariladi"
   },
   {
-    "question": "Ta'lim mazmuni ta'rifini belgilang",
-    "answer": "o‘quvchilarga beriladigan bilim, ko’nikma va malakalarning belgilangan doirasi",
-    "noAnswer1": "o‘quvchilarga beriladigan nazariy bilim va amaliy tajribalar majmuyi",
-    "noAnswer2": "o‘quvchilarga beriladigan bilim, ko’nikma, malakalar xajmi",
-    "noAnswer3": "o‘quv rejasi, dasturi va darsliklar yig‘indisi majmui"
+    "question": "Activityning onStop() metodiga mos ta’rifni aniqlang.",
+    "answer": "ushbu metod activity foydalanuvchiga ko‘rinmay qolganida chaqiriladi",
+    "noAnswer1": "ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi",
+    "noAnswer2": "bu metod foydalanuvchi tomonidan activity bilan ishlayotgan vaqtda chaqiriladi",
+    "noAnswer3": "bu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi"
   },
   {
-    "question": "Qaysi fan pedagogika fani uchun metodologik asos bo’lib xizmat qiladi?",
-    "answer": "O‘quvchilarga beriladigan bilim, ko’nikma va malakalarning oldindan belgilangan doirasi",
-    "noAnswer1": "O‘quvchilarga beriladigan nazariy bilim va amaliy tajribalar majmuyi",
-    "noAnswer2": "O‘quvchilarga beriladigan bilim, ko’nikma, malakalar hajmi",
-    "noAnswer3": "O‘quv rejasi, dasturi va darsliklar yig‘indisi"
+    "question": "Activityning onCreate() metodiga mos ta’rifni aniqlang.",
+    "answer": "bu metodning vazifasi activity yaratilganida berilgan ketma–ketliklarni bajarishdan iborat va bir marta bajariladi",
+    "noAnswer1": "bu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi",
+    "noAnswer2": "ushbu metod activity ish faoliyati to‘xtatib, qayta ishga tushirilganida chiqariladi",
+    "noAnswer3": "ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi"
   },
   {
-    "question": "Psixologiya fani….",
-    "answer": "ruhiy hodisalar va ruhiy holatlarni o‘rganadi",
-    "noAnswer1": "bizning sezgilarimiz, fikrlarimiz, his-tuygularimizni o‘rganadi",
-    "noAnswer2": "ruhiy hodisalarni, ularning fakt va mexanizmlarini o‘rganadi",
-    "noAnswer3": "miya jarayonlari va uning qonuniyatlarini o‘rganadi"
+    "question": "Qaysi xususiyat elementni ekranning to‘liq kengligigacha joylashtiradi?",
+    "answer": "match_parent",
+    "noAnswer1": "parent_wrap",
+    "noAnswer2": "wrap_parent",
+    "noAnswer3": "wrap_content"
   },
   {
-    "question": "O‘zbekiston Respublikasi “Ta'lim to‘g‘risida”gi Qonunining maqsadi?",
-    "answer": "Fuqarolarga ta'lim, tarbiya berish, kasb-hunar o‘rgatishning huquqiy asoslarini belgilashdan iborat konstitutsiyaviy huquqini ta'minlash",
-    "noAnswer1": "O‘zbekiston Respublikasida ta'lim sohasidagi munosabatlarni huquqiy tartibga solish",
-    "noAnswer2": "O‘zbekiston Respublikasi va Qoraqolpag‘iston Respublikasida ta'lim \r\nsohasidagi munosabatlarni huquqiy tartibga solish",
-    "noAnswer3": "Ta'lim sohasidagi davlat siyosatining asosiy printsiplaridan iborat xuquqlarini belgilash."
+    "question": "Qaysi metod obyektni id bo'yicha topadi?",
+    "answer": "findViewById",
+    "noAnswer1": "FindViewID",
+    "noAnswer2": "findViewId",
+    "noAnswer3": "getTextById"
   },
   {
-    "question": "Psixika-bu ….",
-    "answer": "tashqi olamni, ongli tarzda aks ettirishimizni ta'minlaydi",
-    "noAnswer1": "miya mahsuli nerv sistemasining funktsiyasidir",
-    "noAnswer2": "odamning ruhi, uning ruhiy xolatlaridir",
-    "noAnswer3": "bizning sezgilarimiz, fikrlarimiz, his-tuygularimiz va kechinmalarimizdir"
+    "question": "Android – bu ...",
+    "answer": "bu mobil qurilmalar uchun mo‘ljallangan turli hil ilovalar va xizmatlarni o‘z ichiga olgan operatsion tizim",
+    "noAnswer1": "bu mobil qurilmalar uchun mo‘ljallangan turli hil ilovalar va xizmatlarni o‘z ichiga olgan dastur",
+    "noAnswer2": "bu mobil qurilmalar uchun mo‘ljallangan turli hil ilovalar va xizmatlarni o‘z ichiga olgan drayver",
+    "noAnswer3": "bu mobil qurilmalar uchun mo‘ljallangan turli hil ilovalar va xizmatlarni o‘z ichiga olgan paket"
   },
   {
-    "question": "Test - so‘rov…",
-    "answer": "Oldindan qat'iy tarzda qabul qilingan savollarga beriladigan javoblarni taqazo etadi",
-    "noAnswer1": "odam psixikasining masala yechish, vazifalarni bajarish jarayonida kuzatishdir",
-    "noAnswer2": "psixik hodisalarni tushuntirib beruvchi usullar majmuidir.",
-    "noAnswer3": "odam psixikasini o‘rganishdagi vazifalar to‘plamidir"
+    "question": "<pre>\r\nbtn.setOnClickListener(\r\n        new View.OnClickListener() {\r\n            public void OnClick (View v) {\r\n                    btn.setBackgroundTintList(\r\n                            ColorStateList.valueOf(Color.RED)\r\n                    );\r\n            }\r\n        }\r\n);\r\n</pre>\r\nYuqoridagi xatolikni aniqlang",
+    "answer": "@Override qolib ketgan va OnClick metodi onClick yoziladi",
+    "noAnswer1": "@Override qolib ketgan",
+    "noAnswer2": "OnClickListener metodi onClickListener sifatida yozilgan",
+    "noAnswer3": "Hech qanday xatolikka yo’l qo’yilmagan"
   },
   {
-    "question": "\"Vatanga sodiq, tarbiyali inson” sifatlarini to’liq belgilang",
-    "answer": "o’zligini anglash, o’zini ozod, erkin, nodir, ulug, siymoligini anglash",
-    "noAnswer1": "o’ziga xos milliy insoniy sifatlarini ochib beruvchi ma'naviy-insoniy asoslarini anglash",
-    "noAnswer2": "ezgu niyat, fikr, ezgu suz, xushmuomila, ezgu ish, ezgu faoliyat",
-    "noAnswer3": "aqlan yetuk, jimonan soglom, ma'naviy pok tuygularni anglash"
+    "question": "Nechta virtual qurilma (AVD) yaratish mumkin?",
+    "answer": "Cheklanmagan",
+    "noAnswer1": "5 tadan ko’p bo’lmagan",
+    "noAnswer2": "10 tadan ko’p bo’lmagan",
+    "noAnswer3": "15 tadan ko’p bo’lmagan"
   },
   {
-    "question": "Qaysi buyuk rus pedagogi o’zining asarida mashgulotlar orasida tanaffuslar berilishini,\r\n guruhlardagi bolalar yoshi va sonini bir xil bo’lishiga e'tibor berilishini aytgan",
-    "answer": "Ya.A. Komenskiy",
-    "noAnswer1": "A.M. Makarenko",
-    "noAnswer2": "V.A. Suxomlinskiy",
-    "noAnswer3": "D.K. Ushinskiy"
+    "question": "Quyidagi klasslardan qaysi biri mavjud emas?",
+    "answer": "TextEdit",
+    "noAnswer1": "TextView",
+    "noAnswer2": "EditText",
+    "noAnswer3": "Button"
   },
   {
-    "question": "Pedagog butun ta'lim jarayonida  nimani namoyish etib borishi zarur.",
-    "answer": "bolalarga bo‘lgan ishonchini",
-    "noAnswer1": "darsga bo‘lgan munosabatini",
-    "noAnswer2": "o‘ziga bo‘lgan ishonchini",
-    "noAnswer3": "kasbiga bo‘lgan qiziqishi"
+    "question": "Rasmlar qaysi katalogda joylashtirilishi kerak?",
+    "answer": "drawable",
+    "noAnswer1": "res",
+    "noAnswer2": "layout",
+    "noAnswer3": "value"
   },
   {
-    "question": "\"Innovatsion pedagogik texnologiyalar” – bu?",
-    "answer": "noan'anaviy pedagogik texnologiyalar bo‘lib, yangi axborot texnologiyalarining paydo bo‘lishi, talabalarning shaxsini  eng yaxshi xususiyatlarini olib chiqish.",
-    "noAnswer1": "Bu ishning natijasi sifatida o‘quvchilar yozilgan so‘zlar orasidan kitoblarda uchragan so‘zlarga aytiladi",
-    "noAnswer2": "Modulli ta'limning mohiyati shundaki, talaba modul bilan ishlashda mutlaqo mustaqil ravishda (yoki muayyan kam yordam bilan) o‘quv jarayonining aniq maqsadlariga erishish",
-    "noAnswer3": "o‘rganilayotgan bo‘lim bo‘yicha bir nechta kitoblar beriladi va ularning mazmuni va mavzusi ko‘rsatkichlarni diqqat bilan o‘rganishni taklif qiladi"
+    "question": "<pre>android:backgroundTint = \"@android:color/holo_green_light\"</pre> qanday vazifani bajaradi?",
+    "answer": "Obyektning orqa fonini o'rnatadi",
+    "noAnswer1": "Matn rangini o'rnatadi",
+    "noAnswer2": "Matnning orqa fonini o'rnatadi",
+    "noAnswer3": "Obyektning soyasini o'rnatadi"
   },
   {
-    "question": "\"Klaster\" -  texnologiyasi qaysi davlatda yaratilgan ?",
-    "answer": "AQShda",
-    "noAnswer1": "Germaniyada",
-    "noAnswer2": "Frantsiyada",
-    "noAnswer3": "Rossiyada"
+    "question": "AndroidManifest.xml faylida ruxsat haqidagi ma’lumot to’g’ri e’lon qilingan qatorni aniqlang.",
+    "answer": "<pre>&lt;uses-permission android:name=&quot;android.permission.POST_NOTIFICATIONS&quot;/&gt;</pre>",
+    "noAnswer1": "<pre>&lt;uses-permission android:permission=&quot;android.permission.POST_NOTIFICATIONS&quot;/&gt;</pre>",
+    "noAnswer2": "<pre>&lt;uses-permission android:name=&quot;android.POST_NOTIFICATIONS&quot;/&gt;</pre>",
+    "noAnswer3": "<pre>&lt;uses-permission android=&quot;android.permission.POST_NOTIFICATIONS&quot;/&gt;</pre>"
   },
   {
-    "question": "Muammoli o‘qitish bu ….",
-    "answer": "takomillashgan o‘qitish",
-    "noAnswer1": "innovatsion ta'lim",
-    "noAnswer2": "mustaqil ta'lim",
-    "noAnswer3": "zamonaviy ta'lim tehnologiyalari"
+    "question": "ListView adapterlari ishlashni yaxshilash uchun ViewHolder shablonidan foydalanishni …",
+    "answer": "talab qilmaydi",
+    "noAnswer1": "talab qiladi",
+    "noAnswer2": "ta’minlaydi",
+    "noAnswer3": "qisqartiradi"
   },
   {
-    "question": "\"Ijodiy metod” deb nimaga aytiladi.",
-    "answer": "ta'lim oluvchining ijodiy mustaqilligini to‘la amalga oshiradi",
-    "noAnswer1": "ta'lim oluvchining darsdaligini amalga oshiradi",
-    "noAnswer2": "ta'lim oluvchilarning samaradorligini oshirish",
-    "noAnswer3": "Ta'lim oluvchining  darsda qatnashishi"
+    "question": "JSON kalit, qiymat juftligini yozishning to'g'ri formati",
+    "answer": "\"name\" : \"value\"",
+    "noAnswer1": "'name : value'",
+    "noAnswer2": "name = 'value'",
+    "noAnswer3": "name = \"value\""
   },
   {
-    "question": "\"Pedagogika” –",
-    "answer": "bu shaxsni maqsadini shakllantirish xaqidagi fan",
-    "noAnswer1": "bu insonni ichki olami va o‘zini tutishi normalarini o‘rganuvchi fan",
-    "noAnswer2": "bakalavr va magistirlarni tayyorlashda asosiy rol o‘ynovchi fan",
-    "noAnswer3": "bu insonning psixologiyasini  o‘rganuvchi fan"
+    "question": "Android ning 2 (Eclair) versiyasi qachon ishlab chiqilgan",
+    "answer": "Oktabr 26, 2009 yil",
+    "noAnswer1": "Fevral 9, 2009 yil",
+    "noAnswer2": "Aprel 27, 2009 yil",
+    "noAnswer3": "Sentyabr 3, 2008 yil"
   },
   {
-    "question": "\"Shaxs dinamikasi” deganda nimani tushuniladi?",
-    "answer": "kishining ontogenetik rivojlanishini o‘z ichiga olgan holda sub'ektning xususiyatlari va sifatining vaqtga nisbatan o‘zgarish jarayoni",
-    "noAnswer1": "shaxs tomonidan o‘zining axloqiy, ruhiy va ishchanlik qobiliyatining ijtimoiy ahamiyatini, jamiyatdagi o‘rnini anglay olish xususiyati",
-    "noAnswer2": "shaxs amal qiladigan bilim, tamoyil va idealarning haqqoniyligiga qalban va asosli ishonch bilan bog‘langan, uning atrof-muhitga bo‘lgan sub'ektiv munosabati",
-    "noAnswer3": "Shaxs haqida ma'lumot; malaka oshirganlik to‘g‘risidagi ma'lumot; ta'limiy yoki pedagogik kontseptsiya; yutuqlar"
+    "question": "Android 4.4.x qanday nomlangan",
+    "noAnswer1": "Ice Cream Sandwich",
+    "noAnswer2": "Jelly Bean",
+    "answer": "KitKat",
+    "noAnswer3": "Honeycomb"
   },
   {
-    "question": "Pedagogning kishilar bilan qisqa muddatda muloqot o‘rnata olishi, \r\nular bilan muloqot o‘rnatishga bo‘lgan doimiy intilishi - ?",
-    "answer": "Pedagogning kommunikativ madaniyati",
-    "noAnswer1": "Pedagog nuqtai nazari (pozitsiya)",
-    "noAnswer2": "Pedagogik faoliyat",
-    "noAnswer3": "Pedagogik texnologiyalar tizim darajalari"
+    "question": "Mobil qurilmalar uchun ilovalar yozishda ishlatiladigan satrli kattaliklar va izohlar qayerda saqlanadi",
+    "answer": "res/values papkasining ichida joylashgan strings. xml faylida",
+    "noAnswer1": "res papkasining ichida joylashgan colors. xml faylida",
+    "noAnswer2": "res papkasining ichida joylashgan strings. xml faylida",
+    "noAnswer3": "res/values papkasining ichida joylashgan colors. xml faylida"
   },
   {
-    "question": "Maxsus pedagogik tarmoqlarni ko’rsatib bering?",
-    "answer": "defektologiya",
-    "noAnswer1": "oila pedagogikasi",
-    "noAnswer2": "kichik maktab yoshidagi o‘quvchilar pedagogikasi",
-    "noAnswer3": "o‘smirlar pedagogikasi"
+    "question": "Yangi ID kiritishni ko‘rsatib bering.",
+    "answer": "@+id/XXXX",
+    "noAnswer1": "@id/XXXX",
+    "noAnswer2": "+@id/XXXX",
+    "noAnswer3": "@$id/XXXX"
   },
   {
-    "question": "«Ma'naviyat» so’zining ma'nosini belgilang?",
-    "answer": "«ma'naviy goya» so’zlaridan olingan bo’lib, \"ruhiy holat\"  degan ma'noni anglatadi",
-    "noAnswer1": "odob-axloq tushunchasini anglatadi",
-    "noAnswer2": "madaniyatli, odobli, axloqli ma'nosini anglatadi",
-    "noAnswer3": "bilimli, odobli, madaniyatli ma'nosini anglatadi"
+    "question": "Android ilovalarida ishlatiladigan kattalikni ko‘rsating",
+    "answer": "dp",
+    "noAnswer1": "px",
+    "noAnswer2": "in",
+    "noAnswer3": "mm"
   },
   {
-    "question": "Pedagogika taraqqiyotida goyaviy-ilmiy muammolarning o’rni",
-    "answer": "Pedagogikaning fan sifatida taraqqiyoti uchun asos",
-    "noAnswer1": "Pedagogik jarayonni to’gri tashkil etish uchun asos",
-    "noAnswer2": "O’qituvchilar, tarbiyachilar, ustozlar uchun qo’llanma",
-    "noAnswer3": "Pedagogika mutaxassisliklari uchun qo’llanma"
+    "question": "Android ilovalarida ishlatiladigan kattalikni ko‘rsating",
+    "answer": "sp",
+    "noAnswer1": "sm",
+    "noAnswer2": "dm",
+    "noAnswer3": "dpi"
   },
   {
-    "question": "Pedagogikaning ilmiy tadqiqot usullari",
-    "answer": "Maktab xujjatlarini o’rganish, taqdirlash, jazolash",
-    "noAnswer1": "Ishontirish, o’rgatish va mashq qildirish",
-    "noAnswer2": "Pedagogik kuzatish, suxbat, pedagogik tajriba",
-    "noAnswer3": "Ma'ruza, himoya, tushuntirish, muammoli ta'lim"
+    "question": "200 px o‘lchamli to‘g‘ri chiziqning o‘lchami Android qurilmasida qancha dp bo‘ladi. (ldpi)",
+    "answer": "266,7",
+    "noAnswer1": "200",
+    "noAnswer2": "133,3",
+    "noAnswer3": "100"
   },
   {
-    "question": "“Yetuk shaxs” bo‘lgandagi sifatlarni aniqlang",
-    "answer": "Aqliy, jismoniy yetukligi",
-    "noAnswer1": "Zexn o’tkirligi",
-    "noAnswer2": "Ma'naviy pokligi",
-    "noAnswer3": "Iqtidorliligi va madaniyatliligi"
+    "question": "250 px o‘lchamli to‘g‘ri chiziqning o‘lchami Android qurilmasida qancha dp bo‘ladi. (mdpi)",
+    "answer": "250",
+    "noAnswer1": "333,25",
+    "noAnswer2": "166,67",
+    "noAnswer3": "125"
   },
   {
-    "question": "Ta'lim maqsadini belgilash omillari",
-    "answer": "Jamiyatning ijtimoiy mafkuraviy, ma'naviy shart-sharoitlari",
-    "noAnswer1": "Pedagog, ota-ona, o’qituvchilarning xohish istaklari",
-    "noAnswer2": "Jamiyat taraqqiyotining istiqboli",
-    "noAnswer3": "Jamiyat taraqqiyotining ijtimoiy ehtiyojlari"
+    "question": "100 px o‘lchamli to‘g‘ri chiziqning o‘lchami Android qurilmasida qancha dp bo‘ladi. (hdpi)",
+    "answer": "66,67",
+    "noAnswer1": "100",
+    "noAnswer2": "133,33",
+    "noAnswer3": "50"
   },
   {
-    "question": "\"O‘z-o‘zini baholash” deganda nima tushuniladi ?",
-    "answer": "shaxsning o‘z psixologik sifatlari, xulqi, yutuqlari va muvaffaqiyatsizliklari, qadr-qimmati, kamchiliklarini baholash",
-    "noAnswer1": "shaxsga xos bo‘lgan madaniyatning shakllanishi va rivojlanishiga qaratilgan izchil va ongli faoliyati",
-    "noAnswer2": "shaxsning o‘z jismoniy, ruhiy va axloqiy sifatlarini tinmay amalga oshirish",
-    "noAnswer3": "faoliyatining bir turi bo‘lib, ijtimoiy tajribalarni o‘zlashtirish va bunyod etishga qaratilgan bo‘ladi"
+    "question": "100 px o‘lchamli to‘g‘ri chiziqning o‘lchami Android qurilmasida qancha dp bo‘ladi. (xhdpi)",
+    "answer": "50",
+    "noAnswer1": "100",
+    "noAnswer2": "66,67",
+    "noAnswer3": "133,33"
   },
   {
-    "question": "Shaxs taraqqiyotida pedagogik omillarni o’rni",
-    "answer": "Bilim, ko’nikma berish orqali dunyoqarashni shakllantirish",
-    "noAnswer1": "Xulq, madaniyat odatini shakllantirish",
-    "noAnswer2": "Talant iste'dodlarini o‘stirish",
-    "noAnswer3": "Biologik, ijtimoiy omillarni boshqarish"
+    "question": "... - bu metodning vazifasi activity yaratilganida berilgan ketma–ketliklarni bajarishdan iborat va bir marta bajariladi.",
+    "answer": "onCreate()",
+    "noAnswer1": "onStart()",
+    "noAnswer2": "onResume()",
+    "noAnswer3": "onPause()"
   },
   {
-    "question": "Motivatsiya nima?",
-    "answer": "Inson xulq-atvori, uning bog’lanishi, yo’nalishi va faolligiga undovchi kuch.",
-    "noAnswer1": "Uning jarayonida bilimlar, malaka va turli ko’nikmalar o’zlashtiriladi",
-    "noAnswer2": "Shaxs individual rivojlanishi jarayonida namoyon bo’ladigan birlamchi faoliyat turlaridan biri.",
-    "noAnswer3": "Ongrivojlanishiningbosqichlari."
+    "question": "... – bu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi.",
+    "answer": "onStart()",
+    "noAnswer1": "onResume()",
+    "noAnswer2": "onPause()",
+    "noAnswer3": "onCreate ()"
   },
   {
-    "question": "Konkret odamni boshqa bir konkret odamdan farqlovchi barcha  o’ziga xos\r\n xususiyatlar majmui nima deb ataladi?",
-    "answer": "individuallik",
-    "noAnswer1": "qobiliyat",
-    "noAnswer2": "iqtidor",
-    "noAnswer3": "iste'dod"
+    "question": "... — bu metod foydalanuvchi tomonidan activity bilan ishlayotgan vaqtda chaqiriladi.",
+    "answer": "onResume()",
+    "noAnswer1": "onPause()",
+    "noAnswer2": "onCreate ()",
+    "noAnswer3": "onStart()"
   },
   {
-    "question": "Qaysi qatorda psixik jarayonlar kiritilganligini aniqlang",
-    "answer": "sezgi, idrok, xotira, tafakkur, nutq, hayol",
-    "noAnswer1": "diqqat ,alanga, katak, miya, xavo, tuygu",
-    "noAnswer2": "qiziqish, fikr, diqqatlilik, odat",
-    "noAnswer3": "ovoz, qobiliyat, tovush, hayol, muhabbat"
+    "question": "... – ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi.",
+    "answer": "onPause()",
+    "noAnswer1": "onCreate ()",
+    "noAnswer2": "onStart()",
+    "noAnswer3": "onResume()"
   },
   {
-    "question": "Psixologiyaning taraqqiyot bosqichlari bo’yicha tarmoqlari qaysi qatorda ko’rsatilgan?",
-    "answer": "yosh davrlari psixologiyasi: bolalar, o’smirlar, o’spirinlar",
-    "noAnswer1": "diqqatlilik,tafakkur munosabat, mehnat",
-    "noAnswer2": "tibbiyot, o’smirlar, sport, xarbiy psixologiya",
-    "noAnswer3": "ijtimoiy psixologiya, xarbiy va savdo psixologiyasi"
+    "question": "... — ushbu metod activity foydalanuvchiga ko‘rinmay qolganida chaqiriladi",
+    "answer": "onStop()",
+    "noAnswer1": "onCreate ()",
+    "noAnswer2": "onStart()",
+    "noAnswer3": "onResume()"
   },
   {
-    "question": "Sezgi bu….",
-    "answer": "oddiy bilishdan  iborat psixik jarayon bo’lib,  \r\nmoddiy borliqdagi narsa va hodisalarni aks ettirishdan iborat",
-    "noAnswer1": "moddiy borliqdagi narsa va hodisalarni ayrim xususiyatlarini  \r\naks ettirishdan iborat bosh miya po’sti rektsiyasidir",
-    "noAnswer2": "moddiy borliqdagi narsa va hodisalarni  bosh miya po’stida \r\naks ettirish jarayonidir",
-    "noAnswer3": "sezgilar tirik organizmning tashki dunyoga moslashish xususiyatini ichiga olgandir"
+    "question": "... – bu tartib elementi tashkil etuvchi elementlarni bir tomonga, ya’ni vertikal yoki gorizontal tarzda joylashtiradi.",
+    "answer": "LinearLayout",
+    "noAnswer1": "RelativeLayout",
+    "noAnswer2": "TableLayout",
+    "noAnswer3": "AbsoluteLayout"
   },
   {
-    "question": "Xotira bu …",
-    "answer": "tajribamizga aloqador xar qanday ma'lumotni  eslab qolish, \r\nesda saqlash bilan bog‘liq murakkab jarayondir",
-    "noAnswer1": "oldin qabul qilingan taassurotlarni  esda saqlash bilan bog’lik jarayondir",
-    "noAnswer2": "pegallagan tajribalarni  amaliy faoliyatda qo’llashdan iborat psixik jarayondir",
-    "noAnswer3": "kishining sezgi va idroklari asosida  o’z tajribasini boyitish  qobiliyati"
+    "question": "Elementlar guruxidan tashkil topgan ro‘yxatni aks ettiruvchi elementlari guruhi bu – ...",
+    "answer": "ListView",
+    "noAnswer1": "GridView",
+    "noAnswer2": "LinearLayout",
+    "noAnswer3": "RelativeLayout"
   },
   {
-    "question": "Pedagogikada \"shaxs\" ta'rifi",
-    "answer": "Shaxs ta'lim-tarbiya va vaziyatlar mahsuli",
-    "noAnswer1": "Shaxs-ijtimoiy munosabatlar mahsuli",
-    "noAnswer2": "Shaxs axborotlarni\r\nqabul qiluvchi",
-    "noAnswer3": "Shaxs-o’qituvchi, o‘quvchi, ota-ona"
+    "question": "... – bu element kengligini ko‘rsatuvchi atribut",
+    "answer": "android:layout_width",
+    "noAnswer1": "android:layout_height",
+    "noAnswer2": "layout_width",
+    "noAnswer3": "layout_height"
   },
   {
-    "question": "Ta'lim jarayoni ta'sirida shaxsning aqliy kamolotini bilish qobiliyati, o‘qishga, \r\nmehnatga bo‘lgan munosabatini rivojlantirish ta'limning qaysi \r\nmaqsadlari orqali amalga oshiriladi?",
-    "answer": "Ta'limiy",
-    "noAnswer1": "Rivojlantiruvchi",
-    "noAnswer2": "Tarbiyaviy",
-    "noAnswer3": "iMa'naviy"
+    "question": "... – bu element balandligini ko‘rsatuvchi atribut.",
+    "answer": "android:layout_height",
+    "noAnswer1": "android:layout_width",
+    "noAnswer2": "layout_width",
+    "noAnswer3": "layout_height"
   },
   {
-    "question": "Materialni nisbatan dadil va to‘la tushunilishi va material bilan bog‘liq tushunchalarni \r\najratilishi xarakterlanishi qaysi olimning nazariyalarida berilgan?",
-    "answer": "P.Ya.Galperin",
-    "noAnswer1": "D.B.Elkonin",
-    "noAnswer2": "S.L.Rubinshteyn",
-    "noAnswer3": "Yan.Amos Komenskiy"
+    "question": "… – bu atribut X koordinatasini bildiradi",
+    "answer": "android:layout_x",
+    "noAnswer1": "android:layout_y",
+    "noAnswer2": "layout_x",
+    "noAnswer3": "layout_y"
   },
   {
-    "question": "“Didaktikaning otasi, asoschisi” nomini olgan olim kim?",
-    "answer": "Yan Amos Komenskiy",
-    "noAnswer1": "P.Ya.Galperin",
-    "noAnswer2": "S.L.Rubinshteyn",
-    "noAnswer3": "D.B.Elkonin"
+    "question": "… – bu atribut Y koordinatasini bildiradi",
+    "answer": "android:layout_y",
+    "noAnswer1": "android:layout_x",
+    "noAnswer2": "layout_y",
+    "noAnswer3": "layout_x"
   },
   {
-    "question": "Ma’lum bir maqsadga yo’naltirilgan tizimli bilim va ko’nikmalar bilan qurollangan jarayon bu....",
-    "answer": "Ta’lim;",
-    "noAnswer1": "O’qitish;",
-    "noAnswer2": "Masofaviy o’qitish;",
-    "noAnswer3": "Internatsionallilik."
+    "question": "... – yaratilgan element uchun talab qilinadigan eng kichik o‘lchovni bildiradi.",
+    "answer": "wrap_content",
+    "noAnswer1": "fill_parent",
+    "noAnswer2": "match_parent",
+    "noAnswer3": "match_content"
   },
   {
-    "question": "\"Keys stadi” metodi  ma ‘nosi qanday?",
-    "answer": "Aniq vaziyatlarni o‘rganish",
-    "noAnswer1": "Natijalarni belgilash",
-    "noAnswer2": "Boshqa vaziyatni baholash",
-    "noAnswer3": "Vaziyatdan chetlashish"
+    "question": "… – yaratilgan element uchun tartiblash elementining talab qilingan eng katta o‘lchovini bildiradi",
+    "noAnswer1": "fil_parent",
+    "noAnswer2": "wrap_content",
+    "answer": "match_parent",
+    "noAnswer3": "match_content"
   },
   {
-    "question": "\"Pedagogik mahorat\" nima  ?",
-    "answer": "pedagogik jarayonni tashkil etish  harakatni ko‘rsata olish",
-    "noAnswer1": "zamonaviy texnikalar asosida dars o‘tish",
-    "noAnswer2": "ko‘proq yangi  usullar bilan tanishtirib dars o‘tish",
-    "noAnswer3": "hamma usullar  bilan darsni to‘liq yoritib berish"
+    "question": "... – bu funksiya aktivitidagi vidjetlarni obyekt sifatida belgilash uchun ishlatiladi.",
+    "answer": "findViewById()",
+    "noAnswer1": "findViewId()",
+    "noAnswer2": "findById()",
+    "noAnswer3": "viewById()"
   },
   {
-    "question": "Pedagogning kommunikativ madaniyati?",
-    "answer": "pedagogning   kishilar bilan qisqa muddat ichida muloqatga kirishi",
-    "noAnswer1": "pedagog kishilar  bialn to‘liq muloqotga ega emasligi",
-    "noAnswer2": "pedagog doim  uzviy va doimiy harakatda bo‘lishi",
-    "noAnswer3": "pedagog  mahoratga ega bo‘lishi"
+    "question": "Java dasturlash tilida vorislik olish uchun ishlatiladigan xizmatchi so‘zni ko‘rsating",
+    "answer": "extends",
+    "noAnswer1": "implements",
+    "noAnswer2": "override",
+    "noAnswer3": "overload"
   },
   {
-    "question": "Pedagog nuqtai nazari….",
-    "answer": "Pedagogning dunyoga,pedagogik voqelikka intellektual va hissiy munosabati",
-    "noAnswer1": "pedagogning shaxsiy fikrlashini xisobga olgan xolda ish olib borish",
-    "noAnswer2": "Pedagogning aqliy faoliyatini rivojlantirib reja tuzish ishlash",
-    "noAnswer3": "Pedagogning dunyoqarashi fikrlash doirasi e’tiborga olib munosabatlarini rivojlantirish"
+    "question": "Qayta yozish uchun mo‘ljallangan metodlarning oldida ... buyrug‘i yoziladi.",
+    "answer": "override",
+    "noAnswer1": "extends",
+    "noAnswer2": "implements",
+    "noAnswer3": "overload"
   },
   {
-    "question": "Pedagogika faninning «Didaktika» ta’lim nazariyasi qismi qaysi \r\nqadimiy lotincha so‘z nomi bilan aytiladi?",
-    "answer": "O‘qituvchi",
-    "noAnswer1": "Tarbiyachi",
-    "noAnswer2": "Yetaklovchi",
-    "noAnswer3": "Murabbiy"
+    "question": "Qayta yuklash uchun mo‘ljallangan metodlar oldida ... buyrug‘i yoziladi.",
+    "answer": "overload",
+    "noAnswer1": "override",
+    "noAnswer2": "extends",
+    "noAnswer3": "implements"
   },
   {
-    "question": "Kreativlik – bu",
-    "answer": "shaxsning ijodga nisbatan umumiy qobiliyati",
-    "noAnswer1": "pedagogik jarayonni qurish",
-    "noAnswer2": "talabalarga nisbatan sabr-toqatli bo‘lish",
-    "noAnswer3": "zarur axborotlarni tahlil qilish qobiliyati"
+    "question": "JSON da yozilgan ma’lumotlar obyektlar qanday belgilar orasida beriladi.",
+    "answer": "{ }",
+    "noAnswer1": "[ ]",
+    "noAnswer2": "( )",
+    "noAnswer3": "&lt; &gt;"
   },
   {
-    "question": "Pedagog ixtiyorida bo‘lgan eng kuchli vosita nima?",
-    "answer": "Shaxsiy namuna",
-    "noAnswer1": "Pedagogik maxorat",
-    "noAnswer2": "Pedagogik texnologiya",
-    "noAnswer3": "Nutq"
+    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda butun sonli qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
+    "answer": "getInt()",
+    "noAnswer1": "GetInteger()",
+    "noAnswer2": "get_int()",
+    "noAnswer3": "get_integer()"
   },
   {
-    "question": "...  - faoliyat jarayonida paydo bo‘ladi va rivojlanadi. ... malaka va uddaburonlikdan farq qiladi",
-    "answer": "qobiliyat",
-    "noAnswer1": "bilim",
-    "noAnswer2": "ko‘nikma",
-    "noAnswer3": "faoliyat"
+    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda satrli qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
+    "answer": "getString()",
+    "noAnswer1": "GetString()",
+    "noAnswer2": "get_str()",
+    "noAnswer3": "get_string()"
   },
   {
-    "question": "Pedagogik psixologiya nimani o‘rganadi?",
-    "answer": "kishiga  ta’lim -tarbiya berishning psixologik qonuniyatlarini o‘rganadi",
-    "noAnswer1": "tafakkurning shakllanishini o‘rganadi",
-    "noAnswer2": "pedagog bilan ukuvchilar urtasidagi munosabatni o‘rganadi",
-    "noAnswer3": "psixik rivojlanishdan orkada kolish sabablarini o‘rgandi"
+    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda haqiqiy sonli qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
+    "answer": "getDouble()",
+    "noAnswer1": "GetDouble()",
+    "noAnswer2": "getFloat()",
+    "noAnswer3": "getReal()"
   },
   {
-    "question": "Metod, ya’ni usul axborotni uzatish va qabul qilish xarakteriga qarab qanday usullarga bo’linadi?",
-    "noAnswer1": "Ijtimoiy ehtiyojlar",
-    "answer": "So’z orqali ifodalash usuli, ko’rgazmalilik usuli, amaliy, namuna usuli, rag’batlantirish, jazo.",
-    "noAnswer2": "Faoliyat turi bilan shug’ullanishiga majbur qilgan psixologik omillar",
-    "noAnswer3": "Narsa va xodisalarning mohiyati"
+    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda obyekt qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
+    "answer": "getJSONObject()",
+    "noAnswer1": "GetJSONObject()",
+    "noAnswer2": "getObject()",
+    "noAnswer3": "getObjectJSON()"
   },
   {
-    "question": "Tarbiyalanganlik –deganda nimani tushunasiz?",
-    "answer": "Milliy urf-odatimiz mezoniga kirmagan, o’zgalarning nafratini qo’zg’atadigan \r\nxatti-harakatlardan o’zini tiyabilish",
-    "noAnswer1": "O’ziga baho berish",
-    "noAnswer2": "O’zgalarning fikrini amalda qo’llash",
-    "noAnswer3": "Noto’g’ri qilgan ishiga o’zini iqror qildirish"
+    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda massiv qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
+    "answer": "getJSONArray()",
+    "noAnswer1": "GetJSONArray()",
+    "noAnswer2": "getArray()",
+    "noAnswer3": "getArrayJSON()"
   },
   {
-    "question": "Pedagogikaning asosiy tushunchalari",
-    "noAnswer1": "pedagogik muloqot, ma’naviyat",
-    "answer": "ta’lim, tarbiya, ma’lumot,",
-    "noAnswer2": "ta’lim, ilm, malaka, ko‘nikma",
-    "noAnswer3": "ilm, ma’rifat, madaniyat"
+    "question": "Ma’lumotlarni mobil qurilmaning xotirasiga yuklashda ishlatiladigan klass nomini ko‘rsating",
+    "answer": "AsyncTask",
+    "noAnswer1": "TaskAsync",
+    "noAnswer2": "InformationLoad",
+    "noAnswer3": "LoadInformation"
   },
   {
-    "question": "................ - ma\t’tkaziladigan, o’quvchilarni bilim, \r\nko’nikma va malakalar bilan qurollantiradigan, bilim, qobiliyatlarini o’stiradigan, \r\nularning dunyoqarashini tarkib toptiradigan jarayondir",
-    "answer": "ta’lim",
-    "noAnswer1": "ko’nikma",
-    "noAnswer2": "bilim",
-    "noAnswer3": "qobiliyat"
+    "question": "Dialog oynasi qaysi klass yordamida yaratiladi",
+    "answer": "AlertDialog",
+    "noAnswer1": "ProgressDialog",
+    "noAnswer2": "Dialog",
+    "noAnswer3": "Fragment"
   },
   {
-    "question": "Pedagogning kishilar bilan qisqa muddatda muloqot o‘rnata olishi, ular bilan muloqot o‘rnatishga bo‘lgan doimiy intilishi?",
-    "answer": "Pedagogning kommunikativ madaniyati",
-    "noAnswer1": "Pedagog nuqtai nazari (pozitsiya)",
-    "noAnswer2": "Pedagogik faoliyat",
-    "noAnswer3": "Pedagogik texnologiyalar tizim darajalari"
+    "question": "Dialog oynasi uchun sarlavhani o‘rnatuvchi metodni ko‘rsating.",
+    "answer": "setTitle()",
+    "noAnswer1": "setCaption()",
+    "noAnswer2": "setText()",
+    "noAnswer3": "setMessage()"
   },
   {
-    "question": "Ko‘zi ojiz tarbiyalanuvchilar ta'lim-tarbiyasi  bilan shug‘ullanuvchi fan qaysi?",
-    "answer": "Tiflopedagogika",
-    "noAnswer1": "Surdopedagogika",
-    "noAnswer2": "Oligofrenopedagogika",
-    "noAnswer3": "Ordopedagogika"
+    "question": "Dialog oynasida chiquvchi xabarni o‘rnatuvchi metodni ko‘rsating.",
+    "answer": "setMessage()",
+    "noAnswer1": "setTitle()",
+    "noAnswer2": "setCaption()",
+    "noAnswer3": "setText()"
   },
   {
-    "question": "Ta'lim usullarini tanlash bilan bir qatorda o‘qituvchi darsdagi talabalarni yosh\r\n va individual xarakter xususiyatlarini o‘rganishi hamda tahlil qilishi shart.\r\n Qaysi usul asosan ta'lim-tarbiya jarayoniga aloqador ilmiy faraz yoki amaliy\r\n ishlarning tatbiqi jarayonlarini tekshirish, aniqlash maqsadida o‘tkaziladi?",
-    "answer": "Eksperiment-tajriba-sinov usuli",
-    "noAnswer1": "Test sinovlar usuli",
-    "noAnswer2": "Matematika va kibernetika usullari",
-    "noAnswer3": "Test - surov metodi"
+    "question": "Dialog oynasida dasturchi o‘ziga mos ko‘rinishdagi oyna hosil qiluvchi metodni ko‘rsating.",
+    "answer": "setView()",
+    "noAnswer1": "setViews()",
+    "noAnswer2": "setview()",
+    "noAnswer3": "set_views()"
   },
   {
-    "question": "52 .............– bu yosh avlodni hayotga, mehnatga tayyorlash uchun xalq oldida, \r\ndavlat oldida javob beradigan, yosh avlodga ta'lim-tarbiya berish uchun maxsus \r\ntayyorlangan mutaxassislarning mehnat faoliyati",
-    "answer": "Pedagogik faoliyat",
-    "noAnswer1": "Pedagogik qobiliyat",
-    "noAnswer2": "Pedagogik mahorat",
-    "noAnswer3": "Pedagogik jarayon"
+    "question": "Dialog oynasidagi tugmalarning qaysi biriga oynadagi ko‘rsatilgan buyruqlarni bajarish uchun dastur yozish tavsiya etiladi.",
+    "answer": "setPositiveButton(...)",
+    "noAnswer1": "setNegativeButton(...)",
+    "noAnswer2": "setNeutralButton(...)",
+    "noAnswer3": "setFullButton(...)"
   },
   {
-    "question": "Shaxsning faolliyatini yo‘naltirib turadigan va mavjud vaziyatlarga nisbatan bog‘liq\r\n bo‘lmagan barqaror motivlar majmuyi ................ deb ataladi?",
-    "answer": "kishi shaxsining yo‘naltirilganligi",
-    "noAnswer1": "kishining motivatsiya xolati",
-    "noAnswer2": "kishining qiziqish yo‘nalishi",
-    "noAnswer3": "kishining faoliyat yo‘nalishi"
+    "question": "Dialog oynasidagi tugmalarning qaysi biriga oynadagi ko‘rsatilgan buyruqlarni bajarmasligi uchun dastur yozish tavsiya etiladi.",
+    "answer": "setNegativeButton(...)",
+    "noAnswer1": "setNeutralButton(...)",
+    "noAnswer2": "setPositiveButton(...)",
+    "noAnswer3": "setFullButton(...)"
   },
   {
-    "question": "“Milliy mafkura - bu xalqning, millatning o‘tda yonmaydigan, suvda cho‘kmaydigan o‘lmas  ......”",
-    "answer": "e'tiqodidir",
-    "noAnswer1": "iymonidir",
-    "noAnswer2": "ma'naviyatidir",
-    "noAnswer3": "madaniyatidir"
+    "question": "Dialog oynasi uchun bekor qilishni oldini oluvchi metodni ko‘rsating.",
+    "answer": "setCancelable()",
+    "noAnswer1": "setCancel()",
+    "noAnswer2": "isCancelable()",
+    "noAnswer3": "isCancel()"
   },
   {
-    "question": ".... -  tadqiqotchining boshqa kishilardan pedagogik tajribaning biror\r\n tomoni yoki hodisalari haqida axborot olish jarayoni bu metodning asosini tashkil qiladi.",
-    "answer": "Pedagogik so‘rash metodi",
-    "noAnswer1": "Test sinovlar metodi",
-    "noAnswer2": "Eksperiment-tajriba-sinov usuli",
-    "noAnswer3": "Kuzatish metodi"
+    "question": "Faqat raqamli ma’lumotlarni kiritish uchun EditText vidjetini qaysi atributi o‘zgartiriladi.",
+    "answer": "android:inputType",
+    "noAnswer1": "inputType",
+    "noAnswer2": "ems",
+    "noAnswer3": "android:ems"
   },
   {
-    "question": ".............– ma'naviy manbalar va xozirgi zamon talablari va extiyojlarini \r\nnazarda tutgan xolda, o‘qituvchining o‘quvchi bilan aniq bir maqsadga qaratilgan\r\n o‘zaro amaliy va nazariy muloqotidir",
-    "answer": "Tarbiya",
-    "noAnswer1": "Ko‘nikma",
-    "noAnswer2": "Bilim",
-    "noAnswer3": "Ta'lim"
+    "question": "Faqat raqamli ma’lumotlarni kiritish uchun EditText vidjetini qaysi atributi o‘zgartiriladi va uning qiymatini ko‘rsating.",
+    "answer": "android:inputType=\"number\"",
+    "noAnswer1": "inputType=\"number\"",
+    "noAnswer2": "ems=\"number\"",
+    "noAnswer3": "android:ems=\"number\""
   },
   {
-    "question": "Lug‘aviy jihatdan “interfaol” tushunchasi qanday ma'noni anglatadi?",
-    "answer": "o‘zaro harakat qilmoq",
-    "noAnswer1": "o‘zaro fikr almashmoq",
-    "noAnswer2": "o‘zaro yordam bermoq",
-    "noAnswer3": "o‘zaro kelishib olmoq"
+    "question": "Mobil ilovalarda ma’lumotlar bazasini qaysi MBBT da yaratiladi",
+    "answer": "SQLite",
+    "noAnswer1": "MySQL",
+    "noAnswer2": "MS SQL Server",
+    "noAnswer3": "Oracle"
   },
   {
-    "question": "Talabalarning bilim, ko‘nikma, malaka va muayyan axloqiy sifatlarni o‘zlashtirish \r\nyo‘lidagi o‘zaro harakatlarini tashkil etishga asoslanuvchi ta'lim qanday nomlanadi?",
-    "answer": "muammoli ta'lim;",
-    "noAnswer1": "rivojlantiruvchi ta'lim",
-    "noAnswer2": "dasturiy ta'lim",
-    "noAnswer3": "interfaol ta'lim"
+    "question": "SQLite MB dan foydalanishda MBni yaratish qaysi klassdan foydalaniladi",
+    "answer": "SQLiteOpenHelper",
+    "noAnswer1": "SQLiteOpen",
+    "noAnswer2": "SQLiteHelper",
+    "noAnswer3": "SQLiteBase"
   },
   {
-    "question": "..... - deganda biz shaxsning ham jismoniy, ham aqliy va ma'naviy kamol topish jarayonini tushunamiz",
-    "answer": "rivojlanish",
-    "noAnswer1": "tarbiya",
-    "noAnswer2": "bilim",
-    "noAnswer3": "ma'naviyat"
+    "question": "Ma’lumotlar bazasiga yozuvlar qo‘shish uchun foydalaniladigan metodni ko‘rsating.",
+    "answer": "insert",
+    "noAnswer1": "delete",
+    "noAnswer2": "select",
+    "noAnswer3": "update"
   },
   {
-    "question": ".........– hulqning asosiy anglanilgan motivi. U butun shaxs faoliyatiga alohida mazmun va \r\naniq yo‘nalish bahsh etadi",
-    "answer": "e'tiqod",
-    "noAnswer1": "motivatsiya",
-    "noAnswer2": "extiyoj",
-    "noAnswer3": "madaniyat"
+    "question": "Ma’lumotlar bazasiga yozuvlar o‘chirish uchun foydalaniladigan metodni ko‘rsating.",
+    "answer": "delete",
+    "noAnswer1": "insert",
+    "noAnswer2": "select",
+    "noAnswer3": "update"
   },
   {
-    "question": "\"Shaxsiy fazilat nima?",
-    "answer": "Shaxs tomonidan o‘zining ahloqiy ruhiy va ishchanlik qobiliyatining anglay olish hususiyati",
-    "noAnswer1": "Shaxs amal qiladigan bilim tamoyil va ideallarning haqqoniyligiga qalban subьektiv munosabati",
-    "noAnswer2": "Insonning xayotiy tajribaga asoslangan munosabat turlarini xisobga olishishmiz mumkin",
-    "noAnswer3": "Individning biror narsa hodisaga muhtojligini ko’rishimiz mumkin bo‘ladi"
+    "question": "Ma’lumotlar bazasiga yozuvlar taxrirlash uchun foydalaniladigan metodni ko‘rsating.",
+    "answer": "update",
+    "noAnswer1": "insert",
+    "noAnswer2": "select",
+    "noAnswer3": "delete"
   },
   {
-    "question": "\"Estetik tarbiya” nima?",
-    "answer": "Go‘zallikini his qilish, go‘zallikni payqay olish qobiliyatini tarbiyalash",
-    "noAnswer1": "Individning biror narsaga muhtojligi, go‘zalligini misol qilib olamiz",
-    "noAnswer2": "Tasodifiylik xaqidagi tasavvurni go’zallika, mantiqqa bog‘lash",
-    "noAnswer3": "Tadqiqot ob’ekti to‘grisida har tomonlama tasavvur hosil qilish"
+    "question": "Ma’lumotlarni kiritish uchun ma’lumotlar qaysi klassdan foydalanib MB ga qo‘shiladi yoki taxrirlanadi.",
+    "answer": "ContentValues",
+    "noAnswer1": "Values",
+    "noAnswer2": "Content",
+    "noAnswer3": "String"
   },
   {
-    "question": "\"Faoliyat” nima?",
-    "answer": "Ongli maqsad bilan boshqariladigan ichki va tashqi faolligi",
-    "noAnswer1": "Insonning atrof-muhitga bo‘lgan ta'siri",
-    "noAnswer2": "Bilim, ko‘nikma va tajribadan kelib chiqib ishlash",
-    "noAnswer3": "Shaxs psihikasi motivlarining shakllanishi"
+    "question": "MB da yozuvlarni birma–bir saqlaydigan klass nomini ko‘rsating.",
+    "answer": "Cursor",
+    "noAnswer1": "Values",
+    "noAnswer2": "Content",
+    "noAnswer3": "String"
   },
   {
-    "question": "Tushuncha nima?",
-    "answer": "buyum va xodisalar xususiyatlarining umumiy va muhim belgilarini yaxlit holda ifodalash",
-    "noAnswer1": "Shaxs hayotining muayyan davrdagi psihik rivojlanishini nazarda tutadi",
-    "noAnswer2": "Insonnig atrof muhitga munosabatini o‘rganish orqali munosabatlarni o‘rganish",
-    "noAnswer3": "Insonning anglay bilish qobiliyati shakllantirish orqali ish uslubini olib borish"
+    "question": "MB sini yozish uchun ochish metodini belgilang",
+    "answer": "getWritableDatabase",
+    "noAnswer1": "getReadableDatabase",
+    "noAnswer2": "getWritable",
+    "noAnswer3": "getReadable"
   },
   {
-    "question": "Tushuncha nima?",
-    "answer": "buyum va xodisalar xususiyatlarining umumiy va muhim belgilarini yaxlit holda ifodalash",
-    "noAnswer1": "Shaxs hayotining muayyan davrdagi psihik rivojlanishini nazarda tutadi",
-    "noAnswer2": "Insonnig atrof muhitga munosabatini o‘rganish orqali munosabatlarni o‘rganish",
-    "noAnswer3": "Insonning anglay bilish qobiliyati shakllantirish orqali ish uslubini olib borish"
+    "question": "JSON bilan ishlayotgan vaqtda hatoliklarni boshqaruvchi klassni ko‘rsating",
+    "answer": "JSONException",
+    "noAnswer1": "Exception",
+    "noAnswer2": "IOException",
+    "noAnswer3": "NullPointerException"
   },
   {
-    "question": "\"Tarbiya” nima?",
-    "answer": "Shaxsning ma'naviy va jismoniy holatga muntazam maqsadga muvofiq ta'sir etish",
-    "noAnswer1": "biror harakat fikrni takrorlash orqali ta'lim tarbiya masalasini rivojlantirish",
-    "noAnswer2": "ta'lim maqsadlarini amalga oshirishga qaratilgan fikrlar",
-    "noAnswer3": "ta'limning yo‘nalishlaridan birini tanlab faoliyat olib borishdir"
+    "question": "LinearLayout vidjeti yordamida komponentalarni vertikal va gorizontal joylashtirishda vidjetning qaysi atributi o‘zgartiriladi.",
+    "answer": "android:orientation",
+    "noAnswer1": "orientation",
+    "noAnswer2": "text",
+    "noAnswer3": "android:text"
   },
   {
-    "question": "Ilmiy tushuncha sifatida “........” so‘zi keng ma'noda muayyan maqsadga erishish yo‘lini, \r\ntor ma'noda - tabiat va ijtimoiy xayot xodisalari va qonuniyatlarini bilish maqsadida\r\n qandaydir vazifani xal etish usulini bildiradi",
-    "answer": "metod",
-    "noAnswer1": "ma'naviyat",
-    "noAnswer2": "texnologiya",
-    "noAnswer3": "qobiliyat"
+    "question": "Button tugmasi chertish xodisasi qaysi atribut orqali aniqlanadi.",
+    "answer": "android:onClick",
+    "noAnswer1": "onClick",
+    "noAnswer2": "android:click",
+    "noAnswer3": "Click"
   },
   {
-    "question": "Hissiyot - bu ….",
-    "answer": "kishining tevarak atrofdagi  narsa va hodisalarga  bulgan munosabatlarini \r\n kechinishi",
-    "noAnswer1": "kishining emotsiyasini boshqara olishni rivojlantirish",
-    "noAnswer2": "ichki a'zolardagi  aniq xarakat va o’zgarishlarni  anglash",
-    "noAnswer3": "kishining extiyojlarga bo’lgan o’z munosabatlarini farqlay olishi"
+    "question": "Scale-independent pixel ma’nosini bildiruvchi kattalikni ko‘rsating.",
+    "answer": "sp",
+    "noAnswer1": "dp",
+    "noAnswer2": "sip",
+    "noAnswer3": "Dip"
   },
   {
-    "question": "Iroda – bu ….",
-    "answer": "shaxsning maqsadga erishish yo’lidagi jismoniy va ruhiy qiyinchiliklarini yengishi",
-    "noAnswer1": "kishilarning ixtiyoriy xarakatlari yig‘indisini olishimiz mumkin",
-    "noAnswer2": "shaxsning yashash tartibi va sharoitlari bilan belgilanadigan aktivligi",
-    "noAnswer3": "kishining ixtiyorsiz xarakatlari yig‘indisini rivojlantirish"
+    "question": "Density-independent pixel ma’nosini bildiruvchi kattalikni ko‘rsating.",
+    "answer": "dp",
+    "noAnswer1": "sp",
+    "noAnswer2": "sip",
+    "noAnswer3": "Dip"
   },
   {
-    "question": "Temperament – bu …",
-    "answer": "kishining nerv sistemasi xolati bo’lib, odamlarga va xayot sharoitiga bo’lgan\r\n munosabatlarining yakka xususiyatlari",
-    "noAnswer1": "Kishining o’zini tuta olmasligi xaqidagi xarakterlarni o‘rganadi",
-    "noAnswer2": "Shaxs faoliyati va xulqining dinamik o‘zgaruvchan va emotsional-hissiy tomonlarini \r\nxarakterlovchi individual xususiyatlar",
-    "noAnswer3": "shaxs faoliyati va xulqining dinamik xususiyatlari yig‘indisini olishimiz mumkin"
+    "question": "Vidjetning joylashuvini ko‘rstuvchi atributni ko‘rsating.",
+    "answer": "android:layout_gravity",
+    "noAnswer1": "layout_gravity",
+    "noAnswer2": "android:layout_weight",
+    "noAnswer3": "layout_weight"
   },
   {
-    "question": "Xarakter – bu …",
-    "answer": "Shaxsdagi shunday psixologik, sub'ektiv munosabatlar majmuiki, ular uning borliqqa, odamlarga\r\n munosabatini ifodalaydi",
-    "noAnswer1": "Kishining xulq -atvorida namoyon bo’ladigan tug’ma xususiyatlari",
-    "noAnswer2": "Kishining oliy nerv sistemasi bilan bog’lanmagan holda shakllanadigan psixik xususiyatlari",
-    "noAnswer3": "Kishining fe'l-atvoridan kelib chiqqan xolda o‘z-o‘ziga munosabatini ifodalaydi"
+    "question": "Android telefonlarida qo‘shimcha xizmatlarni yoqish uchun qaysi fayl o‘zgartiriladi.",
+    "answer": "AndroidManifest.xml",
+    "noAnswer1": "ActivityManager.xml",
+    "noAnswer2": "activity_main.xml",
+    "noAnswer3": "ActivityMain.xml"
   },
   {
-    "question": ".......– o'quvchining ichki dunyosiga kira olish qobiliyati, o'quvchi shaxsini va uning ruhiy holatlarini juda yaxshi tushuna bilish bilan bog'liq bo'lgan psixologik kuzatuvchanlikdir",
-    "answer": "Kuzatuvchanlik qobiliyati",
-    "noAnswer1": "Tushuntira olish qobiliyati",
-    "noAnswer2": "Bilish qobiliyati",
-    "noAnswer3": "Pedagogik maxorat"
+    "question": "Android telefonlarida internet xizmatini yoqish uchun qaysi buyruq yoziladi.",
+    "answer": "&lt;uses-permission android:name=”android.permission.INTERNET”/&gt;",
+    "noAnswer1": "&lt;uses android:name=”android.permission.INTERNET”/&gt;",
+    "noAnswer2": "&lt;uses-permission android:name=”android.INTERNET”/&gt;",
+    "noAnswer3": "&lt;uses-permission name=”android.permission.INTERNET”/&gt;"
   },
   {
-    "question": "Kaysi fan pedagogika fani uchun metodologik asos bulib xizmat kiladi?\n",
-    "answer": "Ukuvchilarga beriladigan bilim, kunikma va malakalarning oldindan belgilangan doirasi ",
-    "noAnswer1": "Ukuvchilarga beriladigan nazariy \nbilim va amaliy tajribalar majmuyi",
-    "noAnswer2": "Ukuvchilarga beriladigan bilim, kunikma, malakalar xajmi",
-    "noAnswer3": "Ukuv rejasi, dasturi va darsliklar yigindisi"
+    "question": "Ilovani eng kichik android versiyasini ko‘rsatish uchun qaychi buyruq yoziladi.",
+    "answer": "&lt;uses-sdk android:minSdkVersion=”X” /&gt;",
+    "noAnswer1": "&lt;uses android:minSdkVersion=”X” /&gt;",
+    "noAnswer2": "&lt;uses-sdk minSdkVersion=”X” /&gt;",
+    "noAnswer3": "&lt;uses-sdk version=”X” /&gt;"
   },
   {
-    "question": " Psixologiya fani....",
-    "answer": "ruhiy hodisalar va ruhiy xolatlarni o'rganadi",
-    "noAnswer1": "bizning sezgilarimiz, fikrlarimiz, his-tuygularimizni o'rganadi .",
-    "noAnswer2": "ruhiy hodisalarni, ularning fakt va mexanizmlarini o'rganadi",
-    "noAnswer3": "miya jarayonlari va uning qonuniyatlarini o'rganadi"
+    "question": "Bir aktivitidan boshqa aktivitini natija qaytaruvchi qilib chaqirish uchun qaysi funksiyadan foydalaniladi.",
+    "answer": "startActivityForResult",
+    "noAnswer1": "startService",
+    "noAnswer2": "startActivity",
+    "noAnswer3": "stopService"
   },
   {
-    "question": "O'zbekiston Respublikasi \"ta'lim to'g'risida\"gi Qonunining maqsadi?",
-    "answer": "Fuqarolarga ta'lim, tarbiya berish, kasb-hunar o'rgatishning huquqiy asoslarini belgilashdan iborat konstitusiyaviy huquqini ta'minlash",
-    "noAnswer1": "O'zbekiston Respublikasidata'lim sohasidagi munosabatlarni huquqiy tartibga solish",
-    "noAnswer2": "O'zbekiston Respublikasi va Qoraqolpag'iston Respublikasidata'lim sohasidagi munosabatlarni huquqiy tartibga solish",
-    "noAnswer3": "Ta'lim sohasidagi davlat siyosatining asosiy printsiplaridan iborat xukuklarini belgilash."
+    "question": "Android telefonlarida SMS habarlarini xizmatini yoqish uchun qaysi buyruq yoziladi.",
+    "answer": "&lt;uses-permission android:name=”android.permission.SEND_SMS”/&gt;",
+    "noAnswer1": "&lt;uses android:name=”android.permission.SEND_SMS”/&gt;",
+    "noAnswer2": "&lt;uses-permission android:name=”android.SEND_SMS”/&gt;",
+    "noAnswer3": "&lt;uses-permission name=”android.permission.SEND_SMS”/&gt;"
   },
   {
-    "question": "Psixika-bu ....",
-    "answer": "u tashqi olamni, ongli tarzda aks ettirishimizni ta'minlaydi",
-    "noAnswer1": "miya maxsuli nerv sistemasining funktsiyasidir",
-    "noAnswer2": "odamning ruxi, uning ruhiy xolatlaridir",
-    "noAnswer3": "bizning sezgilarimiz, fikrlarimiz, his-tuygularimiz va kechinmalarimizdir"
+    "question": "AsuncTask klassi yordamida yaratilayotgan foydalanuvchi klassida qaysi metod ma’lumotlarni o‘qish uchun ishlatiladi.",
+    "answer": "doInBackground()",
+    "noAnswer1": "onPostExecute()",
+    "noAnswer2": "downloadImageTask()",
+    "noAnswer3": "onPreExecute()"
   },
   {
-    "question": "Test - so'rov…\n\n",
-    "answer": "Oldindan qat'iy tarzda qabul qilingan savollarga beriladigan javoblarni taqazo etadi",
-    "noAnswer1": "odam psixikasining masala echish, vazifalarni bajarish jarayonida kuzatishdir",
-    "noAnswer2": "psixik hodisalarni tushuntirib beruvchi usullar majmuidir.    ",
-    "noAnswer3": "odam psixikasini o'rganishdagi vazifalar to'plamidir"
+    "question": "AsuncTask klassi yordamida yaratilayotgan foydalanuvchi klassida qaysi metod ma’lumotlarni foydalanuvchining obyektiga uzatish uchun ishlatiladi.",
+    "answer": "onPostExecute()",
+    "noAnswer1": "downloadImageTask()",
+    "noAnswer2": "onPreExecute()",
+    "noAnswer3": "doInBackground()"
   },
   {
-    "question": "Vatanga sodiq, tarbiyali inson sifatlarini tulik belgilang\n",
-    "answer": "uzligini anglash, uzini ozod, erkin, Nodir, ulug, siymoligini anglash",
-    "noAnswer1": "uziga xos milliy insoniy sifatlarini ochib beruvchi ma'naviy-insoniy asoslarini anglash ",
-    "noAnswer2": "ezgu niyat, fikr, ezgu suz, xushmuomila, ezgu ish, ezgu faoliyat",
-    "noAnswer3": "aklan etuk, jimonan soglom, ma'naviy pok tuygularni anglash",
-    "Column7": " "
+    "question": "Foydalanuvchi tomonidan yaratiladagan xizmatlar (Servis) qaysi klass yordamida yaratiladi",
+    "answer": "Service",
+    "noAnswer1": "onBind",
+    "noAnswer2": "onStartCommand",
+    "noAnswer3": "Servis"
   },
   {
-    "question": "Kaysi buyuk rus pedagogi uzining asarida mashgulotlar orasida tanafuslar berilishini, guruxlardagi bolalar yoshi va sonini bir xil bulishiga e'tibor berilishini aytgan",
-    "answer": "Ya.A. Komenskiy ",
-    "noAnswer1": "A.M. Makarenko",
-    "noAnswer2": "V.A. Suxomlinskiy ",
-    "noAnswer3": "D.K. Ushinskiy"
+    "question": "Foydalanuvchi tomonidan yaratiladagan xizmatlar (Servis) qaysi buyruq orqali ilovaga tanishtiriladi",
+    "answer": "&lt;service android:name=”.ServiceName” /&gt;",
+    "noAnswer1": "&lt;service name=” .ServiceName” /&gt;",
+    "noAnswer2": "&lt;service android=” ServiceName” /&gt;",
+    "noAnswer3": "&lt;service name:android=” ServiceName” /&gt;"
   },
   {
-    "question": "O'zbekiston Respublikasi \"ta'lim tugrisida konun\" amaldagisi kachon kabul kilingan",
-    "answer": "1997 yil 29 avgust",
-    "noAnswer1": "1995 yil 10 mart",
-    "noAnswer2": "1992 yil 20 oktyabr",
-    "noAnswer3": "1999 yil 16 avgust"
+    "question": "Ilovada servisni yoqish uchun qaysi funksiya ishlatiladi.",
+    "answer": "startService",
+    "noAnswer1": "startActivity",
+    "noAnswer2": "startActivityForResult",
+    "noAnswer3": "stopService"
   },
   {
-    "question": "O'zbekiston Respublikasi \"Kadrlar tayyorlash milliy dasturi\" kachon kabul kilingan",
-    "answer": "1997 yil 29 avgust",
-    "noAnswer1": "1992 yil 20 oktyabr",
-    "noAnswer2": "1999 yil 16 avgust",
-    "noAnswer3": "1993 yil 15 noyabr"
+    "question": "Dastur yordamida komponentalarga rang berish uchun ranglardan qanday foydalaniladi.",
+    "answer": "Color.RED",
+    "noAnswer1": "Color.Red",
+    "noAnswer2": "COLOR.Red",
+    "noAnswer3": "COLOR.RED"
   },
   {
-    "question": "Pedagog butun ta'lim jarayonida nimani namoyish etib borishi zarur.",
-    "answer": "bolalarga bo'lgan ishonchini",
-    "noAnswer1": "darsga bo'lgan munosabatini",
-    "noAnswer2": "o'ziga bo'lgan ishonchini",
-    "noAnswer3": "kasbiga bo'lgan kizikishi"
+    "question": "Dasturda qizil rang qanday ifodalaniladi.",
+    "answer": "Color.RED",
+    "noAnswer1": "Color.Red",
+    "noAnswer2": "COLOR.Red",
+    "noAnswer3": "COLOR.RED"
   },
   {
-    "question": "Innovasion pedagogik texnologiyalar – bu?\n",
-    "answer": "noan'anaviy pedagogik texnologiyalar bo'lib, yangi axborot texnologiyalarining paydo bo'lishi, talabalarning shaxsini eng yaxshi xususiyatlarini olib chiqish.",
-    "noAnswer1": "Bu ishning natijasi sifatida o'quvchilar yozilgan so'zlar orasidan kitoblarda uchragan so'zlarga aytiladi",
-    "noAnswer2": "Modulli ta'limning mohiyati shundaki, talaba modul bilan ishlashda mutlaqo mustaqil ravishda (yoki muayyan kam yordam bilan) o'quv jarayonining aniq maqsadlariga erishish",
-    "noAnswer3": "o'rganilayotgan bo'lim bo'yicha bir nechta kitoblar beriladi va ularning mazmuni va mavzusi ko'rsatkichlarni diqqat bilan o'rganishni taklif qiladi"
+    "question": "Bir aktivitidan boshqa aktivitini chaqirish uchun qaysi funksiyadan foydalaniladi.",
+    "answer": "startActivity",
+    "noAnswer1": "startService",
+    "noAnswer2": "startActivityForResult",
+    "noAnswer3": "stopService"
   },
   {
-    "question": "\"Klaster\" - texnologiyasi qaysi davlatda yaratilgan ?\n\n",
-    "answer": " AQShda",
-    "noAnswer1": "Germaniyada",
-    "noAnswer2": "Frantsiyada",
-    "noAnswer3": "Rossiyada"
+    "question": "ArrayList yordamida yaratilgan obyektlar massivining uzunligini qaytaruvchi metodni ko‘rsating",
+    "answer": "size()",
+    "noAnswer1": "length()",
+    "noAnswer2": "len()",
+    "noAnswer3": "count()"
   },
   {
-    "question": "Muammoli o'qitish bu .... ",
-    "answer": "takomillashgan o'qitish",
-    "noAnswer1": "innovasion ta'lim ",
-    "noAnswer2": "mustaqil ta'lim",
-    "noAnswer3": "zamonaviy ta'lim tehnologiyalari"
+    "question": "ArrayList yordamida yaratilgan obyektlar massiviga yangi obyekt joylashtiruvchi metodni ko‘rsating",
+    "answer": "add",
+    "noAnswer1": "size",
+    "noAnswer2": "insert",
+    "noAnswer3": "Delete"
   },
   {
-    "question": "  Ijodiy metod deb nimaga aytiladi.\n",
-    "answer": "ta'lim oluvchining ijodiy mustaqilligini to'la amalga oshiradi",
-    "noAnswer1": "ta'lim oluvchining darsdaligini amalga oshiradi",
-    "noAnswer2": "ta'lim oluvchilarning samaradorligini oshirish",
-    "noAnswer3": "Ta'lim oluvchining darsda qatnashishi"
+    "question": "Androiddagi ma’lumotlar yoki resurslar nimada saqlanadi.",
+    "answer": "Klasslar va xususiyatlarda",
+    "noAnswer1": "Klasslarda va xodisalarda",
+    "noAnswer2": "Xodisalarda",
+    "noAnswer3": "Obyektlada"
   },
   {
-    "question": "Pedagogika – \n\n",
-    "answer": "bu shaxsni maqsadini shakllantirish xaqidagi fan",
-    "noAnswer1": "bu insonni ichki olami va o'zini tutishi narmallarini o'rganuvchi fan ",
-    "noAnswer2": "bakalavr va magistirlarni tayyorlashda asosiy rol o'ynovchi fan",
-    "noAnswer3": "bu insonning psixologiyasini o'rganuvchi fan"
+    "question": "Javada o‘zgarmaslar qaysi xizmatchi so‘z bilan e’lon qilinadi.",
+    "answer": "final",
+    "noAnswer1": "const",
+    "noAnswer2": "static",
+    "noAnswer3": "Var"
   },
   {
-    "question": "Shaxs dinamikasi deganda nimani tushuniladi?\n\n",
-    "answer": "kishining ontogenetik rivojlanishini o'z ichiga olgan holda sub'ektning xususiyatlari va sifatining vaqtga nisbatan o'zgarish jarayoni",
-    "noAnswer1": "shaxs tomonidan o'zining axloqiy, ruhiy va ishchanlik qobiliyatining ijtimoiy ahamiyatini, jamiyatdagi o'rnini anglay olish xususiyati",
-    "noAnswer2": "shaxs amal qiladigan bilim, tamoyil va idealarning haqoniyligiga qalban va asosli ishonch bilan bog'langan, uning atrof-muhitga bo'lgan sub'ektiv munosabati",
-    "noAnswer3": "Shaxs haqida ma'lumot; malaka oshirganlik to'g'risidagi ma'lumot; ta'limiy yoki pedagogik kontsepsiya; yutuqlar"
+    "question": "Javada klass nomi bilan yonma-yon yuradigan xususiyatlar qaysi xizmatchi so‘z bilan e’lon qilinadi.",
+    "answer": "static",
+    "noAnswer1": "var",
+    "noAnswer2": "final",
+    "noAnswer3": "Const"
   },
   {
-    "question": "Pedagogning kishilar bilan qiska muddatda muloqot o'rnata olishi, ular bilan muloqot o'rnatishga bo'lgan doimiy intilishi nimaga boglik?\n\n",
-    "answer": "Pedagogning kommunikativ madaniyati",
-    "noAnswer1": "Pedagog nuqtai nazari (pozisiya)",
-    "noAnswer2": "Pedagogik faoliyat",
-    "noAnswer3": "Pedagogik texnologiyalar tizim darajalari"
+    "question": "AndroidStudio muhitida SDK ko‘rsatish uchun buyruqlar ketma–ketligini ko‘rsating.",
+    "answer": "File&gt;Setting&gt;Appearance&Behavor&gt;System Settings&gt;Android SDK",
+    "noAnswer1": "File &gt;Appearance&Behavor&gt;System Settings&gt;Android SDK",
+    "noAnswer2": "File&gt;Setting &gt;System Settings&gt;Android SDK",
+    "noAnswer3": "Setting&gt;Appearance&Behavor&gt;System Settings&gt;Android SDK"
   },
   {
-    "question": "Maxsus pedagogik tarmoklarini kursatib bering? ",
-    "answer": "Defektologiya ",
-    "noAnswer1": "oila pedagogikasi",
-    "noAnswer2": "kichik maktab yoshidagi ukuvchilar pedagogikasi ",
-    "noAnswer3": "o'smirlar pedagogikasi"
+    "question": "AndroidStudio muhitida mp3 fayllari qaysi resurs papkasida joylashadi.",
+    "answer": "raw",
+    "noAnswer1": "mp3",
+    "noAnswer2": "drawable",
+    "noAnswer3": "Res"
   },
   {
-    "question": "\"Ma'naviyat\" suzining ma'nosini belgilang?",
-    "answer": "\"ma'naviy goya\" suzlaridan olingan bulib ruxiy xolat degan ma'noni anglatadi",
-    "noAnswer1": "odob-axlok tushunchasini anglatadi",
-    "noAnswer2": "madaniyatli, odobli, axlokli ma'nosini anglatadi",
-    "noAnswer3": "bilimli, odobli, madaniyatli ma'nosini anglatadi"
+    "question": "Java dasturlash tilida interfeysdan voris olish uchun ishlatiladigan xizmatchi so‘zni ko‘rsating.",
+    "answer": "implements",
+    "noAnswer1": "extends",
+    "noAnswer2": "override",
+    "noAnswer3": "overload"
   },
   {
-    "question": "Pedagogika taraqqiyotida goyaviy-ilmiy muammolarning urni",
-    "answer": "Pedagogikaning fan sifatida tarakkiyoti uchun asos",
-    "noAnswer1": "Pedagogik jarayonni tugri tashkil etish uchun asos",
-    "noAnswer2": "Ukituvchilar, tarbiyachilar, ustozlar uchun kullanma",
-    "noAnswer3": "Pedagogika mutaxassisliklari uchun kullanma"
+    "question": "Mobil qurilmalarda xotiralar necha turga bo‘linadi.",
+    "answer": "2",
+    "noAnswer1": "3",
+    "noAnswer2": "1",
+    "noAnswer3": "4"
   },
   {
-    "question": "Pedagogikaning ilmiy tadkikod usullari",
-    "answer": "Maktab xujjatlarini urganish takdirlash, jazolash",
-    "noAnswer1": "Ishontirish, urgatish va mashk kildirish",
-    "noAnswer2": "Pedagogik kuzatish, suxbat, pedagogik tajriba",
-    "noAnswer3": "Ma'ruza ximoya, tushuntirish, muammoli ta'lim"
+    "question": "Mobil qurilmalarda SD Card qanday xotira turi xisoblanadi.",
+    "answer": "external",
+    "noAnswer1": "internal",
+    "noAnswer2": "SD",
+    "noAnswer3": "Memory"
   },
   {
-    "question": "Yetuk shaxs bo'lgandagi sifatlarni aniqlang",
-    "answer": "Aqliy, jismoniy yetukligi",
-    "noAnswer1": "Zexn utkirligi",
-    "noAnswer2": "Ma'naviy pokligi",
-    "noAnswer3": "Iktidorliligi va madaniyatliligi"
+    "question": "Mobil qurilmalarda qurilmaning xotirasi qanday xotira turi xisoblanadi.",
+    "answer": "internal",
+    "noAnswer1": "SD",
+    "noAnswer2": "Memory",
+    "noAnswer3": "External"
   },
   {
-    "question": "Ta'lim maksadini belgilash omillari",
-    "answer": "Jamiyatning ijtimoiy mafkuraviy, ma'naviy shart-sharoitlari",
-    "noAnswer1": "Pedagog, ota-ona, ukituvchilarning xoxish istaklari",
-    "noAnswer2": "Jamiyat tarakkiyotining istikboli",
-    "noAnswer3": "Jamiyat tarakkiyotining ijtimoiy extiyojlari"
+    "question": "Ma’lumotlar bazasidan ma’lumotlar o‘qib olinganda birinchi yozuvga o‘tishni ko‘rsating.",
+    "answer": "moveToFirst",
+    "noAnswer1": "moveFirst",
+    "noAnswer2": "first",
+    "noAnswer3": "MoveToFirst"
   },
   {
-    "question": "O'z-o'zini baholash deganda nima tushuniladi ?\n",
-    "answer": "shaxsning o'z psixologik sifatlari, xulqi, yutuqlari va muvaffaqiyatsizliklari, qadr-qimmati, kamchiliklarini baholash",
-    "noAnswer1": "shaxsga xos bo'lgan madaniyatning shakllanishi va rivojlanishiga qaratilgan izchil va ongli faoliyati",
-    "noAnswer2": "shaxsning o'z jismoniy, ruhiy va axloqiy sifatlarini tinmay amalga oshirish",
-    "noAnswer3": " faoliyatining bir turi bo'lib, ijtimoiy tajribalarni o'zlashtirish va bunyod etishga qaratilgan bo'ladi"
+    "question": "Ma’lumotlar bazasida keyingi yozuvga o‘tishni ko‘rsating.",
+    "answer": "moveToNext",
+    "noAnswer1": "moveNext",
+    "noAnswer2": "next",
+    "noAnswer3": "MoveToNext"
   },
   {
-    "question": "Shaxs tarakkiyotida pedagogik omillarni urni",
-    "answer": "Bilim kunikma berish orkali dunyokarashni shakllantirish",
-    "noAnswer1": "Xulk madaniyat odatini shakllantirish",
-    "noAnswer2": "Talant iste'dodlarini o'stirish",
-    "noAnswer3": "Biologik, ijtimoiy omillarni boshkarish"
+    "question": "Ilovada ishlayotgan klassni ko‘rsatish qanday amalga oshiriladi.",
+    "answer": "this",
+    "noAnswer1": "class",
+    "noAnswer2": "this.class",
+    "noAnswer3": "class.this"
   },
   {
-    "question": "Qaysi katorda psixik jarayonlar kiritilganligini aniqlang",
-    "answer": "sezgi, idrok, xotira, tafakkur, nutk, hayol",
-    "noAnswer1": " diqqat, alanga, katak, miya, xavo, tuygu",
-    "noAnswer2": "qiziqish, fikr, diqqatlilik, odat",
-    "noAnswer3": "ovoz, qobiliyat, tovush, hayol, muhabbat"
+    "question": "Obyektli ma’lumotlar tiplarining super klassini ko‘rsating",
+    "answer": "Number",
+    "noAnswer1": "Long",
+    "noAnswer2": "Double",
+    "noAnswer3": "Type"
   },
   {
-    "question": "Psixologiyaning tarakkiyot boskichlari buyicha tarmoklari kaysi katorda kursatilgan?",
-    "answer": "yosh davrlari psixologiyasi: bolalar, usmirlar, uspirinlar",
-    "noAnswer1": "diqqatlilik,tafakkur munosabat, mehnat",
-    "noAnswer2": "tibbiyot, usmirlar, sport, xarbiy psixologiya",
-    "noAnswer3": "ijtimoiy psixologiya, xarbiy va savdo psixologiyasi"
+    "question": "Ma’lumotlar bazasidan ma’lumotlar o‘qib olinganda oxirgi yozuvga o‘tishni ko‘rsating.",
+    "answer": "moveToLast",
+    "noAnswer1": "moveLast",
+    "noAnswer2": "last",
+    "noAnswer3": "MoveToLast"
   },
   {
-    "question": "Sezgi bu....",
-    "answer": "oddiy bilishdan iborat psixik jarayon bulib, moddiy borlikdagi narsa va hodisalarning aks ettirishdan iborat",
-    "noAnswer1": "moddiy borlikdagi narsa va hodisalarni ayrim xususiyatlarini aks ettirishdan iborat bosh miya pusti rektsiyasidir",
-    "noAnswer2": "moddiy borlikdagi narsa va hodisalarni bosh miya pustida aks ettirish jarayonidir",
-    "noAnswer3": "sezgilar tirik organizmning tashki dunyoga moslashish xususiyatini ichiga olgandir"
+    "question": "Ma’lumotlar bazasida oldingi yozuvga o‘tishni ko‘rsating.",
+    "answer": "moveToPrevious",
+    "noAnswer1": "movePrevious",
+    "noAnswer2": "previous",
+    "noAnswer3": "MoveToPrevious"
   },
   {
-    "question": "Xotira bu …",
-    "answer": "tajribamizga aloqador xar qanday ma'lumotni eslab qolish, esda saklashga bog'liq murakkab jarayondir",
-    "noAnswer1": "oldin kabul kilingan taassurotlarni esda saklash bilan boglik jarayondir",
-    "noAnswer2": "egallagan tajribalarni amaliy faoliyatda kullashdan iborat psixik jarayondir",
-    "noAnswer3": "kishining sezgi va idroklari asosida uz tajribasini boyitish qobiliyati"
+    "question": "Java tilida klassning konstruktori qanday nomlanadi",
+    "answer": "Klass nomi bilan ustma–ust tushadi",
+    "noAnswer1": "Konstruktor mavjud emas",
+    "noAnswer2": "construct",
+    "noAnswer3": "Construct"
   },
   {
-    "question": "Pedagogikada shaxs ta'rifi",
-    "answer": "Shaxs ta'lim-tarbiya va vaziyatlar maxsuli",
-    "noAnswer1": "Shaxs-ijtimoiy munosabatlar maxsuli",
-    "noAnswer2": "Shaxs axborotlarni\nkabul kiluvchi ",
-    "noAnswer3": "Shaxs-ukituvchi, ukuvchi, ota-ona"
+    "question": "Java tilida klassning destruktor qanday nomlanadi",
+    "answer": "Destruktor mavjud emas",
+    "noAnswer1": "Klass nomi bilan ustma–ust tushadi",
+    "noAnswer2": "destruct",
+    "noAnswer3": "Destruct"
   },
   {
-    "question": "Ta'lim jarayoni ta'sirida shaxsning aqliy kamolotini \nbilish qobiliyati, o'qishga, mexnatga bo'lgan munosabatini rivojlantirish ta'limning qaysi maqsadlari orqali amalga oshiriladi?",
-    "answer": "Ta'limiy",
-    "noAnswer1": "Rivojlantiruvchi",
-    "noAnswer2": "Tarbiyaviy",
-    "noAnswer3": "Ma'naviy "
+    "question": "Metodning vazifasini ko‘rsating.public boolean onCreateOptionsMenu(Menu menu){…}",
+    "answer": "Menyu yaratish",
+    "noAnswer1": "Qalqib chiquvchi menyu yaratish",
+    "noAnswer2": "Variant yaratish",
+    "noAnswer3": "Menyuni tashlash metodi"
   },
   {
-    "question": "Materialni nisbatan dadil va to'la tushunilishi va material bilan bog'liq tushunchalarni ajratilishi xarakterlanishi qaysi olimning nazariyalarida berilgan?",
-    "answer": "P.Ya.Galperin",
-    "noAnswer1": "D.B.Elkonin",
-    "noAnswer2": "S.L.Rubinshteyn",
-    "noAnswer3": "Yan.Amos Komenskiy"
+    "question": "Java dasturlash tilida kirituvchi oqim nomini ko‘rsating",
+    "answer": "System.in",
+    "noAnswer1": "System.out",
+    "noAnswer2": "in",
+    "noAnswer3": "Scanner"
   },
   {
-    "question": "\"Didaktikaning otasi, asoschisi\" nomini olgan olim kim?",
-    "answer": "Yan Amos Komenskiy",
-    "noAnswer1": "P.Ya.Galperin",
-    "noAnswer2": "S.L.Rubinshteyn",
-    "noAnswer3": "D.B.Elkonin"
+    "question": "Java dasturlash tilida chiqaruvchi oqim nomini ko‘rsating",
+    "answer": "System.out",
+    "noAnswer1": "in",
+    "noAnswer2": "Scanner",
+    "noAnswer3": "System.in"
   },
   {
-    "question": "Ma'lum bir maqsadga yo'naltirilgan tizimli bilim va ko'nikmalar bilan qurollangan jarayon bu....",
-    "answer": "Ta'lim;",
-    "noAnswer1": "O'qitish;",
-    "noAnswer2": "Masofaviy o'qitish; ",
-    "noAnswer3": "Internatsionallilik."
+    "question": "Room ma’lumotlar bazasidagi DAO so‘zining kengaytmasini ko‘rsating",
+    "answer": "Data Access Object",
+    "noAnswer1": "Database Access Object",
+    "noAnswer2": "Development Access Object",
+    "noAnswer3": "Drop Access Object"
   },
   {
-    "question": "Keys stadi metodi manosi kanday\n",
-    "answer": " Aniq vaziyatlarni o'rganish",
-    "noAnswer1": "Natijalarni nbelgilash",
-    "noAnswer2": "Boshqa vaziyatni baholash",
-    "noAnswer3": " Vaziyatdan chetlashish"
+    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadval uchun qaysi annotatsiya ishlatiladi?",
+    "answer": "Entity",
+    "noAnswer1": "Dao",
+    "noAnswer2": "Tables",
+    "noAnswer3": "Database"
   },
   {
-    "question": "Pedagogik mahorat nima?\n",
-    "answer": "pedagogik jarayoni tashkil etish, harakatni ko‘rsata olish",
-    "noAnswer1": "zamonaviy texnikalar asosida dars o'tish",
-    "noAnswer2": "ko'proq yangi usullar bilan tanishtirib dars o'tish",
-    "noAnswer3": "hamma usullar bilan darsni to'liq yoritib berish"
+    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadvalga ma’lumot qo‘shish uchun qaysi annotatsiya ishlatiladi?",
+    "answer": "Insert",
+    "noAnswer1": "Add",
+    "noAnswer2": "Create",
+    "noAnswer3": "Alter"
   },
   {
-    "question": "Pedagogning kommunikativ madaniyati?\n",
-    "answer": "pedagog kishilar bilan qisqa muddat ichida muloqatga kirishi ",
-    "noAnswer1": "pedagog kishilar bilan to'liq muloqotga ega emasligi ",
-    "noAnswer2": "pedagog doim uzviy va doimiy harakatda bo'lishi",
-    "noAnswer3": "pedagog mahoratga ega bo'lishi"
+    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadvaldagi ma’lumotlarni taxrirlash uchun qaysi annotatsiya ishlatiladi?",
+    "answer": "Update",
+    "noAnswer1": "Edit",
+    "noAnswer2": "Research",
+    "noAnswer3": "Alter"
   },
   {
-    "question": "Metodning maqsadi:........\n\n",
-    "answer": "mavjud nazariy bilimlar va amaliy tajribalarni tahlil qilish",
-    "noAnswer1": "muammoni hal etish yo'llarni topishga",
-    "noAnswer2": "bilimlarni mustahkamlash",
-    "noAnswer3": "takrorlash"
+    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadvaldagi ma’lumotlarni o‘chirish uchun qaysi annotatsiya ishlatiladi?",
+    "answer": "Delete",
+    "noAnswer1": "Remove",
+    "noAnswer2": "Trash",
+    "noAnswer3": "Del"
   },
   {
-    "question": "Biror-bir masala yoki savolning muhokamasiga bag'ishlangan qisqa press-konferentsiya bu.....\n",
-    "answer": "\"Brifing\" metodi",
-    "noAnswer1": "Venn diagrammasi metodi",
-    "noAnswer2": "\"Insert\" metodi",
-    "noAnswer3": "Aqliy xujum"
+    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadvaldagi ma’lumotlarni olish uchun qaysi annotatsiya ishlatiladi?",
+    "answer": "Query",
+    "noAnswer1": "Select",
+    "noAnswer2": "Get",
+    "noAnswer3": "Getter"
   },
   {
-    "question": "O'qitishni individuallashtirish texnologiyasi .....\n",
-    "answer": "tadkikotlarida individual o'kitish o'kuv jarayonini tashkil etish shakli",
-    "noAnswer1": "pedagog fakat birgina talaba bilan o'zaro munosabatda bo'ladi",
-    "noAnswer2": "bir talaba faqat o'kitish vositalari",
-    "noAnswer3": "Individual o'kitishda faoliyatning mazmuni"
+    "question": "Android qurilmalari uchun ekran zichligining quyidagi toifalari mavjud:",
+    "answer": "LDPI, MDPI, HDPI, XHDPI, XXHDPI va XXXHDPI",
+    "noAnswer1": "HDPI, XHDPI, XXHDPI va XXXHDPI",
+    "noAnswer2": "to‘g‘ri javob yo‘q",
+    "noAnswer3": "LDPI, MDPI, HDPI"
   },
   {
-    "question": "\"O'z mustaqil fikriga ega bo'lgan, o'z kuchiga, o'zi tanlagan yo'lning to'g'riligiga ishongan inson doimo kelajakka ishonch bilan qaraydi\"kimning so'zlari",
-    "answer": "I.Karimov",
-    "noAnswer1": "Abu Ali Ibn Sino",
-    "noAnswer2": "Sh.Mirzieyov",
-    "noAnswer3": "P.Ya.Galperin"
+    "question": "Asosiy yorliqlar (FixedTabs) ko'rsatish uchun qulay",
+    "answer": "uch yoki undan kam yorliqlardan",
+    "noAnswer1": "to'rtta yorliqdan",
+    "noAnswer2": "ikkita yorliqdan",
+    "noAnswer3": "uch yoki undan ko'p yorliqlardan"
   },
   {
-    "question": "Shaxsning rivojlanishi jarayoni bir qancha omillar ta'sirida sodir bo'ladi. Bular ",
-    "answer": "irsiyat, muhit, ta'lim va tarbiya, shaxs faolligi",
-    "noAnswer1": "ichki omillar, shaxs faolligi, irsiyat, muhit",
-    "noAnswer2": "shaxs faolligi, tashqi omillar, irsiyat, muhit",
-    "noAnswer3": "ichki omillar, shaxs faolligi, faoliyat shartlari va boshkalar "
+    "question": "Harakatni bajarish uchun jarayonlar panelini o'z ichiga olgan dialog oynasi",
+    "answer": "ProgressDialog",
+    "noAnswer1": "DatePickerDialog",
+    "noAnswer2": "AlertDialog",
+    "noAnswer3": "DialogFragment"
   },
   {
-    "question": "Aqliy rivojlanishdan orqada qolgan bolalarni tarbiyalash va o'qitish masalalari defektalogiya bo'limining qaysi tarmog'iga kiradi",
-    "answer": "Oligofrenopedagogika",
-    "noAnswer1": "Surdopedagogika",
-    "noAnswer2": "Tiflopedagogika",
-    "noAnswer3": "Logopediya"
+    "question": "Qatlamlarning qaysi biri android arxitekturasining eng quyi qatlami hisoblanadi?",
+    "answer": "Linux yadrosi",
+    "noAnswer1": "Tizim kutubxonalari va Android Runtime",
+    "noAnswer2": "Ilovalar",
+    "noAnswer3": "Ilovalar ramkasi"
   },
   {
-    "question": "Metod, ya'ni usul axborotni uzatish va qabul qilish xarakteriga qarab qanday usullarga bo'linadi?",
-    "answer": "so‘z orqali ifodalash usuli, ko‘rgazmalilik usuli, amaliy, namuna usuli, rag‘batlantirish va jazo usuli",
-    "noAnswer1": "maslaxat berish, ko'rgazmalilik usuli, amaliy, namuna usuli, rag'batlantirish va jazo usuli",
-    "noAnswer2": "o'rnak ko'rsatish, ko'rish orqali tarbiyalash, xikoya, ma'ruza, rag'batlantirish va jazo usuli",
-    "noAnswer3": "xikoya, ma'ruza, rag'batlantirish, namuna ko'rsatish, rag'batlantirish usullari"
+    "question": "Bildirishnomalar qachon foydalanishga arziydi",
+    "answer": "xabar muhim, lekin darhol o'qish va javob berishni talab qilmaydi",
+    "noAnswer1": "xabar foydalanuvchidan javobni talab qilmaydi, lekin uning davom etishi uchun muhim",
+    "noAnswer2": "xabar muhim va darhol o'qish va javob berishni talab qiladi",
+    "noAnswer3": "xabar muhim, lekin darhol o'qishni talab qiladi, lekin javob emas"
   },
   {
-    "question": "Pedagogika inson dunyoqarashining shakllanishi, jamiyat va shaxsning o'zaro munosabati hamda bilish faoliyati muammolarini o'rganuvchi....... fani bilan hamkorlik qiladi?",
-    "answer": "Falsafa",
-    "noAnswer1": "Sosiologiya",
-    "noAnswer2": "Psixologiya",
-    "noAnswer3": "Mantiq "
+    "question": "ProgressDialog bu:",
+    "answer": "harakatlanish satrini o'z ichiga olgan dialog oynasi",
+    "noAnswer1": "o'z muloqot oynalarini yaratish uchun konteyner",
+    "noAnswer2": "sana yoki vaqtni tanlash imkonini beruvchi oldindan belgilangan interfeysli dialog oynasi",
+    "noAnswer3": "sarlavhani o'z ichiga olishi mumkin bo'lgan dialog oynasi, uchtagacha tugmalar, tanlanadigan qiymatlar ro'yxati"
   },
   {
-    "question": "Insonning jamiyatdagi o'rni, ijtimoiy muhitning shaxs rivojlanishi va tarbiyasiga ta'sirini o'rgatishda pedagogika qaysi bilan hamkorlik qilmoqda?",
-    "answer": "sosiologiya, siyosatshunoslik",
-    "noAnswer1": "falsafa, mantiq",
-    "noAnswer2": "psixologiya, fiziologiya",
-    "noAnswer3": "pedagogika, fiziologiya"
+    "question": "AlertDialog bu:",
+    "answer": "a sana yoki vaqtni tanlash imkonini beruvchi oldindan belgilangan interfeysga ega dialog oynasi",
+    "noAnswer1": "o'z dialog oynalarini yaratish uchun konteyner",
+    "noAnswer2": "harakatning borishi satrini o'z ichiga olgan dialog oynasi",
+    "noAnswer3": "sarlavha, uchta tugmacha, tanlangan qiymatlar ro'yxati yoki moslashtirilgan tarkibni o'z ichiga olishi mumkin bo'lgan dialog oynasi"
   },
   {
-    "question": "Pedagogikaning bosh masalasi tarbiyadir. Tarbiyadagi keng ma'no ................. bilan bog'langan holda barkamol insonni voyaga etkazishdir.",
-    "answer": "bola etaklovchi",
-    "noAnswer1": "nazariy va amaliy materiallar",
-    "noAnswer2": "ta'lim, rivojlanish",
-    "noAnswer3": "ma'lumot, tarbiya"
+    "question": "Quyidagilardan qaysi biri src papkasida joylashgan?",
+    "answer": "Java manba kodi",
+    "noAnswer1": "XML",
+    "noAnswer2": "Manifest",
+    "noAnswer3": "Yuqoridagilardan hech qaysisi"
   },
   {
-    "question": "Ko'zi ojiz tarbiyalanuvchilar ta'lim-tarbiyasi bilan shug'ullanuvchi fan qaysi?",
-    "answer": "Tiflopedagogika",
-    "noAnswer1": "Surdopedagogika",
-    "noAnswer2": "Oligofrenopedagogika",
-    "noAnswer3": "Ordopedagogika"
+    "question": "Quyidagi usullardan qaysi biri tugmani bosgandan keyin sodir bo'lishini boshqarish uchun ishlatiladi?",
+    "answer": "onClick",
+    "noAnswer1": "onCreate",
+    "noAnswer2": "onSelect",
+    "noAnswer3": "Yuqoridagilardan hech qaysisi"
   },
   {
-    "question": "Ta'lim usullarini tanlash bilan bir katorda o'qituvchi darsdagi talabalarni yosh va individual xarakter xususiyatlarini o'rganishi hamda tahlil qilishi shart. Qaysi usul asosan ta'lim-tarbiya jarayoniga aloqador ilmiy faraz yoki amaliy ishlarning tatbiqi jarayonlarini tekshirish, aniqlash maqsadida o'tkaziladi",
-    "answer": "Eksperiment-tajriba-sinov usuli",
-    "noAnswer1": "Test sinovlar usuli",
-    "noAnswer2": "Matematika va kibernetika usullari",
-    "noAnswer3": "Test - surov metodi"
+    "question": "Quyidagi android komponentlaridan qaysi biri ekranda faoliyat qismini aks ettiradi?",
+    "answer": "Fragment",
+    "noAnswer1": "Ko'rinish",
+    "noAnswer2": "Manifest",
+    "noAnswer3": "Niyat"
   },
   {
-    "question": ".............– bu yosh avlodni hayotga, mehnatga tayyorlash uchun xalq oldida, davlat oldida javob beradigan, yosh avlodga ta'lim-tarbiya berish uchun maxsus tayyorlangan mutaxassislarning mehnat faoliyati",
-    "answer": "Pedagogik faoliyat",
-    "noAnswer1": "Pedagogik qobiliyat",
-    "noAnswer2": "Pedagogik mahorat",
-    "noAnswer3": "Pedagogik jarayon"
+    "question": "Quyidagilardan qaysi biri android arxitekturasining eng yuqori qatlami hisoblanadi?",
+    "answer": "Ilovalar",
+    "noAnswer1": "Tizim kutubxonalari va Android Runtime",
+    "noAnswer2": "Linux yadrosi",
+    "noAnswer3": "Ilovalar ramkasi"
   },
   {
-    "question": "Shaxsning faolliyatini yo'naltirib turadigan va mavjud vaziyatlarga nisbatan bog'liq bo'lmagan barqaror motivlar majmuyi ................ deb ataladi",
-    "answer": "kishi shaxsining yo'naltirilganligi",
-    "noAnswer1": "kishining motivasiya xolati",
-    "noAnswer2": "kishining qiziqish yo'nalishi",
-    "noAnswer3": "kishining faoliyat yo'nalishi"
+    "question": "Qatlamlarning qaysi biri android arxitekturasining eng yuqori qatlami ostida joylashgan?",
+    "answer": "Ilovalar ramkasi",
+    "noAnswer1": "Tizim kutubxonalari va Android Runtime",
+    "noAnswer2": "Linux yadrosi",
+    "noAnswer3": "Ilovalar"
   },
   {
-    "question": "\"Milliy mafkura - bu xalqning, millatning o'tda yonmaydigan, suvda cho'kmaydigan o'lmas ......”",
-    "answer": "e'tiqodidir",
-    "noAnswer1": "iymonidir",
-    "noAnswer2": "ma'naviyatidir",
-    "noAnswer3": "madaniyatidir"
+    "question": "Manifest.xml da nima bor?",
+    "answer": "Ilova talab qiladigan ruxsat",
+    "noAnswer1": "Manba kodi",
+    "noAnswer2": "Ilovada ishlatiladigan satrlar ro'yxati",
+    "noAnswer3": "Yuqoridagilardan hech qaysisi"
   },
   {
-    "question": "......................    - tadqiqotchining boshqa kishilardan pedagogik tajribaning biror tomoni yoki hodisalari haqida axborot olish jarayoni bu metodning asosini tashkil qiladi.",
-    "answer": "Pedagogik so'rash metodi",
-    "noAnswer1": "Test sinovlar metodi",
-    "noAnswer2": "Eksperiment-tajriba-sinov usuli",
-    "noAnswer3": "Kuzatish metodi"
+    "question": "Quyidagilardan qaysi biri xizmat muddatining holatiga kirmaydi?",
+    "answer": "Pauza qilingan",
+    "noAnswer1": "Vayron qilingan",
+    "noAnswer2": "Boshlash",
+    "noAnswer3": "Yugurish"
   },
   {
-    "question": "................ - maxsus tayyorlangan kishilar rahbarligida o'tkaziladigan, o'quvchilarni bilim, ko'nikma va malakalar bilan qurollantiradigan, bilim, qobiliyatlarini o'stiradigan, ularning dunyoqarashini tarkib toptiradigan jarayondir",
-    "answer": "Ta'lim",
-    "noAnswer1": "Tarbiya",
-    "noAnswer2": "Ko'nikma",
-    "noAnswer3": "Bilim "
+    "question": "Android dasturchisi sifatida biz Androidning qaysi versiyasidan minimal rivojlanish maqsadi sifatida foydalanishimiz kerak?",
+    "answer": "1.6 yoki 2.0 versiyasi",
+    "noAnswer1": "1.2 versiyasi yoki 1.3 versiyasi",
+    "noAnswer2": "1.0 versiyasi yoki 1.1 versiyasi",
+    "noAnswer3": "2.3 yoki 3.0 versiyasi"
   },
   {
-    "question": ".............– ma'naviy manbalar va xozirgi zamon talablari va extiyojlarini nazarda tutgan xolda, o'qituvchining o'quvchi bilan aniq bir maqsadga qaratilgan o'zaro amaliy va nazariy muloqotidir",
-    "answer": "Tarbiya ",
-    "noAnswer1": "Ko'nikma",
-    "noAnswer2": "Bilim ",
-    "noAnswer3": "Ta'lim"
+    "question": "Quyidagilardan qaysi biri android versiyasining taxallusi emas?",
+    "answer": "Muffin",
+    "noAnswer1": "Ponchik",
+    "noAnswer2": "Asal uyasi",
+    "noAnswer3": "Kek"
   },
   {
-    "question": "Ong va faoliyat birligi printsipi dastavval ....... tomonidan isbotlab berilgan. Muallif tashqi sabablar, omillar ichki shart sharoitlarining bevosita ta'siri orqali xarakat qiladi - deb tushuntiradi.",
-    "answer": "S.L.Rubinshteyn",
-    "noAnswer1": "P.Ya.Galperin",
-    "noAnswer2": "Yan Amos Komenskiy",
-    "noAnswer3": "D.B.Elkonin"
+    "question": "Quyidagilardan qaysi biri androidda dialog sinfi hisoblanadi?",
+    "answer": "AlertDialog",
+    "noAnswer1": "DatesPickerDialog",
+    "noAnswer2": "ProgressDialogs",
+    "noAnswer3": "TimeDialog"
   },
   {
-    "question": "Pedagogning kishilar bilan qiska muddatda muloqot o'rnata olishi, ular bilan muloqot o'rnatishga bo'lgan doimiy intilishi.?\n",
-    "answer": "Pedagogning kommunikativ madaniyati",
-    "noAnswer1": "Pedagog nuqtai nazari (pozisiya)",
-    "noAnswer2": "Pedagogik faoliyat",
-    "noAnswer3": "Pedagog va talaba"
+    "question": "Faoliyat fokusda bo'lmasa-da, ekranda ko'rinsa, qaysi holatda bo'ladi?",
+    "answer": "Pauza holati",
+    "noAnswer1": "To'xtatilgan holat",
+    "noAnswer2": "Vayron qilingan davlat",
+    "noAnswer3": "Ishlayotgan holat"
   },
   {
-    "question": "Pedagogning kommunikativ madaniyati bu?\n\n",
-    "answer": "pedagogning kishilar bilan qisqa muddatda muloqot o'rnata olishi, ular bilan muloqot o'rnatishga bo'lgan doimiy intilishi",
-    "noAnswer1": "pedagogning dunyoga, pedagogik voqelikka va pedagogik jarayonga bo'lgan intellektual va xissiy munosabati",
-    "noAnswer2": "o'qituvchining ob'ektivlik mezoni, uning ma'naviy tayyorgarlik darajasi",
-    "noAnswer3": "Pedagogik jarayonda ta'lim maqsadlarini amalga oshirish "
+    "question": "Quyidagilardan qaysi biri Android-ning o'rnatilgan ma'lumotlar bazasi hisoblanadi?",
+    "answer": "SQLite",
+    "noAnswer1": "MySQL",
+    "noAnswer2": "Oracle",
+    "noAnswer3": "Yuqoridagilardan hech qaysisi"
   },
   {
-    "question": "Lug'aviy jihatdan \"interfaol\" tushunchasi qanday ma'nosini anglatadi?",
-    "answer": "\"o'zaro harakat qilmoq\";",
-    "noAnswer1": "\"o'zaro fikr almashmoq",
-    "noAnswer2": "\"o'zaro yordam bermoq\";",
-    "noAnswer3": "\"o'zaro kelishib olmoq\"."
+    "question": "Mobil ilovalarni yaratishda activitylar va mobil ilovaga kerakli barcha fayllar qaysi fayllarda saqlanadi?",
+    "answer": ".xml",
+    "noAnswer1": ".doc",
+    "noAnswer2": ".ppt",
+    "noAnswer3": ".docx"
   },
   {
-    "question": "Talabalarning bilim, ko'nikma, malaka va muayyan axloqiy sifatlarni o'zlashtirish yo'lidagi o'zaro harakatlarini tashkil etishga asoslanuvchi ta'lim qanday nomlanadi?",
-    "answer": "muammoli ta'lim;",
-    "noAnswer1": "rivojlantiruvchi ta'lim;",
-    "noAnswer2": "dasturiy ta'lim;",
-    "noAnswer3": "interfaol ta'lim."
+    "question": "Java dasturlash tili qachon taqdim etilgan",
+    "answer": "1996",
+    "noAnswer1": "1994",
+    "noAnswer2": "1992",
+    "noAnswer3": "1990"
   },
   {
-    "question": "Pedagog so'zining ma'nosi qanday?",
-    "answer": "Bola etaklovchi   ",
-    "noAnswer1": "Ta'lim beruvchi",
-    "noAnswer2": "Bolani tarbiyalovchi   ",
-    "noAnswer3": "O'qituvchi"
+    "question": "Java dasturlash tili birinchi nomi",
+    "answer": "Oak",
+    "noAnswer1": "Javascript",
+    "noAnswer2": "Duke",
+    "noAnswer3": "Script"
   },
   {
-    "question": "Talabalar bilan tarbiyaviy ishda foydalaniladigan vositalarni toping",
-    "answer": "Televidenie, radio, shaxslar jalb qilinadigan faoliyat turlari",
-    "noAnswer1": "O'quv muassasalari, Internet, tadbirlar o'tkaziladigan klublar",
-    "noAnswer2": "Televidenie, kitoblar, darsdan tashqari shaxsiy ishlar",
-    "noAnswer3": "Videokurslar, tadbirlar, o'quv kurslari, tashqi ta'sirlar"
+    "question": "Kirish modifikatorlar public bu –",
+    "answer": "klassni a'zolari hamma uchun mavjud",
+    "noAnswer1": "klass a'zolariga faqat klass ichida kirish mumkin",
+    "noAnswer2": "klass a'zolari paket ichida va avlodlarida mavjud",
+    "noAnswer3": "hammasi to'gri"
   },
   {
-    "question": "Yoshlar ongini shakllantirish usullariga qaysilar kiradi?",
-    "answer": "tushuntirish, suhbat va o'rnak ko'rsatish",
-    "noAnswer1": "darsdan tashqari suxbatlar olib borish ishlari",
-    "noAnswer2": "atrofdagi voqealar, hulq atvor",
-    "noAnswer3": "hulq atvor, davlatning ichki va tashqi siyosati"
+    "question": "Kirish modifikatorlar private bu –",
+    "answer": "klass a'zolariga faqat klass ichida kirish mumkin",
+    "noAnswer1": "klass a'zolari paket ichida va avlodlarida mavjud",
+    "noAnswer2": "klassni a'zolari hamma uchun mavjud",
+    "noAnswer3": "hammasi to'gri"
   },
   {
-    "question": "..... - deganda biz shaxsning ham jismoniy, ham aqliy va ma'naviy kamol topish jarayonini tushunamiz",
-    "answer": "rivojlanish",
-    "noAnswer1": " tarbiya",
-    "noAnswer2": "bilim",
-    "noAnswer3": "ma'naviyat"
+    "question": "Kirish modifikatorlar protected bu –",
+    "answer": "klass a'zolari paket ichida va avlodlarida mavjud",
+    "noAnswer1": "klass a'zolariga faqat klass ichida kirish mumkin",
+    "noAnswer2": "klassni a'zolari hamma uchun mavjud",
+    "noAnswer3": "hammasi to'gri"
   },
   {
-    "question": "Shaxs shakllanishining psixologik mexanizmlari ..........  fikricha, shaxsning shakllantirish asosiy mexanizmlariga motivni maqsadga qarab ko'chirish, ijtimoiy rollarni qiyoslab o'xshatish (identifikasiya qilishi) ular tartibsiz mexanizmlar bo'lib xisoblanadi",
-    "answer": "Yu.B. Gippenreyter",
-    "noAnswer1": "Yan Amos Komenskiy",
-    "noAnswer2": "P.Ya.Galperin",
-    "noAnswer3": "S.Ushinskiy"
+    "question": "Qaysi usul yangi faoliyatni boshlaydi?",
+    "noAnswer1": "=\r\n#startActivity ()",
+    "noAnswer2": "=\r\nstartActiviti()",
+    "noAnswer3": "=\r\nintentActivity ()"
   },
   {
-    "question": ".........– hulqning asosiy anglanilgan motivi. U butun shaxs faoliyatiga alohida mazmun va aniq yo'nalish baxsh etadi",
-    "answer": "e'tiqod",
-    "noAnswer1": "motivasiya",
-    "noAnswer2": "extiyoj",
-    "noAnswer3": "madaniyat"
+    "question": "xhdpi o‘lchamli ekran uchun standart o‘lchamni ko‘rsating",
+    "answer": "96 px",
+    "noAnswer1": "48 px",
+    "noAnswer2": "72 px",
+    "noAnswer3": "36 px"
   },
   {
-    "question": "Pedagogikaning aniq masalalarini ishlab chiqishda qaysi fanlarga suyanadi?",
-    "answer": "falsafa, sotsiologiya, etika, estetika",
-    "noAnswer1": "yoshlar pedagogikasi, oila pedagogikasi",
-    "noAnswer2": "falsafa, mantiq, tarix",
-    "noAnswer3": "psixologiya, fiziologiya,mantiq"
+    "question": "mdpi o‘lchamli ekran uchun standart o‘lchamni ko‘rsating",
+    "answer": "48 px",
+    "noAnswer1": "36 px",
+    "noAnswer2": "72 px",
+    "noAnswer3": "32 px"
   },
   {
-    "question": "Shaxsning rivojlanishi jarayoni bir qancha omillar ta'sirida sodir bo'ladi. Bular:",
-    "answer": "irsiyat, muhit, ta'lim va tarbiya, shaxs faolligi",
-    "noAnswer1": "tashqi muhit, oila, Internet, klublar",
-    "noAnswer2": "ta'lim va tarbiya, irsiyat, tadbirlar",
-    "noAnswer3": "Televidenie,darsdan tashqari shaxsiy ishlar"
+    "question": "Quyidagilardan qaysi biri Android 1.5 versiyasining nomi?",
+    "answer": "Kek",
+    "noAnswer1": "Ekler",
+    "noAnswer2": "Froyo",
+    "noAnswer3": "Ponchik"
   },
   {
-    "question": "Shaxsiy fazilat nima?\n",
-    "answer": "Shaxs tomonidan o'zining ahloqiy ruhiy va ishchanlik qobiliyatining anglay olish hususiyati",
-    "noAnswer1": "Shaxs amal qiladigan bilim tamoyil va ideallarning haqqoniyligiga qalban subektiv munosabati",
-    "noAnswer2": "Insonning xayot tajribaga asoslangan munosabat turlarini xisobga olishishmiz mumkin",
-    "noAnswer3": "Individning biror narsa hodisaga muhtojligi kurishimiz mumkin bo'ladi"
+    "question": "Quyidagilardan qaysi biri Android 1.6 versiyasining nomi?",
+    "answer": "Ponchik",
+    "noAnswer1": "Ekler",
+    "noAnswer2": "Froyo",
+    "noAnswer3": "Kek"
   },
   {
-    "question": "Estetik tarbiya nima?\n",
-    "answer": "Go'zallikini his qilish go'zallikni payqay olish qobiliyatini tarbiyalash",
-    "noAnswer1": "Individning biror narsaga muhtojligi go'zalligini misol qilish olamiz ",
-    "noAnswer2": "Tasodifiylik xaqidagi tasavvurni guzallikaa, mantiqqa bog'lash",
-    "noAnswer3": " Tadqiqot obektiv to'grisida har tomonlama tasavvur hosil qilish"
+    "question": "Java 5 versiyasi nechanchi yilda ishlab chiqarilgan",
+    "answer": "2004",
+    "noAnswer1": "2000",
+    "noAnswer2": "2002",
+    "noAnswer3": "2006"
   },
   {
-    "question": "O'qituvchining inovasion faoliyati nima?\n",
-    "answer": "Ijodiy imkoniyatni aks ettirish kundalik faoliyatdan chetga chiqish",
-    "noAnswer1": "Yangi innovasion tehnologiyalar bilan iishlash",
-    "noAnswer2": "Individual o'qitish qobiliyati rivojlantirish usullari",
-    "noAnswer3": " Masofaviy ta'lim texnologiyalaridan kelib chiqqib dars olib borish"
+    "question": "Java 6 versiyasi nechanchi yilda ishlab chiqarilgan",
+    "answer": "2006",
+    "noAnswer1": "2005",
+    "noAnswer2": "2004",
+    "noAnswer3": "2003"
   },
   {
-    "question": "Faoliyat nima?\n",
-    "answer": "Ongli maqsad bilan boshqariladigan ichki va tashqi faolligi",
-    "noAnswer1": "Insonning atrof-muhitga bo'lgan ta'siri ",
-    "noAnswer2": "Bilim ko'nikma va tajriba kelib chiqib ishlash",
-    "noAnswer3": "Shaxs psihikasi motivlarining shakllanishi"
+    "question": "... - bu Android tizimining yadrosi hisoblanadi",
+    "answer": "Linux kernel",
+    "noAnswer1": "Dalvik",
+    "noAnswer2": "Virtual machine",
+    "noAnswer3": "SDK"
   },
   {
-    "question": "Individual o'qitish usulini, ya'ni ma'ruza tinglashni, kitob o'qishni va yozma vazifalarni bajarishni yoqtiridigan o'quvchi .",
-    "answer": " introvert-o'quvchi",
-    "noAnswer1": "ekstravert-o'quvchi",
-    "noAnswer2": " ekstremal – o'quvchi",
-    "noAnswer3": "o'qituvchi-o'quvchi"
+    "question": "Tarmoqli ilovalar yaratishda manzillarni qaysi klass yordamida yaratiladi.",
+    "answer": "Url",
+    "noAnswer1": "Uri",
+    "noAnswer2": "HttpURLConnection",
+    "noAnswer3": "URLConnection"
   },
   {
-    "question": "Tushuncha nima?\n\n",
-    "answer": "Atrof - muhitda hodisa predmetlarining muhim hususiyatlari ular orasidagi munosabatlarini bilish",
-    "noAnswer1": "Shaxs hayotining muayyan davrdagi psihik rivojlanishini nazarda tutadi",
-    "noAnswer2": "Insonnig atrof muhitga munosabatini o'rganish orqali munosabatlarni o'rganish ",
-    "noAnswer3": "Insonning anglay bilish qobiliyati shakllantirish orqali ish uslubini olib borish"
+    "question": "Assorsiativ massiv yaratuvchi klassni ko‘rsating.",
+    "answer": "HashMap",
+    "noAnswer1": "List",
+    "noAnswer2": "ArrayList",
+    "noAnswer3": "ArrayMap"
   },
   {
-    "question": "Pedagog nuqtai nazari....\n",
-    "answer": " Pedagogning dunyoga,pedagogik voqelikka intellektual va hissiy munosabati",
-    "noAnswer1": "pedagogning shaxsiy fikrlashini xisobga olgan xolda ish olib borish",
-    "noAnswer2": "Pedagogning aqliy faoliyatini rivojlantirib reja tuzish ishlash",
-    "noAnswer3": "Pedagogning dunyoqarashi fikrlash doirasi e'tiborga olib munosabatlarini rivojlantirish"
+    "question": "Quyidagilardan qaysi biri xizmatning asosiy toifasi hisoblanadi?",
+    "answer": "contextWrapper",
+    "noAnswer1": "kontekst",
+    "noAnswer2": "ob'ekt",
+    "noAnswer3": "contextThemeWrapper"
   },
   {
-    "question": "Tarbiya nima?\n\n",
-    "answer": "Shaxsning ma'naviy va jismoniy holatga muntazam maqsadga muvofiq ta'sir etish",
-    "noAnswer1": "biror harakat fikrni takrorlash orkali ta'lim tarbiya masalasini rivojlantirish ",
-    "noAnswer2": "Ta'lim maqsadlarini amalga oshirishga qaratilgan fikrlar",
-    "noAnswer3": " ta'limning yo'nalishlaridan birini tanlab faoliyat olib borishdir"
+    "question": "Dialog oynasini o‘krsatuvchi metodni ko‘rsating.",
+    "answer": "show()",
+    "noAnswer1": "create()",
+    "noAnswer2": "new()",
+    "noAnswer3": "AlertDialog()"
   },
   {
-    "question": "Iborani to'ldiring ... \"Yomon o'qituvchi bilimlarni aytib beradi, yaxshi o'qituvchi esa ...”",
-    "answer": "uni topishga ko'maklashadi",
-    "noAnswer1": " tushuntirib beradi ",
-    "noAnswer2": "vazifa qilib beradi",
-    "noAnswer3": "kamsitadi"
+    "question": "SMS larni jo‘natish uchun ishlatiladigan klassni ko‘rsating.",
+    "answer": "SmsManager",
+    "noAnswer1": "SMS",
+    "noAnswer2": "SMSSend",
+    "noAnswer3": "SendSMS"
   },
   {
-    "question": "Bir-biri bilan aloqador bo'lgan elementlar to'plami nima deyiladi?",
-    "answer": "tizim",
-    "noAnswer1": "tizimli yondashuv",
-    "noAnswer2": "faoliyat",
-    "noAnswer3": " to'plam"
+    "question": "Java dasturlash tilini kim yaratgan –",
+    "answer": "James Gosling",
+    "noAnswer1": "Linus Torwalds",
+    "noAnswer2": "Pavel Durov",
+    "noAnswer3": "Bill Gates"
   },
   {
-    "question": "Pedagogik tizim markazida kim turadi?",
-    "answer": " o'qituvchi va o'quvchi",
-    "noAnswer1": "rahbar va pedagog",
-    "noAnswer2": "rahbar",
-    "noAnswer3": "xodimlar"
+    "question": "Java 7 versiyasi nechanchi yilda ishlab chiqarilgan",
+    "answer": "2011",
+    "noAnswer1": "2010",
+    "noAnswer2": "2009",
+    "noAnswer3": "2008"
   },
   {
-    "question": "Pedagogik sharoitlar qaysilar?",
-    "answer": "ta'limiy, tarbiyaviy, tashkiliy",
-    "noAnswer1": "iqtisodiy, ijtimoiy, siyosiy",
-    "noAnswer2": "moddiy, tashkiliy, psixologik",
-    "noAnswer3": " moddiy, ma'rifiy, psixologik"
+    "question": "Obyektni bo‘sh xolatga keltiruvchi kattalikni ko‘rsating.",
+    "answer": "null",
+    "noAnswer1": "nil",
+    "noAnswer2": "nul",
+    "noAnswer3": "Zero"
   },
   {
-    "question": "O'z faoliyatiga tuzatish kiritish qaysi pedagogik faoliyatga kiradi?",
-    "answer": "refleksiv",
-    "noAnswer1": " kommunikativlik",
-    "noAnswer2": "tashkilotchilik",
-    "noAnswer3": "bashorat qila olish"
+    "question": "Quyidagilardan qaysi biri Faoliyatning asosiy sinfidir?",
+    "answer": "contextThemeWrapper",
+    "noAnswer1": "kontekst",
+    "noAnswer2": "ob'ekt",
+    "noAnswer3": "Yuqoridagilardan hech qaysisi"
   },
   {
-    "question": "Insonning kasbiy faoliyatdagi etukligini aniqlovchi sifatlar?",
-    "answer": "maxsus, ijtimoiy, shaxsiy, individual ",
-    "noAnswer1": "kasbiy, ijtimoiy, individual",
-    "noAnswer2": " maxsus, shaxsiy, kasbiy, amaliy",
-    "noAnswer3": "moddiy, ijtimoiy, iqtisodiy"
+    "question": "Dialog oynasini yaratuvchi metodni ko‘rsating.",
+    "answer": "create()",
+    "noAnswer1": "new()",
+    "noAnswer2": "show()",
+    "noAnswer3": "AlertDialog()"
   },
   {
-    "question": "Kasbiy professionalizmning eng yuqori cho'qqisi –",
-    "answer": "pedagogik mahorat",
-    "noAnswer1": " pedagogik faoliyat",
-    "noAnswer2": " kasbiy taraqqiyotini loyihalay olish",
-    "noAnswer3": " kasbiy muloqot uslublarini bilish"
+    "question": "Quyidagi qaysi varaqda xatolik ko'rsatilgan?",
+    "answer": "Logcat",
+    "noAnswer1": "Markaziy protsessor",
+    "noAnswer2": "Xotira",
+    "noAnswer3": "OTB jurnallari"
   },
   {
-    "question": "Pedagogika faninning «Didaktika» ta’lim nazariyasi qismi qaysi kadimiy lotincha so‘z nomi bilan aytiladi",
-    "answer": "O'qituvchi",
-    "noAnswer1": "Tarbiyachi",
-    "noAnswer2": "Etaklovchi",
-    "noAnswer3": "Murabbiy"
+    "question": "Agar biz bir nechta elementlarni joylashtirmoqchi bo'lsak, ular ustma-ust paydo bo’ladi.",
+    "answer": "FrameLayout",
+    "noAnswer1": "AbsoluteLayout",
+    "noAnswer2": "ConstraintsLayout",
+    "noAnswer3": "LinearLayout"
   },
   {
-    "question": "Tolerantlik – bu ...",
-    "answer": "diniy bag'rikenglik",
-    "noAnswer1": "bo'ysunuvchanlik",
-    "noAnswer2": " bardoshli bo'lish",
-    "noAnswer3": "sabr-toqatli bo'lish"
+    "question": "Aktivitini to‘xtatish buyrug‘ini ko‘rsating",
+    "answer": "finish",
+    "noAnswer1": "stopActivity",
+    "noAnswer2": "stopService",
+    "noAnswer3": "Stop"
   },
   {
-    "question": "Kreativlik – bu",
-    "answer": "shaxsning ijodga nisbatan umumiy qobiliyati",
-    "noAnswer1": " pedagogik jarayonni qurish",
-    "noAnswer2": "talabalarga nisbatan sabr-toqatli bo'lish ",
-    "noAnswer3": "zarur axborotlarni tahlil qilish qobiliyati"
+    "question": "JSON da yozilgan ma’lumotlar massivlar qanday belgilar orasida beriladi.",
+    "answer": "[ ]",
+    "noAnswer1": "{ }",
+    "noAnswer2": "( )",
+    "noAnswer3": "&lt; &gt;"
   },
   {
-    "question": " Pedagog ixtiyorida bo'lgan eng kuchli vosita nima?",
-    "answer": " Shaxsiy namuna",
-    "noAnswer1": " Pedagogik maxorat ",
-    "noAnswer2": "Pedagogik texnologiya",
-    "noAnswer3": "Nutk"
+    "question": "Qaysi yilda OHA (Open Handset Alliance) e'lon qilinadi?",
+    "answer": "2007 yil",
+    "noAnswer1": "2005 yil",
+    "noAnswer2": "2006 yil",
+    "noAnswer3": "Yuqoridagilardan hech qaysisi"
   },
   {
-    "question": "...  - faoliyat jarayonida paydo bo'ladi va rivojlanadi. ... malaka va uddaburonlikdan farq qiladi",
-    "answer": "qobiliyat",
-    "noAnswer1": "bilim",
-    "noAnswer2": "ko'nikma",
-    "noAnswer3": "faoliyat"
+    "question": "Quyidagilardan noto’g’risini aniqlang.",
+    "answer": "onResume() — ushbu metod activity ish faoliyati to‘xtatib, qayta ishga tushirilganida chiqariladi.",
+    "noAnswer1": "Mobil ilovalarda activity bo‘lmasligi ham va bir nechta activity bo‘lishi mumkin",
+    "noAnswer2": "Activity mobil qurilmaning ekranida paydo bo‘lganidan faoliyatini yakunlaganga qadar bir nechta bosqichlarni bosib o‘tadi",
+    "noAnswer3": "onDestroy() — bu metod activity to‘xtatilgan vaqtda chaqiriladi"
   },
   {
-    "question": "Tabiiyki, milliy tafakkur rivojining tamal toshi ona tilidir. Ona tiliga muxabbat, ona tilida sobitlik milliy tafakkur parvozini muntazam ta'min etadigan ...........",
-    "answer": "muqaddas tuyg'ulardir",
-    "noAnswer1": "beqiyos tuyg'udir",
-    "noAnswer2": "onalik tuyg'usidir",
-    "noAnswer3": "Vatan tuyg'usidir"
+    "question": "onPause() activity metodining vazifasini aniqlang",
+    "answer": "Ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi",
+    "noAnswer1": "Ushbu metod activity foydalanuvchiga ko‘rinmay qolganida chaqiriladi",
+    "noAnswer2": "Bu metodning vazifasi activity yaratilganida berilgan ketma–ketliklarni bajarishdan iborat va bir marta bajariladi",
+    "noAnswer3": "Bu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi"
   },
   {
-    "question": "Ilmiy tushuncha sifatida \"........\"so'zi keng ma'noda muayyan maqsadga erishish yo'lini, tor ma'noda - tabiat va ijtimoiy xayot xodisalari va qonuniyatlarini bilish maqsadida qandaydir vazifani xal etish usulini bildiradi",
-    "answer": "metod",
-    "noAnswer1": "ma'naviyat",
-    "noAnswer2": "texnologiya",
-    "noAnswer3": "qobiiliyat"
+    "question": "Bu murakkabroq tuzilma ro'yxatini ma'lumotlar bilan to'ldirish imkonini beruvchi adapter, masalan, ro'yxatning bir qatoridagi ikkita matn.",
+    "answer": "SimpleAdapter",
+    "noAnswer1": "BaseAdapter",
+    "noAnswer2": "WrapperListAdapter",
+    "noAnswer3": "SpinnerAdapter"
   },
   {
-    "question": ".......– o'quvchining ichki dunyosiga kira olish qobiliyati, o'quvchi shaxsini va uning ruhiy holatlarini juda yaxshi tushuna bilish bilan bog'liq bo'lgan psixologik kuzatuvchanlikdir.",
-    "answer": "Kuzatuvchanlik qobiliyati",
-    "noAnswer1": "Tushuntira olish qobiliyati",
-    "noAnswer2": "Bilish qobiliyati",
-    "noAnswer3": "Tinglay olish qobiliyati"
+    "question": "Agar sizga shaxsiy adapter kerak bo'lsa, Android kengaytirilishi mumkin bo'lgan abstrakt … klassiga ega.",
+    "answer": "BaseAdapter",
+    "noAnswer1": "SpinnerAdapter",
+    "noAnswer2": "ArrayAdapter",
+    "noAnswer3": "SimpleAdapter"
   },
   {
-    "question": "Hissiyot - bu ....",
-    "answer": "kishining tevarak atrofdagi narsa va hodisalarga bulgan munosabatlarini kechinishi",
-    "noAnswer1": "kishining emosiyasi boshqara olishni rivojlantirish",
-    "noAnswer2": "ichki a'zolardagi anik xarakat va uzgarishlarni anglash",
-    "noAnswer3": "kishining extiyojlarga bulgan uz munosabatlari farqlay olish  "
+    "question": "ArrayAdapter to’g’ri e’lon qilingan qatorni aniqlang.",
+    "answer": "<pre>ArrayAdapter adapter = new ArrayAdapter(this,R.layout.ListView,StringArray);</pre>",
+    "noAnswer1": "<pre>ArrayAdapter adapter = new ArrayAdapter(this,StringArray, R.layout.ListView);</pre>",
+    "noAnswer2": "<pre>ArrayAdapter adapter = new ArrayAdapter(this,StringArray, R.layout.ListView, v.getContext());</pre>",
+    "noAnswer3": "<pre>ArrayAdapter adapter = new ListAdapter(this,R.layout.ListView,StringArray);</pre>"
   },
   {
-    "question": " Iroda – bu ....",
-    "answer": "shaxsning maksadga erishish yulidagi jismoniy va ruhiy kiyinchiliklarini engishi",
-    "noAnswer1": "kishilarning ixtiyoriy xarakatlari yigindisini olishimiz mumkin",
-    "noAnswer2": "shaxsning yashash tartibi va sharoitlari bilan belgilanadigan aktivligi",
-    "noAnswer3": "kishining ixtiyorsiz xarakatlari yigindisini rivojlantirish"
+    "question": "Dart dasturlash tilida to’plamga tegishli ta’rifni aniqlang",
+    "answer": "Tartibsiz, noyob elementlar to'plamidir",
+    "noAnswer1": "Tartibli noyob elementlar to'plamidir",
+    "noAnswer2": "Tartibsiz, noyob bo’lmagan elementlar to'plamidir",
+    "noAnswer3": "Tartibli, noyob bo’lmagan elementlar to'plamidir"
   },
   {
-    "question": "Temperament – bu …",
-    "answer": " kishining nerv sistemasi xolati bulib, odamlarga va xayot sharoitiga bulgan munosabatlarining yakka xususiyatlari",
-    "noAnswer1": "Kishining uzini tuta olmasligi xaqidagi xarakterlarni o'rganadi",
-    "noAnswer2": "Shaxs faoliyati va ulqining dinamik o'zgaruvchan) va emosional-hissiy tomonlarini xarakterlovchi individual xususiyatlar ",
-    "noAnswer3": "shaxs faoliyati va xulkining dinamik xususiyatlari yigindisini \nolishimiz mumkin"
+    "question": "Quyidagilardan noto’g’risini aniqlang.",
+    "answer": "SetPrior() tomonidan o'rnatilgan bildirishnoma ustuvorligi. Ustuvorlik Android 8 va undan oldingi versiyalarda bildirishnoma qanchalik ustuvor ekanligini aniqlaydi.",
+    "noAnswer1": "Android telefonidagi barcha bildirishnomalar \"kanal\" ga tegishli bo'lishi kerak, shunda foydalanuvchi ilovangizdan ma'lum turdagi bildirishnomalarni qanday ko'rishni xohlashini sozlashi mumkin",
+    "noAnswer2": "Kanal - bu Google Android API darajasi 26 da taqdim etgan bildirishnomalarni ko'rsatish sozlamalari to'plami",
+    "noAnswer3": "NotificationCompat.Builder konstruktori sizdan kanal identifikatorini taqdim etishingizni talab qiladi"
   },
   {
-    "question": "Xarakter – bu …",
-    "answer": "Shaxsdagi shunday psixologik, sub'ektiv munosabatlar majmuiki, ular uning borliqqa, odamlarga munosabatini ifodalaydi",
-    "noAnswer1": "Kishining xulk atvorida namoyon buladigan tugma xususiyatlari",
-    "noAnswer2": "Kishining oliy nerv sistemasi bilan boglanmagan xolda shakllanadigan psixik xususiyatlari",
-    "noAnswer3": "Kishining fe'l-atvoridan kelib chiqqan xolda o'z-o'ziga munosabatini ifodalaydi"
+    "question": "Dart dasturlash tilida bo’sh bo’lgan to’plam e’lon qilingan qatorni aniqlang.",
+    "answer": "<pre>var names = {};</pre>",
+    "noAnswer1": "<pre>var names = ();</pre>",
+    "noAnswer2": "<pre>var names = [];</pre>",
+    "noAnswer3": "<pre>var names = [{}];</pre>"
   },
   {
-    "question": "Pedagogik psixologiya nimani o'rganadi?",
-    "answer": "kishiga ta'lim -tarbiya berishning psixologik qonuniyatlarini o'rganadi",
-    "noAnswer1": "tafakkurning shakllanishini o'rganadi",
-    "noAnswer2": "pedagog bilan ukuvchilar urtasidagi munosabatni o'rganadi",
-    "noAnswer3": "psixik rivojlanishdan orkada kolish sabablarini o'rgandi"
+    "question": "Xaritaning ko’rinish turini (sun’iy yo’ldosh, gibrid va h.k) o’zgartirish uchun qaysi metoddan foydalaniladi?",
+    "answer": "setMapType",
+    "noAnswer1": "getMapType",
+    "noAnswer2": "setMapStyle",
+    "noAnswer3": "getUiSettings"
   },
   {
-    "question": "Psixologiya fanining asosiy vazifalari.",
-    "answer": "psixik hodisalar moxiyati va qonuniyatini o'rganish",
-    "noAnswer1": "psixik kasalliklarning sababini o'rganish",
-    "noAnswer2": "oliy nerv faoliyatini o'rganish",
-    "noAnswer3": "psixika tabiatini o'rganish"
+    "question": "Xabarnoma yaratish to’g’ri ko’rsatilgan qatorni aniqlang.",
+    "answer": "<pre>NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)\r\n        .setSmallIcon(R.drawable.notification_icon)\r\n        .setContentTitle(textTitle)\r\n        .setContentText(textContent)\r\n        .setPriority(NotificationCompat.PRIORITY_DEFAULT);</pre>",
+    "noAnswer1": "<pre>NotificationCompat builder = new NotificationCompat.Builder(this, CHANNEL_ID)\r\n        .setSmallIcon(R.drawable.notification_icon)\r\n        .setContentTitle(textTitle)\r\n        .setContentText(textContent)\r\n        .setPriority(NotificationCompat.PRIORITY_DEFAULT);</pre>",
+    "noAnswer2": "<pre>NotificationCompat.App builder = new NotificationCompat.App(this, CHANNEL_ID)\r\n        .setSmallIcon(R.drawable.notification_icon)\r\n        .setContentTitle(textTitle)\r\n        .setContentText(textContent)\r\n        .setPriority(NotificationCompat.PRIORITY_DEFAULT);</pre>",
+    "noAnswer3": "<pre>NotificationCompat.Notification builder = new NotificationCompat.Notification(this, CHANNEL_ID)\r\n        .setSmallIcon(R.drawable.notification_icon)\r\n        .setContentTitle(textTitle)\r\n        .setContentText(textContent)\r\n        .setPriority(NotificationCompat.PRIORITY_DEFAULT);</pre>"
   },
   {
-    "question": "Psixologiya kaysi fanlar bilan kuprok alokador.",
-    "answer": "jamiyatshunoslik, tabiiy fanlar, pedagogika, falsafa",
-    "noAnswer1": "fizika, kimyo, matematika, mantiq",
-    "noAnswer2": "tilshunoslik, xukukshunoslik, iktisodiyot",
-    "noAnswer3": "zoologiya, kosmonavtika, xorijiy tillar"
+    "question": "Quyidagilardan noto’g’risini aniqlang.",
+    "answer": "SQLite ma’lumotlar bazasi klient-server arxitekturasiga asosan ishlaydi hamda bu uning eng asosiy afzalliklaridan biri hisoblanadi",
+    "noAnswer1": "REST xizmatlarining ajoyib tomoni shundak ular HTTP protokolidan maksimal darajada foydalanishadi.",
+    "noAnswer2": "REST - bu veb API yaratish uchun qoidalar, standartlar, yo'riqnomalar to'plami.",
+    "noAnswer3": "API sizga himoya qilinishi kerak bo'lgan funksiyalarni alohida ilovaga joylashtirish imkonini beradi. Bu boshqa dasturlar tomonidan ushbu funksiyalardan noto'g'ri foydalanish ehtimolini kamaytiradi."
   },
   {
-    "question": "Extiyoj – bu …",
-    "answer": "odamning xayot va tarakkiyoti uchun zarur extiyojlarni his etish xolati ",
-    "noAnswer1": "ma'lum xatti xarakatlarning zarurligini anglash",
-    "noAnswer2": "odamning biologik extiyojlarini anglashi",
-    "noAnswer3": "kishining moddiy boyliklarga extiyojini anglashi"
+    "question": "<pre>\r\npublic class Main {\r\n  public static void main(String[] args) {\r\n            String $num1 = \"2565\";\r\n            String $num2 = \"6515\";\r\n            String _result = $num1 + $num2;\r\n            System.out.println(_result);\r\n  }\r\n}\r\n</pre>Dastur natijasini aniqlang.",
+    "answer": "25656515",
+    "noAnswer1": "9080",
+    "noAnswer2": "Xatolik",
+    "noAnswer3": "Null"
   },
   {
-    "question": "Motiv – bu …",
-    "answer": "anglangan,anglanmagan xarakat bulib,extiyojning sub'ektiv ifodasi",
-    "noAnswer1": "extiyojni kondirishga moyillikning ifodasi xisoblanadi",
-    "noAnswer2": "anglanilmagan xatti-xarakatlar istagini olishimiz mumkin",
-    "noAnswer3": "uzok maksadlar bilan boglik bulmagan niyatlarni rivojlantirish"
+    "question": "Dart dasturlash tilida <pre>var list = [1, 2, 3];</pre> ro’yxatning uzunligi qanday aniqlanadi?",
+    "answer": "list.length",
+    "noAnswer1": "list.length()",
+    "noAnswer2": "length(list)",
+    "noAnswer3": "list.len"
   },
   {
-    "question": "Malaka – bu …",
-    "answer": "takrorlash natijasida paydo buladigan ish xarakatlarini avtomatlashgan usullaridir",
-    "noAnswer1": "u yoki bu xildagi faoliyatga kiruvchi anglanmagan ish xarakatdir faoliyatlaridir ",
-    "noAnswer2": "murakkab faoliyatni bajarishga tayyorgarlik natijasidagi usullardir",
-    "noAnswer3": " takrorlanadigan ish xarakatlarni rivojlantirish usullaridir"
+    "question": "JSON kengaytmasini aniqlang.",
+    "answer": "JavaScript Object Notation",
+    "noAnswer1": "Java Source Open Network",
+    "noAnswer2": "JavaScript Output Name",
+    "noAnswer3": "Java Standard Output Network"
   },
   {
-    "question": "Shaxs xulq-atvorini ichkaridan, ichki psixologik sabablar tufayli boshqarish odatda nima deyiladi?",
-    "answer": "Shaxsiy ichki boshqaruv",
-    "noAnswer1": "Ijtimoiy ehtiyojlar",
-    "noAnswer2": "Mexnat qilish",
-    "noAnswer3": "Jismoniy boshqarish"
+    "question": "Kross platformali dastur - …",
+    "answer": "Bir nechta operatsion tizimlarda ishlashi mumkin bo’lgan dastur",
+    "noAnswer1": "Bir nechta dasturlash tilidan foydalanib ishlab chiqilgan dastur",
+    "noAnswer2": "Bir nechta kompyuterlarda parallel ishlashi mumkin dastur",
+    "noAnswer3": "Kotlin dasturlash tilida yaratilgan dastur"
   },
   {
-    "question": " Tarbiya nima?",
-    "answer": "Ma'naviy manbalar va hozirgi zamon talablari va ehtiyojlarini nazarda tutgan holda, o'qituvchining o'quvchi bilan aniq bir maqsadga qaratilgan o'zaro amaliy va nazariy muloqotidir",
-    "noAnswer1": "Bu - mehnatqilish, bilish, estetik va ahloqiy-ma'naviy ehtiyojlar, qayd qilish mumkin bo'lgan harakatlarimiz,maqsadga qaratilgan o'zaro amaliy va nazariy muloqotidir",
-    "noAnswer2": "Bu faoliyat turi bilan shug'ullanishiga majbur qilgan psixologik omillar, o'z ichki istak-xoxishlarimiz ta'sirida bevosita ko'rish orqali namoyon bo'ladigan faollik.",
-    "noAnswer3": "Bu tashqaridan va o'z ichki istak-xoxishlarimiz ta'sirida bevosita ko'rish, qayd qilish mumkin bo'lgan harakatlarimiz, mushaklarimizning harakatlari orqali namoyon bo'ladigan faollik."
+    "question": "Google Maps API kalitlarini qaysi faylda saqlash tavsiya etiladi?",
+    "answer": "local.properties",
+    "noAnswer1": "AndroidManifest.xml",
+    "noAnswer2": "build.gradle.kts",
+    "noAnswer3": "activity_main.xml"
   },
   {
-    "question": "Aniq maqsadga qaratilgan tarbiya jarayoni necha tamoyilga asoslanadi?",
-    "answer": "Ta'limiy, Tarbiyaviy, Rivojlantiruvchi",
-    "noAnswer1": "Ta'limiy, Yo'naltiruvchi, Yetaklovchi",
-    "noAnswer2": "Yo'naltiruvchi, Yetaklovchi, Bog'lovchi, ",
-    "noAnswer3": "Etaklovchi, Bog'lovchi, Rivojlantiruvchi"
+    "question": "Android Studiodagi loyihada \"res\" katalogining vazifasi?",
+    "answer": "Tasvirlar, satrlar va maketlar kabilarni saqlaydi",
+    "noAnswer1": "Klasslar, interfeyslar va boshqa asosiy Java fayllarini o’zida saqlaydi",
+    "noAnswer2": "Ilovaning hayot siklini boshqaradi",
+    "noAnswer3": "Ilova haqidagi eng asosiy ma’lumotlarni saqlaydi"
   },
   {
-    "question": "Muloqot nima?",
-    "answer": "Shaxs individual rivojlanishi jarayonida namoyon bo'ladigan birlamchi faoliyat turlaridan biri",
-    "noAnswer1": "Shunday faoliyat turiki, u bevosita biror moddiy yoki ma'naviy mehnatlar yaratishni nazarda tutadi",
-    "noAnswer2": "Narsa va xodisalarning mohiyati va mazmuniga aloqador materialning eslab qolinishi, esga tushirilishi hamda esda saqlab qolish",
-    "noAnswer3": "O'zaro suhbat jarayonidagi holat"
+    "question": "Java dasturlash tilida butun sonli qiymatga ega bo'lgan o'zgaruvchini e'lon qilish uchun to'g'ri sintaksis qanday?",
+    "answer": "<pre>int age = 25025;</pre>",
+    "noAnswer1": "<pre>Int age = 56021;</pre>",
+    "noAnswer2": "<pre>Int age = \"25174\";</pre>",
+    "noAnswer3": "<pre>integer age = 25;</pre>"
   },
   {
-    "question": "Metod, ya'ni usul axborotni uzatish va qabul qilish xarakteriga qarab qanday usullarga bo'linadi?",
-    "answer": "So'z orqali ifodalash usuli, ko'rgazmalilik usuli, amaliy, namuna usuli, rag'batlantirish, jazo.",
-    "noAnswer1": "Faoliyat turi bilan shug'ullanishiga majbur qilgan psixologik omillar",
-    "noAnswer2": "Narsa va xodisalarning mohiyati",
-    "noAnswer3": "Ijtimoiy ehtiyojlar"
+    "question": "... - bu nisbiy pozitsiyalarda elementlar ko'rinishlarini ko'rsatadigan ko'rish guruhi",
+    "answer": "RelativeLayout",
+    "noAnswer1": "FrameLayout",
+    "noAnswer2": "AbsoluteLayout",
+    "noAnswer3": "ConstraintsLayout"
   },
   {
-    "question": "Tarbiyachining rag'batlantirish usuli nechaga bo'linadi:",
-    "answer": "Ikkiga",
-    "noAnswer1": "To'rtga",
-    "noAnswer2": "Oltiga",
-    "noAnswer3": "Uchga"
+    "question": "Dialog oynasi bilan ishlashda foydalanuvchi harakatni davom ettirishni xohlamasa, lekin bekor qilishni ham xohlamasa, undan foydalaniladi.",
+    "answer": "Neytral tugma",
+    "noAnswer1": "Pozitiv tugma",
+    "noAnswer2": "Negativ tugma",
+    "noAnswer3": "FloatingActionButton"
   },
   {
-    "question": "Jazo – bu....",
-    "answer": "Noto'g'ri bajarilgan ishga beriladigan aks javob",
-    "noAnswer1": "Noto'g'ri qilgan ishiga o'zini iqror qildirish",
-    "noAnswer2": "Aybini tan olmaslik",
-    "noAnswer3": "Qilgan ishiga yarasha javob berishi"
+    "question": "Dialog oynasini yaratish to’g’ri ko’rsatilgan qatorni aniqlang",
+    "answer": "<pre>AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());</pre>",
+    "noAnswer1": "<pre>AlertDialog builder = new AlertDialog.Builder(getActivity());</pre>",
+    "noAnswer2": "<pre>AlertDialog.Builder builder = new AlertDialog(getActivity());</pre>",
+    "noAnswer3": "<pre>AlertDialog.Builder builder = new AlertDialog.Builder(builder);</pre>"
   },
   {
-    "question": "Tarbiyalanganlik –deganda nimani tushunasiz?",
-    "answer": "Milliy urf-odatimiz mezoniga kirmagan, o'zgalarning nafratini qo'zg'atadigan xatti-harakatlardan o'zini tiyabilish",
-    "noAnswer1": "O'ziga baho berish",
-    "noAnswer2": "O'zgalarning fikrini amalda qo'llash",
-    "noAnswer3": "Noto'g'ri qilgan ishiga o'zini iqror qildirish"
+    "question": "Asosiy dialog oynasida ro’yxat hosil qilish uchun qaysi metoddan foydalaniladi?",
+    "answer": "setItems()",
+    "noAnswer1": "setList()",
+    "noAnswer2": "arrayList()",
+    "noAnswer3": "mergedList()"
   },
   {
-    "question": "Ta'lim xakidagi konun nechta bob va nechta moddadan iborat",
-    "answer": "5 - bob va 34 modda",
-    "noAnswer1": "3 - bob va 37 modda ",
-    "noAnswer2": "7 - bob va 30 modda",
-    "noAnswer3": "4 - bob va 20 modda"
+    "question": "Quyidagilardan noto’g’risini aniqlang.",
+    "answer": "ArrayAdapter - RecyclerView bilan ishlash uchun mo'ljallangan. Ma'lumotlar alohida TextView elementlariga joylashtirilgan massiv sifatida taqdim etiladi",
+    "noAnswer1": "HeaderViewListAdapter ListView sarlavhalari bo'lsa, ListAdapterning kengaytirilgan versiyasidir",
+    "noAnswer2": "Android 6 versiyada xabarnoma yuborish uchun ruxsat kerak bo’lmaydi",
+    "noAnswer3": "ListAdapter - ListView va ma'lumotlar o'rtasidagi adapter. Bu ArrayAdapter va SimpleAdapter va boshqalarda ishlatilishi mumkin bo'lgan interfeys sinfidir"
   },
   {
-    "question": "Komillik bosqichlarini ko'rsating.",
-    "answer": "Jismoniy salomatlik, axloqiy poklik, aqliy etuklik",
-    "noAnswer1": "Axloqiy qilingan ishlar",
-    "noAnswer2": "O'ziga baho berish",
-    "noAnswer3": "Ongrivojlanishi"
+    "question": "Quyidagilardan to’g’risini aniqlang",
+    "answer": "ArrayAdapterdan ma'lumotlar manbangiz massiv bo'lganda foydalansangiz bo’ladi",
+    "noAnswer1": "android:entries - bu ajratuvchi balandligini belgilaydi. Bu px, dp, sp, in yoki mm bo'lishi mumkin.",
+    "noAnswer2": "android:divider - False bo’lganda, ListView har bir pastki ko'rinishidan oldin bo'luvchini chizmaydi. Standart qiymat True.",
+    "noAnswer3": "Android 8 versiyadan boshlab xabarnoma uchun ruxsat kerak bo’ladi"
   },
   {
-    "question": "His-tuyg'ular nimalarda aks etmaydi?",
-    "answer": "Ichki a'zolarni faoliyatida     ",
-    "noAnswer1": "Pantomimikada",
-    "noAnswer2": "Mimikada     ",
-    "noAnswer3": "San'at, musiqada"
+    "question": "Quyidagilardan noto’g’risini aniqlang",
+    "answer": "RecyclerViewda RecyclerView.LayoutManager mavjud emas va buning uning afzalliklaridan biri",
+    "noAnswer1": "RecyclerView Android 5.0 Lollipopda ListView orqali yangilanish sifatida taqdim etilgan",
+    "noAnswer2": "ListView komponentida elementlarni qo'shish yoki o'chirishni animatsiyalash mumkin bo'lgan maxsus qoidalar mavjud emas",
+    "noAnswer3": "ListView faqat vertikal chiziqli tartibdagi elementlarni joylashtirishi mumkin va buni moslashtirib bo'lmaydi"
   },
   {
-    "question": "Jazolash ... .",
-    "answer": " ma'lum xulq-atvor shakllariga to'sqinlik qiladi.",
-    "noAnswer1": "tashabbuskorlik harakat shakllarini keltirib chiqaradi;",
-    "noAnswer2": "xulq-atvorni shakllantiradi, o'zgartiradi;",
-    "noAnswer3": "salbiy xulk-atvor shaklini mustaxkamlash;"
+    "question": "Harakatlarni menyuga ulash uchun faoliyat klassida … metodini bog’lash kerak bo’ladi.",
+    "answer": "onOptionsItemSelected",
+    "noAnswer1": "MenuInflater",
+    "noAnswer2": "getMenuInflater",
+    "noAnswer3": "onCreateOptionsMenu"
   },
   {
-    "question": "Pedagogikaning asosiy tushunchalari",
-    "answer": "ta'lim, tarbiya, ma'lumot,  ",
-    "noAnswer1": "pedagogik mulokot, ma'naviyat ",
-    "noAnswer2": "ta'lim, ilm, malaka, ko'nikma ",
-    "noAnswer3": "ilm, ma'rifat, madaniyat "
+    "question": "Androidning qaysi API darajasidan boshlab xabarnoma yuborish uchun ruxsat kerak bo’ladi?",
+    "answer": "API level 33",
+    "noAnswer1": "API level 34",
+    "noAnswer2": "API level 30",
+    "noAnswer3": "API level 26"
   },
   {
-    "question": "Inson ichki mexanizmlarini nima o'rganadi?",
-    "answer": " Tarbiya",
-    "noAnswer1": "Bilim",
-    "noAnswer2": "Ta'lim",
-    "noAnswer3": "Sharoit"
+    "question": "Androidda xabarnoma yuborish uchun kerak bo’ladigan ruxsat nomini aniqlang.",
+    "answer": "POST_NOTIFICATIONS",
+    "noAnswer1": "GET_NOTIFICATIONS",
+    "noAnswer2": "PERMISSION_NOTIFICATIONS",
+    "noAnswer3": "ALLOW_NOTIFICATIONS"
   },
   {
-    "question": "Inson psixik taraqqiyotiga ta'sir etuvchi kuchlar nimalardan iborat?",
-    "answer": " inson nerv sistemasining xususiyatlari, qobiliyat kurtaklari",
-    "noAnswer1": "insondagi tug'ma mayllarning rivojlanishi",
-    "noAnswer2": "miya biologik, organik yetilishi",
-    "noAnswer3": "Ijtimoiy muhit sabablari"
+    "question": "Quyidagilardan qaysi biri Room kutubxonasiga tegishli emas?",
+    "answer": "Room MySQL orqali abstraksiya qatlamini ta'minlaydi",
+    "noAnswer1": "Kotlin yoki Java yordamida Android qurilmasida mahalliy SQLite ma'lumotlar bazasini osongina yaratish va boshqarish imkonini beradi",
+    "noAnswer2": "Room ishlab chiquvchilarga murakkab SQL so'rovlarini yozmasdan ma'lumotlar bazasi bilan o'zaro ishlashni osonlashtiradi",
+    "noAnswer3": "“Database Inspector” instrumenti yordamida ma’lumotlar bazasining joriy holatini ko’rish mumkin"
   },
   {
-    "question": "Intelekt o'lchamini aniqlang",
-    "answer": " Verbal, miqdoriy, fazoviy",
-    "noAnswer1": "Verbal, noverbal, lingvistik",
-    "noAnswer2": "Mantiq, xotira, xayol",
-    "noAnswer3": "Fazoviy, davriy, kretiv "
+    "question": "Room kutubxonasida ... ma'lumotlarni kiritish, yangilash, o'chirish va olish metodlarini belgilaydi.",
+    "answer": "Data Access Object",
+    "noAnswer1": "Entity",
+    "noAnswer2": "LiveData va ViewModel",
+    "noAnswer3": "Android Jetpack"
   },
   {
-    "question": "Ma'lum bir davrlarda jismoniy qiyofasi va psixikasida keskin o'zgarishlar sodir bo'ladi. Bu qaysi davrga to'g'ri keladi? ",
-    "answer": " o'smirlik",
-    "noAnswer1": "ilk bolalik",
-    "noAnswer2": "ilk o'spirinlik",
-    "noAnswer3": "chaqaloqlik"
+    "question": "Java dasturlash tilida noto’g’ri e’lon qilingan o’zgaruvchini aniqlang.",
+    "answer": "<pre>char myGrade = “91”;</pre>",
+    "noAnswer1": "<pre>String myGrade = “Ikki baho”;</pre>",
+    "noAnswer2": "<pre>String $myGrade = “Besh baho”;</pre>",
+    "noAnswer3": "<pre>int _myGrade = 100;</pre>"
   },
   {
-    "question": "Necha yoshdan bolalar o'zini kattalar bilan taqqoslaydi. ",
-    "answer": " 4 yoshdan",
-    "noAnswer1": "3 yoshdan",
-    "noAnswer2": "5 yoshdan",
-    "noAnswer3": "2 yoshdan"
+    "question": "Androidda aniq geojoylashuv uchun kerak bo’ladigan ruxsat nomini aniqlang",
+    "answer": "ACCESS_FINE_LOCATION",
+    "noAnswer1": "ACCESS_COARSE_LOCATION",
+    "noAnswer2": "ACCESS_ACCURATE_LOCATION",
+    "noAnswer3": "ACCESS_CURRENT_LOCATION"
   },
   {
-    "question": "Pedagogik psixologiyada qo'llaniladigan metodlar:",
-    "answer": " kuzatish va o'qitish birligi;",
-    "noAnswer1": "ong va faoliyat birligi;",
-    "noAnswer2": "o'qitish qonuniyatlari;",
-    "noAnswer3": "o'qishning asosiy qonuniyatlari;"
+    "question": "Dart dasturlash tilida <pre>var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};</pre> berilgan to’plamdagi uchinchi elementga qanday murojaat qilinadi?",
+    "answer": "Murojaat qilish mumkin emas",
+    "noAnswer1": "halogens[3]",
+    "noAnswer2": "halogens(3)",
+    "noAnswer3": "halogens{3}"
   },
   {
-    "question": "Psixikaning rivojlanish manbalari nimalar?",
-    "answer": " ijtimoiy muhit, irsiyat, ta'lim – tarbiya",
-    "noAnswer1": "oila, maktab, jamiyat",
-    "noAnswer2": "yashash joyi, atrofdagi do'stlar davrasi",
-    "noAnswer3": "o'qish va mehnat jarayoni"
+    "question": "Dart dasturlash tilida <pre>var list = [132, 22342, 33424, 456484];</pre> berilgan ro’yxatdagii uchinchi elementga qanday murojaat qilinadi?",
+    "answer": "list[3]",
+    "noAnswer1": "list{3}",
+    "noAnswer2": "list(3)",
+    "noAnswer3": "Murojaat qilish mumkin emas"
   },
   {
-    "question": "Talabalarda aqliy zo'riqishning negizi deb nimalarni hisoblaysiz?",
-    "answer": "yaqin dugonalari yoki befarq bo'lmagan odamining hiyonati ",
-    "noAnswer1": "aqliy mehnatda kuch va imkoniyatlarni bir tekis taqsimlay olmaslik",
-    "noAnswer2": "o'quv faoliyatining to'g'ri usullarini bilmasligi, ",
-    "noAnswer3": "aqliy bilimlarning yetishmasligi, dars mazmun – mohiyatini tushunmaslik"
+    "question": "Android qurilmalar uchun ilovalar yozish muhitini ko‘rsating",
+    "answer": "Android Development Tools",
+    "noAnswer1": "Android Virtual Device",
+    "noAnswer2": "Android SDK",
+    "noAnswer3": "JDK"
   },
   {
-    "question": "Tarbiya psixologiyasining predmeti nima?",
-    "answer": "shaxsning odob-axloq, dunyoqarash va e'tiqodini shakllantirishda bolalar faoliyatini maqsadli yo'naltirish",
-    "noAnswer1": "Sistemali o'qitish sharoitida bilim faoliyatini rivojlantirishning usullaridan foydalanish",
-    "noAnswer2": "prfessional pedagogik faoliyatining shakllantirishning psixologik aspektlarini o'rganish",
-    "noAnswer3": "ta'lim-tarbiya insonnning shaxs sifatida rivojlanishining psixologik qonuniyatlarini o'rganish"
-  },
-  {
-    "question": "Tarbiya turlarining eng ko'p tarqalgan klassifikatsiyasi qaysi?",
-    "answer": "Aqliy, mehnat, jismoniy ",
-    "noAnswer1": "Ahloqiy, siyosiy, jismoniy ",
-    "noAnswer2": "Avtoritar, erkin, demokratik",
-    "noAnswer3": "Fuqorolik, jamoviy, kommunikativ"
-  },
-  {
-    "question": "O'z-o'zini tarbiyalash zerikarli bo'lib qolmasligi uchun A.S.Makarenko qanday maslaxat bergan?",
-    "answer": " Istiqbolli rejani tushuntirishni",
-    "noAnswer1": "Individual yondashishni",
-    "noAnswer2": "Ayrim xususiyatlar tark etishni",
-    "noAnswer3": "Ta'sir usullaridan foydalanishni"
-  },
-  {
-    "question": "Komil inson sifatlari",
-    "answer": "Akliy, jismoniy, ma'naviy etukligi",
-    "noAnswer1": "Zexn utkirligi, etukligi",
-    "noAnswer2": "Iktidorliligi va madaniyatliligi",
-    "noAnswer3": "ukish zexnining tezligi"
-  },
-  {
-    "question": "Shaxsni o'z-o'zini tarbiyalash jarayoni qanday kechadi?",
-    "answer": " Muhit bilan faol munosabatda",
-    "noAnswer1": "Individual holda",
-    "noAnswer2": "Muhitdan ajralgan holda",
-    "noAnswer3": "Biologik omillar asosida"
-  },
-  {
-    "question": "Shaxsning o'z xatti-harakatlari, bilimlari, imkoniyatlari, malakalariga nisbatan sub'ektiv munosabati...",
-    "answer": " Iqtidor ",
-    "noAnswer1": "Iste'dod ",
-    "noAnswer2": "Layoqat ",
-    "noAnswer3": "daholik"
-  },
-  {
-    "question": "Inson faolligi qanday tushunchalar bilan chambarchas bog'liq?",
-    "answer": "Xarakat, faol, xulq",
-    "noAnswer1": "O'qish bilish, ko'rish",
-    "noAnswer2": "Ong, tafakkur, bilim",
-    "noAnswer3": "Tashabbuskorlik, sport"
-  },
-  {
-    "question": "Chaqaloqning inson zotiga mansubligini tasdiqlaydigan fakt qanday tushuncha bilan nomlanadi?",
-    "answer": "individ",
-    "noAnswer1": "individuallik",
-    "noAnswer2": "shaxs",
-    "noAnswer3": "yo'nalganlik"
-  },
-  {
-    "question": "O‘qituvchi pedagogik texnikasining muhim malakalaridan biri uning …….. texnikasidir",
-    "answer": "Nutqi, tempi, diksiyasi, ovoz butunligi",
-    "noAnswer1": "kasbkorlik malakalari, talablar qo'ya olishi",
-    "noAnswer2": "kiyinish madaniyati, ijodiy ishlari",
-    "noAnswer3": "muomala madaniyati, kiyinish madaniyati"
-  },
-  {
-    "question": "Motivatsiya nima?",
-    "answer": "Inson xulq-atvori, uning bog'lanishi, yo'nalishi va faolligiga undovchi kuch.",
-    "noAnswer1": "Uning jarayonida bilimlar, malaka va turli ko'nikmalar o'zlashtiriladi",
-    "noAnswer2": "Shaxs individual rivojlanishi jarayonida namoyon bo'ladigan birlamchi faoliyat turlaridan biri.",
-    "noAnswer3": "Ongrivojlanishiningbosqichlari."
-  },
-  {
-    "question": "Konkret odamni boshqa bir konkret odamdan farqlovchi barcha o'ziga xos\n xususiyatlar majmui nima deb ataladi?",
-    "answer": "individuallik",
-    "noAnswer1": "qobiliyat",
-    "noAnswer2": "iqtidor",
-    "noAnswer3": "iste'dod"
-  },
-  {
-    "question": "Ko'zi ojiz tarbiyalanuvchilar ta'lim-tarbiyasi bilan shug'ullanuvchi fan qaysi?",
-    "answer": "Tiflopedagogika",
-    "noAnswer1": "Surdopsixologiya",
-    "noAnswer2": "Oligofrenopedagogika",
-    "noAnswer3": "Surdopedagogika"
-  },
-  {
-    "question": ".............– bu yosh avlodni hayotga, mehnatga tayyorlash uchun xalq oldida, davlat oldida javob beradigan, yosh avlodga ta'lim-tarbiya berish uchun maxsus tayyorlangan mutaxassislarning mehnat faoliyati",
-    "answer": "Pedagogik faoliyat",
-    "noAnswer1": "Pedagogik mahorat",
-    "noAnswer2": "Pedagogik qobiliyat",
-    "noAnswer3": "Pedagogik so'zlashuv"
-  },
-  {
-    "question": "Shaxsning faolliyatini yo'naltirib turadigan va mavjud vaziyatlarga nisbatan bog'liq bo'lmagan barqaror motivlar majmuyi ................ deb ataladi",
-    "answer": "kishi shaxsining yo'naltirilganligi",
-    "noAnswer1": "motivatsiya",
-    "noAnswer2": "qiziqish",
-    "noAnswer3": "ehtiyoj"
-  },
-  {
-    "question": "\"Milliy mafkura - bu xalqning, millatning o'tda yonmaydigan, suvda cho'kmaydigan o'lmas ......”",
-    "answer": "e'tiqodidir",
-    "noAnswer1": "ma'naviyatidir",
-    "noAnswer2": "iymonidir",
-    "noAnswer3": "ehtiyojidir"
-  },
-  {
-    "question": "......................    - tadqiqotchining boshqa kishilardan pedagogik tajribaning biror tomoni yoki hodisalari haqida axborot olish jarayoni bu metodning asosini tashkil qiladi",
-    "answer": "Pedagogik so'rash metodi",
-    "noAnswer1": "Eksperiment-tajriba-sinov usuli",
-    "noAnswer2": "Test sinovlar metodi",
-    "noAnswer3": "Modellashtirish metodi"
-  },
-  {
-    "question": "................ - maxsus tayyorlangan kishilar rahbarligida o'tkaziladigan, o'quvchilarni bilim, ko'nikma va malakalar bilan qurollantiradigan, bilim, qobiliyatlarini o'stiradigan, ularning dunyoqarashini tarkib toptiradigan jarayondir",
-    "answer": "ta'lim",
-    "noAnswer1": "ko'nikma",
-    "noAnswer2": "bilim",
-    "noAnswer3": "qobiliyat"
-  },
-  {
-    "question": "Yoshlar ongini shakllantirish usullariga qaysilar kiradi?",
-    "answer": "tushuntirish, suhbat va o'rnak ko'rsatish",
-    "noAnswer1": "darsdan tashqari suxbatlar olib borish ishlari",
-    "noAnswer2": "atrofdagi voqealar, hulq atvor, davlatning ichki va tashqi siyosati",
-    "noAnswer3": "uzluksiz ta'lim tizimini yanada rivojlashtirish muammolarini xal qilish"
-  },
-  {
-    "question": "..... - deganda biz shaxsning ham jismoniy, ham aqliy va ma'naviy kamol topish jarayonini tushunamiz",
-    "answer": "rivojlanish",
-    "noAnswer1": "tarbiya",
-    "noAnswer2": "ma'naviyat",
-    "noAnswer3": "ko'nikma"
-  },
-  {
-    "question": ".................-inson ongining bilish ob'ektlari hisoblanmish narsa va hodisalar o'rtasida murakkab, har tomonlama aloqalarning bo'lishini ta'minlovchi umumlashgan va mavxumlashgan aks ettirish shaklidir.",
-    "answer": "tafakkur",
-    "noAnswer1": "xodisa",
-    "noAnswer2": "idrok",
-    "noAnswer3": "sezgi "
-  },
-  {
-    "question": ".........– hulqning asosiy anglanilgan motivi. U butun shaxs faoliyatiga alohida mazmun va aniq yo'nalish baxsh etadi",
-    "answer": "E'tiqod",
-    "noAnswer1": "Extiyoj",
-    "noAnswer2": "Motivatsiya",
-    "noAnswer3": "Rivojlanish"
-  },
-  {
-    "question": "Har qanday sharoitda ham barcha harakatlar ham ichki-psixologik, ham tashqi-muvofiqlik nuqtai nazaridan ...... tomonidan boshqarilib boradi",
-    "answer": "ong ",
-    "noAnswer1": "malaka",
-    "noAnswer2": "miya",
-    "noAnswer3": "sezgi"
-  },
-  {
-    "question": "Shaxsning rivojlanish jarayoni bir qancha omillar ta’sirida sodir bo‘ladi. Bular",
-    "answer": "irsiyat, muhit, ta'lim va tarbiya, shaxs faolligi",
-    "noAnswer1": "tashqi muhit, oila, internet, klublar",
-    "noAnswer2": "ta'lim va tarbiya, irsiyat, tadbirlar, turli uchrashuvlar",
-    "noAnswer3": "maslaxat berish, ko'rgazmalilik usuli, amaliy, namuna usul"
-  },
-  {
-    "question": "..................-birinchi navbatda aqliy faoliyat bo'lib, u sof psixologik jarayonlarning kechishidan kelib chiqadi.",
-    "answer": "ichki faoliyat ",
-    "noAnswer1": "umumiy faoliyat",
-    "noAnswer2": "tashqi faoliyat",
-    "noAnswer3": "umumiy faoliyat"
-  },
-  {
-    "question": "………....- kishini o'zini tuta olmaydigan qilib qo'yadigan taassurotlar bilan bog'liq psixik jarayonlar, xarakatlar va xolatlar yig'indisidir.",
-    "answer": " Ongsizlik",
-    "noAnswer1": "Organizm",
-    "noAnswer2": "Tafakkur",
-    "noAnswer3": "fikr"
-  },
-  {
-    "question": "Jamiyat bilan doimiy munosabatni ushlab turuvchi, o'z - o'zini anglab, har bir harakatini muvofiqlashtiruvchi shaxsga xos bo'lgan eng muhim va umumiy xususiyat-bu ................",
-    "answer": "faollik",
-    "noAnswer1": "malaka",
-    "noAnswer2": "tafakkur",
-    "noAnswer3": "fikr"
-  },
-  {
-    "question": "Tabiiyki, milliy tafakkur rivojining tamal toshi ona tilidir. Ona tiliga muxabbat, ona tilida sobitlik milliy tafakkur parvozini muntazam ta'min etadigan ...........   ",
-    "answer": "muqaddas tuyg'ulardir",
-    "noAnswer1": "beqiyos tuyg'udir",
-    "noAnswer2": "onalik tuyg'usidir",
-    "noAnswer3": "vatan tuyg'usidir"
-  },
-  {
-    "question": "Ilmiy tushuncha sifatida \"........\"so'zi keng ma'noda muayyan maqsadga erishish yo'lini, tor ma'noda - tabiat va ijtimoiy xayot xodisalari va qonuniyatlarini bilish maqsadida qandaydir vazifani xal etish usulini bildiradi",
-    "answer": "metod",
-    "noAnswer1": "texnologiya",
-    "noAnswer2": "ma'naviyat",
-    "noAnswer3": "tarbiyaviy-tashkiliy"
-  },
-  {
-    "question": ".......– o'quvchining ichki dunyosiga kira olish qobiliyati, o'quvchi shaxsini va uning ruhiy holatlarini juda yaxshi tushuna bilish bilan bog'liq bo'lgan psixologik kuzatuvchanlikdir",
-    "answer": "Kuzatuvchanlik qobiliyati",
-    "noAnswer1": "Tushuntira olish qobiliyati",
-    "noAnswer2": "Bilish qobiliyati",
-    "noAnswer3": "Aqliy qobiliyati"
-  },
-  {
-    "question": "\"Aktual taraqqiyot zonasi\" mohiyati nimadan iborat?",
-    "answer": "bolaning mustaqil faoliyati kattalar bilan xamkorlikda amalga oshiriladi",
-    "noAnswer1": "kichik maktab yoshi davrida xatti – xarakatidan",
-    "noAnswer2": "bola taraqqiyotini maktab ta'limidan ajratib bo'lmaydi",
-    "noAnswer3": "rivojlanishning mohiyati qarama-qarshiliklar kurashidan iborat"
-  },
-  {
-    "question": "\"Bolalarning aqliy taraqqiyotigina emas, balki axloqiy rivojlanish ham nasliy tamondan belgilangan\". Ushbu fikrlar muallifi kim? ",
-    "answer": " E. Torndayk",
-    "noAnswer1": "Z.Zazzo",
-    "noAnswer2": "F.Myuller",
-    "noAnswer3": "K. Byuller"
-  },
-  {
-    "question": "\"Bu shunday qobiliyatki bunda o'quvchilarga bevosita emotsional irodaviy ta'sir etib ularda obro' orttira bilishdan iborat qobiliyatdir\" qaysi qobiliyat turiga ta'rif berilgan? ",
-    "answer": " Avtoritar qobiliyati",
-    "noAnswer1": "Kommunikativ qobiliyati",
-    "noAnswer2": "Nutq qobiliyati",
-    "noAnswer3": "Pedagogik qobiliyati"
-  },
-  {
-    "question": "Bilim olishga maqsadga yo'naltirilgan anglash qobiliyati bolada qachon paydo bo'ladi?",
-    "answer": " 4-5 yoshda",
-    "noAnswer1": "2-3 yoshda",
-    "noAnswer2": "6-7 yoshda",
-    "noAnswer3": "8 yoshdan so'ng"
-  },
-  {
-    "question": "Bolalarda xayol necha yoshdan boshlab paydo bo'la boshlaydi? ",
-    "answer": "2 yoshga to'lib, 3 yoshga qadam qo'yganda",
-    "noAnswer1": "1-2 yoshiga qadam qo'yganda",
-    "noAnswer2": "4 yoshiga qadam qo'yganda",
-    "noAnswer3": "3 yoshiga to'lganida"
-  },
-  {
-    "question": "Buyuk psixolog V.Shtern g'oyasi?",
-    "answer": "Ta'lim psixik rivojlanishning orqasidan boradi",
-    "noAnswer1": "Ta'lim-tarbiya birligi rivojlanishidir",
-    "noAnswer2": "Tarbiya, taraqqiyot vositasi",
-    "noAnswer3": "Ta'lim psixik rivojlanishni ergashtirib boradi"
-  },
-  {
-    "question": "Diniy aqloqiy tarzdagi dastlabki pedagogik va psixologik asarlar qachon yozilgan? ",
-    "answer": "XVIIIasrda ",
-    "noAnswer1": "XX-asrda",
-    "noAnswer2": "XIX-asrda",
-    "noAnswer3": "XI - asrda"
-  },
-  {
-    "question": "Yetuklik davri o'z ichiga necha yoshni oladi?",
-    "answer": " 30 – 35 yosh",
-    "noAnswer1": "25 – 30 yosh",
-    "noAnswer2": "55 – 70 yosh",
-    "noAnswer3": "36 – 60 yosh"
-  },
-  {
-    "question": "Yoshlik davrida yigit – qizlar kamolotiga qanday psixologik mexanizmlar ta'sir ko'rsatadi?  ",
-    "answer": " mehnat jamoasi, oila muhiti va norasmiy ulfatlar",
-    "noAnswer1": "ota – onalar, turmush o'rtog'i",
-    "noAnswer2": "yaqin kishilari, kasb faoliyati",
-    "noAnswer3": "ijtimoiy ong, sevib – sevilish"
-  },
-  {
-    "question": "Yoshlik davrida sezgirlikning ortishi necha yoshgacha davom etadi?",
-    "answer": " 25 yoshgacha",
-    "noAnswer1": "30 yoshgacha",
-    "noAnswer2": "35 yoshgacha",
-    "noAnswer3": "28 yoshgacha"
-  },
-  {
-    "question": "....  -insonning yakka holdagi bir yoki bir necha turdagi faoliyatida namoyon bo'ladi. U insonga tayyor holda berilmaydi. U o'qitish va tarbiya jarayonida rivojlanish natijasi hisoblanadi.  Nuqtalar o'rniga kerakli so'zni qo'ying.",
-    "answer": "qobiliyat",
-    "noAnswer1": "iste'dod",
-    "noAnswer2": "aql",
-    "noAnswer3": "bilim"
-  },
-  {
-    "question": "\"Muallim, ustozlar nima so'rasalar kulib turib, odob bilan, chiroyli so'zlarni saralab, javob ber \"ushbu so'zlar kimning qalamiga mansub?",
-    "answer": "Mustafo Homiy",
-    "noAnswer1": "Y.A. Komenskiy",
-    "noAnswer2": "A. Navoiy",
-    "noAnswer3": "Al Farg'oniy"
-  },
-  {
-    "question": "\"Diplomga ega bo'lish bu hali tom ma'nodagi ziyoli emas, ziyoli odam o'z tafakkur saviyasi, pok yuragi, ichki madaniyati bilan mutlaqo boshqacha bo'ladi\" , ushbu so'zlar kimga tegishli?",
-    "answer": "I. A. Karimov",
-    "noAnswer1": "A. Avloniy",
-    "noAnswer2": "Komenskiy",
-    "noAnswer3": "A. Qodiriy"
-  },
-  {
-    "question": "Kadrlar tayyorlash tayyorlash Milliy modulining asosiy tarkibiy qismlari bular...?",
-    "answer": "Uzluksiz ta'lim, shaxs, fan, davlat va jamiyat",
-    "noAnswer1": "Davlat va xokimiyat",
-    "noAnswer2": "Qonunchilik palatasi",
-    "noAnswer3": "Qonun va ijro"
-  },
-  {
-    "question": "  Uzluksiz ta'lim o'z ichiga necha ta'lim turini oladi?",
-    "answer": "Yettita",
-    "noAnswer1": "O'n ikkita",
-    "noAnswer2": "Oltita",
-    "noAnswer3": "O'nta"
-  },
-  {
-    "question": "Kasb-hunar kollejlarini bitirgandan so'ng qanday ma'lumotli mutaxassislik beradi?",
-    "answer": "O'rta maxsus",
-    "noAnswer1": "Oliy",
-    "noAnswer2": "Tugallanmagan oliy",
-    "noAnswer3": "O'rta"
-  },
-  {
-    "question": "Insonning qo'rqish va dovdirab qolish tuyg'usini yengish qobiliyati qaysi irodaviy sifatiga kiradi?",
-    "answer": "Qat'iylik",
-    "noAnswer1": "Sabr-matonat",
-    "noAnswer2": "Mustaqillik",
-    "noAnswer3": "Dadillik"
-  },
-  {
-    "question": "Guruh deganda nimani tushunasiz?",
-    "answer": "Muayyan belgi, maqsad, tashkil topish xususiyatiga qarab birlashgan insoniy umumiylik",
-    "noAnswer1": "Talabalar guruhi, ishchilar guruhi, oila",
-    "noAnswer2": "Norasmiy, rasmiy, real, shartli guruhlar bo'ladi",
-    "noAnswer3": "Guruh jamoadir"
-  },
-  {
-    "question": "Majburiy ta'lim necha yil?",
-    "answer": "O'n ikki yil",
-    "noAnswer1": "To'qqiz yil",
-    "noAnswer2": "O'n olti yil",
-    "noAnswer3": "O'n bir yil"
-  },
-  {
-    "question": " \"Innovatsiya\" tushunchasi birinchi marta nechanchi asrda paydo bo'lgan?",
-    "answer": "XIX asrda",
-    "noAnswer1": "XX asrda",
-    "noAnswer2": "XVIII asrda",
-    "noAnswer3": "XVII asrda"
-  },
-  {
-    "question": "Qaysi metod o'quvchi-talabani savol berish, eshita olish, to'g'ri javob bera olish, savolni to'g'ri tuzishni o'rgatishga qaratilgan? ",
-    "answer": "Interv'yu metodi",
-    "noAnswer1": "Blits o'yin metodi",
-    "noAnswer2": "3x4 metodi",
-    "noAnswer3": "aqliy hujum"
-  },
-  {
-    "question": "Qaysi metod o'quvchi-talabalarni erkin fikrlashi, keng doirada turli g'oyalarni bera olishi, ta'lim jarayonida yakka, kichik guruh holda tahlil etib, xulosa chiqara olish, ta'rif bera olishiga qaratilgan?",
-    "answer": "3x4 metodi",
-    "noAnswer1": "Blits o'yin metodi",
-    "noAnswer2": "Intervyu metodi",
-    "noAnswer3": "aqliy hujum"
-  },
-  {
-    "question": "Qaysi metod harakatlar ketma-ketligini to'g'ri tashkil etishga, mantiqiy fikrlashga, o'rganayotgan fani asosida ko'p, xilma-xil fikrlardan, ma'lumotlardan keraklisini tanlab olishni o'rgatishga qaratilgan",
-    "answer": "Blitso'yin metodi",
-    "noAnswer1": "Intervyu metodi",
-    "noAnswer2": "3x4 metodi",
-    "noAnswer3": "aqliy hujum"
-  },
-  {
-    "question": "Qaysi tushuncha inglizchada yangilik, yangilik kiritish, yangilikni o'rganish kabi ma'nolarni aks ettiradi?",
-    "answer": "Innovatsiya",
-    "noAnswer1": "Informatika",
-    "noAnswer2": "Innovatika",
-    "noAnswer3": "Ipoteka"
-  },
-  {
-    "question": "Qaysi metod o'qituvchi topshiriqlar tizimi bilan o'quvchilar bilish faoliyatini tashkil etadi?",
-    "answer": "Tadqiqot metodi",
-    "noAnswer1": "Eslash metodi",
-    "noAnswer2": "Tushuntirish metodi",
-    "noAnswer3": "bilim almashtirish"
-  },
-  {
-    "question": "Axloq nima ?",
-    "answer": "Jamiyatda qabul qilingan, jamoatchilik fikri bilan ma'qullangan xulq-odob normalari majmui",
-    "noAnswer1": "Jamiyatning va unda yashovchi fuqarolarning faoliyati jarayonida to'plangan barcha ijobiy yutuqlar majmuasi",
-    "noAnswer2": "Inson ongidagi mavjud ilmiy va hayotiy bilimlar majmuidan keragini saralab olish va amaliyotga qo'llash",
-    "noAnswer3": "Mutaxassisliklar yo'nalishlari bo'yicha fundamental va amaliy bilim berish"
-  },
-  {
-    "question": "Ma'naviyat nima? ",
-    "answer": "Inson ongini aks ettiruvchi barcha ijobiy, ruhiy, intellektual fazilatlar majmuasidir",
-    "noAnswer1": "Insonning yakka holdagi bir yoki bir necha turdagi faoliyatida namoyon bo'lishi tushuniladi",
-    "noAnswer2": "Jamiyatda qabul qilingan, jamoatchilik fikri bilan ma'qullangan xulq-odob normalari majmui",
-    "noAnswer3": "Jamiyatning va unda yashovchi fuqarolarning faoliyati jarayonida to'plangan barcha ijobiy yutuqlar majmuasi."
-  },
-  {
-    "question": "Muloqot deganda nimani tushunasiz?",
-    "answer": "Kishilar faoliyatida nutqli va nutqsiz munosabatga kirishishishi muloqotdir",
-    "noAnswer1": "Kishilarni har xil imo ishoralaridan iborat bo'lgan munosabati – muloqotdir",
-    "noAnswer2": "Nutq orqali munosabatga kirishish muloqot deyiladi",
-    "noAnswer3": "Kishilarni o'zaro fikr almashishlari muloqotdeyiladi"
-  },
-  {
-    "question": "Nutqsiz kommunikatsiya bu…",
-    "answer": "So'zlarni sistematik ravishda ifoda etishdir",
-    "noAnswer1": "So'zlarni to'ldiruvchi va kuchaytiruvchi belgilar sistemasi",
-    "noAnswer2": "Til yordamida munosabat qilish jarayoni",
-    "noAnswer3": "Monolog yordamida munosabat qilish jarayoni"
-  },
-  {
-    "question": "Bir vaqtning o'zida o'qituvchini tinglab, yozib, hamda o'rtog'ining iltimosini bajargan talaba diqqatining xarakterli xususiyatlari qaysi?",
-    "answer": "Diqqatning taqsimlanishi",
-    "noAnswer1": "Diqqatning barqarorligi",
-    "noAnswer2": "Diqqatningko'chishi",
-    "noAnswer3": "Diqqatning parishonligi"
-  },
-  {
-    "question": "Shaxsning tarkib topishida va rivojlanishidagi asosiy faoliyat urlari qaysilar?",
-    "answer": "O'yin, o'qish, mehnat",
-    "noAnswer1": "O'yin, o'qish, o'zligini anglash",
-    "noAnswer2": "O'qish, mehnat",
-    "noAnswer3": "Mehnat, o'z-o'zini tarbiyalash"
-  },
-  {
-    "question": "Kishining dunyoqarashi qanday shakllanadi?",
-    "answer": "Atrof muhitni yaxlit idrok qilish, farqlash, taqqoslash va izohlay olish",
-    "noAnswer1": "Ota-onalarimiz turmush tarzini o'rganish va ularga rioya etish orqali",
-    "noAnswer2": "O'quv fanlarini yaxshi o'rganish orqali",
-    "noAnswer3": "Ijtimoiy hayotni o'rganish orqali"
-  },
-  {
-    "question": "O'qituvchining akademik qobiliyati nima?",
-    "answer": "Barcha fanlar yuzasidan muayyan bilimga ega bo'lishlik qobiliyati",
-    "noAnswer1": "Talabalarni o'z fanidan to'liq o'zlashtirishni ta'minlash qobiliyati",
-    "noAnswer2": "Muayyan akademik soatga mo'ljallangan darsni ushbu vaqtda to'liq va aniq o'ta olish qobiliyati",
-    "noAnswer3": "\"Akademik\" unvonga ega bo'lishlik qobiliyati"
-  },
-  {
-    "question": "O'qituvchi va talaba shaxsini kompleks o'rganishiga qaratilgan usul nima deyiladi?",
-    "answer": "Psixodiognostika",
-    "noAnswer1": "Psixogenetika",
-    "noAnswer2": "Psixoanaliz",
-    "noAnswer3": "Psixologik ta'sir"
-  },
-  {
-    "question": "Faoliyatda motiv qanday vazifani bajaradi?",
-    "answer": "  Undovchilik",
-    "noAnswer1": "Signallik aks ettirish",
-    "noAnswer2": "Ekssperiv (ifodalash) va signallik",
-    "noAnswer3": "Maqsadga yunaltirish vaaks ettirish"
-  },
-  {
-    "question": "Faoliyatning asosiy turlariga qaysilar kiradi?",
-    "answer": " O'yin, o'qish, mehnat",
-    "noAnswer1": "Tashqi, ichki nutq",
-    "noAnswer2": "Malaka, ko'nikma",
-    "noAnswer3": "Mehnat, muloqot"
-  },
-  {
-    "question": "Kommunikativ qobiliyat deganda nimani tushunasiz?",
-    "answer": "O'quv materiallarini tushunarli bayon etish",
-    "noAnswer1": "Bolalarga aralashish qobiliyati",
-    "noAnswer2": "O'quvchilar jamoasini uyushtirish",
-    "noAnswer3": "Bolalarga emotsional ta'sir ko'rsatish"
-  },
-  {
-    "question": "  Ta'lim va tarbiyaning uzviy bog'liqligi, bu jarayonning xar tomonlama kamol topgan insonni shaklantirishga yo'naltirilganligi ta'rifi qaysi soxaga tegishli?",
-    "answer": "Uzluksiz ta'limning faoliyat kursatish printsipiga",
-    "noAnswer1": "Ta'lim soxasidagi davlat siyosatining asosiy printsipiga",
-    "noAnswer2": "Uzluksiz ta'limning islox kilish yunalishlariga",
-    "noAnswer3": "Ta'lim printsipining qanday qo'llanilishiga bog'liq"
-  },
-  {
-    "question": "Shaxsda \"Men\" timsoli qachon paydo bo'lgan?",
-    "answer": "Ilk bolalik davrida ",
-    "noAnswer1": "O'smirlik davrida",
-    "noAnswer2": "Kichik maktab yoshi davrida",
-    "noAnswer3": "O'spirinlik davrida"
-  },
-  {
-    "question": "Tyutor so'zini ma'nosi nima?",
-    "answer": "o'qituvchi konsultant",
-    "noAnswer1": "o'qituvchi taqrizchi",
-    "noAnswer2": "o'qituvchi maqolachi",
-    "noAnswer3": "o'qituvchi rahbar"
-  },
-  {
-    "question": "Kardrlar tayyorlash tizimining asosi?",
-    "answer": "uzluksiz ta'lim     ",
-    "noAnswer1": "boshqarish",
-    "noAnswer2": "g'oya",
-    "noAnswer3": "maqsadli yo'nalish"
-  },
-  {
-    "question": "To'liq shakllanmagan shaxs psixologiyada\n qanday nom bilan yuritiladi?",
-    "answer": "Individ",
-    "noAnswer1": "Ideal",
-    "noAnswer2": "Reyal",
-    "noAnswer3": "To'liqsiz"
-  },
-  {
-    "question": "Atrofdagi predmetlar va hodisalar\nto'g'risidagi yaxlit obraz qanday nomlanadi?",
-    "answer": "Pertseptiv",
-    "noAnswer1": "Mnemik faolyat",
-    "noAnswer2": " Fikrlash faolyati",
-    "noAnswer3": " Imajitiv"
-  },
-  {
-    "question": " \"Image\"- so'zining ma'nosi nima?",
-    "answer": " \"image\"-o'braz\n\n",
-    "noAnswer1": "\"image\"-rasm",
-    "noAnswer2": "\"image\"- qo'shiq",
-    "noAnswer3": "\"image\"-video"
-  },
-  {
-    "question": "Ijodiy jaryonlarda hayol va fantaziya vositasida\n hozir bevosita ongda berilmagan narsalarning\n xususiyatlarini anglash va xayolda tiklashni taqozo\n etishi nima deyiladi?",
-    "answer": " Imajitiv\n",
-    "noAnswer1": "Pertseptiv",
-    "noAnswer2": "Mnemik faolyat",
-    "noAnswer3": "Fikrlash faolyati"
+    "question": "AndroidStudio da xarita (Karta)lar bilan ishlovchi komponentani ko‘rsating",
+    "answer": "MapView",
+    "noAnswer1": "CardView",
+    "noAnswer2": "MapCard",
+    "noAnswer3": "CardMap"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
