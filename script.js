@@ -1,1374 +1,1732 @@
 const data = [
   {
-    "question": "Activityning onStart() metodiga mos ta’rifni aniqlang.",
-    "answer": "lbu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi",
-    "noAnswer1": "bu metodning vazifasi activity yaratilganida berilgan ketma–ketliklarni bajarishdan iborat va bir marta bajariladi.",
-    "noAnswer2": "ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi",
-    "noAnswer3": "ushbu metod activity ish faoliyati to‘xtatib, qayta ishga tushirilganida chiqariladi"
-  },
-  {
-    "question": "Activityning onStop() metodiga mos ta’rifni aniqlang.",
-    "answer": "ushbu metod activity foydalanuvchiga ko‘rinmay qolganida chaqiriladi",
-    "noAnswer1": "ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi",
-    "noAnswer2": "bu metod foydalanuvchi tomonidan activity bilan ishlayotgan vaqtda chaqiriladi",
-    "noAnswer3": "bu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi"
-  },
-  {
-    "question": "Activityning onCreate() metodiga mos ta’rifni aniqlang.",
-    "answer": "bu metodning vazifasi activity yaratilganida berilgan ketma–ketliklarni bajarishdan iborat va bir marta bajariladi",
-    "noAnswer1": "bu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi",
-    "noAnswer2": "ushbu metod activity ish faoliyati to‘xtatib, qayta ishga tushirilganida chiqariladi",
-    "noAnswer3": "ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi"
-  },
-  {
-    "question": "Qaysi xususiyat elementni ekranning to‘liq kengligigacha joylashtiradi?",
-    "answer": "match_parent",
-    "noAnswer1": "parent_wrap",
-    "noAnswer2": "wrap_parent",
-    "noAnswer3": "wrap_content"
-  },
-  {
-    "question": "Qaysi metod obyektni id bo'yicha topadi?",
-    "answer": "findViewById",
-    "noAnswer1": "FindViewID",
-    "noAnswer2": "findViewId",
-    "noAnswer3": "getTextById"
-  },
-  {
-    "question": "Android – bu ...",
-    "answer": "bu mobil qurilmalar uchun mo‘ljallangan turli hil ilovalar va xizmatlarni o‘z ichiga olgan operatsion tizim",
-    "noAnswer1": "bu mobil qurilmalar uchun mo‘ljallangan turli hil ilovalar va xizmatlarni o‘z ichiga olgan dastur",
-    "noAnswer2": "bu mobil qurilmalar uchun mo‘ljallangan turli hil ilovalar va xizmatlarni o‘z ichiga olgan drayver",
-    "noAnswer3": "bu mobil qurilmalar uchun mo‘ljallangan turli hil ilovalar va xizmatlarni o‘z ichiga olgan paket"
-  },
-  {
-    "question": "<pre>\r\nbtn.setOnClickListener(\r\n        new View.OnClickListener() {\r\n            public void OnClick (View v) {\r\n                    btn.setBackgroundTintList(\r\n                            ColorStateList.valueOf(Color.RED)\r\n                    );\r\n            }\r\n        }\r\n);\r\n</pre>\r\nYuqoridagi xatolikni aniqlang",
-    "answer": "@Override qolib ketgan va OnClick metodi onClick yoziladi",
-    "noAnswer1": "@Override qolib ketgan",
-    "noAnswer2": "OnClickListener metodi onClickListener sifatida yozilgan",
-    "noAnswer3": "Hech qanday xatolikka yo’l qo’yilmagan"
-  },
-  {
-    "question": "Nechta virtual qurilma (AVD) yaratish mumkin?",
-    "answer": "Cheklanmagan",
-    "noAnswer1": "5 tadan ko’p bo’lmagan",
-    "noAnswer2": "10 tadan ko’p bo’lmagan",
-    "noAnswer3": "15 tadan ko’p bo’lmagan"
-  },
-  {
-    "question": "Quyidagi klasslardan qaysi biri mavjud emas?",
-    "answer": "TextEdit",
-    "noAnswer1": "TextView",
-    "noAnswer2": "EditText",
-    "noAnswer3": "Button"
-  },
-  {
-    "question": "Rasmlar qaysi katalogda joylashtirilishi kerak?",
-    "answer": "drawable",
-    "noAnswer1": "res",
-    "noAnswer2": "layout",
-    "noAnswer3": "value"
-  },
-  {
-    "question": "<pre>android:backgroundTint = \"@android:color/holo_green_light\"</pre> qanday vazifani bajaradi?",
-    "answer": "Obyektning orqa fonini o'rnatadi",
-    "noAnswer1": "Matn rangini o'rnatadi",
-    "noAnswer2": "Matnning orqa fonini o'rnatadi",
-    "noAnswer3": "Obyektning soyasini o'rnatadi"
-  },
-  {
-    "question": "AndroidManifest.xml faylida ruxsat haqidagi ma’lumot to’g’ri e’lon qilingan qatorni aniqlang.",
-    "answer": "<pre>&lt;uses-permission android:name=&quot;android.permission.POST_NOTIFICATIONS&quot;/&gt;</pre>",
-    "noAnswer1": "<pre>&lt;uses-permission android:permission=&quot;android.permission.POST_NOTIFICATIONS&quot;/&gt;</pre>",
-    "noAnswer2": "<pre>&lt;uses-permission android:name=&quot;android.POST_NOTIFICATIONS&quot;/&gt;</pre>",
-    "noAnswer3": "<pre>&lt;uses-permission android=&quot;android.permission.POST_NOTIFICATIONS&quot;/&gt;</pre>"
-  },
-  {
-    "question": "ListView adapterlari ishlashni yaxshilash uchun ViewHolder shablonidan foydalanishni …",
-    "answer": "talab qilmaydi",
-    "noAnswer1": "talab qiladi",
-    "noAnswer2": "ta’minlaydi",
-    "noAnswer3": "qisqartiradi"
-  },
-  {
-    "question": "JSON kalit, qiymat juftligini yozishning to'g'ri formati",
-    "answer": "\"name\" : \"value\"",
-    "noAnswer1": "'name : value'",
-    "noAnswer2": "name = 'value'",
-    "noAnswer3": "name = \"value\""
-  },
-  {
-    "question": "Android ning 2 (Eclair) versiyasi qachon ishlab chiqilgan",
-    "answer": "Oktabr 26, 2009 yil",
-    "noAnswer1": "Fevral 9, 2009 yil",
-    "noAnswer2": "Aprel 27, 2009 yil",
-    "noAnswer3": "Sentyabr 3, 2008 yil"
-  },
-  {
-    "question": "Android 4.4.x qanday nomlangan",
-    "noAnswer1": "Ice Cream Sandwich",
-    "noAnswer2": "Jelly Bean",
-    "answer": "KitKat",
-    "noAnswer3": "Honeycomb"
-  },
-  {
-    "question": "Mobil qurilmalar uchun ilovalar yozishda ishlatiladigan satrli kattaliklar va izohlar qayerda saqlanadi",
-    "answer": "res/values papkasining ichida joylashgan strings. xml faylida",
-    "noAnswer1": "res papkasining ichida joylashgan colors. xml faylida",
-    "noAnswer2": "res papkasining ichida joylashgan strings. xml faylida",
-    "noAnswer3": "res/values papkasining ichida joylashgan colors. xml faylida"
-  },
-  {
-    "question": "Yangi ID kiritishni ko‘rsatib bering.",
-    "answer": "@+id/XXXX",
-    "noAnswer1": "@id/XXXX",
-    "noAnswer2": "+@id/XXXX",
-    "noAnswer3": "@$id/XXXX"
-  },
-  {
-    "question": "Android ilovalarida ishlatiladigan kattalikni ko‘rsating",
-    "answer": "dp",
-    "noAnswer1": "px",
-    "noAnswer2": "in",
-    "noAnswer3": "mm"
-  },
-  {
-    "question": "Android ilovalarida ishlatiladigan kattalikni ko‘rsating",
-    "answer": "sp",
-    "noAnswer1": "sm",
-    "noAnswer2": "dm",
-    "noAnswer3": "dpi"
-  },
-  {
-    "question": "200 px o‘lchamli to‘g‘ri chiziqning o‘lchami Android qurilmasida qancha dp bo‘ladi. (ldpi)",
-    "answer": "266,7",
-    "noAnswer1": "200",
-    "noAnswer2": "133,3",
-    "noAnswer3": "100"
-  },
-  {
-    "question": "250 px o‘lchamli to‘g‘ri chiziqning o‘lchami Android qurilmasida qancha dp bo‘ladi. (mdpi)",
-    "answer": "250",
-    "noAnswer1": "333,25",
-    "noAnswer2": "166,67",
-    "noAnswer3": "125"
-  },
-  {
-    "question": "100 px o‘lchamli to‘g‘ri chiziqning o‘lchami Android qurilmasida qancha dp bo‘ladi. (hdpi)",
-    "answer": "66,67",
-    "noAnswer1": "100",
-    "noAnswer2": "133,33",
-    "noAnswer3": "50"
-  },
-  {
-    "question": "100 px o‘lchamli to‘g‘ri chiziqning o‘lchami Android qurilmasida qancha dp bo‘ladi. (xhdpi)",
-    "answer": "50",
-    "noAnswer1": "100",
-    "noAnswer2": "66,67",
-    "noAnswer3": "133,33"
-  },
-  {
-    "question": "... - bu metodning vazifasi activity yaratilganida berilgan ketma–ketliklarni bajarishdan iborat va bir marta bajariladi.",
-    "answer": "onCreate()",
-    "noAnswer1": "onStart()",
-    "noAnswer2": "onResume()",
-    "noAnswer3": "onPause()"
-  },
-  {
-    "question": "... – bu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi.",
-    "answer": "onStart()",
-    "noAnswer1": "onResume()",
-    "noAnswer2": "onPause()",
-    "noAnswer3": "onCreate ()"
-  },
-  {
-    "question": "... — bu metod foydalanuvchi tomonidan activity bilan ishlayotgan vaqtda chaqiriladi.",
-    "answer": "onResume()",
-    "noAnswer1": "onPause()",
-    "noAnswer2": "onCreate ()",
-    "noAnswer3": "onStart()"
-  },
-  {
-    "question": "... – ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi.",
-    "answer": "onPause()",
-    "noAnswer1": "onCreate ()",
-    "noAnswer2": "onStart()",
-    "noAnswer3": "onResume()"
-  },
-  {
-    "question": "... — ushbu metod activity foydalanuvchiga ko‘rinmay qolganida chaqiriladi",
-    "answer": "onStop()",
-    "noAnswer1": "onCreate ()",
-    "noAnswer2": "onStart()",
-    "noAnswer3": "onResume()"
-  },
-  {
-    "question": "... – bu tartib elementi tashkil etuvchi elementlarni bir tomonga, ya’ni vertikal yoki gorizontal tarzda joylashtiradi.",
-    "answer": "LinearLayout",
-    "noAnswer1": "RelativeLayout",
-    "noAnswer2": "TableLayout",
-    "noAnswer3": "AbsoluteLayout"
-  },
-  {
-    "question": "Elementlar guruxidan tashkil topgan ro‘yxatni aks ettiruvchi elementlari guruhi bu – ...",
-    "answer": "ListView",
-    "noAnswer1": "GridView",
-    "noAnswer2": "LinearLayout",
-    "noAnswer3": "RelativeLayout"
-  },
-  {
-    "question": "... – bu element kengligini ko‘rsatuvchi atribut",
-    "answer": "android:layout_width",
-    "noAnswer1": "android:layout_height",
-    "noAnswer2": "layout_width",
-    "noAnswer3": "layout_height"
-  },
-  {
-    "question": "... – bu element balandligini ko‘rsatuvchi atribut.",
-    "answer": "android:layout_height",
-    "noAnswer1": "android:layout_width",
-    "noAnswer2": "layout_width",
-    "noAnswer3": "layout_height"
-  },
-  {
-    "question": "… – bu atribut X koordinatasini bildiradi",
-    "answer": "android:layout_x",
-    "noAnswer1": "android:layout_y",
-    "noAnswer2": "layout_x",
-    "noAnswer3": "layout_y"
-  },
-  {
-    "question": "… – bu atribut Y koordinatasini bildiradi",
-    "answer": "android:layout_y",
-    "noAnswer1": "android:layout_x",
-    "noAnswer2": "layout_y",
-    "noAnswer3": "layout_x"
-  },
-  {
-    "question": "... – yaratilgan element uchun talab qilinadigan eng kichik o‘lchovni bildiradi.",
-    "answer": "wrap_content",
-    "noAnswer1": "fill_parent",
-    "noAnswer2": "match_parent",
-    "noAnswer3": "match_content"
-  },
-  {
-    "question": "… – yaratilgan element uchun tartiblash elementining talab qilingan eng katta o‘lchovini bildiradi",
-    "noAnswer1": "fil_parent",
-    "noAnswer2": "wrap_content",
-    "answer": "match_parent",
-    "noAnswer3": "match_content"
-  },
-  {
-    "question": "... – bu funksiya aktivitidagi vidjetlarni obyekt sifatida belgilash uchun ishlatiladi.",
-    "answer": "findViewById()",
-    "noAnswer1": "findViewId()",
-    "noAnswer2": "findById()",
-    "noAnswer3": "viewById()"
-  },
-  {
-    "question": "Java dasturlash tilida vorislik olish uchun ishlatiladigan xizmatchi so‘zni ko‘rsating",
-    "answer": "extends",
-    "noAnswer1": "implements",
-    "noAnswer2": "override",
-    "noAnswer3": "overload"
-  },
-  {
-    "question": "Qayta yozish uchun mo‘ljallangan metodlarning oldida ... buyrug‘i yoziladi.",
-    "answer": "override",
-    "noAnswer1": "extends",
-    "noAnswer2": "implements",
-    "noAnswer3": "overload"
-  },
-  {
-    "question": "Qayta yuklash uchun mo‘ljallangan metodlar oldida ... buyrug‘i yoziladi.",
-    "answer": "overload",
-    "noAnswer1": "override",
-    "noAnswer2": "extends",
-    "noAnswer3": "implements"
-  },
-  {
-    "question": "JSON da yozilgan ma’lumotlar obyektlar qanday belgilar orasida beriladi.",
-    "answer": "{ }",
-    "noAnswer1": "[ ]",
-    "noAnswer2": "( )",
-    "noAnswer3": "&lt; &gt;"
-  },
-  {
-    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda butun sonli qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
-    "answer": "getInt()",
-    "noAnswer1": "GetInteger()",
-    "noAnswer2": "get_int()",
-    "noAnswer3": "get_integer()"
-  },
-  {
-    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda satrli qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
-    "answer": "getString()",
-    "noAnswer1": "GetString()",
-    "noAnswer2": "get_str()",
-    "noAnswer3": "get_string()"
-  },
-  {
-    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda haqiqiy sonli qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
-    "answer": "getDouble()",
-    "noAnswer1": "GetDouble()",
-    "noAnswer2": "getFloat()",
-    "noAnswer3": "getReal()"
-  },
-  {
-    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda obyekt qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
-    "answer": "getJSONObject()",
-    "noAnswer1": "GetJSONObject()",
-    "noAnswer2": "getObject()",
-    "noAnswer3": "getObjectJSON()"
-  },
-  {
-    "question": "JSON da yozilgan ma’lumotlarni bo‘laklashda massiv qiymatli ma’lumotlarni qaysi metod yordamida olinadi.",
-    "answer": "getJSONArray()",
-    "noAnswer1": "GetJSONArray()",
-    "noAnswer2": "getArray()",
-    "noAnswer3": "getArrayJSON()"
-  },
-  {
-    "question": "Ma’lumotlarni mobil qurilmaning xotirasiga yuklashda ishlatiladigan klass nomini ko‘rsating",
-    "answer": "AsyncTask",
-    "noAnswer1": "TaskAsync",
-    "noAnswer2": "InformationLoad",
-    "noAnswer3": "LoadInformation"
-  },
-  {
-    "question": "Dialog oynasi qaysi klass yordamida yaratiladi",
-    "answer": "AlertDialog",
-    "noAnswer1": "ProgressDialog",
-    "noAnswer2": "Dialog",
-    "noAnswer3": "Fragment"
-  },
-  {
-    "question": "Dialog oynasi uchun sarlavhani o‘rnatuvchi metodni ko‘rsating.",
-    "answer": "setTitle()",
-    "noAnswer1": "setCaption()",
-    "noAnswer2": "setText()",
-    "noAnswer3": "setMessage()"
-  },
-  {
-    "question": "Dialog oynasida chiquvchi xabarni o‘rnatuvchi metodni ko‘rsating.",
-    "answer": "setMessage()",
-    "noAnswer1": "setTitle()",
-    "noAnswer2": "setCaption()",
-    "noAnswer3": "setText()"
-  },
-  {
-    "question": "Dialog oynasida dasturchi o‘ziga mos ko‘rinishdagi oyna hosil qiluvchi metodni ko‘rsating.",
-    "answer": "setView()",
-    "noAnswer1": "setViews()",
-    "noAnswer2": "setview()",
-    "noAnswer3": "set_views()"
-  },
-  {
-    "question": "Dialog oynasidagi tugmalarning qaysi biriga oynadagi ko‘rsatilgan buyruqlarni bajarish uchun dastur yozish tavsiya etiladi.",
-    "answer": "setPositiveButton(...)",
-    "noAnswer1": "setNegativeButton(...)",
-    "noAnswer2": "setNeutralButton(...)",
-    "noAnswer3": "setFullButton(...)"
-  },
-  {
-    "question": "Dialog oynasidagi tugmalarning qaysi biriga oynadagi ko‘rsatilgan buyruqlarni bajarmasligi uchun dastur yozish tavsiya etiladi.",
-    "answer": "setNegativeButton(...)",
-    "noAnswer1": "setNeutralButton(...)",
-    "noAnswer2": "setPositiveButton(...)",
-    "noAnswer3": "setFullButton(...)"
-  },
-  {
-    "question": "Dialog oynasi uchun bekor qilishni oldini oluvchi metodni ko‘rsating.",
-    "answer": "setCancelable()",
-    "noAnswer1": "setCancel()",
-    "noAnswer2": "isCancelable()",
-    "noAnswer3": "isCancel()"
-  },
-  {
-    "question": "Faqat raqamli ma’lumotlarni kiritish uchun EditText vidjetini qaysi atributi o‘zgartiriladi.",
-    "answer": "android:inputType",
-    "noAnswer1": "inputType",
-    "noAnswer2": "ems",
-    "noAnswer3": "android:ems"
-  },
-  {
-    "question": "Faqat raqamli ma’lumotlarni kiritish uchun EditText vidjetini qaysi atributi o‘zgartiriladi va uning qiymatini ko‘rsating.",
-    "answer": "android:inputType=\"number\"",
-    "noAnswer1": "inputType=\"number\"",
-    "noAnswer2": "ems=\"number\"",
-    "noAnswer3": "android:ems=\"number\""
-  },
-  {
-    "question": "Mobil ilovalarda ma’lumotlar bazasini qaysi MBBT da yaratiladi",
-    "answer": "SQLite",
-    "noAnswer1": "MySQL",
-    "noAnswer2": "MS SQL Server",
-    "noAnswer3": "Oracle"
-  },
-  {
-    "question": "SQLite MB dan foydalanishda MBni yaratish qaysi klassdan foydalaniladi",
-    "answer": "SQLiteOpenHelper",
-    "noAnswer1": "SQLiteOpen",
-    "noAnswer2": "SQLiteHelper",
-    "noAnswer3": "SQLiteBase"
-  },
-  {
-    "question": "Ma’lumotlar bazasiga yozuvlar qo‘shish uchun foydalaniladigan metodni ko‘rsating.",
-    "answer": "insert",
-    "noAnswer1": "delete",
-    "noAnswer2": "select",
-    "noAnswer3": "update"
-  },
-  {
-    "question": "Ma’lumotlar bazasiga yozuvlar o‘chirish uchun foydalaniladigan metodni ko‘rsating.",
-    "answer": "delete",
-    "noAnswer1": "insert",
-    "noAnswer2": "select",
-    "noAnswer3": "update"
-  },
-  {
-    "question": "Ma’lumotlar bazasiga yozuvlar taxrirlash uchun foydalaniladigan metodni ko‘rsating.",
-    "answer": "update",
-    "noAnswer1": "insert",
-    "noAnswer2": "select",
-    "noAnswer3": "delete"
-  },
-  {
-    "question": "Ma’lumotlarni kiritish uchun ma’lumotlar qaysi klassdan foydalanib MB ga qo‘shiladi yoki taxrirlanadi.",
-    "answer": "ContentValues",
-    "noAnswer1": "Values",
-    "noAnswer2": "Content",
-    "noAnswer3": "String"
-  },
-  {
-    "question": "MB da yozuvlarni birma–bir saqlaydigan klass nomini ko‘rsating.",
-    "answer": "Cursor",
-    "noAnswer1": "Values",
-    "noAnswer2": "Content",
-    "noAnswer3": "String"
-  },
-  {
-    "question": "MB sini yozish uchun ochish metodini belgilang",
-    "answer": "getWritableDatabase",
-    "noAnswer1": "getReadableDatabase",
-    "noAnswer2": "getWritable",
-    "noAnswer3": "getReadable"
-  },
-  {
-    "question": "JSON bilan ishlayotgan vaqtda hatoliklarni boshqaruvchi klassni ko‘rsating",
-    "answer": "JSONException",
-    "noAnswer1": "Exception",
-    "noAnswer2": "IOException",
-    "noAnswer3": "NullPointerException"
-  },
-  {
-    "question": "LinearLayout vidjeti yordamida komponentalarni vertikal va gorizontal joylashtirishda vidjetning qaysi atributi o‘zgartiriladi.",
-    "answer": "android:orientation",
-    "noAnswer1": "orientation",
-    "noAnswer2": "text",
-    "noAnswer3": "android:text"
-  },
-  {
-    "question": "Button tugmasi chertish xodisasi qaysi atribut orqali aniqlanadi.",
-    "answer": "android:onClick",
-    "noAnswer1": "onClick",
-    "noAnswer2": "android:click",
-    "noAnswer3": "Click"
-  },
-  {
-    "question": "Scale-independent pixel ma’nosini bildiruvchi kattalikni ko‘rsating.",
-    "answer": "sp",
-    "noAnswer1": "dp",
-    "noAnswer2": "sip",
-    "noAnswer3": "Dip"
-  },
-  {
-    "question": "Density-independent pixel ma’nosini bildiruvchi kattalikni ko‘rsating.",
-    "answer": "dp",
-    "noAnswer1": "sp",
-    "noAnswer2": "sip",
-    "noAnswer3": "Dip"
-  },
-  {
-    "question": "Vidjetning joylashuvini ko‘rstuvchi atributni ko‘rsating.",
-    "answer": "android:layout_gravity",
-    "noAnswer1": "layout_gravity",
-    "noAnswer2": "android:layout_weight",
-    "noAnswer3": "layout_weight"
-  },
-  {
-    "question": "Android telefonlarida qo‘shimcha xizmatlarni yoqish uchun qaysi fayl o‘zgartiriladi.",
-    "answer": "AndroidManifest.xml",
-    "noAnswer1": "ActivityManager.xml",
-    "noAnswer2": "activity_main.xml",
-    "noAnswer3": "ActivityMain.xml"
-  },
-  {
-    "question": "Android telefonlarida internet xizmatini yoqish uchun qaysi buyruq yoziladi.",
-    "answer": "&lt;uses-permission android:name=”android.permission.INTERNET”/&gt;",
-    "noAnswer1": "&lt;uses android:name=”android.permission.INTERNET”/&gt;",
-    "noAnswer2": "&lt;uses-permission android:name=”android.INTERNET”/&gt;",
-    "noAnswer3": "&lt;uses-permission name=”android.permission.INTERNET”/&gt;"
-  },
-  {
-    "question": "Ilovani eng kichik android versiyasini ko‘rsatish uchun qaychi buyruq yoziladi.",
-    "answer": "&lt;uses-sdk android:minSdkVersion=”X” /&gt;",
-    "noAnswer1": "&lt;uses android:minSdkVersion=”X” /&gt;",
-    "noAnswer2": "&lt;uses-sdk minSdkVersion=”X” /&gt;",
-    "noAnswer3": "&lt;uses-sdk version=”X” /&gt;"
-  },
-  {
-    "question": "Bir aktivitidan boshqa aktivitini natija qaytaruvchi qilib chaqirish uchun qaysi funksiyadan foydalaniladi.",
-    "answer": "startActivityForResult",
-    "noAnswer1": "startService",
-    "noAnswer2": "startActivity",
-    "noAnswer3": "stopService"
-  },
-  {
-    "question": "Android telefonlarida SMS habarlarini xizmatini yoqish uchun qaysi buyruq yoziladi.",
-    "answer": "&lt;uses-permission android:name=”android.permission.SEND_SMS”/&gt;",
-    "noAnswer1": "&lt;uses android:name=”android.permission.SEND_SMS”/&gt;",
-    "noAnswer2": "&lt;uses-permission android:name=”android.SEND_SMS”/&gt;",
-    "noAnswer3": "&lt;uses-permission name=”android.permission.SEND_SMS”/&gt;"
-  },
-  {
-    "question": "AsuncTask klassi yordamida yaratilayotgan foydalanuvchi klassida qaysi metod ma’lumotlarni o‘qish uchun ishlatiladi.",
-    "answer": "doInBackground()",
-    "noAnswer1": "onPostExecute()",
-    "noAnswer2": "downloadImageTask()",
-    "noAnswer3": "onPreExecute()"
-  },
-  {
-    "question": "AsuncTask klassi yordamida yaratilayotgan foydalanuvchi klassida qaysi metod ma’lumotlarni foydalanuvchining obyektiga uzatish uchun ishlatiladi.",
-    "answer": "onPostExecute()",
-    "noAnswer1": "downloadImageTask()",
-    "noAnswer2": "onPreExecute()",
-    "noAnswer3": "doInBackground()"
-  },
-  {
-    "question": "Foydalanuvchi tomonidan yaratiladagan xizmatlar (Servis) qaysi klass yordamida yaratiladi",
-    "answer": "Service",
-    "noAnswer1": "onBind",
-    "noAnswer2": "onStartCommand",
-    "noAnswer3": "Servis"
-  },
-  {
-    "question": "Foydalanuvchi tomonidan yaratiladagan xizmatlar (Servis) qaysi buyruq orqali ilovaga tanishtiriladi",
-    "answer": "&lt;service android:name=”.ServiceName” /&gt;",
-    "noAnswer1": "&lt;service name=” .ServiceName” /&gt;",
-    "noAnswer2": "&lt;service android=” ServiceName” /&gt;",
-    "noAnswer3": "&lt;service name:android=” ServiceName” /&gt;"
-  },
-  {
-    "question": "Ilovada servisni yoqish uchun qaysi funksiya ishlatiladi.",
-    "answer": "startService",
-    "noAnswer1": "startActivity",
-    "noAnswer2": "startActivityForResult",
-    "noAnswer3": "stopService"
-  },
-  {
-    "question": "Dastur yordamida komponentalarga rang berish uchun ranglardan qanday foydalaniladi.",
-    "answer": "Color.RED",
-    "noAnswer1": "Color.Red",
-    "noAnswer2": "COLOR.Red",
-    "noAnswer3": "COLOR.RED"
-  },
-  {
-    "question": "Dasturda qizil rang qanday ifodalaniladi.",
-    "answer": "Color.RED",
-    "noAnswer1": "Color.Red",
-    "noAnswer2": "COLOR.Red",
-    "noAnswer3": "COLOR.RED"
-  },
-  {
-    "question": "Bir aktivitidan boshqa aktivitini chaqirish uchun qaysi funksiyadan foydalaniladi.",
-    "answer": "startActivity",
-    "noAnswer1": "startService",
-    "noAnswer2": "startActivityForResult",
-    "noAnswer3": "stopService"
-  },
-  {
-    "question": "ArrayList yordamida yaratilgan obyektlar massivining uzunligini qaytaruvchi metodni ko‘rsating",
-    "answer": "size()",
-    "noAnswer1": "length()",
-    "noAnswer2": "len()",
-    "noAnswer3": "count()"
-  },
-  {
-    "question": "ArrayList yordamida yaratilgan obyektlar massiviga yangi obyekt joylashtiruvchi metodni ko‘rsating",
-    "answer": "add",
-    "noAnswer1": "size",
-    "noAnswer2": "insert",
-    "noAnswer3": "Delete"
-  },
-  {
-    "question": "Androiddagi ma’lumotlar yoki resurslar nimada saqlanadi.",
-    "answer": "Klasslar va xususiyatlarda",
-    "noAnswer1": "Klasslarda va xodisalarda",
-    "noAnswer2": "Xodisalarda",
-    "noAnswer3": "Obyektlada"
-  },
-  {
-    "question": "Javada o‘zgarmaslar qaysi xizmatchi so‘z bilan e’lon qilinadi.",
-    "answer": "final",
-    "noAnswer1": "const",
-    "noAnswer2": "static",
-    "noAnswer3": "Var"
-  },
-  {
-    "question": "Javada klass nomi bilan yonma-yon yuradigan xususiyatlar qaysi xizmatchi so‘z bilan e’lon qilinadi.",
-    "answer": "static",
-    "noAnswer1": "var",
-    "noAnswer2": "final",
-    "noAnswer3": "Const"
-  },
-  {
-    "question": "AndroidStudio muhitida SDK ko‘rsatish uchun buyruqlar ketma–ketligini ko‘rsating.",
-    "answer": "File&gt;Setting&gt;Appearance&Behavor&gt;System Settings&gt;Android SDK",
-    "noAnswer1": "File &gt;Appearance&Behavor&gt;System Settings&gt;Android SDK",
-    "noAnswer2": "File&gt;Setting &gt;System Settings&gt;Android SDK",
-    "noAnswer3": "Setting&gt;Appearance&Behavor&gt;System Settings&gt;Android SDK"
-  },
-  {
-    "question": "AndroidStudio muhitida mp3 fayllari qaysi resurs papkasida joylashadi.",
-    "answer": "raw",
-    "noAnswer1": "mp3",
-    "noAnswer2": "drawable",
-    "noAnswer3": "Res"
-  },
-  {
-    "question": "Java dasturlash tilida interfeysdan voris olish uchun ishlatiladigan xizmatchi so‘zni ko‘rsating.",
-    "answer": "implements",
-    "noAnswer1": "extends",
-    "noAnswer2": "override",
-    "noAnswer3": "overload"
-  },
-  {
-    "question": "Mobil qurilmalarda xotiralar necha turga bo‘linadi.",
-    "answer": "2",
+    "question": "Arduino NANOda nechta raqamli port mavjud",
+    "answer": "14",
+    "noAnswer1": "12",
+    "noAnswer2": "13",
+    "noAnswer3": "18"
+  },
+  {
+    "question": "RGB diodida nechta GND port mavjud",
+    "answer": "1",
     "noAnswer1": "3",
-    "noAnswer2": "1",
+    "noAnswer2": "2",
     "noAnswer3": "4"
   },
   {
-    "question": "Mobil qurilmalarda SD Card qanday xotira turi xisoblanadi.",
-    "answer": "external",
-    "noAnswer1": "internal",
-    "noAnswer2": "SD",
-    "noAnswer3": "Memory"
+    "question": "Arduino mega 2560 platformasida nechta analog port mavjud",
+    "answer": "16",
+    "noAnswer1": "18",
+    "noAnswer2": "22",
+    "noAnswer3": "20"
   },
   {
-    "question": "Mobil qurilmalarda qurilmaning xotirasi qanday xotira turi xisoblanadi.",
-    "answer": "internal",
-    "noAnswer1": "SD",
-    "noAnswer2": "Memory",
-    "noAnswer3": "External"
+    "question": "Arduino mega 2560 platformasida nechta raqamli port mavjud",
+    "answer": "54",
+    "noAnswer1": "60",
+    "noAnswer2": "108",
+    "noAnswer3": "48"
   },
   {
-    "question": "Ma’lumotlar bazasidan ma’lumotlar o‘qib olinganda birinchi yozuvga o‘tishni ko‘rsating.",
-    "answer": "moveToFirst",
-    "noAnswer1": "moveFirst",
-    "noAnswer2": "first",
-    "noAnswer3": "MoveToFirst"
+    "question": "RGB dioddan foydalanib sariq rang ekranga chiqarish uchun qaysi ranglarga buyruq berishimiz kerak",
+    "answer": "qizil va yashil",
+    "noAnswer1": "ko'k va qizil",
+    "noAnswer2": "yashil va yashil",
+    "noAnswer3": "qizil va oq"
   },
   {
-    "question": "Ma’lumotlar bazasida keyingi yozuvga o‘tishni ko‘rsating.",
-    "answer": "moveToNext",
-    "noAnswer1": "moveNext",
-    "noAnswer2": "next",
-    "noAnswer3": "MoveToNext"
+    "question": "potensiometrning nechta porti mavjud",
+    "answer": "3ta",
+    "noAnswer1": "4ta",
+    "noAnswer2": "2ta",
+    "noAnswer3": "1ta"
   },
   {
-    "question": "Ilovada ishlayotgan klassni ko‘rsatish qanday amalga oshiriladi.",
-    "answer": "this",
-    "noAnswer1": "class",
-    "noAnswer2": "this.class",
-    "noAnswer3": "class.this"
+    "question": "potensiometr raqamli port bilan ishlaydimi",
+    "answer": "raqamlida ham analogdaham ishlaydi",
+    "noAnswer1": "ishlamaydi",
+    "noAnswer2": "ishlaydi",
+    "noAnswer3": "ulab bo'lmaydi"
   },
   {
-    "question": "Obyektli ma’lumotlar tiplarining super klassini ko‘rsating",
-    "answer": "Number",
-    "noAnswer1": "Long",
-    "noAnswer2": "Double",
-    "noAnswer3": "Type"
+    "question": "RGB diodda qizil va ko'k ranglarni birlashtrib buyruq berganda qaysi rang yonadi",
+    "answer": "qora",
+    "noAnswer1": "qizil",
+    "noAnswer2": "yashil",
+    "noAnswer3": "oq"
   },
   {
-    "question": "Ma’lumotlar bazasidan ma’lumotlar o‘qib olinganda oxirgi yozuvga o‘tishni ko‘rsating.",
-    "answer": "moveToLast",
-    "noAnswer1": "moveLast",
-    "noAnswer2": "last",
-    "noAnswer3": "MoveToLast"
+    "question": "Masofa modulda nechta asosiy portlar mavjud",
+    "answer": "4ta",
+    "noAnswer1": "2ta",
+    "noAnswer2": "8ta",
+    "noAnswer3": "16ta"
   },
   {
-    "question": "Ma’lumotlar bazasida oldingi yozuvga o‘tishni ko‘rsating.",
-    "answer": "moveToPrevious",
-    "noAnswer1": "movePrevious",
-    "noAnswer2": "previous",
-    "noAnswer3": "MoveToPrevious"
+    "question": "Buzzer musiqa notasining portlar soni",
+    "answer": "2-3tagacha",
+    "noAnswer1": "1-4tagacha",
+    "noAnswer2": "1-6tagacha",
+    "noAnswer3": "2-4tagacha"
   },
   {
-    "question": "Java tilida klassning konstruktori qanday nomlanadi",
-    "answer": "Klass nomi bilan ustma–ust tushadi",
-    "noAnswer1": "Konstruktor mavjud emas",
-    "noAnswer2": "construct",
-    "noAnswer3": "Construct"
+    "question": "SABRE real vaqt tizimlari nechanchi yilda American Airlines tomonidan ishlab chiqarilgan?",
+    "answer": "1959",
+    "noAnswer1": "1956",
+    "noAnswer2": "1954",
+    "noAnswer3": "1961"
   },
   {
-    "question": "Java tilida klassning destruktor qanday nomlanadi",
-    "answer": "Destruktor mavjud emas",
-    "noAnswer1": "Klass nomi bilan ustma–ust tushadi",
-    "noAnswer2": "destruct",
-    "noAnswer3": "Destruct"
+    "question": "Real vaqt tizimlari nechta guruhlarga bo'linadi?",
+    "answer": "2",
+    "noAnswer1": "5",
+    "noAnswer2": "3",
+    "noAnswer3": "4"
   },
   {
-    "question": "Metodning vazifasini ko‘rsating.public boolean onCreateOptionsMenu(Menu menu){…}",
-    "answer": "Menyu yaratish",
-    "noAnswer1": "Qalqib chiquvchi menyu yaratish",
-    "noAnswer2": "Variant yaratish",
-    "noAnswer3": "Menyuni tashlash metodi"
+    "question": "Real vaqt o'rnatilgan tizimi ....",
+    "answer": "hodisalarga reaktsiyasi vaqt bilan kafolatlangan hisoblash tizimi",
+    "noAnswer1": "o'rnatilgan tizimlar ichidagi hisoblash tizimi",
+    "noAnswer2": "bu o'rnatilgan operatsion tizim",
+    "noAnswer3": "bu tizimli dasturiy ta'minot"
   },
   {
-    "question": "Java dasturlash tilida kirituvchi oqim nomini ko‘rsating",
-    "answer": "System.in",
-    "noAnswer1": "System.out",
-    "noAnswer2": "in",
-    "noAnswer3": "Scanner"
+    "question": "O'rnatilgan tizim va real vaqt tizimi sinonim bo'lishi mumkinmi?",
+    "answer": "yo'q",
+    "noAnswer1": "ha",
+    "noAnswer2": "bazan",
+    "noAnswer3": "qisman"
   },
   {
-    "question": "Java dasturlash tilida chiqaruvchi oqim nomini ko‘rsating",
-    "answer": "System.out",
-    "noAnswer1": "in",
-    "noAnswer2": "Scanner",
-    "noAnswer3": "System.in"
+    "question": "Datchiklardan informatsiya olish nechchi turli boladi",
+    "answer": "2",
+    "noAnswer1": "3",
+    "noAnswer2": "4",
+    "noAnswer3": "1"
   },
   {
-    "question": "Room ma’lumotlar bazasidagi DAO so‘zining kengaytmasini ko‘rsating",
-    "answer": "Data Access Object",
-    "noAnswer1": "Database Access Object",
-    "noAnswer2": "Development Access Object",
-    "noAnswer3": "Drop Access Object"
+    "question": "Nima real vaqt tizimlari uchun talab qilinmaydi?",
+    "answer": "boshqaruvchi tashkil qiluvchilar",
+    "noAnswer1": "protsessor",
+    "noAnswer2": "operativ xotira",
+    "noAnswer3": "protsessor va operativ xotira"
   },
   {
-    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadval uchun qaysi annotatsiya ishlatiladi?",
-    "answer": "Entity",
-    "noAnswer1": "Dao",
-    "noAnswer2": "Tables",
-    "noAnswer3": "Database"
+    "question": "Qaysi biri analog pnevmo signal?",
+    "answer": "0.2kgs/sm2-1kgs/sm2",
+    "noAnswer1": "0.3kgs/sm2-1kgs/sm2",
+    "noAnswer2": "0.2kgs/sm2-3kgs/sm2",
+    "noAnswer3": "0.6kgs/sm2-1kgs/sm2"
   },
   {
-    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadvalga ma’lumot qo‘shish uchun qaysi annotatsiya ishlatiladi?",
-    "answer": "Insert",
-    "noAnswer1": "Add",
-    "noAnswer2": "Create",
-    "noAnswer3": "Alter"
+    "question": "Real vaqt operatsion tizimini tanlash mezonlari nechta?",
+    "answer": "7",
+    "noAnswer1": "8",
+    "noAnswer2": "6",
+    "noAnswer3": "4"
   },
   {
-    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadvaldagi ma’lumotlarni taxrirlash uchun qaysi annotatsiya ishlatiladi?",
-    "answer": "Update",
-    "noAnswer1": "Edit",
-    "noAnswer2": "Research",
-    "noAnswer3": "Alter"
+    "question": "E-154 qurilmasining maksimal chastotasini qancha",
+    "answer": "120 K Hz",
+    "noAnswer1": "110 K Hz",
+    "noAnswer2": "125 M Hz",
+    "noAnswer3": "120 M Hz"
   },
   {
-    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadvaldagi ma’lumotlarni o‘chirish uchun qaysi annotatsiya ishlatiladi?",
-    "answer": "Delete",
-    "noAnswer1": "Remove",
-    "noAnswer2": "Trash",
-    "noAnswer3": "Del"
+    "question": "E-14-440 qurilmasining maksimal chastotasini qancha",
+    "answer": "400 K Hz",
+    "noAnswer1": "400 M Hz",
+    "noAnswer2": "350 K Hz",
+    "noAnswer3": "350 M Hz"
   },
   {
-    "question": "Room ma’lumotlar bazasidagi bilan ishlashda jadvaldagi ma’lumotlarni olish uchun qaysi annotatsiya ishlatiladi?",
-    "answer": "Query",
-    "noAnswer1": "Select",
-    "noAnswer2": "Get",
-    "noAnswer3": "Getter"
+    "question": "Arduino UNO qaysi kontroller yordamida yaratilgan",
+    "answer": "Atmega 328",
+    "noAnswer1": "Atmega 628",
+    "noAnswer2": "Atmega 968",
+    "noAnswer3": "Atmega 324"
   },
   {
-    "question": "Android qurilmalari uchun ekran zichligining quyidagi toifalari mavjud:",
-    "answer": "LDPI, MDPI, HDPI, XHDPI, XXHDPI va XXXHDPI",
-    "noAnswer1": "HDPI, XHDPI, XXHDPI va XXXHDPI",
-    "noAnswer2": "to‘g‘ri javob yo‘q",
-    "noAnswer3": "LDPI, MDPI, HDPI"
+    "question": "Bluetooth qaysi standartda ishlaydi",
+    "answer": "IEEE 802.15.1",
+    "noAnswer1": "IEEE 802.13x",
+    "noAnswer2": "IEEE 802.15x",
+    "noAnswer3": "IEEE 802.11x"
   },
   {
-    "question": "Asosiy yorliqlar (FixedTabs) ko'rsatish uchun qulay",
-    "answer": "uch yoki undan kam yorliqlardan",
-    "noAnswer1": "to'rtta yorliqdan",
-    "noAnswer2": "ikkita yorliqdan",
-    "noAnswer3": "uch yoki undan ko'p yorliqlardan"
+    "question": "Birinchi tijorat avtamatlashtirilgan uyali tarmog'I qayerda joriy etilgan",
+    "answer": "Tokiyo metropalitinida",
+    "noAnswer1": "koreya  metropalitinida",
+    "noAnswer2": "Uzbekistonda",
+    "noAnswer3": "AQSH da"
   },
   {
-    "question": "Harakatni bajarish uchun jarayonlar panelini o'z ichiga olgan dialog oynasi",
-    "answer": "ProgressDialog",
-    "noAnswer1": "DatePickerDialog",
-    "noAnswer2": "AlertDialog",
-    "noAnswer3": "DialogFragment"
+    "question": "Arduino UNO MK orali USB orqali necha voltgacha kuchlanish berish mumkun",
+    "answer": "5",
+    "noAnswer1": "8",
+    "noAnswer2": "7",
+    "noAnswer3": "12"
   },
   {
-    "question": "Qatlamlarning qaysi biri android arxitekturasining eng quyi qatlami hisoblanadi?",
-    "answer": "Linux yadrosi",
-    "noAnswer1": "Tizim kutubxonalari va Android Runtime",
-    "noAnswer2": "Ilovalar",
-    "noAnswer3": "Ilovalar ramkasi"
+    "question": "..professional boʻlmagan robototexnika ishqibozlari (foydalanuvchilar) uchun dasturiy va texnik taminotlar yigʻindisi.",
+    "answer": "Arduino",
+    "noAnswer1": "Plata",
+    "noAnswer2": "Dastur",
+    "noAnswer3": "Kitob"
   },
   {
-    "question": "Bildirishnomalar qachon foydalanishga arziydi",
-    "answer": "xabar muhim, lekin darhol o'qish va javob berishni talab qilmaydi",
-    "noAnswer1": "xabar foydalanuvchidan javobni talab qilmaydi, lekin uning davom etishi uchun muhim",
-    "noAnswer2": "xabar muhim va darhol o'qish va javob berishni talab qiladi",
-    "noAnswer3": "xabar muhim, lekin darhol o'qishni talab qiladi, lekin javob emas"
+    "question": "Ana'viy ravishda mikrokontrollarni necha guruhga bo'lish mumkin.",
+    "answer": "3",
+    "noAnswer1": "8",
+    "noAnswer2": "5",
+    "noAnswer3": "4"
   },
   {
-    "question": "ProgressDialog bu:",
-    "answer": "harakatlanish satrini o'z ichiga olgan dialog oynasi",
-    "noAnswer1": "o'z muloqot oynalarini yaratish uchun konteyner",
-    "noAnswer2": "sana yoki vaqtni tanlash imkonini beruvchi oldindan belgilangan interfeysli dialog oynasi",
-    "noAnswer3": "sarlavhani o'z ichiga olishi mumkin bo'lgan dialog oynasi, uchtagacha tugmalar, tanlanadigan qiymatlar ro'yxati"
+    "question": "Arduino ning Uno elektr qabul qilshi ko'rsatkichlari",
+    "answer": "7-12;6-20",
+    "noAnswer1": "5-4;12-24",
+    "noAnswer2": "5-8;25-50",
+    "noAnswer3": "2-4;3-6"
   },
   {
-    "question": "AlertDialog bu:",
-    "answer": "a sana yoki vaqtni tanlash imkonini beruvchi oldindan belgilangan interfeysga ega dialog oynasi",
-    "noAnswer1": "o'z dialog oynalarini yaratish uchun konteyner",
-    "noAnswer2": "harakatning borishi satrini o'z ichiga olgan dialog oynasi",
-    "noAnswer3": "sarlavha, uchta tugmacha, tanlangan qiymatlar ro'yxati yoki moslashtirilgan tarkibni o'z ichiga olishi mumkin bo'lgan dialog oynasi"
+    "question": "Adruino RGB led nechta led kristallardan iborat",
+    "answer": "3",
+    "noAnswer1": "2",
+    "noAnswer2": "1",
+    "noAnswer3": "6"
   },
   {
-    "question": "Quyidagilardan qaysi biri src papkasida joylashgan?",
-    "answer": "Java manba kodi",
-    "noAnswer1": "XML",
-    "noAnswer2": "Manifest",
-    "noAnswer3": "Yuqoridagilardan hech qaysisi"
+    "question": "\"Tizim\" tushunchasi nechanchi asrda kashf etildi.",
+    "answer": "XIX – asrda",
+    "noAnswer1": "XX – asrda",
+    "noAnswer2": "IX – asrda",
+    "noAnswer3": "XI – asrda"
   },
   {
-    "question": "Quyidagi usullardan qaysi biri tugmani bosgandan keyin sodir bo'lishini boshqarish uchun ishlatiladi?",
-    "answer": "onClick",
-    "noAnswer1": "onCreate",
-    "noAnswer2": "onSelect",
-    "noAnswer3": "Yuqoridagilardan hech qaysisi"
+    "question": "RGB led tasmasi nechta chiqishdan iborat",
+    "answer": "4",
+    "noAnswer1": "2",
+    "noAnswer2": "3",
+    "noAnswer3": "6"
   },
   {
-    "question": "Quyidagi android komponentlaridan qaysi biri ekranda faoliyat qismini aks ettiradi?",
-    "answer": "Fragment",
-    "noAnswer1": "Ko'rinish",
-    "noAnswer2": "Manifest",
-    "noAnswer3": "Niyat"
+    "question": "Birinchi arduino nechanchi yil ishlab chqarilgan",
+    "answer": "2005",
+    "noAnswer1": "2004",
+    "noAnswer2": "2006",
+    "noAnswer3": "1996"
   },
   {
-    "question": "Quyidagilardan qaysi biri android arxitekturasining eng yuqori qatlami hisoblanadi?",
-    "answer": "Ilovalar",
-    "noAnswer1": "Tizim kutubxonalari va Android Runtime",
-    "noAnswer2": "Linux yadrosi",
-    "noAnswer3": "Ilovalar ramkasi"
+    "question": "Arduino NANO ning Ishlash chastatasi",
+    "answer": "16 Mg",
+    "noAnswer1": "10 Mg",
+    "noAnswer2": "164 Mg",
+    "noAnswer3": "66 Mg"
   },
   {
-    "question": "Qatlamlarning qaysi biri android arxitekturasining eng yuqori qatlami ostida joylashgan?",
-    "answer": "Ilovalar ramkasi",
-    "noAnswer1": "Tizim kutubxonalari va Android Runtime",
-    "noAnswer2": "Linux yadrosi",
-    "noAnswer3": "Ilovalar"
+    "question": "Ardunio UNUning ishlash kuchlanishi qanchaga teng?",
+    "answer": "5 v",
+    "noAnswer1": "4 v",
+    "noAnswer2": "2 v",
+    "noAnswer3": "7 v"
   },
   {
-    "question": "Manifest.xml da nima bor?",
-    "answer": "Ilova talab qiladigan ruxsat",
-    "noAnswer1": "Manba kodi",
-    "noAnswer2": "Ilovada ishlatiladigan satrlar ro'yxati",
-    "noAnswer3": "Yuqoridagilardan hech qaysisi"
+    "question": "RVOT bu o'zi nima?",
+    "answer": "Real vaqtdagi  operatsion tizim",
+    "noAnswer1": "Real vositali operatsion tizim",
+    "noAnswer2": "Rejali vaqtdagi  operatsion tizim",
+    "noAnswer3": "Rejalashtirilmagan vaqtdagi  operatsion tizim"
   },
   {
-    "question": "Quyidagilardan qaysi biri xizmat muddatining holatiga kirmaydi?",
-    "answer": "Pauza qilingan",
-    "noAnswer1": "Vayron qilingan",
-    "noAnswer2": "Boshlash",
-    "noAnswer3": "Yugurish"
+    "question": "Fotoresistor nima?",
+    "answer": "Yorugʻlik sezuvchi qarshilik",
+    "noAnswer1": "Oddiy qarshilik",
+    "noAnswer2": "Termo qarshilik",
+    "noAnswer3": "Gaz sezuvchi modul"
   },
   {
-    "question": "Android dasturchisi sifatida biz Androidning qaysi versiyasidan minimal rivojlanish maqsadi sifatida foydalanishimiz kerak?",
-    "answer": "1.6 yoki 2.0 versiyasi",
-    "noAnswer1": "1.2 versiyasi yoki 1.3 versiyasi",
-    "noAnswer2": "1.0 versiyasi yoki 1.1 versiyasi",
-    "noAnswer3": "2.3 yoki 3.0 versiyasi"
+    "question": "Birlamchi Xotirani rivojlanishiga alohida  hissa qo'shgan IBM kompaniyasi hodimi kim",
+    "answer": "Robert Dennard",
+    "noAnswer1": "Stiw Jops",
+    "noAnswer2": "Ilon Mask",
+    "noAnswer3": "Bill Geyst"
   },
   {
-    "question": "Quyidagilardan qaysi biri android versiyasining taxallusi emas?",
-    "answer": "Muffin",
-    "noAnswer1": "Ponchik",
-    "noAnswer2": "Asal uyasi",
-    "noAnswer3": "Kek"
+    "question": "2G - Ikkinch avlod texnologiyasi nechinchi yildan Radiolinjaga tomonidan Finlyandiyada GSM standarti boʻlib ishga tushdi.",
+    "answer": "1991-yildan",
+    "noAnswer1": "1999-yildan",
+    "noAnswer2": "1981-yildan",
+    "noAnswer3": "1971-yildan"
   },
   {
-    "question": "Quyidagilardan qaysi biri androidda dialog sinfi hisoblanadi?",
-    "answer": "AlertDialog",
-    "noAnswer1": "DatesPickerDialog",
-    "noAnswer2": "ProgressDialogs",
-    "noAnswer3": "TimeDialog"
+    "question": "Parallel tizimlarni sinflar soni",
+    "answer": "5",
+    "noAnswer1": "2",
+    "noAnswer2": "4",
+    "noAnswer3": "6"
   },
   {
-    "question": "Faoliyat fokusda bo'lmasa-da, ekranda ko'rinsa, qaysi holatda bo'ladi?",
-    "answer": "Pauza holati",
-    "noAnswer1": "To'xtatilgan holat",
-    "noAnswer2": "Vayron qilingan davlat",
-    "noAnswer3": "Ishlayotgan holat"
+    "question": "SMP - bu …....",
+    "answer": "nosimmetrik ko’p protsessorli arxitektura.",
+    "noAnswer1": "nosimmetrik kam protsessorli arxitektura.",
+    "noAnswer2": "nosimmetrik ko’p modelli arxitektura.",
+    "noAnswer3": "simmetrik ko’p protsessorli arxitektura."
   },
   {
-    "question": "Quyidagilardan qaysi biri Android-ning o'rnatilgan ma'lumotlar bazasi hisoblanadi?",
-    "answer": "SQLite",
-    "noAnswer1": "MySQL",
-    "noAnswer2": "Oracle",
-    "noAnswer3": "Yuqoridagilardan hech qaysisi"
+    "question": "Intel protsessorlari (IBM, HP, Compaq, Dell, ALR, Unisys, DG, Fujitsu va boshqalar) bu tizmlar qanday tizim",
+    "answer": "SMP",
+    "noAnswer1": "DMP",
+    "noAnswer2": "AVM",
+    "noAnswer3": "THT"
   },
   {
-    "question": "Mobil ilovalarni yaratishda activitylar va mobil ilovaga kerakli barcha fayllar qaysi fayllarda saqlanadi?",
-    "answer": ".xml",
-    "noAnswer1": ".doc",
-    "noAnswer2": ".ppt",
-    "noAnswer3": ".docx"
+    "question": "...... bu (Parallel vektor jarayoni) vektor jarayonlari bilan parallel arxitektura hisoblanadi.",
+    "answer": "PVP",
+    "noAnswer1": "SMP",
+    "noAnswer2": "AVP",
+    "noAnswer3": "THT"
   },
   {
-    "question": "Java dasturlash tili qachon taqdim etilgan",
-    "answer": "1996",
-    "noAnswer1": "1994",
-    "noAnswer2": "1992",
-    "noAnswer3": "1990"
+    "question": "Ommaviy parallellik tizimlari bu …....",
+    "answer": "MPP",
+    "noAnswer1": "PPM",
+    "noAnswer2": "YHY",
+    "noAnswer3": "SSP"
   },
   {
-    "question": "Java dasturlash tili birinchi nomi",
-    "answer": "Oak",
-    "noAnswer1": "Javascript",
-    "noAnswer2": "Duke",
-    "noAnswer3": "Script"
+    "question": "SSD yoyilmasini toping?",
+    "answer": "Solid state driver",
+    "noAnswer1": "Solid gtate driver",
+    "noAnswer2": "Solid state priver",
+    "noAnswer3": "Holid state driver"
   },
   {
-    "question": "Kirish modifikatorlar public bu –",
-    "answer": "klassni a'zolari hamma uchun mavjud",
-    "noAnswer1": "klass a'zolariga faqat klass ichida kirish mumkin",
-    "noAnswer2": "klass a'zolari paket ichida va avlodlarida mavjud",
-    "noAnswer3": "hammasi to'gri"
+    "question": "Vazifasi quvvatni uzish yoki ulashdan iborat bo'lgan qurilma nima",
+    "answer": "BUTTON",
+    "noAnswer1": "BATTEN",
+    "noAnswer2": "BETTIN",
+    "noAnswer3": "SWICH"
   },
   {
-    "question": "Kirish modifikatorlar private bu –",
-    "answer": "klass a'zolariga faqat klass ichida kirish mumkin",
-    "noAnswer1": "klass a'zolari paket ichida va avlodlarida mavjud",
-    "noAnswer2": "klassni a'zolari hamma uchun mavjud",
-    "noAnswer3": "hammasi to'gri"
+    "question": "O'rnatilgan tizimlarni loyihalash modellari qaysi?",
+    "answer": "Sharsharali,\r\nspirall",
+    "noAnswer1": "Sharsharali,",
+    "noAnswer2": "spiral",
+    "noAnswer3": "Sharsharali,\r\nspiralel"
   },
   {
-    "question": "Kirish modifikatorlar protected bu –",
-    "answer": "klass a'zolari paket ichida va avlodlarida mavjud",
-    "noAnswer1": "klass a'zolariga faqat klass ichida kirish mumkin",
-    "noAnswer2": "klassni a'zolari hamma uchun mavjud",
-    "noAnswer3": "hammasi to'gri"
+    "question": "Arduino IDE muhitida asosan qaysi dasturlash tilida dastur yoziladi",
+    "answer": "C++",
+    "noAnswer1": "C#",
+    "noAnswer2": "python",
+    "noAnswer3": "Java"
   },
   {
-    "question": "Qaysi usul yangi faoliyatni boshlaydi?",
-    "noAnswer1": "=\r\n#startActivity ()",
-    "noAnswer2": "=\r\nstartActiviti()",
-    "noAnswer3": "=\r\nintentActivity ()"
+    "question": "Arduino nima?",
+    "answer": "Ochiq kodli elektron platforma",
+    "noAnswer1": "Matn muharriri",
+    "noAnswer2": "Dasturlash tili",
+    "noAnswer3": "Rasmni tahrirlash dasturi"
   },
   {
-    "question": "xhdpi o‘lchamli ekran uchun standart o‘lchamni ko‘rsating",
-    "answer": "96 px",
-    "noAnswer1": "48 px",
-    "noAnswer2": "72 px",
-    "noAnswer3": "36 px"
+    "question": "Arduino IDE qaysi tilda qurilgan?",
+    "answer": "Java",
+    "noAnswer1": "HTML",
+    "noAnswer2": "C/C++",
+    "noAnswer3": "Python"
   },
   {
-    "question": "mdpi o‘lchamli ekran uchun standart o‘lchamni ko‘rsating",
-    "answer": "48 px",
-    "noAnswer1": "36 px",
-    "noAnswer2": "72 px",
-    "noAnswer3": "32 px"
+    "question": "Arduino Mega platasida nechta analog pin ishlatiladi?",
+    "answer": "16",
+    "noAnswer1": "12",
+    "noAnswer2": "14",
+    "noAnswer3": "18"
   },
   {
-    "question": "Quyidagilardan qaysi biri Android 1.5 versiyasining nomi?",
-    "answer": "Kek",
-    "noAnswer1": "Ekler",
-    "noAnswer2": "Froyo",
-    "noAnswer3": "Ponchik"
+    "question": "Arduino IDE 2 ta funksiyadan iborat. Ular nima?",
+    "answer": "Setup() va loop()",
+    "noAnswer1": "Loop() va build() va setup()",
+    "noAnswer2": "Build() va loop()",
+    "noAnswer3": "Setup() va build()"
   },
   {
-    "question": "Quyidagilardan qaysi biri Android 1.6 versiyasining nomi?",
-    "answer": "Ponchik",
-    "noAnswer1": "Ekler",
-    "noAnswer2": "Froyo",
-    "noAnswer3": "Kek"
+    "question": "Arduino kodlari Arduino IDE da ________ deb ataladi.",
+    "answer": "eskizlar",
+    "noAnswer1": "chizmalar",
+    "noAnswer2": "havolalar",
+    "noAnswer3": "eslatmalar"
   },
   {
-    "question": "Java 5 versiyasi nechanchi yilda ishlab chiqarilgan",
-    "answer": "2004",
+    "question": "Arduino UNO ning standart yuklovchisi nima?",
+    "answer": "Optiboot bootloader",
+    "noAnswer1": "GAG",
+    "noAnswer2": "AIR-boot",
+    "noAnswer3": "Yalang'och quti"
+  },
+  {
+    "question": "Arduino kodini to'g'ri bajarish jarayoni qanday?",
+    "answer": "Editor->Preprocessor->Compiler",
+    "noAnswer1": "Preprocessor->Redaktor->Compiler",
+    "noAnswer2": "Compiler->Preprocessor->Redaktor",
+    "noAnswer3": "Muharrir->Kompilyator->Preprocesso"
+  },
+  {
+    "question": "Arduino UNO da ishlatiladigan mikrokontroller nima?",
+    "answer": "ATmega328p",
+    "noAnswer1": "ATmega325p",
+    "noAnswer2": "ATmega228p",
+    "noAnswer3": "ATmega928p"
+  },
+  {
+    "question": "ESP8266 WiFi moduli nima uchun ishlatiladi?",
+    "answer": "Tarmoq provayderi",
+    "noAnswer1": "Sxemalarni almashtiradi",
+    "noAnswer2": "Havo bosimini baholaydi",
+    "noAnswer3": "Harakatni kuzatadi"
+  },
+  {
+    "question": "O'rnatilgan tizimlarda uzilish nima deb ataladi",
+    "answer": "Uzilish bu protsessorga hodisani sodir bo'lishi to'g'risidagi habar beruvchi signallardir",
+    "noAnswer1": "Uzilish bu plataga hodisani sodir bo'lishi to'g'risidagi habar beruvchi signallardir",
+    "noAnswer2": "Uzilish bu dasturga hodisani sodir bo'lishi to'g'risidagi habar beruvchi signallardir",
+    "noAnswer3": "Uzilish bu klassga hodisani sodir bo'lishi to'g'risidagi habar beruvchi signallardir"
+  },
+  {
+    "question": "Rele nima?",
+    "answer": "Elektr zanjirlarni bir biriga ulash imkonini beruvchi shlyuz",
+    "noAnswer1": "Elektr dasturlarni bir biriga ulash imkonini beruvchi shlyuz",
+    "noAnswer2": "Elektr zanjirlarni bir biriga ulash imkonini bermaydigan shlyuz",
+    "noAnswer3": "Elektr zanjirlarni bir biriga ulash imkonini beruvchi odam"
+  },
+  {
+    "question": "Buzzer prinspi nechanchi asr oxirida aka-uka Kyuriy tomonidan o'ylab topilgan",
+    "answer": "19 asr oxiri",
+    "noAnswer1": "22 asr oxiri",
+    "noAnswer2": "15 asr oxiri",
+    "noAnswer3": "20 asr oxiri"
+  },
+  {
+    "question": "SMP nima?",
+    "answer": "bu no simmetrik ko'p protsessorli arxitktura",
+    "noAnswer1": "bu no simmetrik oz protsessorli arxitktura",
+    "noAnswer2": "bu no simmetrik katta protsessorli arxitktura",
+    "noAnswer3": "bu aniq simmetrik ko'p protsessorli uyg'un"
+  },
+  {
+    "question": "WIFI modulini toping?",
+    "answer": "ESP32",
+    "noAnswer1": "ASP89",
+    "noAnswer2": "DSA96",
+    "noAnswer3": "ESP8866"
+  },
+  {
+    "question": "Mikrokonrollerni dasturlash odatda qaysi tilda amalga oshiriladi",
+    "answer": "Assimblerr/C",
+    "noAnswer1": "Assimblerr/\r\npyton",
+    "noAnswer2": "Assimblerr/\r\nJava",
+    "noAnswer3": "Assics /C"
+  },
+  {
+    "question": "68HC12 va HCS12 bu -",
+    "answer": "Mikrokontrollerlar",
+    "noAnswer1": "Modullar",
+    "noAnswer2": "Platformalar",
+    "noAnswer3": "Tizimlar"
+  },
+  {
+    "question": "mikrokontroller ichida joylashgan Registr qanday vazifani bajaradi",
+    "answer": "ma'lumot saqlaydi",
+    "noAnswer1": "ma'lumot o'chiradi",
+    "noAnswer2": "ma'lumotlarni qo'shadi",
+    "noAnswer3": "ma'lumotlarni tashiydi"
+  },
+  {
+    "question": "Elektromagnit kalitlarni kim o'ylab topgan",
+    "answer": "Jozes Gemrix",
+    "noAnswer1": "All Sodiq",
+    "noAnswer2": "Jorj pastin",
+    "noAnswer3": "Kelli Makalistr"
+  },
+  {
+    "question": "Potensiometr nechta pinga ega",
+    "answer": "03.апр",
+    "noAnswer1": "04.фев",
+    "noAnswer2": "05.апр",
+    "noAnswer3": "окт.25"
+  },
+  {
+    "question": "Arduino UNO ning Anaog kirish portlari nechta",
+    "answer": "6",
+    "noAnswer1": "4",
+    "noAnswer2": "8",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "Arduino turlari nechta",
+    "answer": "70 dan ortiq",
+    "noAnswer1": "50 dan ortiq",
+    "noAnswer2": "60 dan ortiq",
+    "noAnswer3": "72 dan ortiq"
+  },
+  {
+    "question": "Arduino meganing nechta raqamli pini mavjud",
+    "answer": "54",
+    "noAnswer1": "52",
+    "noAnswer2": "51",
+    "noAnswer3": "56"
+  },
+  {
+    "question": "Arduino nima?",
+    "answer": "Qurilma",
+    "noAnswer1": "Dastur",
+    "noAnswer2": "Asbob",
+    "noAnswer3": "O'lchov vositasi"
+  },
+  {
+    "question": "Ultrasonik sensorlar nima maqsadda   foydalaniladi.",
+    "answer": "oddiy masofa olchash",
+    "noAnswer1": "joylashuvni aniqlash",
+    "noAnswer2": "malumotlarini Arduinoga otkazish",
+    "noAnswer3": "Chuqurlikni aniqlash"
+  },
+  {
+    "question": "Arduino bu ……… (tarif) .",
+    "answer": "har kimga turli xil elektromexanik qurilmalarni yaratishga imkon beradigan elektron qurilma.",
+    "noAnswer1": "Electron asbob",
+    "noAnswer2": "Elektromexanik diod",
+    "noAnswer3": "turli xil mexanik"
+  },
+  {
+    "question": "Arduino nimalardan iborat",
+    "answer": "dasturiy va texnik vositalardan",
+    "noAnswer1": "Qurilmalardan",
+    "noAnswer2": "Registorlardan",
+    "noAnswer3": "tranzistorlardan"
+  },
+  {
+    "question": "Arduino turlari to’g’ri keltirilgan qatorni aniqlang",
+    "answer": "Arduino mega Arduino unoб Arduino nano",
+    "noAnswer1": "Arduino mega Arduino uno",
+    "noAnswer2": "Arduino uno, Arduino nano",
+    "noAnswer3": "Arduino mega,Arduino uno,Arduino nanoArduino sega"
+  },
+  {
+    "question": "Arduino yordamida qanday ko’nikmalarga ega bo’lamiz.",
+    "answer": "`Dasturlash, elektrotexnika va mexanika",
+    "noAnswer1": "Dasturlash, elektrotexnika",
+    "noAnswer2": "Elektrotexnika va mexanika",
+    "noAnswer3": "Dasturlash va fizik qurilmalar."
+  },
+  {
+    "question": "Arduino uno ning nechta raqamli porti mavjud",
+    "answer": "13",
+    "noAnswer1": "12",
+    "noAnswer2": "15",
+    "noAnswer3": "7"
+  },
+  {
+    "question": "Arduino mega ning nechta raqamli porti mavjud",
+    "answer": "50",
+    "noAnswer1": "24",
+    "noAnswer2": "12",
+    "noAnswer3": "28"
+  },
+  {
+    "question": "Arduino uno ning nechta analog porti mavjud",
+    "answer": "6",
+    "noAnswer1": "5",
+    "noAnswer2": "4",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "Arduino NANO nechta analog port mavjud",
+    "answer": "8",
+    "noAnswer1": "6",
+    "noAnswer2": "12",
+    "noAnswer3": "14"
+  },
+  {
+    "question": "Fotorezistor bu …..(tarif)",
+    "answer": "Yoruqlikni darajasini o’lchaydi.",
+    "noAnswer1": "Issiqlik darajasini o’lchaydi",
+    "noAnswer2": "Namlikni darajasini o’lchaydi",
+    "noAnswer3": "Tovushni o’lchaydi"
+  },
+  {
+    "question": "Arduino mikrokontrollerlari qanday qiymatdagi tok kuchi bilan ishlay oladi",
+    "answer": "38353",
+    "noAnswer1": "44682",
+    "noAnswer2": "44900",
+    "noAnswer3": "45444"
+  },
+  {
+    "question": "Arduino mikrokontrollerlari qanday qiymatdagi tok kuchlanishi bilan ishlay oladi `",
+    "answer": "44900",
+    "noAnswer1": "41821",
+    "noAnswer2": "16-32",
+    "noAnswer3": "44593"
+  },
+  {
+    "question": "Arduinodan qanday qiymatdagi tok kuchlanishiga ega tokni olishimiz mumkun",
+    "answer": "38414",
+    "noAnswer1": "44684",
+    "noAnswer2": "44840",
+    "noAnswer3": "38385"
+  },
+  {
+    "question": "Arduino IDE bu……..(tarif)",
+    "answer": "Dasturlash muhiti",
+    "noAnswer1": "Maydon",
+    "noAnswer2": "Qurilmalar jamlamasi",
+    "noAnswer3": "Diodlar yig’indisi"
+  },
+  {
+    "question": "Arduino IDE dasturlash muhitida Arduino bilan kompyuterni bog’langan ekanligini teksgirish uchun  ketmaketlik",
+    "answer": "Menyular satri Instrumenti menyusi Port",
+    "noAnswer1": "Cketch menyusi Port",
+    "noAnswer2": "Menyular satri Port",
+    "noAnswer3": "Fayl menyusi Port"
+  },
+  {
+    "question": "Elektr loyihalarida ishlatiladigan eng keng tarqalgan elektron komponentlardan biri bu ?",
+    "answer": "LED",
+    "noAnswer1": "ARDUINO",
+    "noAnswer2": "HP 1001",
+    "noAnswer3": "DH-11"
+  },
+  {
+    "question": "GND qanday port",
+    "answer": "Manfiy",
+    "noAnswer1": "Musbat",
+    "noAnswer2": "Analog",
+    "noAnswer3": "Raqamli"
+  },
+  {
+    "question": "VSS qanday port",
+    "answer": "Musbat",
+    "noAnswer1": "Manfiy",
+    "noAnswer2": "Raqamli",
+    "noAnswer3": "Analog"
+  },
+  {
+    "question": "Rezistor bu ……..(tarif)",
+    "answer": "Qarshilik",
+    "noAnswer1": "Diod",
+    "noAnswer2": "Xotira qurilmasi",
+    "noAnswer3": "Qurilma"
+  },
+  {
+    "question": "…………- bu butunlay boshqa parametrlarga ega bo‘lgan elektr zanjirlarini bir -biriga ulash imkonini beruvchi shlyuz",
+    "answer": "Rele",
+    "noAnswer1": "Registr",
+    "noAnswer2": "Releport",
+    "noAnswer3": "Ralifet"
+  },
+  {
+    "question": "HC-SR04 Masofa modul necha metrgacha masofani aniqlay oladi",
+    "answer": "3",
+    "noAnswer1": "5",
+    "noAnswer2": "8",
+    "noAnswer3": "10"
+  },
+  {
+    "question": "Fotorezistor yorug’lik moduli o’lchov birligi",
+    "answer": "Luks",
+    "noAnswer1": "Metr",
+    "noAnswer2": "Kg",
+    "noAnswer3": "bayt"
+  },
+  {
+    "question": "Tarmoqli aloqa protokollari nima bilan ifodalanadi?",
+    "answer": "IP",
+    "noAnswer1": "MC",
+    "noAnswer2": "MCU",
+    "noAnswer3": "ILS"
+  },
+  {
+    "question": "Tarmoqdagi qurilmalarning manzillarini kuzatib boorish qaysi protocol bajaradi",
+    "answer": "IP",
+    "noAnswer1": "MS IP",
+    "noAnswer2": "MP IP",
+    "noAnswer3": "ILST"
+  },
+  {
+    "question": "WiFi qaysi standartda ishlaydi",
+    "answer": "IEEE 802.11x",
+    "noAnswer1": "IEEE 802.13x",
+    "noAnswer2": "IEEE 802.15x",
+    "noAnswer3": "IEEE 802.16x"
+  },
+  {
+    "question": "REV qanday buyruq",
+    "answer": "loyqa o‘zgaruvchan ishlov berish buyrug'i",
+    "noAnswer1": "loyqa o‘zgarmas ishlov berish buyrug'i",
+    "noAnswer2": "loyqa og’ir ishlov berish buyrug'i",
+    "noAnswer3": "yengil ishlov berish buyrug'i"
+  },
+  {
+    "question": "Real qurilmada, manzillar shinasining nechta satrdan ko‘prog'i dekodlanishi kerak.",
+    "answer": "4 ta",
+    "noAnswer1": "65356 ta",
+    "noAnswer2": "25 ta",
+    "noAnswer3": "10 ta"
+  },
+  {
+    "question": "real vaqt o'rnatilgan tizimi -bu …",
+    "answer": "hodisalarga reaktsiyasi vaqt bilan kafolatlangan hisoblash tizimi.",
+    "noAnswer1": "o'rnatilgan tizimlar ichidagi hisoblash tizimi",
+    "noAnswer2": "bu o'rnatilgan operatsion tizim",
+    "noAnswer3": "bu tizimli dasturiy ta'minot"
+  },
+  {
+    "question": "real vaqt tizimlari necha guruhi mavjud?",
+    "answer": "2",
+    "noAnswer1": "3",
+    "noAnswer2": "4",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "to'g'ri ko'rsatilgan real vaqt tizimlarini toping.",
+    "answer": "yumshoq(qat'iy bo'lmagan) real vaqt tizimlari, qattiq(qat'iy) real vaqt tizimlari",
+    "noAnswer1": "qattiq real vaqt tizimlari, qat'iy real vaqt tizimlari",
+    "noAnswer2": "yumshoq real vaqt tizimlari, mustaqil real vaqt tizimlari",
+    "noAnswer3": "mustaqil real vaqt tizimlari, mustaqil bo'lmagan real vaqt tizimlar"
+  },
+  {
+    "question": "\"real vaqt tizimi ishi maqsadi munosabatiga ko'ra real vaqt talablariga rioya etish katastrofik xisoblanmaydi\" izoh qaysi real vaqt tizimlari haqida borayapti?",
+    "answer": "yumshoq(qat'iy bo'lmagan) real vaqt tizimlari",
+    "noAnswer1": "qattiq real vaqt tizimlari",
+    "noAnswer2": "mustahkam real vaqt tizimlari",
+    "noAnswer3": "mustaqil real vaqt tizimlari"
+  },
+  {
+    "question": "\"real vaqt talablariga rioya etmaslik tizim maqsadli funktsiyasini bajarilmasligiga olib keladi\" quyidagi izoh qaysi real vaqt tizimlari haqida borayapti?",
+    "answer": "qattiq(qat'iy) real vaqt tizimlari",
+    "noAnswer1": "yumshoq real vaqt tizimlari",
+    "noAnswer2": "mustaqil real vaqt tizimlari",
+    "noAnswer3": "mustahkam real vaqt tizimlari"
+  },
+  {
+    "question": "RVOT bu o'zi nima?",
+    "answer": "Real vaqtdagi  operatsion tizim",
+    "noAnswer1": "Real vositali operatsion tizim",
+    "noAnswer2": "Rejali vaqtdagi  operatsion tizim",
+    "noAnswer3": "Rejalashtirilmagan vaqtdagi  operatsion tizim"
+  },
+  {
+    "question": "Fotoqarshilik(fotorezistor)ni 3 kontaktligini arduinoning analog portga ulasa bo'ladimi.",
+    "answer": "Ulasa bo'lmaydi",
+    "noAnswer1": "ulasa bo'ladi",
+    "noAnswer2": "ulasa bo'ladi ammo kuyadi",
+    "noAnswer3": "qiymat ko'rsatmaydi"
+  },
+  {
+    "question": "Arduino UNOda nechta raqamli port mavjud",
+    "answer": "14",
+    "noAnswer1": "15",
+    "noAnswer2": "13",
+    "noAnswer3": "28"
+  },
+  {
+    "question": "Arduino UNOda nechta analog port mavjud",
+    "answer": "6",
+    "noAnswer1": "4",
+    "noAnswer2": "8",
+    "noAnswer3": "4"
+  },
+  {
+    "question": "Axborot-boshqaruv tizimiga kiruvchi axborot nima orqali yetkaziladi?",
+    "answer": "datchik",
+    "noAnswer1": "protsessor",
+    "noAnswer2": "xotira",
+    "noAnswer3": "operativ xotira"
+  },
+  {
+    "question": "Quyidagilardan qaysi biri real vaqt tizimida ishlaydi?",
+    "answer": "Aviabiletlarni rezerv qilish tizimlari",
+    "noAnswer1": "Smartfonlar",
+    "noAnswer2": "Mobil xisoblash tizimlari",
+    "noAnswer3": "Barcha xisoblash tizimlari"
+  },
+  {
+    "question": "\"Real vaqt tizimi ishi maqsadi munosabatiga ko’ra real vaqt talablariga rioya etish katastrofik xisoblanmaydi\" so’z qaysi real vaqt tizimlari haqida borayapti?",
+    "answer": "yumshoq(qat’iy bo’lmagan) real vaqt tizimlari",
+    "noAnswer1": "qattiq real vaqt tizimlari",
+    "noAnswer2": "mustahkam real vaqt tizimlari",
+    "noAnswer3": "mustaqil real vaqt tizimlari"
+  },
+  {
+    "question": "Real vaqt talablariga rioya etmaslik tizim maqsadli funktsiyasini bajarilmasligiga olib keladi so’z qaysi real vaqt tizimlari haqida borayapti?",
+    "answer": "qattiq(qat’iy) real vaqt tizimlari",
+    "noAnswer1": "yumshoq real vaqt tizimlari",
+    "noAnswer2": "mustaqil real vaqt tizimlari",
+    "noAnswer3": "mustahkam real vaqt tizimlari"
+  },
+  {
+    "question": "To’g’ri ko’rsatilgan real vaqt tizimlarini ko’rsating.",
+    "answer": "yumshoq(qat’iy bo’lmagan) real vaqt tizimlari, qattiq(qat’iy) real vaqt tizimlari",
+    "noAnswer1": "qattiq real vaqt tizimlari, qat’iy real vaqt tizimlari",
+    "noAnswer2": "yumshoq real vaqt tizimlari, mustaqil real vaqt tizimlari",
+    "noAnswer3": "mustaqil real vaqt tizimlari, mustaqil bo’lmagan real vaqt tizimlar"
+  },
+  {
+    "question": "Operatsion tizim bu-",
+    "answer": "programmalar toplami",
+    "noAnswer1": "operativ dastur",
+    "noAnswer2": "operatsion tizim",
+    "noAnswer3": "programma qismi"
+  },
+  {
+    "question": "Operatsion tizimning asosini nima tashkil etadi?",
+    "answer": "yadrosi",
+    "noAnswer1": "programmasi",
+    "noAnswer2": "dastur",
+    "noAnswer3": "dasturlar jamlanmasi"
+  },
+  {
+    "question": "Jaraѐnlarni boshqarish tizimlarida asosan …….. operatsion tizimlar qo‘llanilishiga xarakat qilinadi.",
+    "answer": "real vaqt tizimlari",
+    "noAnswer1": "jarayonlar",
+    "noAnswer2": "qurilmalar",
+    "noAnswer3": "dasturlar toplami"
+  },
+  {
+    "question": "Bir vaqtda bajariluvchi jarayonlar necha turga bolinadi?",
+    "answer": "2",
+    "noAnswer1": "3",
+    "noAnswer2": "5",
+    "noAnswer3": "4"
+  },
+  {
+    "question": "VxWorks,  pSOS,   OS9/OS9000,  LinxOS,   QNX,   VRTX,   RMX,   pDOS,\r\n\r\nVMEexec operatsion tizimlari ………… operatsion tizimi xisoblanadi.",
+    "answer": "real vaqt tizimlari",
+    "noAnswer1": "aniq tizimli",
+    "noAnswer2": "jarayonli",
+    "noAnswer3": "TJY"
+  },
+  {
+    "question": "Tarmoq eresurslaridan foydalanish qanday amalga oshiriladi?",
+    "answer": "Lokal va tarmoqli",
+    "noAnswer1": "global",
+    "noAnswer2": "lokal",
+    "noAnswer3": "tarmoqli"
+  },
+  {
+    "question": "Operatsion tizimlari asosiy funksiyalari berilgan to'g'ri javobni toping.",
+    "answer": "Programmalarni operativ xotiraga yuklash va bajarishga berish",
+    "noAnswer1": "Instrumental paktlar",
+    "noAnswer2": "Bajaruvchi programma taʼminoti",
+    "noAnswer3": "TJY"
+  },
+  {
+    "question": "Kena tarqalgan komyuter tarmoqlari ifodalangan togri javobni toping ?",
+    "answer": "server, local set, klient",
+    "noAnswer1": "server, klient",
+    "noAnswer2": "klient, local set",
+    "noAnswer3": "server, klient, local set, boshqaruvchi"
+  },
+  {
+    "question": "Axborot-boshqaruv tizimi nima?",
+    "answer": "odatda boshqaruv ob’ekti deb nomlanuvchi ba’zi bir real ob’ektlarni boshqaruv yoki nazorat raqamli tizimidir",
+    "noAnswer1": "tizimga ruxsatni boshqaruvchi raqamli tizimdir",
+    "noAnswer2": "ba’zi bir real ob’ektlar holatini boshqarish va nazorat qilish jarayon",
+    "noAnswer3": "ba’zi bir real ob’ektlarni xotira holatini boshqaruv va nazorat raqamli tizimidir"
+  },
+  {
+    "question": "Tizimiy shina nechchi turga bolinadi?",
+    "answer": "3",
+    "noAnswer1": "4",
+    "noAnswer2": "5",
+    "noAnswer3": "8"
+  },
+  {
+    "question": "Axborot-boshqaruv tizmlarini qurishning nechta varianti bor?",
+    "answer": "2",
+    "noAnswer1": "4",
+    "noAnswer2": "5",
+    "noAnswer3": "6"
+  },
+  {
+    "question": "Dekard koordinatalari sistemasidap  xarakatlanuvchi robotlar quyida keltirilgan kategoriyalarni qaysi biriga kiradi?",
+    "answer": "ular 3 ta yoʻnalishda ilgarlanma xarakatlanadi",
+    "noAnswer1": "bitta aylanma yoʻnalishda xarakatlanadi",
+    "noAnswer2": "ular bitta ilgarlanma va ikkita aylanma yoʻnalishda xarakatlanadi",
+    "noAnswer3": "улар учта айланма йўналишда харакатланади"
+  },
+  {
+    "question": "Ishlab chiqarishni texnologik  tizimlarida keng qoʻllanuvchi, sodda, qaytariluvchi operatsiyalarni bajarishga moʻljallangan robotlar?",
+    "answer": "Programmalanuvchi robotlar",
+    "noAnswer1": "unaqa robot yo'q",
+    "noAnswer2": "Adabtiv robotlar",
+    "noAnswer3": "oddiy robotlar"
+  },
+  {
+    "question": "Inson masofadan robotga komanda berib turadidogan robotlar",
+    "answer": "Komandali robotlar",
+    "noAnswer1": "yarim avtomatik robotlar",
+    "noAnswer2": "obraz olovchi robotlar",
+    "noAnswer3": "oddiy robotlar"
+  },
+  {
+    "question": "xarakat ketma kettligi davomida inson bilan tekstli ѐki boshqa koʻrinishda muloqatga kiradigan robotlar",
+    "answer": "Dialogli robotlar",
+    "noAnswer1": "komandali",
+    "noAnswer2": "yarom avtomatik",
+    "noAnswer3": "oddiy robotlar"
+  },
+  {
+    "question": "..........  - loyixani ishchi stansiyasi monitori ekranida grafika koʻrinishida ifodalash uchun xizmat qiladi",
+    "answer": "Maʼlumotlarni ifodalash redaktori",
+    "noAnswer1": "texnalogik jarayonlar",
+    "noAnswer2": "shablonlar direktori",
+    "noAnswer3": "bajaruvchi direktori"
+  },
+  {
+    "question": ".........-  loyihada xisobot formalarini tashkil etish uchun xizmat kiladi",
+    "answer": "Shablonlar redaktori",
+    "noAnswer1": "Malumotlarni ifodalash",
+    "noAnswer2": "Yozuvchi redaktori",
+    "noAnswer3": "bajaruvchi"
+  },
+  {
+    "question": "...... - bu programma MRV ga koʻshimcha ravishda avtomatlashtirilgan sistema loyixasida TREYS MOUD orkali programmalanuvchi kontrollerlar ishtrok etganda qoʻllaniladi",
+    "answer": "NetLink MPB",
+    "noAnswer1": "Adaptive Kontrol MPB",
+    "noAnswer2": "MRV Modem+",
+    "noAnswer3": "Double Force MPB"
+  },
+  {
+    "question": "..... - qoʻshimcha ravishda kommutatsiyalangan tarmoqlar orkali maʼlumot almashuvini taminlaydi.",
+    "answer": "МРВ Модем+",
+    "noAnswer1": "Double Force MPB",
+    "noAnswer2": "Double Force NetLink MPB",
+    "noAnswer3": "NetLink Light"
+  },
+  {
+    "question": "... - programma bitta MRV programmasi oʻrnatilgan ishchi stansiyaga texnologik jaraѐnning borishini kuzatishni bir nechta qoʻshimcha ishchi stansiyalar ѐrdamida kuzatish imkonini beradi",
+    "answer": "NetLink Light",
+    "noAnswer1": "Double Force NetLink MPB",
+    "noAnswer2": "МРВ Модем+",
+    "noAnswer3": "Double Force MPB"
+  },
+  {
+    "question": ".. - programma MRV ga qoʻshimcha ravishda adaptatsiyalangan boshqaruvchi biblioteka programmalarini oʻz ichiga oladi",
+    "answer": "Адаптиве Контрол MPB",
+    "noAnswer1": "NetLink MPB",
+    "noAnswer2": "Реал вақт монитори (МРВ)",
+    "noAnswer3": "Hammasi javob to'g'ri"
+  },
+  {
+    "question": "Ballistik raketalar qanday real-vaqt tizimiga misol bo'ladi",
+    "answer": "qattiq(qat’iy) real vaqt tizimlari",
+    "noAnswer1": "yumshoq real vaqt tizimlari",
+    "noAnswer2": "murakkab real-vaqt tizimi",
+    "noAnswer3": "sodda real-vaqt tizimi"
+  },
+  {
+    "question": "MS-DOS  ning birinchi rusumi NECHANCHI YILDA CHIQGAN?",
+    "answer": "1981",
+    "noAnswer1": "1980",
+    "noAnswer2": "1990",
+    "noAnswer3": "1986"
+  },
+  {
+    "question": "Linux ilk bor 1991yili kim tomonidan chiqarilgan?",
+    "answer": "LiniusTorvalds",
+    "noAnswer1": "LiniusAdvard",
+    "noAnswer2": "Linus",
+    "noAnswer3": "LinuXrey"
+  },
+  {
+    "question": "Windows XP operatsion (amaliy) tizimi Microsoft korporatsiyasi tomonidan  nechanchi  yilda  taqdim  qilingan?",
+    "answer": "2001",
     "noAnswer1": "2000",
-    "noAnswer2": "2002",
-    "noAnswer3": "2006"
+    "noAnswer2": "1990",
+    "noAnswer3": "2002"
   },
   {
-    "question": "Java 6 versiyasi nechanchi yilda ishlab chiqarilgan",
-    "answer": "2006",
-    "noAnswer1": "2005",
-    "noAnswer2": "2004",
-    "noAnswer3": "2003"
+    "question": "Domen kontrollerlari nma?",
+    "answer": "kompyuter tarmoqlarini domenlarini nazorat qilish qurilmasi",
+    "noAnswer1": "serverlarni boshqarish nazorati",
+    "noAnswer2": "server foydalanuvchilarini domenlarini nazorat qiladi",
+    "noAnswer3": "togri javob yoq"
   },
   {
-    "question": "... - bu Android tizimining yadrosi hisoblanadi",
-    "answer": "Linux kernel",
-    "noAnswer1": "Dalvik",
-    "noAnswer2": "Virtual machine",
-    "noAnswer3": "SDK"
+    "question": "Ishlab chiqarish kontrollerlari vazifasi",
+    "answer": "boshqarish qurilmasi",
+    "noAnswer1": "ishlab chiqish",
+    "noAnswer2": "nazorat qilish",
+    "noAnswer3": "malumotlarni tozalash"
   },
   {
-    "question": "Tarmoqli ilovalar yaratishda manzillarni qaysi klass yordamida yaratiladi.",
-    "answer": "Url",
-    "noAnswer1": "Uri",
-    "noAnswer2": "HttpURLConnection",
-    "noAnswer3": "URLConnection"
+    "question": "Qaysi real vaqt ilovalari sanoat ilovalariga tegishli:",
+    "answer": "kimyoviy zavodlarni boshqarish tizimlari",
+    "noAnswer1": "kompyuterli tomografiya",
+    "noAnswer2": "lazerli printerlar",
+    "noAnswer3": "havo harakatini boshqarish tizimlari"
   },
   {
-    "question": "Assorsiativ massiv yaratuvchi klassni ko‘rsating.",
-    "answer": "HashMap",
-    "noAnswer1": "List",
-    "noAnswer2": "ArrayList",
-    "noAnswer3": "ArrayMap"
+    "question": "Real vaqtda vazifalar uchun odatiy vaqt oralig`i qanday?",
+    "answer": "bir necha daqiqadan bir necha soat yoki kungacha",
+    "noAnswer1": "bir soniyadan bir necha soniyagacha",
+    "noAnswer2": "bir necha millisekunddan bir necha yuz millisekundgacha",
+    "noAnswer3": "bir necha mikrosekunddan bir necha millisekundgacha"
   },
   {
-    "question": "Quyidagilardan qaysi biri xizmatning asosiy toifasi hisoblanadi?",
-    "answer": "contextWrapper",
-    "noAnswer1": "kontekst",
-    "noAnswer2": "ob'ekt",
-    "noAnswer3": "contextThemeWrapper"
+    "question": "Real vaqt tizimi bu–",
+    "answer": "xodisaga garantiyalangan ta’sirlanish vaqtli xisoblash tizimi.",
+    "noAnswer1": "garantiyalangan ta’sirlanish vaqtli xisoblash tizimi.",
+    "noAnswer2": "xodisaga garantiyalangan ta’sirlanish vaqtli xisoblash",
+    "noAnswer3": "xodisaga ta’sirlanish vaqtli xisoblash tizimi."
   },
   {
-    "question": "Dialog oynasini o‘krsatuvchi metodni ko‘rsating.",
-    "answer": "show()",
-    "noAnswer1": "create()",
-    "noAnswer2": "new()",
-    "noAnswer3": "AlertDialog()"
+    "question": "Qaysi real vaqt ilovalari telekommunikatsiya ilovalariga tegishli:",
+    "answer": "video konferentsiya",
+    "noAnswer1": "kompyuterli tomografiya",
+    "noAnswer2": "lazerli printerlar",
+    "noAnswer3": "havo harakatini boshqarish"
   },
   {
-    "question": "SMS larni jo‘natish uchun ishlatiladigan klassni ko‘rsating.",
-    "answer": "SmsManager",
-    "noAnswer1": "SMS",
-    "noAnswer2": "SMSSend",
-    "noAnswer3": "SendSMS"
+    "question": "Qaysi real vaqt ilovalari aerokosmik ilovalarga tegishli:",
+    "answer": "samalyot bortidagi kompyuter",
+    "noAnswer1": "havo harakatini boshqarish",
+    "noAnswer2": "Belgilangan muddatdan oldin olingan mantiqiy noto'g'ri natija to'g'ri deb hisoblanganda",
+    "noAnswer3": "kompyuterli tomografiya"
   },
   {
-    "question": "Java dasturlash tilini kim yaratgan –",
-    "answer": "James Gosling",
-    "noAnswer1": "Linus Torwalds",
-    "noAnswer2": "Pavel Durov",
-    "noAnswer3": "Bill Gates"
+    "question": "Qanday tizim real vaqt tizimi deb ataladi?",
+    "answer": "tizimning xatti-harakatlarini tavsiflash uchun vaqtning miqdoriy ifodasi kerak bo'lganda",
+    "noAnswer1": "tizimning harakatini tasvirlash uchun vaqtni aniq ifodalash kerak bo'lganda",
+    "noAnswer2": "tizimning xatti-harakatini tasvirlash uchun vaqtning sifat ifodasi kerak bo'lganda",
+    "noAnswer3": "tizimning harakatini tasvirlash uchun vaqtni taxminiy ifodalash kerak bo'lganda"
   },
   {
-    "question": "Java 7 versiyasi nechanchi yilda ishlab chiqarilgan",
-    "answer": "2011",
-    "noAnswer1": "2010",
-    "noAnswer2": "2009",
-    "noAnswer3": "2008"
+    "question": "Real vaqt bu-?",
+    "answer": "vaqtning miqdoriy tushunchasi. Fizik (haqiqiy soat) o`lcham bilan o'lchanadi",
+    "noAnswer1": "vaqtning sifat tushunchasi va hodisalarni tartibga solish munosabatlari yordamida ifodalanadi",
+    "noAnswer2": "A hodisasi B hodisasidan keyin sodir bo'lganligini aniq aytishimiz mumkin",
+    "noAnswer3": "Biz taxminan A hodisasi B hodisasidan keyin sodir bo'lgan deb aytishimiz mumkin"
   },
   {
-    "question": "Obyektni bo‘sh xolatga keltiruvchi kattalikni ko‘rsating.",
-    "answer": "null",
-    "noAnswer1": "nil",
-    "noAnswer2": "nul",
-    "noAnswer3": "Zero"
+    "question": "..terminologiyasi asosida bir butun qurilmalar, programma dasturlarini ma’lum konuniyat asosida birikib turishi asosida tashkil etiladi. Nuqtalar o'rnini to'ldiring",
+    "answer": "Tizim",
+    "noAnswer1": "Jarayon",
+    "noAnswer2": "Sikl",
+    "noAnswer3": "Vaqt"
   },
   {
-    "question": "Quyidagilardan qaysi biri Faoliyatning asosiy sinfidir?",
-    "answer": "contextThemeWrapper",
-    "noAnswer1": "kontekst",
-    "noAnswer2": "ob'ekt",
-    "noAnswer3": "Yuqoridagilardan hech qaysisi"
+    "question": "L-502 qurilmasining maksimal chastotasini qancha",
+    "answer": "2 MHz",
+    "noAnswer1": "2 GHz",
+    "noAnswer2": "4 MHz",
+    "noAnswer3": "4 GHz"
   },
   {
-    "question": "Dialog oynasini yaratuvchi metodni ko‘rsating.",
-    "answer": "create()",
-    "noAnswer1": "new()",
-    "noAnswer2": "show()",
-    "noAnswer3": "AlertDialog()"
+    "question": "Real vaqt deyilganda nima tushuniladi?",
+    "answer": "jarayonni borishini oniy vaqti, ya’niy xar bir borayotgan qadam ketma ketligidagi vaqt tushiniladi.",
+    "noAnswer1": "jarayonni borishini istalgan vaqti, ya’niy xar bir borayotgan qadam ketma ketligidagi vaqt tushiniladi.",
+    "noAnswer2": "jarayonni borishini noma'lum vaqti tushiniladi.",
+    "noAnswer3": "jarayonni borishini noma'lum vaqti tushiniladi."
   },
   {
-    "question": "Quyidagi qaysi varaqda xatolik ko'rsatilgan?",
-    "answer": "Logcat",
-    "noAnswer1": "Markaziy protsessor",
-    "noAnswer2": "Xotira",
-    "noAnswer3": "OTB jurnallari"
+    "question": "Boshqarish tizimlarini tashkil etishda birlamchi datchiklardan jarayon to‘g‘risida informatsiya yigilib qaysi komleksda qayta ishlanadi?",
+    "answer": "xisoblash kompleksida",
+    "noAnswer1": "modellash kompleksida",
+    "noAnswer2": "mexanizm kompleksida",
+    "noAnswer3": "Jarayon kompleksida"
   },
   {
-    "question": "Agar biz bir nechta elementlarni joylashtirmoqchi bo'lsak, ular ustma-ust paydo bo’ladi.",
-    "answer": "FrameLayout",
-    "noAnswer1": "AbsoluteLayout",
-    "noAnswer2": "ConstraintsLayout",
-    "noAnswer3": "LinearLayout"
+    "question": "Boshqarish tizimlarini tashkil etishda birlamchi datchiklardan jaraѐn to‘g‘risida informatsiya yigilib xisoblash kompleksida qayta ishlanib qaysi jarayonga uzatiladi",
+    "answer": "bajarish mexanizimiga",
+    "noAnswer1": "xisoblash kompleksida",
+    "noAnswer2": "qayta ishlash jarayoniga",
+    "noAnswer3": "boshqarish tizimiga"
   },
   {
-    "question": "Aktivitini to‘xtatish buyrug‘ini ko‘rsating",
-    "answer": "finish",
-    "noAnswer1": "stopActivity",
-    "noAnswer2": "stopService",
-    "noAnswer3": "Stop"
+    "question": "Qayta aloqa jarayoni ketmaketligini ko'rsating",
+    "answer": "Datchik,Interfeys, Mikro EXM,Interfeys, Bajarish mexanizmi",
+    "noAnswer1": "Bajarish mexanizmi, Datchik,Interfeys, Mikro EXM,Interfeys,",
+    "noAnswer2": "Datchik, Mikro EXM, Bajarish mexanizmi, Interfeys, Interfeys",
+    "noAnswer3": "Datchik, Mikro EXM, Interfeys, Interfeys"
   },
   {
-    "question": "JSON da yozilgan ma’lumotlar massivlar qanday belgilar orasida beriladi.",
-    "answer": "[ ]",
-    "noAnswer1": "{ }",
-    "noAnswer2": "( )",
-    "noAnswer3": "&lt; &gt;"
+    "question": "Boshqarish tizimlari necha turga bo'linadi",
+    "answer": "2",
+    "noAnswer1": "3",
+    "noAnswer2": "5",
+    "noAnswer3": "4"
   },
   {
-    "question": "Qaysi yilda OHA (Open Handset Alliance) e'lon qilinadi?",
-    "answer": "2007 yil",
-    "noAnswer1": "2005 yil",
-    "noAnswer2": "2006 yil",
-    "noAnswer3": "Yuqoridagilardan hech qaysisi"
+    "question": "Boshqarish tizimlari qanday turlarga bo'linadi",
+    "answer": "«qattiq bog‘lanishli» va «qattiq bo‘lmagan(yumshoq)»",
+    "noAnswer1": "«issiq bog‘lanishli» va«issiq bo‘lmagan(sovuq)»",
+    "noAnswer2": "«qaytadigan bog‘lanishli»  va «qaytib bo‘lmagan(qaytmas)»",
+    "noAnswer3": "«analog bog‘lanishli» va «analog bo'lmagan(Raqamli)»"
   },
   {
-    "question": "Quyidagilardan noto’g’risini aniqlang.",
-    "answer": "onResume() — ushbu metod activity ish faoliyati to‘xtatib, qayta ishga tushirilganida chiqariladi.",
-    "noAnswer1": "Mobil ilovalarda activity bo‘lmasligi ham va bir nechta activity bo‘lishi mumkin",
-    "noAnswer2": "Activity mobil qurilmaning ekranida paydo bo‘lganidan faoliyatini yakunlaganga qadar bir nechta bosqichlarni bosib o‘tadi",
-    "noAnswer3": "onDestroy() — bu metod activity to‘xtatilgan vaqtda chaqiriladi"
+    "question": "Real vaqt tizimlar nimalar ustida ish olib boradi.",
+    "answer": "ob’ektlar",
+    "noAnswer1": "subyektlar",
+    "noAnswer2": "jarayonlar",
+    "noAnswer3": "vaqtlar"
   },
   {
-    "question": "onPause() activity metodining vazifasini aniqlang",
-    "answer": "Ushbu metod joriy activity faoliyati vaqtinchalik to‘xtatib, boshqa activity faollashtirilganda chaqiriladi",
-    "noAnswer1": "Ushbu metod activity foydalanuvchiga ko‘rinmay qolganida chaqiriladi",
-    "noAnswer2": "Bu metodning vazifasi activity yaratilganida berilgan ketma–ketliklarni bajarishdan iborat va bir marta bajariladi",
-    "noAnswer3": "Bu metod activity mobil qurilmaning oynasida hosil bo‘lganda, ya’ni foydalanuvchiga ko‘ringanida chaqiriladi"
+    "question": "Real vaqt tizimlarida texnologik jarayon …... sifatida ishtirok etadi. Nuqtalar o'rnini to'ldiring",
+    "answer": "obyekt",
+    "noAnswer1": "subyekt",
+    "noAnswer2": "mexanizm",
+    "noAnswer3": "tizim"
   },
   {
-    "question": "Bu murakkabroq tuzilma ro'yxatini ma'lumotlar bilan to'ldirish imkonini beruvchi adapter, masalan, ro'yxatning bir qatoridagi ikkita matn.",
-    "answer": "SimpleAdapter",
-    "noAnswer1": "BaseAdapter",
-    "noAnswer2": "WrapperListAdapter",
-    "noAnswer3": "SpinnerAdapter"
+    "question": "Zamonaviy real vaqt tizimlari tarkibiy qiymatlaridan biri qanday  ta’minoti xisoblanadi.",
+    "answer": "programma",
+    "noAnswer1": "xissoblash",
+    "noAnswer2": "aloqa",
+    "noAnswer3": "xizmat"
   },
   {
-    "question": "Agar sizga shaxsiy adapter kerak bo'lsa, Android kengaytirilishi mumkin bo'lgan abstrakt … klassiga ega.",
-    "answer": "BaseAdapter",
-    "noAnswer1": "SpinnerAdapter",
-    "noAnswer2": "ArrayAdapter",
-    "noAnswer3": "SimpleAdapter"
+    "question": "Real vaqt rejimida o'rnatilgan ilovalar uchun butun dunyo bo'ylab protsessorlarning necha foizi ishlatiladi?",
+    "answer": "70.0",
+    "noAnswer1": "80.0",
+    "noAnswer2": "60.0",
+    "noAnswer3": "50.0"
   },
   {
-    "question": "ArrayAdapter to’g’ri e’lon qilingan qatorni aniqlang.",
-    "answer": "<pre>ArrayAdapter adapter = new ArrayAdapter(this,R.layout.ListView,StringArray);</pre>",
-    "noAnswer1": "<pre>ArrayAdapter adapter = new ArrayAdapter(this,StringArray, R.layout.ListView);</pre>",
-    "noAnswer2": "<pre>ArrayAdapter adapter = new ArrayAdapter(this,StringArray, R.layout.ListView, v.getContext());</pre>",
-    "noAnswer3": "<pre>ArrayAdapter adapter = new ListAdapter(this,R.layout.ListView,StringArray);</pre>"
+    "question": "Real vaqtda tsiklni rejalashtiruvchilar haqidagi to'g'ri mulohazani aniqlang",
+    "answer": "Tsiklni rejalashtiruvchilar juda mashhur va sanoatda keng qo'llaniladi.",
+    "noAnswer1": "Hozirda ishlab chiqarilayotgan barcha yirik o'rnatilgan ilovalarning aksariyati aylanma robin rejalashtiruvchilarga asoslangan.",
+    "noAnswer2": "Tsiklik rejalashtiruvchilar har safar unga kirishda yangi jadval yaratadi.",
+    "noAnswer3": "Sanoatda tsiklni rejalashtiruvchilar ishlatilmaydi."
   },
   {
-    "question": "Dart dasturlash tilida to’plamga tegishli ta’rifni aniqlang",
-    "answer": "Tartibsiz, noyob elementlar to'plamidir",
-    "noAnswer1": "Tartibli noyob elementlar to'plamidir",
-    "noAnswer2": "Tartibsiz, noyob bo’lmagan elementlar to'plamidir",
-    "noAnswer3": "Tartibli, noyob bo’lmagan elementlar to'plamidir"
+    "question": "Raqamli infarmatsiyalar asosini nechilik sanoq sistema tashkil qiladi",
+    "answer": "2-lik",
+    "noAnswer1": "4-lik",
+    "noAnswer2": "8-lik",
+    "noAnswer3": "10-lik"
   },
   {
-    "question": "Quyidagilardan noto’g’risini aniqlang.",
-    "answer": "SetPrior() tomonidan o'rnatilgan bildirishnoma ustuvorligi. Ustuvorlik Android 8 va undan oldingi versiyalarda bildirishnoma qanchalik ustuvor ekanligini aniqlaydi.",
-    "noAnswer1": "Android telefonidagi barcha bildirishnomalar \"kanal\" ga tegishli bo'lishi kerak, shunda foydalanuvchi ilovangizdan ma'lum turdagi bildirishnomalarni qanday ko'rishni xohlashini sozlashi mumkin",
-    "noAnswer2": "Kanal - bu Google Android API darajasi 26 da taqdim etgan bildirishnomalarni ko'rsatish sozlamalari to'plami",
-    "noAnswer3": "NotificationCompat.Builder konstruktori sizdan kanal identifikatorini taqdim etishingizni talab qiladi"
+    "question": "RАOʼQ texnik xarakteristikalari korsating",
+    "answer": "Hamma javob tog'ri",
+    "noAnswer1": "RАOʼQ razryadi, raqamli signaldagi birtlar soni",
+    "noAnswer2": "Imkoniyati(razreshenie), raqamli signaldagi eng kichik razryadni seza olishi",
+    "noAnswer3": "Toʼla shkalasi, chiqish signalini oʼzgarish diapazoni"
   },
   {
-    "question": "Dart dasturlash tilida bo’sh bo’lgan to’plam e’lon qilingan qatorni aniqlang.",
-    "answer": "<pre>var names = {};</pre>",
-    "noAnswer1": "<pre>var names = ();</pre>",
-    "noAnswer2": "<pre>var names = [];</pre>",
-    "noAnswer3": "<pre>var names = [{}];</pre>"
+    "question": "Analog signal deb nimaga aytladi",
+    "answer": "Analog signalamplitudasining minimal va maksimal oralig’ida cheksiz qiymatlarsonini qabul qilishiga aytiladi",
+    "noAnswer1": "Analig signal ampilutudasining minimal oralig'dagi cheksiz qiymat",
+    "noAnswer2": "Analig signal ampilitudasining maksimal oraligidagi cheksiz qiymat",
+    "noAnswer3": "Togri javob yoq"
   },
   {
-    "question": "Xaritaning ko’rinish turini (sun’iy yo’ldosh, gibrid va h.k) o’zgartirish uchun qaysi metoddan foydalaniladi?",
-    "answer": "setMapType",
-    "noAnswer1": "getMapType",
-    "noAnswer2": "setMapStyle",
-    "noAnswer3": "getUiSettings"
+    "question": "Intel kompaniyasi qanday pratsesirlar ishlab chiqaradi",
+    "answer": "Hamma javob tog'ri",
+    "noAnswer1": "Pentium, Celeron",
+    "noAnswer2": "Quad, Xeon, Itanium",
+    "noAnswer3": "Atom Sempron, X2"
   },
   {
-    "question": "Xabarnoma yaratish to’g’ri ko’rsatilgan qatorni aniqlang.",
-    "answer": "<pre>NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)\r\n        .setSmallIcon(R.drawable.notification_icon)\r\n        .setContentTitle(textTitle)\r\n        .setContentText(textContent)\r\n        .setPriority(NotificationCompat.PRIORITY_DEFAULT);</pre>",
-    "noAnswer1": "<pre>NotificationCompat builder = new NotificationCompat.Builder(this, CHANNEL_ID)\r\n        .setSmallIcon(R.drawable.notification_icon)\r\n        .setContentTitle(textTitle)\r\n        .setContentText(textContent)\r\n        .setPriority(NotificationCompat.PRIORITY_DEFAULT);</pre>",
-    "noAnswer2": "<pre>NotificationCompat.App builder = new NotificationCompat.App(this, CHANNEL_ID)\r\n        .setSmallIcon(R.drawable.notification_icon)\r\n        .setContentTitle(textTitle)\r\n        .setContentText(textContent)\r\n        .setPriority(NotificationCompat.PRIORITY_DEFAULT);</pre>",
-    "noAnswer3": "<pre>NotificationCompat.Notification builder = new NotificationCompat.Notification(this, CHANNEL_ID)\r\n        .setSmallIcon(R.drawable.notification_icon)\r\n        .setContentTitle(textTitle)\r\n        .setContentText(textContent)\r\n        .setPriority(NotificationCompat.PRIORITY_DEFAULT);</pre>"
+    "question": "Operativ xotilash qurilmasini koʼp xollarda nima deb ataladi",
+    "answer": "RAM",
+    "noAnswer1": "DIMM",
+    "noAnswer2": "BIOS",
+    "noAnswer3": "SDRAM"
   },
   {
-    "question": "Quyidagilardan noto’g’risini aniqlang.",
-    "answer": "SQLite ma’lumotlar bazasi klient-server arxitekturasiga asosan ishlaydi hamda bu uning eng asosiy afzalliklaridan biri hisoblanadi",
-    "noAnswer1": "REST xizmatlarining ajoyib tomoni shundak ular HTTP protokolidan maksimal darajada foydalanishadi.",
-    "noAnswer2": "REST - bu veb API yaratish uchun qoidalar, standartlar, yo'riqnomalar to'plami.",
-    "noAnswer3": "API sizga himoya qilinishi kerak bo'lgan funksiyalarni alohida ilovaga joylashtirish imkonini beradi. Bu boshqa dasturlar tomonidan ushbu funksiyalardan noto'g'ri foydalanish ehtimolini kamaytiradi."
+    "question": "DIMM manosi",
+    "answer": "Dual-In-line Memory Module",
+    "noAnswer1": "Dual-In-line Memory Model",
+    "noAnswer2": "Dual- Memory Module",
+    "noAnswer3": "Daul-In-line Mavory Module"
   },
   {
-    "question": "<pre>\r\npublic class Main {\r\n  public static void main(String[] args) {\r\n            String $num1 = \"2565\";\r\n            String $num2 = \"6515\";\r\n            String _result = $num1 + $num2;\r\n            System.out.println(_result);\r\n  }\r\n}\r\n</pre>Dastur natijasini aniqlang.",
-    "answer": "25656515",
-    "noAnswer1": "9080",
-    "noAnswer2": "Xatolik",
-    "noAnswer3": "Null"
+    "question": "Xotirlash modullar hajmi",
+    "answer": "Hamma javob tog'ri",
+    "noAnswer1": "16",
+    "noAnswer2": "32",
+    "noAnswer3": "512"
   },
   {
-    "question": "Dart dasturlash tilida <pre>var list = [1, 2, 3];</pre> ro’yxatning uzunligi qanday aniqlanadi?",
-    "answer": "list.length",
-    "noAnswer1": "list.length()",
-    "noAnswer2": "length(list)",
-    "noAnswer3": "list.len"
+    "question": "Xotrlash modullari chastotasi",
+    "answer": "100 ili 133 MG",
+    "noAnswer1": "200 ili 233 MG",
+    "noAnswer2": "300 ili 333 MG",
+    "noAnswer3": "400 ili 433 MG"
   },
   {
-    "question": "JSON kengaytmasini aniqlang.",
-    "answer": "JavaScript Object Notation",
-    "noAnswer1": "Java Source Open Network",
-    "noAnswer2": "JavaScript Output Name",
-    "noAnswer3": "Java Standard Output Network"
+    "question": "Xotrlash modullar kantaktlar soni",
+    "answer": "72,168 ili 184",
+    "noAnswer1": "80,170,ili 200",
+    "noAnswer2": "100,2",
+    "noAnswer3": "154,169"
   },
   {
-    "question": "Kross platformali dastur - …",
-    "answer": "Bir nechta operatsion tizimlarda ishlashi mumkin bo’lgan dastur",
-    "noAnswer1": "Bir nechta dasturlash tilidan foydalanib ishlab chiqilgan dastur",
-    "noAnswer2": "Bir nechta kompyuterlarda parallel ishlashi mumkin dastur",
-    "noAnswer3": "Kotlin dasturlash tilida yaratilgan dastur"
+    "question": "1G baytlik modullar hozirgi payitda necha G bolib chiqmoqda",
+    "answer": "4G",
+    "noAnswer1": "3G",
+    "noAnswer2": "2G",
+    "noAnswer3": "5G"
   },
   {
-    "question": "Google Maps API kalitlarini qaysi faylda saqlash tavsiya etiladi?",
-    "answer": "local.properties",
-    "noAnswer1": "AndroidManifest.xml",
-    "noAnswer2": "build.gradle.kts",
-    "noAnswer3": "activity_main.xml"
+    "question": "Raqamli signal deganda nimani tushunasiz ?",
+    "answer": "paketli signalar",
+    "noAnswer1": "murakkab",
+    "noAnswer2": "a va b javoblar",
+    "noAnswer3": "togri javob yoq"
   },
   {
-    "question": "Android Studiodagi loyihada \"res\" katalogining vazifasi?",
-    "answer": "Tasvirlar, satrlar va maketlar kabilarni saqlaydi",
-    "noAnswer1": "Klasslar, interfeyslar va boshqa asosiy Java fayllarini o’zida saqlaydi",
-    "noAnswer2": "Ilovaning hayot siklini boshqaradi",
-    "noAnswer3": "Ilova haqidagi eng asosiy ma’lumotlarni saqlaydi"
+    "question": "O'yin kontrollerlari bu -",
+    "answer": "avtomat va kompyuter oyinlarini tashkil etish va boshqarish qurilmasi",
+    "noAnswer1": "bu server kompyuter tarmoqlarini nazorat qilish",
+    "noAnswer2": "togri javob berilmagan",
+    "noAnswer3": "kompyuter oyinlarini tashkil etish va boshqarish qurilmasi"
   },
   {
-    "question": "Java dasturlash tilida butun sonli qiymatga ega bo'lgan o'zgaruvchini e'lon qilish uchun to'g'ri sintaksis qanday?",
-    "answer": "<pre>int age = 25025;</pre>",
-    "noAnswer1": "<pre>Int age = 56021;</pre>",
-    "noAnswer2": "<pre>Int age = \"25174\";</pre>",
-    "noAnswer3": "<pre>integer age = 25;</pre>"
+    "question": "domen kontrollerlari bu -",
+    "answer": "bu server, kompyuter tarmoqlar domenlarini nazorat qilish qurilmasi",
+    "noAnswer1": "togri javob berilmagan",
+    "noAnswer2": "bu server yordamchisi, kompyuter tarmoqlar domenlarini nazorat qilish qurilmasi",
+    "noAnswer3": "bu server kompyuter tarmoqlarini nazorat qilish"
   },
   {
-    "question": "... - bu nisbiy pozitsiyalarda elementlar ko'rinishlarini ko'rsatadigan ko'rish guruhi",
-    "answer": "RelativeLayout",
-    "noAnswer1": "FrameLayout",
-    "noAnswer2": "AbsoluteLayout",
-    "noAnswer3": "ConstraintsLayout"
+    "question": "mikrokontroller bu -",
+    "answer": "mikrosxema, mantiqiy operatsiyalarni bajarishga mo'ljallangan elektron qurilma",
+    "noAnswer1": "avtomat va kompyuter oyinlarini tashkil etish va boshqarish qurilmasi",
+    "noAnswer2": "kompyuter oyinlarini tashkil etish va boshqarish qurilmasi",
+    "noAnswer3": "togri javob berilmagan"
   },
   {
-    "question": "Dialog oynasi bilan ishlashda foydalanuvchi harakatni davom ettirishni xohlamasa, lekin bekor qilishni ham xohlamasa, undan foydalaniladi.",
-    "answer": "Neytral tugma",
-    "noAnswer1": "Pozitiv tugma",
-    "noAnswer2": "Negativ tugma",
-    "noAnswer3": "FloatingActionButton"
+    "question": "Ishlab chiqarish kontrolleri bu-",
+    "answer": "Boshqarish qurilmasi,texnologik yoki boshqa jarayonlarni avtomatik  avtomatik boshqaruvchi qurilma",
+    "noAnswer1": "Boshqarish yordamchi qurilmasi,texnologik yoki boshqa jarayonlarni avtomatik  avtomatik boshqaruvchi qurilma",
+    "noAnswer2": "togri javob berilmagan",
+    "noAnswer3": "Boshqarish qurilmasi,elektronik yoki boshqa jarayonlarni avtomatik  avtomatik boshqaruvchi qurilma"
   },
   {
-    "question": "Dialog oynasini yaratish to’g’ri ko’rsatilgan qatorni aniqlang",
-    "answer": "<pre>AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());</pre>",
-    "noAnswer1": "<pre>AlertDialog builder = new AlertDialog.Builder(getActivity());</pre>",
-    "noAnswer2": "<pre>AlertDialog.Builder builder = new AlertDialog(getActivity());</pre>",
-    "noAnswer3": "<pre>AlertDialog.Builder builder = new AlertDialog.Builder(builder);</pre>"
+    "question": "Programmalanuvchi logik kontrolleri bu -",
+    "answer": "funksiyasi programma yordamida belgilanuvchi ishlab chiqarishni boshqarish kontrolleri",
+    "noAnswer1": "togri javob berilmagan",
+    "noAnswer2": "Infomatsiyani qayta tartiblash va programma bilan ishlovchi boshqarish kontrolleri",
+    "noAnswer3": "Informatsiyani qayta tartiblash bilan ishlovchi boshqarish kontrolleri"
   },
   {
-    "question": "Asosiy dialog oynasida ro’yxat hosil qilish uchun qaysi metoddan foydalaniladi?",
-    "answer": "setItems()",
-    "noAnswer1": "setList()",
-    "noAnswer2": "arrayList()",
-    "noAnswer3": "mergedList()"
+    "question": "PLK -73 kontrolleri programma belgilarini saqlash xotirasi necha kb ?",
+    "answer": "10",
+    "noAnswer1": "100",
+    "noAnswer2": "110",
+    "noAnswer3": "15"
   },
   {
-    "question": "Quyidagilardan noto’g’risini aniqlang.",
-    "answer": "ArrayAdapter - RecyclerView bilan ishlash uchun mo'ljallangan. Ma'lumotlar alohida TextView elementlariga joylashtirilgan massiv sifatida taqdim etiladi",
-    "noAnswer1": "HeaderViewListAdapter ListView sarlavhalari bo'lsa, ListAdapterning kengaytirilgan versiyasidir",
-    "noAnswer2": "Android 6 versiyada xabarnoma yuborish uchun ruxsat kerak bo’lmaydi",
-    "noAnswer3": "ListAdapter - ListView va ma'lumotlar o'rtasidagi adapter. Bu ArrayAdapter va SimpleAdapter va boshqalarda ishlatilishi mumkin bo'lgan interfeys sinfidir"
+    "question": "PLK -73 kontrolleri saqlash xotirasi hajmi qancha?",
+    "answer": "280",
+    "noAnswer1": "600",
+    "noAnswer2": "256",
+    "noAnswer3": "180"
   },
   {
-    "question": "Quyidagilardan to’g’risini aniqlang",
-    "answer": "ArrayAdapterdan ma'lumotlar manbangiz massiv bo'lganda foydalansangiz bo’ladi",
-    "noAnswer1": "android:entries - bu ajratuvchi balandligini belgilaydi. Bu px, dp, sp, in yoki mm bo'lishi mumkin.",
-    "noAnswer2": "android:divider - False bo’lganda, ListView har bir pastki ko'rinishidan oldin bo'luvchini chizmaydi. Standart qiymat True.",
-    "noAnswer3": "Android 8 versiyadan boshlab xabarnoma uchun ruxsat kerak bo’ladi"
+    "question": "PLK -73 kontrollerining   Retain-xotira necha bayt?",
+    "answer": "448",
+    "noAnswer1": "150",
+    "noAnswer2": "600",
+    "noAnswer3": "256"
   },
   {
-    "question": "Quyidagilardan noto’g’risini aniqlang",
-    "answer": "RecyclerViewda RecyclerView.LayoutManager mavjud emas va buning uning afzalliklaridan biri",
-    "noAnswer1": "RecyclerView Android 5.0 Lollipopda ListView orqali yangilanish sifatida taqdim etilgan",
-    "noAnswer2": "ListView komponentida elementlarni qo'shish yoki o'chirishni animatsiyalash mumkin bo'lgan maxsus qoidalar mavjud emas",
-    "noAnswer3": "ListView faqat vertikal chiziqli tartibdagi elementlarni joylashtirishi mumkin va buni moslashtirib bo'lmaydi"
+    "question": "PLK -73 kontrollerining kirish chiqish hajmi qancha PLK73-M  uchun?",
+    "answer": "600",
+    "noAnswer1": "550",
+    "noAnswer2": "140",
+    "noAnswer3": "148"
   },
   {
-    "question": "Harakatlarni menyuga ulash uchun faoliyat klassida … metodini bog’lash kerak bo’ladi.",
-    "answer": "onOptionsItemSelected",
-    "noAnswer1": "MenuInflater",
-    "noAnswer2": "getMenuInflater",
-    "noAnswer3": "onCreateOptionsMenu"
+    "question": "PLK -73 kontrollerining kirish chiqish hajmi qancha PLK73-L  uchun?",
+    "answer": "360",
+    "noAnswer1": "150",
+    "noAnswer2": "178",
+    "noAnswer3": "155"
   },
   {
-    "question": "Androidning qaysi API darajasidan boshlab xabarnoma yuborish uchun ruxsat kerak bo’ladi?",
-    "answer": "API level 33",
-    "noAnswer1": "API level 34",
-    "noAnswer2": "API level 30",
-    "noAnswer3": "API level 26"
+    "question": "Real vaqt tizimlarida vazifalarni rejalashtirishning nechta asosiy turi mavjud?",
+    "answer": "3",
+    "noAnswer1": "4",
+    "noAnswer2": "2",
+    "noAnswer3": "6"
   },
   {
-    "question": "Androidda xabarnoma yuborish uchun kerak bo’ladigan ruxsat nomini aniqlang.",
-    "answer": "POST_NOTIFICATIONS",
-    "noAnswer1": "GET_NOTIFICATIONS",
-    "noAnswer2": "PERMISSION_NOTIFICATIONS",
-    "noAnswer3": "ALLOW_NOTIFICATIONS"
+    "question": "Quyida real vaqt rejimidagi vazifalarni rejalashtirishning qaysi tushunchaning tavsifi berilgan? \"Davriy vazifaning qat'iy davriy xatti-harakatlaridan chetga chiqishi\"",
+    "answer": "Jitter (Jitter)",
+    "noAnswer1": "Rejalashtirish nuqtalari (Scheduling Points)",
+    "noAnswer2": "Foydalanish (Utilization)",
+    "noAnswer3": "Oldindan rejalashtiruvchi (Preemptive Scheduler)"
   },
   {
-    "question": "Quyidagilardan qaysi biri Room kutubxonasiga tegishli emas?",
-    "answer": "Room MySQL orqali abstraksiya qatlamini ta'minlaydi",
-    "noAnswer1": "Kotlin yoki Java yordamida Android qurilmasida mahalliy SQLite ma'lumotlar bazasini osongina yaratish va boshqarish imkonini beradi",
-    "noAnswer2": "Room ishlab chiquvchilarga murakkab SQL so'rovlarini yozmasdan ma'lumotlar bazasi bilan o'zaro ishlashni osonlashtiradi",
-    "noAnswer3": "“Database Inspector” instrumenti yordamida ma’lumotlar bazasining joriy holatini ko’rish mumkin"
+    "question": "Quyida real vaqt rejimidagi vazifalarni rejalashtirishning qaysi tushunchaning tavsifi berilgan? \"vaqt birligi uchun vazifa bajariladigan o'rtacha vaqt\"",
+    "answer": "Foydalanish (Utilization)",
+    "noAnswer1": "Jitter (Jitter)",
+    "noAnswer2": "Rejalashtirish nuqtalari (Scheduling Points)",
+    "noAnswer3": "Oldindan rejalashtiruvchi (Preemptive Scheduler)"
   },
   {
-    "question": "Room kutubxonasida ... ma'lumotlarni kiritish, yangilash, o'chirish va olish metodlarini belgilaydi.",
-    "answer": "Data Access Object",
-    "noAnswer1": "Entity",
-    "noAnswer2": "LiveData va ViewModel",
-    "noAnswer3": "Android Jetpack"
+    "question": "Quyida real vaqt rejimidagi vazifalarni rejalashtirishning qaysi tushunchaning tavsifi berilgan? \"Bu yuqoriroq ustuvor vazifa kelganda, bajarilayotgan har qanday pastroq ustuvor vazifani to'xtatib turadigan va yuqoriroq vazifani bajarish uchun qabul qiladigan vazifadir.\"",
+    "answer": "Oldindan rejalashtiruvchi (Preemptive Scheduler)",
+    "noAnswer1": "Rejalashtirish nuqtalari (Scheduling Points)",
+    "noAnswer2": "Foydalanish (Utilization)",
+    "noAnswer3": "Jitter (Jitter)"
   },
   {
-    "question": "Java dasturlash tilida noto’g’ri e’lon qilingan o’zgaruvchini aniqlang.",
-    "answer": "<pre>char myGrade = “91”;</pre>",
-    "noAnswer1": "<pre>String myGrade = “Ikki baho”;</pre>",
-    "noAnswer2": "<pre>String $myGrade = “Besh baho”;</pre>",
-    "noAnswer3": "<pre>int _myGrade = 100;</pre>"
+    "question": "Quyida real vaqt rejimidagi vazifalarni rejalashtirishning qaysi tushunchaning tavsifi berilgan? \"Rejalashtiruvchi keyingi vazifani bajarish to'g'risida qaror qabul qiladigan vaqt shkalasidagi momentlarda \"",
+    "answer": "Mumkin bo'lgan jadval (Feasible Schedule)",
+    "noAnswer1": "Oldindan rejalashtiruvchi (Preemptive Scheduler)",
+    "noAnswer2": "Foydalanish (Utilization)",
+    "noAnswer3": "Jitter (Jitter)"
   },
   {
-    "question": "Androidda aniq geojoylashuv uchun kerak bo’ladigan ruxsat nomini aniqlang",
-    "answer": "ACCESS_FINE_LOCATION",
-    "noAnswer1": "ACCESS_COARSE_LOCATION",
-    "noAnswer2": "ACCESS_ACCURATE_LOCATION",
-    "noAnswer3": "ACCESS_CURRENT_LOCATION"
+    "question": "Quyida real vaqt rejimidagi vazifalarni rejalashtirishning qaysi tushunchaning tavsifi berilgan? \"Barcha vazifalar vaqt cheklovlariga javob beradigan jadval\"",
+    "answer": "Mumkin bo'lgan jadval (Feasible Schedule)",
+    "noAnswer1": "Optimal rejalashtiruvchi (Optimal Scheduler)",
+    "noAnswer2": "Ruxsat etilgan jadval (Valid Schedule)",
+    "noAnswer3": "Tajribali rejalashtiruvchi (Proficient Scheduler)"
   },
   {
-    "question": "Dart dasturlash tilida <pre>var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};</pre> berilgan to’plamdagi uchinchi elementga qanday murojaat qilinadi?",
-    "answer": "Murojaat qilish mumkin emas",
-    "noAnswer1": "halogens[3]",
-    "noAnswer2": "halogens(3)",
-    "noAnswer3": "halogens{3}"
+    "question": "Keltirilgan signal nima?",
+    "answer": "fizik parametrni qiymatlari malum tip signalda masshtablangani",
+    "noAnswer1": "fizik parametrni qiymatlari nomalum tip signalda masshtablangani",
+    "noAnswer2": "murakkab signal",
+    "noAnswer3": "sodda signal"
   },
   {
-    "question": "Dart dasturlash tilida <pre>var list = [132, 22342, 33424, 456484];</pre> berilgan ro’yxatdagii uchinchi elementga qanday murojaat qilinadi?",
-    "answer": "list[3]",
-    "noAnswer1": "list{3}",
-    "noAnswer2": "list(3)",
-    "noAnswer3": "Murojaat qilish mumkin emas"
+    "question": "necha xil signallar ?",
+    "answer": "2",
+    "noAnswer1": "3",
+    "noAnswer2": "4",
+    "noAnswer3": "1"
   },
   {
-    "question": "Android qurilmalar uchun ilovalar yozish muhitini ko‘rsating",
-    "answer": "Android Development Tools",
-    "noAnswer1": "Android Virtual Device",
-    "noAnswer2": "Android SDK",
-    "noAnswer3": "JDK"
+    "question": "Analog signal va raqamli signalni farqi nima?",
+    "answer": "analog doimiy elektr signalidir, raqamli esa uzluksiz elektr signalidir",
+    "noAnswer1": "analog uzlukli",
+    "noAnswer2": "raqamli doimiy",
+    "noAnswer3": "togri javob yoq"
   },
   {
-    "question": "AndroidStudio da xarita (Karta)lar bilan ishlovchi komponentani ko‘rsating",
-    "answer": "MapView",
-    "noAnswer1": "CardView",
-    "noAnswer2": "MapCard",
-    "noAnswer3": "CardMap"
+    "question": "Svetofor qanday real vaqt tizimiga misol bo`ladi ?",
+    "answer": "yumshoq",
+    "noAnswer1": "qattiq",
+    "noAnswer2": "murakkab",
+    "noAnswer3": "sodda"
+  },
+  {
+    "question": "Signalni raqamli ko’rinishdan analog ko’rinishga o’tkazuvchi qurilma bu nima",
+    "answer": "MODULYATOR",
+    "noAnswer1": "demoldulyator",
+    "noAnswer2": "otkazuvchi qurilma",
+    "noAnswer3": "kompelyator"
+  },
+  {
+    "question": "L-783M qurilmasining maksimal chastotasini qancha",
+    "answer": "3 MHz",
+    "noAnswer1": "3 GHz",
+    "noAnswer2": "4 MHz",
+    "noAnswer3": "4 GHz"
+  },
+  {
+    "question": "Quyida qanday turdagi real vaqt vazifalari keltirilgan? “tasodifiy vaqt momentida takrorlanuvchi vazifa”",
+    "answer": "vaqti-vaqti bilan",
+    "noAnswer1": "oraliq",
+    "noAnswer2": "toxastik",
+    "noAnswer3": "davriy"
+  },
+  {
+    "question": "Quyida qanday turdagi real vaqt vazifalari keltirilgan? \"muayyan belgilangan vaqt oralig'ida takrorlangan vazifa\"",
+    "answer": "davriy",
+    "noAnswer1": "oraliq",
+    "noAnswer2": "toxastik",
+    "noAnswer3": "vaqti-vaqti bilan"
+  },
+  {
+    "question": "Quyida keltirilgan tushunchalardan qaysi biri real vaqt rejimidagi ilovalarning tavsifi hisoblanadi? \"Vazifaning natijalarini berish uchun zarur bo'lgan vaqt (vazifa kelgan vaqt bilan o'lchanadi)\"",
+    "answer": "Javob berish vaqti (Response Time)",
+    "noAnswer1": "Absolyut muddat (Absolute deadline)",
+    "noAnswer2": "Nisbiy muddat (Relative deadline)",
+    "noAnswer3": "Vazifa namunasi (Task Instance)"
+  },
+  {
+    "question": "Quyida keltirilgan tushunchalardan qaysi biri real vaqt rejimidagi ilovalarning tavsifi hisoblanadi? \"Vazifaning boshlanishi va oxirgi muddat o'rtasidagi vaqt oralig'i\"",
+    "answer": "Nisbiy muddat (Relative deadline)",
+    "noAnswer1": "Vazifa namunasi (Task Instance)",
+    "noAnswer2": "Absolyut muddat (Absolute deadline)",
+    "noAnswer3": "Javob berish vaqti (Response Time)"
+  },
+  {
+    "question": "Real vaqt rejimida ishlaydigan dasturchi Unix dan real vaqt rejimida foydalanilganda qanday muammoga duch keladi?",
+    "answer": "o'zgarmas yadro",
+    "noAnswer1": "soatlar va taymerlarni qo'llab-quvvatlash",
+    "noAnswer2": "statik vazifa ustuvorliklari",
+    "noAnswer3": "xotira himoyasi"
+  },
+  {
+    "question": "Quyida real vaqt tizimining qaysi funksiyalarining tavsifi keltirilgan? \"An'anaviy operatsion tizimlar odatda yuqori aniqlikdagi vaqt xizmatlarini taqdim etmaydi.\"",
+    "answer": "Soat va taymerlarni qo'llab-quvvatlash",
+    "noAnswer1": "Vazifalar o'rtasida real vaqt rejimida resurslar almashinuvini qo'llab-quvvatlaydi",
+    "noAnswer2": "Xotirani himoya qilish",
+    "noAnswer3": "Xotirani boshqarishga qo'yiladigan talablar"
+  },
+  {
+    "question": "1971 yildа Texаs Instruments dа qanday qurilma ishlаb chiqildi?",
+    "answer": "Microkontroller",
+    "noAnswer1": "Microchip",
+    "noAnswer2": "Microprotsessor",
+    "noAnswer3": "Kompyuter"
+  },
+  {
+    "question": "Quyida real vaqt tizimining qaysi funksiyalarining tavsifi keltirilgan? \"Real vaqtda operatsion tizim statik ustuvorlik darajasini saqlab turishi kerak.\"",
+    "answer": "Real vaqtda ustuvor darajalar",
+    "noAnswer1": "Soat va taymerlarni qo'llab-quvvatlash",
+    "noAnswer2": "Tezkor vazifani oldindan hal qilish",
+    "noAnswer3": "Bashorat qilinadigan va tez uzilishning kechikishi"
+  },
+  {
+    "question": "POSIX 1003.Id standarti - …",
+    "answer": "“real vaqt” qo`shimcha kengaytmalari uchun standartlarni belgilaydi",
+    "noAnswer1": "real vaqt” asosida to`liq standartlarni belgilaydi",
+    "noAnswer2": "vazifalarga qarab standartlarni belgilaydi",
+    "noAnswer3": "utilitlar asosida standartlarni belgilaydi"
+  },
+  {
+    "question": "POSIX 1003.1c standarti - …",
+    "answer": "vazifalarga qarab standartlarni belgilaydi",
+    "noAnswer1": "“real vaqt” qo`shimcha kengaytmalari uchun standartlarni belgilaydi",
+    "noAnswer2": "utilitlar asosida standartlarni belgilaydi",
+    "noAnswer3": "real vaqt” asosida to`liq standartlarni belgilaydi"
+  },
+  {
+    "question": "POSIX 1003.2 standarti - …",
+    "answer": "utilitlar asosida standartlarni belgilaydi",
+    "noAnswer1": "“real vaqt” qo`shimcha kengaytmalari uchun standartlarni belgilaydi",
+    "noAnswer2": "vazifalarga qarab standartlarni belgilayd",
+    "noAnswer3": "“real vaqt” asosida to`liq standartlarni belgilaydi"
+  },
+  {
+    "question": "Mikroprotsessorli tizimlar necha qismdan iborat?",
+    "answer": "2",
+    "noAnswer1": "7",
+    "noAnswer2": "3",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "Dasturiy ta'minot quyidagilardan iborat:",
+    "answer": "tizimli dasturlar, amaliy dastur, instrumental paket",
+    "noAnswer1": "amaliy dastur, grafikli dastur, chiziqli dastur",
+    "noAnswer2": "jadval dastur, instrumental paket,grafikli dastur",
+    "noAnswer3": "amaliy dastur, jadval dastur, tizimli dastur"
+  },
+  {
+    "question": "Aniq bir masalalarni yechishga mo'ljallangan dasturlar qanday dasturlar?",
+    "answer": "Amaliy dasturlar",
+    "noAnswer1": "Chiziqli dasturlar",
+    "noAnswer2": "Grafikli dasturlar",
+    "noAnswer3": "Jadval dasturlar"
+  },
+  {
+    "question": "Amaliy dasturlar to'g'ri ko'rsatilgan javobni toping.",
+    "answer": "autocad,photoshop,fain reader",
+    "noAnswer1": "photoshop,C#,basic",
+    "noAnswer2": "3D max, word, power point",
+    "noAnswer3": "hamma javoblar to'g'ri"
+  },
+  {
+    "question": "Аmaliy real vaqt tizimlari dasturlari umumiy tarzda necha qismga bo'linadi?",
+    "answer": "2",
+    "noAnswer1": "3",
+    "noAnswer2": "5",
+    "noAnswer3": "7"
+  },
+  {
+    "question": "Xalqaro adabiyotlarda real vaqt tizimlarida ishlaydigan amaliy boshqaruvchi programmalar nima deb ataladi?",
+    "answer": "SCADA",
+    "noAnswer1": "SATAC",
+    "noAnswer2": "OPC",
+    "noAnswer3": "RTU"
+  },
+  {
+    "question": "SCADA tizimlar asosida real vaqt tizimlarida jaraѐnlarni boshqarish  tizimlarida quydagi qurilmalar qatnashadi:",
+    "answer": "boshqarish qurilmasi, boshqarish mexanizmi, boshqarish ob'ekti, datchik",
+    "noAnswer1": "adminlar boshqaruvi,boshqaruv maydoni, boshqarish stansiyasi",
+    "noAnswer2": "boshqarish qurilmasi, boshqarish stansiyasi, admin boshqaruv",
+    "noAnswer3": "hamma javoblar to'g'ri"
+  },
+  {
+    "question": "Hozirda kunda dunyoda avtomatlashtirilgan tizimlar ishlab chiqish bo‘yicha faoliyat ko‘rsatayotgan firmalar qaysilar?",
+    "answer": "Fastwel, Honywel, Advantesh, Siemens",
+    "noAnswer1": "Genius, WinCC, Experion PRS",
+    "noAnswer2": "AdAstral,Genius,Adventesh",
+    "noAnswer3": "to'g'ri javob yo'q"
+  },
+  {
+    "question": "Asosan qaysi kompaniyalar universal ochiq SCADA tizimlar asosida ishlaydi?",
+    "answer": "Genius, WinCC, Experion PRS, Trace Mode va Maykrosoft",
+    "noAnswer1": "Genius, WinCC, Experion PRS",
+    "noAnswer2": "Fastwel, Honywel, Advantesh, Siemens",
+    "noAnswer3": "AdAstral,Genius,Adventesh"
+  },
+  {
+    "question": "TRACE MODEL dasturiy taʼminotini 4.10 ga bo‘lgan versiyasi qaysi muxitda ishlashga mo'ljallangan?",
+    "answer": "DOC",
+    "noAnswer1": "EXCEL",
+    "noAnswer2": "Windows",
+    "noAnswer3": "Paint"
+  },
+  {
+    "question": "Tizimning sаmаrаdorligi nimаni аnglаtаdi",
+    "answer": "Mаqsаddаn qoniqish dаrаjаsi",
+    "noAnswer1": "Tizimning yoki jаrаyonning hаr qаndаy xususiyаtining miqdoriy xаrаkteristikаsi",
+    "noAnswer2": "Ob'ekt uchun dаstlаbki tаlаblаrgа muvofiqligi",
+    "noAnswer3": "Murаkkаb tizimlаrning funksionаlligini tа'minlаsh"
+  },
+  {
+    "question": "1942 yildа Germаniyаdа o`rnаtilgаn tizim sohаsida qanday o’zgarish bo’ldi?",
+    "answer": "«Siemens» firmаsi tomonidаn yаrаtilgаn kаmerаlаr «Fаu-2» hаrbiy rаketаlаrini kuzаtish mаqsаddа qo`llаnildi",
+    "noAnswer1": "«Siemens» firmаsi tomonidаn yаrаtilgаn telefonlаr «Fаu-2» hаrbiy rаketаlаri orаsidа o`zаro аloqа qilish mаqsаddа qo`llаnildi",
+    "noAnswer2": "BOSCH firmаsi tomonidаn yаrаtilgаn kаmerаlаr «Fаu-2» hаrbiy rаketаlаrini kuzаtish&nbsp; mаqsаddа qo`llаnildi",
+    "noAnswer3": "«BOSCH» firmаsi tomonidаn yаrаtilgаn telefonlаr «Fаu-2» hаrbiy rаketаlаri orаsidа o`zаro аloqа qilish mаqsаddа qo`llаnildi"
+  },
+  {
+    "question": "1958 yildаn buyon qаndаy texnologiyа rivojlаnishi Jon Kilbining hаrаkаtlаri nаtijаsidа kаshf etilgаn?",
+    "answer": "Yаrimo`tkаzgichlаr texnologiyаsi",
+    "noAnswer1": "Mikroprotsessorlаr texnologiyаsi",
+    "noAnswer2": "Mikrochiplаr texnologiyаsi",
+    "noAnswer3": "O`tkаzgichlаr texnologiyаsi"
+  },
+  {
+    "question": "1968 yildа qаysi sohаdа birinchi o`rnаtilgаn tizim nechаnchi yili ishlаb chiqаrildi",
+    "answer": "Аvtomobillаrdа",
+    "noAnswer1": "Politsiyа xismаtidа",
+    "noAnswer2": "Xаrbiy xizmаtdа",
+    "noAnswer3": "Sаmаlyotlаrdа"
+  },
+  {
+    "question": "20 аsr boshidа qanday ixtiro qilish zаmonаviy elektronikаning jаdаl rivojlаnishini boshlаng`ich nuqtаsi sifаtidа ko’rildi",
+    "answer": "Vаkuum nаychаlаrini",
+    "noAnswer1": "Trаnzistor",
+    "noAnswer2": "Qаrshilik",
+    "noAnswer3": "Mikrokontroller"
+  },
+  {
+    "question": "Energiya sarfini cheklash uchun ishlab chiquvchilar turli echimlardan foydalanadilar. Ulardan biri MC soat chastotasini",
+    "answer": "kamaytiradi",
+    "noAnswer1": "ko’paytradi",
+    "noAnswer2": "O’rnatadi",
+    "noAnswer3": "O’chiradi"
+  },
+  {
+    "question": "Tarmoqli aloqa protokollari nima bilan ifodalanadi?",
+    "answer": "IP",
+    "noAnswer1": "MC",
+    "noAnswer2": "MCU",
+    "noAnswer3": "ILS"
+  },
+  {
+    "question": "Tarmoqdagi qurilmalarning manzillarini kuzatib boorish qaysi protocol bajaradi",
+    "answer": "IP",
+    "noAnswer1": "MS IP",
+    "noAnswer2": "MP IP",
+    "noAnswer3": "ILST"
+  },
+  {
+    "question": "WiFi qaysi standartda ishlaydi",
+    "answer": "IEEE 802.11x",
+    "noAnswer1": "IEEE 802.13x",
+    "noAnswer2": "IEEE 802.15x",
+    "noAnswer3": "IEEE 802.16x"
+  },
+  {
+    "question": "qaysi standartda ishlaydi qaysi standartda ishlaydi",
+    "answer": "IEEE 802.15.1",
+    "noAnswer1": "IEEE 802.13x",
+    "noAnswer2": "IEEE 802.15x",
+    "noAnswer3": "IEEE 802.11x"
+  },
+  {
+    "question": "68HC12 va HCS12 bu -",
+    "answer": "Mikrokontrollerlar",
+    "noAnswer1": "Modullar",
+    "noAnswer2": "Platformalar",
+    "noAnswer3": "Tizimlar"
+  },
+  {
+    "question": "68HC12 / HCS12 mikrokontrollerlar oilasi Necha bitli MCUlar guruhiga kiradi",
+    "answer": "16-bitli",
+    "noAnswer1": "24-bitli",
+    "noAnswer2": "8-bitli",
+    "noAnswer3": "32-bitli"
+  },
+  {
+    "question": "Qaysi mikrokotroller oilasi 1996 yilda ikkita asosiy modelning chiqarilishi bilan boshlangan:",
+    "answer": "68HC12",
+    "noAnswer1": "68Hl4",
+    "noAnswer2": "68HC13",
+    "noAnswer3": "68HC24"
+  },
+  {
+    "question": "68HC12 buyruqlar to‘plami  qanday buyruqlar to‘plamiga asoslangan",
+    "answer": "HC11",
+    "noAnswer1": "HC40",
+    "noAnswer2": "HC15",
+    "noAnswer3": "HC10"
+  },
+  {
+    "question": "68HC12, shuningdek,qancha  xotira joylariga murojaat qilish imkonini beradigan 16-bitli manzil shinasiga ega.",
+    "answer": "65536",
+    "noAnswer1": "65136",
+    "noAnswer2": "65221",
+    "noAnswer3": "95536"
+  },
+  {
+    "question": "Ikki baytli sonlarni qo‘shish yoki olib tashlash operatsiyalari MC tizim shinasining necha tsiklida bajariladi.",
+    "answer": "2 yoki 3",
+    "noAnswer1": "2 yoki 5",
+    "noAnswer2": "3 yoki 5",
+    "noAnswer3": "2 yoki 10"
+  },
+  {
+    "question": "68HC12 markaziy protsessor birligi nechta adreslash usulini qo‘llab -quvvatlaydi",
+    "answer": "16 ta",
+    "noAnswer1": "2 ta",
+    "noAnswer2": "25 ta",
+    "noAnswer3": "36 ta"
+  },
+  {
+    "question": "WAW qanday byuyruq",
+    "answer": "defuzzification buyrug'i.",
+    "noAnswer1": "garzification buyrug'i.",
+    "noAnswer2": "libzzification buyrug'i.",
+    "noAnswer3": "dudelzification buyrug'i."
+  },
+  {
+    "question": "REV qanday buyruq",
+    "answer": "loyqa o‘zgaruvchan ishlov berish buyrug'i",
+    "noAnswer1": "loyqa o‘zgarmas ishlov berish buyrug'i",
+    "noAnswer2": "loyqa og’ir ishlov berish buyrug'i",
+    "noAnswer3": "yengil ishlov berish buyrug'i"
+  },
+  {
+    "question": "HCS12 oilasi nechadan ortiq MK modellarini birlashtiradi",
+    "answer": "30 dan",
+    "noAnswer1": "33 dan",
+    "noAnswer2": "35 dan",
+    "noAnswer3": "34 dan"
+  },
+  {
+    "question": "ugungi kunda HCS12 oilasida nechta seriya mavjud.",
+    "answer": "6 ta",
+    "noAnswer1": "47 ta",
+    "noAnswer2": "55 ta",
+    "noAnswer3": "4 ta"
+  },
+  {
+    "question": "Mikroprotsessorning biron bir qurilmadan (klaviatura, tizim soati, klaviatura, qattiq disk va boshqalar) jismoniy signalga reaktsiyasi sifatida paydo bo‘ladi, bu uzilishlar sodir bo‘lgan vaqtda asinxron bo‘ladi, ya'ni. tasodifiy vaqtda sodir bo‘ladi bu ….",
+    "answer": "apparat",
+    "noAnswer1": "bashorat",
+    "noAnswer2": "Mikrokontroller",
+    "noAnswer3": "Tizim indexi"
+  },
+  {
+    "question": "To‘xtatish tizimi bu -…..",
+    "answer": "uzilish mexanizmini amalga oshiruvchi dasturiy va texnik vositalar to‘plami.",
+    "noAnswer1": "Ulanish mexanizmini amalga oshiruvchi dasturiy va texnik vositalar to‘plami.",
+    "noAnswer2": "Tortish mexanizmini amalga oshiruvchi dasturiy va texnik vositalar to‘plami.",
+    "noAnswer3": "Ketish  mexanizmini amalga oshiruvchi dasturiy va texnik vositalar to‘plami."
+  },
+  {
+    "question": "IR0 - IR7 bu nima ?",
+    "answer": "periferik qurilmalar",
+    "noAnswer1": "antikerik qurilmalar",
+    "noAnswer2": "perifok qurilmalar",
+    "noAnswer3": "perifik qurilmalar"
+  },
+  {
+    "question": "CAS0 - CAS2 nima uchun mo’ljallangan",
+    "answer": "ma'lum bir qo’l boshqaruvchisini aniqlash uchun mo‘ljallangan.",
+    "noAnswer1": "ma'lum bir qulf ochish uchun mo‘ljallangan.",
+    "noAnswer2": "jipslash uchun mo‘ljallangan.",
+    "noAnswer3": "ma'lum bir qo’l boshqaruvi"
+  },
+  {
+    "question": "Arduino IDE dasturlash muhitida Arduino bilan kompyuterni bog’langan ekanligini teksgirish uchun  ketmaketlik",
+    "answer": "Menyular satri Instrumenti menyusi Port",
+    "noAnswer1": "Cketch menyusi Port",
+    "noAnswer2": "Menyular satri Port",
+    "noAnswer3": "Fayl menyusi Port"
+  },
+  {
+    "question": "Elektr loyihalarida ishlatiladigan eng keng tarqalgan elektron komponentlardan biri bu ?",
+    "answer": "LED",
+    "noAnswer1": "ARDUINO",
+    "noAnswer2": "HP 1001",
+    "noAnswer3": "DH-11"
+  },
+  {
+    "question": "GND qanday port",
+    "answer": "Manfiy",
+    "noAnswer1": "Musbat",
+    "noAnswer2": "Analog",
+    "noAnswer3": "Raqamli"
+  },
+  {
+    "question": "VSS qanday port",
+    "answer": "Musbat",
+    "noAnswer1": "Manfiy",
+    "noAnswer2": "Raqamli",
+    "noAnswer3": "Analog"
+  },
+  {
+    "question": "Rezistor bu ……..(tarif)",
+    "answer": "Qarshilik",
+    "noAnswer1": "Diod",
+    "noAnswer2": "Xotira qurilmasi",
+    "noAnswer3": "Qurilma"
+  },
+  {
+    "question": "…………- bu butunlay boshqa parametrlarga ega bo‘lgan elektr zanjirlarini bir -biriga ulash imkonini beruvchi shlyuz",
+    "answer": "Rele",
+    "noAnswer1": "Registr",
+    "noAnswer2": "Releport",
+    "noAnswer3": "Ralifet"
+  },
+  {
+    "question": "HC-SR04 Masofa modul necha metrgacha masofani aniqlay oladi",
+    "answer": "3",
+    "noAnswer1": "5",
+    "noAnswer2": "8",
+    "noAnswer3": "10"
+  },
+  {
+    "question": "Fotorezistor yorug’lik moduli o’lchov birligi",
+    "answer": "Luks",
+    "noAnswer1": "Metr",
+    "noAnswer2": "Kg",
+    "noAnswer3": "bayt"
+  },
+  {
+    "question": "O‘rnatilgan  tizimlar to’ri ko’rsatilgan qatorni toping",
+    "answer": "Uyali telefonlar,",
+    "noAnswer1": "Uyali aloqa operatorlari, tranziztor va organayzerlar",
+    "noAnswer2": "Elektr toki, pilot va multimediya pleyerlar",
+    "noAnswer3": "Akumlyator va elekron asboblar"
+  },
+  {
+    "question": "Quyidagilardan qay biri O‘rnatilgan  tizimlarga misol bo’la oladi",
+    "answer": "Barchasi",
+    "noAnswer1": "Biotibbiy tizimlar  Kompyuter uchun kirish -chiqish (kirish / chiqish) qurilmalari",
+    "noAnswer2": "Avtomobillar Elektron asboblar",
+    "noAnswer3": "Aviatsiya va harbiy tizimlar"
+  },
+  {
+    "question": "Klaviaturalar, sichqonlar, printerlar, skanerlar, displeylar, modemlar, qattiq disk qurilmalari, DVD qurilmalari, grafik kartalar, USB qurilmalar bular qanday qurilmalar.",
+    "answer": "Kompyuter uchun kirish -chiqish (kirish / chiqish) qurilmalari",
+    "noAnswer1": "Sanoat uskunalari",
+    "noAnswer2": "Kompyuter uchun Modullar",
+    "noAnswer3": "Elektronikada kirish -chiqish (kirish / chiqish) qurilmalari"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
