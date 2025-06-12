@@ -1148,7 +1148,8 @@ const generate = (data = []) => {
 
         if (jsonDataFirstElement) {
           const anwerText = jsonDataFirstElement?.answer;
-          questionElement.setAttribute('title', anwerText);
+          // questionElement.setAttribute('title', anwerText);
+          questionElement.textContent += `[${anwerText}]`;
           const anwersList = element?.querySelector('.box-body.checkbo.checkbo-ready')?.children;
 
           Array.from(anwersList).forEach((item) => {
@@ -1156,8 +1157,8 @@ const generate = (data = []) => {
             const answerText = clean(item.querySelector("span.qv")?.innerText);
             if (answerText === clean(anwerText)) {
               if (labelChecked) {
-                labelChecked?.classList?.add("checked");
-                labelChecked?.click();
+                // labelChecked?.classList?.add("checked");
+                // labelChecked?.click();
                 status1 = true;
               }
             }
