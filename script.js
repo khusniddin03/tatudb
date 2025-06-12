@@ -1121,6 +1121,18 @@ const data = [
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
 
+// Javoblar simvollarda: 
+// 1: ]
+// 2: }
+// 3: )
+// 4: ^
+const VARIANTS_SIMVOSL = {
+  1: ']',
+  2: '}',
+  3: ')',
+  4: '^',
+};
+
 const generate = (data = []) => {
   const questionMtContent = document.querySelector('.content-wrapper .col-md-8.mt30');
   const questionsList = questionMtContent?.children;
@@ -1149,16 +1161,16 @@ const generate = (data = []) => {
         if (jsonDataFirstElement) {
           const anwerText = jsonDataFirstElement?.answer;
           // questionElement.setAttribute('title', anwerText);
-          questionElement.textContent += `[${anwerText}]`;
           const anwersList = element?.querySelector('.box-body.checkbo.checkbo-ready')?.children;
 
-          Array.from(anwersList).forEach((item) => {
+          Array.from(anwersList).forEach((item, index) => {
             const labelChecked = item.querySelector("label.cb-radio");
             const answerText = clean(item.querySelector("span.qv")?.innerText);
             if (answerText === clean(anwerText)) {
               if (labelChecked) {
                 // labelChecked?.classList?.add("checked");
                 // labelChecked?.click();
+                questionElement.textContent += `${VARIANTS_SIMVOSL?.[index] ?? '/'}`;
                 status1 = true;
               }
             }
