@@ -1,1122 +1,2796 @@
 const data = [
   {
-    "question": "Pandas DataFrame yaratish uchun to'g'ri sintaksis nima?",
-    "answer": "pd.Dataframe(data)",
-    "noAnswer1": "pd.dataframe(data)",
-    "noAnswer2": "pd.Dataframe(Dataframe)",
-    "noAnswer3": "pd.Dataframa(data)"
+    "question": "Shaxsiy moliya nuqtai-nazaridan aktivlarni, shartli ravishda, nechta kategoriya (toifa)ga bo‘lish\r\nmumkin?",
+    "noAnswer1": "3",
+    "noAnswer2": "4",
+    "answer": "2",
+    "noAnswer3": "5"
   },
   {
-    "question": "NumPy kutubxonasini chaqirib olish qaysi qatorda tug’ri ko’rsatilgan.",
-    "answer": "import numpy as np",
-    "noAnswer1": "import numpy as npn",
-    "noAnswer2": "import numpy as pd",
-    "noAnswer3": "import numpy as nump"
+    "question": "Shaxsiy moliya nuqtai-nazaridan aktivlarni qaysi kategoriyalarini bilasiz?",
+    "answer": "iste’moliy va investitsion",
+    "noAnswer1": "moliyaviy va iqtisodiy",
+    "noAnswer2": "iqtisodiy va ijtimoiy",
+    "noAnswer3": "iste’moliy va moliyaviy"
   },
   {
-    "question": "Numpy kutubxonasi qanday turdagi ma’lumotlar ustida amal bajarish uchun ishlariladi?",
-    "answer": "N-ulchamli massivlarga ishlov berish uchun ishlatiladi.",
-    "noAnswer1": "Jadvallarga ishlov berish uchun ishlatiladi.",
-    "noAnswer2": "Jadvallarni faylda saqlash uchun ishlatiladi.",
-    "noAnswer3": "Barcha javoblar to’g’ri."
+    "question": "Shaxsiy moliyada biz bajarishimiz lozim bo‘lgan\r\nmoddiy majburiyatlar nima deyiladi?",
+    "noAnswer1": "aktivlar",
+    "noAnswer2": "Balans",
+    "answer": "passivlar",
+    "noAnswer3": "daromad"
   },
   {
-    "question": " Loyha Metodologiyasi nima?",
-    "answer": "Metodologiya – bu ma’lum bir sohadagi jarayonlar va faoliyatni boshqaradigan umumiy strategiya.",
-    "noAnswer1": "Barcha javoblar to’g’ri.",
-    "noAnswer2": "Metodologiya – biror faoliyatda qo’llaniladigan usullar tizimi. ",
-    "noAnswer3": "Metodologiya – ma’lum texnalogiyalar yoki vositalarga bog’liq emas, yoki tayyor reseptlar to’plami ham emas."
+    "question": "Bu sizning shaxsiy xazinangiz (ixtiyoringiz)ga kelib tushadigan pullar.",
+    "noAnswer1": "xarajatlar",
+    "noAnswer2": "Byudjet",
+    "answer": "daromadlar",
+    "noAnswer3": "foyda"
   },
   {
-    "question": "Bashorat qilish tizimlari",
-    "answer": "ob-havoni bashorat qilish, aholini bashorat qilish, iqtisodiy prognozlash, hosilni baholash va harbiy, marketing va moliyaviy prognozlarni o'z ichiga oladi.",
-    "noAnswer1": "tizimning xatti-harakatlari kuzatuvlarini maqsadga erishish uchun hal qiluvchi bo'lib ko'rinadigan standartlar bilan solishtiring",
-    "noAnswer2": "avtomatik dasturlash kabi rejalashtirish vazifalariga ixtisoslashgan",
-    "noAnswer3": "kuzatishlar natijasida vaziyatning tavsifini aniqlash"
+    "question": "Bu o‘z ehtiyojlaringizni qondirish uchun sarflayotgan pullaringiz.",
+    "answer": "xarajatlar",
+    "noAnswer1": "daromadlar",
+    "noAnswer2": "byudjet",
+    "noAnswer3": "zarar"
   },
   {
-    "question": "Kichik loyhalar uchun ishlatilinadigan metadalogiya qaysi javobda keltirilgan? ",
-    "answer": "Agile modeli. ",
-    "noAnswer1": "CRISP-DM modeli. ",
-    "noAnswer2": "Sharshara modeli",
-    "noAnswer3": "To’g’ri javob yuq."
+    "question": "Bu ma’lum mo‘ljallangan vaqt davomida (masalan, oy, chorak, yarim yil yoki yil) rejalashtirilgan\r\ndaromadlaringiz va xarajatlaringiz ro‘yxati.",
+    "noAnswer1": "daromadlar",
+    "noAnswer2": "Xarajatlar",
+    "answer": "byudjet",
+    "noAnswer3": "mablag‘"
   },
   {
-    "question": "Data Mining ?",
-    "answer": "ma'lumotlar bazalarida bilimlarni kashf qilish, bilimlarni olish, ma'lumotlarni qazib olish, ma'lumotlarni qazib olish, ma'lumotlar namunasini qayta ishlash, ma'lumotlarni tozalash va yig'ish uchun ishlatiladigan atama; Bunga tegishli dasturiy ta'minot ham kiradi.",
-    "noAnswer1": "muammoni hal qilish yoki qaror qabul qilish uchun tushunarli va qo'llanilishi uchun tashkil etilgan va tahlil qilingan ma'lumotlar",
-    "noAnswer2": "operatsiyalarni operativ qayta ishlash",
-    "noAnswer3": "Ma'lumotlarni saralash jarayoni"
+    "question": "Shaxsiy moliyaviy rejani ishlab chiqish nechta bosqichni o‘z ichiga oladi?",
+    "noAnswer1": "2",
+    "noAnswer2": "4",
+    "noAnswer3": "5",
+    "answer": "3"
   },
   {
-    "question": "Pandas DataFrame-da birinchi qatorni qaytarish uchun to'g'ri sintaksis nima?",
-    "answer": "df[0]",
-    "noAnswer1": "df[1]",
-    "noAnswer2": "df.loc[0]",
-    "noAnswer3": "dfloc[1]"
+    "question": "Daromad va iste’mol, ya’ni xarajatlarining bir-biriga muvofiq kelishiga qarab inson hayotini\r\nshartli ravishda nechta davrga bo‘lish mumkin?",
+    "noAnswer1": "2",
+    "noAnswer2": "3",
+    "answer": "4",
+    "noAnswer3": "5"
   },
   {
-    "question": " NumPy kutubxonasining ommalashishiga sabab bo’lgan asosiy omil qaysi?",
-    "answer": "Vektorlashgan hisoblash. ",
-    "noAnswer1": "Ishlatishga osonligi.",
-    "noAnswer2": "Raqamli hisoblash uskunalari.",
-    "noAnswer3": "Ishlashdagi tezligi."
+    "question": "Bu – distansion (masofaviy) bank xizmatlarini ko‘rsatishning zamonaviy takomillashgan\r\nshakllaridan biridir.",
+    "noAnswer1": "banking",
+    "answer": "onlayn-banking",
+    "noAnswer2": "free-banking",
+    "noAnswer3": "uzcard"
   },
   {
-    "question": "Bilim muhandisligi",
-    "answer": "bilimlardan foydalangan holda muammolarni hal qilish uchun mo'ljallangan tizimlarni yaratishga qaratilgan modellar, usullar va usullar to'plami",
-    "noAnswer1": "sun'iy intellekt va ma'lumotlar bazasi texnologiyasi uchun xos bo'lgan va ushbu ma'lumotlarning qayerda joylashganiga bog'liq bo'lmagan axborotga kirish va qayta ishlash usullarini muvaffaqiyatli va samarali amalga oshiradigan yagona vositalar (til) yaratilishini ta'minlash.",
-    "noAnswer2": "birinchi navbatda ma'lumotlar bazasi texnologiyasida, lekin KBMS talablariga moslashtirilgan bir qator vositalarni taqdim etish",
-    "noAnswer3": "ES metodologiyasi, ekspert bilimlari qoidalarida ajratib olish, tahlil qilish va ifodalash usullarini qamrab oladi"
+    "question": "Hozir dunyoda qancha miqdorda bankomatlar mavjud?",
+    "noAnswer1": "2,0 mln.dan kam",
+    "noAnswer2": "2,0 mln.",
+    "answer": "2,0 mln.dan ortiq",
+    "noAnswer3": "1,0 mln."
   },
   {
-    "question": "Bilimlar bazasi",
-    "answer": "muammolarni tushunish, shakllantirish va hal qilish uchun zarur bo'lgan bilim",
-    "noAnswer1": "muammoni hal qilish uchun o'rganish, o'qish va tajribadan olingan keng qamrovli, maxsus bilim",
-    "noAnswer2": "odatda inson tajribasini talab qiladigan muammolarni hal qilish uchun kompyuterga kiritilgan inson bilimlaridan foydalanadigan tizim",
-    "noAnswer3": "ob'ektlar, hodisalar yoki jarayonlar sinfini ifodalash uchun zarur bo'lgan minimal axborot tuzilmalari"
+    "question": "Saqlash yoki foiz (daromad) olish uchun bank hisob- varag‘iga o‘tkazilgan pul mablag‘lari ...........\r\ndeb ataladi.",
+    "noAnswer1": "kredit",
+    "noAnswer2": "sug'urta",
+    "answer": "omonat",
+    "noAnswer3": "investitsiya"
   },
   {
-    "question": "Intellektual tahlilchilarning ishlab chiquvchilar uchun integratsiyaning maqsadi",
-    "answer": "sun'iy intellekt va ma'lumotlar bazasi texnologiyasi uchun xos bo'lgan va ushbu ma'lumotlarning qayerda joylashganiga bog'liq bo'lmagan axborotga kirish va qayta ishlash usullarini muvaffaqiyatli va samarali amalga oshiradigan yagona vositalar (til) yaratilishini ta'minlash.",
-    "noAnswer1": "birinchi navbatda ma'lumotlar bazasi texnologiyasida, lekin KBMS talablariga moslashtirilgan bir qator vositalarni taqdim etish",
-    "noAnswer2": "bilimlardan foydalangan holda muammolarni hal qilish uchun mo'ljallangan tizimlarni yaratishga qaratilgan modellar, usullar va usullar to'plami",
-    "noAnswer3": "ES metodologiyasi, ekspert bilimlari qoidalarida ajratib olish, tahlil qilish va ifodalash usullarini qamrab oladi"
+    "question": "Pul muomalasi – bu",
+    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
+    "answer": "pulning o’z vazifasini bajarish jarayonidagi to’xtovsiz harakati.",
+    "noAnswer2": "pul mablag’larini ssuda fondi shaklida to’lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
+    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
   },
   {
-    "answer": "eng kam mavhum model - bu tizimning jismoniy nusxasi, odatda asl nusxadan farqli o'lchamdagi",
-    "noAnswer1": "vaqt o'tishi bilan o'zgarib turadigan stsenariylarni baholash uchun foydalaniladi",
-    "noAnswer2": "haqiqatning soddalashtirilgan tasviri yoki mavhumligi",
-    "noAnswer3": "vaziyatning oddiy \"suratini\" (yoki \"cast\") takrorlaydi"
+    "question": "Pulning qaysi vazifasi boylik to’plash bilan bog’liq?",
+    "answer": "jamg’arma vositasi",
+    "noAnswer1": "muomala vositasi",
+    "noAnswer2": "to’lov vositasi",
+    "noAnswer3": "qiymat o’lchovi"
   },
   {
-    "question": " Vektorlashgan hisoblashga ta’rif bering.",
-    "answer": "Massiv ko’rinishidagi ma’lumotlar to’plamining barcha elementlari ustida bir vaqtning o’zida hisoblash amallarini bajarish.",
-    "noAnswer1": "Massiv ko’rinishidagi ma’lumotlar tuplamining har bir elimenti ustida ketma-ket hisoblash amallarini bajarishi.",
-    "noAnswer2": "Massiv ko’rinishidagi ma’lumotlar to’plamining barcha elementlarini birma-bir massiv ko’rinishida saqlaydi.",
-    "noAnswer3": "Massiv ko’rinishidagi ma’lumotlar to’plamining barcha elementlarini bir vaqtning o’zida massiv ko’rinishida saqlaydi."
+    "question": "Pulning vazifasi nimadan iborat?",
+    "noAnswer1": "pul iste’moli bilan ijtimoiy talabga bo’lgan investitsiya omili",
+    "noAnswer2": "ijtimoiy taklif va almashuv uchun zarur bo’lgan miqdorni belgilaydigan kapital qiymatlar omili",
+    "noAnswer3": "daromadlar va xarajatlarni hisobga olish tizimi",
+    "answer": "yagona hisob – kitob yurgizish, almashuv, jamg’arma, muomila, to’lov vositasi vazifasini\r\nbajaradi"
   },
   {
-    "question": "N-o’lchamli massivlarning o’lchamini bilish metodini ko’rsating. ",
-    "answer": ".ndim",
-    "noAnswer1": ".dtype()",
-    "noAnswer2": ".dtype",
-    "noAnswer3": ".ndim()"
+    "question": "Pulning qaysi vazifasi narxning shakllanishi bilan bog’liq?",
+    "noAnswer1": "muomala vositasi",
+    "noAnswer2": "jamg’arma vositasi",
+    "answer": "qiymat o’lchovi",
+    "noAnswer3": "jahon puli"
   },
   {
-    "question": " Barcha elementlari 1 dan tashlik topgan (2,4) massiv yaratish kodini ko’rsating.",
-    "answer": "np.ones(shape=(2,4))",
-    "noAnswer1": "np.ones(size=(2,4))",
-    "noAnswer2": "np.ones(4,2)",
-    "noAnswer3": "np.ones[shape=(2,4)]"
+    "question": "Ehtiyoj - bu........",
+    "answer": "hayotiy vositalarga bo’lgan zaruriyat",
+    "noAnswer1": "ishlab chiqarish jarayoni",
+    "noAnswer2": "iste’mol jarayonida qo’llanilishi mumkin bo’lgan vosita",
+    "noAnswer3": "resurs"
   },
   {
-    "question": "Diagnostika tizimlari",
-    "answer": "tibbiyot, elektronika, mexanika va dasturiy ta'minot sohasidagi diagnostikani o'z ichiga oladi",
-    "noAnswer1": "kuzatishlar natijasida vaziyatning tavsifini aniqlash",
-    "noAnswer2": "tizimning xatti-harakatlari kuzatuvlarini maqsadga erishish uchun hal qiluvchi bo'lib ko'rinadigan standartlar bilan solishtiring",
-    "noAnswer3": "avtomatik dasturlash kabi rejalashtirish vazifalariga ixtisoslashgan"
+    "question": "Kapital - bu …",
+    "noAnswer1": "ishlab chiqarish jarayoni",
+    "noAnswer2": "iste’mol jarayonida qo’llanilishi mumkin bo’lgan vosita",
+    "answer": "investitsiyalashtirish yo‘li bilan daromad olish uchun foydalaniladigan mol-mulk, boylik yoki\r\nmablag‘",
+    "noAnswer3": "resurs"
   },
   {
-    "question": "Ekspertiza",
-    "answer": "muammoni hal qilish uchun o'rganish, o'qish va tajribadan olingan keng qamrovli, maxsus bilim",
-    "noAnswer1": "ob'ektlar, hodisalar yoki jarayonlar sinfini ifodalash uchun zarur bo'lgan minimal axborot tuzilmalari",
-    "noAnswer2": "muammolarni tushunish, shakllantirish va hal qilish uchun zarur bo'lgan bilim",
-    "noAnswer3": "odatda inson tajribasini talab qiladigan muammolarni hal qilish uchun kompyuterga kiritilgan inson bilimlaridan foydalanadigan tizim"
+    "question": "Insoniy kapital - bu …",
+    "answer": "Har bir shaxs va mamlakat barcha aholisining intellekti, salomatligi, tabiiy iste’dodi va qo‘lga\r\nkiritgan qobiliyatlarining majmui",
+    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
+    "noAnswer2": "pul mablag’larini ssuda fondi shaklida to’lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
+    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
   },
   {
-    "question": "Ekspert tizimi",
-    "answer": "odatda inson tajribasini talab qiladigan muammolarni hal qilish uchun kompyuterga kiritilgan inson bilimlaridan foydalanadigan tizim",
-    "noAnswer1": "ob'ektlar, hodisalar yoki jarayonlar sinfini ifodalash uchun zarur bo'lgan minimal axborot tuzilmalari",
-    "noAnswer2": "muammoni hal qilish uchun o'rganish, o'qish va tajribadan olingan keng qamrovli, maxsus bilim",
-    "noAnswer3": "muammolarni tushunish, shakllantirish va hal qilish uchun zarur bo'lgan bilim"
+    "question": "“Insoniy kapital” (human capital) tushunchasi qachon paydo bo‘lgan?",
+    "noAnswer1": "XIX asrning birinchi yarmida",
+    "noAnswer2": "XX asrning ikkinchi yarmida",
+    "answer": "XIX asrning ikkinchi yarmida",
+    "noAnswer3": "XX asrning birinchi yarmida"
   },
   {
-    "question": "arange funksiyasi yordamida 100 dan 200 gacha sonlar orasidan juft sonlardan massiv yaratish kodini ko’rsating.",
-    "answer": "np.arange(100,200,2)",
-    "noAnswer1": "pd.arange(100,200,2)",
-    "noAnswer2": "np.arange(size=(4,20,2)) ",
-    "noAnswer3": "np.arange(shape=(4,20,2))"
+    "question": "“Insoniy kapital” nazaryasi tarafdorlari kimlar?",
+    "noAnswer1": "Teodor Shuls, Gari Bekker",
+    "noAnswer2": "Gari Bekker va Saymon Kuzneslar",
+    "answer": "Teodor Shuls, Gari Bekker va Saymon Kuzneslar",
+    "noAnswer3": "Teodor Shuls"
   },
   {
-    "question": " Numpay funksiyasi yordamida (5,6) elementlari (0~1) oraliqda taxminiy qiymatlardan tashkil topgan massiv yaratish kodini ko’rsating. ",
-    "answer": "np.random.rand(5,6) ",
-    "noAnswer1": "np.random.randn(5,6) ",
-    "noAnswer2": "np.random.randint(0,1, size=(5,6))",
-    "noAnswer3": "barcha javoblar to’g’ri"
+    "question": "Insoniy naturaning har qanday xarakterli belgisi ….",
+    "answer": "iqtisodiy (jumladan, moliyaviy) mazmun (qiymat)ga egadir",
+    "noAnswer1": "jismoniy mazmunga egadir",
+    "noAnswer2": "ma'naviy mazmunga egadir",
+    "noAnswer3": "ijtimoiy mazmunga egadir"
   },
   {
-    "question": "Perseptronning kirishi",
-    "answer": "haqiqiy sonlardan tashkil topgan vektor",
-    "noAnswer1": "0 va 1 qiymatlari",
-    "noAnswer2": "nollar va birliklar vektori",
-    "noAnswer3": "butun haqiqiy o'q (-?;+?)"
+    "question": "Biz qabul qiladigan barcha qarorlarni nechta guruhga bo‘lish mumkin?",
+    "noAnswer1": "2",
+    "noAnswer2": "4",
+    "noAnswer3": "5",
+    "answer": "3"
   },
   {
-    "question": "pandas kutubxonasi tarkibidagi ikki eng muhim ma'lumotlar turi qanday ataladi? ",
-    "answer": "Series, DataFrame ",
-    "noAnswer1": "Massiv, Obyekt ",
-    "noAnswer2": "DataFrame va Massiv ",
-    "noAnswer3": "Obyekt, DataFrame."
+    "question": "Strategik menejment maktabi asoschilaridan biri bo‘lgan professor Genri Minsberg qarorlarni\r\nqanday atagan edi:",
+    "answer": "“oldin bajaraman”; “oldin ko‘raman”; “oldin o‘ylayman”.",
+    "noAnswer1": "“oldin o‘ylayman”; “oldin ko‘raman”; “oldin bajaraman”.",
+    "noAnswer2": "“oldin ko‘raman”; “oldin o‘ylayman”; “oldin bajaraman”.",
+    "noAnswer3": "“oldin ko‘raman”; “oldin bajaraman”; “oldin o‘ylayman”."
   },
   {
-    "question": "Series obyektining qiymatlarini ko'rish uchun uning qaysi parametriga murojaat qilamiz. ",
-    "answer": ".values",
-    "noAnswer1": ".np.values()",
-    "noAnswer2": "pd.index",
-    "noAnswer3": "np.index"
+    "question": "Qaror qabul qilishning nechta asosiy bosqichlari bor?",
+    "noAnswer1": "2",
+    "noAnswer2": "4",
+    "answer": "3",
+    "noAnswer3": "5"
   },
   {
-    "question": "Yig'ilib boriladigan ko'paytma metodini ko’rsating. ",
-    "answer": "cumprod()",
-    "noAnswer1": "cumsum()",
-    "noAnswer2": "sum()",
-    "noAnswer3": "mean()"
+    "question": "Maqsadga erishish muddatini shartli ravishda bo‘lsa ham, nechta guruhga bo‘lish mumkin?",
+    "noAnswer1": "2",
+    "answer": "3",
+    "noAnswer2": "4",
+    "noAnswer3": "5"
   },
   {
-    "question": "DataFrame ning dastlabki 20 qatorini qaytarish uchun to'g'ri sintaksis nima?",
-    "answer": "df.head(20)",
-    "noAnswer1": "df.head(19)",
-    "noAnswer2": "df.row(20)",
-    "noAnswer3": "df.column(20)"
+    "question": "Qisqa muddatli maqsadlar muddati qancha?",
+    "answer": "1 yilgacha",
+    "noAnswer1": "2 yilgacha",
+    "noAnswer2": "3 yilgacha",
+    "noAnswer3": "4 yilgacha"
   },
   {
-    "question": "CRISP-DM metodologiyasining yoyilmasini to`g`ri belgilang?",
-    "answer": "Cross industry standard proccessing-Data Mining",
-    "noAnswer1": "Classical industry standard proccessing-Data Mining",
-    "noAnswer2": "Cross industry server proccessing-Data Mining",
-    "noAnswer3": "Cross intelligence standard proccessing-Data Mining"
+    "question": "Bizning qaramog‘i (mulki)mizda va o‘zining pulli qiymatiga ega bo‘lgan barcha narsalar nima\r\ndeyiladi?",
+    "noAnswer1": "passivlar",
+    "noAnswer2": "balans",
+    "noAnswer3": "Daromad",
+    "answer": "aktivlar"
   },
   {
-    "question": "Predictive so'zining ma`nosi",
-    "answer": "Bashoratlash",
-    "noAnswer1": "Ehtimollash",
-    "noAnswer2": "tadqiqot",
-    "noAnswer3": "Oldindan sodir bolishi mumkin bo'lgan voqea yoki hodisa haqidagi aniq yechimni taqdim etadi"
+    "question": "Daromad va iste’mol, ya’ni xarajatlarining bir-biriga muvofiq kelishiga qarab inson hayotini\r\nshartli ravishda qanday davrlarga bo‘lish mumkin?",
+    "noAnswer1": "o‘smirlik, yetuklik, keksalik",
+    "noAnswer2": "yetuklik, keksalik",
+    "answer": "bolalik va yoshlik, o‘smirlik, yetuklik, keksalik",
+    "noAnswer3": "bolalik va yoshlik, o‘smirlik, yetuklik"
   },
   {
-    "question": "Predictive tahlil bizga qanday malumotlarni taqdim etadi?",
-    "answer": "Oldindan sodir bo`lishi mumkin bo`lgan voqea yoki hodisa haqida qimmatli ma'lumotlarni taqdim etadi",
-    "noAnswer1": "Aniq yechim taqdim etiladi",
-    "noAnswer2": "Qiyosiy tahlil taqdim etiladi",
-    "noAnswer3": "vazn qiymatlari juda kichik bo'ladi"
+    "question": "Insonning hayotiy siklidan kelib chiqib, shaxsiy moliyaviy maqsadlarning nechta asosiy guruhga\r\najratish mumkin?",
+    "noAnswer1": "2",
+    "noAnswer2": "4",
+    "answer": "3",
+    "noAnswer3": "5"
   },
   {
-    "question": "Agar tarmoq yashirin qatlamlarda juda ko'p sonli neyronlarga ega bo'lsa, u holda",
-    "answer": "tarmoqni qayta tayyorlash mumkin",
-    "noAnswer1": "tarmoqni o'qitish uchun zarur bo'lgan vaqt minimal",
-    "noAnswer2": "tarmoqni o'qitish uchun zarur bo'lgan vaqt, maksimal",
-    "noAnswer3": "tarmoq muammoni hal qilish uchun etarlicha moslashuvchan bo'lmasligi mumkin"
+    "question": "O‘z daromadlarimizni kapitalning qaysi turlarini shakllantirishga yo‘naltirishimiz kerak?",
+    "noAnswer1": "joriy; zahira; moliyaviy",
+    "noAnswer2": "bazaviy; zahira; investitsion",
+    "noAnswer3": "joriy; investitsion",
+    "answer": "joriy; zahira; investitsion"
   },
   {
-    "question": "Sun'iy neyron tarmoq – bu………………………….. ………….to'plami.",
-    "answer": "bir-biriga bog'langan neyronlar;",
-    "noAnswer1": "bir-biriga bog'lanmagan neyronlar",
-    "noAnswer2": "bir-biriga bog'langan neyropaketlar;",
-    "noAnswer3": "bir-biriga bog'langan neyroilovalar."
+    "question": "Tovarlar va xizmatlar bahosi umumiy darajasining oshish (o‘sish) jarayoni nima deyiladi.",
+    "noAnswer1": "bankrot",
+    "noAnswer2": "krizis",
+    "noAnswer3": "Defitsit",
+    "answer": "inflyatsiya"
   },
   {
-    "question": "ML ni o'qitishda qo'llaniladigan offline usuli kamchiligini aniqlang",
-    "answer": "Ko`plab ma`lumotlarni,vaqtni talab qiladi va ozgarish bo`lganida jarayonni yangilashga ehtiyoj seziladi",
-    "noAnswer1": "aynan bitta masalani hal qiladi",
-    "noAnswer2": "ma`lumotlar avtomatik tarzda yangilanadi",
-    "noAnswer3": "Hotiradan ko`p joyni talab qiladi"
+    "question": "O‘zbekiston Respublikasi qonunchiligiga ko‘ra necha yoshga to‘lgan har bir fuqaro depozit\r\n(omonat) shartnomasini tuzishi (imzolashi) mumkin?",
+    "noAnswer1": "15",
+    "noAnswer2": "16",
+    "answer": "14",
+    "noAnswer3": "18"
   },
   {
-    "question": "Sun'iy intellektdan foydalanishning funksional tuzilishi qanday komplekslardan\n\niborat?",
-    "answer": "Bajaruvchi tizim, intellektual interfeys, bilimlar bazasi",
-    "noAnswer1": "Foydalanuvchi, muloqot tizimi, programmalar",
-    "noAnswer2": "Konseptual qatlam, bajaruvchi, izlash vositalari",
-    "noAnswer3": "Hisoblash, translyatorlar, axborotli qatlam"
+    "question": "Pulni qanday shaklda to‘plash (yig‘ish, jamg‘arish) mumkin?",
+    "noAnswer1": "naqdina (naqd pulli)",
+    "noAnswer2": "Naqdsiz",
+    "answer": "naqdina (naqd pulli) va naqdsiz",
+    "noAnswer3": "plastik kartada"
   },
   {
-    "question": "Ma’lumotlar nima?",
-    "answer": "obyektlar, jarayonlar va hodisalarni hamda ularning xossalarini\n\ntavsiflaydi;",
-    "noAnswer1": " faqat obyektlar, jarayonlar va hodisalarni tavsiflayd",
-    "noAnswer2": "faqat mantiqiy obyektlar tavsiflaydi",
-    "noAnswer3": "funksional va strukturali jarayonlarni tavsiflaydi."
+    "question": "Pulni to‘plash (yig‘ish, jamg‘arish)ning eng oddiy usuli –?",
+    "answer": "uyda naqdina (naqd pul)",
+    "noAnswer1": "bankda naqdina (naqd pul)",
+    "noAnswer2": "plastik kartada",
+    "noAnswer3": "naqdsiz"
   },
   {
-    "question": "Bilimlar nima?",
-    "answer": "strukturalashgan ma’lumotlar",
-    "noAnswer1": "strukturalashgan obyektlar",
-    "noAnswer2": "strukturalashgan tizimlar",
-    "noAnswer3": "strukturalashgan predmetlar"
+    "question": "Shaxsiy moliyada inflyatsiya, odatda, qanday o‘lchanadi (ifodalanadi)?",
+    "noAnswer1": "dollar kursiga qarab",
+    "noAnswer2": "narxlar oshishi orqali",
+    "noAnswer3": "pul banknotalar ko'payshi orqali",
+    "answer": "iste’mol baholari indeksi (IBI) orqali"
   },
   {
-    "question": "Sinapslarning simmetriyasini rad etish usuli quyidagilarga imkon beradi:",
-    "answer": "maksimal xotira hajmiga erishish",
-    "noAnswer1": "tarmoq barqarorligini ta'minlash",
-    "noAnswer2": "mahalliy minimaldan saqlaning",
-    "noAnswer3": "global pasayishlardan qoching"
+    "question": "Bank qaysi funksiyalarni bajaradi?",
+    "noAnswer1": "1) pullarni qabul qiladi (oladi); 2) pullarni beradi.",
+    "answer": "1) pullarni qabul qiladi (oladi); 2) pullarni beradi; 3) hisob-kitob-kassa operatsiyalarini amalga\r\noshiradi.",
+    "noAnswer2": "1) pullarni qabul qiladi (oladi); 2) hisob-kitob-kassa operatsiyalarini amalga oshiradi.",
+    "noAnswer3": "1) pullarni beradi; 2) hisob-kitob-kassa operatsiyalarini amalga oshiradi."
   },
   {
-    "question": "Perseptronning mashg'uloti qachon tugallangan hisoblanadi",
-    "answer": "chiqish xatosi yetarlicha kichik bo'ladi",
-    "noAnswer1": "berilgan funksiyaning etarlicha aniq yaqinlashuviga erishildi",
-    "noAnswer2": "o'quv majmuasining barcha vektorlari bir marta ishga tushiriladi",
-    "noAnswer3": "o'quv majmuasining barcha vektorlari bir necha marta bajariladi"
+    "question": "Omonat (depozit)lar orqali fuqarolarning bo‘sh pul mablag‘larini to‘plovchi, ularni kreditlar\r\nberish yoki turli moliyaviy instrumentlarga (aksiya, obligatsiya va h.k.lar) investitsiyalab,\r\njoylashtiruvchi moliyaviy vositachi .......... deyiladi.",
+    "answer": "bank",
+    "noAnswer1": "xalq banki",
+    "noAnswer2": "diler",
+    "noAnswer3": "agent"
   },
   {
-    "question": "Perseptronni o'rganish algoritmi",
-    "answer": "nazorat ostida o'rganish algoritmi",
-    "noAnswer1": "nazoratsiz o'rganish algoritmi",
-    "noAnswer2": "mustahkamlash o'rganish algoritmi",
-    "noAnswer3": "o‘quvchi bilan o‘rganish algoritmi"
+    "question": "Foizi bilan qaytarish sharti asosida ma’lum bir muddatga taqdim etilgan (berilgan) pul\r\nmablag‘lari ........... deyiladi.",
+    "noAnswer1": "omonat",
+    "noAnswer2": "sug'urta",
+    "answer": "kredit",
+    "noAnswer3": "investitsiya"
   },
   {
-    "question": "Perseptronni o'rganish algoritmini bajargandan so'ng, biz chekli qadamlar ichida perseptron berilgan vazifani o'rgana olmaydi, deb ayta olamizmi?",
-    "answer": "Ha",
-    "noAnswer1": "Yo'q",
-    "noAnswer2": "vazifaga qarab",
-    "noAnswer3": "modelga qarab"
+    "question": "- bu mijozlarning banklardagi pul mablag‘laridir",
+    "noAnswer1": "kredit",
+    "noAnswer2": "sug'urta",
+    "noAnswer3": "Investitsiya",
+    "answer": "depozit(omonat)"
   },
   {
-    "question": "Berilgan chiqish neyronining xato signali deyiladi:",
-    "answer": "neyron chiqishi va uning maqsadli qiymati o'rtasidagi farq",
-    "noAnswer1": "faollashtirish funksiyasi hosilasi",
-    "noAnswer2": "berilgan chiqish neyroniga signal yuboradigan neyron uchun OUT qiymati",
-    "noAnswer3": "berilgan chiqish neyroniga signal yuboradigan neyron uchun NET qiymati"
+    "question": "– bu bank tomonidan qarz oluvchiga ma’lum muddat va ma’lum shartlarda pulni qarzga berish\r\nuchun ko‘rsatiladigan xizmatdir.",
+    "noAnswer1": "omonat",
+    "noAnswer2": "sug'urta",
+    "noAnswer3": "Investitsiya",
+    "answer": "bank krediti"
   },
   {
-    "question": "Agar ikkita namuna juda o'xshash bo'lsa, unda:",
-    "answer": "ular o'zaro bog'lanishlarga olib kelishi mumkin",
-    "noAnswer1": "ular bir naqshga birlashtirilishi mumkin",
-    "noAnswer2": "ular tarmoq barqarorligini buzishi mumkin",
-    "noAnswer3": "ular tarmoq chidamliligini kuchaytirishi mumkin"
+    "question": "Kreditga tegishli bo‘lishi mumkin bo‘lgan asosiy tavsif (belgi)larni ko‘rsating.",
+    "noAnswer1": "Haqlilik, to‘lovlilik. Muddatlilik.",
+    "noAnswer2": "Muddatlilik. Kreditning qaytariluvchanligi.",
+    "noAnswer3": "Kreditning qaytariluvchanligi.",
+    "answer": "Haqlilik, to‘lovlilik. Muddatlilik. Kreditning qaytariluvchanligi."
   },
   {
-    "question": "Agar kirish vektori saqlangan tasvirlardan biriga mos kelsa, u holda:",
-    "answer": "bir neyron tanib olish qatlamida yonadi",
-    "noAnswer1": "tanib olish qatlamining chiqishi mos keladigan saqlangan naqshdir",
-    "noAnswer2": "reset bloki ishga tushiriladi",
-    "noAnswer3": "barcha neyronlar tanib olish qatlamida yonadi"
+    "question": "– bu shunday prinsipdirki, unga ko‘ra pulning bir xildagi summasi turli davrning turli qismlarida\r\nturli qiymat (baho)ga ega bo‘ladi (xususan, inflyatsiya va turli risklar tufayli).",
+    "noAnswer1": "kreditning to‘liq qiymati",
+    "noAnswer2": "kredit summasi",
+    "answer": "pulning davriy qiymati",
+    "noAnswer3": "kredit muddati"
   },
   {
-    "question": "Statistik o'rganish algoritmlarida ikkita neyron o'rtasidagi sinoptik aloqaning o'zgarishi miqdori quyidagilarga bog'liq:",
-    "answer": "tasodifiy o'zgaradi",
-    "noAnswer1": "neyronning haqiqiy va kerakli natijalari o'rtasidagi farqdan",
-    "noAnswer2": "presinaptik neyronning qo'zg'alish darajasida",
-    "noAnswer3": "postsioptik neyronning qo'zg'alish darajasi bo'yicha"
+    "question": "Kredit mablag‘lari qaytarilishini qanday usullari bor?",
+    "answer": "annuitet va differensiatsiyalangan",
+    "noAnswer1": "annuitet",
+    "noAnswer2": "differensiatsiyalangan",
+    "noAnswer3": "tezkor"
   },
   {
-    "question": "Bir neyronli perseptron bilan umumiy makonning o'lchami aniqlanadi",
-    "answer": "kirish vektorining uzunligi",
-    "noAnswer1": "muayyan vazifaning konteksti",
-    "noAnswer2": "vazn qiymatlari",
-    "noAnswer3": "faollashtirish funktsiyasi chegarasi"
+    "question": "– bu qarz oluvchi egalik qilayotgan yoki qarziy mablag‘lar hisobiga sotib olayotgan (masalan,\r\navtomobil yoki ko‘chmas mulk) mol-mulk bo‘lib, u kredit qaytarilmaganda sotilishi mumkin.",
+    "noAnswer1": "kafolat",
+    "noAnswer2": "ta'minot",
+    "noAnswer3": "sug'urta",
+    "answer": "garov"
   },
   {
-    "question": "Bir qavatli perseptron quyidagi muammolarni hal qiladi:",
-    "answer": "funksiyalarning yaqinlashishi",
-    "noAnswer1": "naqshni aniqlash",
-    "noAnswer2": "ovozni aniqlash",
-    "noAnswer3": "Boshqa neyron tarmoqlarni o'rgatish"
+    "question": "– uni shu yerning o‘zidayoq, “kassa oldidan ketmasdan” bir necha minut davomida\r\nrasmiylashtirib, summani olib, xaridni amalga oshirish mumkin.",
+    "answer": "mikroqarz",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta"
   },
   {
-    "question": "Perseptronning aylanish teoremasi quyidagilarni bildiradi:",
-    "answer": "agar bu vazifani perseptron bilan ifodalash mumkin bo'lmasa, u holda o'rganish algoritmi tsiklga aylanadi",
-    "noAnswer1": "agar muammoning yechimi bo'lmasa, o'rganish algoritmi tsiklga aylanadi",
-    "noAnswer2": "har qanday o'rganish algoritmi tsikllari",
-    "noAnswer3": "agar muammoning yechimlari mavjud bo'lsa, u holda o'rganish algoritmi tsiklga aylanadi"
+    "question": "– xaridni ortga surish, iste’mol krediti uchun bankka murojaat qilish va faqat bir necha kun\r\no‘tgandan so‘ng xaridni amalga oshirish maqsadida do‘konga borsa bo‘ladi",
+    "noAnswer1": "mikroqarz",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta",
+    "answer": "iste’mol krediti"
   },
   {
-    "question": "Ko'p qatlamli perseptronning barcha neyronlarini o'rgatish mumkinmi?",
-    "answer": "faqat oxirgi qatlamning neyronlari",
-    "noAnswer1": "faqat birinchi qavatning neyronlari",
-    "noAnswer2": "Ha",
-    "noAnswer3": "faqat birinchi va oxirgi qatlamning neyronlari"
+    "question": "– qarz oluvchiga tadbirkorlik faoliyatini amalga oshirish uchun bazaviy hisoblash miqdorining\r\n1000 baravaridan oshmaydigan summada to‘lovlilik, muddatlilik va qaytarish shartlari asosida\r\nberiladigan pul mablag‘laridir.",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta",
+    "answer": "mikrokredit"
   },
   {
-    "question": "Qanday masalalarni yechishda ko’proq uch o'lchovli ob'ektlarni tanishdan\n\nfoydalaniladi?",
-    "answer": "rasmlarga ishlov berishda",
-    "noAnswer1": "qishloq xo'jaligida",
-    "noAnswer2": "texnika tashxisida",
-    "noAnswer3": "tibbiy tashxisda."
+    "question": "– mikromoliyaviy xizmatlar ko‘rsatuvchi tashkilot tomonidan lizing oluvchining topshirig‘iga\r\nbinoan uchinchi tarafdan mol-mulk olish hamda unga(dan) egalik qilish va foydalanish uchun\r\nlizing oluvchiga shartnomada belgilangan shartlar asosida haq evaziga berish nazarda\r\ntutiladigan xizmatdir.",
+    "answer": "mikrolizing",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta"
   },
   {
-    "question": "Exspert tizimlar ko’proq qanday bilimlarga asoslanadi",
-    "answer": "exspertlarning empirik bilimlari asosida shakllantirilgan bilimlarga",
-    "noAnswer1": "ilmiy jurnallardan olingan bilimlarga;",
-    "noAnswer2": "gazetadan olingan bilimlarga.",
-    "noAnswer3": "Kitoblardan olinga bilimlarga"
+    "question": "Nechinchi yildan boshlab tijorat banklari ham aholiga mikroqarzlar berishga haqlidir?",
+    "noAnswer1": "2017",
+    "noAnswer2": "2019",
+    "answer": "2018",
+    "noAnswer3": "2020"
   },
   {
-    "question": "ML da minimallashtirish tushunchasi nimani anglatadi",
-    "answer": "mazmunan bir biriga o`xshash ma'lumotlarni birlashtirish",
-    "noAnswer1": "neyronlarning bir qatlamini kamaytirish",
-    "noAnswer2": "Ma'lumotlarni kamaytirish",
-    "noAnswer3": "Yozilgan kodlar qatorini minimallashtirish"
+    "question": "Kredit byurosi tomonidan kredit axboroti sub’ektiga nisbatan shakllantirilgan kredit axboroti\r\nmajmui …... deyiladi.",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "Kredit",
+    "answer": "kredit tarixi",
+    "noAnswer3": "sug'urta"
   },
   {
-    "question": "sun'iy neyron",
-    "answer": "biologik neyronning asosiy funktsiyalarini taqlid qiladi",
-    "noAnswer1": "funksionalligi jihatidan biologik neyrondan ustundir",
-    "noAnswer2": "biologik neyronning modelidir",
-    "noAnswer3": "biologik neyronlar tarmog'idir"
+    "question": "bu – salohiyatli qarz oluvchini balli baholashning avtomatlashtirilgan tizimidir.",
+    "answer": "skoring",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta"
   },
   {
-    "question": "Tanib olish bosqichi boshlanadi:",
-    "answer": "kirish vektorini yetkazib berish vaqtida",
-    "noAnswer1": "hozirda reset qatlami ishga tushiriladi",
-    "noAnswer2": "tanib olish qatlamida g'olib neyronning qo'zg'alish momentida",
-    "noAnswer3": "tanib olish qatlamini ishga tushirish vaqtida"
+    "question": "Ekspress-kredit bizning bank amaliyotimizda qanday nom bilan mavjudligini e’tirof etish\r\nmumkin?",
+    "noAnswer1": "shoshilinch kredit",
+    "noAnswer2": "darkor kredit",
+    "answer": "tezkor kredit",
+    "noAnswer3": "vaqtli kredit"
   },
   {
-    "question": "Perseptron qanday holatda bu masalani hal qilishni o'rganishi mumkin?",
-    "answer": "agar muammo perseptron bilan ifodalansa",
-    "noAnswer1": "agar muammo butun sonli yechimga ega bo'lsa",
-    "noAnswer2": "agar muammoning yechimi bo'lsa",
-    "noAnswer3": "agar muammoning yechimi bo'lmasa"
+    "question": "... ya’ni oldingi (eski) kreditni qaytarish (uzish) uchun nisbatan yaxshiroq yoki qulayroq\r\nshartlarda yangi kredit olish.",
+    "noAnswer1": "qayta moliyalashtirish",
+    "noAnswer2": "kreditni moliyalashtirish",
+    "noAnswer3": "moliyalashtirish",
+    "answer": "kreditni qayta moliyalashtirish"
   },
   {
-    "question": "DAP tarmog'i bir hil bo'lmagan deb ataladi, agar:",
-    "answer": "har bir neyron o'z chegara funktsiyasiga ega",
-    "noAnswer1": "berilgan kirish vektori bir nechta muqobil assotsiatsiyalar bilan bog'lanishi mumkin",
-    "noAnswer2": "bog'langan vektorlar turli o'lchamlarga ega",
-    "noAnswer3": "bog'langan vektorlar bir xil o'lchamlarga ega"
+    "question": "Hayot tajribasining ko‘rsatishicha, shaxsiy byudjetni shunday hisob- kitob qilish kerakki, unga\r\nko‘ra kredit bo‘yicha to‘lanmalarni amalga oshirishda har oylik daromadlarning necha foizdan\r\nko‘prog‘i sarf qilinmasligi lozim?",
+    "answer": "40,0%",
+    "noAnswer1": "30,0%",
+    "noAnswer2": "50,0%",
+    "noAnswer3": "60,0%"
   },
   {
-    "question": "DAP qanday xotira turi?",
-    "answer": "geteroassotsiativ",
-    "noAnswer1": "manzil",
-    "noAnswer2": "avtomatik manzil",
-    "noAnswer3": "avtoassotsiativ"
+    "question": "Sotish kursi va sotib olish kursi o‘rtasidagi farq?",
+    "noAnswer1": "valyuta",
+    "noAnswer2": "depozit",
+    "noAnswer3": "Skoring",
+    "answer": "spred"
   },
   {
-    "question": "Modeling, Data Mining, Data File Sources, File Exporting",
-    "answer": "Maʼlumotlarni qayta ishlash texnologiyalari",
-    "noAnswer1": "Maʼlumotlarni qayta ishlash modellari",
-    "noAnswer2": "Maʼlumotlarni qayta ishlash usullari",
-    "noAnswer3": "Maʼlumotlarni qayta ishlash tizimlari"
+    "question": "Bank yacheykalari …............ deb ham ataladi.",
+    "noAnswer1": "“omonat yacheyka”",
+    "noAnswer2": "“kredit yacheyka”",
+    "answer": "“depozitar yacheyka”",
+    "noAnswer3": "“valyuta yacheyka”"
   },
   {
-    "question": "Maʼlumotni qayta ishlash xususiyatlari, ...... o‘z ichiga oladi",
-    "answer": "maʼlumotlarni to‘plash,saralash va tashkillashtirishni",
-    "noAnswer1": "maʼlumotlarni to‘plash ",
-    "noAnswer2": "maʼlumotlarni tashkillashtirishni",
-    "noAnswer3": "maʼlumotlarni saqlash"
+    "question": "Ularda pullar, qimmatli qog‘ozlar va yacheykani ijaraga olgan odam uchun qimmatbaho\r\n(qimmatli) hisoblangan har qanday boshqa predmetlar saqlanishi mumkin.",
+    "answer": "“bank yacheyka”",
+    "noAnswer1": "“omonat yacheyka”",
+    "noAnswer2": "“kredit yacheyka”",
+    "noAnswer3": "“valyuta yacheyka”"
   },
   {
-    "question": "Identifikatsiyani boshqarish funksional imkoniyatlari tizimga kirish huquqiga ega bo‘lgan barcha foydalanuvchilar, shu jumladan ...................boshqaradi",
-    "answer": "shaxsiy foydalanuvchilar, kompyuter uskunalari va dasturiy taʼminotni identifikatsiyalash maʼlumotlarini ",
-    "noAnswer1": "shaxsiy foydalanuvchilarmaʼlumotlarini ",
-    "noAnswer2": "shaxsiy foydalanuvchilar, kompyuter uskunalari va dasturiy taʼminotni ",
-    "noAnswer3": "kompyuter uskunalari va dasturiy taʼminotni "
+    "question": "Bank yacheykaga kirishning maksimal darajadagi xavfsizligini ta’minlash uchun ko‘p hollarda\r\nqaysi prinsipdan foydalaniladi?",
+    "noAnswer1": "“uch qulf”",
+    "noAnswer2": "“to'rt qulf”",
+    "noAnswer3": "“besh qulf”",
+    "answer": "“ikki qulf”"
   },
   {
-    "question": "Big Data Analytics vositalari ...",
-    "answer": "foydalanuvchilarga turli xil tahlil paketlari va modullarini taklif qiladi",
-    "noAnswer1": "foydalanuvchilarga bir xil tahlil paketlari va modullarini taklif qiladi",
-    "noAnswer2": "foydalanuvchilarga tahlil paketlari taklif qiladi",
-    "noAnswer3": "foydalanuvchilarga turli xil modullarini taklif qiladi"
+    "question": "Naqd pullar – ?",
+    "noAnswer1": "valyutalar",
+    "noAnswer2": "banknotalar",
+    "answer": "banknotalar va ma’lum bir nominalli tangalardir",
+    "noAnswer3": "ma’lum bir nominalli tangalar"
   },
   {
-    "question": "Statistik tahlil qancha bosqichda amalga oshiriladi",
-    "answer": 5,
-    "noAnswer1": 4,
-    "noAnswer2": 3,
-    "noAnswer3": 2
+    "question": "Naqd pullar almashtirib bo‘lmaydigan qanday afzalliklarga ega?",
+    "noAnswer1": "ularni hamma joyda qabul qilishadi; amalda ularni kuzatib turishning iloji yo‘q",
+    "noAnswer2": "ular ishonchli; ularni hamma joyda qabul qilishadi;",
+    "answer": "ular ishonchli; ularni hamma joyda qabul qilishadi; amalda ularni kuzatib turishning iloji yo‘q",
+    "noAnswer3": "ular ishonchli; amalda ularni kuzatib turishning iloji yo‘q"
   },
   {
-    "question": "Maʼlumotlarning mohiyatini tavsiflash, maʼlumotlarni taqdim etgan shaxs bilan bog‘liqlikni o‘rganish;",
-    "answer": "Statistik tahlilning 1-chi bosqichi",
-    "noAnswer1": "Statistik tahlilning 2-chi bosqichi",
-    "noAnswer2": "Statistik tahlilning 3-chi bosqichi",
-    "noAnswer3": "Statistik tahlilning 4-chi bosqichi"
+    "question": "“Banknota” so‘zining ma’nosi?",
+    "noAnswer1": "fransuzcha “bank” va “note” so‘zlaridan olingan",
+    "noAnswer2": "“bank puli” ma’nosini anglatadi",
+    "noAnswer3": "“bank valyutasi” ma’nosini anglatadi",
+    "answer": "inglizcha “bank” va “note” so‘zlaridan olingan bo‘lib, “bank yozuvi” ma’nosini anglatadi"
   },
   {
-    "question": "Ulanishlarni umumlashtirish uchun model yaratish;",
-    "answer": "Statistik tahlilning 2-chi bosqichi",
-    "noAnswer1": "Statistik tahlilning 1-chi bosqichi",
-    "noAnswer2": "Statistik tahlilning 3-chi bosqichi",
-    "noAnswer3": "Statistik tahlilning 4-chi bosqichi"
+    "question": "Bu tovarlar va xizmatlarni naqd pulsiz shaklda to‘lash, pullarni saqlash va tashish, kerak bo‘lgan\r\nhollarda esa, naqd pullarni olish (naqdlashtirish) uchun zarur hisoblangan zamonaviy qulay\r\ninstrumentdir",
+    "answer": "Bank to‘lov (plastik) kartalar",
+    "noAnswer1": "ID kartalar",
+    "noAnswer2": "bankomat",
+    "noAnswer3": "click xizmati"
   },
   {
-    "question": "To‘g‘riligini isbotlash;",
-    "answer": "Statistik tahlilning 3-chi bosqichi",
-    "noAnswer1": "Statistik tahlilning 1-chi bosqichi",
-    "noAnswer2": "Statistik tahlilning 2-chi bosqichi",
-    "noAnswer3": "Statistik tahlilning 4-chi bosqichi"
+    "question": "PIN-kod – ?",
+    "noAnswer1": "bu karta egasi to‘g‘risidagi ma’lumot",
+    "noAnswer2": "bu karta to‘g‘risidagi konfidensial ma’lumot",
+    "noAnswer3": "bu konfidensial ma’lumot",
+    "answer": "bu karta egasi to‘g‘risidagi konfidensial ma’lumot"
   },
   {
-    "question": "Rad etish;",
-    "answer": "Statistik tahlilning 4-chi bosqichi",
-    "noAnswer1": "Statistik tahlilning 1-chi bosqichi",
-    "noAnswer2": "Statistik tahlilning 2-chi bosqichi",
-    "noAnswer3": "Statistik tahlilning 3-chi bosqichi"
+    "question": "“Bankomat” so‘zi qaysi so‘zlarning qisqartirilishidan kelib chiqqan?",
+    "answer": "“bank avtomati”",
+    "noAnswer1": "“bank ma'lumoti”",
+    "noAnswer2": "“bank pulyumoti”",
+    "noAnswer3": "“bank promoti”"
   },
   {
-    "question": "Qarorlarni boshqarish uchun bashoratli tahlillarni qo‘llash.",
-    "answer": "Statistik tahlilning 5-chi bosqichi",
-    "noAnswer1": "Statistik tahlilning 1-chi bosqichi",
-    "noAnswer2": "Statistik tahlilning 2-chi bosqichi",
-    "noAnswer3": "Statistik tahlilning 3-chi bosqichi"
+    "question": "Birinchi bankomatlar qachon va qayerda paydo bo‘lgan?",
+    "noAnswer1": "o‘tgan asrning 60-yillarida Yevropada",
+    "noAnswer2": "o‘tgan asrning 60-yillarida AQShda",
+    "noAnswer3": "o‘tgan asrning 50-yillarida AQSh va Yevropada",
+    "answer": "o‘tgan asrning 60-yillarida AQSh va Yevropada"
   },
   {
-    "question": "ML qanday muammolarni hal qilish uchun",
-    "answer": "maʼlumotlar tahlilini amalga oshirish uchun tayanch vazifasini o‘tashi mumkin bo‘lgan ochiq manbali dasturlar to‘plami",
-    "noAnswer1": "butun maʼlumotlar tahlilini amalga oshirish uchun dasturlar to‘plami",
-    "noAnswer2": "maʼlumotlar tahlilini amalga oshirish uchun yopiq manbali dasturlar to‘plami",
-    "noAnswer3": "kompyuter fayllarini saqlash uchun  ochiq manbali dasturlar to‘plami"
+    "question": "Firibgarlikning usullaridan biri?",
+    "answer": "skimming",
+    "noAnswer1": "PIN",
+    "noAnswer2": "VISA",
+    "noAnswer3": "swimming"
   },
   {
-    "question": "Statistik tahlilning 1-chi bosqichi",
-    "answer": "Maʼlumotlarning mohiyatini tavsiflash, maʼlumotlarni taqdim etgan shachs bilan bog‘liqlikni o‘rganish;",
-    "noAnswer1": "Ulanishlarni umumlashtirish uchun model yaratish;",
-    "noAnswer2": "To‘g‘riligini isbotlash;",
-    "noAnswer3": "Rad etish;"
+    "question": "O‘zbekiston Respublikasi o‘z milliy valyutasini ishlab chiqarish uchun Markaziy bank huzurida\r\nqaysi korxona tashkil etgan?",
+    "noAnswer1": "“Davlat ramzi” Davlat ishlab chiqarish birlashmasini",
+    "noAnswer2": "“Davlat valyutasi” Davlat ishlab chiqarish birlashmasini",
+    "answer": "“Davlat belgisi” Davlat ishlab chiqarish birlashmasini",
+    "noAnswer3": "“Davlat puli” Davlat ishlab chiqarish birlashmasini"
   },
   {
-    "question": "Statistik tahlilning 2-chi bosqichi",
-    "answer": "Ulanishlarni umumlashtirish uchun model yaratish;",
-    "noAnswer1": "Maʼlumotlarning mohiyatini tavsiflash, maʼlumotlarni taqdim etgan shachs bilan bog‘liqlikni o‘rganish;",
-    "noAnswer2": "To‘g‘riligini isbotlash;",
-    "noAnswer3": "Rad etish;"
+    "question": "Banknot, pasport blanklari, turli qimmatli qog‘ozlar va boshqa qimmatliklarni xalqaro talablarga\r\njavob beradigan, yuqori darajada himoyalangan mahsulotlar ishlab chiqarish imkoniyatlari\r\nyaratilgan.",
+    "answer": "Bosma fabrikasida",
+    "noAnswer1": "Qog‘oz fabrikasida",
+    "noAnswer2": "Zarbxonada",
+    "noAnswer3": "Markaziy bankda"
   },
   {
-    "question": "Statistik tahlilning 3-chi bosqichi",
-    "answer": "To‘g‘riligini isbotlash;",
-    "noAnswer1": "Maʼlumotlarning mohiyatini tavsiflash, maʼlumotlarni taqdim etgan shachs bilan bog‘liqlikni o‘rganish;",
-    "noAnswer2": "Ulanishlarni umumlashtirish uchun model yaratish;",
-    "noAnswer3": "Rad etish;"
+    "question": "Sifatli va himoya belgilariga ega bo‘lgan qog‘oz mahsuloti ishlab chiqarish hamda Toshkent\r\nBosma fabrikasi qog‘oz xom-ashyosiga bo‘lgan talabini to‘liq ta’minlash yo‘lga qo‘yilgan.",
+    "noAnswer1": "Bosma fabrikasida",
+    "noAnswer2": "Zarbxonada",
+    "answer": "Qog‘oz fabrikasida",
+    "noAnswer3": "Markaziy bankda"
   },
   {
-    "question": "Statistik tahlilning 4-chi bosqichi",
-    "answer": "Rad etish;",
-    "noAnswer1": "Maʼlumotlarning mohiyatini tavsiflash, maʼlumotlarni taqdim etgan shachs bilan bog‘liqlikni o‘rganish;",
-    "noAnswer2": "Ulanishlarni umumlashtirish uchun model yaratish;",
-    "noAnswer3": "To‘g‘riligini isbotlash;"
+    "question": "Tanga, medal va orden, yo‘lovchi tashish transporti uchun jetonlar va boshqa zaruriy\r\nmahsulotlarni ishlab chiqarish orqali respublikamizni ushbu mahsulotlarga bo‘lgan talabini\r\nqondirish imkoniyati yaratilgan.",
+    "noAnswer1": "Bosma fabrikasida",
+    "noAnswer2": "Qog‘oz fabrikasida",
+    "noAnswer3": "Markaziy bankda",
+    "answer": "Zarbxonada"
   },
   {
-    "question": "Statistik tahlilning 5-chi bosqichi",
-    "answer": "Qarorlarni boshqarish uchun bashoratli tahlillarni qo‘llash.",
-    "noAnswer1": "Maʼlumotlarning mohiyatini tavsiflash, maʼlumotlarni taqdim etgan shachs bilan bog‘liqlikni o‘rganish;",
-    "noAnswer2": "Ulanishlarni umumlashtirish uchun model yaratish;",
-    "noAnswer3": "To‘g‘riligini isbotlash;"
+    "question": "Kreditlarga xos bo‘lgan qanday firibgarliklar uchraydi?",
+    "noAnswer1": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Kredit “qora” brokeri.",
+    "noAnswer2": "Siz olmagan kredit. “Do‘stlik” bo‘yicha majburiyatlar. Bir necha minutda kredit. Kredit “qora”\r\nbrokeri. Bank oldidagi qarzdorlikni “hamkorlikda moliyalashtirish”",
+    "noAnswer3": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Bank oldidagi qarzdorlikni “hamkorlikda\r\nmoliyalashtirish”.",
+    "answer": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Kredit “qora” brokeri. Bank oldidagi qarzdorlikni\r\n“hamkorlikda moliyalashtirish”."
   },
   {
-    "question": "Shaxsni anglab olish, shaxs ovozini va yuzini tanib olish, avtomobillarning tartib raqamini tanib olish neyron tarmoqlarning qo'llaniladigan qaysi sohasiga\n\nkiradi?",
-    "answer": "Xavfsizlik va qo’riqlash tizimlari",
-    "noAnswer1": "Aloqa",
-    "noAnswer2": "Avionika",
-    "noAnswer3": "Bank sohasida"
+    "question": "Unda oldin kelgan investorlarga to‘lanmalar keyin (yangi) kelgan investorlarning pul tushilmalari\r\nhisobidan amalga oshiriladi.",
+    "answer": "moliyaviy piramida",
+    "noAnswer1": "piramida",
+    "noAnswer2": "pulli piramida",
+    "noAnswer3": "iqtisodiy piramida"
   },
   {
-    "question": "Shaxsni anglab olish, shaxs ovozini va yuzini tanib olish, avtomobillarning tartib raqamini tanib olish neyron tarmoqlarning qaysi usuli yordamida o`rganiladi\n\nkiradi?",
-    "answer": "CNN",
-    "noAnswer1": "ML",
-    "noAnswer2": "DNN",
-    "noAnswer3": "NLP"
+    "question": "Ko‘plab moliyaviy piramidalarning eng asosiy va o‘zgarmaydigan belgisi.",
+    "noAnswer1": "yuqori xarajat va’da qilish",
+    "noAnswer2": "valyuta va’da qilish",
+    "answer": "yuqori daromad va’da qilish",
+    "noAnswer3": "oltin va’da qilish"
   },
   {
-    "question": "Analog model -",
-    "answer": "haqiqiy tizimga o'xshamaydi, lekin uning xatti-harakatlarini taqlid qiladi",
-    "noAnswer1": "vaziyatning oddiy \"suratini\" (yoki \"cast\") takrorlaydi",
-    "noAnswer2": "vaqt o'tishi bilan o'zgarib turadigan stsenariylarni baholash uchun foydalaniladi",
-    "noAnswer3": "eng kam mavhum model - bu tizimning jismoniy nusxasi, odatda asl nusxadan farqli o'lchamdagi"
+    "question": "Valyuta kurslarining tebranish (o‘zgarish) sabablari to‘g‘risidagi odamlarning bu tarzdagi\r\n“ogohligi”dan valyuta bozoridagi savdo.",
+    "noAnswer1": "Exchange",
+    "noAnswer2": "Uzex",
+    "noAnswer3": "Firefox",
+    "answer": "Forex"
   },
   {
-    "question": "Aslida, bilim muhandisligi:",
-    "answer": "bilimlardan foydalangan holda muammolarni hal qilish uchun mo'ljallangan tizimlarni yaratishga qaratilgan modellar, usullar va usullar to'plami",
-    "noAnswer1": "sun'iy intellekt va ma'lumotlar bazasi texnologiyasi uchun xos bo'lgan va ushbu ma'lumotlarning qayerda joylashganiga bog'liq bo'lmagan axborotga kirish va qayta ishlash usullarini muvaffaqiyatli va samarali amalga oshiradigan yagona vositalar (til) yaratilishini ta'minlash.",
-    "noAnswer2": "ES metodologiyasi, ekspert bilimlari qoidalarida ajratib olish, tahlil qilish va ifodalash usullarini qamrab oladi",
-    "noAnswer3": "birinchi navbatda ma'lumotlar bazasi texnologiyasida, lekin KBMS talablariga moslashtirilgan bir qator vositalarni taqdim etish"
+    "question": "Forexda faqat …........ yutuqli holda bo‘ladi.",
+    "noAnswer1": "diler",
+    "noAnswer2": "treyder",
+    "noAnswer3": "haridor",
+    "answer": "broker"
   },
   {
-    "question": "Tarjima qilish tizimlari",
-    "answer": "kuzatishlar natijasida vaziyatning tavsifini aniqlash",
-    "noAnswer1": "ob-havoni bashorat qilish, aholini bashorat qilish, iqtisodiy prognozlash, hosilni baholash va harbiy, marketing va moliyaviy prognozlarni o'z ichiga oladi.",
-    "noAnswer2": "avtomatik dasturlash kabi rejalashtirish vazifalariga ixtisoslashgan",
-    "noAnswer3": "tizimning xatti-harakatlari kuzatuvlarini maqsadga erishish uchun hal qiluvchi bo'lib ko'rinadigan standartlar bilan solishtiring"
+    "question": "Forex bozorida ishlab topish – ?",
+    "noAnswer1": "juda oson",
+    "noAnswer2": "Murakkab",
+    "answer": "o‘ta murakkab",
+    "noAnswer3": "oson"
   },
   {
-    "question": "Dinamik matematik model",
-    "answer": "vaqt o'tishi bilan o'zgarib turadigan stsenariylarni baholash uchun foydalaniladi",
-    "noAnswer1": "haqiqatning soddalashtirilgan tasviri yoki mavhumligi",
-    "noAnswer2": "eng kam mavhum model - bu tizimning jismoniy nusxasi, odatda asl nusxadan farqli o'lchamdagi",
-    "noAnswer3": "vaziyatning oddiy \"suratini\" (yoki \"cast\") takrorlaydi."
+    "question": "Korxona faoliyatini rejalashtirish qanday ahamiyatga ega?",
+    "answer": "Rejalashtirish - korxona samarali faoliyatinining omillarini tanlash va o‘zaro bog‘lash shaklidir",
+    "noAnswer1": "Rejalashtirish - korxona samarali faoliyatining omilidir",
+    "noAnswer2": "Rejalashtirish - korxona faoliyatini tashkil etuvchi omillar yig‘ish jarayonidir",
+    "noAnswer3": "Rejalashtirish- korxona faoliyatini tashkil etish va tugatish omilidir"
   },
   {
-    "question": "Bashorat qilish tizimlari",
-    "answer": "ob-havoni bashorat qilish, aholini bashorat qilish, iqtisodiy prognozlash, hosilni baholash va harbiy, marketing va moliyaviy prognozlarni o'z ichiga oladi.",
-    "noAnswer1": "tizimning xatti-harakatlari kuzatuvlarini maqsadga erishish uchun hal qiluvchi bo'lib ko'rinadigan standartlar bilan solishtiring",
-    "noAnswer2": "avtomatik dasturlash kabi rejalashtirish vazifalariga ixtisoslashgan",
-    "noAnswer3": "kuzatishlar natijasida vaziyatning tavsifini aniqlash"
+    "question": "Korxona rejasi bu…. (to‘g‘ri javobni bering)",
+    "noAnswer1": "Ko‘zda tutilgan iqtisodiy samaradorlikni ilmiy va amaliy jihatdan asoslash",
+    "noAnswer2": "Tadbirkorlik faoliyati bilan bog‘liq bo‘lgan aniq hisoblar tizimi",
+    "noAnswer3": "Maqsadni belgilash, yo‘nalishlarini va vazifalarini aniqlash hamda nazorat qilishda muvofiqlikni\r\nta’minlashdir",
+    "answer": "Maqsadlarga erishish chora-tadbirlarini oldindan ishlab chiqish hamda resurslar orasida\r\nmuvofiqlikni ta’minlash"
   },
   {
-    "question": "Har xil qaror qabul qilish holatlari uchun modellarning asosiy toifalari",
-    "answer": "yuqoridagilarning barchasi",
-    "noAnswer1": "Simulyatsiya, vizual modellashtirish va simulyatsiya",
-    "noAnswer2": "Matematik dasturlash yordamida optimallashtirish",
-    "noAnswer3": "evristik dasturlash"
+    "question": "Maqsad- bu …….",
+    "noAnswer1": "Foydani maksimallashtirish",
+    "noAnswer2": "Obyekt faoliyati haqidagi tushuncha",
+    "answer": "Obyektning kelgusidagi istalgan holati",
+    "noAnswer3": "Korxona imidji va tovar markasi"
   },
   {
-    "question": "Data Mining yoki Data Mining",
-    "answer": "ma'lumotlar bazalarida bilimlarni kashf qilish, bilimlarni olish, ma'lumotlarni qazib olish, ma'lumotlarni qazib olish, ma'lumotlar namunasini qayta ishlash, ma'lumotlarni tozalash va yig'ish uchun ishlatiladigan atama; Bunga tegishli dasturiy ta'minot ham kiradi.",
-    "noAnswer1": "muammoni hal qilish yoki qaror qabul qilish uchun tushunarli va qo'llanilishi uchun tashkil etilgan va tahlil qilingan ma'lumotlar",
-    "noAnswer2": "operatsiyalarni operativ qayta ishlash",
-    "noAnswer3": "operatsiyalarni operativ qayta ishlash"
+    "question": "Zarur hisob kitoblar hamda dalillar asosida korxona faoliyatining qisqa va uzoq muddatli\r\nstrategiyasini aniqlash – bu",
+    "noAnswer1": "Rejalashtirish maqsadi",
+    "noAnswer2": "Rejalashtirish mohiyati",
+    "answer": "Rejalashtirish vazifasi",
+    "noAnswer3": "Rejalashtirish mexanizmi"
   },
   {
-    "question": "Statik matematik model",
-    "answer": "vaziyatning oddiy \"suratini\" (yoki \"cast\") takrorlaydi",
-    "noAnswer1": "haqiqatning soddalashtirilgan tasviri yoki mavhumligi",
-    "noAnswer2": "vaqt o'tishi bilan o'zgarib turadigan stsenariylarni baholash uchun foydalaniladi",
-    "noAnswer3": "eng kam mavhum model - bu tizimning jismoniy nusxasi, odatda asl nusxadan farqli o'lchamdagi"
+    "question": "Korxonada rejalashtirilayotgan reja ko‘rsatkichlarini asoslash yo‘llari, uslublarining tarkibi\r\nshuningdek ichki reja mazmuni, shakli, strukturasi va tuzish tartibini nima belgilaydi?",
+    "noAnswer1": "Rejalashtirish texnologiyasi",
+    "noAnswer2": "Rejalashtirish predmeti",
+    "noAnswer3": "Rejalashtirish uslubiyati",
+    "answer": "Rejalashtirish usuli"
   },
   {
-    "question": "Model protsessor odatda quyidagi amallarni bajaradi",
-    "answer": "yuqoridagilarning barchasi",
-    "noAnswer1": "tizimning dialog komponentidan keladigan modellashtirish ko'rsatmalarini tasdiqlash va talqin qilish va ularni modelni boshqarish tizimiga o'tkazish",
-    "noAnswer2": "model integratsiyasi, ya'ni. kerak bo'lganda bir nechta modellarning operatsiyalarini birlashtirish",
-    "noAnswer3": "modelning bajarilishi, ya'ni. modelni davom ettirish yoki amalga oshirishni boshqarish jarayoni"
+    "question": "Ko‘rsatkichlar orasida muvofiqlikni va bog‘liqlikni ta’minlaydi",
+    "answer": "Balans uslub",
+    "noAnswer1": "Ekstropolyatsiya uslub",
+    "noAnswer2": "Normativ uslub",
+    "noAnswer3": "Iqtisodiy matematik uslub"
   },
   {
-    "question": "Bilim muhandisligi",
-    "answer": "bilimlardan foydalangan holda muammolarni hal qilish uchun mo'ljallangan tizimlarni yaratishga qaratilgan modellar, usullar va usullar to'plami",
-    "noAnswer1": "sun'iy intellekt va ma'lumotlar bazasi texnologiyasi uchun xos bo'lgan va ushbu ma'lumotlarning qayerda joylashganiga bog'liq bo'lmagan axborotga kirish va qayta ishlash usullarini muvaffaqiyatli va samarali amalga oshiradigan yagona vositalar (til) yaratilishini ta'minlash.",
-    "noAnswer2": "birinchi navbatda ma'lumotlar bazasi texnologiyasida, lekin KBMS talablariga moslashtirilgan bir qator vositalarni taqdim etish",
-    "noAnswer3": "ES metodologiyasi, ekspert bilimlari qoidalarida ajratib olish, tahlil qilish va ifodalash usullarini qamrab oladi"
+    "question": "Ko‘rsatkich - ....",
+    "noAnswer1": "Jarayonning faqat miqdoriy hajmini ifodalaydi",
+    "noAnswer2": "Jarayon yoki hodisaning moddiy buyumlashgan holatini hamda mazmunini tavsiflaydi",
+    "answer": "Jarayonning yoki hodisaning ijtimoiy iqtisodiy holatini, mohiyatini hamda mazmunini\r\ntavsiflaydi",
+    "noAnswer3": "Jarayon yoki hodisaning ham miqdor va sifat tomonlarini tavsiflaydi"
   },
   {
-    "question": "Bilimlar bazasi",
-    "answer": "muammolarni tushunish, shakllantirish va hal qilish uchun zarur bo'lgan bilim",
-    "noAnswer1": "muammoni hal qilish uchun o'rganish, o'qish va tajribadan olingan keng qamrovli, maxsus bilim",
-    "noAnswer2": "odatda inson tajribasini talab qiladigan muammolarni hal qilish uchun kompyuterga kiritilgan inson bilimlaridan foydalanadigan tizim",
-    "noAnswer3": "ob'ektlar, hodisalar yoki jarayonlar sinfini ifodalash uchun zarur bo'lgan minimal axborot tuzilmalari"
+    "question": "Ishlab chiqarish faoliyatini ifodalaydi ...",
+    "answer": "Umumiy ko‘rsatkich",
+    "noAnswer1": "Xususiy ko‘rsatkich",
+    "noAnswer2": "Miqdor ko‘rsatkich",
+    "noAnswer3": "Natural ko‘rsatkich"
   },
   {
-    "question": "Intellektual tizimlarni ishlab chiquvchilar uchun integratsiyaning maqsadi",
-    "answer": "sun'iy intellekt va ma'lumotlar bazasi texnologiyasi uchun xos bo'lgan va ushbu ma'lumotlarning qayerda joylashganiga bog'liq bo'lmagan axborotga kirish va qayta ishlash usullarini muvaffaqiyatli va samarali amalga oshiradigan yagona vositalar (til) yaratilishini ta'minlash.",
-    "noAnswer1": "birinchi navbatda ma'lumotlar bazasi texnologiyasida, lekin KBMS talablariga moslashtirilgan bir qator vositalarni taqdim etish",
-    "noAnswer2": "bilimlardan foydalangan holda muammolarni hal qilish uchun mo'ljallangan tizimlarni yaratishga qaratilgan modellar, usullar va usullar to'plami",
-    "noAnswer3": "ES metodologiyasi, ekspert bilimlari qoidalarida ajratib olish, tahlil qilish va ifodalash usullarini qamrab oladi"
+    "question": "Ijtimoiy-mehnatni rejalashtirish obyekti bo‘lib nima xizmat qiladi?",
+    "noAnswer1": "Texnologik jihozlar",
+    "answer": "Mehnat resurslari",
+    "noAnswer2": "Ish haqi fondi",
+    "noAnswer3": "Iqtisodiy resurslar"
   },
   {
-    "question": "Jismoniy model",
-    "answer": "eng kam mavhum model - bu tizimning jismoniy nusxasi, odatda asl nusxadan farqli o'lchamdagi",
-    "noAnswer1": "vaqt o'tishi bilan o'zgarib turadigan stsenariylarni baholash uchun foydalaniladi",
-    "noAnswer2": "haqiqatning soddalashtirilgan tasviri yoki mavhumligi",
-    "noAnswer3": "vaziyatning oddiy \"suratini\" (yoki \"cast\") takrorlaydi"
+    "question": "Quyidagi klassifikatsion belgilardan qaysi biri reja turlariga tegishli emas?",
+    "noAnswer1": "Asoslash usuliga ko‘ra",
+    "noAnswer2": "Maqsad turiga ko‘ra",
+    "answer": "Resurslar turi bo‘yicha",
+    "noAnswer3": "Mazmuniga ko‘ra"
   },
   {
-    "question": "Model -",
-    "answer": "haqiqatning soddalashtirilgan tasviri yoki mavhumligi",
-    "noAnswer1": "vaziyatning oddiy \"suratini\" (yoki \"cast\") takrorlaydi",
-    "noAnswer2": "vaqt o'tishi bilan o'zgarib turadigan stsenariylarni baholash uchun foydalaniladi",
-    "noAnswer3": "eng kam mavhum model - bu tizimning jismoniy nusxasi, odatda asl nusxadan farqli o'lchamdagi"
+    "question": "Rejalashtirishning qanday umumiy klassik printsiplari mavjud?",
+    "noAnswer1": "Sistemalik, birlik, uzluksizlik, o‘zgaruvchanlik, aniqlilik",
+    "noAnswer2": "Zaruriylik, optimallik, birlik, uzluksizlik, o‘zgaruvchanlik",
+    "answer": "Zaruriylik, yagonalik, uzluksizlik, o‘zgaruvchanlik, aniqlik",
+    "noAnswer3": "Zaruriylik, komplekslilik, uzluksizlik, o‘zgaruvchanlik, aniqlilik"
   },
   {
-    "question": "Jadvallar bilan ishlash uchun Python dasturlash tilining qaysi kutubxinasidan foydalaniladi",
-    "answer": "Pandas",
-    "noAnswer1": "Numpy",
-    "noAnswer2": "Django",
-    "noAnswer3": "Seaborn"
+    "question": "Koordinatsiyalash – bu",
+    "noAnswer1": "Yaqin darajadagi obyektlar o‘rtasidagi aloqani belgilaydi",
+    "noAnswer2": "Turli darajadagi obyektlar o‘tasidagi aloqani belgilaydi",
+    "answer": "Bir xil darajadagi obyektlar o‘rtasidagi aloqani belgilaydi",
+    "noAnswer3": "Tuzilgan rejaning maqsadga erishish usulini belgilaydi"
   },
   {
-    "question": "Diagrammani ko'rsatish uchun qaysi buyrugdan foydalaniladi",
-    "answer": "plt.show()",
-    "noAnswer1": "plt.print()",
-    "noAnswer2": "plt.art()",
-    "noAnswer3": "plt.gistogramm()"
+    "question": "Iqtisodiy rivojlanishning qanday turlari mavjud?",
+    "answer": "Ideal, real, radikal",
+    "noAnswer1": "Induktiv va deduktiv",
+    "noAnswer2": "Ideal va radikal",
+    "noAnswer3": "Analitik va statistik"
   },
   {
-    "question": "ML tarkibidagi regressiya usuli qaysi yo'nalishlarda qo'llaniladi",
-    "answer": "Prognozlash ilmida",
-    "noAnswer1": "aniq yechimni taqdim etadi",
-    "noAnswer2": "sinflarga ajratishda muhim ahamiyatga ega",
-    "noAnswer3": "tahlil va aniq hulosani taqdim etishda"
+    "question": "Korxona potensiali deganda nimani tushunasiz?",
+    "noAnswer1": "Insonlarning iqtisodiy faoliyatga bo‘lgan qobiliyati majmuidir",
+    "noAnswer2": "Korxona potentsiali mehnat, iqtisodiy tashkiliy, ilmiy texnik texnik potentsiallar majmuidir.",
+    "answer": "Korxona potensiali uning qudrati, manbai, imkoniyatini harakterlaydigan ko‘rsatkichlar yoki\r\nomillar yig‘indisi, iqtisodiy faoliyatda foydalanadigan vositalar, zahiralar, qobiliyatlar,\r\nresurslardir",
+    "noAnswer3": "Korxona potentsiali tashkilotining rejalashtirilgan va xizmatlarni bajarish uchun zarur bo‘lgan\r\nmehnat, material, moliyaviy va boshqa resurslar majmuidir"
   },
   {
-    "question": "kuzatishlar natijasida vaziyatning tavsifini aniqlash",
-    "answer": "haqiqatning soddalashtirilgan tasviri yoki mavhumligi",
-    "noAnswer1": "vaziyatning oddiy \"suratini\" (yoki \"cast\") takrorlaydi",
-    "noAnswer2": "vaqt o'tishi bilan o'zgarib turadigan stsenariylarni baholash uchun foydalaniladi",
-    "noAnswer3": "eng kam mavhum model - bu tizimning jismoniy nusxasi, odatda asl nusxadan farqli o'lchamdagi"
+    "question": "Mehnatga haq to‘lashni tashkil etishda qaysi me’yoriy hujjatga asoslanadi?",
+    "answer": "Mehnatga haq to‘lashni yagona tarif stavkasiga, 2009 yil 21-iyul 206-son",
+    "noAnswer1": "Mehnat kodeksining 153, 154, 156-moddalariga",
+    "noAnswer2": "Vazirlar mahkamasining 2015 yil 13-iyundagi 164-sonli qarori bilan tasdiqlangan klassifikatorga",
+    "noAnswer3": "Mehnatga haq to‘lashni yagona tarif stavkasiga, 1999 yil 21-iyul 206-son"
   },
   {
-    "question": "Har xil qaror qabul qilish holatlari uchun modellarning asosiy toifalari",
-    "answer": "yuqoridagilarning barchasi",
-    "noAnswer1": "Simulyatsiya, vizual modellashtirish va simulyatsiya",
-    "noAnswer2": "Matematik dasturlash yordamida optimallashtirish",
-    "noAnswer3": "evristik dasturlash"
+    "question": "Rivojlanish yo‘nalishlarini sifatda va sonda tasvirlash bu...",
+    "noAnswer1": "Reja vazifasi",
+    "noAnswer2": "Reja mohiyati",
+    "answer": "Reja maqsadi",
+    "noAnswer3": "Reja mexanizmi"
   },
   {
-    "question": "OLAP - Onlayn tahliliy ishlov berish",
-    "answer": "operativ analitik ishlov berish",
-    "noAnswer1": "operatsiyalarni operativ qayta ishlash",
-    "noAnswer2": "ma'lumotlar bazalarida bilimlarni kashf qilish, bilim olish, ma'lumotlarni qazib olish, ma'lumotlarni o'rganish, ma'lumotlar namunalarini qayta ishlash, ma'lumotlarni tozalash va yig'ish uchun ishlatiladigan atama",
-    "noAnswer3": "Bu, shuningdek, muammoni hal qilish yoki qaror qabul qilish uchun tushunarli va foydalanish uchun tashkil etilgan va tahlil qilingan tegishli dasturiy ta'minot ma'lumotlariga ham tegishli."
+    "question": "Material resurlardan foydalanish koeffitsienti qanday aniqlanadi?",
+    "answer": "Haqiqiy material resurslari sarfini material sarfi normasiga nisbati orqali",
+    "noAnswer1": "Detal og‘irligini yarim tayyor mahsulot og‘irligiga nisbati",
+    "noAnswer2": "Sotilayotgan chiqindilarning og‘irligini sotilayotgan chiqindilar bahosiga nisbati",
+    "noAnswer3": "Yillik ishlab chiqarish ‘ajmini o‘rtacha quvvatga nisbati"
   },
   {
-    "question": "Diagnostika tizimlari",
-    "answer": "tibbiyot, elektronika, mexanika va dasturiy ta'minot sohasidagi diagnostikani o'z ichiga oladi",
-    "noAnswer1": "kuzatishlar natijasida vaziyatning tavsifini aniqlash",
-    "noAnswer2": "tizimning xatti-harakatlari kuzatuvlarini maqsadga erishish uchun hal qiluvchi bo'lib ko'rinadigan standartlar bilan solishtiring",
-    "noAnswer3": "avtomatik dasturlash kabi rejalashtirish vazifalariga ixtisoslashgan"
+    "question": "Korxona xodimlari deganda kimlarni tushunasiz?",
+    "noAnswer1": "Asosiy va yordamchi xodimlar birlashuvi",
+    "noAnswer2": "Injener – texnik xodimlar, xizmatchilar, shogirdlarning maqsadga muvofiq birlashuvi",
+    "noAnswer3": "Adminsrativ boshqaruv xodimlari, injener texnik xodimlar va xizmatchilar yig‘indisi",
+    "answer": "Foyda yoki daromad olish holda o‘z moddiy ehtiyojlarini qondirishga qaratilgan yagona ish\r\nfaoliyati bilan band bo‘lgan turli malaka va toifadagi xodimlar yig‘indisi"
   },
   {
-    "question": "Agar neyron tarmoq o'qitiladi",
-    "answer": "o'quv kirishlarini bajarayotganda, u tegishli o'quv natijalarini ishlab chiqaradi",
-    "noAnswer1": "ma'lum bir vektor kirishga berilganda, tarmoq vektorlarning qaysi sinfiga tegishli ekanligiga javob beradi.",
-    "noAnswer2": "o'rganish algoritmi o'z ishini tugatdi va tsikl bo'lmadi",
-    "noAnswer3": "o'rganish algoritmi o'z ishini yakunladi va loop qildi"
+    "question": "Zaruriy ishchilar sonini aniqlash uslubiga quyidagilar kirmaydi",
+    "noAnswer1": "Vaqtbirligi davomida ishlab chiqarilgan mahsulot miqdori bo‘yicha",
+    "noAnswer2": "Xizmatko‘rsatish me’yori bo‘yicha",
+    "noAnswer3": "Mahsulotbirligiga sarflangan vaqt sig‘imi bo‘yicha",
+    "answer": "Foyda me’yori bo‘yicha"
   },
   {
-    "question": "Agar tarmoq yashirin qatlamlarda juda ko'p sonli neyronlarga ega bo'lsa, u holda",
-    "answer": "tarmoqni qayta tayyorlash mumkin",
-    "noAnswer1": "tarmoqni o'qitish uchun zarur bo'lgan vaqt minimal",
-    "noAnswer2": "tarmoqni o'qitish uchun zarur bo'lgan vaqt, maksimal",
-    "noAnswer3": "tarmoq muammoni hal qilish uchun etarlicha moslashuvchan bo'lmasligi mumkin"
+    "question": "Real ish haqini nominal ish haqidan farqi nimada?",
+    "noAnswer1": "Real ish haqi – haqiqiy ishlangan vaqt uchun to‘lovlar, nominal ish haqi - kunlik yo‘qotishlar\r\nuchun to‘lovlardir",
+    "noAnswer2": "Real ish haqi –amaldagi ish haqi stavkasi yoki ishchi oy vaqti birligidagi qiymati, nominal ish haqi\r\nesa ortiqcha soatlar uchun to‘lanadi.",
+    "answer": "Real ish haqi – nominal ish haqiga sotib olish mumkin bo‘lgan tovar, nominal ish haqi esa\r\nsarflangan mehnat uchun oladigan pul mablag‘lari summasidir.",
+    "noAnswer3": "Real ish haqi – ishlangan vaqt uchun to‘lanadi, nominal ish haqi esa ortiqcha soatlar uchun\r\nto‘lanadi."
   },
   {
-    "question": "2010 yilda",
-    "answer": "maʼlumotlarni so‘rash va tahlil qilish uchun Apache Hadoop- ning tepasida qurilgan maʼlumotlar ombori dasturining loyihasi yaratildi",
-    "noAnswer1": "katta fayllarni saqlash va ularga kirish imkoniyati yedi, va umuman aytganda bitta qattiq diskda saqlanib bo‘lmaydigan fayllarni nazarda tutiladi",
-    "noAnswer2": "Google File System chiqdi.",
-    "noAnswer3": "Hadoop TeraSort tanlovida g‘olib chiqdi"
+    "question": "Ish haqi fondidan qaysi biri asosiy ish haqi hisoblanadi?",
+    "noAnswer1": "Kunlik ish haqi fondi.",
+    "noAnswer2": "Ta’rif ish haqi fondi.",
+    "answer": "Soatli ish haqi fondi.",
+    "noAnswer3": "Oylik ish haqi fondi."
   },
   {
-    "question": "KB ma'murlari uchun integratsiya maqsadi",
-    "answer": "birinchi navbatda ma'lumotlar bazasi texnologiyasida, lekin KBMS talablariga moslashtirilgan bir qator vositalarni taqdim etish",
-    "noAnswer1": "sun'iy intellekt va ma'lumotlar bazasi texnologiyasi uchun xos bo'lgan va ushbu ma'lumotlarning qayerda joylashganiga bog'liq bo'lmagan axborotga kirish va qayta ishlash usullarini muvaffaqiyatli va samarali amalga oshiradigan yagona vositalar (til) yaratilishini ta'minlash.",
-    "noAnswer2": "bilimlardan foydalangan holda muammolarni hal qilish uchun mo'ljallangan tizimlarni yaratishga qaratilgan modellar, usullar va usullar to'plami",
-    "noAnswer3": "ES metodologiyasi, ekspert bilimlari qoidalarida ajratib olish, tahlil qilish va ifodalash usullarini qamrab oladi"
+    "question": "Ishbay ish haqi shaklida mehnatga haq to‘lashga quyidagilar xosdir?",
+    "noAnswer1": "Lavozim okladlari va oylik maoshlar",
+    "noAnswer2": "Ishlangan ish soatlari",
+    "answer": "Tayyorlangan mahsulot hajmi va ko‘rsatilgan xizmatlar soni",
+    "noAnswer3": "Ko‘rsatilgan xizmatlar soni"
   },
   {
-    "question": "\"Ish haqi\" ustuni 50000 dan katta bo'lgan DataFrame df-dagi qatorlarni qanday filtrlaysiz?",
-    "answer": "df[df['Salary'] > 50000]",
-    "noAnswer1": "df[Salary > 50000]",
-    "noAnswer2": "df.filter('Salary > 50000')",
-    "noAnswer3": "df.select_rows('Salary > 50000')"
+    "question": "Korxonaning ish haqi fondi quyidagilardan iborat bo‘ladi:",
+    "noAnswer1": "Asosiy ish haqi va mukofotlardan",
+    "noAnswer2": "Faqat asosiy ish haqidan",
+    "noAnswer3": "Mukofotlardan",
+    "answer": "Asosiy va qo‘shimcha ish haqidan"
   },
   {
-    "question": "Python-da pandalar kutubxonasini qanday import qilasiz?",
-    "answer": "import pandas as pd",
-    "noAnswer1": "import pd",
-    "noAnswer2": "from pandas import",
-    "noAnswer3": "using pandas"
+    "question": "Qaysi ish haqi fondi kunlik ruxsat etilgan imtiyozli uzilishlar uchun qo‘shimcha to‘lovlarni\r\ne’tiborga oladi?",
+    "noAnswer1": "Oylik",
+    "answer": "Kunlik",
+    "noAnswer2": "Soatlik",
+    "noAnswer3": "Yillik"
   },
   {
-    "question": "Pandasda DataFrame nima?",
-    "answer": "Har xil turdagi ustunlarga ega boʻlgan ikki oʻlchovli etiketli maʼlumotlar strukturasi ",
-    "noAnswer1": "Bir oʻlchovli etiketli massiv",
-    "noAnswer2": "Maʼlumotlarni oʻz ichiga olgan lugʻat",
-    "noAnswer3": "Python roʻyxatlari toʻplami."
+    "question": "Soatlik ish haqi tarkibiga quyidagilar kiradi:",
+    "answer": "Ishbayish haqi fondi, vaqtbay ish haqi fondi, mukofot, tungi soatda ishlanganlik uchun\r\nto‘lovlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov, bayram kunlari ishlaganlik\r\nuchun to‘lov",
+    "noAnswer1": "Mehnat ta’tili uchun to‘lov,to‘g‘ri ish haqi fondi, o‘smirlarga qisqartirilgan soatlar uchun to‘lov,\r\nmukofotlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov",
+    "noAnswer2": "Xizmat safari uchun to‘lov, ishbay ish haqi fondi, vaqtbay ish haqi fondi, mukofot, tungi soatda\r\nishlanganlik uchun to‘lovlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov",
+    "noAnswer3": "To‘g‘ri ish haqi fondi, o‘smirlarga qisqartirilgan soatlar uchun to‘lov, mukofotlar, brigadirlik\r\nuchun to‘lov, shogird tayyorlaganlik uchun to‘lov, bayram kunlari ishlaganlik uchun to‘lov"
   },
   {
-    "question": "DataFrame df dan \"Yosh\" nomli ustunni qanday tanlash mumkin?",
-    "answer": "df['Age']",
-    "noAnswer1": "df.get_column('Age')",
-    "noAnswer2": "df.select_column('Age')",
-    "noAnswer3": "df.column('Age')"
+    "question": "Ishlab chiqarish uchastkasida 5 ta o‘smir ishlaydi, ularning o‘rtacha tarif stavkasi 620 so‘mga\r\nteng. Yildagi ish kunlari soni 240 kun. O‘smirlar uchun qo‘shimcha to‘lov summasini aniqlang.",
+    "noAnswer1": "550 000 so‘m",
+    "noAnswer2": "645000 so‘m",
+    "answer": "744000 so‘m",
+    "noAnswer3": "600 000 so‘m"
   },
   {
-    "question": "head()Funksiya pandas kutubxonasida vazifasi qanday?",
-    "answer": "DataFrame ning dastlabki 5 qatorini beradi",
-    "noAnswer1": "DataFrame ning oxirgi 5 qatorini beradi ",
-    "noAnswer2": "DataFrame ning umumiy statistikasini beradi ",
-    "noAnswer3": "DataFrame ni o‘sish tartibida tartiblaydi"
+    "question": "O‘rtacha kunlik ish haqi quyidagicha aniqlanadi",
+    "noAnswer1": "Ish haqining kunlik fondi jami ishlangan ish soatlariga bo‘linadi",
+    "noAnswer2": "Ishhaqining soatlik fondi jami ishlangan ish soatlariga bo‘linadi",
+    "noAnswer3": "Ishhaqining oylik fondi ishlangan kishi soatlariga bo‘linadi",
+    "answer": "Ish haqining kunlik fondi jami ishlangan kishi kunlarga bo‘linadi"
   },
   {
-    "question": "DataFrame df da yetishmayotgan qiymatlarni qanday tekshirasiz?",
-    "answer": "df.isnull()",
-    "noAnswer1": "df.isna()",
-    "noAnswer2": "check_missing()",
-    "noAnswer3": "df.missing_values()"
+    "question": "Korxonaning ish haqi fondini rejalashtirish quyidagi tartibda amalga oshiriladi. To‘g‘ri tartibni\r\nbelgilang.",
+    "answer": "Soatlik ish haqi fondi, kunlik ish haqi fondi, oylik yoki yillik ish haqi fondi",
+    "noAnswer1": "Oylik, kunlik, soatlik ish haqi fondi",
+    "noAnswer2": "Kunlik ish haqi fondi, oylik ish haqi fondi va yillik ish haqi fondi",
+    "noAnswer3": "To‘g‘ri ish haqi fondi, ishbay ish haqi fondi, vaqtbay ish haqi fondi va qo‘shimcha to‘lovlar fondi"
   },
   {
-    "question": "describe()Funktsiya pandas kutubxonasida nima vazifani bajaradi?",
-    "answer": "DataFramedagi son ustunlarning tavsiflovchi statistikasi",
-    "noAnswer1": "har bir ustundagi yetishmayotgan qiymatlar soni",
-    "noAnswer2": "har bir ustundagi noyob qiymatlarning xulosasi ",
-    "noAnswer3": "DataFrame korrelyatsiya matritsasi"
+    "question": "Qo‘shimcha to‘lovlar quyidagilarni ko‘zda tutadi.",
+    "noAnswer1": "Qo‘shimcha ishlaganligi uchun to‘lovlarni",
+    "noAnswer2": "Korxona rahbariyati tomonidan ruxsat etilgan uzilishlar uchun to‘lovlarni",
+    "answer": "Mehnatqonunchiligida ko‘zda tutilgan imtiyozli uzulishlar uchun to‘lovlarni",
+    "noAnswer3": "Moddiy yordam uchun berilgan to‘lovlarni"
   },
   {
-    "question": "groupby()Funksiya pandas kutubxonasida vazifasi qanday?",
-    "answer": "DataFrame-ni belgilangan ustun yoki ustunlar bo‘yicha guruhlaydi ",
-    "noAnswer1": " DataFrame-ni belgilangan ustun asosida saralaydi ",
-    "noAnswer2": "DataFrame-dagi ma’lumotlarni jamlaydi ",
-    "noAnswer3": "Umumiy ustun asosida ikkita DataFrame-ni birlashtiradi"
+    "question": "Ishbay ish haqi quyidagicha aniqlanadi:",
+    "noAnswer1": "Baho ko‘paytiriladi daromadga",
+    "noAnswer2": "Baho ko‘paytiriladi ishlab chiqarilgan mahsulot qiymatiga",
+    "noAnswer3": "Ishlanganish soatlari ko‘paytiriladi o‘rtacha tarif stavkasiga",
+    "answer": "Baho ko‘paytiriladi mahsulot hajmining naturadagi ifodasiga"
   },
   {
-    "question": "DataFrame df dan \"Shahar\" nomli ustunni qanday o'chirish mumkin?",
-    "answer": "df.drop('City', axis=1)",
-    "noAnswer1": "df.remove_column('City')",
-    "noAnswer2": "df.delete_column('City')",
-    "noAnswer3": "df.remove('City')"
+    "question": "O‘smirlarning asosiy ish haqi, ya’ni ishlab chiqarilgan mahsuloti yoki ishlagan ish soati uchun\r\nto‘lanadigan asosiy ish haqi qaysi fond tarkibiga kiritiladi.",
+    "answer": "To‘g‘ri ish haqi fondi",
+    "noAnswer1": "Kunlikish haqi fondi",
+    "noAnswer2": "Oylik ish haqi fondi",
+    "noAnswer3": "Yillik ish haqi fondi"
   },
   {
-    "question": "merge()Funksiyasining pandas kutubxonasida vazifasi qanday?",
-    "answer": "Umumiy ustun asosida ikkita DataFrameni birlashtiradi",
-    "noAnswer1": "DataFrame ga yangi ustun qo‘shadi ",
-    "noAnswer2": "Ikki DataFrame ni vertikal ravishda birlashtiradi ",
-    "noAnswer3": "Belgilangan shart asosida qatorlarni filtrlaydi"
+    "question": "O‘rtacha xarajatlar...",
+    "answer": "Birlik mahsulotga Ishlab chiqarish xarajatlari miqdorini belgilovchi xarajatlardir.",
+    "noAnswer1": "Ishlabchikarilganmahsulothajmigabog‘liqxoldao‘zgaradiganxarajatlardir.",
+    "noAnswer2": "Har bir mahsulot xajimidagi doimiy va o‘zgaruvchan xarajatlar summasidir.",
+    "noAnswer3": "Ishlab chiqarish hajmiga bog‘liq xolda o‘zgarmaydigan xarajatlardir."
   },
   {
-    "question": "Qanday qilib \"df\" dagi ma`lumotlar o`zgartirilgan xolatini \"data\"a ga saqlash mumkin?",
-    "answer": "df.to_csv('data.csv')",
-    "noAnswer1": "df.save_csv('data.csv')",
-    "noAnswer2": "df.write_csv('data.csv')",
-    "noAnswer3": "df.export_csv('data.csv')"
+    "question": "Sof diskont daromadga to‘g‘ri ta’rifni bering",
+    "noAnswer1": "Investitsiya loyihasini ekspluatatsiya davridagi pul oqimlarining kelajakdagi qiymati bilan uni\r\namalga oshirishga investitsiya qilinuvchi mablag‘ o‘rtasidagi farq;",
+    "noAnswer2": "Investitsiya loyihasini ekspluatatsiya davrida investitsiya mablag‘lari bilan erishiladigan\r\ndaromadlar orasidagi farq;",
+    "answer": "Investitsiya loyihasini ekspluatatsiya davrida hozirgi qiymatga keltirilgan pul oqimlari summasi\r\nbilan uni amalga oshirishga investitsiya qiluvchi mablag‘lar o‘rtasidagi farq;",
+    "noAnswer3": "Investitsiya loyihasini ekspluatatsiya davrida pul oqimlarining erishiladigan daromadlar\r\norasidagi farq;"
   },
   {
-    "question": "Seaborn nima? ",
-    "answer": "Ma'lumotlarni vizualizatsiya qilish kutubxonasi",
-    "noAnswer1": "dasturlash tili",
-    "noAnswer2": "mashinani o'rganish tizimi",
-    "noAnswer3": "operatsion tizim"
+    "question": "Ish haqi fondini yiriklashtirilgan usulda rejalashtirish bu - …",
+    "noAnswer1": "Ish haqi fondini turli tadbirlar natijasida erishilgan ish haqi iqtisodi asosida aniqlash",
+    "noAnswer2": "Ish haqi fondini minimal ish haqi miqdorini oshishi asosida aniqlash",
+    "answer": "Ish haqi uchun mablag‘larni ish haqi fondi indeksi yordamida aniqlash",
+    "noAnswer3": "Ish haqi fondini minimal ish haqi miqdorini kamayish asosida aniqlash"
   },
   {
-    "question": "Quyidagi chizmalardan qaysi biri bir oʻzgaruvchan kuzatishlar toʻplamining taqsimlanishini tasavvur qilish uchun ishlatiladi?",
-    "answer": "Gistogramma",
-    "noAnswer1": "Chiziqli chizma",
-    "noAnswer2": "Tarqalish sxemasi",
-    "noAnswer3": "Qutili chizma"
+    "question": "Rejalashtirishda foydaning qanday ko‘rsatkichlaridan foydalaniladi?",
+    "noAnswer1": "Balans foyda, normativ foyda",
+    "noAnswer2": "Sof foyda, normativ foyda",
+    "answer": "Balans foyda, asosiy faoliyat foydasi, sof foyda,",
+    "noAnswer3": "Balans foyda"
   },
   {
-    "question": "Seabornda scatter grafigini yaratish uchun qaysi funksiyadan foydalaniladi?",
-    "answer": "seaborn.scatterplot()\n",
-    "noAnswer1": "seaborn.lineplot()",
-    "noAnswer2": "seaborn.barplot()",
-    "noAnswer3": "seaborn.boxplot()"
+    "question": "Umumiy kal`kulyatsiya bu ...",
+    "noAnswer1": "Bu har bir mahsulot turini ishlab chiqarish uchun sarflanadigan xarajatlar",
+    "noAnswer2": "Bu ishlab chiqarishga sarflangan umumiy xarajatlar",
+    "noAnswer3": "Jami xarajatlarni hisoblash usuli",
+    "answer": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan o‘rtacha xarajatlar"
   },
   {
-    "question": "Seaborn funksiyalarida rang parametri nimani anglatadi? ",
-    "answer": "Rangni kodlash uchun qo'shimcha toifali o'zgaruvchi",
-    "noAnswer1": "chizma rangi ",
-    "noAnswer2": "chizma hajmi ",
-    "noAnswer3": "chizma uslubi "
+    "question": "Tur kal`kulyatsiyasi bu ...",
+    "noAnswer1": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan o‘rtacha xarajatlar",
+    "noAnswer2": "Bu ishlab chiqarishga sarflangan umumiy xarajatlar",
+    "answer": "Bu har bir mahsulot turini ishlab chiqarish uchun sarflanadigan xarajatlar",
+    "noAnswer3": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan umumiy xarajatlar"
   },
   {
-    "question": "Seaborn chizmalarining umumiy estetik uslubini qanday o'rnatishingiz mumkin?",
-    "answer": "seaborn.set_theme()",
-    "noAnswer1": "seaborn.set_style() ",
-    "noAnswer2": "seaborn.set_theme() ",
-    "noAnswer3": "seaborn.set_aesthetic()"
+    "question": "Ishlab chiqarish hajmiga bog‘liqlik darajasiga ko‘ra qanday xarajatlar ajratiladi?",
+    "noAnswer1": "Asosiy, ustama",
+    "noAnswer2": "O‘zgaruvchan, ustama.",
+    "noAnswer3": "O‘zgaruvchan, bilvosita",
+    "answer": "O‘zgaruvchan, shartli doimiy."
   },
   {
-    "question": "Seabornda issiqlik xaritasini qanday yaratish mumkin? ",
-    "answer": "seaborn.heatmap()",
-    "noAnswer1": "seaborn.scatterplot() ",
-    "noAnswer2": "seaborn.lineplot() ",
-    "noAnswer3": "seaborn.boxplot()"
+    "question": "2024-yil nomini ko‘rsating",
+    "noAnswer1": "=\r\nYoshlar va biznes yili",
+    "noAnswer2": "Biznes va yoshlarni qo‘llab-quvvatlash yili",
+    "answer": "Yoshlar va biznesni qo‘llab-quvvatlash yili",
+    "noAnswer3": "Biznes va yoshlar yili"
   },
   {
-    "question": "Python-da Matplotlib-ning asosiy maqsadi nima? ",
-    "answer": "Ma’lumotlarni vizuallashtirish",
-    "noAnswer1": "Ma'lumotlarni manipulyatsiya qilish ",
-    "noAnswer2": "Mashinani o'rganish ",
-    "noAnswer3": "Veb ishlab chiqish "
+    "question": "“Mahsulot (ish, xizmat) lar tannarxiga kiritiladigan mahsulotlarni ishlab chiqarish va sotish\r\nbo‘yicha xarajatlar tarkibi hamda moliyaviy natijalarni shakllantirish haqida” gi Nizomda\r\nxarajatlar qaysi iqtisodiy belgilar bo‘yicha guruhlangan?",
+    "answer": "Iqtisodiy mazmun va mohiyatiga ko‘ra",
+    "noAnswer1": "Shakllanayotgan joyiga va qaysi maqsadda ishlatilayotganiga asosan",
+    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
+    "noAnswer3": "Ishlab chiqarish jarayonida qatnashuviga asosan va Iqtisodiy mazmun va mohiyatiga ko‘ra"
   },
   {
-    "question": "Matplotlib ichidagi qaysi modul chizmachilik uchun asosiy sinflarni taqdim etadi?",
-    "answer": "matplotlib.axes",
-    "noAnswer1": "matplotlib.figure ",
-    "noAnswer2": "matplotlib.plot ",
-    "noAnswer3": "matplotlib.pyplot"
+    "question": "Qaysi belgilar asosida xarajatlar bir guruhga birlashtirilganda guruh modda deb ataladi.",
+    "noAnswer1": "Iqtisodiy mohiyati va mazmuniga asosan",
+    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
+    "answer": "Xarajatlarni qayerda shakllanishi va qanday maqsadlarda foydalanayotganiga asosan",
+    "noAnswer3": "Ishlab chiqarish jarayonida qatnashmasligiga asosan"
   },
   {
-    "question": "Matplotlib yordamida oddiy chiziqli chizma qanday yaratiladi? ",
-    "answer": "plot() ",
-    "noAnswer1": " line() ",
-    "noAnswer2": "draw() ",
-    "noAnswer3": "plot()"
+    "question": "Qaysi belgilar asosida xarajatlar bir guruhga birlashtirilganda guruh element deb yuritiladi.",
+    "noAnswer1": "Xarajatlarni qayerda shakllanishi va qanday maqsadlarda foydalanayotgani",
+    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
+    "answer": "Iqtisodiy mohiyati va mazmuniga asosan",
+    "noAnswer3": "Ishlab chiqarish jarayonida qatnashmasligiga asosan"
   },
   {
-    "question": "Matplotlib figurasini faylga saqlash uchun qaysi funksiyadan foydalaniladi?",
-    "answer": "savefig()",
-    "noAnswer1": "save() ",
-    "noAnswer2": "export() ",
-    "noAnswer3": "saveas()"
+    "question": "Ishlab chiqarishga xarajatlar smetasi nima?",
+    "answer": "Ishlab chiqarish faoliyatining kelgusi davri uchun barcha sarflar yig‘ma rejasi",
+    "noAnswer1": "Ishlab chiqarish moliyaviy faoliyatning talab etilgan davr uchun barcha daromadlarining\r\njamlama rejasi",
+    "noAnswer2": "Ishlab chiqarish moliyaviy faoliyatining alohida davri uchun korxonaning barcha daromad va\r\nxarajatlarning jamlama rejasi",
+    "noAnswer3": "Ishlab chiqarish moliyaviy faoliyatining alohida davri uchun korxonaning barcha daromad va\r\nxarajatlarning jamlama rejasi va ishlab chiqarish moliyaviy faoliyatining kelgusi davri uchun\r\nbarcha sarflar yig‘ma rejasi"
   },
   {
-    "question": "Matplotlibda subplot()funksiya nima qiladi? ",
-    "answer": "Joriy chizmaga pastki chizmalarni qo‘shadi",
-    "noAnswer1": "chizma rangini sozlaydi ",
-    "noAnswer2": "Yangi figura yaratadi ",
-    "noAnswer3": "chizmaga izohlar qo‘shadi."
+    "question": "Moliyaviy reja qanday asosiy bo‘limlardan tashkil topadi?",
+    "noAnswer1": "Foyda va zararlar to‘g‘risida prognoz reja, pul oqimlari rejasi, aktiv va passivlar prognoz balansi",
+    "noAnswer2": "Ishlab chiqarishni tayyorlash xarajatlari, foyda va zararlar, joriy xarajatlar",
+    "answer": "Foyda va zararlar, aktiv va passivlar prognoz balansi, pul oqimlari rejasi, asosiy kapital tarkibi,\r\nqarzlar bo‘yicha hisobot",
+    "noAnswer3": "Asosiy kapital tarkibi, amortizatsiya normasi, qarzlar bo‘yicha hisobot"
   },
   {
-    "question": "Matplotlib syujetining sarlavhasini belgilash uchun qaysi funksiyadan foydalaniladi?",
-    "answer": "title()",
-    "noAnswer1": "set_title() ",
-    "noAnswer2": "plot_title() ",
-    "noAnswer3": "add_title()"
+    "question": "Qaysi ish haqi qo‘shimcha ish haqi hisoblanadi?",
+    "noAnswer1": "Tungi smenada ishlagani uchun to‘lov hamda brigadirlik uchun to‘lov",
+    "noAnswer2": "Shogird tayyorlagani uchun hamda mehnat ta'tili uchun to‘lov",
+    "answer": "Ruxsat etilgan imtiyozli vaqt uchun hamda mehnat ta'tillari uchun to‘lanadigan to‘lovlar",
+    "noAnswer3": "Brigadirlik uchun to‘lov"
   },
   {
-    "question": "Oddiy chiziqli regressiyaning ma`nosi?",
-    "answer": "Oddiy chiziqli regressiya faqat bitta mustaqil o'zgaruvchidan foydalangan holda bog'liq o'zgaruvchini bashorat qilishni o'z ichiga oladi",
-    "noAnswer1": "Oddiy chiziqli regressiya esa ikki yoki undan ortiq mustaqil o'zgaruvchilar yordamida bog'liq o'zgaruvchini bashorat qilishni o'z ichiga oladi.",
-    "noAnswer2": " chiziqli regressiya tahlili bir bog'liq o'zgaruvchi va bir yoki bir nechta mustaqil o'zgaruvchilar o'rtasidagi munosabatni tekshirish uchun qo'llaniladigan statistik usuldir. ",
-    "noAnswer3": "Oddiy chiziqli regressiya 6 ta mustaqil o'zgaruvchidan foydalangan holda bog'liq o'zgaruvchini bashorat qilishni o'z ichiga oladi"
+    "question": "Asosiy faoliyatdan ko‘rilgan foyda bu .......",
+    "noAnswer1": "Yalpi foyda minus davr xarajatlari plyus moliyaviy faoliyatdan ko‘rilgan daromadlar va minus\r\nzararlardir",
+    "noAnswer2": "Bu sotishdan olingan sof tushum bilan sotilgan mahsulotning ishlab chiqarish tannarxi orasidagi\r\nfarq",
+    "answer": "Yalpi foyda bilan davr xarajatlari orasidagi farq hamda plyus asosiy faoliyatdan ko‘rilgan\r\nboshqa daromadlar yoki minus boshqa zararlardir",
+    "noAnswer3": "Yalpi foyda minus moliyaviy faoliyat bilan bog‘liq xarajatlar"
   },
   {
-    "question": "Regressiya tahlili nima?",
-    "answer": "Regressiya tahlili bir bog'liq o'zgaruvchi va bir yoki bir nechta mustaqil o'zgaruvchilar o'rtasidagi munosabatni tekshirish uchun qo'llaniladigan statistik usuldir. ",
-    "noAnswer1": " Regressiya tahlili faqat bitta mustaqil o'zgaruvchidan foydalangan holda bog'liq o'zgaruvchini bashorat qilishni o'z ichiga oladi",
-    "noAnswer2": " Regressiya tahlili bir bog'liq o'zgaruvchi va bir yoki bir nechta mustaqil o'zgaruvchilar o'rtasidagi munosabatni tekshirish uchun qo'llaniladigan statistik usuldir. ",
-    "noAnswer3": "Regressiya tahlili 6 ta mustaqil o'zgaruvchidan foydalangan holda bog'liq o'zgaruvchini bashorat qilishni o'z ichiga oladi"
+    "question": "Rentabellik ko‘rsatkichi nima?",
+    "noAnswer1": "Rentabellik absolyut kattalik bo‘lib, korxona samaradorligini ifodalaydigan ko‘rsatkichdir.",
+    "noAnswer2": "Mahsulot ishlab chikarishga sarflangan xarajatlarni ifodalaydi.",
+    "noAnswer3": "Korxona faoliyatini natijasini ifodalaydigan miqdor ko‘rsatkichi hisoblanadi.",
+    "answer": "Rentabellik korxona faoliyatining foydalilik darajasini ifodalaydigan nisbiy ko‘rsatkichdir."
   },
   {
-    "question": "Neyron tarmoqlarda uzilishning maqsadi nima?",
-    "answer": "Haddan tashqari moslashishni kamaytirish ",
-    "noAnswer1": "Modelning murakkabligini oshirish ",
-    "noAnswer2": "Mashq vaqtini tezlashtirish ",
-    "noAnswer3": "Konvergentsiyani ta'minlash"
+    "question": "Firmaning rejalashtirilgan ishlab chiqarish dasturini bajarish uchun zarur bo‘lgan material\r\nresurslarga bo‘lgan ehtiyoji aks ettirilgan byudjet bu-",
+    "noAnswer1": "Sotib olish byuljeti",
+    "noAnswer2": "Mehnat byudjeti",
+    "answer": "Moddiy byudjet",
+    "noAnswer3": "Naqd pul byudjeti"
   },
   {
-    "question": "Quyidagilardan qaysi biri nazorat ostida o‘qitish algoritmi hisoblanadi?",
-    "answer": "Qarorlar daraxti",
-    "noAnswer1": "K-klasterlashni bildiradi ",
-    "noAnswer2": "K-eng yaqin qo‘shnilar ",
-    "noAnswer3": "Apriori algoritmi."
+    "question": "Daromadlilik indeksi nimani ko‘rsatadi?",
+    "noAnswer1": "Daromadlik normasi yeki loyixaning foydaliligi.",
+    "noAnswer2": "Diskont normasi.",
+    "noAnswer3": "Kapital qo‘yilmalar va olingan umumiy samara o‘rtasidagi nisbati kattaligidir.",
+    "answer": "Keltirilgan samara summasini kapital qo‘yilmalar umumiy kattaligiga nisbati."
   },
   {
-    "question": "Qaysi turdagi o'rganish modeli o'z xatolaridan saboq olish va shunga mos ravishda parametrlarini yangilash bilan tavsiflanadi?",
-    "answer": "Reinforcement learning\nMustahkamlash o`qitish",
-    "noAnswer1": "Supervised learning\nNazoratli o`qitish",
-    "noAnswer2": "Unsupervised learning\nNazoratsiz o`qitish",
-    "noAnswer3": "Semisupervised learning\nYarimnazoratli o`qitish"
+    "question": "«Biznes- reja» nima?",
+    "answer": "Tadbirkorlik faoliyatining barcha asosiy tomonlari ifodalanadigan hujjat.",
+    "noAnswer1": "Raqobatchilar moliyaviy xolatini ifodalaydigan xujjat.",
+    "noAnswer2": "Tovarlarni tarkatish taktikasini ifodalaydigan xujjat.",
+    "noAnswer3": "Narxlar soxasidagi strategiyani belgilaydigan xujjat."
   },
   {
-    "question": "Mijozlarning norozligini aniqlash nima?",
-    "answer": "Vaqt o'tishi bilan kompaniyaning mahsulot yoki xizmatlaridan foydalanishda davom etadigan mijozlar foizi",
-    "noAnswer1": "yangi mijozlarni jalb qilish jarayoni ",
-    "noAnswer2": "mijoz tomonidan ishlab chiqarilgan umumiy daromad ",
-    "noAnswer3": "mijozlarni saqlab qolish xarajatlari"
+    "question": "Biznes-rejaning bosh ichki maqsadi nima?",
+    "noAnswer1": "Tadbirkorlik faoliyatini boshkarish uchun asos bo‘lishi.",
+    "noAnswer2": "Moliyalashtirish strategiyasini aniqlash.",
+    "answer": "Faoliyatning muvaffaqqiyatiga ishontirish.",
+    "noAnswer3": "Sotish bozorini Baholash"
   },
   {
-    "question": "Nima uchun mijozlarning noroziligi aniqlash biznes uchun muhim?",
-    "answer": "biznesning daromadi va rentabelligiga ta'sir qiladi ",
-    "noAnswer1": "biznesning umumiy muvaffaqiyatiga ta'sir qilmaydi ",
-    "noAnswer2": "kompaniyalarga mijozlarning xohish-istaklarini tushunishga yordam beradi ",
-    "noAnswer3": "faqat kichik biznes uchun muhim"
+    "question": "Iqtisodiy samaradorlikni ifodalovchi ko‘rsatkichlar quyidagilardan iborat:",
+    "noAnswer1": "Mahsulotni sotish hajmi va foyda miqdori;",
+    "noAnswer2": "Korxona aktivlari va passivlari;",
+    "noAnswer3": "Korxona fond qaytimi va fond sig‘imi;",
+    "answer": "Foyda miqdori va daromadliligi;"
   },
   {
-    "question": "Mijozlarning noroziligini umumiy ko'rsatkichi nima?",
-    "answer": "Mijozlarni jalb qilish yoki foydalanishning keskin pasayishi",
-    "noAnswer1": "Mijozlarning qoniqish darajasining oshishi ",
-    "noAnswer2": "Mijozlarning shikoyatlarining kamayishi ",
-    "noAnswer3": "Mijozlarni ushlab turishning yuqori darajasi "
+    "question": "Bahodan chegirishdan ko‘zda tutilgan maqsad nima?",
+    "noAnswer1": "Raqobatni yumshatish",
+    "noAnswer2": "Baholarni korrektirovka qilish",
+    "answer": "Istemolchi (haridor) larni jalb qilish",
+    "noAnswer3": "Tavakkalchilikni kamaytirish"
   },
   {
-    "question": "Qanday qilib korxonalar mijozlarning noroziligini oldini olishlari mumkin?",
-    "answer": "mijozlarga mukammal xizmat ko'rsatish ",
-    "noAnswer1": "mijozlarning fikr-mulohazalariga e'tibor bermaslik ",
-    "noAnswer2": "mahsulot narxini oshirish ",
-    "noAnswer3": "mijozlar bilan muloqotni cheklash"
+    "question": "Mehnatga haq to‘lash xarajatlari biznes rejaning qaysi bo‘limida amalga oshiriladi?",
+    "noAnswer1": "Moliyaviy rejada",
+    "noAnswer2": "Xarajatlar rejasida",
+    "noAnswer3": "Marketing rejasida",
+    "answer": "Tashkiliy rejada"
   },
   {
-    "question": "Korxonalar mijozlarning norozilik darajasini qanday o'lchashlari mumkin?",
-    "answer": "yo'qolgan mijozlar sonini davr boshidagi umumiy mijozlar soniga bo'lish yo'li bilan ",
-    "noAnswer1": "har bir mijozga to'g'ri keladigan o'rtacha daromadni hisoblash yo'li bilan ",
-    "noAnswer2": "yangi mijozlar sonini hisoblash yo'li bilan ",
-    "noAnswer3": "mijozlarga xizmat ko'rsatish qo'ng'iroqlari sonini kuzatish yo'li bilan"
+    "question": "Tovar deb, nimaga aytiladi?",
+    "noAnswer1": "yaratilgan mahsulotga",
+    "noAnswer2": "iste’molga tushgan barcha moddiy ne’mat va xizmatlarga",
+    "answer": "kishilar ehtiyojini qondiradigan va bozor uchun ishlab chiqarilgan mahsulotga.",
+    "noAnswer3": "o‘zgalar ehtiyojini qondiruvchi vositalarga"
   },
   {
-    "question": "Quyidagilardan qaysi biri konvolyutsion neyron tarmoqlarining (CNN) keng tarqalgan qo'llanilishi hisoblanadi? ",
-    "answer": "Tasvirni aniqlash",
-    "noAnswer1": "his-tuyg'ularni tahlil qilish ",
-    "noAnswer2": "vaqt qatorlarini bashorat qilish ",
-    "noAnswer3": "mustahkamlashni o'rganish\n"
+    "question": "Kritik nuqta bu-",
+    "noAnswer1": "Ishlab chiqarish hajmiga bog‘liq xolda o‘zgarmaydigan xarajatlar.",
+    "noAnswer2": "Umumiy kattaligi ishlab chiqarish hajmiga bog‘liq bo‘lgan xarajatlar darajasi.",
+    "answer": "Barcha umumiy xarajatlarni to‘liq qoplaydigan tushum darajasi.",
+    "noAnswer3": "Savdo foydasi va umumiy ishlab chiqarish xarajatlari orasidagi farq"
   },
   {
-    "question": "Chuqur o'rganish kontekstida transfer o'rganish nima? ",
-    "answer": "Neyron tarmoqni muayyan vazifaga o'rgatish va uni boshqa, ammo bog'liq vazifaga qo'llash",
-    "noAnswer1": "turli neyron tarmoqlar o'rtasida ma'lumotlarni uzatish jarayoni ",
-    "noAnswer2": "og'irliklarni bir qatlamdan ikkinchisiga o'tkazish usuli ",
-    "noAnswer3": "orqaga tarqalish paytida gradientlarni uzatish."
+    "question": "Rejalashtirish usuli...",
+    "answer": "Korxonalarda reja ko‘rsatkichlarini asoslash yo‘llari va qoidalari, shuningdek firma ichki\r\nrejalarining mazmuni, shakli, tuzilmasi va tartibini ifodalaydi",
+    "noAnswer1": "Korxonalarda rejalashtirish borasida qonuniyatlar, ilmiy tamoillar, zamonaviy talablar, iqtisodiy\r\nko‘rsatmalar majmuasi",
+    "noAnswer2": "Rejalashtirish- korxona faoliyatini tashkil etish bosqichlari,rejalarning shakli, tuzilmasi, tartibi",
+    "noAnswer3": "Rejalashtirish texnologiyasidir"
   },
   {
-    "question": "Kompyuterni ko'rishning asosiy maqsadi nima? ",
-    "answer": "Tasvir tasnifi",
-    "noAnswer1": "Nutqni aniqlash",
-    "noAnswer2": "Matnni nutqqa aylantirish ",
-    "noAnswer3": "abiiy tilni qayta ishlash."
+    "question": "Maqsad turiga ko‘ra rejalashtirishning qanday turlari qo‘llaniladi?",
+    "noAnswer1": "Operativ, normativ, taktik, joriy",
+    "answer": "Operativ , taktik, strategik, normativ",
+    "noAnswer2": "Taktik, strategik, reaktiv, dastlabki, ta’minot-sotuv",
+    "noAnswer3": "Strategikva normativ"
   },
   {
-    "question": "Quyidagilardan qaysi biri kompyuter ko'rishning keng tarqalgan qo'llanilishiga misol bo`la olmaydi? ",
-    "answer": "Hissiyotlarni tahlil qilish ",
-    "noAnswer1": "ob'ektni aniqlash",
-    "noAnswer2": "yuzni aniqlash",
-    "noAnswer3": "avtonom transport vositalari"
+    "question": "Quyidagi tartib rejalarni tuzish ishlarini tashkil qilishning qaysi ko‘rinishiga tegishli?\r\nBosh maqsadlar bo‘yicha dastlabki rejalar tuziladi va quyi bo‘g‘inlarda ular aniqlashtiriladi.\r\nSo‘ngra quyidan yuqoriga harakat amalga oshiriladi. Bunda xususiy rejalar orasidagi farqlar\r\nbartaraf etiladi va yanada samarali yechimlar qo‘shiladi.",
+    "noAnswer1": "Pastdan yuqoriga",
+    "noAnswer2": "Yuqoridan pastga",
+    "answer": "Aralash",
+    "noAnswer3": "Gorizontal"
   },
   {
-    "question": "Kompyuter ko'rishda tasvirni segmentatsiyalashdan maqsad nima? ",
-    "answer": "tasvir ichidagi ob'ektlarni aniqlash",
-    "noAnswer1": "tasvirlarni toifalarga ajratish",
-    "noAnswer2": "xususiyatlarini tanib olish",
-    "noAnswer3": "tasvirdan rang ma'lumotlarini ajratib olish"
+    "question": "Analitik - hisoblash uslubi mohiyati – ?",
+    "noAnswer1": "Vazifalarni tarkibiy qismga va operatsiyalarga taqsimlash",
+    "noAnswer2": "Normativlarni ishlab chiqish",
+    "answer": "Normativlar asosida normani belgilash",
+    "noAnswer3": "Norma va normativlarni kuzatish asosida belgilash"
   },
   {
-    "question": "Konvolyutsion neyron tarmoqlari (CNN) vazifasi nima?",
-    "answer": "Tasvirni aniqlash",
-    "noAnswer1": "Nutq sintezi",
-    "noAnswer2": "Til tarjimasi ",
-    "noAnswer3": "Vaqt qatorlarini tahlil qilish"
+    "question": "Reja tuzish tartibi necha xil ko‘rinishda amalga oshiriladi?",
+    "noAnswer1": "Gorizontal, vertikal aralash",
+    "answer": "Yuqoridan pastga, patdan yuqoriga va aralash",
+    "noAnswer2": "Birinchi ko‘rinishda barcha bo‘limlar bo‘yicha rejalar bir xil vaqtda ishlab chiqilib, so‘ngra\r\nmuvofiqlashtiriladi, ikkinchi ko‘rinishda esa bo‘limlar bo‘yicha rejalar mantiqiy ketma-ketlikda\r\nishlab chiqilib, so‘ngra muvofiqlashtiriladi",
+    "noAnswer3": "Talab aniqlanadi va ishlab chiqarish hajmi hamda belgilanadi, so‘ngra ushbu ko‘rsatkich asosida\r\nboshqa bo‘limlar o‘z rejalarini tuzadilar, ishlab chiqadi yoki avvalo korxonaning kelgusidagi\r\nmaqsadlari borasida qaror qabul qilinadi va shu asosida reja ko‘rsatkichlari ishlab chiqiladi"
   },
   {
-    "question": "Kompyuter ko'rish modellarini o'rgatishda ma'lumotlarni ko'paytirishdan maqsad nima? ",
-    "answer": "O'quv ma'lumotlar to'plamining hajmini oshirish",
-    "noAnswer1": "modelning murakkabligini kamaytirish",
-    "noAnswer2": "xulosa chiqarish tezligini oshirish",
-    "noAnswer3": "modelni talqin qilish qobiliyatini oshirish"
+    "question": "Rejalashtirish jarayoni quyidagi bosqichlardan iborat:",
+    "noAnswer1": "Vazifani aniqlash, vositalarni tanlash, maqsadni belgilash va nazorat",
+    "noAnswer2": "Vositalarni tanlash, nazorat, vazifani aniqlash va maqsadni belgilash",
+    "noAnswer3": "Maqsadni belgilash, vositalarni tanlash, nazorat va vazifani aniqlash",
+    "answer": "Maqsadni belgilash, vazifani aniqlash, vositalarni tanlash va nazorat"
   },
   {
-    "question": "Tabiiy tilni qayta ishlash (NLP) ning asosiy maqsadi nima?",
-    "answer": "Kompyuterlar yordamida odamga o'xshash tilni qayta ishlash",
-    "noAnswer1": "Elektr energiyasi ishlab chiqarish",
-    "noAnswer2": "Kimyoviy reaksiyalarni tahlil qilish",
-    "noAnswer3": "Kosmik kemalarni loyihalash"
+    "question": "Kalendar rejalashtirish bu–…",
+    "answer": "Korxonaning yillik rejasini o‘n kunlik, hafta, kun va smena bo‘yicha aniqlashtirish",
+    "noAnswer1": "Korxonaning yilik rejasini bo‘linmalar va bajaruvchilar bo‘yicha aniqlashtirish",
+    "noAnswer2": "Korxonaning yillik rejasini faqat ish kunlari bo‘yicha aniqlashtirish",
+    "noAnswer3": "Korxonaning yillik rejasini kalendar’ kunlar bo‘yicha aniqlashtirish"
   },
   {
-    "question": "Quyidagilardan qaysi biri NLP ning umumiy qo'llanilishiga mos kelmaydi?",
-    "answer": "Ob-havoni bashorat qilish",
-    "noAnswer1": "Mashina tarjimasi",
-    "noAnswer2": "Hissiyotlarni tahlil qilish",
-    "noAnswer3": "Chatbotlar"
+    "question": "Ishlab chiqarishning asosiy maqsadi –",
+    "noAnswer1": "davlat iqtisodiyotini rivojlantirish",
+    "answer": "oshib boruvchi ehtiyojlarni qondirish.",
+    "noAnswer2": "davlatning ishlab chiqarish potentsialini oshirish",
+    "noAnswer3": "ilmiy – texnika taraqqiyotini ta’minlash"
   },
   {
-    "question": "NLP-da matnni tasniflash vazifalari uchun qaysi turdagi mashina o'rganish qo'llaniladi?",
-    "answer": "Nazorat ostida o‘rganish",
-    "noAnswer1": "Nazoratsiz ta’lim",
-    "noAnswer2": "O‘qitishni mustahkamlash",
-    "noAnswer3": "Yarim nazorat ostida o‘qitish"
+    "question": "Yangi mahsulotni prognozlashtirish jarayonida qanday usul foydalaniladi?",
+    "noAnswer1": "Ekspert baholar, statistik baholar, modellashtirish",
+    "noAnswer2": "Ekspert baholar, analitik, iqtisodiy matematik usul",
+    "answer": "Ekspert baholar, ekstrapolyatsiya (statistik baholar), solishtirish",
+    "noAnswer3": "Ekstrapolyatsiya (statistik baholar), solishtirish, analitik"
   },
   {
-    "question": "NLP da ob'ektni tanib olish (NER) nima uchun ishlatiladi?",
-    "answer": "Matndagi nomlar, manzillar va sanalar kabi aniq ob'ektlarni aniqlash",
-    "noAnswer1": "Ingliz tiliga kirmagan so‘zlarni tanib olish",
-    "noAnswer2": "Maxfiy xabarlarni kodlash",
-    "noAnswer3": "Matndagi hissiyotlarni tahlil qilish"
+    "question": "Korxonani boshqarishda boshqarilishning qaysi strukturalaridan foydalaniladi?",
+    "answer": "Chiziqli, funktsional, chiziqli – funktsional, funksional – shtabli",
+    "noAnswer1": "Chiziqli va funktsional",
+    "noAnswer2": "Funktsional, chiziqli, chiziqsiz",
+    "noAnswer3": "Funktsional, chiziqli, texnik – funktsional"
   },
   {
-    "question": "NLPda til modelining maqsadi nima?",
-    "answer": "Ketma-ketlikda keyingi so‘zni bashorat qilish",
-    "noAnswer1": "Tillarni tarjima qilish",
-    "noAnswer2": "Matnni umumlashtirish",
-    "noAnswer3": "Hissiyotlarni tahlil qilish"
+    "question": "Zararsizlik nuqtasi – bu...",
+    "noAnswer1": "Tushum va xarajatlar orasidagi farq",
+    "answer": "Barcha xarajatlar to‘liq qoplanadigan tushum",
+    "noAnswer2": "Tushumga bog‘liq holda o‘zgaradigan xarajatlar",
+    "noAnswer3": "Tushumga bog‘liq holda o‘zgarmas xarajatlar"
   },
   {
-    "question": "Google Teachable Machine nima?",
-    "answer": "Google tomonidan mashinani o'rganish tajribasi",
-    "noAnswer1": "Google tomonidan yangi qidiruv tizimi ",
-    "noAnswer2": "Onlayn o'quv platformasi",
-    "noAnswer3": "Video konferentsiya vositasi"
+    "question": "Tarif koeffitsienti – bu...",
+    "answer": "Razryadlar orasidagi farqlarni ifodalaydi",
+    "noAnswer1": "Ish haqi orasidagi farqni ifodalaydi",
+    "noAnswer2": "Tarif stavkalar orasidagi farqlarni ifodalaydi",
+    "noAnswer3": "Ishbay ish haqi orasidagi farqlarni ifodalaydi"
   },
   {
-    "question": "Teachable Machine asosan mashinani o'rganishning qaysi turiga e'tibor beradi?",
-    "answer": "nazorat ostida o‘qitish",
-    "noAnswer1": "nazoratsiz o‘qitish",
-    "noAnswer2": "mustahkamlovchi ta’lim",
-    "noAnswer3": "yarim nazorat ostida o‘qitish"
+    "question": "Korxonani ishlab chiqarish dasturining mohiyati nimada?",
+    "noAnswer1": "Yillik ishlab ishlab chiqarish ‘ajmi, nomenklutarsi, sifati va muddatini ifodalaydigan kompleks\r\nishlab chiqarish rejasidir",
+    "noAnswer2": "Sotish ‘ajmini ishlab chiqarish kompleks rejasi",
+    "noAnswer3": "Talabga mos ravishda yillik ishlab chiqarish ‘ajmi, nomenklaturasi va muddatini ifodalaydigan\r\nmahsulot ishlab chiqarish kompleks rejasidir",
+    "answer": "Bozor talab etgan tovar va xizmatlarni ishlab chiqarish yillik hajmi, nomenklaturasi, sifati va\r\nmuddatini ifodalaydigan kompleks ishlab chiqarish rejasi"
   },
   {
-    "question": "Teachable Machine-ning asosiy maqsadi nima?",
-    "answer": "mashinalo o`qitishni kodlashsiz foydalanish imkoniyatini yaratish",
-    "noAnswer1": "matematika tushunchalarini o'rgatish",
-    "noAnswer2": "grafik dizaynni o'rgatish",
-    "noAnswer3": "dasturlash tillarini o'rgatish "
+    "question": "Ishlab chiqarish rejasi mazmunini quyidagilar tashkil etadi:",
+    "noAnswer1": "Ishlab chiqarish quvvatlarini hisoblash",
+    "noAnswer2": "Resurslarbo‘yicha sarflarni aniqlash",
+    "answer": "Korxonanimahsulot ishlab chiqarish bo‘yicha real imkoniyatlarini aniqlash",
+    "noAnswer3": "Ishlab chiqarish quvvatlarini hisoblash, korxonani mahsulot ishlab chiqarish bo‘yicha real\r\nimkoniyatlarini aniqlash, resurslar bo‘yicha sarflarni aniqlash"
   },
   {
-    "question": "Teachable Machine yordamida qanday turdagi modellarni yaratish mumkin?",
-    "answer": "Tasvir, tovush va poza modellari ",
-    "noAnswer1": "Matn va nutq modellari",
-    "noAnswer2": "Faqat tasvir modellari ",
-    "noAnswer3": "Faqat tovush modellari"
+    "question": "Ishlab chiqarish dasturi bu",
+    "noAnswer1": "Turli ehtiyojlarni qondirishga yo‘naltirilgan mahsulotlar nomenklaturasi, assortimenti, sifati va\r\nmiqdorini ifodalovchi reja ko‘rsatkichlari tizimidir",
+    "noAnswer2": "Mahsulot ishlab chiqarish bo‘yicha material resurslar sarfini, mahsulotlar assortimentini,\r\njihozlar sonini ifodalovchi tizim",
+    "answer": "Mahsulotishlab chiqarish bo‘yicha Texnologik jarayon sxemasi, mahsulot turlari miqdori va\r\nsifatini belgilovchi tizim",
+    "noAnswer3": "Mahsulot ishlab chiqarish hajmini kvartallar, oylar va dekadalarda ifodalovchi tizim"
   },
   {
-    "question": "Teachable Machine-dan foydalanish uchun qaysi dasturlash tili talab qilinmaydi?",
-    "answer": "Python",
-    "noAnswer1": "JavaScript",
-    "noAnswer2": "Java ",
-    "noAnswer3": "HTML"
+    "question": "Material resurslarga bo‘lgan talab biznes rejaning qaysi bo‘limida aks ettiriladi?",
+    "noAnswer1": "Xarajatlar rejasi",
+    "noAnswer2": "Marketing rejasi",
+    "answer": "Ishlab chiqarish rejasi",
+    "noAnswer3": "Moliyaviy reja"
   },
   {
-    "question": "Qanday qilib Teachable Machine foydalanuvchilarga o'qitilgan modellarini eksport qilishga imkon beradi?",
-    "answer": "Yuklab olinadigan fayl sifatida",
-    "noAnswer1": "Faqat elektron pochta orqali ",
-    "noAnswer2": " Ijtimoiy tarmoq orqali ulashish ",
-    "noAnswer3": "Modelni eksport qilishga ruxsat bermaydi"
+    "question": "Ishlab chiqarish faoliyatini rejalashtirish - …….",
+    "noAnswer1": "Korxona va firmalarning rivojlanishini, xo‘jalik faoliyati shakllarini va iqtisodiy maqsadlarni\r\nasoslashni o‘rganadi",
+    "answer": "Iqtisodiy resurslarni tanlash va ulardan foydalanish qonunlari. tamoyillari, qoidalari va\r\nusullarini o‘rganadi",
+    "noAnswer2": "Iqtisodiy resurslarni boshqarish muammolarini o‘rganadi",
+    "noAnswer3": "Korxonaninghaqiqiy holatini tadqiq qilishni va uning kelgusidagi rivojlanish darajasini o‘rganadi"
   },
   {
-    "question": "Teacheble machine da yaratilgan loyihalarni qaysi tizimlar q`ollab quvvatlaydi?",
-    "answer": "Veb-brauzerlar, Android va iOS",
-    "noAnswer1": "Faqat iOS ",
-    "noAnswer2": " Faqat Android ",
-    "noAnswer3": "Web brauzerlar"
+    "question": "Mehnat sarfi ifodasidagi mahsulot hajmi quyidagi ko‘rsatkichlar aniqlashga asos bo‘ladi",
+    "noAnswer1": "Material resurslarga talab hajmini, ish haqi fondi va ishchilar sonini aniqlash uchun",
+    "noAnswer2": "Jihozlar soni, ishchilar soni va moliyaviy natijalarni shakillantirish uchun",
+    "answer": "Ishchilar soni va ish haqi fondini aniqlash uchun",
+    "noAnswer3": "Baho, ishchilar soni va ish haqi fondini aniqlash"
   },
   {
-    "question": "array([0, 1, 2, 3]) massivi ustida cumsum metodini bajsak, eng oxirgi element qanday qiiymatga ega bo'lib qoladi? ",
-    "answer": 6,
-    "noAnswer1": 5,
-    "noAnswer2": 4,
-    "noAnswer3": 2
+    "question": "“Biznes reja” quyidagi talablarga javob berishi lozim",
+    "noAnswer1": "Biznes strategiyasini amalga oshirish quroli bo‘lishi lozim",
+    "noAnswer2": "Mablag‘larni yo‘naltirishi lozim",
+    "answer": "Har bir ko‘rsatkich asoslasnishi shart",
+    "noAnswer3": "Rivojlanish yo‘nalishlarini son va sifat ko‘rsatkichlari tizimi sifatida ifodalashi lozim"
   },
   {
-    "question": "array([2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7]) ko'rinishdagi massiv ustida unique funksiyasiga argument sifatida uzatadigan bo'lsak, natija qanday bo'ladi? ",
-    "answer": "array([2, 3, 4, 5, 6, 7]) ",
-    "noAnswer1": "array([2, 2,3,3, 4,4 ,5, 6, 7]) ",
-    "noAnswer2": "array([7,6,5,4,3,2]) ",
-    "noAnswer3": "array([1,2, 3, 4, 5, 6, 7]) "
+    "question": "Qo‘shimcha to‘lov va kompensatsiyalar nima uchun xizmat qiladi",
+    "noAnswer1": "Qo‘shimcha to‘lov va kompensatsiyalar xodimlarning yuqori aktivligini rag‘batlantirishga\r\nyo‘nalitirilgan.",
+    "noAnswer2": "Ishlab chiqarish samaradorligini oshirishga xizmat qiladi.",
+    "answer": "Mehnat sharoitidagi chetlanishlarda ishchi kuchini qo‘shimcha xarajatlarini qoplash uchun\r\nbelgilanadi.",
+    "noAnswer3": "Qo‘shimcha to‘lov va kompensatsiyalar xodimlarning bajargan ishlariga to‘lovlarni ifodalaydi."
   },
   {
-    "question": "arr1 va arr2 massivlarini faylda saqlash uchun to’g’ri kodni ko’rsating. ",
-    "answer": "np.savez(\"data.npz\",x=arr1,y=arr2) ",
-    "noAnswer1": "pd.savez(\"data.npz\",x=arr1,y=arr2) ",
-    "noAnswer2": "np.save(\"data.npz\",x=arr1,y=arr2) ",
-    "noAnswer3": "np.save(\"data.npy\",x=arr1,y=arr2) "
+    "question": "Ishchilarning asosiy va qo‘shimcha ish haqi tushunchasi.",
+    "noAnswer1": "Asosiy ish haqi ishlagan vaqt uchun, qo‘shimcha ish haqi ishdan tashqari soatlar uchun\r\nto‘lanadi.",
+    "noAnswer2": "Asosiy ish haqi haqiqiy bajarilgan ish uchun, qo‘shimcha ish haqi esa qo‘shimcha soat\r\nuchunto‘lanadi.",
+    "noAnswer3": "Asosiy ish haqi ishlangan vaqt (bajarilgan ish, ishlab chiqarilgan mahsulot) uchun, qo‘shimcha\r\nish haqi esa ishlanmagan vaqt uchun to‘lanadi.",
+    "answer": "Asosiy ish haqi ishlangan vaqt uchun (xizmatlar, mahsulotlar hajmini bajarganligi uchun)\r\nto‘lanadi, qo‘shimcha ish haqi esa mehnat qonunlariga belgilangan ishlanmagan vaqt uchun\r\nqo‘shimcha to‘lovlardir."
   },
   {
-    "question": "arr1 massivini .npy fayl kengaytmada saqlash kodini ko’rsating. ",
-    "answer": "np.save(\"data.npy\",arr1) ",
-    "noAnswer1": "np.savez(\"data.npy\",arr1) ",
-    "noAnswer2": "pd.save(\"data.npy\",arr1) ",
-    "noAnswer3": "pd.savez_compressed(\"data.npy\",arr1) "
+    "question": "Ishlab chiqarish – bu",
+    "noAnswer1": "iqtisodiyotni moliyalashtiruvchi yagona manbaa",
+    "noAnswer2": "jamiyat hayoti uchun 2 – darajali rol o‘ynaydi",
+    "noAnswer3": "mehnat vositalarini mehnat predmeti va mehnatdan ajralishidir",
+    "answer": "ko‘payib boruvchi ehtiyojlarni qondiruvchi yagona manbaa."
   },
   {
-    "question": "massivdagi takrorlanmas elementlarni qaytaruvchi (takrorlansa ham faqat bittasini qabul qiluvchi) funksiyani ko’rsating. ",
-    "answer": "np.unique() ",
-    "noAnswer1": "np.in1d() ",
-    "noAnswer2": "np.setdiff1d() ",
-    "noAnswer3": "pd.setdiff1d() "
+    "question": "«Kalkulyatsiya obyekti» va «Kalkulyatsiya birligi» tushunchasi nimani ifodalaydi.",
+    "noAnswer1": "Kalkulyatsiya obyekti tannarx o‘lchov birligi kalkulyatsiya, birligi-mahsulot turi.",
+    "answer": "Kalkulyatsiya obyekti- mahsulot turi, kalkulyatsiya birligi – mahsulot birligi uchun xarajatlar",
+    "noAnswer2": "Kalkulyatsiya obyekti-birlik xizmat turi, kalkulyatsiya birligi - birlik mahsulot uchun material\r\nxarajatlari",
+    "noAnswer3": "Kalkulyatsiya obyekti mahsulot turi, birligi – tannarx xarajatlari o‘lchov birligi."
   },
   {
-    "question": "ikki ulchamli (3x4) arr massivini elimentlarini garizantal yunalishda elimentlarini tartiblang. ",
-    "answer": "np.sort(arr,axis=1) ",
-    "noAnswer1": "np.sorted(arr,axis=1) ",
-    "noAnswer2": "pd.sort(arr,axis=0) ",
-    "noAnswer3": "np.sort(arr,axis=0) "
+    "question": "Mahsulot tannarxi kalkulyatsiyasi nima?",
+    "answer": "Xarajatlarning kelib chiqish o‘rniga ko‘ra aloxida moddalarga taksimlanishi.",
+    "noAnswer1": "Mahsulot tannarxining xarajat elementlari buyicha joylanishi.",
+    "noAnswer2": "Korxonada ishlab chikarilayotgan mahsulot birligining tannarxi.",
+    "noAnswer3": "Moddiy va mehnat xarajatlarini guruxlanishi."
   },
   {
-    "question": "ikki ulchamli (3x4) arr massivini elimentlarini vertikal yunalishda elimentlarini tartiblang. ",
-    "answer": "np.sort(arr,axis=0) ",
-    "noAnswer1": "np.sorted(arr,axis=0) ",
-    "noAnswer2": "pd.sort(arr,axis=1) ",
-    "noAnswer3": "np.sort(arr,axis=1) "
+    "question": "Texnik iqtisodiy loyihada faoliyatning qaysi jihatlariga urg‘u beriladi?",
+    "noAnswer1": "Faoliyatning moliyaviy jihatlariga",
+    "noAnswer2": "Faoliyatning tijorat jihatlariga",
+    "answer": "Faoliyatning texnik va texnologik jihatlariga",
+    "noAnswer3": "Faoliyatning barcha jihatlariga"
   },
   {
-    "question": "Yig'indilab boradigan yig'indi metodini ko’rsating ",
-    "answer": "cumsum() ",
-    "noAnswer1": "cumprod() ",
-    "noAnswer2": "mean() ",
-    "noAnswer3": "sum() "
+    "question": "Mahsulot rentabelligi qanday aniqlanadi?",
+    "answer": "Foydani uni olishga sarflangan xarajatlarga nisbatan orqali.",
+    "noAnswer1": "Mahsulotning bozor bahosini to‘la tannarxga nisbati orqali.",
+    "noAnswer2": "Balans foydani yillik umumiy soliq ajiratmalariga nisbati orqali.",
+    "noAnswer3": "Tannarx miqdorini foyda miqdoriga nisbati orqali."
   },
   {
-    "question": "Numpay funksiyasi yordamida 3 ulchamli (4x3) elementlari max qiymati 100 gacha bo’lgan taxminiy qiymatlardan tashkil topgan massiv yaratish kodini ko’rsating. ",
-    "answer": "np.random.randint(100,size=(3,4,3)) ",
-    "noAnswer1": "np.random.rand(100,size=(3,4,3)) ",
-    "noAnswer2": "np.random.randn(100,shape=(3,4,3)) ",
-    "noAnswer3": "np.random.randn(100,size=(3,4,3)) "
+    "question": "Biznes reja quyidagi asosiya vazifani bajaradi",
+    "noAnswer1": "Maqsadni amalga oshirish vositalari majmuasi",
+    "noAnswer2": "Havf-xatarni kamaytirish",
+    "answer": "Biznesni amalga oshirish konsepsiyasi",
+    "noAnswer3": "Korxona faoliyatini davom ettirish"
   },
   {
-    "question": "arange funksiyasi yordamida 100 dan 200 gacha sonlar orasidan juft sonlardan massiv yaratish kodini ko’rsating. ",
-    "answer": "np.arange(100,200,2) ",
-    "noAnswer1": "pd.arange(100,200,2) ",
-    "noAnswer2": "np.arange(size=(4,20,2)) ",
-    "noAnswer3": "np.arange(shape=(4,20,2)) "
+    "question": "Ko‘rsatkichlar quyidagi talablarga javob berishi lozim",
+    "noAnswer1": "Faqat miqdoriy tavsifga ega bo‘lishi",
+    "answer": "Ishonchlilik va o‘lchov hususiyatiga ega bo‘lishi",
+    "noAnswer2": "Faqat sifat tasnifga ega bo‘lishi",
+    "noAnswer3": "Jarayonning ijtimoiy va iqtisodiy jihatlarini tafsiflashi"
+  },
+  {
+    "question": "Material resurslardan foydalanish koeffitsienti qanday aniqlanadi?",
+    "noAnswer1": "Detal og‘irligini yarim tayyor mahsulot og‘irligiga nisbati orqali",
+    "noAnswer2": "Sotilayotgan chiqindilarning miqdorini sotilayotgan chiqindilar qiymati nisbati orqali",
+    "answer": "Haqiqiy material resurslari sarfini material sarfi normasiga nisbati orqali",
+    "noAnswer3": "Yillik ishlab chiqarish hajmini o‘rtacha quvvatga nisbati orqali"
+  },
+  {
+    "question": "Jihozlardan intensiv foydalanish koeffitsienti mohiyatini …",
+    "noAnswer1": "Jihozning ish vaqtidan foydalanish darajasini ifodalash tashkil etadi",
+    "noAnswer2": "Jihoz samaradorligidan foydalanish darajasini ifodalash tashkil etadi",
+    "noAnswer3": "Jihoz sonidan foydalanish darajasini ifodalash tashkil etadi",
+    "answer": "Jihozning soatlik unimdorligidan foydalanish darajasini ifodalash tashkil etadi"
+  },
+  {
+    "question": "Ro‘yxatdagi ishchilar soni bilan haqiqiy ishchilar soni orasidagi farq.............",
+    "noAnswer1": "Ishkuni davomida yuz beradigan tashkiliy-texnik tanaffuslar hisobiga yuzaga keladi",
+    "noAnswer2": "Ishchilarning ishga sababsiz kelmagan kunlari hisobiga yuzaga keladi",
+    "noAnswer3": "Doimiy va mavsumiy ishlarga jalb qilingan ishchilar soni orasidagi farqdir",
+    "answer": "Imtiyozli ruxsat etilgan ishga chiqmaslik kunlari hisobiga yuzaga keladi"
+  },
+  {
+    "question": "Ishlab chiqarishning asosiy omillari:",
+    "answer": "ishchi kuchi, kapital, yer va tadbirkorlik qobiliyati.",
+    "noAnswer1": "xom-ashyo va ishlab chiqarish texnologiyasi",
+    "noAnswer2": "ishlab chiqarish resurslari",
+    "noAnswer3": "Kapital"
+  },
+  {
+    "question": "Ehtiyoj - bu........",
+    "noAnswer1": "ishlab chiqarish jarayoni",
+    "answer": "hayotiy vositalarga bo‘lgan zaruriyat.",
+    "noAnswer2": "iste’mol jarayonida qo‘llanilishi mumkin bo‘lgan vosita",
+    "noAnswer3": "resurs"
+  },
+  {
+    "question": "Iqtisodiyotning bosh masalasi va doimiy muammosi:",
+    "noAnswer1": "ishlab chiqarish hajmini oshirish uchun qancha ishchi kuchi sarflash kerak",
+    "answer": "nima, qanday, qancha va kim uchun ishlab chiqarish.",
+    "noAnswer2": "davlatning milliy daromadini qanday oshirish mumkin",
+    "noAnswer3": "aholi bandligini oshirish"
+  },
+  {
+    "question": "Kreditlar – bu",
+    "answer": "pul vositalarini tovar va xizmatlarga to‘lov, qaytarib berish sharti bilan noma’lum muddatga\r\nqarz berish.",
+    "noAnswer1": "ssuda fondini shakllantirish va undan foydalanish munosabatlari",
+    "noAnswer2": "qarz berish jarayonlarida qarz beruvchi va qarzdor o‘rtasidagi amalga oshiriladigan harakat",
+    "noAnswer3": "tovar va xizmatlarga naqd pulsiz shaklda hisob – kitob qilish uchun bank tomonidan beriladigan\r\nmoliyaviy xujjat"
+  },
+  {
+    "question": "Korxonaning ishlab chiqarish hajmi 7000 dona mahsulotni tashkil qiladi. Ishchilarning o‘rtacha\r\nro‘yxatdagi soni 200 kishi bo‘lib, ishlab chiqarish hajmini 15% ga oshirish ko‘zda tutiladi. Reja yili\r\nuchun ishchilar soni quyidagiga teng bo‘ladi:",
+    "noAnswer1": "240 kishi",
+    "noAnswer2": "250 kishi",
+    "answer": "230 kishi",
+    "noAnswer3": "210 kishi"
+  },
+  {
+    "question": "Iste’molchilik krediti – bu",
+    "noAnswer1": "kreditning asosiy va yetakchi shakli",
+    "noAnswer2": "korxonalar va birlashmalar hamda boshqa xo‘jalik yurutuvchi sub’ektlarning bir – biriga\r\nberadigan krediti",
+    "answer": "xususiy shaxslarga iste’mol tovarlari sotib olish uchun ma’lum muddatga beriladigan kredit.",
+    "noAnswer3": "ko‘chmas mulklar hisobiga uzoq muddatli ssudalar shaklida beriladigan kredit"
+  },
+  {
+    "question": "Pul mablag‘larini to‘plash, joylashtirish va ularning harakatini tartibga solish bilan\r\nshug‘ullanuvchi iqtisodiy muassasa .....",
+    "noAnswer1": "tovarlar birjasi",
+    "noAnswer2": "mehnat birjasi",
+    "noAnswer3": "chakana savdo tashkiloti",
+    "answer": "bank."
+  },
+  {
+    "question": "Korxonaning ro‘yxatdagi ishlovchilar soni quyidagilardan tarkib topadi:",
+    "noAnswer1": "1 kun muddat bilan doimiy va vaqtinchalik ishlarga qabul qilingan xodimlar",
+    "noAnswer2": "Qabul qilingan xodimlar doimiy va mavsumiy ishlarga qabul qilingan xodimlar",
+    "answer": "1 kun va undan ko‘proq muddatga doimiy va vaqtinchalik ishlarga",
+    "noAnswer3": "Qabul qilingan xodimlar doimiy va mavsumiy ishlarga qabul qilingan xodimlar va 1 kun muddat\r\nbilan doimiy va vaqtinchalik ishlarga qabul qilingan xodimlar"
+  },
+  {
+    "question": "Texnologik jihatdan o‘xshash ishlab chiqarishning birlashuvi – bu",
+    "noAnswer1": "Iqtisodiy rivojlanish",
+    "answer": "Iqtisodiy o‘sish",
+    "noAnswer2": "Ishlab chiqarish strategiyasi",
+    "noAnswer3": "Ishlab chiqarish taktikasi"
+  },
+  {
+    "question": "Giperinflyatsiya – bu",
+    "answer": "narxning shiddat bilan o‘sishi, pul qadrining juda tezlik bilan pasayishi.",
+    "noAnswer1": "qtisodiy tanglik va ishsizlikning birgalikda yuz berishi",
+    "noAnswer2": "eski pulning qadri yuqori qilib belgilangan, ammo nomi eskicha qolgan yangi pulga ma’lum\r\nnisbatda almashtirib va nisbatga qarab narxlarni ham o‘zgartirish tushuniladi",
+    "noAnswer3": "pulning yuridik kuchini bekor qilish va yangi pul chiqarish tushuniladi"
+  },
+  {
+    "question": "Samaradorlik mezoni qanday ko‘rsatkichlar bilan ifodalanadi?",
+    "noAnswer1": "Sof diskontlangan daromad (SDD) yalpi milliy daromad (YaMD) Yalpi ichki mahsulot (YaIM)\r\ndaromadlik indeksi (DI)",
+    "noAnswer2": "Sof milliy mahsulot (SMM) yalpi milliy mahsulot (YaMM) milliy daromad (ME)",
+    "answer": "Sof diskontlangan daromad (SDD) daromadlilik indeksi (DI), qoplash muddati",
+    "noAnswer3": "Baho indeksi (BI), daromadlilik indeksi (DI) koplash muddatining, ichki daromadlilik normasi\r\n(IDN)"
+  },
+  {
+    "question": "Bozor sharoitida qanday ko‘rsatkich umum qabul qilingan samaradorlik mezoni bo‘lib\r\nhisoblanadi?",
+    "noAnswer1": "Dividend",
+    "noAnswer2": "Baho",
+    "noAnswer3": "Zarar",
+    "answer": "Maksimal foyda"
+  },
+  {
+    "question": "Inflyatsiya – bu",
+    "answer": "muomaladagi pul massasining tovarlar massasidan ustunligi natijasida tovarlar bilan\r\nta’minlangan pullarni ko‘payib ketishi.",
+    "noAnswer1": "milliy pul birligi qiymatining rasmiy tartibda pasaytirilishi",
+    "noAnswer2": "milliy pul birligi qiymatining rasmiy tartibda ko‘tarilishi",
+    "noAnswer3": "eksportni importga nisbatan nihoyatda ortib ketishi"
+  },
+  {
+    "question": "Jihozlardan ekstensiv foydalanish koeffitsienti mohiyatini…",
+    "noAnswer1": "jihozning soatlik unimdorligidan foydalanish darajasini ifodalash tashkil etadi",
+    "noAnswer2": "jihoz samaradorligidan foydalanish darajasini ifodalash tashkil etadi",
+    "answer": "jihozning ish vaqtidan foydalasnish darajasini ifodalash tashkil etadi",
+    "noAnswer3": "jihoz sonidan foydalanish darajasini ifodalash tashkil etadi"
+  },
+  {
+    "question": "Pul muomalasi – bu",
+    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
+    "answer": "pulning o‘z vazifasini bajarish jarayonidagi to‘xtovsiz harakati.",
+    "noAnswer2": "pul mablag‘larini ssuda fondi shaklida to‘lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
+    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+  },
+  {
+    "question": "Biznes rejaning qaysi bo‘limi boshqa bo‘limlarni shakllantirish uchun asos bo‘lib xizmat qiladi –",
+    "noAnswer1": "Biznesni ifodalash",
+    "noAnswer2": "Ishlab chiqarish rejasi",
+    "answer": "Marketing rejasi",
+    "noAnswer3": "Moliyaviy reja"
+  },
+  {
+    "question": "Mahsulot tavsifida asosiy e’tibor quyidagiga qaratiladi",
+    "noAnswer1": "Mahsulotning boshqa mahsulotdan farq qiluvchi jihatlariga",
+    "noAnswer2": "Mahsulot sifati jihatidan farq qiluvchi jihatlariga)",
+    "noAnswer3": "Mahsulot narxi jihatidan farq qiluvchi jihatlariga",
+    "answer": "Mahsulotning raqobatchi mahsulotdan farq qiluvchi jihatlariga"
+  },
+  {
+    "question": "Nazariy quvvat –bu ?",
+    "answer": "Korxona jihozlari pasportidagi ishlab chiqarish imkoniyati",
+    "noAnswer1": "Korxonaning ish sharoitini e’tiborga olgan xoldagi mahsulot ishlab chiqarish imkoniyati",
+    "noAnswer2": "Normal ish sharoitidagi mahsulot ishlab chiqarish imkoniyati",
+    "noAnswer3": "Mavjud shart-sharoitlardagi mahsulot ishlab chiqarish imkoniyati"
+  },
+  {
+    "question": "Amaliy quvvat –bu?",
+    "noAnswer1": "Mavjud shart-sharoitlardagi mahsulot ishlab chiqarish imkoniyati",
+    "noAnswer2": "Korxona jihozlari pasportidagi ishlab chiqarish imkoniyati",
+    "answer": "Korxonaning ish sharoitini e’tiborga olgan xoldagi mahsulot ishlab chiqarish imkoniyati",
+    "noAnswer3": "Ideal ish sharoitidagi mahsulot ishlab chiqarish imkoniyati"
+  },
+  {
+    "question": "Rejalashatirish jarayoni-bu …",
+    "noAnswer1": "Korxona faoliyatini belgilash jarayoni",
+    "answer": "Rejani ishlab chiqish jarayoni",
+    "noAnswer2": "Korxona maqsadini amalga oshirish jarayoni",
+    "noAnswer3": "Korxona resurslaridan foydalanishni belgilash jarayoni"
+  },
+  {
+    "question": "Rejalashtirish jarayoni obyekti – bu…",
+    "noAnswer1": "Korxonaning mehnat va moddiy resurslari",
+    "noAnswer2": "Korxonaning iqtisodiy salohiyati",
+    "noAnswer3": "Korxonaning ishlab chiqarish bo‘limlari",
+    "answer": "Korxona va uning ishlab chiqarish jarayoni"
+  },
+  {
+    "question": "«Rezyume» bo‘limining asosiy maqsadi nimada?",
+    "answer": "Ish taklifining qisqa mazmunini berilishi",
+    "noAnswer1": "Mahsulot va xizmat turini aniqlash",
+    "noAnswer2": "Ishlab chiqarilayotgan mahsulot iste’molchilarini aniqlash",
+    "noAnswer3": "Korxona joylashgan o‘rnini belgilash"
+  },
+  {
+    "question": "Yirik korxonalar uchun biznes reja necha bo‘limdan iborat bo‘ladi – …",
+    "noAnswer1": "8",
+    "answer": "10",
+    "noAnswer2": "3",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "Kichik korxonalar uchun tuzilgan biznes reja necha bo‘limdan iborat bo‘ladi – …",
+    "noAnswer1": "8",
+    "noAnswer2": "3",
+    "answer": "5",
+    "noAnswer3": "10"
+  },
+  {
+    "question": "Biznes reja qaysi funksiyalarni bajaradi?",
+    "answer": "Korxona strategiyasini amalga oshirish, mablag‘larni jalb qilish",
+    "noAnswer1": "Korxona taktikasini amalga oshirish, pul oqimlarini boshqarish",
+    "noAnswer2": "Rivojlanish yo‘nalishlarini son va sifatda tasvirlash",
+    "noAnswer3": "Harakatlar dasturini shakllantirish va yo‘naltirish"
+  },
+  {
+    "question": "Tovarni tarqatishni taktikasini nimadan boshlash zarur?",
+    "noAnswer1": "Mijozlarga axborot berishdan",
+    "noAnswer2": "Mijozlarni tahlil qilishdan",
+    "noAnswer3": "Maqsadli bozorni aniqlashdan",
+    "answer": "Sotish usullarini tasvirlashdan"
+  },
+  {
+    "question": "Davlat byudjeti nima?",
+    "noAnswer1": "pul mablag‘larini jamg‘aruvchi fond",
+    "noAnswer2": "pul mablag‘larining ma’lum yo‘nalishlar bo‘yicha taqsimlanishi",
+    "noAnswer3": "umumjamiyat miqyosida markazlashgan holda pul mablag‘larining sarflanishi",
+    "answer": "umumjamiyat miqyosida markazlashgan holda davlat ishtirokida to‘planadigan va\r\nsarflanadigan moliyaviy resurslar."
+  },
+  {
+    "question": "Tadbirkorlik obyektiga yoki xo‘jalik obyektiga ilmiy texnika taraqqiyoti yutuqlari doirasida\r\nzaruriy innovatsiyalarni, o‘zgarishlarni kiritish – bu",
+    "answer": "Iqtisodiy rivojlanish",
+    "noAnswer1": "Ishlab chiqarish strategiyasi",
+    "noAnswer2": "Iqtisodiy o‘sish",
+    "noAnswer3": "Ishlab chiqarish taktikasi"
+  },
+  {
+    "question": "Yalpi foyda salmog‘i qanday aniqlanadi?",
+    "noAnswer1": "umumiy sotuv hajmi/umumiy yalpi foyda",
+    "noAnswer2": "umumiy yalpi foyda * umumiy sotuv hajmi",
+    "answer": "umumiy yalpi foyda/umumiy sotuv hajmi",
+    "noAnswer3": "umumiy yalpi foyda - umumiy sotuv hajmi"
+  },
+  {
+    "question": "Texnik- iqtisodiy rejalashtirish -",
+    "answer": "Korxonaning barcha iqtisodiy va moliyaviy ko‘rsatkichlarini aniqlash, iqtisodiy resurslarni\r\ntanlash va ular bo‘yicha normalarni belgilashni ko‘zda tutadi",
+    "noAnswer1": "Korxona bozorga qanday moslashishini va unga qanday ta’sir etishni ko‘zda tutadi",
+    "noAnswer2": "Mahsulotlarni ishlab chiqarish uchun qanday texnologiya qo‘llanilishi kerakligini ko‘zda tutadi",
+    "noAnswer3": "Korxonada qanday mahsulot ishlab chiqarish kerakligini ko‘zda tutadi"
+  },
+  {
+    "question": "Korxonada ichki rejalashtirishning qanday turlari qo‘llaniladi?",
+    "noAnswer1": "Strategik va normative",
+    "answer": "Operativ, taktik, strategik, normativ",
+    "noAnswer2": "Operativ, normativ, taktik, joriy",
+    "noAnswer3": "Operativ va taktik"
+  },
+  {
+    "question": "Yangi va eski bozorlarda tovarlarni sotish hajmini ko‘paytirish bu-",
+    "noAnswer1": "Iqtisodiy rivojlanish",
+    "noAnswer2": "Ishlab chiqarish strategiyasi",
+    "answer": "Iqtisodiy o‘sish",
+    "noAnswer3": "Ishlab chiqarish taktikasi"
+  },
+  {
+    "question": "Maqsadga erishish vositalarini belgilash bu",
+    "noAnswer1": "Strategiya",
+    "noAnswer2": "Oddiy harakat",
+    "noAnswer3": "Foyda olish",
+    "answer": "Taktika"
+  },
+  {
+    "question": "Tanlangan maqsad va qo‘llaniladigan usullariga ko‘ra rejalashtirish quyidagilarga bo‘linadi:",
+    "noAnswer1": "Texnik iqtisodiy va tashkiliy texnik",
+    "answer": "Texnik iqtisodiy va operativ ishlab chiqarish",
+    "noAnswer2": "Operativ ishlab chiqarish va umumlashtirilgan",
+    "noAnswer3": "Tashkiliy texnik va taktik"
+  },
+  {
+    "question": "Korxona faoliyatini boshqarish uslublarini tanlash bu...",
+    "noAnswer1": "Taktika",
+    "noAnswer2": "Oddiy harakat",
+    "answer": "Strategiya",
+    "noAnswer3": "Foyda olish"
+  },
+  {
+    "question": "Strategik rejalashtirish –",
+    "noAnswer1": "Maqsad va vazifalarni, vositalarni ochiq va asoslangan tarzda belgilash ko‘zda tutadi",
+    "noAnswer2": "Korxonaning umumiy maqsadiga erishish usullarini tanlashdir",
+    "noAnswer3": "Avval belgilab qo‘yilgan maqsad va vazifalarni erishish yo‘llarini tanlashdan iboratdir",
+    "answer": "Korxonaning umumiy maqsadlarini belgilash va unga erishish usullarini tanlashdir."
+  },
+  {
+    "question": "Pul muomalasi – bu",
+    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
+    "answer": "pulning o’z vazifasini bajarish jarayonidagi to’xtovsiz harakati.",
+    "noAnswer2": "pul mablag’larini ssuda fondi shaklida to’lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
+    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+  },
+  {
+    "question": "Pulning qaysi vazifasi boylik to’plash bilan bog’liq?",
+    "answer": "jamg’arma vositasi",
+    "noAnswer1": "muomala vositasi",
+    "noAnswer2": "to’lov vositasi",
+    "noAnswer3": "qiymat o’lchovi"
+  },
+  {
+    "question": "Pulning vazifasi nimadan iborat?",
+    "noAnswer1": "pul iste’moli bilan ijtimoiy talabga bo’lgan investitsiya omili",
+    "noAnswer2": "ijtimoiy taklif va almashuv uchun zarur bo’lgan miqdorni belgilaydigan kapital qiymatlar omili",
+    "noAnswer3": "daromadlar va xarajatlarni hisobga olish tizimi",
+    "answer": "yagona hisob – kitob yurgizish, almashuv, jamg’arma, muomila, to’lov vositasi vazifasini\r\nbajaradi"
+  },
+  {
+    "question": "Pulning qaysi vazifasi narxning shakllanishi bilan bog’liq?",
+    "noAnswer1": "muomala vositasi",
+    "noAnswer2": "jamg’arma vositasi",
+    "answer": "qiymat o’lchovi",
+    "noAnswer3": "jahon puli"
+  },
+  {
+    "question": "Ehtiyoj - bu........",
+    "answer": "hayotiy vositalarga bo’lgan zaruriyat",
+    "noAnswer1": "ishlab chiqarish jarayoni",
+    "noAnswer2": "iste’mol jarayonida qo’llanilishi mumkin bo’lgan vosita",
+    "noAnswer3": "resurs"
+  },
+  {
+    "question": "Kapital - bu …",
+    "noAnswer1": "ishlab chiqarish jarayoni",
+    "noAnswer2": "iste’mol jarayonida qo’llanilishi mumkin bo’lgan vosita",
+    "answer": "investitsiyalashtirish yo‘li bilan daromad olish uchun foydalaniladigan mol-mulk, boylik yoki\r\nmablag‘",
+    "noAnswer3": "resurs"
+  },
+  {
+    "question": "Insoniy kapital - bu …",
+    "answer": "Har bir shaxs va mamlakat barcha aholisining intellekti, salomatligi, tabiiy iste’dodi va qo‘lga\r\nkiritgan qobiliyatlarining majmui",
+    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
+    "noAnswer2": "pul mablag’larini ssuda fondi shaklida to’lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
+    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+  },
+  {
+    "question": "“Insoniy kapital” (human capital) tushunchasi qachon paydo bo‘lgan?",
+    "noAnswer1": "XIX asrning birinchi yarmida",
+    "noAnswer2": "XX asrning ikkinchi yarmida",
+    "answer": "XIX asrning ikkinchi yarmida",
+    "noAnswer3": "XX asrning birinchi yarmida"
+  },
+  {
+    "question": "“Insoniy kapital” nazaryasi tarafdorlari kimlar?",
+    "noAnswer1": "Teodor Shuls, Gari Bekker",
+    "noAnswer2": "Gari Bekker va Saymon Kuzneslar",
+    "answer": "Teodor Shuls, Gari Bekker va Saymon Kuzneslar",
+    "noAnswer3": "Teodor Shuls"
+  },
+  {
+    "question": "Insoniy naturaning har qanday xarakterli belgisi ….",
+    "answer": "iqtisodiy (jumladan, moliyaviy) mazmun (qiymat)ga egadir",
+    "noAnswer1": "jismoniy mazmunga egadir",
+    "noAnswer2": "ma'naviy mazmunga egadir",
+    "noAnswer3": "ijtimoiy mazmunga egadir"
+  },
+  {
+    "question": "Biz qabul qiladigan barcha qarorlarni nechta guruhga bo‘lish mumkin?",
+    "noAnswer1": "2",
+    "noAnswer2": "4",
+    "noAnswer3": "5",
+    "answer": "3"
+  },
+  {
+    "question": "Strategik menejment maktabi asoschilaridan biri bo‘lgan professor Genri Minsberg qarorlarni\r\nqanday atagan edi:",
+    "answer": "“oldin bajaraman”; “oldin ko‘raman”; “oldin o‘ylayman”.",
+    "noAnswer1": "“oldin o‘ylayman”; “oldin ko‘raman”; “oldin bajaraman”.",
+    "noAnswer2": "“oldin ko‘raman”; “oldin o‘ylayman”; “oldin bajaraman”.",
+    "noAnswer3": "“oldin ko‘raman”; “oldin bajaraman”; “oldin o‘ylayman”."
+  },
+  {
+    "question": "Qaror qabul qilishning nechta asosiy bosqichlari bor?",
+    "noAnswer1": "2",
+    "noAnswer2": "4",
+    "answer": "3",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "Maqsadga erishish muddatini shartli ravishda bo‘lsa ham, nechta guruhga bo‘lish mumkin?",
+    "noAnswer1": "2",
+    "answer": "3",
+    "noAnswer2": "4",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "Qisqa muddatli maqsadlar muddati qancha?",
+    "answer": "1 yilgacha",
+    "noAnswer1": "2 yilgacha",
+    "noAnswer2": "3 yilgacha",
+    "noAnswer3": "4 yilgacha"
+  },
+  {
+    "question": "Bizning qaramog‘i (mulki)mizda va o‘zining pulli qiymatiga ega bo‘lgan barcha narsalar nima\r\ndeyiladi?",
+    "noAnswer1": "passivlar",
+    "noAnswer2": "balans",
+    "noAnswer3": "Daromad",
+    "answer": "aktivlar"
+  },
+  {
+    "question": "Shaxsiy moliya nuqtai-nazaridan aktivlarni, shartli ravishda, nechta kategoriya (toifa)ga bo‘lish\r\nmumkin?",
+    "noAnswer1": "3",
+    "noAnswer2": "4",
+    "answer": "2",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "Shaxsiy moliya nuqtai-nazaridan aktivlarni qaysi kategoriyalarini bilasiz?",
+    "answer": "iste’moliy va investitsion",
+    "noAnswer1": "moliyaviy va iqtisodiy",
+    "noAnswer2": "iqtisodiy va ijtimoiy",
+    "noAnswer3": "iste’moliy va moliyaviy"
+  },
+  {
+    "question": "Shaxsiy moliyada biz bajarishimiz lozim bo‘lgan\r\nmoddiy majburiyatlar nima deyiladi?",
+    "noAnswer1": "aktivlar",
+    "noAnswer2": "Balans",
+    "answer": "passivlar",
+    "noAnswer3": "daromad"
+  },
+  {
+    "question": "Bu sizning shaxsiy xazinangiz (ixtiyoringiz)ga kelib tushadigan pullar.",
+    "noAnswer1": "xarajatlar",
+    "noAnswer2": "Byudjet",
+    "answer": "daromadlar",
+    "noAnswer3": "foyda"
+  },
+  {
+    "question": "Bu o‘z ehtiyojlaringizni qondirish uchun sarflayotgan pullaringiz.",
+    "answer": "xarajatlar",
+    "noAnswer1": "daromadlar",
+    "noAnswer2": "byudjet",
+    "noAnswer3": "zarar"
+  },
+  {
+    "question": "Bu ma’lum mo‘ljallangan vaqt davomida (masalan, oy, chorak, yarim yil yoki yil) rejalashtirilgan\r\ndaromadlaringiz va xarajatlaringiz ro‘yxati.",
+    "noAnswer1": "daromadlar",
+    "noAnswer2": "Xarajatlar",
+    "answer": "byudjet",
+    "noAnswer3": "mablag‘"
+  },
+  {
+    "question": "Shaxsiy moliyaviy rejani ishlab chiqish nechta bosqichni o‘z ichiga oladi?",
+    "noAnswer1": "2",
+    "noAnswer2": "4",
+    "noAnswer3": "5",
+    "answer": "3"
+  },
+  {
+    "question": "Daromad va iste’mol, ya’ni xarajatlarining bir-biriga muvofiq kelishiga qarab inson hayotini\r\nshartli ravishda nechta davrga bo‘lish mumkin?",
+    "noAnswer1": "2",
+    "noAnswer2": "3",
+    "answer": "4",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "Daromad va iste’mol, ya’ni xarajatlarining bir-biriga muvofiq kelishiga qarab inson hayotini\r\nshartli ravishda qanday davrlarga bo‘lish mumkin?",
+    "noAnswer1": "o‘smirlik, yetuklik, keksalik",
+    "noAnswer2": "yetuklik, keksalik",
+    "answer": "bolalik va yoshlik, o‘smirlik, yetuklik, keksalik",
+    "noAnswer3": "bolalik va yoshlik, o‘smirlik, yetuklik"
+  },
+  {
+    "question": "Insonning hayotiy siklidan kelib chiqib, shaxsiy moliyaviy maqsadlarning nechta asosiy guruhga\r\najratish mumkin?",
+    "noAnswer1": "2",
+    "noAnswer2": "4",
+    "answer": "3",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "O‘z daromadlarimizni kapitalning qaysi turlarini shakllantirishga yo‘naltirishimiz kerak?",
+    "noAnswer1": "joriy; zahira; moliyaviy",
+    "noAnswer2": "bazaviy; zahira; investitsion",
+    "noAnswer3": "joriy; investitsion",
+    "answer": "joriy; zahira; investitsion"
+  },
+  {
+    "question": "Tovarlar va xizmatlar bahosi umumiy darajasining oshish (o‘sish) jarayoni nima deyiladi.",
+    "noAnswer1": "bankrot",
+    "noAnswer2": "krizis",
+    "noAnswer3": "Defitsit",
+    "answer": "inflyatsiya"
+  },
+  {
+    "question": "O‘zbekiston Respublikasi qonunchiligiga ko‘ra necha yoshga to‘lgan har bir fuqaro depozit\r\n(omonat) shartnomasini tuzishi (imzolashi) mumkin?",
+    "noAnswer1": "15",
+    "noAnswer2": "16",
+    "answer": "14",
+    "noAnswer3": "18"
+  },
+  {
+    "question": "Pulni qanday shaklda to‘plash (yig‘ish, jamg‘arish) mumkin?",
+    "noAnswer1": "naqdina (naqd pulli)",
+    "noAnswer2": "Naqdsiz",
+    "answer": "naqdina (naqd pulli) va naqdsiz",
+    "noAnswer3": "plastik kartada"
+  },
+  {
+    "question": "Pulni to‘plash (yig‘ish, jamg‘arish)ning eng oddiy usuli –?",
+    "answer": "uyda naqdina (naqd pul)",
+    "noAnswer1": "bankda naqdina (naqd pul)",
+    "noAnswer2": "plastik kartada",
+    "noAnswer3": "naqdsiz"
+  },
+  {
+    "question": "Shaxsiy moliyada inflyatsiya, odatda, qanday o‘lchanadi (ifodalanadi)?",
+    "noAnswer1": "dollar kursiga qarab",
+    "noAnswer2": "narxlar oshishi orqali",
+    "noAnswer3": "pul banknotalar ko'payshi orqali",
+    "answer": "iste’mol baholari indeksi (IBI) orqali"
+  },
+  {
+    "question": "Bank qaysi funksiyalarni bajaradi?",
+    "noAnswer1": "1) pullarni qabul qiladi (oladi); 2) pullarni beradi.",
+    "answer": "1) pullarni qabul qiladi (oladi); 2) pullarni beradi; 3) hisob-kitob-kassa operatsiyalarini amalga\r\noshiradi.",
+    "noAnswer2": "1) pullarni qabul qiladi (oladi); 2) hisob-kitob-kassa operatsiyalarini amalga oshiradi.",
+    "noAnswer3": "1) pullarni beradi; 2) hisob-kitob-kassa operatsiyalarini amalga oshiradi."
+  },
+  {
+    "question": "Omonat (depozit)lar orqali fuqarolarning bo‘sh pul mablag‘larini to‘plovchi, ularni kreditlar\r\nberish yoki turli moliyaviy instrumentlarga (aksiya, obligatsiya va h.k.lar) investitsiyalab,\r\njoylashtiruvchi moliyaviy vositachi .......... deyiladi.",
+    "answer": "bank",
+    "noAnswer1": "xalq banki",
+    "noAnswer2": "diler",
+    "noAnswer3": "agent"
+  },
+  {
+    "question": "Saqlash yoki foiz (daromad) olish uchun bank hisob- varag‘iga o‘tkazilgan pul mablag‘lari ...........\r\ndeb ataladi.",
+    "noAnswer1": "kredit",
+    "noAnswer2": "sug'urta",
+    "answer": "omonat",
+    "noAnswer3": "investitsiya"
+  },
+  {
+    "question": "Foizi bilan qaytarish sharti asosida ma’lum bir muddatga taqdim etilgan (berilgan) pul\r\nmablag‘lari ........... deyiladi.",
+    "noAnswer1": "omonat",
+    "noAnswer2": "sug'urta",
+    "answer": "kredit",
+    "noAnswer3": "investitsiya"
+  },
+  {
+    "question": "- bu mijozlarning banklardagi pul mablag‘laridir",
+    "noAnswer1": "kredit",
+    "noAnswer2": "sug'urta",
+    "noAnswer3": "Investitsiya",
+    "answer": "depozit(omonat)"
+  },
+  {
+    "question": "– bu bank tomonidan qarz oluvchiga ma’lum muddat va ma’lum shartlarda pulni qarzga berish\r\nuchun ko‘rsatiladigan xizmatdir.",
+    "noAnswer1": "omonat",
+    "noAnswer2": "sug'urta",
+    "noAnswer3": "Investitsiya",
+    "answer": "bank krediti"
+  },
+  {
+    "question": "Kreditga tegishli bo‘lishi mumkin bo‘lgan asosiy tavsif (belgi)larni ko‘rsating.",
+    "noAnswer1": "Haqlilik, to‘lovlilik. Muddatlilik.",
+    "noAnswer2": "Muddatlilik. Kreditning qaytariluvchanligi.",
+    "noAnswer3": "Kreditning qaytariluvchanligi.",
+    "answer": "Haqlilik, to‘lovlilik. Muddatlilik. Kreditning qaytariluvchanligi."
+  },
+  {
+    "question": "– bu shunday prinsipdirki, unga ko‘ra pulning bir xildagi summasi turli davrning turli qismlarida\r\nturli qiymat (baho)ga ega bo‘ladi (xususan, inflyatsiya va turli risklar tufayli).",
+    "noAnswer1": "kreditning to‘liq qiymati",
+    "noAnswer2": "kredit summasi",
+    "answer": "pulning davriy qiymati",
+    "noAnswer3": "kredit muddati"
+  },
+  {
+    "question": "Kredit mablag‘lari qaytarilishini qanday usullari bor?",
+    "answer": "annuitet va differensiatsiyalangan",
+    "noAnswer1": "annuitet",
+    "noAnswer2": "differensiatsiyalangan",
+    "noAnswer3": "tezkor"
+  },
+  {
+    "question": "– bu qarz oluvchi egalik qilayotgan yoki qarziy mablag‘lar hisobiga sotib olayotgan (masalan,\r\navtomobil yoki ko‘chmas mulk) mol-mulk bo‘lib, u kredit qaytarilmaganda sotilishi mumkin.",
+    "noAnswer1": "kafolat",
+    "noAnswer2": "ta'minot",
+    "noAnswer3": "sug'urta",
+    "answer": "garov"
+  },
+  {
+    "question": "– uni shu yerning o‘zidayoq, “kassa oldidan ketmasdan” bir necha minut davomida\r\nrasmiylashtirib, summani olib, xaridni amalga oshirish mumkin.",
+    "answer": "mikroqarz",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta"
+  },
+  {
+    "question": "– xaridni ortga surish, iste’mol krediti uchun bankka murojaat qilish va faqat bir necha kun\r\no‘tgandan so‘ng xaridni amalga oshirish maqsadida do‘konga borsa bo‘ladi",
+    "noAnswer1": "mikroqarz",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta",
+    "answer": "iste’mol krediti"
+  },
+  {
+    "question": "– qarz oluvchiga tadbirkorlik faoliyatini amalga oshirish uchun bazaviy hisoblash miqdorining\r\n1000 baravaridan oshmaydigan summada to‘lovlilik, muddatlilik va qaytarish shartlari asosida\r\nberiladigan pul mablag‘laridir.",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta",
+    "answer": "mikrokredit"
+  },
+  {
+    "question": "– mikromoliyaviy xizmatlar ko‘rsatuvchi tashkilot tomonidan lizing oluvchining topshirig‘iga\r\nbinoan uchinchi tarafdan mol-mulk olish hamda unga(dan) egalik qilish va foydalanish uchun\r\nlizing oluvchiga shartnomada belgilangan shartlar asosida haq evaziga berish nazarda\r\ntutiladigan xizmatdir.",
+    "answer": "mikrolizing",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta"
+  },
+  {
+    "question": "Nechinchi yildan boshlab tijorat banklari ham aholiga mikroqarzlar berishga haqlidir?",
+    "noAnswer1": "2017",
+    "noAnswer2": "2019",
+    "answer": "2018",
+    "noAnswer3": "2020"
+  },
+  {
+    "question": "Kredit byurosi tomonidan kredit axboroti sub’ektiga nisbatan shakllantirilgan kredit axboroti\r\nmajmui …... deyiladi.",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "Kredit",
+    "answer": "kredit tarixi",
+    "noAnswer3": "sug'urta"
+  },
+  {
+    "question": "bu – salohiyatli qarz oluvchini balli baholashning avtomatlashtirilgan tizimidir.",
+    "answer": "skoring",
+    "noAnswer1": "iste’mol krediti",
+    "noAnswer2": "kredit",
+    "noAnswer3": "sug'urta"
+  },
+  {
+    "question": "Ekspress-kredit bizning bank amaliyotimizda qanday nom bilan mavjudligini e’tirof etish\r\nmumkin?",
+    "noAnswer1": "shoshilinch kredit",
+    "noAnswer2": "darkor kredit",
+    "answer": "tezkor kredit",
+    "noAnswer3": "vaqtli kredit"
+  },
+  {
+    "question": "... ya’ni oldingi (eski) kreditni qaytarish (uzish) uchun nisbatan yaxshiroq yoki qulayroq\r\nshartlarda yangi kredit olish.",
+    "noAnswer1": "qayta moliyalashtirish",
+    "noAnswer2": "kreditni moliyalashtirish",
+    "noAnswer3": "moliyalashtirish",
+    "answer": "kreditni qayta moliyalashtirish"
+  },
+  {
+    "question": "Hayot tajribasining ko‘rsatishicha, shaxsiy byudjetni shunday hisob- kitob qilish kerakki, unga\r\nko‘ra kredit bo‘yicha to‘lanmalarni amalga oshirishda har oylik daromadlarning necha foizdan\r\nko‘prog‘i sarf qilinmasligi lozim?",
+    "answer": "40,0%",
+    "noAnswer1": "30,0%",
+    "noAnswer2": "50,0%",
+    "noAnswer3": "60,0%"
+  },
+  {
+    "question": "Sotish kursi va sotib olish kursi o‘rtasidagi farq?",
+    "noAnswer1": "valyuta",
+    "noAnswer2": "depozit",
+    "noAnswer3": "Skoring",
+    "answer": "spred"
+  },
+  {
+    "question": "Bank yacheykalari …............ deb ham ataladi.",
+    "noAnswer1": "“omonat yacheyka”",
+    "noAnswer2": "“kredit yacheyka”",
+    "answer": "“depozitar yacheyka”",
+    "noAnswer3": "“valyuta yacheyka”"
+  },
+  {
+    "question": "Ularda pullar, qimmatli qog‘ozlar va yacheykani ijaraga olgan odam uchun qimmatbaho\r\n(qimmatli) hisoblangan har qanday boshqa predmetlar saqlanishi mumkin.",
+    "answer": "“bank yacheyka”",
+    "noAnswer1": "“omonat yacheyka”",
+    "noAnswer2": "“kredit yacheyka”",
+    "noAnswer3": "“valyuta yacheyka”"
+  },
+  {
+    "question": "Bank yacheykaga kirishning maksimal darajadagi xavfsizligini ta’minlash uchun ko‘p hollarda\r\nqaysi prinsipdan foydalaniladi?",
+    "noAnswer1": "“uch qulf”",
+    "noAnswer2": "“to'rt qulf”",
+    "noAnswer3": "“besh qulf”",
+    "answer": "“ikki qulf”"
+  },
+  {
+    "question": "Valyuta kursi qanday aniqlanadi?",
+    "noAnswer1": "Qora bozorda aniqlanadi",
+    "noAnswer2": "Markaziy bankda aniqlanadi",
+    "noAnswer3": "AQSH dollariga qarab aniqlanadi",
+    "answer": "Xorijiy valyutalarning so‘mga nisbatan kursi talab va taklifning o‘zaro munosabati asosida\r\nvalyuta bozorida aniqlanadi."
+  },
+  {
+    "question": "Naqd pullar – ?",
+    "noAnswer1": "valyutalar",
+    "noAnswer2": "banknotalar",
+    "answer": "banknotalar va ma’lum bir nominalli tangalardir",
+    "noAnswer3": "ma’lum bir nominalli tangalar"
+  },
+  {
+    "question": "Naqd pullar almashtirib bo‘lmaydigan qanday afzalliklarga ega?",
+    "noAnswer1": "ularni hamma joyda qabul qilishadi; amalda ularni kuzatib turishning iloji yo‘q",
+    "noAnswer2": "ular ishonchli; ularni hamma joyda qabul qilishadi;",
+    "answer": "ular ishonchli; ularni hamma joyda qabul qilishadi; amalda ularni kuzatib turishning iloji yo‘q",
+    "noAnswer3": "ular ishonchli; amalda ularni kuzatib turishning iloji yo‘q"
+  },
+  {
+    "question": "“Banknota” so‘zining ma’nosi?",
+    "noAnswer1": "fransuzcha “bank” va “note” so‘zlaridan olingan",
+    "noAnswer2": "“bank puli” ma’nosini anglatadi",
+    "noAnswer3": "“bank valyutasi” ma’nosini anglatadi",
+    "answer": "inglizcha “bank” va “note” so‘zlaridan olingan bo‘lib, “bank yozuvi” ma’nosini anglatadi"
+  },
+  {
+    "question": "Bu tovarlar va xizmatlarni naqd pulsiz shaklda to‘lash, pullarni saqlash va tashish, kerak bo‘lgan\r\nhollarda esa, naqd pullarni olish (naqdlashtirish) uchun zarur hisoblangan zamonaviy qulay\r\ninstrumentdir",
+    "answer": "Bank to‘lov (plastik) kartalar",
+    "noAnswer1": "ID kartalar",
+    "noAnswer2": "bankomat",
+    "noAnswer3": "click xizmati"
+  },
+  {
+    "question": "PIN-kod – ?",
+    "noAnswer1": "bu karta egasi to‘g‘risidagi ma’lumot",
+    "noAnswer2": "bu karta to‘g‘risidagi konfidensial ma’lumot",
+    "noAnswer3": "bu konfidensial ma’lumot",
+    "answer": "bu karta egasi to‘g‘risidagi konfidensial ma’lumot"
+  },
+  {
+    "question": "“Bankomat” so‘zi qaysi so‘zlarning qisqartirilishidan kelib chiqqan?",
+    "answer": "“bank avtomati”",
+    "noAnswer1": "“bank ma'lumoti”",
+    "noAnswer2": "“bank pulyumoti”",
+    "noAnswer3": "“bank promoti”"
+  },
+  {
+    "question": "Birinchi bankomatlar qachon va qayerda paydo bo‘lgan?",
+    "noAnswer1": "o‘tgan asrning 60-yillarida Yevropada",
+    "noAnswer2": "o‘tgan asrning 60-yillarida AQShda",
+    "noAnswer3": "o‘tgan asrning 50-yillarida AQSh va Yevropada",
+    "answer": "o‘tgan asrning 60-yillarida AQSh va Yevropada"
+  },
+  {
+    "question": "Firibgarlikning usullaridan biri?",
+    "answer": "skimming",
+    "noAnswer1": "PIN",
+    "noAnswer2": "VISA",
+    "noAnswer3": "swimming"
+  },
+  {
+    "question": "Bu – distansion (masofaviy) bank xizmatlarini ko‘rsatishning zamonaviy takomillashgan\r\nshakllaridan biridir.",
+    "noAnswer1": "banking",
+    "answer": "onlayn-banking",
+    "noAnswer2": "free-banking",
+    "noAnswer3": "uzcard"
+  },
+  {
+    "question": "Hozir dunyoda qancha miqdorda bankomatlar mavjud?",
+    "noAnswer1": "2,0 mln.dan kam",
+    "noAnswer2": "2,0 mln.",
+    "answer": "2,0 mln.dan ortiq",
+    "noAnswer3": "1,0 mln."
+  },
+  {
+    "question": "O‘zbekiston Respublikasi o‘z milliy valyutasini ishlab chiqarish uchun Markaziy bank huzurida\r\nqaysi korxona tashkil etgan?",
+    "noAnswer1": "“Davlat ramzi” Davlat ishlab chiqarish birlashmasini",
+    "noAnswer2": "“Davlat valyutasi” Davlat ishlab chiqarish birlashmasini",
+    "answer": "“Davlat belgisi” Davlat ishlab chiqarish birlashmasini",
+    "noAnswer3": "“Davlat puli” Davlat ishlab chiqarish birlashmasini"
+  },
+  {
+    "question": "Banknot, pasport blanklari, turli qimmatli qog‘ozlar va boshqa qimmatliklarni xalqaro talablarga\r\njavob beradigan, yuqori darajada himoyalangan mahsulotlar ishlab chiqarish imkoniyatlari\r\nyaratilgan.",
+    "answer": "Bosma fabrikasida",
+    "noAnswer1": "Qog‘oz fabrikasida",
+    "noAnswer2": "Zarbxonada",
+    "noAnswer3": "Markaziy bankda"
+  },
+  {
+    "question": "Sifatli va himoya belgilariga ega bo‘lgan qog‘oz mahsuloti ishlab chiqarish hamda Toshkent\r\nBosma fabrikasi qog‘oz xom-ashyosiga bo‘lgan talabini to‘liq ta’minlash yo‘lga qo‘yilgan.",
+    "noAnswer1": "Bosma fabrikasida",
+    "noAnswer2": "Zarbxonada",
+    "answer": "Qog‘oz fabrikasida",
+    "noAnswer3": "Markaziy bankda"
+  },
+  {
+    "question": "Tanga, medal va orden, yo‘lovchi tashish transporti uchun jetonlar va boshqa zaruriy\r\nmahsulotlarni ishlab chiqarish orqali respublikamizni ushbu mahsulotlarga bo‘lgan talabini\r\nqondirish imkoniyati yaratilgan.",
+    "noAnswer1": "Bosma fabrikasida",
+    "noAnswer2": "Qog‘oz fabrikasida",
+    "noAnswer3": "Markaziy bankda",
+    "answer": "Zarbxonada"
+  },
+  {
+    "question": "Kreditlarga xos bo‘lgan qanday firibgarliklar uchraydi?",
+    "noAnswer1": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Kredit “qora” brokeri.",
+    "noAnswer2": "Siz olmagan kredit. “Do‘stlik” bo‘yicha majburiyatlar. Bir necha minutda kredit. Kredit “qora”\r\nbrokeri. Bank oldidagi qarzdorlikni “hamkorlikda moliyalashtirish”",
+    "noAnswer3": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Bank oldidagi qarzdorlikni “hamkorlikda\r\nmoliyalashtirish”.",
+    "answer": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Kredit “qora” brokeri. Bank oldidagi qarzdorlikni\r\n“hamkorlikda moliyalashtirish”."
+  },
+  {
+    "question": "Unda oldin kelgan investorlarga to‘lanmalar keyin (yangi) kelgan investorlarning pul tushilmalari\r\nhisobidan amalga oshiriladi.",
+    "answer": "moliyaviy piramida",
+    "noAnswer1": "piramida",
+    "noAnswer2": "pulli piramida",
+    "noAnswer3": "iqtisodiy piramida"
+  },
+  {
+    "question": "Ko‘plab moliyaviy piramidalarning eng asosiy va o‘zgarmaydigan belgisi.",
+    "noAnswer1": "yuqori xarajat va’da qilish",
+    "noAnswer2": "valyuta va’da qilish",
+    "answer": "yuqori daromad va’da qilish",
+    "noAnswer3": "oltin va’da qilish"
+  },
+  {
+    "question": "Valyuta kurslarining tebranish (o‘zgarish) sabablari to‘g‘risidagi odamlarning bu tarzdagi\r\n“ogohligi”dan valyuta bozoridagi savdo.",
+    "noAnswer1": "Exchange",
+    "noAnswer2": "Uzex",
+    "noAnswer3": "Firefox",
+    "answer": "Forex"
+  },
+  {
+    "question": "Forexda faqat …........ yutuqli holda bo‘ladi.",
+    "noAnswer1": "diler",
+    "noAnswer2": "treyder",
+    "noAnswer3": "haridor",
+    "answer": "broker"
+  },
+  {
+    "question": "Forex bozorida ishlab topish – ?",
+    "noAnswer1": "juda oson",
+    "noAnswer2": "Murakkab",
+    "answer": "o‘ta murakkab",
+    "noAnswer3": "oson"
+  },
+  {
+    "question": "Korxona faoliyatini rejalashtirish qanday ahamiyatga ega?",
+    "answer": "Rejalashtirish - korxona samarali faoliyatinining omillarini tanlash va o‘zaro bog‘lash shaklidir",
+    "noAnswer1": "Rejalashtirish - korxona samarali faoliyatining omilidir",
+    "noAnswer2": "Rejalashtirish - korxona faoliyatini tashkil etuvchi omillar yig‘ish jarayonidir",
+    "noAnswer3": "Rejalashtirish- korxona faoliyatini tashkil etish va tugatish omilidir"
+  },
+  {
+    "question": "Korxona rejasi bu…. (to‘g‘ri javobni bering)",
+    "noAnswer1": "Ko‘zda tutilgan iqtisodiy samaradorlikni ilmiy va amaliy jihatdan asoslash",
+    "noAnswer2": "Tadbirkorlik faoliyati bilan bog‘liq bo‘lgan aniq hisoblar tizimi",
+    "noAnswer3": "Maqsadni belgilash, yo‘nalishlarini va vazifalarini aniqlash hamda nazorat qilishda muvofiqlikni\r\nta’minlashdir",
+    "answer": "Maqsadlarga erishish chora-tadbirlarini oldindan ishlab chiqish hamda resurslar orasida\r\nmuvofiqlikni ta’minlash"
+  },
+  {
+    "question": "Maqsad- bu …….",
+    "noAnswer1": "Foydani maksimallashtirish",
+    "noAnswer2": "Obyekt faoliyati haqidagi tushuncha",
+    "answer": "Obyektning kelgusidagi istalgan holati",
+    "noAnswer3": "Korxona imidji va tovar markasi"
+  },
+  {
+    "question": "Zarur hisob kitoblar hamda dalillar asosida korxona faoliyatining qisqa va uzoq muddatli\r\nstrategiyasini aniqlash – bu",
+    "noAnswer1": "Rejalashtirish maqsadi",
+    "noAnswer2": "Rejalashtirish mohiyati",
+    "answer": "Rejalashtirish vazifasi",
+    "noAnswer3": "Rejalashtirish mexanizmi"
+  },
+  {
+    "question": "Korxonada rejalashtirilayotgan reja ko‘rsatkichlarini asoslash yo‘llari, uslublarining tarkibi\r\nshuningdek ichki reja mazmuni, shakli, strukturasi va tuzish tartibini nima belgilaydi?",
+    "noAnswer1": "Rejalashtirish texnologiyasi",
+    "noAnswer2": "Rejalashtirish predmeti",
+    "noAnswer3": "Rejalashtirish uslubiyati",
+    "answer": "Rejalashtirish usuli"
+  },
+  {
+    "question": "Ko‘rsatkichlar orasida muvofiqlikni va bog‘liqlikni ta’minlaydi",
+    "answer": "Balans uslub",
+    "noAnswer1": "Ekstropolyatsiya uslub",
+    "noAnswer2": "Normativ uslub",
+    "noAnswer3": "Iqtisodiy matematik uslub"
+  },
+  {
+    "question": "Ko‘rsatkich - ....",
+    "noAnswer1": "Jarayonning faqat miqdoriy hajmini ifodalaydi",
+    "noAnswer2": "Jarayon yoki hodisaning moddiy buyumlashgan holatini hamda mazmunini tavsiflaydi",
+    "answer": "Jarayonning yoki hodisaning ijtimoiy iqtisodiy holatini, mohiyatini hamda mazmunini\r\ntavsiflaydi",
+    "noAnswer3": "Jarayon yoki hodisaning ham miqdor va sifat tomonlarini tavsiflaydi"
+  },
+  {
+    "question": "Ishlab chiqarish faoliyatini ifodalaydi ...",
+    "answer": "Umumiy ko‘rsatkich",
+    "noAnswer1": "Xususiy ko‘rsatkich",
+    "noAnswer2": "Miqdor ko‘rsatkich",
+    "noAnswer3": "Natural ko‘rsatkich"
+  },
+  {
+    "question": "Ijtimoiy-mehnatni rejalashtirish obyekti bo‘lib nima xizmat qiladi?",
+    "noAnswer1": "Texnologik jihozlar",
+    "answer": "Mehnat resurslari",
+    "noAnswer2": "Ish haqi fondi",
+    "noAnswer3": "Iqtisodiy resurslar"
+  },
+  {
+    "question": "Quyidagi klassifikatsion belgilardan qaysi biri reja turlariga tegishli emas?",
+    "noAnswer1": "Asoslash usuliga ko‘ra",
+    "noAnswer2": "Maqsad turiga ko‘ra",
+    "answer": "Resurslar turi bo‘yicha",
+    "noAnswer3": "Mazmuniga ko‘ra"
+  },
+  {
+    "question": "Rejalashtirishning qanday umumiy klassik printsiplari mavjud?",
+    "noAnswer1": "Sistemalik, birlik, uzluksizlik, o‘zgaruvchanlik, aniqlilik",
+    "noAnswer2": "Zaruriylik, optimallik, birlik, uzluksizlik, o‘zgaruvchanlik",
+    "answer": "Zaruriylik, yagonalik, uzluksizlik, o‘zgaruvchanlik, aniqlik",
+    "noAnswer3": "Zaruriylik, komplekslilik, uzluksizlik, o‘zgaruvchanlik, aniqlilik"
+  },
+  {
+    "question": "Koordinatsiyalash – bu",
+    "noAnswer1": "Yaqin darajadagi obyektlar o‘rtasidagi aloqani belgilaydi",
+    "noAnswer2": "Turli darajadagi obyektlar o‘tasidagi aloqani belgilaydi",
+    "answer": "Bir xil darajadagi obyektlar o‘rtasidagi aloqani belgilaydi",
+    "noAnswer3": "Tuzilgan rejaning maqsadga erishish usulini belgilaydi"
+  },
+  {
+    "question": "Iqtisodiy rivojlanishning qanday turlari mavjud?",
+    "answer": "Ideal, real, radikal",
+    "noAnswer1": "Induktiv va deduktiv",
+    "noAnswer2": "Ideal va radikal",
+    "noAnswer3": "Analitik va statistik"
+  },
+  {
+    "question": "Korxona potensiali deganda nimani tushunasiz?",
+    "noAnswer1": "Insonlarning iqtisodiy faoliyatga bo‘lgan qobiliyati majmuidir",
+    "noAnswer2": "Korxona potentsiali mehnat, iqtisodiy tashkiliy, ilmiy texnik texnik potentsiallar majmuidir.",
+    "answer": "Korxona potensiali uning qudrati, manbai, imkoniyatini harakterlaydigan ko‘rsatkichlar yoki\r\nomillar yig‘indisi, iqtisodiy faoliyatda foydalanadigan vositalar, zahiralar, qobiliyatlar,\r\nresurslardir",
+    "noAnswer3": "Korxona potentsiali tashkilotining rejalashtirilgan va xizmatlarni bajarish uchun zarur bo‘lgan\r\nmehnat, material, moliyaviy va boshqa resurslar majmuidir"
+  },
+  {
+    "question": "Mehnatga haq to‘lashni tashkil etishda qaysi me’yoriy hujjatga asoslanadi?",
+    "answer": "Mehnatga haq to‘lashni yagona tarif stavkasiga, 2009 yil 21-iyul 206-son",
+    "noAnswer1": "Mehnat kodeksining 153, 154, 156-moddalariga",
+    "noAnswer2": "Vazirlar mahkamasining 2015 yil 13-iyundagi 164-sonli qarori bilan tasdiqlangan klassifikatorga",
+    "noAnswer3": "Mehnatga haq to‘lashni yagona tarif stavkasiga, 1999 yil 21-iyul 206-son"
+  },
+  {
+    "question": "Rivojlanish yo‘nalishlarini sifatda va sonda tasvirlash bu...",
+    "noAnswer1": "Reja vazifasi",
+    "noAnswer2": "Reja mohiyati",
+    "answer": "Reja maqsadi",
+    "noAnswer3": "Reja mexanizmi"
+  },
+  {
+    "question": "Material resurlardan foydalanish koeffitsienti qanday aniqlanadi?",
+    "answer": "Haqiqiy material resurslari sarfini material sarfi normasiga nisbati orqali",
+    "noAnswer1": "Detal og‘irligini yarim tayyor mahsulot og‘irligiga nisbati",
+    "noAnswer2": "Sotilayotgan chiqindilarning og‘irligini sotilayotgan chiqindilar bahosiga nisbati",
+    "noAnswer3": "Yillik ishlab chiqarish ‘ajmini o‘rtacha quvvatga nisbati"
+  },
+  {
+    "question": "Korxona xodimlari deganda kimlarni tushunasiz?",
+    "noAnswer1": "Asosiy va yordamchi xodimlar birlashuvi",
+    "noAnswer2": "Injener – texnik xodimlar, xizmatchilar, shogirdlarning maqsadga muvofiq birlashuvi",
+    "noAnswer3": "Adminsrativ boshqaruv xodimlari, injener texnik xodimlar va xizmatchilar yig‘indisi",
+    "answer": "Foyda yoki daromad olish holda o‘z moddiy ehtiyojlarini qondirishga qaratilgan yagona ish\r\nfaoliyati bilan band bo‘lgan turli malaka va toifadagi xodimlar yig‘indisi"
+  },
+  {
+    "question": "Zaruriy ishchilar sonini aniqlash uslubiga quyidagilar kirmaydi",
+    "noAnswer1": "Vaqtbirligi davomida ishlab chiqarilgan mahsulot miqdori bo‘yicha",
+    "noAnswer2": "Xizmatko‘rsatish me’yori bo‘yicha",
+    "noAnswer3": "Mahsulotbirligiga sarflangan vaqt sig‘imi bo‘yicha",
+    "answer": "Foyda me’yori bo‘yicha"
+  },
+  {
+    "question": "Real ish haqini nominal ish haqidan farqi nimada?",
+    "noAnswer1": "Real ish haqi – haqiqiy ishlangan vaqt uchun to‘lovlar, nominal ish haqi - kunlik yo‘qotishlar\r\nuchun to‘lovlardir",
+    "noAnswer2": "Real ish haqi –amaldagi ish haqi stavkasi yoki ishchi oy vaqti birligidagi qiymati, nominal ish haqi\r\nesa ortiqcha soatlar uchun to‘lanadi.",
+    "answer": "Real ish haqi – nominal ish haqiga sotib olish mumkin bo‘lgan tovar, nominal ish haqi esa\r\nsarflangan mehnat uchun oladigan pul mablag‘lari summasidir.",
+    "noAnswer3": "Real ish haqi – ishlangan vaqt uchun to‘lanadi, nominal ish haqi esa ortiqcha soatlar uchun\r\nto‘lanadi."
+  },
+  {
+    "question": "Ish haqi fondidan qaysi biri asosiy ish haqi hisoblanadi?",
+    "noAnswer1": "Kunlik ish haqi fondi.",
+    "noAnswer2": "Ta’rif ish haqi fondi.",
+    "answer": "Soatli ish haqi fondi.",
+    "noAnswer3": "Oylik ish haqi fondi."
+  },
+  {
+    "question": "Ishbay ish haqi shaklida mehnatga haq to‘lashga quyidagilar xosdir?",
+    "noAnswer1": "Lavozim okladlari va oylik maoshlar",
+    "noAnswer2": "Ishlangan ish soatlari",
+    "answer": "Tayyorlangan mahsulot hajmi va ko‘rsatilgan xizmatlar soni",
+    "noAnswer3": "Ko‘rsatilgan xizmatlar soni"
+  },
+  {
+    "question": "Korxonaning ish haqi fondi quyidagilardan iborat bo‘ladi:",
+    "noAnswer1": "Asosiy ish haqi va mukofotlardan",
+    "noAnswer2": "Faqat asosiy ish haqidan",
+    "noAnswer3": "Mukofotlardan",
+    "answer": "Asosiy va qo‘shimcha ish haqidan"
+  },
+  {
+    "question": "Qaysi ish haqi fondi kunlik ruxsat etilgan imtiyozli uzilishlar uchun qo‘shimcha to‘lovlarni\r\ne’tiborga oladi?",
+    "noAnswer1": "Oylik",
+    "answer": "Kunlik",
+    "noAnswer2": "Soatlik",
+    "noAnswer3": "Yillik"
+  },
+  {
+    "question": "Soatlik ish haqi tarkibiga quyidagilar kiradi:",
+    "answer": "Ishbayish haqi fondi, vaqtbay ish haqi fondi, mukofot, tungi soatda ishlanganlik uchun\r\nto‘lovlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov, bayram kunlari ishlaganlik\r\nuchun to‘lov",
+    "noAnswer1": "Mehnat ta’tili uchun to‘lov,to‘g‘ri ish haqi fondi, o‘smirlarga qisqartirilgan soatlar uchun to‘lov,\r\nmukofotlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov",
+    "noAnswer2": "Xizmat safari uchun to‘lov, ishbay ish haqi fondi, vaqtbay ish haqi fondi, mukofot, tungi soatda\r\nishlanganlik uchun to‘lovlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov",
+    "noAnswer3": "To‘g‘ri ish haqi fondi, o‘smirlarga qisqartirilgan soatlar uchun to‘lov, mukofotlar, brigadirlik\r\nuchun to‘lov, shogird tayyorlaganlik uchun to‘lov, bayram kunlari ishlaganlik uchun to‘lov"
+  },
+  {
+    "question": "Ishlab chiqarish uchastkasida 5 ta o‘smir ishlaydi, ularning o‘rtacha tarif stavkasi 620 so‘mga\r\nteng. Yildagi ish kunlari soni 240 kun. O‘smirlar uchun qo‘shimcha to‘lov summasini aniqlang.",
+    "noAnswer1": "550 000 so‘m",
+    "noAnswer2": "645000 so‘m",
+    "answer": "744000 so‘m",
+    "noAnswer3": "600 000 so‘m"
+  },
+  {
+    "question": "O‘rtacha kunlik ish haqi quyidagicha aniqlanadi",
+    "noAnswer1": "Ish haqining kunlik fondi jami ishlangan ish soatlariga bo‘linadi",
+    "noAnswer2": "Ishhaqining soatlik fondi jami ishlangan ish soatlariga bo‘linadi",
+    "noAnswer3": "Ishhaqining oylik fondi ishlangan kishi soatlariga bo‘linadi",
+    "answer": "Ish haqining kunlik fondi jami ishlangan kishi kunlarga bo‘linadi"
+  },
+  {
+    "question": "Korxonaning ish haqi fondini rejalashtirish quyidagi tartibda amalga oshiriladi. To‘g‘ri tartibni\r\nbelgilang.",
+    "answer": "Soatlik ish haqi fondi, kunlik ish haqi fondi, oylik yoki yillik ish haqi fondi",
+    "noAnswer1": "Oylik, kunlik, soatlik ish haqi fondi",
+    "noAnswer2": "Kunlik ish haqi fondi, oylik ish haqi fondi va yillik ish haqi fondi",
+    "noAnswer3": "To‘g‘ri ish haqi fondi, ishbay ish haqi fondi, vaqtbay ish haqi fondi va qo‘shimcha to‘lovlar fondi"
+  },
+  {
+    "question": "Qo‘shimcha to‘lovlar quyidagilarni ko‘zda tutadi.",
+    "noAnswer1": "Qo‘shimcha ishlaganligi uchun to‘lovlarni",
+    "noAnswer2": "Korxona rahbariyati tomonidan ruxsat etilgan uzilishlar uchun to‘lovlarni",
+    "answer": "Mehnatqonunchiligida ko‘zda tutilgan imtiyozli uzulishlar uchun to‘lovlarni",
+    "noAnswer3": "Moddiy yordam uchun berilgan to‘lovlarni"
+  },
+  {
+    "question": "Ishbay ish haqi quyidagicha aniqlanadi:",
+    "noAnswer1": "Baho ko‘paytiriladi daromadga",
+    "noAnswer2": "Baho ko‘paytiriladi ishlab chiqarilgan mahsulot qiymatiga",
+    "noAnswer3": "Ishlanganish soatlari ko‘paytiriladi o‘rtacha tarif stavkasiga",
+    "answer": "Baho ko‘paytiriladi mahsulot hajmining naturadagi ifodasiga"
+  },
+  {
+    "question": "O‘smirlarning asosiy ish haqi, ya’ni ishlab chiqarilgan mahsuloti yoki ishlagan ish soati uchun\r\nto‘lanadigan asosiy ish haqi qaysi fond tarkibiga kiritiladi.",
+    "answer": "To‘g‘ri ish haqi fondi",
+    "noAnswer1": "Kunlikish haqi fondi",
+    "noAnswer2": "Oylik ish haqi fondi",
+    "noAnswer3": "Yillik ish haqi fondi"
+  },
+  {
+    "question": "O‘rtacha xarajatlar...",
+    "answer": "Birlik mahsulotga Ishlab chiqarish xarajatlari miqdorini belgilovchi xarajatlardir.",
+    "noAnswer1": "Ishlabchikarilganmahsulothajmigabog‘liqxoldao‘zgaradiganxarajatlardir.",
+    "noAnswer2": "Har bir mahsulot xajimidagi doimiy va o‘zgaruvchan xarajatlar summasidir.",
+    "noAnswer3": "Ishlab chiqarish hajmiga bog‘liq xolda o‘zgarmaydigan xarajatlardir."
+  },
+  {
+    "question": "Sof diskont daromadga to‘g‘ri ta’rifni bering",
+    "noAnswer1": "Investitsiya loyihasini ekspluatatsiya davridagi pul oqimlarining kelajakdagi qiymati bilan uni\r\namalga oshirishga investitsiya qilinuvchi mablag‘ o‘rtasidagi farq;",
+    "noAnswer2": "Investitsiya loyihasini ekspluatatsiya davrida investitsiya mablag‘lari bilan erishiladigan\r\ndaromadlar orasidagi farq;",
+    "answer": "Investitsiya loyihasini ekspluatatsiya davrida hozirgi qiymatga keltirilgan pul oqimlari summasi\r\nbilan uni amalga oshirishga investitsiya qiluvchi mablag‘lar o‘rtasidagi farq;",
+    "noAnswer3": "Investitsiya loyihasini ekspluatatsiya davrida pul oqimlarining erishiladigan daromadlar\r\norasidagi farq;"
+  },
+  {
+    "question": "Ish haqi fondini yiriklashtirilgan usulda rejalashtirish bu - …",
+    "noAnswer1": "Ish haqi fondini turli tadbirlar natijasida erishilgan ish haqi iqtisodi asosida aniqlash",
+    "noAnswer2": "Ish haqi fondini minimal ish haqi miqdorini oshishi asosida aniqlash",
+    "answer": "Ish haqi uchun mablag‘larni ish haqi fondi indeksi yordamida aniqlash",
+    "noAnswer3": "Ish haqi fondini minimal ish haqi miqdorini kamayish asosida aniqlash"
+  },
+  {
+    "question": "Umumiy kal`kulyatsiya bu ...",
+    "noAnswer1": "Bu har bir mahsulot turini ishlab chiqarish uchun sarflanadigan xarajatlar",
+    "noAnswer2": "Bu ishlab chiqarishga sarflangan umumiy xarajatlar",
+    "noAnswer3": "Jami xarajatlarni hisoblash usuli",
+    "answer": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan o‘rtacha xarajatlar"
+  },
+  {
+    "question": "Tur kal`kulyatsiyasi bu ...",
+    "noAnswer1": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan o‘rtacha xarajatlar",
+    "noAnswer2": "Bu ishlab chiqarishga sarflangan umumiy xarajatlar",
+    "answer": "Bu har bir mahsulot turini ishlab chiqarish uchun sarflanadigan xarajatlar",
+    "noAnswer3": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan umumiy xarajatlar"
+  },
+  {
+    "question": "Ishlab chiqarish hajmiga bog‘liqlik darajasiga ko‘ra qanday xarajatlar ajratiladi?",
+    "noAnswer1": "Asosiy, ustama",
+    "noAnswer2": "O‘zgaruvchan, ustama.",
+    "noAnswer3": "O‘zgaruvchan, bilvosita",
+    "answer": "O‘zgaruvchan, shartli doimiy."
+  },
+  {
+    "question": "2024-yil nomini ko‘rsating",
+    "noAnswer1": "=\r\nYoshlar va biznes yili",
+    "noAnswer2": "Biznes va yoshlarni qo‘llab-quvvatlash yili",
+    "answer": "Yoshlar va biznesni qo‘llab-quvvatlash yili",
+    "noAnswer3": "Biznes va yoshlar yili"
+  },
+  {
+    "question": "“Mahsulot (ish, xizmat) lar tannarxiga kiritiladigan mahsulotlarni ishlab chiqarish va sotish\r\nbo‘yicha xarajatlar tarkibi hamda moliyaviy natijalarni shakllantirish haqida” gi Nizomda\r\nxarajatlar qaysi iqtisodiy belgilar bo‘yicha guruhlangan?",
+    "answer": "Iqtisodiy mazmun va mohiyatiga ko‘ra",
+    "noAnswer1": "Shakllanayotgan joyiga va qaysi maqsadda ishlatilayotganiga asosan",
+    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
+    "noAnswer3": "Ishlab chiqarish jarayonida qatnashuviga asosan va Iqtisodiy mazmun va mohiyatiga ko‘ra"
+  },
+  {
+    "question": "Qaysi belgilar asosida xarajatlar bir guruhga birlashtirilganda guruh modda deb ataladi.",
+    "noAnswer1": "Iqtisodiy mohiyati va mazmuniga asosan",
+    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
+    "answer": "Xarajatlarni qayerda shakllanishi va qanday maqsadlarda foydalanayotganiga asosan",
+    "noAnswer3": "Ishlab chiqarish jarayonida qatnashmasligiga asosan"
+  },
+  {
+    "question": "Qaysi belgilar asosida xarajatlar bir guruhga birlashtirilganda guruh element deb yuritiladi.",
+    "noAnswer1": "Xarajatlarni qayerda shakllanishi va qanday maqsadlarda foydalanayotgani",
+    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
+    "answer": "Iqtisodiy mohiyati va mazmuniga asosan",
+    "noAnswer3": "Ishlab chiqarish jarayonida qatnashmasligiga asosan"
+  },
+  {
+    "question": "Ishlab chiqarishga xarajatlar smetasi nima?",
+    "answer": "Ishlab chiqarish faoliyatining kelgusi davri uchun barcha sarflar yig‘ma rejasi",
+    "noAnswer1": "Ishlab chiqarish moliyaviy faoliyatning talab etilgan davr uchun barcha daromadlarining\r\njamlama rejasi",
+    "noAnswer2": "Ishlab chiqarish moliyaviy faoliyatining alohida davri uchun korxonaning barcha daromad va\r\nxarajatlarning jamlama rejasi",
+    "noAnswer3": "Ishlab chiqarish moliyaviy faoliyatining alohida davri uchun korxonaning barcha daromad va\r\nxarajatlarning jamlama rejasi va ishlab chiqarish moliyaviy faoliyatining kelgusi davri uchun\r\nbarcha sarflar yig‘ma rejasi"
+  },
+  {
+    "question": "Moliyaviy reja qanday asosiy bo‘limlardan tashkil topadi?",
+    "noAnswer1": "Foyda va zararlar to‘g‘risida prognoz reja, pul oqimlari rejasi, aktiv va passivlar prognoz balansi",
+    "noAnswer2": "Ishlab chiqarishni tayyorlash xarajatlari, foyda va zararlar, joriy xarajatlar",
+    "answer": "Foyda va zararlar, aktiv va passivlar prognoz balansi, pul oqimlari rejasi, asosiy kapital tarkibi,\r\nqarzlar bo‘yicha hisobot",
+    "noAnswer3": "Asosiy kapital tarkibi, amortizatsiya normasi, qarzlar bo‘yicha hisobot"
+  },
+  {
+    "question": "Qaysi ish haqi qo‘shimcha ish haqi hisoblanadi?",
+    "noAnswer1": "Tungi smenada ishlagani uchun to‘lov hamda brigadirlik uchun to‘lov",
+    "noAnswer2": "Shogird tayyorlagani uchun hamda mehnat ta'tili uchun to‘lov",
+    "answer": "Ruxsat etilgan imtiyozli vaqt uchun hamda mehnat ta'tillari uchun to‘lanadigan to‘lovlar",
+    "noAnswer3": "Brigadirlik uchun to‘lov"
+  },
+  {
+    "question": "Asosiy faoliyatdan ko‘rilgan foyda bu .......",
+    "noAnswer1": "Yalpi foyda minus davr xarajatlari plyus moliyaviy faoliyatdan ko‘rilgan daromadlar va minus\r\nzararlardir",
+    "noAnswer2": "Bu sotishdan olingan sof tushum bilan sotilgan mahsulotning ishlab chiqarish tannarxi orasidagi\r\nfarq",
+    "answer": "Yalpi foyda bilan davr xarajatlari orasidagi farq hamda plyus asosiy faoliyatdan ko‘rilgan\r\nboshqa daromadlar yoki minus boshqa zararlardir",
+    "noAnswer3": "Yalpi foyda minus moliyaviy faoliyat bilan bog‘liq xarajatlar"
+  },
+  {
+    "question": "Rentabellik ko‘rsatkichi nima?",
+    "noAnswer1": "Rentabellik absolyut kattalik bo‘lib, korxona samaradorligini ifodalaydigan ko‘rsatkichdir.",
+    "noAnswer2": "Mahsulot ishlab chikarishga sarflangan xarajatlarni ifodalaydi.",
+    "noAnswer3": "Korxona faoliyatini natijasini ifodalaydigan miqdor ko‘rsatkichi hisoblanadi.",
+    "answer": "Rentabellik korxona faoliyatining foydalilik darajasini ifodalaydigan nisbiy ko‘rsatkichdir."
+  },
+  {
+    "question": "Firmaning rejalashtirilgan ishlab chiqarish dasturini bajarish uchun zarur bo‘lgan material\r\nresurslarga bo‘lgan ehtiyoji aks ettirilgan byudjet bu-",
+    "noAnswer1": "Sotib olish byuljeti",
+    "noAnswer2": "Mehnat byudjeti",
+    "answer": "Moddiy byudjet",
+    "noAnswer3": "Naqd pul byudjeti"
+  },
+  {
+    "question": "Daromadlilik indeksi nimani ko‘rsatadi?",
+    "noAnswer1": "Daromadlik normasi yeki loyixaning foydaliligi.",
+    "noAnswer2": "Diskont normasi.",
+    "noAnswer3": "Kapital qo‘yilmalar va olingan umumiy samara o‘rtasidagi nisbati kattaligidir.",
+    "answer": "Keltirilgan samara summasini kapital qo‘yilmalar umumiy kattaligiga nisbati."
+  },
+  {
+    "question": "«Biznes- reja» nima?",
+    "answer": "Tadbirkorlik faoliyatining barcha asosiy tomonlari ifodalanadigan hujjat.",
+    "noAnswer1": "Raqobatchilar moliyaviy xolatini ifodalaydigan xujjat.",
+    "noAnswer2": "Tovarlarni tarkatish taktikasini ifodalaydigan xujjat.",
+    "noAnswer3": "Narxlar soxasidagi strategiyani belgilaydigan xujjat."
+  },
+  {
+    "question": "Biznes-rejaning bosh ichki maqsadi nima?",
+    "noAnswer1": "Tadbirkorlik faoliyatini boshkarish uchun asos bo‘lishi.",
+    "noAnswer2": "Moliyalashtirish strategiyasini aniqlash.",
+    "answer": "Faoliyatning muvaffaqqiyatiga ishontirish.",
+    "noAnswer3": "Sotish bozorini Baholash"
+  },
+  {
+    "question": "Iqtisodiy samaradorlikni ifodalovchi ko‘rsatkichlar quyidagilardan iborat:",
+    "noAnswer1": "Mahsulotni sotish hajmi va foyda miqdori;",
+    "noAnswer2": "Korxona aktivlari va passivlari;",
+    "noAnswer3": "Korxona fond qaytimi va fond sig‘imi;",
+    "answer": "Foyda miqdori va daromadliligi;"
+  },
+  {
+    "question": "Bahodan chegirishdan ko‘zda tutilgan maqsad nima?",
+    "noAnswer1": "Raqobatni yumshatish",
+    "noAnswer2": "Baholarni korrektirovka qilish",
+    "answer": "Istemolchi (haridor) larni jalb qilish",
+    "noAnswer3": "Tavakkalchilikni kamaytirish"
+  },
+  {
+    "question": "Mehnatga haq to‘lash xarajatlari biznes rejaning qaysi bo‘limida amalga oshiriladi?",
+    "noAnswer1": "Moliyaviy rejada",
+    "noAnswer2": "Xarajatlar rejasida",
+    "noAnswer3": "Marketing rejasida",
+    "answer": "Tashkiliy rejada"
+  },
+  {
+    "question": "Tovar deb, nimaga aytiladi?",
+    "noAnswer1": "yaratilgan mahsulotga",
+    "noAnswer2": "iste’molga tushgan barcha moddiy ne’mat va xizmatlarga",
+    "answer": "kishilar ehtiyojini qondiradigan va bozor uchun ishlab chiqarilgan mahsulotga.",
+    "noAnswer3": "o‘zgalar ehtiyojini qondiruvchi vositalarga"
+  },
+  {
+    "question": "+++\r\nKritik nuqta bu-",
+    "noAnswer1": "Ishlab chiqarish hajmiga bog‘liq xolda o‘zgarmaydigan xarajatlar.",
+    "noAnswer2": "Umumiy kattaligi ishlab chiqarish hajmiga bog‘liq bo‘lgan xarajatlar darajasi.",
+    "answer": "Barcha umumiy xarajatlarni to‘liq qoplaydigan tushum darajasi.",
+    "noAnswer3": "Savdo foydasi va umumiy ishlab chiqarish xarajatlari orasidagi farq"
+  },
+  {
+    "question": "Rejalashtirish usuli...",
+    "answer": "Korxonalarda reja ko‘rsatkichlarini asoslash yo‘llari va qoidalari, shuningdek firma ichki\r\nrejalarining mazmuni, shakli, tuzilmasi va tartibini ifodalaydi",
+    "noAnswer1": "Korxonalarda rejalashtirish borasida qonuniyatlar, ilmiy tamoillar, zamonaviy talablar, iqtisodiy\r\nko‘rsatmalar majmuasi",
+    "noAnswer2": "Rejalashtirish- korxona faoliyatini tashkil etish bosqichlari,rejalarning shakli, tuzilmasi, tartibi",
+    "noAnswer3": "Rejalashtirish texnologiyasidir"
+  },
+  {
+    "question": "Maqsad turiga ko‘ra rejalashtirishning qanday turlari qo‘llaniladi?",
+    "noAnswer1": "Operativ, normativ, taktik, joriy",
+    "answer": "Operativ , taktik, strategik, normativ",
+    "noAnswer2": "Taktik, strategik, reaktiv, dastlabki, ta’minot-sotuv",
+    "noAnswer3": "Strategikva normativ"
+  },
+  {
+    "question": "Quyidagi tartib rejalarni tuzish ishlarini tashkil qilishning qaysi ko‘rinishiga tegishli?\r\nBosh maqsadlar bo‘yicha dastlabki rejalar tuziladi va quyi bo‘g‘inlarda ular aniqlashtiriladi.\r\nSo‘ngra quyidan yuqoriga harakat amalga oshiriladi. Bunda xususiy rejalar orasidagi farqlar\r\nbartaraf etiladi va yanada samarali yechimlar qo‘shiladi.",
+    "noAnswer1": "Pastdan yuqoriga",
+    "noAnswer2": "Yuqoridan pastga",
+    "answer": "Aralash",
+    "noAnswer3": "Gorizontal"
+  },
+  {
+    "question": "Analitik - hisoblash uslubi mohiyati – ?",
+    "noAnswer1": "Vazifalarni tarkibiy qismga va operatsiyalarga taqsimlash",
+    "noAnswer2": "Normativlarni ishlab chiqish",
+    "answer": "Normativlar asosida normani belgilash",
+    "noAnswer3": "Norma va normativlarni kuzatish asosida belgilash"
+  },
+  {
+    "question": "Reja tuzish tartibi necha xil ko‘rinishda amalga oshiriladi?",
+    "noAnswer1": "Gorizontal, vertikal aralash",
+    "answer": "Yuqoridan pastga, patdan yuqoriga va aralash",
+    "noAnswer2": "Birinchi ko‘rinishda barcha bo‘limlar bo‘yicha rejalar bir xil vaqtda ishlab chiqilib, so‘ngra\r\nmuvofiqlashtiriladi, ikkinchi ko‘rinishda esa bo‘limlar bo‘yicha rejalar mantiqiy ketma-ketlikda\r\nishlab chiqilib, so‘ngra muvofiqlashtiriladi",
+    "noAnswer3": "Talab aniqlanadi va ishlab chiqarish hajmi hamda belgilanadi, so‘ngra ushbu ko‘rsatkich asosida\r\nboshqa bo‘limlar o‘z rejalarini tuzadilar, ishlab chiqadi yoki avvalo korxonaning kelgusidagi\r\nmaqsadlari borasida qaror qabul qilinadi va shu asosida reja ko‘rsatkichlari ishlab chiqiladi"
+  },
+  {
+    "question": "Rejalashtirish jarayoni quyidagi bosqichlardan iborat:",
+    "noAnswer1": "Vazifani aniqlash, vositalarni tanlash, maqsadni belgilash va nazorat",
+    "noAnswer2": "Vositalarni tanlash, nazorat, vazifani aniqlash va maqsadni belgilash",
+    "noAnswer3": "Maqsadni belgilash, vositalarni tanlash, nazorat va vazifani aniqlash",
+    "answer": "Maqsadni belgilash, vazifani aniqlash, vositalarni tanlash va nazorat"
+  },
+  {
+    "question": "Kalendar rejalashtirish bu–…",
+    "answer": "Korxonaning yillik rejasini o‘n kunlik, hafta, kun va smena bo‘yicha aniqlashtirish",
+    "noAnswer1": "Korxonaning yilik rejasini bo‘linmalar va bajaruvchilar bo‘yicha aniqlashtirish",
+    "noAnswer2": "Korxonaning yillik rejasini faqat ish kunlari bo‘yicha aniqlashtirish",
+    "noAnswer3": "Korxonaning yillik rejasini kalendar’ kunlar bo‘yicha aniqlashtirish"
+  },
+  {
+    "question": "Ishlab chiqarishning asosiy maqsadi –",
+    "noAnswer1": "davlat iqtisodiyotini rivojlantirish",
+    "answer": "oshib boruvchi ehtiyojlarni qondirish.",
+    "noAnswer2": "davlatning ishlab chiqarish potentsialini oshirish",
+    "noAnswer3": "ilmiy – texnika taraqqiyotini ta’minlash"
+  },
+  {
+    "question": "Yangi mahsulotni prognozlashtirish jarayonida qanday usul foydalaniladi?",
+    "noAnswer1": "Ekspert baholar, statistik baholar, modellashtirish",
+    "noAnswer2": "Ekspert baholar, analitik, iqtisodiy matematik usul",
+    "answer": "Ekspert baholar, ekstrapolyatsiya (statistik baholar), solishtirish",
+    "noAnswer3": "Ekstrapolyatsiya (statistik baholar), solishtirish, analitik"
+  },
+  {
+    "question": "Korxonani boshqarishda boshqarilishning qaysi strukturalaridan foydalaniladi?",
+    "answer": "Chiziqli, funktsional, chiziqli – funktsional, funksional – shtabli",
+    "noAnswer1": "Chiziqli va funktsional",
+    "noAnswer2": "Funktsional, chiziqli, chiziqsiz",
+    "noAnswer3": "Funktsional, chiziqli, texnik – funktsional"
+  },
+  {
+    "question": "Zararsizlik nuqtasi – bu...",
+    "noAnswer1": "Tushum va xarajatlar orasidagi farq",
+    "answer": "Barcha xarajatlar to‘liq qoplanadigan tushum",
+    "noAnswer2": "Tushumga bog‘liq holda o‘zgaradigan xarajatlar",
+    "noAnswer3": "Tushumga bog‘liq holda o‘zgarmas xarajatlar"
+  },
+  {
+    "question": "Tarif koeffitsienti – bu...",
+    "answer": "Razryadlar orasidagi farqlarni ifodalaydi",
+    "noAnswer1": "Ish haqi orasidagi farqni ifodalaydi",
+    "noAnswer2": "Tarif stavkalar orasidagi farqlarni ifodalaydi",
+    "noAnswer3": "Ishbay ish haqi orasidagi farqlarni ifodalaydi"
+  },
+  {
+    "question": "Korxonani ishlab chiqarish dasturining mohiyati nimada?",
+    "noAnswer1": "Yillik ishlab ishlab chiqarish ‘ajmi, nomenklutarsi, sifati va muddatini ifodalaydigan kompleks\r\nishlab chiqarish rejasidir",
+    "noAnswer2": "Sotish ‘ajmini ishlab chiqarish kompleks rejasi",
+    "noAnswer3": "Talabga mos ravishda yillik ishlab chiqarish ‘ajmi, nomenklaturasi va muddatini ifodalaydigan\r\nmahsulot ishlab chiqarish kompleks rejasidir",
+    "answer": "Bozor talab etgan tovar va xizmatlarni ishlab chiqarish yillik hajmi, nomenklaturasi, sifati va\r\nmuddatini ifodalaydigan kompleks ishlab chiqarish rejasi"
+  },
+  {
+    "question": "Ishlab chiqarish rejasi mazmunini quyidagilar tashkil etadi:",
+    "noAnswer1": "Ishlab chiqarish quvvatlarini hisoblash",
+    "noAnswer2": "Resurslarbo‘yicha sarflarni aniqlash",
+    "answer": "Korxonanimahsulot ishlab chiqarish bo‘yicha real imkoniyatlarini aniqlash",
+    "noAnswer3": "Ishlab chiqarish quvvatlarini hisoblash, korxonani mahsulot ishlab chiqarish bo‘yicha real\r\nimkoniyatlarini aniqlash, resurslar bo‘yicha sarflarni aniqlash"
+  },
+  {
+    "question": "Ishlab chiqarish dasturi bu",
+    "noAnswer1": "Turli ehtiyojlarni qondirishga yo‘naltirilgan mahsulotlar nomenklaturasi, assortimenti, sifati va\r\nmiqdorini ifodalovchi reja ko‘rsatkichlari tizimidir",
+    "noAnswer2": "Mahsulot ishlab chiqarish bo‘yicha material resurslar sarfini, mahsulotlar assortimentini,\r\njihozlar sonini ifodalovchi tizim",
+    "answer": "Mahsulotishlab chiqarish bo‘yicha Texnologik jarayon sxemasi, mahsulot turlari miqdori va\r\nsifatini belgilovchi tizim",
+    "noAnswer3": "Mahsulot ishlab chiqarish hajmini kvartallar, oylar va dekadalarda ifodalovchi tizim"
+  },
+  {
+    "question": "Material resurslarga bo‘lgan talab biznes rejaning qaysi bo‘limida aks ettiriladi?",
+    "noAnswer1": "Xarajatlar rejasi",
+    "noAnswer2": "Marketing rejasi",
+    "answer": "Ishlab chiqarish rejasi",
+    "noAnswer3": "Moliyaviy reja"
+  },
+  {
+    "question": "Ishlab chiqarish faoliyatini rejalashtirish - …….",
+    "noAnswer1": "Korxona va firmalarning rivojlanishini, xo‘jalik faoliyati shakllarini va iqtisodiy maqsadlarni\r\nasoslashni o‘rganadi",
+    "answer": "Iqtisodiy resurslarni tanlash va ulardan foydalanish qonunlari. tamoyillari, qoidalari va\r\nusullarini o‘rganadi",
+    "noAnswer2": "Iqtisodiy resurslarni boshqarish muammolarini o‘rganadi",
+    "noAnswer3": "Korxonaninghaqiqiy holatini tadqiq qilishni va uning kelgusidagi rivojlanish darajasini o‘rganadi"
+  },
+  {
+    "question": "Mehnat sarfi ifodasidagi mahsulot hajmi quyidagi ko‘rsatkichlar aniqlashga asos bo‘ladi",
+    "noAnswer1": "Material resurslarga talab hajmini, ish haqi fondi va ishchilar sonini aniqlash uchun",
+    "noAnswer2": "Jihozlar soni, ishchilar soni va moliyaviy natijalarni shakillantirish uchun",
+    "answer": "Ishchilar soni va ish haqi fondini aniqlash uchun",
+    "noAnswer3": "Baho, ishchilar soni va ish haqi fondini aniqlash"
+  },
+  {
+    "question": "“Biznes reja” quyidagi talablarga javob berishi lozim",
+    "noAnswer1": "Biznes strategiyasini amalga oshirish quroli bo‘lishi lozim",
+    "noAnswer2": "Mablag‘larni yo‘naltirishi lozim",
+    "answer": "Har bir ko‘rsatkich asoslasnishi shart",
+    "noAnswer3": "Rivojlanish yo‘nalishlarini son va sifat ko‘rsatkichlari tizimi sifatida ifodalashi lozim"
+  },
+  {
+    "question": "Qo‘shimcha to‘lov va kompensatsiyalar nima uchun xizmat qiladi",
+    "noAnswer1": "Qo‘shimcha to‘lov va kompensatsiyalar xodimlarning yuqori aktivligini rag‘batlantirishga\r\nyo‘nalitirilgan.",
+    "noAnswer2": "Ishlab chiqarish samaradorligini oshirishga xizmat qiladi.",
+    "answer": "Mehnat sharoitidagi chetlanishlarda ishchi kuchini qo‘shimcha xarajatlarini qoplash uchun\r\nbelgilanadi.",
+    "noAnswer3": "Qo‘shimcha to‘lov va kompensatsiyalar xodimlarning bajargan ishlariga to‘lovlarni ifodalaydi."
+  },
+  {
+    "question": "Ishchilarning asosiy va qo‘shimcha ish haqi tushunchasi.",
+    "noAnswer1": "Asosiy ish haqi ishlagan vaqt uchun, qo‘shimcha ish haqi ishdan tashqari soatlar uchun\r\nto‘lanadi.",
+    "noAnswer2": "Asosiy ish haqi haqiqiy bajarilgan ish uchun, qo‘shimcha ish haqi esa qo‘shimcha soat\r\nuchunto‘lanadi.",
+    "noAnswer3": "Asosiy ish haqi ishlangan vaqt (bajarilgan ish, ishlab chiqarilgan mahsulot) uchun, qo‘shimcha\r\nish haqi esa ishlanmagan vaqt uchun to‘lanadi.",
+    "answer": "Asosiy ish haqi ishlangan vaqt uchun (xizmatlar, mahsulotlar hajmini bajarganligi uchun)\r\nto‘lanadi, qo‘shimcha ish haqi esa mehnat qonunlariga belgilangan ishlanmagan vaqt uchun\r\nqo‘shimcha to‘lovlardir."
+  },
+  {
+    "question": "Ishlab chiqarish – bu",
+    "noAnswer1": "iqtisodiyotni moliyalashtiruvchi yagona manbaa",
+    "noAnswer2": "jamiyat hayoti uchun 2 – darajali rol o‘ynaydi",
+    "noAnswer3": "mehnat vositalarini mehnat predmeti va mehnatdan ajralishidir",
+    "answer": "ko‘payib boruvchi ehtiyojlarni qondiruvchi yagona manbaa."
+  },
+  {
+    "question": "«Kalkulyatsiya obyekti» va «Kalkulyatsiya birligi» tushunchasi nimani ifodalaydi.",
+    "noAnswer1": "Kalkulyatsiya obyekti tannarx o‘lchov birligi kalkulyatsiya, birligi-mahsulot turi.",
+    "answer": "Kalkulyatsiya obyekti- mahsulot turi, kalkulyatsiya birligi – mahsulot birligi uchun xarajatlar",
+    "noAnswer2": "Kalkulyatsiya obyekti-birlik xizmat turi, kalkulyatsiya birligi - birlik mahsulot uchun material\r\nxarajatlari",
+    "noAnswer3": "Kalkulyatsiya obyekti mahsulot turi, birligi – tannarx xarajatlari o‘lchov birligi."
+  },
+  {
+    "question": "Mahsulot tannarxi kalkulyatsiyasi nima?",
+    "answer": "Xarajatlarning kelib chiqish o‘rniga ko‘ra aloxida moddalarga taksimlanishi.",
+    "noAnswer1": "Mahsulot tannarxining xarajat elementlari buyicha joylanishi.",
+    "noAnswer2": "Korxonada ishlab chikarilayotgan mahsulot birligining tannarxi.",
+    "noAnswer3": "Moddiy va mehnat xarajatlarini guruxlanishi."
+  },
+  {
+    "question": "Texnik iqtisodiy loyihada faoliyatning qaysi jihatlariga urg‘u beriladi?",
+    "noAnswer1": "Faoliyatning moliyaviy jihatlariga",
+    "noAnswer2": "Faoliyatning tijorat jihatlariga",
+    "answer": "Faoliyatning texnik va texnologik jihatlariga",
+    "noAnswer3": "Faoliyatning barcha jihatlariga"
+  },
+  {
+    "question": "Rejalashtirishda foydaning qanday ko‘rsatkichlaridan foydalaniladi?",
+    "noAnswer1": "Balans foyda, normativ foyda",
+    "noAnswer2": "Sof foyda, normativ foyda",
+    "answer": "Balans foyda, asosiy faoliyat foydasi, sof foyda,",
+    "noAnswer3": "Balans foyda"
+  },
+  {
+    "question": "Mahsulot rentabelligi qanday aniqlanadi?",
+    "answer": "Foydani uni olishga sarflangan xarajatlarga nisbatan orqali.",
+    "noAnswer1": "Mahsulotning bozor bahosini to‘la tannarxga nisbati orqali.",
+    "noAnswer2": "Balans foydani yillik umumiy soliq ajiratmalariga nisbati orqali.",
+    "noAnswer3": "Tannarx miqdorini foyda miqdoriga nisbati orqali."
+  },
+  {
+    "question": "Biznes reja quyidagi asosiya vazifani bajaradi",
+    "noAnswer1": "Maqsadni amalga oshirish vositalari majmuasi",
+    "noAnswer2": "Havf-xatarni kamaytirish",
+    "answer": "Biznesni amalga oshirish konsepsiyasi",
+    "noAnswer3": "Korxona faoliyatini davom ettirish"
+  },
+  {
+    "question": "Ko‘rsatkichlar quyidagi talablarga javob berishi lozim",
+    "noAnswer1": "Faqat miqdoriy tavsifga ega bo‘lishi",
+    "answer": "Ishonchlilik va o‘lchov hususiyatiga ega bo‘lishi",
+    "noAnswer2": "Faqat sifat tasnifga ega bo‘lishi",
+    "noAnswer3": "Jarayonning ijtimoiy va iqtisodiy jihatlarini tafsiflashi"
+  },
+  {
+    "question": "Material resurslardan foydalanish koeffitsienti qanday aniqlanadi?",
+    "noAnswer1": "Detal og‘irligini yarim tayyor mahsulot og‘irligiga nisbati orqali",
+    "noAnswer2": "Sotilayotgan chiqindilarning miqdorini sotilayotgan chiqindilar qiymati nisbati orqali",
+    "answer": "Haqiqiy material resurslari sarfini material sarfi normasiga nisbati orqali",
+    "noAnswer3": "Yillik ishlab chiqarish hajmini o‘rtacha quvvatga nisbati orqali"
+  },
+  {
+    "question": "Jihozlardan intensiv foydalanish koeffitsienti mohiyatini …",
+    "noAnswer1": "Jihozning ish vaqtidan foydalanish darajasini ifodalash tashkil etadi",
+    "noAnswer2": "Jihoz samaradorligidan foydalanish darajasini ifodalash tashkil etadi",
+    "noAnswer3": "Jihoz sonidan foydalanish darajasini ifodalash tashkil etadi",
+    "answer": "Jihozning soatlik unimdorligidan foydalanish darajasini ifodalash tashkil etadi"
+  },
+  {
+    "question": "Ro‘yxatdagi ishchilar soni bilan haqiqiy ishchilar soni orasidagi farq.............",
+    "noAnswer1": "Ishkuni davomida yuz beradigan tashkiliy-texnik tanaffuslar hisobiga yuzaga keladi",
+    "noAnswer2": "Ishchilarning ishga sababsiz kelmagan kunlari hisobiga yuzaga keladi",
+    "noAnswer3": "Doimiy va mavsumiy ishlarga jalb qilingan ishchilar soni orasidagi farqdir",
+    "answer": "Imtiyozli ruxsat etilgan ishga chiqmaslik kunlari hisobiga yuzaga keladi"
+  },
+  {
+    "question": "Ishlab chiqarishning asosiy omillari:",
+    "answer": "ishchi kuchi, kapital, yer va tadbirkorlik qobiliyati.",
+    "noAnswer1": "xom-ashyo va ishlab chiqarish texnologiyasi",
+    "noAnswer2": "ishlab chiqarish resurslari",
+    "noAnswer3": "Kapital"
+  },
+  {
+    "question": "Ehtiyoj - bu........",
+    "noAnswer1": "ishlab chiqarish jarayoni",
+    "answer": "hayotiy vositalarga bo‘lgan zaruriyat.",
+    "noAnswer2": "iste’mol jarayonida qo‘llanilishi mumkin bo‘lgan vosita",
+    "noAnswer3": "resurs"
+  },
+  {
+    "question": "Iqtisodiyotning bosh masalasi va doimiy muammosi:",
+    "noAnswer1": "ishlab chiqarish hajmini oshirish uchun qancha ishchi kuchi sarflash kerak",
+    "answer": "nima, qanday, qancha va kim uchun ishlab chiqarish.",
+    "noAnswer2": "davlatning milliy daromadini qanday oshirish mumkin",
+    "noAnswer3": "aholi bandligini oshirish"
+  },
+  {
+    "question": "Kreditlar – bu",
+    "answer": "pul vositalarini tovar va xizmatlarga to‘lov, qaytarib berish sharti bilan noma’lum muddatga\r\nqarz berish.",
+    "noAnswer1": "ssuda fondini shakllantirish va undan foydalanish munosabatlari",
+    "noAnswer2": "qarz berish jarayonlarida qarz beruvchi va qarzdor o‘rtasidagi amalga oshiriladigan harakat",
+    "noAnswer3": "tovar va xizmatlarga naqd pulsiz shaklda hisob – kitob qilish uchun bank tomonidan beriladigan\r\nmoliyaviy xujjat"
+  },
+  {
+    "question": "Korxonaning ishlab chiqarish hajmi 7000 dona mahsulotni tashkil qiladi. Ishchilarning o‘rtacha\r\nro‘yxatdagi soni 200 kishi bo‘lib, ishlab chiqarish hajmini 15% ga oshirish ko‘zda tutiladi. Reja yili\r\nuchun ishchilar soni quyidagiga teng bo‘ladi:",
+    "noAnswer1": "240 kishi",
+    "noAnswer2": "250 kishi",
+    "answer": "230 kishi",
+    "noAnswer3": "210 kishi"
+  },
+  {
+    "question": "Iste’molchilik krediti – bu",
+    "noAnswer1": "kreditning asosiy va yetakchi shakli",
+    "noAnswer2": "korxonalar va birlashmalar hamda boshqa xo‘jalik yurutuvchi sub’ektlarning bir – biriga\r\nberadigan krediti",
+    "answer": "xususiy shaxslarga iste’mol tovarlari sotib olish uchun ma’lum muddatga beriladigan kredit.",
+    "noAnswer3": "ko‘chmas mulklar hisobiga uzoq muddatli ssudalar shaklida beriladigan kredit"
+  },
+  {
+    "question": "Pul mablag‘larini to‘plash, joylashtirish va ularning harakatini tartibga solish bilan\r\nshug‘ullanuvchi iqtisodiy muassasa .....",
+    "noAnswer1": "tovarlar birjasi",
+    "noAnswer2": "mehnat birjasi",
+    "noAnswer3": "chakana savdo tashkiloti",
+    "answer": "bank."
+  },
+  {
+    "question": "Korxonaning ro‘yxatdagi ishlovchilar soni quyidagilardan tarkib topadi:",
+    "noAnswer1": "1 kun muddat bilan doimiy va vaqtinchalik ishlarga qabul qilingan xodimlar",
+    "noAnswer2": "Qabul qilingan xodimlar doimiy va mavsumiy ishlarga qabul qilingan xodimlar",
+    "answer": "1 kun va undan ko‘proq muddatga doimiy va vaqtinchalik ishlarga",
+    "noAnswer3": "Qabul qilingan xodimlar doimiy va mavsumiy ishlarga qabul qilingan xodimlar va 1 kun muddat\r\nbilan doimiy va vaqtinchalik ishlarga qabul qilingan xodimlar"
+  },
+  {
+    "question": "Giperinflyatsiya – bu",
+    "answer": "narxning shiddat bilan o‘sishi, pul qadrining juda tezlik bilan pasayishi.",
+    "noAnswer1": "qtisodiy tanglik va ishsizlikning birgalikda yuz berishi",
+    "noAnswer2": "eski pulning qadri yuqori qilib belgilangan, ammo nomi eskicha qolgan yangi pulga ma’lum\r\nnisbatda almashtirib va nisbatga qarab narxlarni ham o‘zgartirish tushuniladi",
+    "noAnswer3": "pulning yuridik kuchini bekor qilish va yangi pul chiqarish tushuniladi"
+  },
+  {
+    "question": "Samaradorlik mezoni qanday ko‘rsatkichlar bilan ifodalanadi?",
+    "noAnswer1": "Sof diskontlangan daromad (SDD) yalpi milliy daromad (YaMD) Yalpi ichki mahsulot (YaIM)\r\ndaromadlik indeksi (DI)",
+    "noAnswer2": "Sof milliy mahsulot (SMM) yalpi milliy mahsulot (YaMM) milliy daromad (ME)",
+    "answer": "Sof diskontlangan daromad (SDD) daromadlilik indeksi (DI), qoplash muddati",
+    "noAnswer3": "Baho indeksi (BI), daromadlilik indeksi (DI) koplash muddatining, ichki daromadlilik normasi\r\n(IDN)"
+  },
+  {
+    "question": "Bozor sharoitida qanday ko‘rsatkich umum qabul qilingan samaradorlik mezoni bo‘lib\r\nhisoblanadi?",
+    "noAnswer1": "Dividend",
+    "noAnswer2": "Baho",
+    "noAnswer3": "Zarar",
+    "answer": "Maksimal foyda"
+  },
+  {
+    "question": "Inflyatsiya – bu",
+    "answer": "muomaladagi pul massasining tovarlar massasidan ustunligi natijasida tovarlar bilan\r\nta’minlangan pullarni ko‘payib ketishi.",
+    "noAnswer1": "milliy pul birligi qiymatining rasmiy tartibda pasaytirilishi",
+    "noAnswer2": "milliy pul birligi qiymatining rasmiy tartibda ko‘tarilishi",
+    "noAnswer3": "eksportni importga nisbatan nihoyatda ortib ketishi"
+  },
+  {
+    "question": "Jihozlardan ekstensiv foydalanish koeffitsienti mohiyatini…",
+    "noAnswer1": "jihozning soatlik unimdorligidan foydalanish darajasini ifodalash tashkil etadi",
+    "noAnswer2": "jihoz samaradorligidan foydalanish darajasini ifodalash tashkil etadi",
+    "answer": "jihozning ish vaqtidan foydalasnish darajasini ifodalash tashkil etadi",
+    "noAnswer3": "jihoz sonidan foydalanish darajasini ifodalash tashkil etadi"
+  },
+  {
+    "question": "Pul muomalasi – bu",
+    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
+    "answer": "pulning o‘z vazifasini bajarish jarayonidagi to‘xtovsiz harakati.",
+    "noAnswer2": "pul mablag‘larini ssuda fondi shaklida to‘lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
+    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+  },
+  {
+    "question": "Mahsulot tavsifida asosiy e’tibor quyidagiga qaratiladi",
+    "noAnswer1": "Mahsulotning boshqa mahsulotdan farq qiluvchi jihatlariga",
+    "noAnswer2": "Mahsulot sifati jihatidan farq qiluvchi jihatlariga)",
+    "noAnswer3": "Mahsulot narxi jihatidan farq qiluvchi jihatlariga",
+    "answer": "Mahsulotning raqobatchi mahsulotdan farq qiluvchi jihatlariga"
+  },
+  {
+    "question": "Nazariy quvvat –bu ?",
+    "answer": "Korxona jihozlari pasportidagi ishlab chiqarish imkoniyati",
+    "noAnswer1": "Korxonaning ish sharoitini e’tiborga olgan xoldagi mahsulot ishlab chiqarish imkoniyati",
+    "noAnswer2": "Normal ish sharoitidagi mahsulot ishlab chiqarish imkoniyati",
+    "noAnswer3": "Mavjud shart-sharoitlardagi mahsulot ishlab chiqarish imkoniyati"
+  },
+  {
+    "question": "Amaliy quvvat –bu?",
+    "noAnswer1": "Mavjud shart-sharoitlardagi mahsulot ishlab chiqarish imkoniyati",
+    "noAnswer2": "Korxona jihozlari pasportidagi ishlab chiqarish imkoniyati",
+    "answer": "Korxonaning ish sharoitini e’tiborga olgan xoldagi mahsulot ishlab chiqarish imkoniyati",
+    "noAnswer3": "Ideal ish sharoitidagi mahsulot ishlab chiqarish imkoniyati"
+  },
+  {
+    "question": "Rejalashatirish jarayoni-bu …",
+    "noAnswer1": "Korxona faoliyatini belgilash jarayoni",
+    "answer": "Rejani ishlab chiqish jarayoni",
+    "noAnswer2": "Korxona maqsadini amalga oshirish jarayoni",
+    "noAnswer3": "Korxona resurslaridan foydalanishni belgilash jarayoni"
+  },
+  {
+    "question": "Rejalashtirish jarayoni obyekti – bu…",
+    "noAnswer1": "Korxonaning mehnat va moddiy resurslari",
+    "noAnswer2": "Korxonaning iqtisodiy salohiyati",
+    "noAnswer3": "Korxonaning ishlab chiqarish bo‘limlari",
+    "answer": "Korxona va uning ishlab chiqarish jarayoni"
+  },
+  {
+    "question": "«Rezyume» bo‘limining asosiy maqsadi nimada?",
+    "answer": "Ish taklifining qisqa mazmunini berilishi",
+    "noAnswer1": "Mahsulot va xizmat turini aniqlash",
+    "noAnswer2": "Ishlab chiqarilayotgan mahsulot iste’molchilarini aniqlash",
+    "noAnswer3": "Korxona joylashgan o‘rnini belgilash"
+  },
+  {
+    "question": "Yirik korxonalar uchun biznes reja necha bo‘limdan iborat bo‘ladi – …",
+    "noAnswer1": "8",
+    "answer": "10",
+    "noAnswer2": "3",
+    "noAnswer3": "5"
+  },
+  {
+    "question": "Kichik korxonalar uchun tuzilgan biznes reja necha bo‘limdan iborat bo‘ladi – …",
+    "noAnswer1": "8",
+    "noAnswer2": "3",
+    "answer": "5",
+    "noAnswer3": "10"
+  },
+  {
+    "question": "Biznes reja qaysi funksiyalarni bajaradi?",
+    "answer": "Korxona strategiyasini amalga oshirish, mablag‘larni jalb qilish",
+    "noAnswer1": "Korxona taktikasini amalga oshirish, pul oqimlarini boshqarish",
+    "noAnswer2": "Rivojlanish yo‘nalishlarini son va sifatda tasvirlash",
+    "noAnswer3": "Harakatlar dasturini shakllantirish va yo‘naltirish"
+  },
+  {
+    "question": "Texnologik jihatdan o‘xshash ishlab chiqarishning birlashuvi – bu",
+    "noAnswer1": "Iqtisodiy rivojlanish",
+    "answer": "Iqtisodiy o‘sish",
+    "noAnswer2": "Ishlab chiqarish strategiyasi",
+    "noAnswer3": "Ishlab chiqarish taktikasi"
+  },
+  {
+    "question": "Biznes rejaning qaysi bo‘limi boshqa bo‘limlarni shakllantirish uchun asos bo‘lib xizmat qiladi –",
+    "noAnswer1": "Biznesni ifodalash",
+    "noAnswer2": "Ishlab chiqarish rejasi",
+    "answer": "Marketing rejasi",
+    "noAnswer3": "Moliyaviy reja"
+  },
+  {
+    "question": "Tovarni tarqatishni taktikasini nimadan boshlash zarur?",
+    "noAnswer1": "Mijozlarga axborot berishdan",
+    "noAnswer2": "Mijozlarni tahlil qilishdan",
+    "noAnswer3": "Maqsadli bozorni aniqlashdan",
+    "answer": "Sotish usullarini tasvirlashdan"
+  },
+  {
+    "question": "Davlat byudjeti nima?",
+    "noAnswer1": "pul mablag‘larini jamg‘aruvchi fond",
+    "noAnswer2": "pul mablag‘larining ma’lum yo‘nalishlar bo‘yicha taqsimlanishi",
+    "noAnswer3": "umumjamiyat miqyosida markazlashgan holda pul mablag‘larining sarflanishi",
+    "answer": "umumjamiyat miqyosida markazlashgan holda davlat ishtirokida to‘planadigan va\r\nsarflanadigan moliyaviy resurslar."
+  },
+  {
+    "question": "Tadbirkorlik obyektiga yoki xo‘jalik obyektiga ilmiy texnika taraqqiyoti yutuqlari doirasida\r\nzaruriy innovatsiyalarni, o‘zgarishlarni kiritish – bu",
+    "answer": "Iqtisodiy rivojlanish",
+    "noAnswer1": "Ishlab chiqarish strategiyasi",
+    "noAnswer2": "Iqtisodiy o‘sish",
+    "noAnswer3": "Ishlab chiqarish taktikasi"
+  },
+  {
+    "question": "Yalpi foyda salmog‘i qanday aniqlanadi?",
+    "noAnswer1": "umumiy sotuv hajmi/umumiy yalpi foyda",
+    "noAnswer2": "umumiy yalpi foyda * umumiy sotuv hajmi",
+    "answer": "umumiy yalpi foyda/umumiy sotuv hajmi",
+    "noAnswer3": "umumiy yalpi foyda - umumiy sotuv hajmi"
+  },
+  {
+    "question": "Texnik- iqtisodiy rejalashtirish -",
+    "answer": "Korxonaning barcha iqtisodiy va moliyaviy ko‘rsatkichlarini aniqlash, iqtisodiy resurslarni\r\ntanlash va ular bo‘yicha normalarni belgilashni ko‘zda tutadi",
+    "noAnswer1": "Korxona bozorga qanday moslashishini va unga qanday ta’sir etishni ko‘zda tutadi",
+    "noAnswer2": "Mahsulotlarni ishlab chiqarish uchun qanday texnologiya qo‘llanilishi kerakligini ko‘zda tutadi",
+    "noAnswer3": "Korxonada qanday mahsulot ishlab chiqarish kerakligini ko‘zda tutadi"
+  },
+  {
+    "question": "Korxonada ichki rejalashtirishning qanday turlari qo‘llaniladi?",
+    "noAnswer1": "Strategik va normative",
+    "answer": "Operativ, taktik, strategik, normativ",
+    "noAnswer2": "Operativ, normativ, taktik, joriy",
+    "noAnswer3": "Operativ va taktik"
+  },
+  {
+    "question": "Yangi va eski bozorlarda tovarlarni sotish hajmini ko‘paytirish bu-",
+    "noAnswer1": "Iqtisodiy rivojlanish",
+    "noAnswer2": "Ishlab chiqarish strategiyasi",
+    "answer": "Iqtisodiy o‘sish",
+    "noAnswer3": "Ishlab chiqarish taktikasi"
+  },
+  {
+    "question": "Maqsadga erishish vositalarini belgilash bu",
+    "noAnswer1": "Strategiya",
+    "noAnswer2": "Oddiy harakat",
+    "noAnswer3": "Foyda olish",
+    "answer": "Taktika"
+  },
+  {
+    "question": "Tanlangan maqsad va qo‘llaniladigan usullariga ko‘ra rejalashtirish quyidagilarga bo‘linadi:",
+    "noAnswer1": "Texnik iqtisodiy va tashkiliy texnik",
+    "answer": "Texnik iqtisodiy va operativ ishlab chiqarish",
+    "noAnswer2": "Operativ ishlab chiqarish va umumlashtirilgan",
+    "noAnswer3": "Tashkiliy texnik va taktik"
+  },
+  {
+    "question": "Korxona faoliyatini boshqarish uslublarini tanlash bu...",
+    "noAnswer1": "Taktika",
+    "noAnswer2": "Oddiy harakat",
+    "answer": "Strategiya",
+    "noAnswer3": "Foyda olish"
+  },
+  {
+    "question": "Strategik rejalashtirish –",
+    "noAnswer1": "Maqsad va vazifalarni, vositalarni ochiq va asoslangan tarzda belgilash ko‘zda tutadi",
+    "noAnswer2": "Korxonaning umumiy maqsadiga erishish usullarini tanlashdir",
+    "noAnswer3": "Avval belgilab qo‘yilgan maqsad va vazifalarni erishish yo‘llarini tanlashdan iboratdir",
+    "answer": "Korxonaning umumiy maqsadlarini belgilash va unga erishish usullarini tanlashdir."
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
