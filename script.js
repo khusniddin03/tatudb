@@ -3445,9 +3445,12 @@ try {
   const boxTitle = document.querySelector(
     ".box.box-default .box-header h3.box-title"
   );
+  console.log(boxTitle);
   boxTitle.style.cursor = "pointer";
   boxTitle.addEventListener("click", (e) => {
     e.stopPropagation();
     generate(data);
   });
-} catch (error) {}
+} catch (error) {
+  console.log(error);
+}
