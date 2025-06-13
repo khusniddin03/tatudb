@@ -1,2796 +1,2478 @@
 const data = [
   {
-    "question": "Shaxsiy moliya nuqtai-nazaridan aktivlarni, shartli ravishda, nechta kategoriya (toifa)ga bo‘lish\r\nmumkin?",
-    "noAnswer1": "3",
-    "noAnswer2": "4",
-    "answer": "2",
-    "noAnswer3": "5"
+    "question": "Vijdon erkinligi nima?",
+    "noAnswer1": "kishilarning o‘z milliy diniga etiqod qilish huquqi;",
+    "noAnswer2": "fuqarolarning albatta biron bir jaxon diniga e’tiqod qilish zarurligi;",
+    "answer": "fuqarolarning dinga e’tiqod qilish yoki e’tiqod qilmaslikni o‘zlari mustaqil hal qilish huquqi;",
+    "noAnswer3": "fuqarolarning dinga ishonmasligi va unga qarshi tashviqot olib borish huquqi."
   },
   {
-    "question": "Shaxsiy moliya nuqtai-nazaridan aktivlarni qaysi kategoriyalarini bilasiz?",
-    "answer": "iste’moliy va investitsion",
-    "noAnswer1": "moliyaviy va iqtisodiy",
-    "noAnswer2": "iqtisodiy va ijtimoiy",
-    "noAnswer3": "iste’moliy va moliyaviy"
+    "question": "Dinning qanday ildizlari bor?",
+    "noAnswer1": "genetik, tarixiy, psixologik;",
+    "answer": "gnoseologik, sotsial, psixologik;",
+    "noAnswer2": "sotsial, biologik, iloxiy;",
+    "noAnswer3": "afsonaviy, falsafiy, psixologik."
   },
   {
-    "question": "Shaxsiy moliyada biz bajarishimiz lozim bo‘lgan\r\nmoddiy majburiyatlar nima deyiladi?",
-    "noAnswer1": "aktivlar",
-    "noAnswer2": "Balans",
-    "answer": "passivlar",
-    "noAnswer3": "daromad"
+    "question": "Dinning unsurlarini sanab bering.",
+    "noAnswer1": "tasavvur, diniy psixologiya, diniy tashkilotlar;",
+    "noAnswer2": "diniy tasavvur, diniy axloq, diniy mafkura;",
+    "answer": "diniy ong, diniy xis-tuyg‘u (psixologiya), diniy ibodat, diniy tashkilotlar;",
+    "noAnswer3": "xudoga, payg‘ambarlarga, farishta va jin-ajinalarga ishonish."
   },
   {
-    "question": "Bu sizning shaxsiy xazinangiz (ixtiyoringiz)ga kelib tushadigan pullar.",
-    "noAnswer1": "xarajatlar",
-    "noAnswer2": "Byudjet",
-    "answer": "daromadlar",
-    "noAnswer3": "foyda"
+    "question": "Dinning funksiyalari.",
+    "noAnswer1": "axloqiy, tarbiyaviy, mavkuraviy;",
+    "answer": "to‘ldiruvchilik, birlashtiruvchilik, o‘zaro aloqadorlik, tartibga soluvchilik;",
+    "noAnswer2": "tinchlik, do‘stlik, tenglik, tabiatni muxofaza qilish;",
+    "noAnswer3": "gnoseologik, antronologik, teologik, psixologik."
   },
   {
-    "question": "Bu o‘z ehtiyojlaringizni qondirish uchun sarflayotgan pullaringiz.",
-    "answer": "xarajatlar",
-    "noAnswer1": "daromadlar",
-    "noAnswer2": "byudjet",
-    "noAnswer3": "zarar"
+    "question": "Din - bu:",
+    "noAnswer1": "xalq uchun afyun;",
+    "noAnswer2": "insonning xudo bilan o‘zaro munosabat usuli;",
+    "answer": "tashqi olam kuchlarining kishi ongida g‘ayritabiiy ifodalanishi:",
+    "noAnswer3": "gnoseologik, antronologik, teologik, psixologik."
   },
   {
-    "question": "Bu ma’lum mo‘ljallangan vaqt davomida (masalan, oy, chorak, yarim yil yoki yil) rejalashtirilgan\r\ndaromadlaringiz va xarajatlaringiz ro‘yxati.",
-    "noAnswer1": "daromadlar",
-    "noAnswer2": "Xarajatlar",
-    "answer": "byudjet",
-    "noAnswer3": "mablag‘"
+    "question": "Qaysi bir din eng qadimgi?",
+    "noAnswer1": "pravoslaviya;",
+    "noAnswer2": "proteotantizm;",
+    "noAnswer3": "islom;",
+    "answer": "yaxudiylik"
   },
   {
-    "question": "Shaxsiy moliyaviy rejani ishlab chiqish nechta bosqichni o‘z ichiga oladi?",
-    "noAnswer1": "2",
-    "noAnswer2": "4",
-    "noAnswer3": "5",
-    "answer": "3"
+    "question": "Musulmonlar hijriy yil hisobi qachondan boshlanadi?",
+    "noAnswer1": "Muhammad payg‘ambarning tug‘ilishidan;",
+    "noAnswer2": "Muhammad payg‘ambarning payg‘ambarlik faoliyati boshlani-shidan;",
+    "noAnswer3": "Qur’onning paydo bo‘lishidan;",
+    "answer": "dastlabki musulmonlarning Yasrib (Madina) ga ko‘chib borishidan."
   },
   {
-    "question": "Daromad va iste’mol, ya’ni xarajatlarining bir-biriga muvofiq kelishiga qarab inson hayotini\r\nshartli ravishda nechta davrga bo‘lish mumkin?",
-    "noAnswer1": "2",
-    "noAnswer2": "3",
-    "answer": "4",
-    "noAnswer3": "5"
+    "question": "Jahon dinlari qaysi dinlar?",
+    "answer": "buddizm, xristianlik, islom;",
+    "noAnswer1": "buddizm, iudaizm, sintoizm;",
+    "noAnswer2": "xristianlik, islom, protestansizm;",
+    "noAnswer3": "provoslaviya, katolitsizm, braxmanizm."
   },
   {
-    "question": "Bu – distansion (masofaviy) bank xizmatlarini ko‘rsatishning zamonaviy takomillashgan\r\nshakllaridan biridir.",
-    "noAnswer1": "banking",
-    "answer": "onlayn-banking",
-    "noAnswer2": "free-banking",
-    "noAnswer3": "uzcard"
+    "question": "Yaponiyaning milliy dini qaysi din?",
+    "answer": "sintoizm;",
+    "noAnswer1": "buddizm;",
+    "noAnswer2": "konfutsiychilik;",
+    "noAnswer3": "krishnaizm."
   },
   {
-    "question": "Hozir dunyoda qancha miqdorda bankomatlar mavjud?",
-    "noAnswer1": "2,0 mln.dan kam",
-    "noAnswer2": "2,0 mln.",
-    "answer": "2,0 mln.dan ortiq",
-    "noAnswer3": "1,0 mln."
+    "question": "Fetishizm nimani ilohiylashtiradi?",
+    "noAnswer1": "hayvonlarni",
+    "noAnswer2": "Odamlarni",
+    "noAnswer3": "ruhni",
+    "answer": "moddiy narsalarni;"
   },
   {
-    "question": "Saqlash yoki foiz (daromad) olish uchun bank hisob- varag‘iga o‘tkazilgan pul mablag‘lari ...........\r\ndeb ataladi.",
-    "noAnswer1": "kredit",
-    "noAnswer2": "sug'urta",
-    "answer": "omonat",
-    "noAnswer3": "investitsiya"
+    "question": "“Yahudiy” so‘zining kelib chiqishi borasida Abu Rayhon Beruniy o‘z asarida qanday izoh keltirib o‘tadi?",
+    "answer": "“tavba qilmoq, tavba qilganlar”",
+    "noAnswer1": "“Adashganlar, adashuvchi”",
+    "noAnswer2": "“G‘ayri dinlar, boshqa dinga ergashuvchilar”",
+    "noAnswer3": "“Isroilliklar”"
   },
   {
-    "question": "Pul muomalasi – bu",
-    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
-    "answer": "pulning o’z vazifasini bajarish jarayonidagi to’xtovsiz harakati.",
-    "noAnswer2": "pul mablag’larini ssuda fondi shaklida to’lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
-    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+    "question": "Xristianlikning asosiy oqimlari qaysi oqimlar?",
+    "answer": "katolik, pravoslav, protestantizm;",
+    "noAnswer1": "baptizm, pravoslav, fetishizm;",
+    "noAnswer2": "lyuteranlik, pravoslav, katolitsizm;",
+    "noAnswer3": "iudaizm, sintoizm, shamanizm."
   },
   {
-    "question": "Pulning qaysi vazifasi boylik to’plash bilan bog’liq?",
-    "answer": "jamg’arma vositasi",
-    "noAnswer1": "muomala vositasi",
-    "noAnswer2": "to’lov vositasi",
-    "noAnswer3": "qiymat o’lchovi"
+    "question": "Islom dinining asosiy yo‘nalishlari qaysilar?",
+    "noAnswer1": "vahhobiylar va sunniylar;",
+    "noAnswer2": "fundamentalizm va sunnizm;",
+    "answer": "sunniylar va shialar;",
+    "noAnswer3": "so‘fiylik, shialar, ismoiliylar."
   },
   {
-    "question": "Pulning vazifasi nimadan iborat?",
-    "noAnswer1": "pul iste’moli bilan ijtimoiy talabga bo’lgan investitsiya omili",
-    "noAnswer2": "ijtimoiy taklif va almashuv uchun zarur bo’lgan miqdorni belgilaydigan kapital qiymatlar omili",
-    "noAnswer3": "daromadlar va xarajatlarni hisobga olish tizimi",
-    "answer": "yagona hisob – kitob yurgizish, almashuv, jamg’arma, muomila, to’lov vositasi vazifasini\r\nbajaradi"
+    "question": "Yahudiy xalqiga nisbatan qo‘llaniladigan “Banu isroil” so‘zining ma’nosi nima?",
+    "answer": "“Isroil avlodlari”",
+    "noAnswer1": "“Isroil ajdodlari”",
+    "noAnswer2": "“Isroil bog‘lari”",
+    "noAnswer3": "“Isroil xudolari”"
   },
   {
-    "question": "Pulning qaysi vazifasi narxning shakllanishi bilan bog’liq?",
-    "noAnswer1": "muomala vositasi",
-    "noAnswer2": "jamg’arma vositasi",
-    "answer": "qiymat o’lchovi",
-    "noAnswer3": "jahon puli"
+    "question": "Yahudiylik ta’limoti to‘rt asosga tayanadi bular qaysi javobda keltirilgan?",
+    "answer": "1. Olamlarni yaratuvchi yagona xudo Yahvega imon keltirish 2. Yahudiylar yer yuzidagi xalqlarning “eng mumtozi” va u dunyoda berilajak in’omlarning eng haqlisi ekanligi 3. Messiya haloskorning kelishi haqida 4. Oxirat kuniga ishonish",
+    "noAnswer1": "1. Olamlarni yaratuvchi yagona xudo Yahvega imon keltirish 2. Yahudiylar yer yuzidagi xalqlarning “eng mumtozi” va u dunyoda berilajak in’omlarning eng haqlisi ekanligi 3. Messiya haloskorning kelishi haqida 4. Namoz o‘qish",
+    "noAnswer2": "1. Olamlarni yaratuvchi yagona xudo Yahvega imon keltirish 2. Yahudiylar yer yuzidagi xalqlarning “eng mumtozi” va u dunyoda berilajak in’omlarning eng haqlisi ekanligi 3. Isroil davlatining yahudiylarga in’om etilganligi haqida 4. Oxirat kuniga ishonish",
+    "noAnswer3": "1. Xudo uchun qurbonliklar keltirish 2. Yahudiylar yer yuzidagi xalqlarning “eng mumtozi” va u dunyoda berilajak in’omlarning eng haqlisi ekanligi 3. Messiya haloskorning kelishi haqida 4. Oxirat kuniga ishonish"
   },
   {
-    "question": "Ehtiyoj - bu........",
-    "answer": "hayotiy vositalarga bo’lgan zaruriyat",
-    "noAnswer1": "ishlab chiqarish jarayoni",
-    "noAnswer2": "iste’mol jarayonida qo’llanilishi mumkin bo’lgan vosita",
-    "noAnswer3": "resurs"
+    "question": "Yahudiylarning muqaddas diniy manbalaridan hisoblangan Talmuda yahudiylik marosimlari tizimi ishlab chiqilgan. Unda yahudiylar amal qilishi va bajarishi lozim bo‘lgan qancha buyruq va qancha ta’qiq mavjud?",
+    "answer": "248 ta buyruq 365 ta ta’qiq",
+    "noAnswer1": "280 ta buyruq 450 ta ta’qiq",
+    "noAnswer2": "200 ta buyruq 300 ta ta’qiq",
+    "noAnswer3": "308 ta buyruq 505 ta ta’qiq"
   },
   {
-    "question": "Kapital - bu …",
-    "noAnswer1": "ishlab chiqarish jarayoni",
-    "noAnswer2": "iste’mol jarayonida qo’llanilishi mumkin bo’lgan vosita",
-    "answer": "investitsiyalashtirish yo‘li bilan daromad olish uchun foydalaniladigan mol-mulk, boylik yoki\r\nmablag‘",
-    "noAnswer3": "resurs"
+    "question": "Shariat nima?",
+    "noAnswer1": "islom dini qoidalarini o‘rgatuvchi ta’limot;",
+    "answer": "barcha musulmonlar uchun bajarilishi majbur bo‘lgan qonunlar, huquqiy-ahloqiy ko‘rsatmalar tizimi;",
+    "noAnswer2": "xadislar asosida tuzilgan to‘plam;",
+    "noAnswer3": "oilaviy munosabatlarni tartibga soluvchi qonun."
   },
   {
-    "question": "Insoniy kapital - bu …",
-    "answer": "Har bir shaxs va mamlakat barcha aholisining intellekti, salomatligi, tabiiy iste’dodi va qo‘lga\r\nkiritgan qobiliyatlarining majmui",
-    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
-    "noAnswer2": "pul mablag’larini ssuda fondi shaklida to’lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
-    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+    "question": "Hozirgi islomda qanday sektalar mavjud?",
+    "noAnswer1": "xorijiylar, imomiylar, ismoiliylar, aliiloxiylar, bobiylar, vaxxobiylar;",
+    "noAnswer2": "sunniylar, shialar, ismoiliylar, xanifiylar;",
+    "noAnswer3": "shialar, xanifiylar, zardushtiylar;",
+    "answer": "Sektalar mavjud emas."
   },
   {
-    "question": "“Insoniy kapital” (human capital) tushunchasi qachon paydo bo‘lgan?",
-    "noAnswer1": "XIX asrning birinchi yarmida",
-    "noAnswer2": "XX asrning ikkinchi yarmida",
-    "answer": "XIX asrning ikkinchi yarmida",
-    "noAnswer3": "XX asrning birinchi yarmida"
+    "question": "Islom sobiq SSRning qaysi mintaqalarida keng tarqalgan?",
+    "noAnswer1": "Ozarbayjon, Janubiy Osetiya, Dog‘iston, Oltoy o‘lkasi va O‘rta Osiyoda",
+    "answer": "O‘rta Osiyo, Qozog‘iston, Tatariston, Bashqirdiston, Shimoliy Kavkaz, Dog‘iston va ayrim Kavkaz orti respublikalarida;",
+    "noAnswer2": "Ukraina, Tojikiston, Estoniya, Qirg‘iziston va Shimoliy Osetiyada.",
+    "noAnswer3": "Rossiya, Tatariston , Belorusiya,  Osetiyada."
   },
   {
-    "question": "“Insoniy kapital” nazaryasi tarafdorlari kimlar?",
-    "noAnswer1": "Teodor Shuls, Gari Bekker",
-    "noAnswer2": "Gari Bekker va Saymon Kuzneslar",
-    "answer": "Teodor Shuls, Gari Bekker va Saymon Kuzneslar",
-    "noAnswer3": "Teodor Shuls"
+    "question": "Qadimgi yahuiylarning ibroniy tilida yuborilgan muqaddas kitobi “Tora” hisoblanadi. “Tora” so‘zining ma’nosi qaysi variantda to‘g‘ri ko‘rsatilgan?",
+    "answer": "“qonun, shariat”",
+    "noAnswer1": "“Kitob”",
+    "noAnswer2": "“Muqaddas”",
+    "noAnswer3": "“Eng oliy”"
   },
   {
-    "question": "Insoniy naturaning har qanday xarakterli belgisi ….",
-    "answer": "iqtisodiy (jumladan, moliyaviy) mazmun (qiymat)ga egadir",
-    "noAnswer1": "jismoniy mazmunga egadir",
-    "noAnswer2": "ma'naviy mazmunga egadir",
-    "noAnswer3": "ijtimoiy mazmunga egadir"
+    "question": "Diniy tashkilotlarning qonunchilikka rioya qilishni kim nazorat qiladi?",
+    "noAnswer1": "O‘zbekiston Xalq-demokratik partiyasi;",
+    "noAnswer2": "O‘zbekiston Prezidenti;",
+    "noAnswer3": "mahalliy Sovetlar va hokimliklar;",
+    "answer": "O‘zbekiston Vazirlar Mahkamasi."
   },
   {
-    "question": "Biz qabul qiladigan barcha qarorlarni nechta guruhga bo‘lish mumkin?",
-    "noAnswer1": "2",
-    "noAnswer2": "4",
-    "noAnswer3": "5",
-    "answer": "3"
+    "question": "Yapon xalqining milliy e’tiqodi hisoblangan Shinto dini nechanchi asrlarda to‘liq shakllangan?",
+    "answer": "VII-VIII asrlarda",
+    "noAnswer1": "VIII-IX asrlarda",
+    "noAnswer2": "V-VI asrlarda",
+    "noAnswer3": "III-IV asrlarda"
   },
   {
-    "question": "Strategik menejment maktabi asoschilaridan biri bo‘lgan professor Genri Minsberg qarorlarni\r\nqanday atagan edi:",
-    "answer": "“oldin bajaraman”; “oldin ko‘raman”; “oldin o‘ylayman”.",
-    "noAnswer1": "“oldin o‘ylayman”; “oldin ko‘raman”; “oldin bajaraman”.",
-    "noAnswer2": "“oldin ko‘raman”; “oldin o‘ylayman”; “oldin bajaraman”.",
-    "noAnswer3": "“oldin ko‘raman”; “oldin bajaraman”; “oldin o‘ylayman”."
+    "question": "Yapon xalqi an’analarining eng qadimgi yozma manbasi qaysi?",
+    "answer": "“Kodziki”",
+    "noAnswer1": "“Shinto”",
+    "noAnswer2": "“Kami”",
+    "noAnswer3": "“Samuray”"
   },
   {
-    "question": "Qaror qabul qilishning nechta asosiy bosqichlari bor?",
-    "noAnswer1": "2",
-    "noAnswer2": "4",
-    "answer": "3",
-    "noAnswer3": "5"
+    "question": "Hadislar nima?",
+    "noAnswer1": "jahon musulmon ulomalari uyushmasi chiqargan qonun-qoidalar;",
+    "noAnswer2": "Qur’oni karimga yozilgan sharhlar;",
+    "answer": "Muhammad payg‘ambarning hayoti, faoliyati, diniy va ahloqiy ko‘rsatmalarini mujassamlashtirgan ta’limot;",
+    "noAnswer3": "shariat qonunlari va oliy ulomalar fatvolari jamlangan diniy kitob."
   },
   {
-    "question": "Maqsadga erishish muddatini shartli ravishda bo‘lsa ham, nechta guruhga bo‘lish mumkin?",
-    "noAnswer1": "2",
-    "answer": "3",
-    "noAnswer2": "4",
-    "noAnswer3": "5"
+    "question": "Turkistonlik buyuk muhaddislar kimlar?",
+    "noAnswer1": "Ismoil al-Buxoriy, Alisher Navoi, Al-Farobiy;",
+    "answer": "Imom at-Termiziy, Ismoil al-Buxoriy, Abu Iso as-Samarqandiy, imom Muslim;",
+    "noAnswer2": "Abu Ali Ibn Sino, Imom at-Termiziy, Beruniy;",
+    "noAnswer3": "Shayx Sa’diy, Rudakiy, Axmad Yassaviy, Jomiy."
   },
   {
-    "question": "Qisqa muddatli maqsadlar muddati qancha?",
-    "answer": "1 yilgacha",
-    "noAnswer1": "2 yilgacha",
-    "noAnswer2": "3 yilgacha",
-    "noAnswer3": "4 yilgacha"
+    "question": "Inson kamolati nimalarga bog‘liq?",
+    "noAnswer1": "faqat Ollohga;",
+    "noAnswer2": "Qur’on, hadislarni yaxshi bilib, musulmonchilik qoidalarini bajarishga;",
+    "noAnswer3": "kechayu kunduz tinmay ishlashga;",
+    "answer": "umuminsoniy qadriyatlarga rioya qilib, ilm olish, halol, oqilona mehnat qilishga."
   },
   {
-    "question": "Bizning qaramog‘i (mulki)mizda va o‘zining pulli qiymatiga ega bo‘lgan barcha narsalar nima\r\ndeyiladi?",
-    "noAnswer1": "passivlar",
-    "noAnswer2": "balans",
-    "noAnswer3": "Daromad",
-    "answer": "aktivlar"
+    "question": "Islomdagi asosiy amaliy va marosimiy talablar qaysilar?",
+    "noAnswer1": "sunnat, bibiseshanba, irim-sirimlar;",
+    "answer": "ro‘za tutish, namoz o‘qish, zakot berish, iloji bo‘lsa hajga borish;",
+    "noAnswer2": "janoza, xudoyi, ashur oshi, navro‘z, nikox.",
+    "noAnswer3": "xudoyi, ashur oshi. Sunnat"
   },
   {
-    "question": "Daromad va iste’mol, ya’ni xarajatlarining bir-biriga muvofiq kelishiga qarab inson hayotini\r\nshartli ravishda qanday davrlarga bo‘lish mumkin?",
-    "noAnswer1": "o‘smirlik, yetuklik, keksalik",
-    "noAnswer2": "yetuklik, keksalik",
-    "answer": "bolalik va yoshlik, o‘smirlik, yetuklik, keksalik",
-    "noAnswer3": "bolalik va yoshlik, o‘smirlik, yetuklik"
+    "question": "Iso Masih qaysi dinning payg‘ambari?",
+    "noAnswer1": "buddizm",
+    "noAnswer2": "sintoizm",
+    "noAnswer3": "Islom",
+    "answer": "Xristianlik"
   },
   {
-    "question": "Insonning hayotiy siklidan kelib chiqib, shaxsiy moliyaviy maqsadlarning nechta asosiy guruhga\r\najratish mumkin?",
-    "noAnswer1": "2",
-    "noAnswer2": "4",
-    "answer": "3",
-    "noAnswer3": "5"
+    "question": "Avesto qaysi dinning muqaddas kitobi?",
+    "noAnswer1": "musulmonlarning;",
+    "noAnswer2": "xristianlarning;",
+    "answer": "zardushtiylikning;",
+    "noAnswer3": "buddizm va yaxudiylarning"
   },
   {
-    "question": "O‘z daromadlarimizni kapitalning qaysi turlarini shakllantirishga yo‘naltirishimiz kerak?",
-    "noAnswer1": "joriy; zahira; moliyaviy",
-    "noAnswer2": "bazaviy; zahira; investitsion",
-    "noAnswer3": "joriy; investitsion",
-    "answer": "joriy; zahira; investitsion"
+    "question": "Sintoiylik panteonining eng oliy kamisi Quyosh (Buyuk samo chirog‘i)ning nomi qaysi javobda ko‘rsatilgan?",
+    "answer": "“ Amaterasu”",
+    "noAnswer1": "“Susanoo”",
+    "noAnswer2": "“Ame-no Minakanusi-no”",
+    "noAnswer3": "“Naruto Uzumaki”"
   },
   {
-    "question": "Tovarlar va xizmatlar bahosi umumiy darajasining oshish (o‘sish) jarayoni nima deyiladi.",
-    "noAnswer1": "bankrot",
-    "noAnswer2": "krizis",
-    "noAnswer3": "Defitsit",
-    "answer": "inflyatsiya"
+    "question": "Totemizm nima?",
+    "noAnswer1": "tarixiy din shakllaridan biri;",
+    "answer": "ibtidoiy jamoada turli hayvonlarni urug‘ga asos solgan deb hisoblab, ilohiylashtirish va sig‘inish;",
+    "noAnswer2": "tush ko‘rish va boshqa irim-sirimlarga ishonish;",
+    "noAnswer3": "jonsiz narsalarni ilohiylashtirish va sig‘inish."
   },
   {
-    "question": "O‘zbekiston Respublikasi qonunchiligiga ko‘ra necha yoshga to‘lgan har bir fuqaro depozit\r\n(omonat) shartnomasini tuzishi (imzolashi) mumkin?",
-    "noAnswer1": "15",
-    "noAnswer2": "16",
-    "answer": "14",
-    "noAnswer3": "18"
+    "question": "O‘zbekiston xalqaro Islom akademiyasi  qaysi oliy ta’lim muassasalari negizida tashkil etildi?",
+    "answer": "O‘zbekiston Islom akademiyasi va Toshkent Islom universiteti negizida",
+    "noAnswer1": "Qoraqalpog‘iston Respublikasi, Samarqand davlat universitetlari negizida",
+    "noAnswer2": "Namangan va Surxondaryo viloyatlaridagi Akademiyalar negizida",
+    "noAnswer3": "O‘zbekiston milliy universitet negizida"
   },
   {
-    "question": "Pulni qanday shaklda to‘plash (yig‘ish, jamg‘arish) mumkin?",
-    "noAnswer1": "naqdina (naqd pulli)",
-    "noAnswer2": "Naqdsiz",
-    "answer": "naqdina (naqd pulli) va naqdsiz",
-    "noAnswer3": "plastik kartada"
+    "question": "O‘zbekiston musulmonlari idorasi huzurida “Vaqf” xayriya jamoat fondining asosiy maqsadi nimalardan iborat?",
+    "noAnswer1": "Ajdodlarimizning diniy-ilmiy merosini keng targ‘ib qilish, dinning haqiqiy insonparvarlik maqsadini hamda diniy-maʼrifiy hayotda sodir bo‘layotgan yangiliklardan keng jamoatchilikni xabardor qilib borishdan iborat.",
+    "answer": "Masjidlar, ziyoratgohlar, muqaddas qadamjolar va shu kabi boshqa obyektlarning rekonstruksiyasini moliyalashtirish, ularni moddiy-texnik bazasini yaxshilash hamda ushbu soha xodimlarini moddiy qo‘llab-quvvatlashdan iborat",
+    "noAnswer2": "Respublika kengashi bilan jamiyatda vijdon erkinligi va diniy-maʼrifiy muhit barqarorligi kafolatlarini taʼminlashdan iborat",
+    "noAnswer3": "O‘zbekistonda ekstremizmga qarshi kurashish chora-tadbirlarini amalga oshirishdagi yondashuvlar konseptual jihatdan qayta ko‘rib chiqishdan iborat."
   },
   {
-    "question": "Pulni to‘plash (yig‘ish, jamg‘arish)ning eng oddiy usuli –?",
-    "answer": "uyda naqdina (naqd pul)",
-    "noAnswer1": "bankda naqdina (naqd pul)",
-    "noAnswer2": "plastik kartada",
-    "noAnswer3": "naqdsiz"
+    "question": "Islom dinining nazariy va g‘oyaviy manbalari nima?",
+    "noAnswer1": "shariat qonun-qoidalari;",
+    "noAnswer2": "muxaddislar yozgan xadisi shariflar;",
+    "answer": "Qur’oni karim, hadisi sharif va fatvolar;",
+    "noAnswer3": "Ollo-taolo kalomi bo‘lgan Qur’on."
   },
   {
-    "question": "Shaxsiy moliyada inflyatsiya, odatda, qanday o‘lchanadi (ifodalanadi)?",
-    "noAnswer1": "dollar kursiga qarab",
-    "noAnswer2": "narxlar oshishi orqali",
-    "noAnswer3": "pul banknotalar ko'payshi orqali",
-    "answer": "iste’mol baholari indeksi (IBI) orqali"
+    "question": "Qur’oni karim sura va oyatlariga o‘zgartirish kiritish mumkinmi?",
+    "noAnswer1": "mumkin, agar ulamolar qaror qilsa;",
+    "noAnswer2": "agar jamiyat hayotiga zid kelib qolsa;",
+    "answer": "yo‘q, chunki Qur’on - ilohiy hisoblanadi va uni o‘zgartirish man etiladi;",
+    "noAnswer3": "Movarounnaxr Diniy boshqarmasi o‘zgartishi mumkin."
   },
   {
-    "question": "Bank qaysi funksiyalarni bajaradi?",
-    "noAnswer1": "1) pullarni qabul qiladi (oladi); 2) pullarni beradi.",
-    "answer": "1) pullarni qabul qiladi (oladi); 2) pullarni beradi; 3) hisob-kitob-kassa operatsiyalarini amalga\r\noshiradi.",
-    "noAnswer2": "1) pullarni qabul qiladi (oladi); 2) hisob-kitob-kassa operatsiyalarini amalga oshiradi.",
-    "noAnswer3": "1) pullarni beradi; 2) hisob-kitob-kassa operatsiyalarini amalga oshiradi."
+    "question": "Dinlarning bir-biridan farqi nimada?",
+    "noAnswer1": "turli tillarda ibodat qilishida;",
+    "noAnswer2": "mintaqalarida turli aholining joylanishida;",
+    "answer": "diniy urf-odat va marosimlar amalga oshirilishida;",
+    "noAnswer3": "jahonda tinchlik uchun kurashishda."
   },
   {
-    "question": "Omonat (depozit)lar orqali fuqarolarning bo‘sh pul mablag‘larini to‘plovchi, ularni kreditlar\r\nberish yoki turli moliyaviy instrumentlarga (aksiya, obligatsiya va h.k.lar) investitsiyalab,\r\njoylashtiruvchi moliyaviy vositachi .......... deyiladi.",
-    "answer": "bank",
-    "noAnswer1": "xalq banki",
-    "noAnswer2": "diler",
-    "noAnswer3": "agent"
+    "question": "Qur’onda hammasi bo‘lib nechta sura bor?",
+    "noAnswer1": "100;",
+    "answer": "114;",
+    "noAnswer2": "124;",
+    "noAnswer3": "130."
   },
   {
-    "question": "Foizi bilan qaytarish sharti asosida ma’lum bir muddatga taqdim etilgan (berilgan) pul\r\nmablag‘lari ........... deyiladi.",
-    "noAnswer1": "omonat",
-    "noAnswer2": "sug'urta",
-    "answer": "kredit",
-    "noAnswer3": "investitsiya"
+    "question": "Xristianlikning qaysi oqimi Yevropa va Lotin Amerikasida eng ko‘p tarqalgan?",
+    "noAnswer1": "pravoslaviya;",
+    "noAnswer2": "baptizm;",
+    "answer": "katolitsizm;",
+    "noAnswer3": "protestansizm."
   },
   {
-    "question": "- bu mijozlarning banklardagi pul mablag‘laridir",
-    "noAnswer1": "kredit",
-    "noAnswer2": "sug'urta",
-    "noAnswer3": "Investitsiya",
-    "answer": "depozit(omonat)"
+    "question": "Musulmonlarning tushunchasi bo‘yicha Muhammad ibn Abdulloh kim?",
+    "noAnswer1": "u oddiy inson va diniy shaxs;",
+    "noAnswer2": "xudoning suyukli bandasi;",
+    "answer": "xudo tomonidan yuborilgan elchi, vakil, eng oxirgi payg‘ambar;",
+    "noAnswer3": "Barcha javoblar to‘g‘ri."
   },
   {
-    "question": "– bu bank tomonidan qarz oluvchiga ma’lum muddat va ma’lum shartlarda pulni qarzga berish\r\nuchun ko‘rsatiladigan xizmatdir.",
-    "noAnswer1": "omonat",
-    "noAnswer2": "sug'urta",
-    "noAnswer3": "Investitsiya",
-    "answer": "bank krediti"
+    "question": "Islom dini O‘rta Osiyoga qachon tarqala boshlagan?",
+    "answer": "VII asr oxiri - VIII asr boshlarida;",
+    "noAnswer1": "V asrda;",
+    "noAnswer2": "VIII asrda;",
+    "noAnswer3": "VI asr oxiri va VII asr boshida."
   },
   {
-    "question": "Kreditga tegishli bo‘lishi mumkin bo‘lgan asosiy tavsif (belgi)larni ko‘rsating.",
-    "noAnswer1": "Haqlilik, to‘lovlilik. Muddatlilik.",
-    "noAnswer2": "Muddatlilik. Kreditning qaytariluvchanligi.",
-    "noAnswer3": "Kreditning qaytariluvchanligi.",
-    "answer": "Haqlilik, to‘lovlilik. Muddatlilik. Kreditning qaytariluvchanligi."
+    "question": "Musulmon diniy boshqarmalari rahbarlari qanday nom bilan ataladi?",
+    "answer": "muftiy;",
+    "noAnswer1": "so‘fi;",
+    "noAnswer2": "muxtasib;",
+    "noAnswer3": "imom."
   },
   {
-    "question": "– bu shunday prinsipdirki, unga ko‘ra pulning bir xildagi summasi turli davrning turli qismlarida\r\nturli qiymat (baho)ga ega bo‘ladi (xususan, inflyatsiya va turli risklar tufayli).",
-    "noAnswer1": "kreditning to‘liq qiymati",
-    "noAnswer2": "kredit summasi",
-    "answer": "pulning davriy qiymati",
-    "noAnswer3": "kredit muddati"
+    "question": "Musulmonlarning kundalik nomoz o‘qish tartibi qanday?",
+    "noAnswer1": "har juma kuni;",
+    "answer": "kuniga 5 mahal;",
+    "noAnswer2": "kuniga 3 mahal;",
+    "noAnswer3": "kuniga 4 mahal."
   },
   {
-    "question": "Kredit mablag‘lari qaytarilishini qanday usullari bor?",
-    "answer": "annuitet va differensiatsiyalangan",
-    "noAnswer1": "annuitet",
-    "noAnswer2": "differensiatsiyalangan",
-    "noAnswer3": "tezkor"
+    "question": "Nechanchi yildan boshlab O‘zbekiston fuqarolari uchun “Umra” ziyoratlari kvotasi bekor qilindi?",
+    "answer": "2019-yildan boshlab",
+    "noAnswer1": "2020-yildan boshlab",
+    "noAnswer2": "2021-yildan boshlab",
+    "noAnswer3": "2022-yildan boshlab"
   },
   {
-    "question": "– bu qarz oluvchi egalik qilayotgan yoki qarziy mablag‘lar hisobiga sotib olayotgan (masalan,\r\navtomobil yoki ko‘chmas mulk) mol-mulk bo‘lib, u kredit qaytarilmaganda sotilishi mumkin.",
-    "noAnswer1": "kafolat",
-    "noAnswer2": "ta'minot",
-    "noAnswer3": "sug'urta",
-    "answer": "garov"
+    "question": "Fatvo nima?",
+    "noAnswer1": "Qur’onga berilgan sharxlar;",
+    "noAnswer2": "masjidlarda hayit namozida aytiladigan muhim axborotlar;",
+    "answer": "oliy darajadagi ulamolar yig‘ini qabul qilgan Qur’on, hadis va shariatga oid qonun-qoidalar;",
+    "noAnswer3": "har bir imom-xatibning turli masalalar yuzasidan bergan tavsiyalari."
   },
   {
-    "question": "– uni shu yerning o‘zidayoq, “kassa oldidan ketmasdan” bir necha minut davomida\r\nrasmiylashtirib, summani olib, xaridni amalga oshirish mumkin.",
-    "answer": "mikroqarz",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta"
+    "question": "Islom va xristianlik nuqtai nazarida har bir inson taqdirini (hayot yo‘lini) kim belgilaydi?",
+    "noAnswer1": "insonning o‘zi, uning irodasi;",
+    "noAnswer2": "tabiat va koinot;",
+    "noAnswer3": "hukmdor shaxslar, davlat, ota-bobolar;",
+    "answer": "faqat yakka xudo."
   },
   {
-    "question": "– xaridni ortga surish, iste’mol krediti uchun bankka murojaat qilish va faqat bir necha kun\r\no‘tgandan so‘ng xaridni amalga oshirish maqsadida do‘konga borsa bo‘ladi",
-    "noAnswer1": "mikroqarz",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta",
-    "answer": "iste’mol krediti"
+    "question": "Politeizm nima ma’noni anglatadi.",
+    "answer": "ko‘pxudolik;",
+    "noAnswer1": "yakkaxudolik;",
+    "noAnswer2": "vedachilik;",
+    "noAnswer3": "dinning ibtidoiy formalari."
   },
   {
-    "question": "– qarz oluvchiga tadbirkorlik faoliyatini amalga oshirish uchun bazaviy hisoblash miqdorining\r\n1000 baravaridan oshmaydigan summada to‘lovlilik, muddatlilik va qaytarish shartlari asosida\r\nberiladigan pul mablag‘laridir.",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta",
-    "answer": "mikrokredit"
+    "question": "Katolik oqimining bosh ruhoniysi?",
+    "noAnswer1": "monax;",
+    "noAnswer2": "pop;",
+    "noAnswer3": "kardinal;",
+    "answer": "papa;"
   },
   {
-    "question": "– mikromoliyaviy xizmatlar ko‘rsatuvchi tashkilot tomonidan lizing oluvchining topshirig‘iga\r\nbinoan uchinchi tarafdan mol-mulk olish hamda unga(dan) egalik qilish va foydalanish uchun\r\nlizing oluvchiga shartnomada belgilangan shartlar asosida haq evaziga berish nazarda\r\ntutiladigan xizmatdir.",
-    "answer": "mikrolizing",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta"
+    "question": "Islomga qadar Markaziy Osiyoda hukm surgan din?",
+    "answer": "zardushtiylik;",
+    "noAnswer1": "buddaviylik;",
+    "noAnswer2": "konfutsiyachilik;",
+    "noAnswer3": "braxmanchilik."
   },
   {
-    "question": "Nechinchi yildan boshlab tijorat banklari ham aholiga mikroqarzlar berishga haqlidir?",
-    "noAnswer1": "2017",
-    "noAnswer2": "2019",
-    "answer": "2018",
-    "noAnswer3": "2020"
+    "question": "Xristian cherkovlarida oliy ierarx qanday ataladi?",
+    "answer": "yepiskop;",
+    "noAnswer1": "kardinal;",
+    "noAnswer2": "senator;",
+    "noAnswer3": "oligarx."
   },
   {
-    "question": "Kredit byurosi tomonidan kredit axboroti sub’ektiga nisbatan shakllantirilgan kredit axboroti\r\nmajmui …... deyiladi.",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "Kredit",
-    "answer": "kredit tarixi",
-    "noAnswer3": "sug'urta"
+    "question": "Cherkov, ikonalarga qarshi chiqqan oqim nomi?",
+    "noAnswer1": "pravoslav;",
+    "noAnswer2": "katolik;",
+    "answer": "protestant;",
+    "noAnswer3": "shiyalik"
   },
   {
-    "question": "bu – salohiyatli qarz oluvchini balli baholashning avtomatlashtirilgan tizimidir.",
-    "answer": "skoring",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta"
+    "question": "Yaxudiylikda hukmronlik o‘rnatish maqsadida vujudga kelgan diniy siyosiy oqim?",
+    "noAnswer1": "ekstremizm;",
+    "noAnswer2": "vahobizm;",
+    "answer": "massonizm;",
+    "noAnswer3": "modernizm."
   },
   {
-    "question": "Ekspress-kredit bizning bank amaliyotimizda qanday nom bilan mavjudligini e’tirof etish\r\nmumkin?",
-    "noAnswer1": "shoshilinch kredit",
-    "noAnswer2": "darkor kredit",
-    "answer": "tezkor kredit",
-    "noAnswer3": "vaqtli kredit"
+    "question": "Fiqh qanday fan?",
+    "answer": "shariat qonun-qoidalarini o‘rganuvchi fan;",
+    "noAnswer1": "shariatda hadislarni tashkil qiluvchi fan;",
+    "noAnswer2": "rivoyatlarni o‘rganuvchi fan;",
+    "noAnswer3": "marosimlar va urf-odatlarni o‘rganuvchi fan"
   },
   {
-    "question": "... ya’ni oldingi (eski) kreditni qaytarish (uzish) uchun nisbatan yaxshiroq yoki qulayroq\r\nshartlarda yangi kredit olish.",
-    "noAnswer1": "qayta moliyalashtirish",
-    "noAnswer2": "kreditni moliyalashtirish",
-    "noAnswer3": "moliyalashtirish",
-    "answer": "kreditni qayta moliyalashtirish"
+    "question": "Fath nima?",
+    "answer": "biror shahar yoki mamlakatga islomni olib kirish;",
+    "noAnswer1": "islom hadislarini yoyish;",
+    "noAnswer2": "buddaviylik oqimi;",
+    "noAnswer3": "yahudiylik ta’limoti."
   },
   {
-    "question": "Hayot tajribasining ko‘rsatishicha, shaxsiy byudjetni shunday hisob- kitob qilish kerakki, unga\r\nko‘ra kredit bo‘yicha to‘lanmalarni amalga oshirishda har oylik daromadlarning necha foizdan\r\nko‘prog‘i sarf qilinmasligi lozim?",
-    "answer": "40,0%",
-    "noAnswer1": "30,0%",
-    "noAnswer2": "50,0%",
-    "noAnswer3": "60,0%"
+    "question": "Din fenomenologiyasi deganda nimani tushunasiz?",
+    "answer": "Dinning ko‘zga ko‘rinuvchi, tashqarida aks etuvchi jihatlarini o‘rganuvchi ilm sohasi.",
+    "noAnswer1": "Barcha dinlar qadriyatlariga hurmat bilan qarash, ularni qadrlash madaniyati.",
+    "noAnswer2": "Dinshunoslikning tarix, falsafa, psixologiya, sotsiologiya, arxeologiya va boshqa ijtimoiy fanlar bilan mustahkam bog‘liqligi uning nazariyasi.",
+    "noAnswer3": "Dinshunoslikning qator fanlar bilan o‘zaro munosabati."
   },
   {
-    "question": "Sotish kursi va sotib olish kursi o‘rtasidagi farq?",
-    "noAnswer1": "valyuta",
-    "noAnswer2": "depozit",
-    "noAnswer3": "Skoring",
-    "answer": "spred"
+    "question": "Din sotsiologiyasi nimalarni o‘rgatadi?",
+    "answer": "Tarix bo‘yicha xususiy va mushohadaga suyanuvchi din va jamiyat tadqiqotlarini; dinning ijtimoiy hayotdagi ko‘rinishlarini o‘rganadi.",
+    "noAnswer1": "Diniy tuyg‘u va bu tuyg‘uning ko‘rinishlarini o‘rganadi.",
+    "noAnswer2": "Dinga nisbatan munosabatni o‘rganadi.",
+    "noAnswer3": "Dinning mohiyati va uning kishilik jamiyati taraqqiyotidagi turli tarixiy bosqichlarda tutgan mavqeini o‘rganadi."
   },
   {
-    "question": "Bank yacheykalari …............ deb ham ataladi.",
-    "noAnswer1": "“omonat yacheyka”",
-    "noAnswer2": "“kredit yacheyka”",
-    "answer": "“depozitar yacheyka”",
-    "noAnswer3": "“valyuta yacheyka”"
+    "question": "Din psixologiyasining asosiy mavzusi nimadan iborat?",
+    "noAnswer1": "|Barcha dinlar qadriyatlariga hurmat",
+    "noAnswer2": "Ibtidoiy diniy tasavvurlar, milliy va jahon dinlari ta’limotlari",
+    "noAnswer3": "Xalqlarning o‘z dini, urf-odatlari va an’analari",
+    "answer": "Kishining diniy his, tushuncha va yashash tarzi"
   },
   {
-    "question": "Ularda pullar, qimmatli qog‘ozlar va yacheykani ijaraga olgan odam uchun qimmatbaho\r\n(qimmatli) hisoblangan har qanday boshqa predmetlar saqlanishi mumkin.",
-    "answer": "“bank yacheyka”",
-    "noAnswer1": "“omonat yacheyka”",
-    "noAnswer2": "“kredit yacheyka”",
-    "noAnswer3": "“valyuta yacheyka”"
+    "question": "Din falsafasining vazifasi nimalardan iborat?",
+    "noAnswer1": "Barcha dinlar va diniy tasavvurlarda birinchi odamning paydo bo‘lishi, Xudo yoki xudolar tomonidan yaratilish g‘oyasini o‘rganishdan iborat.",
+    "noAnswer2": "Fanlar bilan o‘zaro munosabatga kirishishi natijasida uning turli sohalari yuzaga kelishini o‘rganishdan iborat.",
+    "answer": "Yaratuvchi kuch e’tiqodiga falsafiy bir asos topish, diniy hukmlarning mantig‘i va mohiyatini ochib berish, dinning mohiyati, insonning diniy haqiqatlar bilan bo‘lgan bog‘liqligini o‘rganishdan iborat.",
+    "noAnswer3": "Barcha dinlar qadriyatlariga hurmat bilan qarash, ularni qadrlash madaniyatini o‘rganishdan iborat."
   },
   {
-    "question": "Bank yacheykaga kirishning maksimal darajadagi xavfsizligini ta’minlash uchun ko‘p hollarda\r\nqaysi prinsipdan foydalaniladi?",
-    "noAnswer1": "“uch qulf”",
-    "noAnswer2": "“to'rt qulf”",
-    "noAnswer3": "“besh qulf”",
-    "answer": "“ikki qulf”"
+    "question": "Din so‘zining ma’nosi-",
+    "noAnswer1": "(«dâna»)  fe’lidan yasalgan bo‘lib, «kimgadir haqorat qilmoq, itoatsiz, kimdandir gap eshitmoq» kabi ma’nolarni bildiradi.",
+    "noAnswer2": "(«dâna»)  fe’lidan yasalgan bo‘lib, «kimnidir yoqtirmoq, rahm  etmoq» kabi ma’nolarni bildiradi.",
+    "noAnswer3": "(«dâna»)  fe’lidan yasalgan bo‘lib, «kimgadir gapirmoq, tasdiqlamoq, tuzatmoq» kabi ma’nolarni bildiradi.",
+    "answer": "(«dâna»)  fe’lidan yasalgan bo‘lib, «kimgadir bo‘ysunmoq, bo‘yin egmoq, itoat etmoq, kimdandir qarzdor bo‘lmoq, e’tiqod qilmoq, qilgan ishiga yarasha mukofotlamoq» kabi ma’nolarni bildiradi."
   },
   {
-    "question": "Naqd pullar – ?",
-    "noAnswer1": "valyutalar",
-    "noAnswer2": "banknotalar",
-    "answer": "banknotalar va ma’lum bir nominalli tangalardir",
-    "noAnswer3": "ma’lum bir nominalli tangalar"
+    "question": "Dinning “kompensatorlik funksiyasi” qanday vazifani bajaradi?",
+    "noAnswer1": "tartibga soluvchilik vazifasini.",
+    "noAnswer2": "birlashtiruvchilik vazifasini.",
+    "answer": "tasalli beruvchilik vazifasini.",
+    "noAnswer3": "aloqa bog’lashlik vazifasini."
   },
   {
-    "question": "Naqd pullar almashtirib bo‘lmaydigan qanday afzalliklarga ega?",
-    "noAnswer1": "ularni hamma joyda qabul qilishadi; amalda ularni kuzatib turishning iloji yo‘q",
-    "noAnswer2": "ular ishonchli; ularni hamma joyda qabul qilishadi;",
-    "answer": "ular ishonchli; ularni hamma joyda qabul qilishadi; amalda ularni kuzatib turishning iloji yo‘q",
-    "noAnswer3": "ular ishonchli; amalda ularni kuzatib turishning iloji yo‘q"
+    "question": "Jоn, ruhlarning bоrligiga, ularning abadiyligiga ishоnish nima dеb ataladi?",
+    "noAnswer1": "Sеhrgarlik.",
+    "noAnswer2": "Tоtеmizm.",
+    "noAnswer3": "Fеtishizm.",
+    "answer": "Animizm."
   },
   {
-    "question": "“Banknota” so‘zining ma’nosi?",
-    "noAnswer1": "fransuzcha “bank” va “note” so‘zlaridan olingan",
-    "noAnswer2": "“bank puli” ma’nosini anglatadi",
-    "noAnswer3": "“bank valyutasi” ma’nosini anglatadi",
-    "answer": "inglizcha “bank” va “note” so‘zlaridan olingan bo‘lib, “bank yozuvi” ma’nosini anglatadi"
+    "question": "Ibtidоiy din shakllaridan qaysi birida оdamlar оdamga sig’inganlar?",
+    "noAnswer1": "Animizmda.",
+    "answer": "Shоmanizmda",
+    "noAnswer2": "Magiya",
+    "noAnswer3": "Tоtеmizmda."
   },
   {
-    "question": "Bu tovarlar va xizmatlarni naqd pulsiz shaklda to‘lash, pullarni saqlash va tashish, kerak bo‘lgan\r\nhollarda esa, naqd pullarni olish (naqdlashtirish) uchun zarur hisoblangan zamonaviy qulay\r\ninstrumentdir",
-    "answer": "Bank to‘lov (plastik) kartalar",
-    "noAnswer1": "ID kartalar",
-    "noAnswer2": "bankomat",
-    "noAnswer3": "click xizmati"
+    "question": "Tоtеmizm nima?",
+    "noAnswer1": "tush ko’rish va bоshqa irim-sirimlarga ishоnish.",
+    "noAnswer2": "jоnsiz narsalarni ilоhiylashtirish va ularga sig’inish.",
+    "answer": "ibtidоiy jamоada turli hayvоnlarni urug’ga asоs sоlgan dеb hisоblab, ilоhiylashtirish va sig’inish.",
+    "noAnswer3": "tariхiy din shakillaridan biri."
   },
   {
-    "question": "PIN-kod – ?",
-    "noAnswer1": "bu karta egasi to‘g‘risidagi ma’lumot",
-    "noAnswer2": "bu karta to‘g‘risidagi konfidensial ma’lumot",
-    "noAnswer3": "bu konfidensial ma’lumot",
-    "answer": "bu karta egasi to‘g‘risidagi konfidensial ma’lumot"
+    "question": "Хinduiylik va kоnfutsiychilik ta’limоtiga ko’ra qaysi din shakliga to‘g‘ri keladi?",
+    "noAnswer1": "Urug’-qabilachilik",
+    "noAnswer2": "Mоnоtеistik.",
+    "answer": "Pоlitеistik.",
+    "noAnswer3": "Animistik."
   },
   {
-    "question": "“Bankomat” so‘zi qaysi so‘zlarning qisqartirilishidan kelib chiqqan?",
-    "answer": "“bank avtomati”",
-    "noAnswer1": "“bank ma'lumoti”",
-    "noAnswer2": "“bank pulyumoti”",
-    "noAnswer3": "“bank promoti”"
+    "question": "Buddaviylik dini qachоn paydо bo’ldi?",
+    "noAnswer1": "Eramizning V-VI asrida.",
+    "answer": "Azоb-Uqubat.",
+    "noAnswer2": "Eramizning I-II asrida.",
+    "noAnswer3": "Eramizdan oldingi XIII asrda."
   },
   {
-    "question": "Birinchi bankomatlar qachon va qayerda paydo bo‘lgan?",
-    "noAnswer1": "o‘tgan asrning 60-yillarida Yevropada",
-    "noAnswer2": "o‘tgan asrning 60-yillarida AQShda",
-    "noAnswer3": "o‘tgan asrning 50-yillarida AQSh va Yevropada",
-    "answer": "o‘tgan asrning 60-yillarida AQSh va Yevropada"
+    "question": "Mil. av. I asr va milodning IV asrlari oralig‘ida Kushon imperiyasida Buddaviylikning qaysi yo‘nalishi davlat dini deb e’lon qilindi.",
+    "noAnswer1": "Purvana",
+    "answer": "Maxayana",
+    "noAnswer2": "Nirvana",
+    "noAnswer3": "Xinayana"
   },
   {
-    "question": "Firibgarlikning usullaridan biri?",
-    "answer": "skimming",
-    "noAnswer1": "PIN",
-    "noAnswer2": "VISA",
-    "noAnswer3": "swimming"
+    "question": "Buddaviylikning asоsiy yo‘nalishlari qaysilar?",
+    "noAnswer1": "Sunnalik, shialik, хorijiylik.",
+    "noAnswer2": "Хinayana, shivaizm, jaynizm.",
+    "noAnswer3": "Pravоslaviya, katоlisizm, lamaizm.",
+    "answer": "Хinayana, maхayana, lamaizm."
   },
   {
-    "question": "O‘zbekiston Respublikasi o‘z milliy valyutasini ishlab chiqarish uchun Markaziy bank huzurida\r\nqaysi korxona tashkil etgan?",
-    "noAnswer1": "“Davlat ramzi” Davlat ishlab chiqarish birlashmasini",
-    "noAnswer2": "“Davlat valyutasi” Davlat ishlab chiqarish birlashmasini",
-    "answer": "“Davlat belgisi” Davlat ishlab chiqarish birlashmasini",
-    "noAnswer3": "“Davlat puli” Davlat ishlab chiqarish birlashmasini"
+    "question": "Buddaviylik ta’limoti necha  qismdan iborat?",
+    "noAnswer1": "2  qismdan iborat.",
+    "answer": "3  qismdan iborat.",
+    "noAnswer2": "4  qismdan iborat.",
+    "noAnswer3": "5  qismdan iborat."
   },
   {
-    "question": "Banknot, pasport blanklari, turli qimmatli qog‘ozlar va boshqa qimmatliklarni xalqaro talablarga\r\njavob beradigan, yuqori darajada himoyalangan mahsulotlar ishlab chiqarish imkoniyatlari\r\nyaratilgan.",
-    "answer": "Bosma fabrikasida",
-    "noAnswer1": "Qog‘oz fabrikasida",
-    "noAnswer2": "Zarbxonada",
-    "noAnswer3": "Markaziy bankda"
+    "question": "Kibermakon deganda nimani tushunasiz?",
+    "answer": "dunyo kompyuter tarmoqlarining «virtual» umumiy majmui.",
+    "noAnswer1": "dunyo kompyuter tarmoqlari",
+    "noAnswer2": "dunyo kompyuter tarmoqlari jamoasi",
+    "noAnswer3": "Kompyuter savodxonligi tizimi"
   },
   {
-    "question": "Sifatli va himoya belgilariga ega bo‘lgan qog‘oz mahsuloti ishlab chiqarish hamda Toshkent\r\nBosma fabrikasi qog‘oz xom-ashyosiga bo‘lgan talabini to‘liq ta’minlash yo‘lga qo‘yilgan.",
-    "noAnswer1": "Bosma fabrikasida",
-    "noAnswer2": "Zarbxonada",
-    "answer": "Qog‘oz fabrikasida",
-    "noAnswer3": "Markaziy bankda"
+    "question": "Kibermakon atamasi 1984 yilda kim tomonidan qo‘llanilgan?",
+    "noAnswer1": "Jan Jak Russo",
+    "answer": "Uilyam Gibson",
+    "noAnswer2": "Teodor Smit",
+    "noAnswer3": "Dyuperron"
   },
   {
-    "question": "Tanga, medal va orden, yo‘lovchi tashish transporti uchun jetonlar va boshqa zaruriy\r\nmahsulotlarni ishlab chiqarish orqali respublikamizni ushbu mahsulotlarga bo‘lgan talabini\r\nqondirish imkoniyati yaratilgan.",
-    "noAnswer1": "Bosma fabrikasida",
-    "noAnswer2": "Qog‘oz fabrikasida",
-    "noAnswer3": "Markaziy bankda",
-    "answer": "Zarbxonada"
+    "question": "Qanday vositalar kibermakondan erkin foydalanish imkonini yaratish bilan bir vaqtda, mazkur makondagi xavf-xatarlarning ko‘z ilg‘amas darajada yuqoriligini anglatadi?",
+    "noAnswer1": "video qurilmalar; telefon yozishmalari",
+    "answer": "internetga chiqish imkoniyati mavjud mobil telefonlar; onlayn pulli o‘yinlar;  tarmoqdan tashqarida foydalanish imkonini beruvchi dasturiy ta’minotlar.",
+    "noAnswer2": "Seminarlar, amaliy mashg ‘ulotlar",
+    "noAnswer3": "videodarslar, ijtimoiy diniy tarmoqlar"
   },
   {
-    "question": "Kreditlarga xos bo‘lgan qanday firibgarliklar uchraydi?",
-    "noAnswer1": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Kredit “qora” brokeri.",
-    "noAnswer2": "Siz olmagan kredit. “Do‘stlik” bo‘yicha majburiyatlar. Bir necha minutda kredit. Kredit “qora”\r\nbrokeri. Bank oldidagi qarzdorlikni “hamkorlikda moliyalashtirish”",
-    "noAnswer3": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Bank oldidagi qarzdorlikni “hamkorlikda\r\nmoliyalashtirish”.",
-    "answer": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Kredit “qora” brokeri. Bank oldidagi qarzdorlikni\r\n“hamkorlikda moliyalashtirish”."
+    "question": "O‘zbekistonda eng ko‘p yuklab olinayotgan dastur ichida qaysilari yetakchi o‘rinni egallaydi?",
+    "noAnswer1": "«Instagram», «odnoklasniki» tarmoqlari",
+    "noAnswer2": "«Facebook», «Intogram» tarmoqlari",
+    "noAnswer3": "«Whats you», «Face app» tarmoqlari",
+    "answer": "«WhatsApp», «Telegram» tarmoqlari"
   },
   {
-    "question": "Unda oldin kelgan investorlarga to‘lanmalar keyin (yangi) kelgan investorlarning pul tushilmalari\r\nhisobidan amalga oshiriladi.",
-    "answer": "moliyaviy piramida",
-    "noAnswer1": "piramida",
-    "noAnswer2": "pulli piramida",
-    "noAnswer3": "iqtisodiy piramida"
+    "question": "Yoshlarning barchasi internet tarmog‘idan faqat ilm yo‘lida foydalanmoqdami?",
+    "noAnswer1": "O ‘zbekiston yoshlariga internet tarmog‘idan barcha ma ‘lumotlar olish uchun qulay sharoit yaratilgan.",
+    "answer": "Afsuski, internetdan noto‘g‘ri, buzg‘unchilik va behayolikka doir ma’lumotlarni olishda ham foydalanmoqda.",
+    "noAnswer2": "O ‘zbekiston yoshlari internet tarmog‘idan faqat ilm yo‘lida foydalanadi.",
+    "noAnswer3": "Barcha javoblar to ‘g ‘ri"
   },
   {
-    "question": "Ko‘plab moliyaviy piramidalarning eng asosiy va o‘zgarmaydigan belgisi.",
-    "noAnswer1": "yuqori xarajat va’da qilish",
-    "noAnswer2": "valyuta va’da qilish",
-    "answer": "yuqori daromad va’da qilish",
-    "noAnswer3": "oltin va’da qilish"
+    "question": "Missionerlik so‘zi qanday ma’noni anglatadi?",
+    "noAnswer1": "Ingliz tilidagi «missio» so‘zidan olingan bo‘lib, «Inson huquqlarini himoya qilish», «Vijdon erkinligini ta’minlash» ma’nolarini bildiradi.",
+    "answer": "lotin tilidagi «missio» fe’lidan olingan bo‘lib, belgilangan vazifalarni hal qilishga qaratilgan nazariy va amaliy faoliyat majmui ma’nolarini bildiradi.",
+    "noAnswer2": "fransuz tilidagi «missio» so‘zidan olingan bo‘lib, ma’naviy-mafkuraviy tahdid vositasi ma’nolarini bildiradi.",
+    "noAnswer3": "nemis tilidan olingan bo‘lib davlatning ichki hayoti ma’nolarini bildiradi."
   },
   {
-    "question": "Valyuta kurslarining tebranish (o‘zgarish) sabablari to‘g‘risidagi odamlarning bu tarzdagi\r\n“ogohligi”dan valyuta bozoridagi savdo.",
-    "noAnswer1": "Exchange",
-    "noAnswer2": "Uzex",
-    "noAnswer3": "Firefox",
-    "answer": "Forex"
+    "question": "“Prozelitizm” tushunchasi deganda nimani tushunasiz?",
+    "answer": "Yangi mazhabni qabul qilgan kishi, ya’ni boshqa mazhabdagilarni, avvalo, musulmonlarni xristianlikka kiritish degan ma’noni bildiradi.",
+    "noAnswer1": "Mafkuraviy immunitetni shakllantirish degan ma’noni bildiradi.",
+    "noAnswer2": "Milliy istiqlol mafkurasining asosiy g‘oyalari degan ma’noni bildiradi.",
+    "noAnswer3": "Xalqning milliy ma’naviyati degan ma’noni bildiradi."
   },
   {
-    "question": "Forexda faqat …........ yutuqli holda bo‘ladi.",
-    "noAnswer1": "diler",
-    "noAnswer2": "treyder",
-    "noAnswer3": "haridor",
-    "answer": "broker"
+    "question": "“Kiberxavfsizlik toʻgʻrisida”gi Qonun qachon qabul qilingan?",
+    "noAnswer1": "2023-yil 15 mart.",
+    "noAnswer2": "2022-yil 1 aprel.",
+    "answer": "2022-yil 15 aprel.",
+    "noAnswer3": "2023-yil 15 may."
   },
   {
-    "question": "Forex bozorida ishlab topish – ?",
-    "noAnswer1": "juda oson",
-    "noAnswer2": "Murakkab",
-    "answer": "o‘ta murakkab",
-    "noAnswer3": "oson"
+    "question": "Missionerlik va prozelitizm g‘oyasi qanday g‘oya?",
+    "noAnswer1": "ma’naviy g‘oya",
+    "answer": "buzg‘unchi  g‘oya",
+    "noAnswer2": "madaniy g‘oya",
+    "noAnswer3": "milliy g‘oya"
   },
   {
-    "question": "Korxona faoliyatini rejalashtirish qanday ahamiyatga ega?",
-    "answer": "Rejalashtirish - korxona samarali faoliyatinining omillarini tanlash va o‘zaro bog‘lash shaklidir",
-    "noAnswer1": "Rejalashtirish - korxona samarali faoliyatining omilidir",
-    "noAnswer2": "Rejalashtirish - korxona faoliyatini tashkil etuvchi omillar yig‘ish jarayonidir",
-    "noAnswer3": "Rejalashtirish- korxona faoliyatini tashkil etish va tugatish omilidir"
+    "question": "Hozirgi kunda missionerlik harakati asosan qanday  niqob ostida faoliyat yuritmoqda",
+    "noAnswer1": "Moliyaviy tashkilotlar niqobi ostida",
+    "answer": "nashriyotlar, xayriya, tibbiy yordam ko‘rsatish niqobi ostida",
+    "noAnswer2": "Davlat tashkilotlari niqobi ostida",
+    "noAnswer3": "Yuridik shaxslar niqobi ostida"
   },
   {
-    "question": "Korxona rejasi bu…. (to‘g‘ri javobni bering)",
-    "noAnswer1": "Ko‘zda tutilgan iqtisodiy samaradorlikni ilmiy va amaliy jihatdan asoslash",
-    "noAnswer2": "Tadbirkorlik faoliyati bilan bog‘liq bo‘lgan aniq hisoblar tizimi",
-    "noAnswer3": "Maqsadni belgilash, yo‘nalishlarini va vazifalarini aniqlash hamda nazorat qilishda muvofiqlikni\r\nta’minlashdir",
-    "answer": "Maqsadlarga erishish chora-tadbirlarini oldindan ishlab chiqish hamda resurslar orasida\r\nmuvofiqlikni ta’minlash"
+    "question": "Diniy ekstremizm nima?",
+    "answer": "Jamiyat uchun an’anaviy bo‘lgan diniy qadriyatlar va aqidalarni rad etish, ularga zid g‘oyalarni aldov va zo‘rlik bilan targ‘ib qilishga asoslangan nazariya va amaliyotni anglatadi.",
+    "noAnswer1": "Mutaassib fikr va qarashlarning paydo bo‘lishidir",
+    "noAnswer2": "«dindan qaytganlar» degan ma’noni bildiradi",
+    "noAnswer3": "An’anaviy  diniy qadriyatlar va aqidalar to ‘plami"
   },
   {
-    "question": "Maqsad- bu …….",
-    "noAnswer1": "Foydani maksimallashtirish",
-    "noAnswer2": "Obyekt faoliyati haqidagi tushuncha",
-    "answer": "Obyektning kelgusidagi istalgan holati",
-    "noAnswer3": "Korxona imidji va tovar markasi"
+    "question": "Diniy fundamentalizm  nima?",
+    "answer": "«Ma’lum din vujudga kelgan ilk davriga qaytish va bu yo‘l bilan zamonaning barcha muammolarini hal qilish mumkin», degan fikrni ilgari surish ta’limotini anglatadi.",
+    "noAnswer1": "Islom niqobidagi ekstremizmning g‘oyaviy ildizlari degan ma’noni bilditadi",
+    "noAnswer2": "Mutaassib fikr va qarashlarning paydo bo‘lishidir degan tushunchalarni bilditadi",
+    "noAnswer3": "Xayrixoh bo‘lmagan hukmdorlarga suiqasd uyushtirish degan tushunchalarni bilditadi"
   },
   {
-    "question": "Zarur hisob kitoblar hamda dalillar asosida korxona faoliyatining qisqa va uzoq muddatli\r\nstrategiyasini aniqlash – bu",
-    "noAnswer1": "Rejalashtirish maqsadi",
-    "noAnswer2": "Rejalashtirish mohiyati",
-    "answer": "Rejalashtirish vazifasi",
-    "noAnswer3": "Rejalashtirish mexanizmi"
+    "question": "«Musulmon birodarlar» jamoasi qachon tashkil etilgan?",
+    "answer": "1928 yil mart oyida",
+    "noAnswer1": "1929 yil aprel oyida",
+    "noAnswer2": "1930 yil may oyida",
+    "noAnswer3": "1931 yil mart oyida"
   },
   {
-    "question": "Korxonada rejalashtirilayotgan reja ko‘rsatkichlarini asoslash yo‘llari, uslublarining tarkibi\r\nshuningdek ichki reja mazmuni, shakli, strukturasi va tuzish tartibini nima belgilaydi?",
-    "noAnswer1": "Rejalashtirish texnologiyasi",
-    "noAnswer2": "Rejalashtirish predmeti",
-    "noAnswer3": "Rejalashtirish uslubiyati",
-    "answer": "Rejalashtirish usuli"
+    "question": "Hizbut-tahrir al-islomiy (Islom ozodlik partiyasi)ning asoschisi kim?",
+    "noAnswer1": "Saudiya Arabistonida yashovchi  Yusuf Xamadoniy",
+    "noAnswer2": "Akrom Yo‘ldashev",
+    "answer": "Falastinlik Taqiyiddin Nabahoniy",
+    "noAnswer3": "Juma Namangoniy"
   },
   {
-    "question": "Ko‘rsatkichlar orasida muvofiqlikni va bog‘liqlikni ta’minlaydi",
-    "answer": "Balans uslub",
-    "noAnswer1": "Ekstropolyatsiya uslub",
-    "noAnswer2": "Normativ uslub",
-    "noAnswer3": "Iqtisodiy matematik uslub"
+    "question": "«Akromiylar» harakat siyosiy hokimiyatga erishishning nechta bosqichiga asoslanadi?",
+    "noAnswer1": "2 ta",
+    "noAnswer2": "3 ta",
+    "noAnswer3": "4 ta",
+    "answer": "5 ta"
   },
   {
-    "question": "Ko‘rsatkich - ....",
-    "noAnswer1": "Jarayonning faqat miqdoriy hajmini ifodalaydi",
-    "noAnswer2": "Jarayon yoki hodisaning moddiy buyumlashgan holatini hamda mazmunini tavsiflaydi",
-    "answer": "Jarayonning yoki hodisaning ijtimoiy iqtisodiy holatini, mohiyatini hamda mazmunini\r\ntavsiflaydi",
-    "noAnswer3": "Jarayon yoki hodisaning ham miqdor va sifat tomonlarini tavsiflaydi"
+    "question": "“Yahudiy va salbchilarga qarshi xalqaro islom fronti” uyushmasi  qachon tuzildi?",
+    "noAnswer1": "1997 yilda",
+    "noAnswer2": "1996yilda",
+    "answer": "1998 yilga",
+    "noAnswer3": "1991 yilda"
   },
   {
-    "question": "Ishlab chiqarish faoliyatini ifodalaydi ...",
-    "answer": "Umumiy ko‘rsatkich",
-    "noAnswer1": "Xususiy ko‘rsatkich",
-    "noAnswer2": "Miqdor ko‘rsatkich",
-    "noAnswer3": "Natural ko‘rsatkich"
+    "question": "“Yahudiy va salbchilarga qarshi xalqaro islom fronti” uyushmasiga kim boshchilik qilgan?",
+    "answer": "Usoma bin Lodin",
+    "noAnswer1": "Akron Yo‘ldashev",
+    "noAnswer2": "Juma Namangoniy",
+    "noAnswer3": "Muhammad Solih"
   },
   {
-    "question": "Ijtimoiy-mehnatni rejalashtirish obyekti bo‘lib nima xizmat qiladi?",
-    "noAnswer1": "Texnologik jihozlar",
-    "answer": "Mehnat resurslari",
-    "noAnswer2": "Ish haqi fondi",
-    "noAnswer3": "Iqtisodiy resurslar"
+    "question": "2001 yilning 11 sentabrida Amerika Qo‘shma Shtatlarida qanday voqea yuz berdi?",
+    "noAnswer1": "“Yahudiy va salbchilarga qarshi xalqaro islom fronti” uyushmasi tuzildi",
+    "noAnswer2": "AQShning Tanzaniya va Keniyadagi elchixonalari oldida bomba ortilgan mashinalarni portlatilgan",
+    "answer": "To‘rtta “Boing–757” samolyoti “al-Qoida” guruhi tomonidan egallab olinib, ularning ikkitasi Nyu-Yorkdagi xalqaro savdo Markazi joylashgan “egizak” binolarga, bittasi esa AQSh qurolli kuchlari shtabi – Pentagonga yo‘naltirildi.",
+    "noAnswer3": "Somalidagi beqarorliklarning oldini olish uchun kiritilgan BMT tinchlikparvarlik kuchlari tarkibidagi AQSh maxsus qo‘shinlarining 18 harbiy xizmatchisini o‘ldirishgan"
   },
   {
-    "question": "Quyidagi klassifikatsion belgilardan qaysi biri reja turlariga tegishli emas?",
-    "noAnswer1": "Asoslash usuliga ko‘ra",
-    "noAnswer2": "Maqsad turiga ko‘ra",
-    "answer": "Resurslar turi bo‘yicha",
-    "noAnswer3": "Mazmuniga ko‘ra"
+    "question": "Diniy ekstremizm va terrorizmga qarshi kurash olib borishda qanday chora-tadbirlarni qo‘llash muhim ahamiyatga ega?",
+    "answer": "kompleks va tizimli, shu jumladan, ijtimoiy-iqtisodiy va mafkuraviy chora-tadbirlar",
+    "noAnswer1": "Shavqatsiz kurash chora-tadbirlari",
+    "noAnswer2": "Reja asosida tashqi ishlar vazirligi bilan",
+    "noAnswer3": "musulmon bo‘lmagan mamlakatlar aholisi o‘rtasida islomni yoyish chora-tadbirlari"
   },
   {
-    "question": "Rejalashtirishning qanday umumiy klassik printsiplari mavjud?",
-    "noAnswer1": "Sistemalik, birlik, uzluksizlik, o‘zgaruvchanlik, aniqlilik",
-    "noAnswer2": "Zaruriylik, optimallik, birlik, uzluksizlik, o‘zgaruvchanlik",
-    "answer": "Zaruriylik, yagonalik, uzluksizlik, o‘zgaruvchanlik, aniqlik",
-    "noAnswer3": "Zaruriylik, komplekslilik, uzluksizlik, o‘zgaruvchanlik, aniqlilik"
+    "question": "Dunyo bo‘yicha qancha terrorchilik tashkilotlari faoliyat ko‘rsatmoqda?",
+    "noAnswer1": "400 ga yaqin",
+    "noAnswer2": "300 ga yaqin",
+    "answer": "500 ga yaqin",
+    "noAnswer3": "200 ga yaqin"
   },
   {
-    "question": "Koordinatsiyalash – bu",
-    "noAnswer1": "Yaqin darajadagi obyektlar o‘rtasidagi aloqani belgilaydi",
-    "noAnswer2": "Turli darajadagi obyektlar o‘tasidagi aloqani belgilaydi",
-    "answer": "Bir xil darajadagi obyektlar o‘rtasidagi aloqani belgilaydi",
-    "noAnswer3": "Tuzilgan rejaning maqsadga erishish usulini belgilaydi"
+    "question": "Davlatimizning vijdon erkinligiga munosabati – O‘zbekiston Respublikasi Konstitutsiyasining nechanchi moddasida mustahkamlab qo‘yilgan?",
+    "noAnswer1": "31-moddasida",
+    "answer": "35-moddasida",
+    "noAnswer2": "36- moddasida",
+    "noAnswer3": "41 – moddasida"
   },
   {
-    "question": "Iqtisodiy rivojlanishning qanday turlari mavjud?",
-    "answer": "Ideal, real, radikal",
-    "noAnswer1": "Induktiv va deduktiv",
-    "noAnswer2": "Ideal va radikal",
-    "noAnswer3": "Analitik va statistik"
+    "question": "Hanafiya mazhabi sunniylik yo'nalishiga mansub bo'lgan musulmonlarning  necha foizini o'z ichiga oladi ?",
+    "answer": "47%",
+    "noAnswer1": "17%",
+    "noAnswer2": "27%",
+    "noAnswer3": "1,5%"
   },
   {
-    "question": "Korxona potensiali deganda nimani tushunasiz?",
-    "noAnswer1": "Insonlarning iqtisodiy faoliyatga bo‘lgan qobiliyati majmuidir",
-    "noAnswer2": "Korxona potentsiali mehnat, iqtisodiy tashkiliy, ilmiy texnik texnik potentsiallar majmuidir.",
-    "answer": "Korxona potensiali uning qudrati, manbai, imkoniyatini harakterlaydigan ko‘rsatkichlar yoki\r\nomillar yig‘indisi, iqtisodiy faoliyatda foydalanadigan vositalar, zahiralar, qobiliyatlar,\r\nresurslardir",
-    "noAnswer3": "Korxona potentsiali tashkilotining rejalashtirilgan va xizmatlarni bajarish uchun zarur bo‘lgan\r\nmehnat, material, moliyaviy va boshqa resurslar majmuidir"
+    "question": "O‘rta Osiyoda keng tarqalgan sunniylik oqimining mazhabi-",
+    "noAnswer1": "Shofi’iya",
+    "noAnswer2": "Imomiya",
+    "answer": "Xanafiya",
+    "noAnswer3": "Vahhobiylik"
   },
   {
-    "question": "Mehnatga haq to‘lashni tashkil etishda qaysi me’yoriy hujjatga asoslanadi?",
-    "answer": "Mehnatga haq to‘lashni yagona tarif stavkasiga, 2009 yil 21-iyul 206-son",
-    "noAnswer1": "Mehnat kodeksining 153, 154, 156-moddalariga",
-    "noAnswer2": "Vazirlar mahkamasining 2015 yil 13-iyundagi 164-sonli qarori bilan tasdiqlangan klassifikatorga",
-    "noAnswer3": "Mehnatga haq to‘lashni yagona tarif stavkasiga, 1999 yil 21-iyul 206-son"
+    "question": "O‘zbekiston Respublikasi Konstitutsiyasida aniq belgilab qo‘yilgan davlat va jamiyat qurilishining  bosh maqsadlardan biri-",
+    "answer": "Yuksak ma’naviyat va hurfikrlilikka asoslangan, vijdon erkinligi amalda barqaror bo‘lgan jamiyatni barpo etish",
+    "noAnswer1": "islomiy qadriyatlar maktablarda axloqiy tarbiyada e’tiborga olinishi",
+    "noAnswer2": "musulmon bo‘lmagan mamlakatlar aholisi o‘rtasida islomni yoyish chora-tadbirlari",
+    "noAnswer3": "Mafkuraviy chora-tadbirlarni belgilanishi"
   },
   {
-    "question": "Rivojlanish yo‘nalishlarini sifatda va sonda tasvirlash bu...",
-    "noAnswer1": "Reja vazifasi",
-    "noAnswer2": "Reja mohiyati",
-    "answer": "Reja maqsadi",
-    "noAnswer3": "Reja mexanizmi"
+    "question": "Davlat bilan din (diniy tashkilotlar) o‘rtasidagi munosabatlar qanday usullarda tartibga solinadi?",
+    "answer": "Identifikatsion, Separatsion, kooperetsion",
+    "noAnswer1": "Kompensatorlik, regyulativlik",
+    "noAnswer2": "Separatsion, Kompensatorlik",
+    "noAnswer3": "Konservatorlik, koorparativ"
   },
   {
-    "question": "Material resurlardan foydalanish koeffitsienti qanday aniqlanadi?",
-    "answer": "Haqiqiy material resurslari sarfini material sarfi normasiga nisbati orqali",
-    "noAnswer1": "Detal og‘irligini yarim tayyor mahsulot og‘irligiga nisbati",
-    "noAnswer2": "Sotilayotgan chiqindilarning og‘irligini sotilayotgan chiqindilar bahosiga nisbati",
-    "noAnswer3": "Yillik ishlab chiqarish ‘ajmini o‘rtacha quvvatga nisbati"
+    "question": "Davlat-diniy tashkilot modeliga qaysi davlatni misol keltirishimiz mumkin?",
+    "answer": "Daniya, Buyuk Britaniya, Gresiya, Shvesiya, Finlyandiya",
+    "noAnswer1": "AQSh, Rossiya, Polsha, Germaniya",
+    "noAnswer2": "Daniya, Ispaniya, Italiya, Misr",
+    "noAnswer3": "Braziliya, Argentina, Sudan, Efiopiya"
   },
   {
-    "question": "Korxona xodimlari deganda kimlarni tushunasiz?",
-    "noAnswer1": "Asosiy va yordamchi xodimlar birlashuvi",
-    "noAnswer2": "Injener – texnik xodimlar, xizmatchilar, shogirdlarning maqsadga muvofiq birlashuvi",
-    "noAnswer3": "Adminsrativ boshqaruv xodimlari, injener texnik xodimlar va xizmatchilar yig‘indisi",
-    "answer": "Foyda yoki daromad olish holda o‘z moddiy ehtiyojlarini qondirishga qaratilgan yagona ish\r\nfaoliyati bilan band bo‘lgan turli malaka va toifadagi xodimlar yig‘indisi"
+    "question": "O‘zbekistonda tarkib topgan davlat va din o‘rtasidagi munosabat o‘z mohiyati, mazmuni va huquqiy asoslariga ko‘ra qanday modelga asoslanadi?",
+    "answer": "Separatsion model",
+    "noAnswer1": "Kooperatsion",
+    "noAnswer2": "Identifikatsion",
+    "noAnswer3": "Kompensator"
   },
   {
-    "question": "Zaruriy ishchilar sonini aniqlash uslubiga quyidagilar kirmaydi",
-    "noAnswer1": "Vaqtbirligi davomida ishlab chiqarilgan mahsulot miqdori bo‘yicha",
-    "noAnswer2": "Xizmatko‘rsatish me’yori bo‘yicha",
-    "noAnswer3": "Mahsulotbirligiga sarflangan vaqt sig‘imi bo‘yicha",
-    "answer": "Foyda me’yori bo‘yicha"
+    "question": "Bugungi kunda O‘zbekistonda Adliya organlaridan rasman ro‘yxatdan o‘tgan nechta diniy konfessiya faoliyat olib bormoqda?",
+    "noAnswer1": "10 ta",
+    "noAnswer2": "11 ta",
+    "noAnswer3": "15 ta",
+    "answer": "16 ta"
   },
   {
-    "question": "Real ish haqini nominal ish haqidan farqi nimada?",
-    "noAnswer1": "Real ish haqi – haqiqiy ishlangan vaqt uchun to‘lovlar, nominal ish haqi - kunlik yo‘qotishlar\r\nuchun to‘lovlardir",
-    "noAnswer2": "Real ish haqi –amaldagi ish haqi stavkasi yoki ishchi oy vaqti birligidagi qiymati, nominal ish haqi\r\nesa ortiqcha soatlar uchun to‘lanadi.",
-    "answer": "Real ish haqi – nominal ish haqiga sotib olish mumkin bo‘lgan tovar, nominal ish haqi esa\r\nsarflangan mehnat uchun oladigan pul mablag‘lari summasidir.",
-    "noAnswer3": "Real ish haqi – ishlangan vaqt uchun to‘lanadi, nominal ish haqi esa ortiqcha soatlar uchun\r\nto‘lanadi."
+    "question": "Qonunchilikda diniy tashkilotlarning qanday turlari e’tirof etiladi?",
+    "answer": "diniy jamiyatlar, diniy o‘quv yurtlari, masjidlar, cherkovlar, sinagogalar, monastirlar va boshqa tashkilotlar.",
+    "noAnswer1": "Diniy maktablar, madrasalar. cherkovlar",
+    "noAnswer2": "Diniy firqalar, mazhablar, oqimlar",
+    "noAnswer3": "Diniy qo‘mita tasarrufidagi barcha binolar"
   },
   {
-    "question": "Ish haqi fondidan qaysi biri asosiy ish haqi hisoblanadi?",
-    "noAnswer1": "Kunlik ish haqi fondi.",
-    "noAnswer2": "Ta’rif ish haqi fondi.",
-    "answer": "Soatli ish haqi fondi.",
-    "noAnswer3": "Oylik ish haqi fondi."
+    "question": "«Konfessiya» so‘zi qanday ma’noni anglatadi?",
+    "answer": "o‘zbek tiliga aynan tarjima qilinganda «e’tiqod qilish», degan ma’noni anglatadi.",
+    "noAnswer1": "«faoliyat olib bormoq», degan ma’noni anglatadi.",
+    "noAnswer2": "«buysundirmoq» degan ma’noni anglatadi.",
+    "noAnswer3": "o‘zbek tiliga aynan tarjima qilinganda «kurash», degan ma’noni anglatadi."
   },
   {
-    "question": "Ishbay ish haqi shaklida mehnatga haq to‘lashga quyidagilar xosdir?",
-    "noAnswer1": "Lavozim okladlari va oylik maoshlar",
-    "noAnswer2": "Ishlangan ish soatlari",
-    "answer": "Tayyorlangan mahsulot hajmi va ko‘rsatilgan xizmatlar soni",
-    "noAnswer3": "Ko‘rsatilgan xizmatlar soni"
+    "question": "Diniy konfessiya deganda  nimani tushunasiz?",
+    "answer": "muayyan diniy ta’limot doirasida shakllangan va o‘ziga xos xususiyatlarga ega e’tiqod va ushbu e’tiqodga ergashuvchilar jamoasi tushuniladi.",
+    "noAnswer1": "diniy ta’limotlar ichida rivojlangan e’tiqod turi tushuniladi.",
+    "noAnswer2": "jamiyat hayotining tarkibiy qismi sifatida kishilarning ijtimoiylashuvi tushuniladi.",
+    "noAnswer3": "e’tiqodga ergashuvchilar jamoasi tushuniladi."
   },
   {
-    "question": "Korxonaning ish haqi fondi quyidagilardan iborat bo‘ladi:",
-    "noAnswer1": "Asosiy ish haqi va mukofotlardan",
-    "noAnswer2": "Faqat asosiy ish haqidan",
-    "noAnswer3": "Mukofotlardan",
-    "answer": "Asosiy va qo‘shimcha ish haqidan"
+    "question": "«Sekta»so‘zi qanday ma’noni anglatadi?",
+    "answer": "Muayyan diniy, siyosiy yoki falsafiy qarashlarga ergashuvchilar guruhini anglatadi.",
+    "noAnswer1": "Muayyan diniy boshqaruvchilarini anglatadi.",
+    "noAnswer2": "Ma’lum bir dindagi rasmiy aqidalarga ishonuvchilar tushuniladi",
+    "noAnswer3": "Ma’lum falsafiy qarashlarni o ‘rgatuvchilar guruhini anglatadi"
   },
   {
-    "question": "Qaysi ish haqi fondi kunlik ruxsat etilgan imtiyozli uzilishlar uchun qo‘shimcha to‘lovlarni\r\ne’tiborga oladi?",
-    "noAnswer1": "Oylik",
-    "answer": "Kunlik",
-    "noAnswer2": "Soatlik",
-    "noAnswer3": "Yillik"
+    "question": "Xristianlik dini qachоn paydо bo’ldi?",
+    "noAnswer1": "Eramizdan oldingi I asrda.",
+    "answer": "Eramizning I asrida.",
+    "noAnswer2": "Eramizdan oldingi III asrda.",
+    "noAnswer3": "Eramizning V asrida."
   },
   {
-    "question": "Soatlik ish haqi tarkibiga quyidagilar kiradi:",
-    "answer": "Ishbayish haqi fondi, vaqtbay ish haqi fondi, mukofot, tungi soatda ishlanganlik uchun\r\nto‘lovlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov, bayram kunlari ishlaganlik\r\nuchun to‘lov",
-    "noAnswer1": "Mehnat ta’tili uchun to‘lov,to‘g‘ri ish haqi fondi, o‘smirlarga qisqartirilgan soatlar uchun to‘lov,\r\nmukofotlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov",
-    "noAnswer2": "Xizmat safari uchun to‘lov, ishbay ish haqi fondi, vaqtbay ish haqi fondi, mukofot, tungi soatda\r\nishlanganlik uchun to‘lovlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov",
-    "noAnswer3": "To‘g‘ri ish haqi fondi, o‘smirlarga qisqartirilgan soatlar uchun to‘lov, mukofotlar, brigadirlik\r\nuchun to‘lov, shogird tayyorlaganlik uchun to‘lov, bayram kunlari ishlaganlik uchun to‘lov"
+    "question": "Sharq dinlaridan qaysi biri xristianlik diniga eng ko’p ta’sir ko’rsatdi?",
+    "noAnswer1": "Zardushtiylik.",
+    "noAnswer2": "Buddaviylik.",
+    "answer": "Yahudiylik.",
+    "noAnswer3": "Islоm."
   },
   {
-    "question": "Ishlab chiqarish uchastkasida 5 ta o‘smir ishlaydi, ularning o‘rtacha tarif stavkasi 620 so‘mga\r\nteng. Yildagi ish kunlari soni 240 kun. O‘smirlar uchun qo‘shimcha to‘lov summasini aniqlang.",
-    "noAnswer1": "550 000 so‘m",
-    "noAnswer2": "645000 so‘m",
-    "answer": "744000 so‘m",
-    "noAnswer3": "600 000 so‘m"
+    "question": "Katoliklarning markazi Vatikan qachondan boshlab davlat maqomiga ega bo’ldi?",
+    "noAnswer1": "1909 yildan.",
+    "answer": "1929 yildan.",
+    "noAnswer2": "1959 yildan.",
+    "noAnswer3": "1989 yildan."
   },
   {
-    "question": "O‘rtacha kunlik ish haqi quyidagicha aniqlanadi",
-    "noAnswer1": "Ish haqining kunlik fondi jami ishlangan ish soatlariga bo‘linadi",
-    "noAnswer2": "Ishhaqining soatlik fondi jami ishlangan ish soatlariga bo‘linadi",
-    "noAnswer3": "Ishhaqining oylik fondi ishlangan kishi soatlariga bo‘linadi",
-    "answer": "Ish haqining kunlik fondi jami ishlangan kishi kunlarga bo‘linadi"
+    "question": "Bibliya so‘zi qanday ma’nolarni  anglatadi?",
+    "answer": "grek tilida biblia – “kitob”, “o‘ram”",
+    "noAnswer1": "lotin tilida bibliya- “varoq”",
+    "noAnswer2": "Fors tilida bible- “Bеsh kitоb”",
+    "noAnswer3": "Ingliz tilida bible-“Eski ahd”"
   },
   {
-    "question": "Korxonaning ish haqi fondini rejalashtirish quyidagi tartibda amalga oshiriladi. To‘g‘ri tartibni\r\nbelgilang.",
-    "answer": "Soatlik ish haqi fondi, kunlik ish haqi fondi, oylik yoki yillik ish haqi fondi",
-    "noAnswer1": "Oylik, kunlik, soatlik ish haqi fondi",
-    "noAnswer2": "Kunlik ish haqi fondi, oylik ish haqi fondi va yillik ish haqi fondi",
-    "noAnswer3": "To‘g‘ri ish haqi fondi, ishbay ish haqi fondi, vaqtbay ish haqi fondi va qo‘shimcha to‘lovlar fondi"
+    "question": "Martin Lyuter boshchiligidagi reformatsiyalar tufayli Xristianlik dinida qaysi yo’nalish vujudga keldi?",
+    "answer": "Protestantizm.",
+    "noAnswer1": "Provaslav.",
+    "noAnswer2": "Katolik.",
+    "noAnswer3": "Baptizm."
   },
   {
-    "question": "Qo‘shimcha to‘lovlar quyidagilarni ko‘zda tutadi.",
-    "noAnswer1": "Qo‘shimcha ishlaganligi uchun to‘lovlarni",
-    "noAnswer2": "Korxona rahbariyati tomonidan ruxsat etilgan uzilishlar uchun to‘lovlarni",
-    "answer": "Mehnatqonunchiligida ko‘zda tutilgan imtiyozli uzulishlar uchun to‘lovlarni",
-    "noAnswer3": "Moddiy yordam uchun berilgan to‘lovlarni"
+    "question": "Xristianlikning muqaddas kitobi qaysi?",
+    "noAnswer1": "Veda.",
+    "noAnswer2": "Tavrot.",
+    "answer": "Bibliya.",
+    "noAnswer3": "Zabur."
   },
   {
-    "question": "Ishbay ish haqi quyidagicha aniqlanadi:",
-    "noAnswer1": "Baho ko‘paytiriladi daromadga",
-    "noAnswer2": "Baho ko‘paytiriladi ishlab chiqarilgan mahsulot qiymatiga",
-    "noAnswer3": "Ishlanganish soatlari ko‘paytiriladi o‘rtacha tarif stavkasiga",
-    "answer": "Baho ko‘paytiriladi mahsulot hajmining naturadagi ifodasiga"
+    "question": "Rim papasi xristianlikning qaysi oqimining boshlig‘i sanaladi?",
+    "answer": "Katolik.",
+    "noAnswer1": "Pravoslav.",
+    "noAnswer2": "Protestant.",
+    "noAnswer3": "Baptizm."
   },
   {
-    "question": "O‘smirlarning asosiy ish haqi, ya’ni ishlab chiqarilgan mahsuloti yoki ishlagan ish soati uchun\r\nto‘lanadigan asosiy ish haqi qaysi fond tarkibiga kiritiladi.",
-    "answer": "To‘g‘ri ish haqi fondi",
-    "noAnswer1": "Kunlikish haqi fondi",
-    "noAnswer2": "Oylik ish haqi fondi",
-    "noAnswer3": "Yillik ish haqi fondi"
+    "question": "Arabiston yarim orolining islom dinidan avvalgi davrini nima deb ataganlar?",
+    "answer": "Johiliya",
+    "noAnswer1": "Nodonlik",
+    "noAnswer2": "Butparastlik",
+    "noAnswer3": "Ma’rifatsizlik"
   },
   {
-    "question": "O‘rtacha xarajatlar...",
-    "answer": "Birlik mahsulotga Ishlab chiqarish xarajatlari miqdorini belgilovchi xarajatlardir.",
-    "noAnswer1": "Ishlabchikarilganmahsulothajmigabog‘liqxoldao‘zgaradiganxarajatlardir.",
-    "noAnswer2": "Har bir mahsulot xajimidagi doimiy va o‘zgaruvchan xarajatlar summasidir.",
-    "noAnswer3": "Ishlab chiqarish hajmiga bog‘liq xolda o‘zgarmaydigan xarajatlardir."
+    "question": "Hadislar bilan shug‘ullanadigan olim kim?",
+    "noAnswer1": "Mutakallim",
+    "answer": "Muhaddis",
+    "noAnswer2": "Mutasavvif",
+    "noAnswer3": "Faqih"
   },
   {
-    "question": "Sof diskont daromadga to‘g‘ri ta’rifni bering",
-    "noAnswer1": "Investitsiya loyihasini ekspluatatsiya davridagi pul oqimlarining kelajakdagi qiymati bilan uni\r\namalga oshirishga investitsiya qilinuvchi mablag‘ o‘rtasidagi farq;",
-    "noAnswer2": "Investitsiya loyihasini ekspluatatsiya davrida investitsiya mablag‘lari bilan erishiladigan\r\ndaromadlar orasidagi farq;",
-    "answer": "Investitsiya loyihasini ekspluatatsiya davrida hozirgi qiymatga keltirilgan pul oqimlari summasi\r\nbilan uni amalga oshirishga investitsiya qiluvchi mablag‘lar o‘rtasidagi farq;",
-    "noAnswer3": "Investitsiya loyihasini ekspluatatsiya davrida pul oqimlarining erishiladigan daromadlar\r\norasidagi farq;"
+    "question": "Qur’on suralarini tashkil etuvchi qism “jumlalar” qanday nomlanadi?",
+    "noAnswer1": "Sura",
+    "answer": "Oyat",
+    "noAnswer2": "Juz",
+    "noAnswer3": "Pora"
   },
   {
-    "question": "Ish haqi fondini yiriklashtirilgan usulda rejalashtirish bu - …",
-    "noAnswer1": "Ish haqi fondini turli tadbirlar natijasida erishilgan ish haqi iqtisodi asosida aniqlash",
-    "noAnswer2": "Ish haqi fondini minimal ish haqi miqdorini oshishi asosida aniqlash",
-    "answer": "Ish haqi uchun mablag‘larni ish haqi fondi indeksi yordamida aniqlash",
-    "noAnswer3": "Ish haqi fondini minimal ish haqi miqdorini kamayish asosida aniqlash"
+    "question": "VII-asrda paydo bulgan musulmon davlati nima deb ataladi?",
+    "noAnswer1": "Musulmonlar davlati",
+    "noAnswer2": "Islom imperiyasi",
+    "noAnswer3": "Arab imperiyasi",
+    "answer": "Arab xalifaligi"
   },
   {
-    "question": "Rejalashtirishda foydaning qanday ko‘rsatkichlaridan foydalaniladi?",
-    "noAnswer1": "Balans foyda, normativ foyda",
-    "noAnswer2": "Sof foyda, normativ foyda",
-    "answer": "Balans foyda, asosiy faoliyat foydasi, sof foyda,",
-    "noAnswer3": "Balans foyda"
+    "question": "Talmud qaysi dinning muqaddas kitoblaridan biridir?",
+    "noAnswer1": "Buddizm",
+    "noAnswer2": "Nasroniylik",
+    "answer": "Yahudiylik",
+    "noAnswer3": "Islom"
   },
   {
-    "question": "Umumiy kal`kulyatsiya bu ...",
-    "noAnswer1": "Bu har bir mahsulot turini ishlab chiqarish uchun sarflanadigan xarajatlar",
-    "noAnswer2": "Bu ishlab chiqarishga sarflangan umumiy xarajatlar",
-    "noAnswer3": "Jami xarajatlarni hisoblash usuli",
-    "answer": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan o‘rtacha xarajatlar"
+    "question": "Tripitaka qaysi dinning muqaddas kitobi?",
+    "answer": "Buddizm",
+    "noAnswer1": "Nasroniylik",
+    "noAnswer2": "Iuddaizm",
+    "noAnswer3": "Islom"
   },
   {
-    "question": "Tur kal`kulyatsiyasi bu ...",
-    "noAnswer1": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan o‘rtacha xarajatlar",
-    "noAnswer2": "Bu ishlab chiqarishga sarflangan umumiy xarajatlar",
-    "answer": "Bu har bir mahsulot turini ishlab chiqarish uchun sarflanadigan xarajatlar",
-    "noAnswer3": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan umumiy xarajatlar"
+    "question": "Buddaviylik dinining asoschisi kim?",
+    "noAnswer1": "Iso Masix",
+    "answer": "Siddxartha Gautama",
+    "noAnswer2": "Krishna",
+    "noAnswer3": "Deva"
   },
   {
-    "question": "Ishlab chiqarish hajmiga bog‘liqlik darajasiga ko‘ra qanday xarajatlar ajratiladi?",
-    "noAnswer1": "Asosiy, ustama",
-    "noAnswer2": "O‘zgaruvchan, ustama.",
-    "noAnswer3": "O‘zgaruvchan, bilvosita",
-    "answer": "O‘zgaruvchan, shartli doimiy."
+    "question": "O‘zbekistonda qancha diniy tashkilotlar faoliyat yuritadi?",
+    "noAnswer1": "3 mingdan ziyod",
+    "answer": "2 mingdan ziyod",
+    "noAnswer2": "1 mingdan ziyod",
+    "noAnswer3": "4 mingdan ziyod"
   },
   {
-    "question": "2024-yil nomini ko‘rsating",
-    "noAnswer1": "=\r\nYoshlar va biznes yili",
-    "noAnswer2": "Biznes va yoshlarni qo‘llab-quvvatlash yili",
-    "answer": "Yoshlar va biznesni qo‘llab-quvvatlash yili",
-    "noAnswer3": "Biznes va yoshlar yili"
+    "question": "“Tili, dini, e’tiqоdidаn qаt’iy nаzаr insоnning erkin bo‘lib yashashigа qаrshi, uning ruhiy dunyosini izdаn chiqаrishgа qаrаtilgаn mаfkurаviy, g‘оyaviy, infоrmаtsiоn hurujlаr”ni qаndаy tа’riflаsh mumkin?",
+    "answer": "Mа’nаviy tаjоvuzkоrlik.",
+    "noAnswer1": "Mа’nаviy qаrаmlik.",
+    "noAnswer2": "Mа’nаviy tаhdid.",
+    "noAnswer3": "Mа’nаviy ehtiyoj."
   },
   {
-    "question": "“Mahsulot (ish, xizmat) lar tannarxiga kiritiladigan mahsulotlarni ishlab chiqarish va sotish\r\nbo‘yicha xarajatlar tarkibi hamda moliyaviy natijalarni shakllantirish haqida” gi Nizomda\r\nxarajatlar qaysi iqtisodiy belgilar bo‘yicha guruhlangan?",
-    "answer": "Iqtisodiy mazmun va mohiyatiga ko‘ra",
-    "noAnswer1": "Shakllanayotgan joyiga va qaysi maqsadda ishlatilayotganiga asosan",
-    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
-    "noAnswer3": "Ishlab chiqarish jarayonida qatnashuviga asosan va Iqtisodiy mazmun va mohiyatiga ko‘ra"
+    "question": "«Vijdon erkinligi va diniy tashkilotlar to‘g‘risida»gi Qonunning qaysi moddasi diniy materiallarni yozish, tarqatish masalalalariga bag‘ishlangan?",
+    "noAnswer1": "36-modda",
+    "answer": "10-modda",
+    "noAnswer2": "20-modda",
+    "noAnswer3": "15-modda"
   },
   {
-    "question": "Qaysi belgilar asosida xarajatlar bir guruhga birlashtirilganda guruh modda deb ataladi.",
-    "noAnswer1": "Iqtisodiy mohiyati va mazmuniga asosan",
-    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
-    "answer": "Xarajatlarni qayerda shakllanishi va qanday maqsadlarda foydalanayotganiga asosan",
-    "noAnswer3": "Ishlab chiqarish jarayonida qatnashmasligiga asosan"
+    "question": "Fuqarolarning dinga e’tiqod qilish yoki e’tiqod qilmaslikni mustaqil hal qilishlari qanday ataladi?",
+    "noAnswer1": "Burch erkinligi",
+    "noAnswer2": "qadriyat erkinligi",
+    "answer": "vijdon erkinligi",
+    "noAnswer3": "fikr erkinligi"
   },
   {
-    "question": "Qaysi belgilar asosida xarajatlar bir guruhga birlashtirilganda guruh element deb yuritiladi.",
-    "noAnswer1": "Xarajatlarni qayerda shakllanishi va qanday maqsadlarda foydalanayotgani",
-    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
-    "answer": "Iqtisodiy mohiyati va mazmuniga asosan",
-    "noAnswer3": "Ishlab chiqarish jarayonida qatnashmasligiga asosan"
+    "question": "“Monoteizm” tushunchasining ma’nosi nima?",
+    "answer": "Yakkaxudolik",
+    "noAnswer1": "ko‘pxudolik",
+    "noAnswer2": "diniy ta’limot",
+    "noAnswer3": "diniy fikr"
   },
   {
-    "question": "Ishlab chiqarishga xarajatlar smetasi nima?",
-    "answer": "Ishlab chiqarish faoliyatining kelgusi davri uchun barcha sarflar yig‘ma rejasi",
-    "noAnswer1": "Ishlab chiqarish moliyaviy faoliyatning talab etilgan davr uchun barcha daromadlarining\r\njamlama rejasi",
-    "noAnswer2": "Ishlab chiqarish moliyaviy faoliyatining alohida davri uchun korxonaning barcha daromad va\r\nxarajatlarning jamlama rejasi",
-    "noAnswer3": "Ishlab chiqarish moliyaviy faoliyatining alohida davri uchun korxonaning barcha daromad va\r\nxarajatlarning jamlama rejasi va ishlab chiqarish moliyaviy faoliyatining kelgusi davri uchun\r\nbarcha sarflar yig‘ma rejasi"
+    "question": "O‘rta Osiyodagi qaysi davlatda budda dini asosiy (hukmron) din edi?",
+    "noAnswer1": "Xorazmshohlar",
+    "noAnswer2": "Dovon",
+    "answer": "Kushon",
+    "noAnswer3": "Qang‘"
   },
   {
-    "question": "Moliyaviy reja qanday asosiy bo‘limlardan tashkil topadi?",
-    "noAnswer1": "Foyda va zararlar to‘g‘risida prognoz reja, pul oqimlari rejasi, aktiv va passivlar prognoz balansi",
-    "noAnswer2": "Ishlab chiqarishni tayyorlash xarajatlari, foyda va zararlar, joriy xarajatlar",
-    "answer": "Foyda va zararlar, aktiv va passivlar prognoz balansi, pul oqimlari rejasi, asosiy kapital tarkibi,\r\nqarzlar bo‘yicha hisobot",
-    "noAnswer3": "Asosiy kapital tarkibi, amortizatsiya normasi, qarzlar bo‘yicha hisobot"
+    "question": "Jahonda e’tiqod qiluvchilar soni jihatdan eng katta milliy din…",
+    "noAnswer1": "Sintoizm",
+    "noAnswer2": "Yahudiylik",
+    "noAnswer3": "Konfutsiylik",
+    "answer": "Hidduiylik"
   },
   {
-    "question": "Qaysi ish haqi qo‘shimcha ish haqi hisoblanadi?",
-    "noAnswer1": "Tungi smenada ishlagani uchun to‘lov hamda brigadirlik uchun to‘lov",
-    "noAnswer2": "Shogird tayyorlagani uchun hamda mehnat ta'tili uchun to‘lov",
-    "answer": "Ruxsat etilgan imtiyozli vaqt uchun hamda mehnat ta'tillari uchun to‘lanadigan to‘lovlar",
-    "noAnswer3": "Brigadirlik uchun to‘lov"
+    "question": "Tasaffuv ilmining yirik namoyondasi bo‘lgan Xo‘ja Ahmad Yassaviy yili deb qachon e’lon qilindi?",
+    "noAnswer1": "1994 yil",
+    "noAnswer2": "1995 yil",
+    "answer": "1993 yil",
+    "noAnswer3": "1996 yil"
   },
   {
-    "question": "Asosiy faoliyatdan ko‘rilgan foyda bu .......",
-    "noAnswer1": "Yalpi foyda minus davr xarajatlari plyus moliyaviy faoliyatdan ko‘rilgan daromadlar va minus\r\nzararlardir",
-    "noAnswer2": "Bu sotishdan olingan sof tushum bilan sotilgan mahsulotning ishlab chiqarish tannarxi orasidagi\r\nfarq",
-    "answer": "Yalpi foyda bilan davr xarajatlari orasidagi farq hamda plyus asosiy faoliyatdan ko‘rilgan\r\nboshqa daromadlar yoki minus boshqa zararlardir",
-    "noAnswer3": "Yalpi foyda minus moliyaviy faoliyat bilan bog‘liq xarajatlar"
+    "question": "O’zbekiston Respublikasi birinchi Prezidenti farmoni bilan Toshkent islom universiteti qaysi yilda ochildi?",
+    "answer": "1999 yil",
+    "noAnswer1": "1998 yil",
+    "noAnswer2": "1993 yil",
+    "noAnswer3": "1996 yil"
   },
   {
-    "question": "Rentabellik ko‘rsatkichi nima?",
-    "noAnswer1": "Rentabellik absolyut kattalik bo‘lib, korxona samaradorligini ifodalaydigan ko‘rsatkichdir.",
-    "noAnswer2": "Mahsulot ishlab chikarishga sarflangan xarajatlarni ifodalaydi.",
-    "noAnswer3": "Korxona faoliyatini natijasini ifodalaydigan miqdor ko‘rsatkichi hisoblanadi.",
-    "answer": "Rentabellik korxona faoliyatining foydalilik darajasini ifodalaydigan nisbiy ko‘rsatkichdir."
+    "question": "“Mehrjon” va “Navro‘z” bayramlari qaysi dinga tegishli?",
+    "noAnswer1": "Islom",
+    "noAnswer2": "Yahudiylik",
+    "noAnswer3": "Konfutsiylik",
+    "answer": "Zardushtiylik"
   },
   {
-    "question": "Firmaning rejalashtirilgan ishlab chiqarish dasturini bajarish uchun zarur bo‘lgan material\r\nresurslarga bo‘lgan ehtiyoji aks ettirilgan byudjet bu-",
-    "noAnswer1": "Sotib olish byuljeti",
-    "noAnswer2": "Mehnat byudjeti",
-    "answer": "Moddiy byudjet",
-    "noAnswer3": "Naqd pul byudjeti"
+    "question": "Diniy tashkilotlar xayriya va mehr-muruvvat faoliyatini amalga oshirishga…",
+    "noAnswer1": "Ba’zan mumkin",
+    "answer": "Haqli",
+    "noAnswer2": "Ayrim hollarda haqli",
+    "noAnswer3": "Ruxsat berilmaydi"
   },
   {
-    "question": "Daromadlilik indeksi nimani ko‘rsatadi?",
-    "noAnswer1": "Daromadlik normasi yeki loyixaning foydaliligi.",
-    "noAnswer2": "Diskont normasi.",
-    "noAnswer3": "Kapital qo‘yilmalar va olingan umumiy samara o‘rtasidagi nisbati kattaligidir.",
-    "answer": "Keltirilgan samara summasini kapital qo‘yilmalar umumiy kattaligiga nisbati."
+    "question": "Diniy bag‘rikenglik bu…",
+    "noAnswer1": "Diniy hamkorlik",
+    "answer": "Barcha dinlarga hurmat bilan munosabatda bo‘lish",
+    "noAnswer2": "Barcha dinlar bir xil",
+    "noAnswer3": "Dunyoviy haqiqatlarga amal qilish"
   },
   {
-    "question": "«Biznes- reja» nima?",
-    "answer": "Tadbirkorlik faoliyatining barcha asosiy tomonlari ifodalanadigan hujjat.",
-    "noAnswer1": "Raqobatchilar moliyaviy xolatini ifodalaydigan xujjat.",
-    "noAnswer2": "Tovarlarni tarkatish taktikasini ifodalaydigan xujjat.",
-    "noAnswer3": "Narxlar soxasidagi strategiyani belgilaydigan xujjat."
+    "question": "Fetishizm nimani ilohiylashtiradi?",
+    "answer": "moddiy narsalarni",
+    "noAnswer1": "hayvonlarni",
+    "noAnswer2": "odamlarni",
+    "noAnswer3": "duolarni"
   },
   {
-    "question": "Biznes-rejaning bosh ichki maqsadi nima?",
-    "noAnswer1": "Tadbirkorlik faoliyatini boshkarish uchun asos bo‘lishi.",
-    "noAnswer2": "Moliyalashtirish strategiyasini aniqlash.",
-    "answer": "Faoliyatning muvaffaqqiyatiga ishontirish.",
-    "noAnswer3": "Sotish bozorini Baholash"
+    "question": "Shimoliy Amerika «Ojibva» qabilasi tilidan tarjima qilinganda «totem» bu -",
+    "answer": "uning urug‘i",
+    "noAnswer1": "qarindosh",
+    "noAnswer2": "saqlaguvchi",
+    "noAnswer3": "sening urug‘ing"
   },
   {
-    "question": "Iqtisodiy samaradorlikni ifodalovchi ko‘rsatkichlar quyidagilardan iborat:",
-    "noAnswer1": "Mahsulotni sotish hajmi va foyda miqdori;",
-    "noAnswer2": "Korxona aktivlari va passivlari;",
-    "noAnswer3": "Korxona fond qaytimi va fond sig‘imi;",
-    "answer": "Foyda miqdori va daromadliligi;"
+    "question": "Yapon tilida «Sinto» so‘zining ma’nosi nima?",
+    "answer": "xudolar yo‘li",
+    "noAnswer1": "payg‘ambarlar yo‘li",
+    "noAnswer2": "to‘g‘ri yo‘l",
+    "noAnswer3": "nurli yo‘l"
   },
   {
-    "question": "Bahodan chegirishdan ko‘zda tutilgan maqsad nima?",
-    "noAnswer1": "Raqobatni yumshatish",
-    "noAnswer2": "Baholarni korrektirovka qilish",
-    "answer": "Istemolchi (haridor) larni jalb qilish",
-    "noAnswer3": "Tavakkalchilikni kamaytirish"
+    "question": "Mа’nаviy qаdriyat bo’lmish diniy vа dunyoviy iymоn – e’tiqоdning bir  biridаn fаrqi?",
+    "noAnswer1": "Diniy iymоn nаzаriy bilimlаrgа, dunyoviy esа аmаliyotgа аsоslаnаdi.",
+    "answer": "Diniy iymоn isbоtsiz ishonchgа, dunyoviy iymоn dаlillаshgа, tаjribа vа isbоtgа аsоslаnаdi.",
+    "noAnswer2": "Diniy iymоn tug’mа хususiyat, dunyoviy iymоn esа tа’lim-tаrbiya mахsuli.",
+    "noAnswer3": "Diniy iymоn хis – tuyg’ulаrgа, dunyoviy iymоn esа аql – zаkоvаtgа аsоslаnаdi."
   },
   {
-    "question": "Mehnatga haq to‘lash xarajatlari biznes rejaning qaysi bo‘limida amalga oshiriladi?",
-    "noAnswer1": "Moliyaviy rejada",
-    "noAnswer2": "Xarajatlar rejasida",
-    "noAnswer3": "Marketing rejasida",
-    "answer": "Tashkiliy rejada"
+    "question": "«Avesto» so‘zining ma’nosi nima?",
+    "noAnswer1": "muqaddaslashgan",
+    "answer": "qat’iy qilingan",
+    "noAnswer2": "xudolar kitobi",
+    "noAnswer3": "nasklar yig‘indisi"
   },
   {
-    "question": "Tovar deb, nimaga aytiladi?",
-    "noAnswer1": "yaratilgan mahsulotga",
-    "noAnswer2": "iste’molga tushgan barcha moddiy ne’mat va xizmatlarga",
-    "answer": "kishilar ehtiyojini qondiradigan va bozor uchun ishlab chiqarilgan mahsulotga.",
-    "noAnswer3": "o‘zgalar ehtiyojini qondiruvchi vositalarga"
+    "question": "«Avesto»ning vatanini ko‘rsating.",
+    "answer": "Xorazm",
+    "noAnswer1": "Bobil",
+    "noAnswer2": "Eron",
+    "noAnswer3": "Hindiston"
   },
   {
-    "question": "Kritik nuqta bu-",
-    "noAnswer1": "Ishlab chiqarish hajmiga bog‘liq xolda o‘zgarmaydigan xarajatlar.",
-    "noAnswer2": "Umumiy kattaligi ishlab chiqarish hajmiga bog‘liq bo‘lgan xarajatlar darajasi.",
-    "answer": "Barcha umumiy xarajatlarni to‘liq qoplaydigan tushum darajasi.",
-    "noAnswer3": "Savdo foydasi va umumiy ishlab chiqarish xarajatlari orasidagi farq"
+    "question": "Buddaviylikning «To‘rt haqiqati»ning birinchisini ko‘rsating.",
+    "answer": "Hayot-azob-uqubatlardan iborat",
+    "noAnswer1": "Azoblanish – mavjudlikdir",
+    "noAnswer2": "Hayotga tashnalik",
+    "noAnswer3": "Azoblarni yengish mumkin"
   },
   {
-    "question": "Rejalashtirish usuli...",
-    "answer": "Korxonalarda reja ko‘rsatkichlarini asoslash yo‘llari va qoidalari, shuningdek firma ichki\r\nrejalarining mazmuni, shakli, tuzilmasi va tartibini ifodalaydi",
-    "noAnswer1": "Korxonalarda rejalashtirish borasida qonuniyatlar, ilmiy tamoillar, zamonaviy talablar, iqtisodiy\r\nko‘rsatmalar majmuasi",
-    "noAnswer2": "Rejalashtirish- korxona faoliyatini tashkil etish bosqichlari,rejalarning shakli, tuzilmasi, tartibi",
-    "noAnswer3": "Rejalashtirish texnologiyasidir"
+    "question": "Siddxarta Gautama (Budda) necha yil Gang bo‘yida yangi dinga da’vat etib yurdi?",
+    "answer": "40",
+    "noAnswer1": "20",
+    "noAnswer2": "25",
+    "noAnswer3": "30"
   },
   {
-    "question": "Maqsad turiga ko‘ra rejalashtirishning qanday turlari qo‘llaniladi?",
-    "noAnswer1": "Operativ, normativ, taktik, joriy",
-    "answer": "Operativ , taktik, strategik, normativ",
-    "noAnswer2": "Taktik, strategik, reaktiv, dastlabki, ta’minot-sotuv",
-    "noAnswer3": "Strategikva normativ"
+    "question": "«Budda» so‘zining ma’nosi nima?",
+    "noAnswer1": "ulug‘langan",
+    "noAnswer2": "xudo-yaratuvchi",
+    "answer": "nurlangan",
+    "noAnswer3": "xudo-saqlaguvchi"
   },
   {
-    "question": "Quyidagi tartib rejalarni tuzish ishlarini tashkil qilishning qaysi ko‘rinishiga tegishli?\r\nBosh maqsadlar bo‘yicha dastlabki rejalar tuziladi va quyi bo‘g‘inlarda ular aniqlashtiriladi.\r\nSo‘ngra quyidan yuqoriga harakat amalga oshiriladi. Bunda xususiy rejalar orasidagi farqlar\r\nbartaraf etiladi va yanada samarali yechimlar qo‘shiladi.",
-    "noAnswer1": "Pastdan yuqoriga",
-    "noAnswer2": "Yuqoridan pastga",
-    "answer": "Aralash",
-    "noAnswer3": "Gorizontal"
+    "question": "Iso Masih Xristianlar uchun kim?",
+    "noAnswer1": "xudo-ota",
+    "noAnswer2": "xudo-muqaddas ruh",
+    "answer": "xudo-o‘g‘il",
+    "noAnswer3": "payg‘ambar"
   },
   {
-    "question": "Analitik - hisoblash uslubi mohiyati – ?",
-    "noAnswer1": "Vazifalarni tarkibiy qismga va operatsiyalarga taqsimlash",
-    "noAnswer2": "Normativlarni ishlab chiqish",
-    "answer": "Normativlar asosida normani belgilash",
-    "noAnswer3": "Norma va normativlarni kuzatish asosida belgilash"
+    "question": "«Qur’on» so‘zi arab tilidan qanjay tarjima qilinadi?",
+    "answer": "o‘qimoq",
+    "noAnswer1": "kitob",
+    "noAnswer2": "qonunlar",
+    "noAnswer3": "to‘g‘ri yo‘l"
   },
   {
-    "question": "Reja tuzish tartibi necha xil ko‘rinishda amalga oshiriladi?",
-    "noAnswer1": "Gorizontal, vertikal aralash",
-    "answer": "Yuqoridan pastga, patdan yuqoriga va aralash",
-    "noAnswer2": "Birinchi ko‘rinishda barcha bo‘limlar bo‘yicha rejalar bir xil vaqtda ishlab chiqilib, so‘ngra\r\nmuvofiqlashtiriladi, ikkinchi ko‘rinishda esa bo‘limlar bo‘yicha rejalar mantiqiy ketma-ketlikda\r\nishlab chiqilib, so‘ngra muvofiqlashtiriladi",
-    "noAnswer3": "Talab aniqlanadi va ishlab chiqarish hajmi hamda belgilanadi, so‘ngra ushbu ko‘rsatkich asosida\r\nboshqa bo‘limlar o‘z rejalarini tuzadilar, ishlab chiqadi yoki avvalo korxonaning kelgusidagi\r\nmaqsadlari borasida qaror qabul qilinadi va shu asosida reja ko‘rsatkichlari ishlab chiqiladi"
+    "question": "Quyidagi qaysi manbaning dastlabki yozma nusxasi 12 ming qora mol terisiga bitilgan edi?",
+    "noAnswer1": "Tavrot",
+    "answer": "Avesto.",
+    "noAnswer2": "Olqish",
+    "noAnswer3": "Zabur"
   },
   {
-    "question": "Rejalashtirish jarayoni quyidagi bosqichlardan iborat:",
-    "noAnswer1": "Vazifani aniqlash, vositalarni tanlash, maqsadni belgilash va nazorat",
-    "noAnswer2": "Vositalarni tanlash, nazorat, vazifani aniqlash va maqsadni belgilash",
-    "noAnswer3": "Maqsadni belgilash, vositalarni tanlash, nazorat va vazifani aniqlash",
-    "answer": "Maqsadni belgilash, vazifani aniqlash, vositalarni tanlash va nazorat"
+    "question": ". Qiyos so‘zining lug‘aviy ma’nosini toping",
+    "noAnswer1": "diniy jamoaning yagona fikri",
+    "noAnswer2": "harakat qiluvchi kishi",
+    "answer": "taqqoslash.",
+    "noAnswer3": "ko‘rsatma"
   },
   {
-    "question": "Kalendar rejalashtirish bu–…",
-    "answer": "Korxonaning yillik rejasini o‘n kunlik, hafta, kun va smena bo‘yicha aniqlashtirish",
-    "noAnswer1": "Korxonaning yilik rejasini bo‘linmalar va bajaruvchilar bo‘yicha aniqlashtirish",
-    "noAnswer2": "Korxonaning yillik rejasini faqat ish kunlari bo‘yicha aniqlashtirish",
-    "noAnswer3": "Korxonaning yillik rejasini kalendar’ kunlar bo‘yicha aniqlashtirish"
+    "question": "Mujtahid so‘zining lug‘aviy ma’nosini toping.",
+    "noAnswer1": "yo‘lboshchilar",
+    "answer": "intiluvchi.",
+    "noAnswer2": "Xabarchilar",
+    "noAnswer3": "Isyonchilar"
   },
   {
-    "question": "Ishlab chiqarishning asosiy maqsadi –",
-    "noAnswer1": "davlat iqtisodiyotini rivojlantirish",
-    "answer": "oshib boruvchi ehtiyojlarni qondirish.",
-    "noAnswer2": "davlatning ishlab chiqarish potentsialini oshirish",
-    "noAnswer3": "ilmiy – texnika taraqqiyotini ta’minlash"
+    "question": "al-Jome’ as-sahih asarining muallifini toping.",
+    "noAnswer1": "Abu Sufyon ibn Muoviya",
+    "noAnswer2": "Umar ibn Abdulaziz",
+    "answer": "Imom Buxoriy",
+    "noAnswer3": "Muhammad ibn Shihob Zuhriy"
   },
   {
-    "question": "Yangi mahsulotni prognozlashtirish jarayonida qanday usul foydalaniladi?",
-    "noAnswer1": "Ekspert baholar, statistik baholar, modellashtirish",
-    "noAnswer2": "Ekspert baholar, analitik, iqtisodiy matematik usul",
-    "answer": "Ekspert baholar, ekstrapolyatsiya (statistik baholar), solishtirish",
-    "noAnswer3": "Ekstrapolyatsiya (statistik baholar), solishtirish, analitik"
+    "question": "Sura va oyatlar nozil bo‘lish vaqti va joyiga ko‘ra nechaga bo‘linadi?",
+    "answer": "2 ga.",
+    "noAnswer1": "4 ga",
+    "noAnswer2": "3 ga",
+    "noAnswer3": "5 ga"
   },
   {
-    "question": "Korxonani boshqarishda boshqarilishning qaysi strukturalaridan foydalaniladi?",
-    "answer": "Chiziqli, funktsional, chiziqli – funktsional, funksional – shtabli",
-    "noAnswer1": "Chiziqli va funktsional",
-    "noAnswer2": "Funktsional, chiziqli, chiziqsiz",
-    "noAnswer3": "Funktsional, chiziqli, texnik – funktsional"
+    "question": "Qur’onni Madinada nozil bo‘lgan umumiy vaqtini toping",
+    "answer": "10 yil",
+    "noAnswer1": "12 yil",
+    "noAnswer2": "11 yil",
+    "noAnswer3": "13 yil"
   },
   {
-    "question": "Zararsizlik nuqtasi – bu...",
-    "noAnswer1": "Tushum va xarajatlar orasidagi farq",
-    "answer": "Barcha xarajatlar to‘liq qoplanadigan tushum",
-    "noAnswer2": "Tushumga bog‘liq holda o‘zgaradigan xarajatlar",
-    "noAnswer3": "Tushumga bog‘liq holda o‘zgarmas xarajatlar"
+    "question": "Qur’on Muhammad alayhissalomga ................... g‘orida nozil bo‘lgan.",
+    "answer": "Xiro",
+    "noAnswer1": "Ararat",
+    "noAnswer2": "Tur",
+    "noAnswer3": "Sinay"
   },
   {
-    "question": "Tarif koeffitsienti – bu...",
-    "answer": "Razryadlar orasidagi farqlarni ifodalaydi",
-    "noAnswer1": "Ish haqi orasidagi farqni ifodalaydi",
-    "noAnswer2": "Tarif stavkalar orasidagi farqlarni ifodalaydi",
-    "noAnswer3": "Ishbay ish haqi orasidagi farqlarni ifodalaydi"
+    "question": "Qur’oni karim–Alloh tarafidan Muhammad payg‘ambarga (s.a.v.) .................................................... orqali ba’zan oyat-oyat, ba’zan esa  to‘liq sura tarzida nozil qilingan",
+    "noAnswer1": "Mikoil farishta",
+    "noAnswer2": "Malak ul-avt farishta",
+    "noAnswer3": "Isrofil farishta",
+    "answer": "Jabroil farishta"
   },
   {
-    "question": "Korxonani ishlab chiqarish dasturining mohiyati nimada?",
-    "noAnswer1": "Yillik ishlab ishlab chiqarish ‘ajmi, nomenklutarsi, sifati va muddatini ifodalaydigan kompleks\r\nishlab chiqarish rejasidir",
-    "noAnswer2": "Sotish ‘ajmini ishlab chiqarish kompleks rejasi",
-    "noAnswer3": "Talabga mos ravishda yillik ishlab chiqarish ‘ajmi, nomenklaturasi va muddatini ifodalaydigan\r\nmahsulot ishlab chiqarish kompleks rejasidir",
-    "answer": "Bozor talab etgan tovar va xizmatlarni ishlab chiqarish yillik hajmi, nomenklaturasi, sifati va\r\nmuddatini ifodalaydigan kompleks ishlab chiqarish rejasi"
+    "question": "Qur’oni Karimda nechta payg‘ambarning nomi tilga olingan",
+    "noAnswer1": "22",
+    "noAnswer2": "24",
+    "noAnswer3": "23",
+    "answer": "25"
   },
   {
-    "question": "Ishlab chiqarish rejasi mazmunini quyidagilar tashkil etadi:",
-    "noAnswer1": "Ishlab chiqarish quvvatlarini hisoblash",
-    "noAnswer2": "Resurslarbo‘yicha sarflarni aniqlash",
-    "answer": "Korxonanimahsulot ishlab chiqarish bo‘yicha real imkoniyatlarini aniqlash",
-    "noAnswer3": "Ishlab chiqarish quvvatlarini hisoblash, korxonani mahsulot ishlab chiqarish bo‘yicha real\r\nimkoniyatlarini aniqlash, resurslar bo‘yicha sarflarni aniqlash"
+    "question": "Dinshunoslik qaysi fanlar bilan yaqinroq bog'liq?",
+    "noAnswer1": "Matematika va fizika",
+    "noAnswer2": "Biologiya va kimyo",
+    "noAnswer3": "Ingliz tili va fransuz tili",
+    "answer": "Tarix va jamiyatshunoslik"
   },
   {
-    "question": "Ishlab chiqarish dasturi bu",
-    "noAnswer1": "Turli ehtiyojlarni qondirishga yo‘naltirilgan mahsulotlar nomenklaturasi, assortimenti, sifati va\r\nmiqdorini ifodalovchi reja ko‘rsatkichlari tizimidir",
-    "noAnswer2": "Mahsulot ishlab chiqarish bo‘yicha material resurslar sarfini, mahsulotlar assortimentini,\r\njihozlar sonini ifodalovchi tizim",
-    "answer": "Mahsulotishlab chiqarish bo‘yicha Texnologik jarayon sxemasi, mahsulot turlari miqdori va\r\nsifatini belgilovchi tizim",
-    "noAnswer3": "Mahsulot ishlab chiqarish hajmini kvartallar, oylar va dekadalarda ifodalovchi tizim"
+    "question": "Dinning jamiyatda bajaradigan ijtimoiy, ma’naviy, ruhiy funksiyalari qaysi javobda to‘gri\r\nko‘rsatilgan?",
+    "answer": "Regulyatorlik, kompensatorlik, integratorlik, kommunikativ",
+    "noAnswer1": "Kompensatorlik, integratorlik, regulyatorlik, tarbiyaviy",
+    "noAnswer2": "Kommutatorlik, kompensatorlik, regulyatorlik, tarbiyaviy",
+    "noAnswer3": "Integratorlik, kompensatorlik, kommutatorlik, tarbiyaviy"
   },
   {
-    "question": "Material resurslarga bo‘lgan talab biznes rejaning qaysi bo‘limida aks ettiriladi?",
-    "noAnswer1": "Xarajatlar rejasi",
-    "noAnswer2": "Marketing rejasi",
-    "answer": "Ishlab chiqarish rejasi",
-    "noAnswer3": "Moliyaviy reja"
+    "question": "Buddaviylik dinining muqaddas manbai “tripitaka” so‘zini ma’nosi nima?",
+    "answer": "Uch savat donolik",
+    "noAnswer1": "Uch daraxt mevasi",
+    "noAnswer2": "Uch budda nasihati",
+    "noAnswer3": "Uch dono nasihati"
   },
   {
-    "question": "Ishlab chiqarish faoliyatini rejalashtirish - …….",
-    "noAnswer1": "Korxona va firmalarning rivojlanishini, xo‘jalik faoliyati shakllarini va iqtisodiy maqsadlarni\r\nasoslashni o‘rganadi",
-    "answer": "Iqtisodiy resurslarni tanlash va ulardan foydalanish qonunlari. tamoyillari, qoidalari va\r\nusullarini o‘rganadi",
-    "noAnswer2": "Iqtisodiy resurslarni boshqarish muammolarini o‘rganadi",
-    "noAnswer3": "Korxonaninghaqiqiy holatini tadqiq qilishni va uning kelgusidagi rivojlanish darajasini o‘rganadi"
+    "question": "Xristianlik dini qachon katolik va provaslavlikka bo‘lindi?",
+    "answer": "1054 yil",
+    "noAnswer1": "518 yil",
+    "noAnswer2": "1085 yil",
+    "noAnswer3": "517 yil"
   },
   {
-    "question": "Mehnat sarfi ifodasidagi mahsulot hajmi quyidagi ko‘rsatkichlar aniqlashga asos bo‘ladi",
-    "noAnswer1": "Material resurslarga talab hajmini, ish haqi fondi va ishchilar sonini aniqlash uchun",
-    "noAnswer2": "Jihozlar soni, ishchilar soni va moliyaviy natijalarni shakillantirish uchun",
-    "answer": "Ishchilar soni va ish haqi fondini aniqlash uchun",
-    "noAnswer3": "Baho, ishchilar soni va ish haqi fondini aniqlash"
+    "question": "Katolik cherkovi markazi qaerda joylashgan va din markazi qanday ataladi?",
+    "answer": "Vatikanda ehrom",
+    "noAnswer1": "Kastantinopolda cherkov",
+    "noAnswer2": "Aleksadriyada ehrom",
+    "noAnswer3": "Rimda cherkov"
   },
   {
-    "question": "“Biznes reja” quyidagi talablarga javob berishi lozim",
-    "noAnswer1": "Biznes strategiyasini amalga oshirish quroli bo‘lishi lozim",
-    "noAnswer2": "Mablag‘larni yo‘naltirishi lozim",
-    "answer": "Har bir ko‘rsatkich asoslasnishi shart",
-    "noAnswer3": "Rivojlanish yo‘nalishlarini son va sifat ko‘rsatkichlari tizimi sifatida ifodalashi lozim"
+    "question": "Kishilik jamiyati tarixida dinning ilk shakllariga qaysi dinlar kiradi?",
+    "answer": "Totemizm, animizm, fetishizm, shomonizm",
+    "noAnswer1": "Shomonizm, urug’ - qabila dinlari, hinduizm",
+    "noAnswer2": "Iudaizm, shomonizm, animizm, totemizm",
+    "noAnswer3": "Sintoizm, buddizm, totemizm, magiya"
   },
   {
-    "question": "Qo‘shimcha to‘lov va kompensatsiyalar nima uchun xizmat qiladi",
-    "noAnswer1": "Qo‘shimcha to‘lov va kompensatsiyalar xodimlarning yuqori aktivligini rag‘batlantirishga\r\nyo‘nalitirilgan.",
-    "noAnswer2": "Ishlab chiqarish samaradorligini oshirishga xizmat qiladi.",
-    "answer": "Mehnat sharoitidagi chetlanishlarda ishchi kuchini qo‘shimcha xarajatlarini qoplash uchun\r\nbelgilanadi.",
-    "noAnswer3": "Qo‘shimcha to‘lov va kompensatsiyalar xodimlarning bajargan ishlariga to‘lovlarni ifodalaydi."
+    "question": "Zardushtiylikning muqaddas kitobi “Avesto” qaysi tilda yozilgan?",
+    "answer": "Qadimiy eroniy-paxlaviy",
+    "noAnswer1": "Qadimgi so’g’d",
+    "noAnswer2": "Qadimgi xorazm",
+    "noAnswer3": "Qadimgi fors"
   },
   {
-    "question": "Ishchilarning asosiy va qo‘shimcha ish haqi tushunchasi.",
-    "noAnswer1": "Asosiy ish haqi ishlagan vaqt uchun, qo‘shimcha ish haqi ishdan tashqari soatlar uchun\r\nto‘lanadi.",
-    "noAnswer2": "Asosiy ish haqi haqiqiy bajarilgan ish uchun, qo‘shimcha ish haqi esa qo‘shimcha soat\r\nuchunto‘lanadi.",
-    "noAnswer3": "Asosiy ish haqi ishlangan vaqt (bajarilgan ish, ishlab chiqarilgan mahsulot) uchun, qo‘shimcha\r\nish haqi esa ishlanmagan vaqt uchun to‘lanadi.",
-    "answer": "Asosiy ish haqi ishlangan vaqt uchun (xizmatlar, mahsulotlar hajmini bajarganligi uchun)\r\nto‘lanadi, qo‘shimcha ish haqi esa mehnat qonunlariga belgilangan ishlanmagan vaqt uchun\r\nqo‘shimcha to‘lovlardir."
+    "question": "“Hidoya” asari musulmon mamlakatlarida qanday manba hisoblanadi?",
+    "noAnswer1": "Diniy",
+    "answer": "Huquqiy",
+    "noAnswer2": "Ilmiy",
+    "noAnswer3": "Ilohiy"
   },
   {
-    "question": "Ishlab chiqarish – bu",
-    "noAnswer1": "iqtisodiyotni moliyalashtiruvchi yagona manbaa",
-    "noAnswer2": "jamiyat hayoti uchun 2 – darajali rol o‘ynaydi",
-    "noAnswer3": "mehnat vositalarini mehnat predmeti va mehnatdan ajralishidir",
-    "answer": "ko‘payib boruvchi ehtiyojlarni qondiruvchi yagona manbaa."
+    "question": "Rim Papasi kim tomonidan va qancha ovoz olish yo‘li bilan saylanadi?",
+    "noAnswer1": "Rim kuriyasi tomonidan 7 yil muddatga saylanadi",
+    "noAnswer2": "Fuqarolar tomonidan umumiy ovozning 3/2 qismi plyus bir ovoz",
+    "answer": "Kardinallar tomonidan umumiy ovozning 3/2 qismi plyus bir ovoz",
+    "noAnswer3": "Ruhoniylar tomonidan 5 yil muddatga saylanadi"
   },
   {
-    "question": "«Kalkulyatsiya obyekti» va «Kalkulyatsiya birligi» tushunchasi nimani ifodalaydi.",
-    "noAnswer1": "Kalkulyatsiya obyekti tannarx o‘lchov birligi kalkulyatsiya, birligi-mahsulot turi.",
-    "answer": "Kalkulyatsiya obyekti- mahsulot turi, kalkulyatsiya birligi – mahsulot birligi uchun xarajatlar",
-    "noAnswer2": "Kalkulyatsiya obyekti-birlik xizmat turi, kalkulyatsiya birligi - birlik mahsulot uchun material\r\nxarajatlari",
-    "noAnswer3": "Kalkulyatsiya obyekti mahsulot turi, birligi – tannarx xarajatlari o‘lchov birligi."
+    "question": "Konfutsiylik ta’limoti qaysi davlatga taalluqli?",
+    "answer": "Xitoy",
+    "noAnswer1": "Yaponiya",
+    "noAnswer2": "Koreya",
+    "noAnswer3": "Mug‘iliston"
   },
   {
-    "question": "Mahsulot tannarxi kalkulyatsiyasi nima?",
-    "answer": "Xarajatlarning kelib chiqish o‘rniga ko‘ra aloxida moddalarga taksimlanishi.",
-    "noAnswer1": "Mahsulot tannarxining xarajat elementlari buyicha joylanishi.",
-    "noAnswer2": "Korxonada ishlab chikarilayotgan mahsulot birligining tannarxi.",
-    "noAnswer3": "Moddiy va mehnat xarajatlarini guruxlanishi."
+    "question": "Qur’oni karim o‘zbek tiliga qachon va kim tomonidan tarjima qilingan?",
+    "noAnswer1": "1994 yilda sharqshunoslik instituti olimlari tomonidan",
+    "noAnswer2": "1989-1990 yillarda musulmonlar diniy idorasi tomonidan",
+    "noAnswer3": "1991 yilda O‘zbekiston musulmonlar diniy idorasi tomonidan",
+    "answer": "1991-1992- yillarda Alouddin Mansur tomonidan"
   },
   {
-    "question": "Texnik iqtisodiy loyihada faoliyatning qaysi jihatlariga urg‘u beriladi?",
-    "noAnswer1": "Faoliyatning moliyaviy jihatlariga",
-    "noAnswer2": "Faoliyatning tijorat jihatlariga",
-    "answer": "Faoliyatning texnik va texnologik jihatlariga",
-    "noAnswer3": "Faoliyatning barcha jihatlariga"
+    "question": "«Hayot azob-uqubatdan iborat, qutulish yo`li mavjud» goyasi qaysi dinga tegishli?",
+    "answer": "Buddizmga",
+    "noAnswer1": "Xristianlik",
+    "noAnswer2": "Xinduiylikka",
+    "noAnswer3": "Islomga"
   },
   {
-    "question": "Mahsulot rentabelligi qanday aniqlanadi?",
-    "answer": "Foydani uni olishga sarflangan xarajatlarga nisbatan orqali.",
-    "noAnswer1": "Mahsulotning bozor bahosini to‘la tannarxga nisbati orqali.",
-    "noAnswer2": "Balans foydani yillik umumiy soliq ajiratmalariga nisbati orqali.",
-    "noAnswer3": "Tannarx miqdorini foyda miqdoriga nisbati orqali."
+    "question": "«Terrorizm» suzining lugaviy ma’nosi nima?",
+    "answer": "Qurqitish, dahshat",
+    "noAnswer1": "Birlashtirish",
+    "noAnswer2": "Ongini egallash",
+    "noAnswer3": "Boshqarish"
   },
   {
-    "question": "Biznes reja quyidagi asosiya vazifani bajaradi",
-    "noAnswer1": "Maqsadni amalga oshirish vositalari majmuasi",
-    "noAnswer2": "Havf-xatarni kamaytirish",
-    "answer": "Biznesni amalga oshirish konsepsiyasi",
-    "noAnswer3": "Korxona faoliyatini davom ettirish"
+    "question": "“Messiya” - so‘zining ma’nosi nima?",
+    "answer": "Xaloskor",
+    "noAnswer1": "Payg‘ambar",
+    "noAnswer2": "Elchi",
+    "noAnswer3": "Qo‘shiqchi"
   },
   {
-    "question": "Ko‘rsatkichlar quyidagi talablarga javob berishi lozim",
-    "noAnswer1": "Faqat miqdoriy tavsifga ega bo‘lishi",
-    "answer": "Ishonchlilik va o‘lchov hususiyatiga ega bo‘lishi",
-    "noAnswer2": "Faqat sifat tasnifga ega bo‘lishi",
-    "noAnswer3": "Jarayonning ijtimoiy va iqtisodiy jihatlarini tafsiflashi"
+    "question": "Hijrat qachon amalga oshgan?",
+    "answer": "622-yili",
+    "noAnswer1": "632- yilli",
+    "noAnswer2": "609- yili",
+    "noAnswer3": "605-yili"
   },
   {
-    "question": "Material resurslardan foydalanish koeffitsienti qanday aniqlanadi?",
-    "noAnswer1": "Detal og‘irligini yarim tayyor mahsulot og‘irligiga nisbati orqali",
-    "noAnswer2": "Sotilayotgan chiqindilarning miqdorini sotilayotgan chiqindilar qiymati nisbati orqali",
-    "answer": "Haqiqiy material resurslari sarfini material sarfi normasiga nisbati orqali",
-    "noAnswer3": "Yillik ishlab chiqarish hajmini o‘rtacha quvvatga nisbati orqali"
+    "question": "Diniy tashkilot ta’rifining aniqlang.",
+    "answer": "ma’lum dinga ishonuvchilar va ularning jamoalarining  uyushmasidir.",
+    "noAnswer1": "diniy aqidalarni va konsepsiyalarni fan-texnika va ijtimoiy hayotdagi o‘zgarishlarga qarab rad etuvchi tashkilot",
+    "noAnswer2": "o‘z maqsad yo‘lida qar qanday keskin tadbir choralar ko‘ruvchi tashkilot",
+    "noAnswer3": "o‘z fikrini boshqalarga zo‘ravonlik bilan o‘tkazuvchi tashkilot"
   },
   {
-    "question": "Jihozlardan intensiv foydalanish koeffitsienti mohiyatini …",
-    "noAnswer1": "Jihozning ish vaqtidan foydalanish darajasini ifodalash tashkil etadi",
-    "noAnswer2": "Jihoz samaradorligidan foydalanish darajasini ifodalash tashkil etadi",
-    "noAnswer3": "Jihoz sonidan foydalanish darajasini ifodalash tashkil etadi",
-    "answer": "Jihozning soatlik unimdorligidan foydalanish darajasini ifodalash tashkil etadi"
+    "question": "Fuqarolarning dinga e’tiqod qilish yoki e’tiqod qilmaslikni mustaqil hal qilishlari qanday ataladi?",
+    "answer": "vijdon erkinligi",
+    "noAnswer1": "burch erkinligi",
+    "noAnswer2": "qadriyat erkinligi",
+    "noAnswer3": "fikr erkinligi"
   },
   {
-    "question": "Ro‘yxatdagi ishchilar soni bilan haqiqiy ishchilar soni orasidagi farq.............",
-    "noAnswer1": "Ishkuni davomida yuz beradigan tashkiliy-texnik tanaffuslar hisobiga yuzaga keladi",
-    "noAnswer2": "Ishchilarning ishga sababsiz kelmagan kunlari hisobiga yuzaga keladi",
-    "noAnswer3": "Doimiy va mavsumiy ishlarga jalb qilingan ishchilar soni orasidagi farqdir",
-    "answer": "Imtiyozli ruxsat etilgan ishga chiqmaslik kunlari hisobiga yuzaga keladi"
+    "question": "Dinlar tasnifiga ko‘ra quyidagilarga bo‘linadi?",
+    "answer": "Urug‘ – qabila, millat va jahon dinlari",
+    "noAnswer1": "Monoteistik va qabila dinlari",
+    "noAnswer2": "Ibtidoiy dinlar va jahon dinlari",
+    "noAnswer3": "Millat va jahon dinlari"
   },
   {
-    "question": "Ishlab chiqarishning asosiy omillari:",
-    "answer": "ishchi kuchi, kapital, yer va tadbirkorlik qobiliyati.",
-    "noAnswer1": "xom-ashyo va ishlab chiqarish texnologiyasi",
-    "noAnswer2": "ishlab chiqarish resurslari",
-    "noAnswer3": "Kapital"
+    "question": "Jahon dinlarining xronologik jihatdan paydo bo‘lishi quyidagi qaysi javobda to‘g‘ri ko‘rsatilgan?",
+    "answer": "Buddaviylik, xristianlik, islom",
+    "noAnswer1": "Xristianlik, buddaviylik, islom",
+    "noAnswer2": "Islom, xristianlik, buddaviylik",
+    "noAnswer3": "Buddaviylik, islom, xristianlik"
   },
   {
-    "question": "Ehtiyoj - bu........",
-    "noAnswer1": "ishlab chiqarish jarayoni",
-    "answer": "hayotiy vositalarga bo‘lgan zaruriyat.",
-    "noAnswer2": "iste’mol jarayonida qo‘llanilishi mumkin bo‘lgan vosita",
-    "noAnswer3": "resurs"
+    "question": "Qaysi dinda taqvodorlikning belgisi sifatida “Chorvaga, oilaga ega bo‘lish va don ekishdir” deyilgan?",
+    "answer": "Zardushtiylikda",
+    "noAnswer1": "Nasroniylikda",
+    "noAnswer2": "Islomda",
+    "noAnswer3": "Buddaviylikda"
   },
   {
-    "question": "Iqtisodiyotning bosh masalasi va doimiy muammosi:",
-    "noAnswer1": "ishlab chiqarish hajmini oshirish uchun qancha ishchi kuchi sarflash kerak",
-    "answer": "nima, qanday, qancha va kim uchun ishlab chiqarish.",
-    "noAnswer2": "davlatning milliy daromadini qanday oshirish mumkin",
-    "noAnswer3": "aholi bandligini oshirish"
+    "question": "Qaysi muqaddas kitobda tuproq, suv, havo, olov muqaddaslashtirilgan?",
+    "answer": "Avesto",
+    "noAnswer1": "Qur’oni Karim",
+    "noAnswer2": "Injil",
+    "noAnswer3": "Tavrot"
   },
   {
-    "question": "Kreditlar – bu",
-    "answer": "pul vositalarini tovar va xizmatlarga to‘lov, qaytarib berish sharti bilan noma’lum muddatga\r\nqarz berish.",
-    "noAnswer1": "ssuda fondini shakllantirish va undan foydalanish munosabatlari",
-    "noAnswer2": "qarz berish jarayonlarida qarz beruvchi va qarzdor o‘rtasidagi amalga oshiriladigan harakat",
-    "noAnswer3": "tovar va xizmatlarga naqd pulsiz shaklda hisob – kitob qilish uchun bank tomonidan beriladigan\r\nmoliyaviy xujjat"
+    "question": "Imom al-Buxoriy (810-870) to‘plagan sahiyh hadislarining soni nechta?",
+    "answer": "7275 ta",
+    "noAnswer1": "7200 ta",
+    "noAnswer2": "7280 ta",
+    "noAnswer3": "7285 ta"
   },
   {
-    "question": "Korxonaning ishlab chiqarish hajmi 7000 dona mahsulotni tashkil qiladi. Ishchilarning o‘rtacha\r\nro‘yxatdagi soni 200 kishi bo‘lib, ishlab chiqarish hajmini 15% ga oshirish ko‘zda tutiladi. Reja yili\r\nuchun ishchilar soni quyidagiga teng bo‘ladi:",
-    "noAnswer1": "240 kishi",
-    "noAnswer2": "250 kishi",
-    "answer": "230 kishi",
-    "noAnswer3": "210 kishi"
+    "question": "Diniy bag‘rikenglik bu…",
+    "answer": "Barcha dinlarga sabr-toqat, hurmat bilan munosabatda bo‘lish",
+    "noAnswer1": "Diniy hamkorlik barcha muammoni yechadi",
+    "noAnswer2": "Hamma diniy qoidalar asosli degani",
+    "noAnswer3": "Dunyoviy haqiqatlarga amal qilish"
   },
   {
-    "question": "Iste’molchilik krediti – bu",
-    "noAnswer1": "kreditning asosiy va yetakchi shakli",
-    "noAnswer2": "korxonalar va birlashmalar hamda boshqa xo‘jalik yurutuvchi sub’ektlarning bir – biriga\r\nberadigan krediti",
-    "answer": "xususiy shaxslarga iste’mol tovarlari sotib olish uchun ma’lum muddatga beriladigan kredit.",
-    "noAnswer3": "ko‘chmas mulklar hisobiga uzoq muddatli ssudalar shaklida beriladigan kredit"
+    "question": "Konstitutsiyamizning nechanchi moddasida “…milliy va diniy belgilariga ko‘ra siyosiy partiyalarning, harbiylashtirilgan birlashmalarning tashkil etilishi va faoliyati taqiqlanadi” ?",
+    "answer": "71- moddasida",
+    "noAnswer1": "51 - moddasida",
+    "noAnswer2": "50 - moddasida",
+    "noAnswer3": "58 – moddasida"
   },
   {
-    "question": "Pul mablag‘larini to‘plash, joylashtirish va ularning harakatini tartibga solish bilan\r\nshug‘ullanuvchi iqtisodiy muassasa .....",
-    "noAnswer1": "tovarlar birjasi",
-    "noAnswer2": "mehnat birjasi",
-    "noAnswer3": "chakana savdo tashkiloti",
-    "answer": "bank."
+    "question": "Diniy tashkilotlarning markaziy boshqaruv organlarini qaysi vazirlik tomonidan ro‘yxatga olinadi?",
+    "answer": "O‘zbekiston Respublikasi Adliya Vazirligi",
+    "noAnswer1": "O‘zbekiston Respublikasi Oliy va O‘rta ta’lim Vazirligi",
+    "noAnswer2": "O‘zbekiston Respublikasi Vazirlar mahkamasi",
+    "noAnswer3": "O‘zbekiston Respublikasi Bosh Prokuraturasi"
   },
   {
-    "question": "Korxonaning ro‘yxatdagi ishlovchilar soni quyidagilardan tarkib topadi:",
-    "noAnswer1": "1 kun muddat bilan doimiy va vaqtinchalik ishlarga qabul qilingan xodimlar",
-    "noAnswer2": "Qabul qilingan xodimlar doimiy va mavsumiy ishlarga qabul qilingan xodimlar",
-    "answer": "1 kun va undan ko‘proq muddatga doimiy va vaqtinchalik ishlarga",
-    "noAnswer3": "Qabul qilingan xodimlar doimiy va mavsumiy ishlarga qabul qilingan xodimlar va 1 kun muddat\r\nbilan doimiy va vaqtinchalik ishlarga qabul qilingan xodimlar"
+    "question": "Yаxudiylarning “poklanish kuni” bayramini aniqlang.",
+    "answer": "yom kippur",
+    "noAnswer1": "shabat",
+    "noAnswer2": "rash-hashana",
+    "noAnswer3": "purim"
   },
   {
-    "question": "Texnologik jihatdan o‘xshash ishlab chiqarishning birlashuvi – bu",
-    "noAnswer1": "Iqtisodiy rivojlanish",
-    "answer": "Iqtisodiy o‘sish",
-    "noAnswer2": "Ishlab chiqarish strategiyasi",
-    "noAnswer3": "Ishlab chiqarish taktikasi"
+    "question": "Hinduiylik ta’limotiga ko‘ra jamiyat nechta kastaga bo‘linadi?",
+    "answer": "4 ta",
+    "noAnswer1": "5 ta",
+    "noAnswer2": "3 ta",
+    "noAnswer3": "2 ta"
   },
   {
-    "question": "Giperinflyatsiya – bu",
-    "answer": "narxning shiddat bilan o‘sishi, pul qadrining juda tezlik bilan pasayishi.",
-    "noAnswer1": "qtisodiy tanglik va ishsizlikning birgalikda yuz berishi",
-    "noAnswer2": "eski pulning qadri yuqori qilib belgilangan, ammo nomi eskicha qolgan yangi pulga ma’lum\r\nnisbatda almashtirib va nisbatga qarab narxlarni ham o‘zgartirish tushuniladi",
-    "noAnswer3": "pulning yuridik kuchini bekor qilish va yangi pul chiqarish tushuniladi"
+    "question": "Konfutsiychilikning bosh xudosi nima?",
+    "answer": "Osmon xudosi",
+    "noAnswer1": "Yer xudosi",
+    "noAnswer2": "Momoqaldiroq xudosi",
+    "noAnswer3": "Suv xudosi"
   },
   {
-    "question": "Samaradorlik mezoni qanday ko‘rsatkichlar bilan ifodalanadi?",
-    "noAnswer1": "Sof diskontlangan daromad (SDD) yalpi milliy daromad (YaMD) Yalpi ichki mahsulot (YaIM)\r\ndaromadlik indeksi (DI)",
-    "noAnswer2": "Sof milliy mahsulot (SMM) yalpi milliy mahsulot (YaMM) milliy daromad (ME)",
-    "answer": "Sof diskontlangan daromad (SDD) daromadlilik indeksi (DI), qoplash muddati",
-    "noAnswer3": "Baho indeksi (BI), daromadlilik indeksi (DI) koplash muddatining, ichki daromadlilik normasi\r\n(IDN)"
+    "question": "Muso payg‘ambarga Yaxve tomonidan nechta lavha tushirilgan?",
+    "answer": "10 ta",
+    "noAnswer1": "5 ta",
+    "noAnswer2": "11 ta",
+    "noAnswer3": "15 ta"
   },
   {
-    "question": "Bozor sharoitida qanday ko‘rsatkich umum qabul qilingan samaradorlik mezoni bo‘lib\r\nhisoblanadi?",
-    "noAnswer1": "Dividend",
-    "noAnswer2": "Baho",
-    "noAnswer3": "Zarar",
-    "answer": "Maksimal foyda"
+    "question": "Musulmonlar e’tiqodicha, xudo tomonidan Dovud  payg‘ambarga yuborilgan muqaddas kitob?",
+    "answer": "Zabur",
+    "noAnswer1": "Tavrot",
+    "noAnswer2": "Talmud",
+    "noAnswer3": "Qur’oni Karim"
   },
   {
-    "question": "Inflyatsiya – bu",
-    "answer": "muomaladagi pul massasining tovarlar massasidan ustunligi natijasida tovarlar bilan\r\nta’minlangan pullarni ko‘payib ketishi.",
-    "noAnswer1": "milliy pul birligi qiymatining rasmiy tartibda pasaytirilishi",
-    "noAnswer2": "milliy pul birligi qiymatining rasmiy tartibda ko‘tarilishi",
-    "noAnswer3": "eksportni importga nisbatan nihoyatda ortib ketishi"
+    "question": "Braxmanizm dinining vatani qaysi?",
+    "answer": "Hindiston",
+    "noAnswer1": "Xitoy",
+    "noAnswer2": "Yaponiya",
+    "noAnswer3": "Eron"
   },
   {
-    "question": "Jihozlardan ekstensiv foydalanish koeffitsienti mohiyatini…",
-    "noAnswer1": "jihozning soatlik unimdorligidan foydalanish darajasini ifodalash tashkil etadi",
-    "noAnswer2": "jihoz samaradorligidan foydalanish darajasini ifodalash tashkil etadi",
-    "answer": "jihozning ish vaqtidan foydalasnish darajasini ifodalash tashkil etadi",
-    "noAnswer3": "jihoz sonidan foydalanish darajasini ifodalash tashkil etadi"
+    "question": "Islоmgаchа milliy mа’nаvyatimizning tаriхiy vа g‘оyaviy nеgizini quyidаgilаr tаshkil etаdi:",
+    "noAnswer1": "Аrхеоlоgik vа аntrоpоlоgik tоpilmаlаr.",
+    "noAnswer2": "Tоsh bitiklаr, аrхеоlоgik tоpilmаlаr, diniy kitоblаr.",
+    "noAnswer3": "Yozmа yodgоrliklаr, etnоgrаfik mа’lumоtlаr, аrхеоlоgik yodgоrliklаr.",
+    "answer": "Хаlq оg’izаki ijоdi nаmunаlаri, Zаrdushtiylik dini vа “Аvеstо”, etnоgrаfik mа’lumоtlаr."
   },
   {
-    "question": "Pul muomalasi – bu",
-    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
-    "answer": "pulning o‘z vazifasini bajarish jarayonidagi to‘xtovsiz harakati.",
-    "noAnswer2": "pul mablag‘larini ssuda fondi shaklida to‘lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
-    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+    "question": "Iso Masih qayerda yashab o‘tgan?",
+    "answer": "Falastin",
+    "noAnswer1": "Hindiston",
+    "noAnswer2": "Xitoy",
+    "noAnswer3": "Suriya"
   },
   {
-    "question": "Biznes rejaning qaysi bo‘limi boshqa bo‘limlarni shakllantirish uchun asos bo‘lib xizmat qiladi –",
-    "noAnswer1": "Biznesni ifodalash",
-    "noAnswer2": "Ishlab chiqarish rejasi",
-    "answer": "Marketing rejasi",
-    "noAnswer3": "Moliyaviy reja"
+    "question": "“Tavrot” nechta kitoblarga bo‘linadi?",
+    "answer": "5 ta",
+    "noAnswer1": "3 ta",
+    "noAnswer2": "2 ta",
+    "noAnswer3": "4 ta"
   },
   {
-    "question": "Mahsulot tavsifida asosiy e’tibor quyidagiga qaratiladi",
-    "noAnswer1": "Mahsulotning boshqa mahsulotdan farq qiluvchi jihatlariga",
-    "noAnswer2": "Mahsulot sifati jihatidan farq qiluvchi jihatlariga)",
-    "noAnswer3": "Mahsulot narxi jihatidan farq qiluvchi jihatlariga",
-    "answer": "Mahsulotning raqobatchi mahsulotdan farq qiluvchi jihatlariga"
+    "question": "Islom tarixidagi birinchi muqaddas jang...",
+    "answer": "Badr g‘azoti",
+    "noAnswer1": "Uhud g‘azoti",
+    "noAnswer2": "Tobuk g‘azoti",
+    "noAnswer3": "Xandaq jangi"
   },
   {
-    "question": "Nazariy quvvat –bu ?",
-    "answer": "Korxona jihozlari pasportidagi ishlab chiqarish imkoniyati",
-    "noAnswer1": "Korxonaning ish sharoitini e’tiborga olgan xoldagi mahsulot ishlab chiqarish imkoniyati",
-    "noAnswer2": "Normal ish sharoitidagi mahsulot ishlab chiqarish imkoniyati",
-    "noAnswer3": "Mavjud shart-sharoitlardagi mahsulot ishlab chiqarish imkoniyati"
+    "question": "Qur’oni Karimdagi eng katta suraning nomi...?",
+    "answer": "Baqara",
+    "noAnswer1": "A’rof",
+    "noAnswer2": "Naxl",
+    "noAnswer3": "Luqmon"
   },
   {
-    "question": "Amaliy quvvat –bu?",
-    "noAnswer1": "Mavjud shart-sharoitlardagi mahsulot ishlab chiqarish imkoniyati",
-    "noAnswer2": "Korxona jihozlari pasportidagi ishlab chiqarish imkoniyati",
-    "answer": "Korxonaning ish sharoitini e’tiborga olgan xoldagi mahsulot ishlab chiqarish imkoniyati",
-    "noAnswer3": "Ideal ish sharoitidagi mahsulot ishlab chiqarish imkoniyati"
+    "question": "Hadis ilmining sultoni – Imom al- Buxoriy tavalludining 1225 yilligi qachon mamlakatimizda keng nishonlandi?",
+    "answer": "1998 yil",
+    "noAnswer1": "1993 yil",
+    "noAnswer2": "1996 yil",
+    "noAnswer3": "1994 yil"
   },
   {
-    "question": "Rejalashatirish jarayoni-bu …",
-    "noAnswer1": "Korxona faoliyatini belgilash jarayoni",
-    "answer": "Rejani ishlab chiqish jarayoni",
-    "noAnswer2": "Korxona maqsadini amalga oshirish jarayoni",
-    "noAnswer3": "Korxona resurslaridan foydalanishni belgilash jarayoni"
+    "question": "Muhammad (s. a. v.)ga dastlabki vahiy kela boshlaganida ular necha yoshda edi?",
+    "answer": "40 yosh",
+    "noAnswer1": "35 yosh",
+    "noAnswer2": "25 yosh",
+    "noAnswer3": "63 yosh"
   },
   {
-    "question": "Rejalashtirish jarayoni obyekti – bu…",
-    "noAnswer1": "Korxonaning mehnat va moddiy resurslari",
-    "noAnswer2": "Korxonaning iqtisodiy salohiyati",
-    "noAnswer3": "Korxonaning ishlab chiqarish bo‘limlari",
-    "answer": "Korxona va uning ishlab chiqarish jarayoni"
+    "question": "Shariat – so‘zining lug‘aviy ma’nosi…?",
+    "answer": "arabcha, to‘g‘ri yo‘l",
+    "noAnswer1": "arabcha, guvoh",
+    "noAnswer2": "arabcha, guruh, tarafdorlar",
+    "noAnswer3": "arabcha, ajrash"
   },
   {
-    "question": "«Rezyume» bo‘limining asosiy maqsadi nimada?",
-    "answer": "Ish taklifining qisqa mazmunini berilishi",
-    "noAnswer1": "Mahsulot va xizmat turini aniqlash",
-    "noAnswer2": "Ishlab chiqarilayotgan mahsulot iste’molchilarini aniqlash",
-    "noAnswer3": "Korxona joylashgan o‘rnini belgilash"
+    "question": "“Hadis” so‘zining lug‘aviy ma’nosi nima?",
+    "answer": "yangi, xabar, xikoya",
+    "noAnswer1": "kitob, mutolaa",
+    "noAnswer2": "eski, so‘z, xabar",
+    "noAnswer3": "yangi, mutolaa, xabar"
   },
   {
-    "question": "Yirik korxonalar uchun biznes reja necha bo‘limdan iborat bo‘ladi – …",
-    "noAnswer1": "8",
-    "answer": "10",
-    "noAnswer2": "3",
-    "noAnswer3": "5"
+    "question": "Mashhur “Al-Jome’ as-sahih” asarini muallifi kim?",
+    "answer": "Imom al-Buxoriy",
+    "noAnswer1": "Ahmad YAssaviy",
+    "noAnswer2": "Najmiddin Kubro",
+    "noAnswer3": "Imom at-Termiziy"
   },
   {
-    "question": "Kichik korxonalar uchun tuzilgan biznes reja necha bo‘limdan iborat bo‘ladi – …",
-    "noAnswer1": "8",
-    "noAnswer2": "3",
-    "answer": "5",
-    "noAnswer3": "10"
+    "question": "XII asrda Xorazmda tasavvuf ilmining asoschisi kim?",
+    "answer": "Najmiddin Kubro",
+    "noAnswer1": "Ahmad Yassaviy",
+    "noAnswer2": "Bahouddin Naqshband",
+    "noAnswer3": "Muhammad Muso al -Xorazmiy"
   },
   {
-    "question": "Biznes reja qaysi funksiyalarni bajaradi?",
-    "answer": "Korxona strategiyasini amalga oshirish, mablag‘larni jalb qilish",
-    "noAnswer1": "Korxona taktikasini amalga oshirish, pul oqimlarini boshqarish",
-    "noAnswer2": "Rivojlanish yo‘nalishlarini son va sifatda tasvirlash",
-    "noAnswer3": "Harakatlar dasturini shakllantirish va yo‘naltirish"
+    "question": "Mazhab so‘zining lug‘aviy ma’nosi...",
+    "answer": "Oqim, yo‘l, ta’limot",
+    "noAnswer1": "G‘ayrat, poklik, yo‘nalish",
+    "noAnswer2": "Komillik, kamtarlik, baho",
+    "noAnswer3": "Qism, bo‘lak, yo‘nalish"
   },
   {
-    "question": "Tovarni tarqatishni taktikasini nimadan boshlash zarur?",
-    "noAnswer1": "Mijozlarga axborot berishdan",
-    "noAnswer2": "Mijozlarni tahlil qilishdan",
-    "noAnswer3": "Maqsadli bozorni aniqlashdan",
-    "answer": "Sotish usullarini tasvirlashdan"
+    "question": "So’fizm ta`limoti qachon paydo bo’lgan?",
+    "answer": "VIII- IX asrlarda",
+    "noAnswer1": "VIII asr o’rtalarida",
+    "noAnswer2": "II asr II yarmida",
+    "noAnswer3": "X-XI asrlarda"
   },
   {
-    "question": "Davlat byudjeti nima?",
-    "noAnswer1": "pul mablag‘larini jamg‘aruvchi fond",
-    "noAnswer2": "pul mablag‘larining ma’lum yo‘nalishlar bo‘yicha taqsimlanishi",
-    "noAnswer3": "umumjamiyat miqyosida markazlashgan holda pul mablag‘larining sarflanishi",
-    "answer": "umumjamiyat miqyosida markazlashgan holda davlat ishtirokida to‘planadigan va\r\nsarflanadigan moliyaviy resurslar."
+    "question": "Alloh tomonidan alohida kitob va shariat berilgan payg’ambarlar, rasullar darajasiga erishganlar bu…",
+    "answer": "Ibrohim, Muso, Iso, Muhammad",
+    "noAnswer1": "Iso, Muso, Ibrohim, Ya’qub",
+    "noAnswer2": "Iso, Yakub, Muhammad",
+    "noAnswer3": "Dovud, Ibrohim, Iso, Ismoil"
   },
   {
-    "question": "Tadbirkorlik obyektiga yoki xo‘jalik obyektiga ilmiy texnika taraqqiyoti yutuqlari doirasida\r\nzaruriy innovatsiyalarni, o‘zgarishlarni kiritish – bu",
-    "answer": "Iqtisodiy rivojlanish",
-    "noAnswer1": "Ishlab chiqarish strategiyasi",
-    "noAnswer2": "Iqtisodiy o‘sish",
-    "noAnswer3": "Ishlab chiqarish taktikasi"
+    "question": "“Avesto” – yozuvi va matnini o’qib, tahlil qilgan olimlar?",
+    "answer": "Dyuperon va M. Boys",
+    "noAnswer1": "Grotefond va Roulinson",
+    "noAnswer2": "Bertels va V.Struve",
+    "noAnswer3": "V. Livshis va A. Stoblin – kamenskiy"
   },
   {
-    "question": "Yalpi foyda salmog‘i qanday aniqlanadi?",
-    "noAnswer1": "umumiy sotuv hajmi/umumiy yalpi foyda",
-    "noAnswer2": "umumiy yalpi foyda * umumiy sotuv hajmi",
-    "answer": "umumiy yalpi foyda/umumiy sotuv hajmi",
-    "noAnswer3": "umumiy yalpi foyda - umumiy sotuv hajmi"
+    "question": "Hadis necha xil?",
+    "answer": "Al-hadis Al-qudsiy, al-xadis an - Nabaviy",
+    "noAnswer1": "Al-hadis as-Sahiy al-hadid an-Muhammadiy",
+    "noAnswer2": "As-Sahih as-Sitta, Sahihiy Buhoriy",
+    "noAnswer3": "sahihi Muslim, Al-Jomiy"
   },
   {
-    "question": "Texnik- iqtisodiy rejalashtirish -",
-    "answer": "Korxonaning barcha iqtisodiy va moliyaviy ko‘rsatkichlarini aniqlash, iqtisodiy resurslarni\r\ntanlash va ular bo‘yicha normalarni belgilashni ko‘zda tutadi",
-    "noAnswer1": "Korxona bozorga qanday moslashishini va unga qanday ta’sir etishni ko‘zda tutadi",
-    "noAnswer2": "Mahsulotlarni ishlab chiqarish uchun qanday texnologiya qo‘llanilishi kerakligini ko‘zda tutadi",
-    "noAnswer3": "Korxonada qanday mahsulot ishlab chiqarish kerakligini ko‘zda tutadi"
+    "question": "«Hidoya» («To’gri yo’l») asari kimning qalamiga mansub?",
+    "answer": "Bahouddin Marg’inoniy;",
+    "noAnswer1": "Muso Xorazmiy;",
+    "noAnswer2": "Usmon Nosir;",
+    "noAnswer3": "Ishoqxon Ibrat."
   },
   {
-    "question": "Korxonada ichki rejalashtirishning qanday turlari qo‘llaniladi?",
-    "noAnswer1": "Strategik va normative",
-    "answer": "Operativ, taktik, strategik, normativ",
-    "noAnswer2": "Operativ, normativ, taktik, joriy",
-    "noAnswer3": "Operativ va taktik"
+    "question": "Zаrdo’shtiylik dinining fаlsаfiy – ахlоqiy nеgizini tаshkil etаdigаn, mа’nаviy qаdriyat bo’lmish аsоsiy g’оya qаysi?",
+    "noAnswer1": "Хаlоl mеhnаt ezgulikning аsоsi.",
+    "answer": "Ezgu fikr, ezgu kаlоm, ezgu аmаl birligi.",
+    "noAnswer2": "Tаqvоdоrlik kоmillikning pоydеvоri.",
+    "noAnswer3": "Hаmmаning dеhqоnchilik bilаn shug’ullаnshi shartligi."
   },
   {
-    "question": "Yangi va eski bozorlarda tovarlarni sotish hajmini ko‘paytirish bu-",
-    "noAnswer1": "Iqtisodiy rivojlanish",
-    "noAnswer2": "Ishlab chiqarish strategiyasi",
-    "answer": "Iqtisodiy o‘sish",
-    "noAnswer3": "Ishlab chiqarish taktikasi"
+    "question": "Milliy dinlarning asosiy xususiyatlari.",
+    "noAnswer1": "milliy davlat diniga aylanishga intilishda",
+    "answer": "bir millatga mansublikda",
+    "noAnswer2": "o’ziga xos urf-odatlarida",
+    "noAnswer3": "millatlarni birlashtirishda"
   },
   {
-    "question": "Maqsadga erishish vositalarini belgilash bu",
-    "noAnswer1": "Strategiya",
-    "noAnswer2": "Oddiy harakat",
-    "noAnswer3": "Foyda olish",
-    "answer": "Taktika"
+    "question": "Monotеistik dinlarning asosi-bu",
+    "noAnswer1": "tabiat hodisalariga sig’inish.",
+    "noAnswer2": "sanamlarga sig’inish.",
+    "answer": "yakka xudoga sig’inish",
+    "noAnswer3": "ajdodlar ruhiga sig’inish"
   },
   {
-    "question": "Tanlangan maqsad va qo‘llaniladigan usullariga ko‘ra rejalashtirish quyidagilarga bo‘linadi:",
-    "noAnswer1": "Texnik iqtisodiy va tashkiliy texnik",
-    "answer": "Texnik iqtisodiy va operativ ishlab chiqarish",
-    "noAnswer2": "Operativ ishlab chiqarish va umumlashtirilgan",
-    "noAnswer3": "Tashkiliy texnik va taktik"
+    "question": "Jaholatga qarshi kurashning quroli nima?",
+    "noAnswer1": "Jaholat;",
+    "answer": "Ma’rifat;",
+    "noAnswer2": "Saxovat;",
+    "noAnswer3": "Iqtisod."
   },
   {
-    "question": "Korxona faoliyatini boshqarish uslublarini tanlash bu...",
-    "noAnswer1": "Taktika",
-    "noAnswer2": "Oddiy harakat",
-    "answer": "Strategiya",
-    "noAnswer3": "Foyda olish"
+    "question": "Animizm nima?",
+    "noAnswer1": "sanamlarga sig‘inish",
+    "noAnswer2": "tabiy voqealarga sig‘inish",
+    "noAnswer3": "hayvonlarga sig‘inish",
+    "answer": "jism ruhlariga sig‘inish"
   },
   {
-    "question": "Strategik rejalashtirish –",
-    "noAnswer1": "Maqsad va vazifalarni, vositalarni ochiq va asoslangan tarzda belgilash ko‘zda tutadi",
-    "noAnswer2": "Korxonaning umumiy maqsadiga erishish usullarini tanlashdir",
-    "noAnswer3": "Avval belgilab qo‘yilgan maqsad va vazifalarni erishish yo‘llarini tanlashdan iboratdir",
-    "answer": "Korxonaning umumiy maqsadlarini belgilash va unga erishish usullarini tanlashdir."
+    "question": "Xristian dinining asosiy yo‘nalishlarini ko‘rsating.\r\n1.Katolitsizm 2.Iudizm 3.Pravoslaviye\r\n4.Sintoizm 5.Protestaitizm",
+    "noAnswer1": "1,2,4",
+    "noAnswer2": "2,4",
+    "noAnswer3": "1,2,3",
+    "answer": "1,3,5"
   },
   {
-    "question": "Pul muomalasi – bu",
-    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
-    "answer": "pulning o’z vazifasini bajarish jarayonidagi to’xtovsiz harakati.",
-    "noAnswer2": "pul mablag’larini ssuda fondi shaklida to’lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
-    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+    "question": "Hindiston milliy dini qaysi din?",
+    "noAnswer1": "buddizm",
+    "answer": "xinduizm",
+    "noAnswer2": "sintoizm",
+    "noAnswer3": "islom"
   },
   {
-    "question": "Pulning qaysi vazifasi boylik to’plash bilan bog’liq?",
-    "answer": "jamg’arma vositasi",
-    "noAnswer1": "muomala vositasi",
-    "noAnswer2": "to’lov vositasi",
-    "noAnswer3": "qiymat o’lchovi"
+    "question": "Iudaizmnig o’ziga xosligi?",
+    "noAnswer1": "Jahon dinligi",
+    "answer": "milliy dinligi",
+    "noAnswer2": "urug’- qabila dinligi",
+    "noAnswer3": "Jahon dinlariga o’xshashligida"
   },
   {
-    "question": "Pulning vazifasi nimadan iborat?",
-    "noAnswer1": "pul iste’moli bilan ijtimoiy talabga bo’lgan investitsiya omili",
-    "noAnswer2": "ijtimoiy taklif va almashuv uchun zarur bo’lgan miqdorni belgilaydigan kapital qiymatlar omili",
-    "noAnswer3": "daromadlar va xarajatlarni hisobga olish tizimi",
-    "answer": "yagona hisob – kitob yurgizish, almashuv, jamg’arma, muomila, to’lov vositasi vazifasini\r\nbajaradi"
+    "question": "Xitoy milliy dinlari qaysilar?",
+    "noAnswer1": "xristianlik",
+    "answer": "daosizm, konfutsiychilik",
+    "noAnswer2": "Hinduizm",
+    "noAnswer3": "sintoizm"
   },
   {
-    "question": "Pulning qaysi vazifasi narxning shakllanishi bilan bog’liq?",
-    "noAnswer1": "muomala vositasi",
-    "noAnswer2": "jamg’arma vositasi",
-    "answer": "qiymat o’lchovi",
-    "noAnswer3": "jahon puli"
+    "question": "Qur'onni birinchi bo’lib mushaf shakliga kеltirgan shaxs",
+    "noAnswer1": "Umar ibn Xattob",
+    "answer": "Usmon ibn Affon",
+    "noAnswer2": "Ali ibn Abu Tolib",
+    "noAnswer3": "Zayd ibn Sobit"
   },
   {
-    "question": "Ehtiyoj - bu........",
-    "answer": "hayotiy vositalarga bo’lgan zaruriyat",
-    "noAnswer1": "ishlab chiqarish jarayoni",
-    "noAnswer2": "iste’mol jarayonida qo’llanilishi mumkin bo’lgan vosita",
-    "noAnswer3": "resurs"
+    "question": "O’rta Osiyoda kеng tarqalgan suniylik oqimi…",
+    "noAnswer1": "imomiya",
+    "noAnswer2": "shofi'iya",
+    "answer": "xanafiya",
+    "noAnswer3": "alaviyiya"
   },
   {
-    "question": "Kapital - bu …",
-    "noAnswer1": "ishlab chiqarish jarayoni",
-    "noAnswer2": "iste’mol jarayonida qo’llanilishi mumkin bo’lgan vosita",
-    "answer": "investitsiyalashtirish yo‘li bilan daromad olish uchun foydalaniladigan mol-mulk, boylik yoki\r\nmablag‘",
-    "noAnswer3": "resurs"
+    "question": "E'tiqod erkinligi nima bilan kafolatlangan?",
+    "noAnswer1": "O’zbеkiston Rеspublikasi Vazirlar Maxkamasining qarori bilan",
+    "answer": "O’zbеkiston Rеspublikasi Konstitutsiyasi bilan",
+    "noAnswer2": "Movarounahr musulmonlari idorasi qaror qoidalari bilan",
+    "noAnswer3": "Adliya vazirligi qarorlari bilan"
   },
   {
-    "question": "Insoniy kapital - bu …",
-    "answer": "Har bir shaxs va mamlakat barcha aholisining intellekti, salomatligi, tabiiy iste’dodi va qo‘lga\r\nkiritgan qobiliyatlarining majmui",
-    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
-    "noAnswer2": "pul mablag’larini ssuda fondi shaklida to’lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
-    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+    "question": "Qur'ondagi eng kichik sura ?",
+    "answer": "«Kavsar»",
+    "noAnswer1": "«Ixlos»",
+    "noAnswer2": "«Baqara»",
+    "noAnswer3": "«Oli Imron»"
   },
   {
-    "question": "“Insoniy kapital” (human capital) tushunchasi qachon paydo bo‘lgan?",
-    "noAnswer1": "XIX asrning birinchi yarmida",
-    "noAnswer2": "XX asrning ikkinchi yarmida",
-    "answer": "XIX asrning ikkinchi yarmida",
-    "noAnswer3": "XX asrning birinchi yarmida"
+    "question": "Qur'ondagi birinchi sura?",
+    "noAnswer1": "«Ixlos»",
+    "noAnswer2": "«Baqara»",
+    "answer": "«Fotixa»",
+    "noAnswer3": "«Oli Imron»"
   },
   {
-    "question": "“Insoniy kapital” nazaryasi tarafdorlari kimlar?",
-    "noAnswer1": "Teodor Shuls, Gari Bekker",
-    "noAnswer2": "Gari Bekker va Saymon Kuzneslar",
-    "answer": "Teodor Shuls, Gari Bekker va Saymon Kuzneslar",
-    "noAnswer3": "Teodor Shuls"
+    "question": "Hazrati Muhammad (SAV) qachon tavallud topganlar?",
+    "answer": "570/571",
+    "noAnswer1": "592/593",
+    "noAnswer2": "622/622",
+    "noAnswer3": "575/576"
   },
   {
-    "question": "Insoniy naturaning har qanday xarakterli belgisi ….",
-    "answer": "iqtisodiy (jumladan, moliyaviy) mazmun (qiymat)ga egadir",
-    "noAnswer1": "jismoniy mazmunga egadir",
-    "noAnswer2": "ma'naviy mazmunga egadir",
-    "noAnswer3": "ijtimoiy mazmunga egadir"
+    "question": "Qaysi marosimni diniy marosim dеya olamiz?",
+    "noAnswer1": "to’y",
+    "noAnswer2": "oila shartnomasi",
+    "answer": "nikoh",
+    "noAnswer3": "beshik to’y"
   },
   {
-    "question": "Biz qabul qiladigan barcha qarorlarni nechta guruhga bo‘lish mumkin?",
-    "noAnswer1": "2",
-    "noAnswer2": "4",
-    "noAnswer3": "5",
-    "answer": "3"
+    "question": "Islomdagi sunniylik oqimining asosiy mazxab-yo’nalishlari",
+    "noAnswer1": "xanafiya, shofi'iylik, imomiya, moliykiylik",
+    "noAnswer2": "Xanafiy, vaxxobiylik, shofi'iy, xorijiylik",
+    "answer": "xanafiy, molikiya, shofi'iylik, xanbaliya",
+    "noAnswer3": "shofi'iy, molikiya, imomiya, xanbaliya"
   },
   {
-    "question": "Strategik menejment maktabi asoschilaridan biri bo‘lgan professor Genri Minsberg qarorlarni\r\nqanday atagan edi:",
-    "answer": "“oldin bajaraman”; “oldin ko‘raman”; “oldin o‘ylayman”.",
-    "noAnswer1": "“oldin o‘ylayman”; “oldin ko‘raman”; “oldin bajaraman”.",
-    "noAnswer2": "“oldin ko‘raman”; “oldin o‘ylayman”; “oldin bajaraman”.",
-    "noAnswer3": "“oldin ko‘raman”; “oldin bajaraman”; “oldin o‘ylayman”."
+    "question": "Diniy xodim dеganda kimni tushuniladi?",
+    "noAnswer1": "imom, monax, namozxon",
+    "noAnswer2": "mutavalli, da'vatchi, pastor",
+    "noAnswer3": "da'vatchi, namozxon, pastor",
+    "answer": "imom, pastor, еpiskop"
   },
   {
-    "question": "Qaror qabul qilishning nechta asosiy bosqichlari bor?",
-    "noAnswer1": "2",
-    "noAnswer2": "4",
-    "answer": "3",
-    "noAnswer3": "5"
+    "question": "Umuminsоniy qаdriyatlаrdаn biri hisoblangan – dinlаrаrо bаg’rikеnglik (tоlеrаntlik) bu ...",
+    "noAnswer1": "Bir dinning bоshqа dindаn ustunligini ko’rsаtish hаrаkаtlаri.",
+    "answer": "Turli diniy e’tiqоdli kishilаrning mа’lum bir hududdа hаmkоr vа hаmjihаt bo’lib yashashi.",
+    "noAnswer2": "Dinlаrаrо mutаnоsiblikni ilmiy yo’l bilаn qаrоr tоptirish.",
+    "noAnswer3": "Kuch ishlаtish yo’li bilаn o’zgаlаr dinigа hurmаt uyg’оtish."
   },
   {
-    "question": "Maqsadga erishish muddatini shartli ravishda bo‘lsa ham, nechta guruhga bo‘lish mumkin?",
-    "noAnswer1": "2",
-    "answer": "3",
-    "noAnswer2": "4",
-    "noAnswer3": "5"
+    "question": "Ma’lumki, Markaziy Osiyo va Hozirgi O‘zbekiston Hududida yashagan xalqlar sunniylikdagi Hanafiya Mazhabiga e’tiqod qilib, bu mazhabning asoschisi “Imomi A’zam” deb nomlangan “Imomi A’zam” so‘zi qanday ma’noni anglatadi?",
+    "noAnswer1": "Ilmli kishi",
+    "answer": "Ulug‘ imom",
+    "noAnswer2": "E’tiqod tayanchi",
+    "noAnswer3": "Imomlarning afzali"
   },
   {
-    "question": "Qisqa muddatli maqsadlar muddati qancha?",
-    "answer": "1 yilgacha",
-    "noAnswer1": "2 yilgacha",
-    "noAnswer2": "3 yilgacha",
-    "noAnswer3": "4 yilgacha"
+    "question": "Ma’lumki, dunyoda islom aqidaparastligining qator diniy – siyosiy oqimlari mavjud bo‘lib, mustaqillikdan so‘ng O‘zbekistondagi tinchlik barqarorlikka ularning qaysilari tahdid solishga harakat qilishdi?",
+    "noAnswer1": "Al – Qoida va Al – Jihad al - Islomiy",
+    "noAnswer2": "at – Takfir val – Hijra va Abu sayyoor",
+    "noAnswer3": "Xizbulloh va Lashkari jihod",
+    "answer": "Vahhobiylik va Hizbut tahrir"
   },
   {
-    "question": "Bizning qaramog‘i (mulki)mizda va o‘zining pulli qiymatiga ega bo‘lgan barcha narsalar nima\r\ndeyiladi?",
-    "noAnswer1": "passivlar",
-    "noAnswer2": "balans",
-    "noAnswer3": "Daromad",
-    "answer": "aktivlar"
+    "question": "“Musulmonlarning e’tiqodini tuzatuvchi” degan yuksak sharafga sazavor bo‘lgan alloma kim?",
+    "answer": "Imom Moturidiy",
+    "noAnswer1": "Imom Buxoriy",
+    "noAnswer2": "Imom Termiziy",
+    "noAnswer3": "Imom Nasafiy"
   },
   {
-    "question": "Shaxsiy moliya nuqtai-nazaridan aktivlarni, shartli ravishda, nechta kategoriya (toifa)ga bo‘lish\r\nmumkin?",
-    "noAnswer1": "3",
-    "noAnswer2": "4",
-    "answer": "2",
-    "noAnswer3": "5"
+    "question": "Axmad Yassaviy uyat va or-nomusini yo‘qotgan odamni nimaga o‘xshatadi?",
+    "noAnswer1": "Qushga",
+    "answer": "Hayvonga",
+    "noAnswer2": "Daraxtga",
+    "noAnswer3": "Texnikaga"
   },
   {
-    "question": "Shaxsiy moliya nuqtai-nazaridan aktivlarni qaysi kategoriyalarini bilasiz?",
-    "answer": "iste’moliy va investitsion",
-    "noAnswer1": "moliyaviy va iqtisodiy",
-    "noAnswer2": "iqtisodiy va ijtimoiy",
-    "noAnswer3": "iste’moliy va moliyaviy"
+    "question": "Dinning jamiatdagi “regulyatorlik» vazifasi nimadan iborat?",
+    "answer": "Din o`z qavmlarini turmushini nazorat qilishi",
+    "noAnswer1": "Dinni yoyish",
+    "noAnswer2": "Dinga majburlash",
+    "noAnswer3": "Tasalli berish"
   },
   {
-    "question": "Shaxsiy moliyada biz bajarishimiz lozim bo‘lgan\r\nmoddiy majburiyatlar nima deyiladi?",
-    "noAnswer1": "aktivlar",
-    "noAnswer2": "Balans",
-    "answer": "passivlar",
-    "noAnswer3": "daromad"
+    "question": "Dinshunoslik fanining predmeti?",
+    "answer": "Dinni xolislik asosida o`rganish",
+    "noAnswer1": "Dinni teologik jihatdan o`rganish",
+    "noAnswer2": "Faqat islom dinini o`rganish",
+    "noAnswer3": "Diniy ibodatlarni amalga oshirishni o`rganish"
   },
   {
-    "question": "Bu sizning shaxsiy xazinangiz (ixtiyoringiz)ga kelib tushadigan pullar.",
-    "noAnswer1": "xarajatlar",
-    "noAnswer2": "Byudjet",
-    "answer": "daromadlar",
-    "noAnswer3": "foyda"
+    "question": "Tаsаvvuf tа’limоti - insоn uchun eng kаttа yov, dеb nimаni tushunаdi?",
+    "noAnswer1": "Hur fikrlilikni.",
+    "noAnswer2": "Fаqirоnа hаyot kеchirishni.",
+    "noAnswer3": "Bоy – bаdаvlаt bo’lishni.",
+    "answer": "Nаfs bаlоsini."
   },
   {
-    "question": "Bu o‘z ehtiyojlaringizni qondirish uchun sarflayotgan pullaringiz.",
-    "answer": "xarajatlar",
-    "noAnswer1": "daromadlar",
-    "noAnswer2": "byudjet",
-    "noAnswer3": "zarar"
+    "question": "Taylor nechanchi yil «animizm» konsepsiyasini ilgari surdi?",
+    "answer": "1871-yilda",
+    "noAnswer1": "1868-yilda",
+    "noAnswer2": "1869-yilda",
+    "noAnswer3": "1880-yilda"
   },
   {
-    "question": "Bu ma’lum mo‘ljallangan vaqt davomida (masalan, oy, chorak, yarim yil yoki yil) rejalashtirilgan\r\ndaromadlaringiz va xarajatlaringiz ro‘yxati.",
-    "noAnswer1": "daromadlar",
-    "noAnswer2": "Xarajatlar",
-    "answer": "byudjet",
-    "noAnswer3": "mablag‘"
+    "question": "«Hujjatul islom” unvonini olgan olim?",
+    "answer": "G‘azzoliy",
+    "noAnswer1": "Farobiy",
+    "noAnswer2": "Beruniy",
+    "noAnswer3": "Ibn Sino"
   },
   {
-    "question": "Shaxsiy moliyaviy rejani ishlab chiqish nechta bosqichni o‘z ichiga oladi?",
-    "noAnswer1": "2",
-    "noAnswer2": "4",
-    "noAnswer3": "5",
-    "answer": "3"
+    "question": "«Shomon» so‘zining ma’nosi nima?",
+    "answer": "jazavali kishi",
+    "noAnswer1": "ruhoniy",
+    "noAnswer2": "Oqsoqol",
+    "noAnswer3": "Bashoratchi"
   },
   {
-    "question": "Daromad va iste’mol, ya’ni xarajatlarining bir-biriga muvofiq kelishiga qarab inson hayotini\r\nshartli ravishda nechta davrga bo‘lish mumkin?",
-    "noAnswer1": "2",
-    "noAnswer2": "3",
-    "answer": "4",
-    "noAnswer3": "5"
+    "question": "«Yahve» atamasi qaysi dinga oid?",
+    "answer": "yahudiylik",
+    "noAnswer1": "buddizm",
+    "noAnswer2": "xristianlik",
+    "noAnswer3": "Sintoizm"
   },
   {
-    "question": "Daromad va iste’mol, ya’ni xarajatlarining bir-biriga muvofiq kelishiga qarab inson hayotini\r\nshartli ravishda qanday davrlarga bo‘lish mumkin?",
-    "noAnswer1": "o‘smirlik, yetuklik, keksalik",
-    "noAnswer2": "yetuklik, keksalik",
-    "answer": "bolalik va yoshlik, o‘smirlik, yetuklik, keksalik",
-    "noAnswer3": "bolalik va yoshlik, o‘smirlik, yetuklik"
+    "question": "Qaysi dinlar milliy dinlardan hisoblanadi?",
+    "answer": "Hinduizm, jaynizm, sikxizm, konfusiychilik",
+    "noAnswer1": "Fetishizm, totemizm, anemizm",
+    "noAnswer2": "Buddizm, islom, xristianlik",
+    "noAnswer3": "Katolisizm, pravoslaviya, protestantlik, lyuteranlik"
   },
   {
-    "question": "Insonning hayotiy siklidan kelib chiqib, shaxsiy moliyaviy maqsadlarning nechta asosiy guruhga\r\najratish mumkin?",
-    "noAnswer1": "2",
-    "noAnswer2": "4",
-    "answer": "3",
-    "noAnswer3": "5"
+    "question": "Mus’haf nima?",
+    "answer": "Qur’on qadimiy qo‘lyozma nusxalarining umumiy nomi",
+    "noAnswer1": "qo‘lyozma yodgorliklar",
+    "noAnswer2": "Hadislarning qo‘lyozma nusxalari",
+    "noAnswer3": "to‘g‘ri javob yo‘q"
   },
   {
-    "question": "O‘z daromadlarimizni kapitalning qaysi turlarini shakllantirishga yo‘naltirishimiz kerak?",
-    "noAnswer1": "joriy; zahira; moliyaviy",
-    "noAnswer2": "bazaviy; zahira; investitsion",
-    "noAnswer3": "joriy; investitsion",
-    "answer": "joriy; zahira; investitsion"
+    "question": "Fransuzchada «but», «sanam», «tumor» – ma’nosini beruvchi,  jonsiz buyumlarda e’tiqod qilish, bu...?",
+    "answer": "fetishizm",
+    "noAnswer1": "shomonizm",
+    "noAnswer2": "totemizm",
+    "noAnswer3": "animism"
   },
   {
-    "question": "Tovarlar va xizmatlar bahosi umumiy darajasining oshish (o‘sish) jarayoni nima deyiladi.",
-    "noAnswer1": "bankrot",
-    "noAnswer2": "krizis",
-    "noAnswer3": "Defitsit",
-    "answer": "inflyatsiya"
+    "question": "Zаrdushtiylik dini insоniyat tаriхidа diniy e’tiqоd qаdriyatlаrini yuqоri bоsqichgа оlib chiqdi, ya’ni quyidаgi jаrаyonni bоshlаb bеrdi:",
+    "noAnswer1": "Pоlitеizmni.",
+    "noAnswer2": "Duаlizmni.",
+    "answer": "Mоnоtеizmni.",
+    "noAnswer3": "Pаntеizmni."
   },
   {
-    "question": "O‘zbekiston Respublikasi qonunchiligiga ko‘ra necha yoshga to‘lgan har bir fuqaro depozit\r\n(omonat) shartnomasini tuzishi (imzolashi) mumkin?",
-    "noAnswer1": "15",
-    "noAnswer2": "16",
-    "answer": "14",
-    "noAnswer3": "18"
+    "question": "Islom dini ta’limotida «vahiy» tushunchasi qanday talqin qilinadi?",
+    "answer": "Ilohiy ko‘rsatmalarni payg‘ambarga tushirish yo‘li",
+    "noAnswer1": "din asoschisini diniy ko‘rsatmalarni insoniyatga yetkazishi",
+    "noAnswer2": "dindor kishiga diniy ko‘rsatmalarni bajarishga bo‘lgan ilohiy ilhomi",
+    "noAnswer3": "Qur’oni karimning muqobil ma’nosi"
   },
   {
-    "question": "Pulni qanday shaklda to‘plash (yig‘ish, jamg‘arish) mumkin?",
-    "noAnswer1": "naqdina (naqd pulli)",
-    "noAnswer2": "Naqdsiz",
-    "answer": "naqdina (naqd pulli) va naqdsiz",
-    "noAnswer3": "plastik kartada"
+    "question": "O‘rta Osiyo nima uchun o‘rta asrlarda sharqning ma’naviyat markazi deb atalgan?",
+    "noAnswer1": "O’rta Osiyoda rivojlangan davlatlarning vujudga kelishi sababli.",
+    "answer": "O’rta Osiyoda buyuk mutafakkirlarning etishib chiqqanligi, ilm markazlari va madrasalarning vujudga kelishi , jahon fani va islomshunosligiga qo’shgan hissasi tufayli.",
+    "noAnswer2": "Qishloq xo’jaligi va hunarmandchilikning rivojlanganligi tufayli.",
+    "noAnswer3": "A, B, C."
   },
   {
-    "question": "Pulni to‘plash (yig‘ish, jamg‘arish)ning eng oddiy usuli –?",
-    "answer": "uyda naqdina (naqd pul)",
-    "noAnswer1": "bankda naqdina (naqd pul)",
-    "noAnswer2": "plastik kartada",
-    "noAnswer3": "naqdsiz"
+    "question": "Bag‘rikenglik manosini beruvchi so‘z?",
+    "answer": "tolerantlik",
+    "noAnswer1": "plyuralizm",
+    "noAnswer2": "polemika",
+    "noAnswer3": "fobiya"
   },
   {
-    "question": "Shaxsiy moliyada inflyatsiya, odatda, qanday o‘lchanadi (ifodalanadi)?",
-    "noAnswer1": "dollar kursiga qarab",
-    "noAnswer2": "narxlar oshishi orqali",
-    "noAnswer3": "pul banknotalar ko'payshi orqali",
-    "answer": "iste’mol baholari indeksi (IBI) orqali"
+    "question": "Zardushtiylik qachon vujudga kelgan?",
+    "answer": "m.a. 1-mingyillikning birinchi choragi",
+    "noAnswer1": "m.a. 2-mingyillikning ikkinchi choragi",
+    "noAnswer2": "m.a. 1-mingyillikning o‘rtalari",
+    "noAnswer3": "m.a. 2-mingyillikning to‘rtinchi choragi"
   },
   {
-    "question": "Bank qaysi funksiyalarni bajaradi?",
-    "noAnswer1": "1) pullarni qabul qiladi (oladi); 2) pullarni beradi.",
-    "answer": "1) pullarni qabul qiladi (oladi); 2) pullarni beradi; 3) hisob-kitob-kassa operatsiyalarini amalga\r\noshiradi.",
-    "noAnswer2": "1) pullarni qabul qiladi (oladi); 2) hisob-kitob-kassa operatsiyalarini amalga oshiradi.",
-    "noAnswer3": "1) pullarni beradi; 2) hisob-kitob-kassa operatsiyalarini amalga oshiradi."
+    "question": "Yahudiylikda diniy jamoat joylarini boshqaruvchi, yahudiylik ta’limoti va kultining bilimdoni qanday nomlanadi?",
+    "answer": "ravvin",
+    "noAnswer1": "yom kipur",
+    "noAnswer2": "rosh ashana",
+    "noAnswer3": "karaim"
   },
   {
-    "question": "Omonat (depozit)lar orqali fuqarolarning bo‘sh pul mablag‘larini to‘plovchi, ularni kreditlar\r\nberish yoki turli moliyaviy instrumentlarga (aksiya, obligatsiya va h.k.lar) investitsiyalab,\r\njoylashtiruvchi moliyaviy vositachi .......... deyiladi.",
-    "answer": "bank",
-    "noAnswer1": "xalq banki",
-    "noAnswer2": "diler",
-    "noAnswer3": "agent"
+    "question": "«Ahli sunna val-jamoa»da fiqhiy mazhablar qaysilar?",
+    "answer": "Hanafiylik, Molikiylik, Shofiiylik, Xanbaliy",
+    "noAnswer1": "Ash’ariylik, Molikiylik, Moturidiylik, Shialik",
+    "noAnswer2": "Zoxiriylik, Ash’ariylik, Shofiiylik, Xanafiylik",
+    "noAnswer3": "Xorijiya, Ash’ariylik, Mu’taziliya, Azraqiya"
   },
   {
-    "question": "Saqlash yoki foiz (daromad) olish uchun bank hisob- varag‘iga o‘tkazilgan pul mablag‘lari ...........\r\ndeb ataladi.",
-    "noAnswer1": "kredit",
-    "noAnswer2": "sug'urta",
-    "answer": "omonat",
-    "noAnswer3": "investitsiya"
+    "question": "Sunniylik yo‘nalishining aqidaviy ta’limoti qaysi ta’limotlarga asoslanadi?",
+    "noAnswer1": "Hanafiya, Shofi’iya",
+    "noAnswer2": "Ash’ariya, Mo’taziliya",
+    "answer": "Moturidiya, Ash’ariya",
+    "noAnswer3": "Moturidiya, Tahoviya"
   },
   {
-    "question": "Foizi bilan qaytarish sharti asosida ma’lum bir muddatga taqdim etilgan (berilgan) pul\r\nmablag‘lari ........... deyiladi.",
-    "noAnswer1": "omonat",
-    "noAnswer2": "sug'urta",
-    "answer": "kredit",
-    "noAnswer3": "investitsiya"
+    "question": "“Johiliya”so‘zining lug‘aviy ma’nosi nima?",
+    "noAnswer1": "Oqillik, donolik",
+    "noAnswer2": "Mayxo‘rlik, aqidaparastlik",
+    "answer": "Bilimsizlik, nodonlik",
+    "noAnswer3": "Qasoskorlik, riyokorlik"
   },
   {
-    "question": "- bu mijozlarning banklardagi pul mablag‘laridir",
-    "noAnswer1": "kredit",
-    "noAnswer2": "sug'urta",
-    "noAnswer3": "Investitsiya",
-    "answer": "depozit(omonat)"
+    "question": "Johiliya davridagi din va e’tiqodlar qaysilar?",
+    "answer": "Xristianlik, yahudiylik, sobiylik, majusiylik",
+    "noAnswer1": "Zardushtiylik, islom, xristianlik, butparastlik",
+    "noAnswer2": "Totemizm, fetishizm, shamanizm, animizm",
+    "noAnswer3": "Shamanlik, xristianlik, islom, buddizm"
   },
   {
-    "question": "– bu bank tomonidan qarz oluvchiga ma’lum muddat va ma’lum shartlarda pulni qarzga berish\r\nuchun ko‘rsatiladigan xizmatdir.",
-    "noAnswer1": "omonat",
-    "noAnswer2": "sug'urta",
-    "noAnswer3": "Investitsiya",
-    "answer": "bank krediti"
+    "question": "“Diniy tashkilotlar davlatdan ajratilgan hamda qonun oldida tengdirlar. Davlat diniy tashkilotlarning faoliyatiga aralashmaydi.” Ushbu so’zlar qaysi hujjatda joy olgan?",
+    "noAnswer1": "“Inson huquqlari umumjahon deklaratsiyasi”",
+    "noAnswer2": "“Vijdon erkinligi va diniy tashkilotlar to‘g‘risida”gi qonun",
+    "answer": "O’zbekiston Respublikasi Konstitutsiyasi",
+    "noAnswer3": "\"Bagʻrikenglik tamoyillari deklaratsiyasi\""
   },
   {
-    "question": "Kreditga tegishli bo‘lishi mumkin bo‘lgan asosiy tavsif (belgi)larni ko‘rsating.",
-    "noAnswer1": "Haqlilik, to‘lovlilik. Muddatlilik.",
-    "noAnswer2": "Muddatlilik. Kreditning qaytariluvchanligi.",
-    "noAnswer3": "Kreditning qaytariluvchanligi.",
-    "answer": "Haqlilik, to‘lovlilik. Muddatlilik. Kreditning qaytariluvchanligi."
+    "question": "Ma’lumotlarga ko‘ra, bugun dunyo bo‘yicha qanchaga yaqin terrorchilik tashkilotlari faoliyat ko‘rsatmoqda?",
+    "answer": "500",
+    "noAnswer1": "600",
+    "noAnswer2": "400",
+    "noAnswer3": "800"
   },
   {
-    "question": "– bu shunday prinsipdirki, unga ko‘ra pulning bir xildagi summasi turli davrning turli qismlarida\r\nturli qiymat (baho)ga ega bo‘ladi (xususan, inflyatsiya va turli risklar tufayli).",
-    "noAnswer1": "kreditning to‘liq qiymati",
-    "noAnswer2": "kredit summasi",
-    "answer": "pulning davriy qiymati",
-    "noAnswer3": "kredit muddati"
+    "question": "Diniy ekstremistik guruhlar tahdid solayotgan turli mamlakatlarni shartli tarzda bir necha guruhga bo‘lish mumkin. Shunday guruhlarning 3-o’chog’i hisoblangan Janubi-Sharqiy Osiyo mintaqasida joylashgan davlatlarni toping.",
+    "noAnswer1": "Xitoy, Mongoliya, Vyetnam, Yaponiya",
+    "noAnswer2": "Falastin, Iroq, Suriya, Saudiya Arabiston",
+    "noAnswer3": "Misr, Jazoir, Tunis",
+    "answer": "Pokiston, Indoneziya, Malayziya, Hindiston, Filippin"
   },
   {
-    "question": "Kredit mablag‘lari qaytarilishini qanday usullari bor?",
-    "answer": "annuitet va differensiatsiyalangan",
-    "noAnswer1": "annuitet",
-    "noAnswer2": "differensiatsiyalangan",
-    "noAnswer3": "tezkor"
+    "question": "O‘tgan asrning 70-yillaridan boshlab diniy ekstremizm va fundamentalizmning eng yirik o‘chog‘iga aylahgan hudud qaysi?",
+    "answer": "Afg‘oniston",
+    "noAnswer1": "Eron",
+    "noAnswer2": "Suriya",
+    "noAnswer3": "Pokiston"
   },
   {
-    "question": "– bu qarz oluvchi egalik qilayotgan yoki qarziy mablag‘lar hisobiga sotib olayotgan (masalan,\r\navtomobil yoki ko‘chmas mulk) mol-mulk bo‘lib, u kredit qaytarilmaganda sotilishi mumkin.",
-    "noAnswer1": "kafolat",
-    "noAnswer2": "ta'minot",
-    "noAnswer3": "sug'urta",
-    "answer": "garov"
+    "question": "Hasan al-Banno tomonidan 1928 yilda asos solingan tashkilot qaysi?",
+    "answer": "“Jamoat al-ixvon al-muslimin”",
+    "noAnswer1": "“Hizb at-tahrir al-islomiy”",
+    "noAnswer2": "“Al-Qoida”",
+    "noAnswer3": "“Tolibon”"
   },
   {
-    "question": "– uni shu yerning o‘zidayoq, “kassa oldidan ketmasdan” bir necha minut davomida\r\nrasmiylashtirib, summani olib, xaridni amalga oshirish mumkin.",
-    "answer": "mikroqarz",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta"
+    "question": "“Islom nizomi”, “Islom davlati”, “Xalifalik”, “Islomiy olamga qaynoq nidolar”, “Demokratiya – kufr nizomi” va “Siyosiy ong” kabi asarlarni ta’limoti asosiga olgan diniy ekstremistik guruh qaysi?",
+    "noAnswer1": "“Jamoat al-ixvon al-muslimin”",
+    "answer": "“Hizb at-tahrir al-islomiy”",
+    "noAnswer2": "“Al-Qoida”",
+    "noAnswer3": "“Tolibon”"
   },
   {
-    "question": "– xaridni ortga surish, iste’mol krediti uchun bankka murojaat qilish va faqat bir necha kun\r\no‘tgandan so‘ng xaridni amalga oshirish maqsadida do‘konga borsa bo‘ladi",
-    "noAnswer1": "mikroqarz",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta",
-    "answer": "iste’mol krediti"
+    "question": "Usoma bin Lodin qaysi diniy ekstremistik tashkilotning rahbari bo’lgan?",
+    "noAnswer1": "“Jamoat al-ixvon al-muslimin”",
+    "noAnswer2": "“Hizb at-tahrir al-islomiy”",
+    "answer": "“Al-Qoida”",
+    "noAnswer3": "“Tolibon”"
   },
   {
-    "question": "– qarz oluvchiga tadbirkorlik faoliyatini amalga oshirish uchun bazaviy hisoblash miqdorining\r\n1000 baravaridan oshmaydigan summada to‘lovlilik, muddatlilik va qaytarish shartlari asosida\r\nberiladigan pul mablag‘laridir.",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta",
-    "answer": "mikrokredit"
+    "question": "2001 yilning 11 sentabrida Amerika Qo‘shma Shtatlarida turli reyslar bilan Nyu-York, Boston va Vashington shaharlaridan uchgan to‘rtta “Boing–757” samolyoti qaysi guruhga mansub 18 nafar terrorchi tomonidan egallab olindi?",
+    "noAnswer1": "“Jamoat al-ixvon al-muslimin”",
+    "noAnswer2": "“Hizb at-tahrir al-islomiy”",
+    "answer": "“Al-Qoida”",
+    "noAnswer3": "“Tolibon”"
   },
   {
-    "question": "– mikromoliyaviy xizmatlar ko‘rsatuvchi tashkilot tomonidan lizing oluvchining topshirig‘iga\r\nbinoan uchinchi tarafdan mol-mulk olish hamda unga(dan) egalik qilish va foydalanish uchun\r\nlizing oluvchiga shartnomada belgilangan shartlar asosida haq evaziga berish nazarda\r\ntutiladigan xizmatdir.",
-    "answer": "mikrolizing",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta"
+    "question": "Lotincha – «aql bovar qilmas darajada», «haddan oshish»,  jamiyatda qabul qilingan qonun-qoidalarga zid radikal qarashlar va harakatlarni anglatadigan so’z qaysi?",
+    "answer": "Ekstremizm",
+    "noAnswer1": "Terrorizm",
+    "noAnswer2": "Fundamentalizm",
+    "noAnswer3": "Mutaassiblik"
   },
   {
-    "question": "Nechinchi yildan boshlab tijorat banklari ham aholiga mikroqarzlar berishga haqlidir?",
-    "noAnswer1": "2017",
-    "noAnswer2": "2019",
-    "answer": "2018",
-    "noAnswer3": "2020"
+    "question": "Lotincha – «asos», muayyan ijtimoiy hodisaning dastlabki ko‘rinishini anglatadigan so’z qaysi?",
+    "noAnswer1": "Ekstremizm",
+    "noAnswer2": "Terrorizm",
+    "answer": "Fundamentalizm",
+    "noAnswer3": "Mutaassiblik"
   },
   {
-    "question": "Kredit byurosi tomonidan kredit axboroti sub’ektiga nisbatan shakllantirilgan kredit axboroti\r\nmajmui …... deyiladi.",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "Kredit",
-    "answer": "kredit tarixi",
-    "noAnswer3": "sug'urta"
+    "question": "Arabcha – «g‘uluv ketish», «chuqur ketish», o‘z fikr-mulohaza va dunyoqarashi to‘g‘riligiga o‘ta qattiq ishonib, boshqa diniy e’tiqodlarga murosasiz munosabatda bo‘lishni anglatuvchi so’z qaysi?",
+    "answer": "Mutaassiblik",
+    "noAnswer1": "Aqidaparastlik",
+    "noAnswer2": "Ekstremizm",
+    "noAnswer3": "Terrorizm"
   },
   {
-    "question": "bu – salohiyatli qarz oluvchini balli baholashning avtomatlashtirilgan tizimidir.",
-    "answer": "skoring",
-    "noAnswer1": "iste’mol krediti",
-    "noAnswer2": "kredit",
-    "noAnswer3": "sug'urta"
+    "question": "Lotincha – «qo‘rqitish», «vahimaga solish» – aholining keng qatlamlarida vahima va qo‘rquv uyg‘otish, jamiyatda beqarorlik keltirib chiqarish orqali davlat hokimiyatini egallash maqsadiga qaratilgan jinoiy faoliyatdir.",
+    "noAnswer1": "Ekstremizm",
+    "answer": "Terrorizm",
+    "noAnswer2": "Fundamentalizm",
+    "noAnswer3": "Mutaassiblik"
   },
   {
-    "question": "Ekspress-kredit bizning bank amaliyotimizda qanday nom bilan mavjudligini e’tirof etish\r\nmumkin?",
-    "noAnswer1": "shoshilinch kredit",
-    "noAnswer2": "darkor kredit",
-    "answer": "tezkor kredit",
-    "noAnswer3": "vaqtli kredit"
+    "question": "Ushbu so’z o‘zbek tiliga aynan tarjima qilinganda «e’tiqod qilish», degan ma’noni anglatadi. Umuman olganda, muayyan diniy ta’limot doirasida shakllangan va o‘ziga xos xususiyatlarga ega e’tiqod va ushbu e’tiqodga ergashuvchilar jamoasi tushuniladi.",
+    "answer": "Konfessiya",
+    "noAnswer1": "Sekulyarizatsiya",
+    "noAnswer2": "Ekstremizm",
+    "noAnswer3": "Sekta"
   },
   {
-    "question": "... ya’ni oldingi (eski) kreditni qaytarish (uzish) uchun nisbatan yaxshiroq yoki qulayroq\r\nshartlarda yangi kredit olish.",
-    "noAnswer1": "qayta moliyalashtirish",
-    "noAnswer2": "kreditni moliyalashtirish",
-    "noAnswer3": "moliyalashtirish",
-    "answer": "kreditni qayta moliyalashtirish"
+    "question": "Mutaxassislar hozirgi kunda dunyoda taxminan qancha diniy konfessiyalar mavjud, deb hisoblaydilar?",
+    "answer": "1000dan ortiq",
+    "noAnswer1": "500dan ortiq",
+    "noAnswer2": "100dan ortiq",
+    "noAnswer3": "3000dan ortiq"
   },
   {
-    "question": "Hayot tajribasining ko‘rsatishicha, shaxsiy byudjetni shunday hisob- kitob qilish kerakki, unga\r\nko‘ra kredit bo‘yicha to‘lanmalarni amalga oshirishda har oylik daromadlarning necha foizdan\r\nko‘prog‘i sarf qilinmasligi lozim?",
-    "answer": "40,0%",
-    "noAnswer1": "30,0%",
-    "noAnswer2": "50,0%",
-    "noAnswer3": "60,0%"
+    "question": "Sun Myung Men tomonidan tuzilgan xristian cherkovi qaysi?",
+    "answer": "Birlashgan cherkov",
+    "noAnswer1": "Mormonlar",
+    "noAnswer2": "Serkov novogo zaveta",
+    "noAnswer3": "Yahve shohidlari"
   },
   {
-    "question": "Sotish kursi va sotib olish kursi o‘rtasidagi farq?",
-    "noAnswer1": "valyuta",
-    "noAnswer2": "depozit",
-    "noAnswer3": "Skoring",
-    "answer": "spred"
+    "question": "«Aum sinrikyo» -  Aum (sanskritcha «olam») haqiqati ta’limoti; ingliz tilida  «Supreme truth»,  ya’ni «oliy haqiqat» deb tarjima qilingan diniy, sinkretik, terroristik, ekstremistik, totalitar, destruktiv sekta qayerda vujudga keldi?",
+    "answer": "Yaponiya",
+    "noAnswer1": "Xitoy",
+    "noAnswer2": "Vyetnam",
+    "noAnswer3": "Tailand"
   },
   {
-    "question": "Bank yacheykalari …............ deb ham ataladi.",
-    "noAnswer1": "“omonat yacheyka”",
-    "noAnswer2": "“kredit yacheyka”",
-    "answer": "“depozitar yacheyka”",
-    "noAnswer3": "“valyuta yacheyka”"
+    "question": "Yerning Quyosh atrofida aylanishi haqidagi qarashlarni yoqlagani uchun cherkov tribunali tomonidan tavba qildirilib, o‘z qarashlaridan voz kechishga majbur qilingan Galileo Galileyning haq bo‘lganini tan olib, barchadan uzr so‘ragan papaning ismi kim?",
+    "answer": "Papa Ioann Pavel II",
+    "noAnswer1": "Papa Lev II",
+    "noAnswer2": "Papa Piy I",
+    "noAnswer3": "Papa Sebastian"
   },
   {
-    "question": "Ularda pullar, qimmatli qog‘ozlar va yacheykani ijaraga olgan odam uchun qimmatbaho\r\n(qimmatli) hisoblangan har qanday boshqa predmetlar saqlanishi mumkin.",
-    "answer": "“bank yacheyka”",
-    "noAnswer1": "“omonat yacheyka”",
-    "noAnswer2": "“kredit yacheyka”",
-    "noAnswer3": "“valyuta yacheyka”"
+    "question": "1873-yilda Charlz Teyz Rassel (1852-1916) tomonidan asos solingan xristianlikdagi yangi oqim qaysi?",
+    "noAnswer1": "Birlashgan cherkov",
+    "noAnswer2": "Mormonlar",
+    "noAnswer3": "Serkov novogo zaveta",
+    "answer": "Yahve shohidlari"
   },
   {
-    "question": "Bank yacheykaga kirishning maksimal darajadagi xavfsizligini ta’minlash uchun ko‘p hollarda\r\nqaysi prinsipdan foydalaniladi?",
-    "noAnswer1": "“uch qulf”",
-    "noAnswer2": "“to'rt qulf”",
-    "noAnswer3": "“besh qulf”",
-    "answer": "“ikki qulf”"
+    "question": "1830 yili Nyu-York (AQSh) shahrida Jozef Smit (1805-1844) ismli shaxs tomonidan asos solingan yangi diniy oqim qaysi?",
+    "noAnswer1": "Birlashgan cherkov",
+    "answer": "Mormonlar",
+    "noAnswer2": "Serkov novogo zaveta",
+    "noAnswer3": "Yahve shohidlari"
   },
   {
-    "question": "Valyuta kursi qanday aniqlanadi?",
-    "noAnswer1": "Qora bozorda aniqlanadi",
-    "noAnswer2": "Markaziy bankda aniqlanadi",
-    "noAnswer3": "AQSH dollariga qarab aniqlanadi",
-    "answer": "Xorijiy valyutalarning so‘mga nisbatan kursi talab va taklifning o‘zaro munosabati asosida\r\nvalyuta bozorida aniqlanadi."
+    "question": "XIX asrda Eronda bobiylik yo‘nalishi zamirida vujudga kelgan diniy yo‘nalish qaysi?",
+    "answer": "Bahoiylik",
+    "noAnswer1": "Ahmadiylik (Qodiyoniylik)",
+    "noAnswer2": "G’ulomiylik",
+    "noAnswer3": "Ja’fariylik"
   },
   {
-    "question": "Naqd pullar – ?",
-    "noAnswer1": "valyutalar",
-    "noAnswer2": "banknotalar",
-    "answer": "banknotalar va ma’lum bir nominalli tangalardir",
-    "noAnswer3": "ma’lum bir nominalli tangalar"
+    "question": "«Kitobi Aqdas» («Eng muqaddas kitob») va «Kitobi Iqon» («Mustahkam ishonch kitobi») asarlari qaysi diniy ta’limotining asoslarini tashkil etadi?",
+    "answer": "Bahoiylik",
+    "noAnswer1": "Ahmadiylik (Qodiyoniylik)",
+    "noAnswer2": "G’ulomiylik",
+    "noAnswer3": "Ja’fariylik"
   },
   {
-    "question": "Naqd pullar almashtirib bo‘lmaydigan qanday afzalliklarga ega?",
-    "noAnswer1": "ularni hamma joyda qabul qilishadi; amalda ularni kuzatib turishning iloji yo‘q",
-    "noAnswer2": "ular ishonchli; ularni hamma joyda qabul qilishadi;",
-    "answer": "ular ishonchli; ularni hamma joyda qabul qilishadi; amalda ularni kuzatib turishning iloji yo‘q",
-    "noAnswer3": "ular ishonchli; amalda ularni kuzatib turishning iloji yo‘q"
+    "question": "G‘ayriislomiy mohiyat va diniy-siyosiy mazmunga ega bo‘lgan bu oqimi XIX asrning oxirlarida Mirzo G‘ulom Ahmad tomonidan tuzilgan. Dastlab u asoschisining nomi bilan – «Mirzoiylik» deb atalgan.",
+    "noAnswer1": "Bahoiylik",
+    "answer": "Ahmadiylik (Qodiyoniylik)",
+    "noAnswer2": "G’ulomiylik",
+    "noAnswer3": "Ja’fariylik"
   },
   {
-    "question": "“Banknota” so‘zining ma’nosi?",
-    "noAnswer1": "fransuzcha “bank” va “note” so‘zlaridan olingan",
-    "noAnswer2": "“bank puli” ma’nosini anglatadi",
-    "noAnswer3": "“bank valyutasi” ma’nosini anglatadi",
-    "answer": "inglizcha “bank” va “note” so‘zlaridan olingan bo‘lib, “bank yozuvi” ma’nosini anglatadi"
+    "question": "Ayrim mamlakatlarning konstitutsiyalarida diniy tashkilotning davlatdan ajratilganligi mustahkamlangan bo‘lib, bunda davlat dinni o‘z fuqarolarining shaxsiy ishi sifatida ko‘radi. Ushbu ta’rif qaysi model haqida?",
+    "answer": "Separatsion model",
+    "noAnswer1": "Identifikatsion model",
+    "noAnswer2": "Kooperatsion model",
+    "noAnswer3": "Diktatorlik modeli"
   },
   {
-    "question": "Bu tovarlar va xizmatlarni naqd pulsiz shaklda to‘lash, pullarni saqlash va tashish, kerak bo‘lgan\r\nhollarda esa, naqd pullarni olish (naqdlashtirish) uchun zarur hisoblangan zamonaviy qulay\r\ninstrumentdir",
-    "answer": "Bank to‘lov (plastik) kartalar",
-    "noAnswer1": "ID kartalar",
-    "noAnswer2": "bankomat",
-    "noAnswer3": "click xizmati"
+    "question": "Qaysi davlat konstitutsiyasida “12 ta imomlarning mavjudligini nazarda tutuvchi ja’fariya mazhabi rasmiy din sifatida e’tirof etiladi hamda bu qoida abadiy o‘zgarmas bo‘lib qoladi” degan modda joy olgan?",
+    "answer": "Eron",
+    "noAnswer1": "Iroq",
+    "noAnswer2": "Suriya",
+    "noAnswer3": "Saudiya Arabistoni"
   },
   {
-    "question": "PIN-kod – ?",
-    "noAnswer1": "bu karta egasi to‘g‘risidagi ma’lumot",
-    "noAnswer2": "bu karta to‘g‘risidagi konfidensial ma’lumot",
-    "noAnswer3": "bu konfidensial ma’lumot",
-    "answer": "bu karta egasi to‘g‘risidagi konfidensial ma’lumot"
+    "question": "Quyidagi qaysi so’z «chuqur tushunish», «idrok etish», «bilish» ma’nolarini bildiradi. Istilohiy ma’noda esa – shariat hukmlarini o‘rganish, shariat qoidalarini barcha qismlari bilan anglash.",
+    "answer": "Fiqh",
+    "noAnswer1": "Mazhab",
+    "noAnswer2": "Aqida",
+    "noAnswer3": "Iymon"
   },
   {
-    "question": "“Bankomat” so‘zi qaysi so‘zlarning qisqartirilishidan kelib chiqqan?",
-    "answer": "“bank avtomati”",
-    "noAnswer1": "“bank ma'lumoti”",
-    "noAnswer2": "“bank pulyumoti”",
-    "noAnswer3": "“bank promoti”"
+    "question": "Quyidagi qaysi so’z  «yo‘nalish», «yo‘l», «diniy ta’limot» ma’nolarini bildiradi. Islom shariati va aqidasining muayyan bir tizimga solingan holatdagi ko‘rinishidir.",
+    "noAnswer1": "Fiqh",
+    "answer": "Mazhab",
+    "noAnswer2": "Aqida",
+    "noAnswer3": "Iymon"
   },
   {
-    "question": "Birinchi bankomatlar qachon va qayerda paydo bo‘lgan?",
-    "noAnswer1": "o‘tgan asrning 60-yillarida Yevropada",
-    "noAnswer2": "o‘tgan asrning 60-yillarida AQShda",
-    "noAnswer3": "o‘tgan asrning 50-yillarida AQSh va Yevropada",
-    "answer": "o‘tgan asrning 60-yillarida AQSh va Yevropada"
+    "question": "Hanafiylik mazhabining asoschisi kim?",
+    "answer": "Imomi A’zam",
+    "noAnswer1": "Ahmad ibn Hanbal",
+    "noAnswer2": "Imom Shofeiy",
+    "noAnswer3": "Imom Molik"
   },
   {
-    "question": "Firibgarlikning usullaridan biri?",
-    "answer": "skimming",
-    "noAnswer1": "PIN",
-    "noAnswer2": "VISA",
-    "noAnswer3": "swimming"
+    "question": "Islom ta’limotini o‘rganishda eng ko‘p qo‘llangan ushbu atama, bu nom X asrda paydo bo‘lgan. Ushbu so‘z bir narsani ikkinchisiga «mahkam bog‘lash» ma’nosini beradi.",
+    "noAnswer1": "Fiqh",
+    "noAnswer2": "Mazhab",
+    "answer": "Aqida",
+    "noAnswer3": "Iymon"
   },
   {
-    "question": "Bu – distansion (masofaviy) bank xizmatlarini ko‘rsatishning zamonaviy takomillashgan\r\nshakllaridan biridir.",
-    "noAnswer1": "banking",
-    "answer": "onlayn-banking",
-    "noAnswer2": "free-banking",
-    "noAnswer3": "uzcard"
+    "question": "«Kitab at-Tavhid», «Kitab al-maqomat», «Kitab rad avoil al-adilla li-l-Ka’biy», «Kitab al-usul», «ar-Radd ala usul al-Qaromita», «Kitab ta’vilot ahli sunna» asarlarining muallifini toping.",
+    "answer": "Abu Mansur Moturidiy",
+    "noAnswer1": "Abu Hanifa",
+    "noAnswer2": "Imom al-Buxoriy",
+    "noAnswer3": "Muhammad al-Xorazmiy"
   },
   {
-    "question": "Hozir dunyoda qancha miqdorda bankomatlar mavjud?",
-    "noAnswer1": "2,0 mln.dan kam",
-    "noAnswer2": "2,0 mln.",
-    "answer": "2,0 mln.dan ortiq",
-    "noAnswer3": "1,0 mln."
+    "question": "«Imom al-huda» (hidoyat yo‘li imomi) va «Imom al-mutakallimin» (mutakallimlar imomi) kabi nomlar bilan dovruq qozongan alloma kimdir?",
+    "answer": "Abu Mansur Moturidiy",
+    "noAnswer1": "Abu Hanifa",
+    "noAnswer2": "Imom al-Buxoriy",
+    "noAnswer3": "Muhammad al-Xorazmiy"
   },
   {
-    "question": "O‘zbekiston Respublikasi o‘z milliy valyutasini ishlab chiqarish uchun Markaziy bank huzurida\r\nqaysi korxona tashkil etgan?",
-    "noAnswer1": "“Davlat ramzi” Davlat ishlab chiqarish birlashmasini",
-    "noAnswer2": "“Davlat valyutasi” Davlat ishlab chiqarish birlashmasini",
-    "answer": "“Davlat belgisi” Davlat ishlab chiqarish birlashmasini",
-    "noAnswer3": "“Davlat puli” Davlat ishlab chiqarish birlashmasini"
+    "question": "Qaysi so’z arabcha «qara’a» (o‘qimoq) fe’lidan olingan. Boshqa fikrga binoan, u suryoniy tilidagi «kerain» – «muqaddas yozuv» ma’nosini bildiruvchi so‘zdan olingan.",
+    "answer": "Qur’on",
+    "noAnswer1": "Aqida",
+    "noAnswer2": "Mazhab",
+    "noAnswer3": "Hadis"
   },
   {
-    "question": "Banknot, pasport blanklari, turli qimmatli qog‘ozlar va boshqa qimmatliklarni xalqaro talablarga\r\njavob beradigan, yuqori darajada himoyalangan mahsulotlar ishlab chiqarish imkoniyatlari\r\nyaratilgan.",
-    "answer": "Bosma fabrikasida",
-    "noAnswer1": "Qog‘oz fabrikasida",
-    "noAnswer2": "Zarbxonada",
-    "noAnswer3": "Markaziy bankda"
+    "question": "Halifa Abu Bakr nechanchi yillarda hukmronlik qilgan?",
+    "answer": "632-634",
+    "noAnswer1": "636-644",
+    "noAnswer2": "656-661",
+    "noAnswer3": "644-656"
   },
   {
-    "question": "Sifatli va himoya belgilariga ega bo‘lgan qog‘oz mahsuloti ishlab chiqarish hamda Toshkent\r\nBosma fabrikasi qog‘oz xom-ashyosiga bo‘lgan talabini to‘liq ta’minlash yo‘lga qo‘yilgan.",
-    "noAnswer1": "Bosma fabrikasida",
-    "noAnswer2": "Zarbxonada",
-    "answer": "Qog‘oz fabrikasida",
-    "noAnswer3": "Markaziy bankda"
+    "question": "Halifa Usmon ibn Affon nechanchi yillarda hukmronlik qilgan?",
+    "noAnswer1": "632-634",
+    "noAnswer2": "634-644",
+    "noAnswer3": "656-661",
+    "answer": "644-656"
   },
   {
-    "question": "Tanga, medal va orden, yo‘lovchi tashish transporti uchun jetonlar va boshqa zaruriy\r\nmahsulotlarni ishlab chiqarish orqali respublikamizni ushbu mahsulotlarga bo‘lgan talabini\r\nqondirish imkoniyati yaratilgan.",
-    "noAnswer1": "Bosma fabrikasida",
-    "noAnswer2": "Qog‘oz fabrikasida",
-    "noAnswer3": "Markaziy bankda",
-    "answer": "Zarbxonada"
+    "question": "Hadisni rivoyat qilgan roviylar zanjiri nima deb ataladi?",
+    "noAnswer1": "Matn",
+    "answer": "Isnod",
+    "noAnswer2": "Hadis",
+    "noAnswer3": "Mushaf"
   },
   {
-    "question": "Kreditlarga xos bo‘lgan qanday firibgarliklar uchraydi?",
-    "noAnswer1": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Kredit “qora” brokeri.",
-    "noAnswer2": "Siz olmagan kredit. “Do‘stlik” bo‘yicha majburiyatlar. Bir necha minutda kredit. Kredit “qora”\r\nbrokeri. Bank oldidagi qarzdorlikni “hamkorlikda moliyalashtirish”",
-    "noAnswer3": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Bank oldidagi qarzdorlikni “hamkorlikda\r\nmoliyalashtirish”.",
-    "answer": "Kredit bo‘yicha yolg‘onchasiga qo‘shib to‘lash. Siz olmagan kredit. “Do‘stlik” bo‘yicha\r\nmajburiyatlar. Bir necha minutda kredit. Kredit “qora” brokeri. Bank oldidagi qarzdorlikni\r\n“hamkorlikda moliyalashtirish”."
+    "question": "Qaysi hadis turida hadisda ma’no – Allohdan, lafz – Payg‘ambardan deb hisoblanadi?",
+    "answer": "al-hadis al-qudsiy",
+    "noAnswer1": "al-hadis an-nabaviy",
+    "noAnswer2": "Sahih hadis",
+    "noAnswer3": "Mutavotir hadis"
   },
   {
-    "question": "Unda oldin kelgan investorlarga to‘lanmalar keyin (yangi) kelgan investorlarning pul tushilmalari\r\nhisobidan amalga oshiriladi.",
-    "answer": "moliyaviy piramida",
-    "noAnswer1": "piramida",
-    "noAnswer2": "pulli piramida",
-    "noAnswer3": "iqtisodiy piramida"
+    "question": "Qaysi hadis turida ma’no ham, lafz ham Payg‘ambarniki deb hisoblanadi?",
+    "noAnswer1": "al-hadis al-qudsiy",
+    "answer": "al-hadis an-nabaviy",
+    "noAnswer2": "Sahih hadis",
+    "noAnswer3": "Mutavotir hadis"
   },
   {
-    "question": "Ko‘plab moliyaviy piramidalarning eng asosiy va o‘zgarmaydigan belgisi.",
-    "noAnswer1": "yuqori xarajat va’da qilish",
-    "noAnswer2": "valyuta va’da qilish",
-    "answer": "yuqori daromad va’da qilish",
-    "noAnswer3": "oltin va’da qilish"
+    "question": "Makka fath etilgan 630-yili Ka’ba ichida qancha sanam bo‘lgan?",
+    "noAnswer1": "500",
+    "answer": "630",
+    "noAnswer2": "450",
+    "noAnswer3": "900"
   },
   {
-    "question": "Valyuta kurslarining tebranish (o‘zgarish) sabablari to‘g‘risidagi odamlarning bu tarzdagi\r\n“ogohligi”dan valyuta bozoridagi savdo.",
-    "noAnswer1": "Exchange",
-    "noAnswer2": "Uzex",
-    "noAnswer3": "Firefox",
-    "answer": "Forex"
+    "question": "Ko’chmanchi arablar nima deb ataladi?",
+    "noAnswer1": "Ansorlar",
+    "noAnswer2": "Muxojirlar",
+    "answer": "Badaviylar",
+    "noAnswer3": "Mutaziliylar"
   },
   {
-    "question": "Forexda faqat …........ yutuqli holda bo‘ladi.",
-    "noAnswer1": "diler",
-    "noAnswer2": "treyder",
-    "noAnswer3": "haridor",
-    "answer": "broker"
+    "question": "Arabcha-elchi, islom an’anasida Alloh tomonidan tanlab olinib, vakil qilingan va targ‘ibot yuritish, da’vat qilish vazifasi topshirilgan, ilohiy kitob nozil qilingan payg‘ambar, ushbu ta’rifga mos so’zni toping.",
+    "answer": "Rosul",
+    "noAnswer1": "Nabiy",
+    "noAnswer2": "Muhaddis",
+    "noAnswer3": "Fiqhchi"
   },
   {
-    "question": "Forex bozorida ishlab topish – ?",
-    "noAnswer1": "juda oson",
-    "noAnswer2": "Murakkab",
-    "answer": "o‘ta murakkab",
-    "noAnswer3": "oson"
+    "question": "Arabcha-ko‘ligi anbiyo, ilohiy xabar keltiruvchi payg‘ambar, Allohning farmoyishini insonlarga yetkazib beruvchi vositachi shaxs. O‘zlariga maxsus kitob va shariat  berilmagan ushbu ta’rif kimlarga berilgan?",
+    "noAnswer1": "Rasul",
+    "answer": "Nabiy",
+    "noAnswer2": "Muhaddis",
+    "noAnswer3": "Fiqhchi"
   },
   {
-    "question": "Korxona faoliyatini rejalashtirish qanday ahamiyatga ega?",
-    "answer": "Rejalashtirish - korxona samarali faoliyatinining omillarini tanlash va o‘zaro bog‘lash shaklidir",
-    "noAnswer1": "Rejalashtirish - korxona samarali faoliyatining omilidir",
-    "noAnswer2": "Rejalashtirish - korxona faoliyatini tashkil etuvchi omillar yig‘ish jarayonidir",
-    "noAnswer3": "Rejalashtirish- korxona faoliyatini tashkil etish va tugatish omilidir"
+    "question": "Muhammad (S.A.V.)ning amakisiining ismi nima?",
+    "answer": "Abu Tolib",
+    "noAnswer1": "Abdul Mutallib",
+    "noAnswer2": "Ali",
+    "noAnswer3": "Umar bin Hattob"
   },
   {
-    "question": "Korxona rejasi bu…. (to‘g‘ri javobni bering)",
-    "noAnswer1": "Ko‘zda tutilgan iqtisodiy samaradorlikni ilmiy va amaliy jihatdan asoslash",
-    "noAnswer2": "Tadbirkorlik faoliyati bilan bog‘liq bo‘lgan aniq hisoblar tizimi",
-    "noAnswer3": "Maqsadni belgilash, yo‘nalishlarini va vazifalarini aniqlash hamda nazorat qilishda muvofiqlikni\r\nta’minlashdir",
-    "answer": "Maqsadlarga erishish chora-tadbirlarini oldindan ishlab chiqish hamda resurslar orasida\r\nmuvofiqlikni ta’minlash"
+    "question": "Muhammad (sav)ning Makkadan Quddusga qilgan tungi sayri nima deb ataladi?",
+    "answer": "Isro",
+    "noAnswer1": "Mer’oj",
+    "noAnswer2": "Hijrat",
+    "noAnswer3": "Fath"
   },
   {
-    "question": "Maqsad- bu …….",
-    "noAnswer1": "Foydani maksimallashtirish",
-    "noAnswer2": "Obyekt faoliyati haqidagi tushuncha",
-    "answer": "Obyektning kelgusidagi istalgan holati",
-    "noAnswer3": "Korxona imidji va tovar markasi"
+    "question": "Muhammad (sav)ning Quddusdagi Aqso masjididan osmonga ko‘tarilishlari nima deb ataladi?",
+    "noAnswer1": "Isro",
+    "answer": "Mer’oj",
+    "noAnswer2": "Hijrat",
+    "noAnswer3": "Fath"
   },
   {
-    "question": "Zarur hisob kitoblar hamda dalillar asosida korxona faoliyatining qisqa va uzoq muddatli\r\nstrategiyasini aniqlash – bu",
-    "noAnswer1": "Rejalashtirish maqsadi",
-    "noAnswer2": "Rejalashtirish mohiyati",
-    "answer": "Rejalashtirish vazifasi",
-    "noAnswer3": "Rejalashtirish mexanizmi"
+    "question": "Arabcha-uzoqdagi masjid-Quddus shahridagi yahudiylik an’anasida muqaddas hisoblangan Sulaymon ibodatxonasidir. Qur’on Karimda shu nom bilan tilga olingan masjid qaysi?",
+    "answer": "Al-Masjid al-Aqso",
+    "noAnswer1": "Al-Masjid an-Nabaviy",
+    "noAnswer2": "Al-Masjid al-Harom",
+    "noAnswer3": "Mo’yi muborak"
   },
   {
-    "question": "Korxonada rejalashtirilayotgan reja ko‘rsatkichlarini asoslash yo‘llari, uslublarining tarkibi\r\nshuningdek ichki reja mazmuni, shakli, strukturasi va tuzish tartibini nima belgilaydi?",
-    "noAnswer1": "Rejalashtirish texnologiyasi",
-    "noAnswer2": "Rejalashtirish predmeti",
-    "noAnswer3": "Rejalashtirish uslubiyati",
-    "answer": "Rejalashtirish usuli"
+    "question": "Dastlab Muhammad Payg‘ambar musulmonlarni qaysi shaharga qarab namoz o‘qishga  buyurgan?",
+    "noAnswer1": "Makka",
+    "noAnswer2": "Madina",
+    "answer": "Quddus",
+    "noAnswer3": "Shom"
   },
   {
-    "question": "Ko‘rsatkichlar orasida muvofiqlikni va bog‘liqlikni ta’minlaydi",
-    "answer": "Balans uslub",
-    "noAnswer1": "Ekstropolyatsiya uslub",
-    "noAnswer2": "Normativ uslub",
-    "noAnswer3": "Iqtisodiy matematik uslub"
+    "question": "Uhud tog‘i etagida bo‘lgan jang qachon sodir bo’lgan?",
+    "answer": "625",
+    "noAnswer1": "624",
+    "noAnswer2": "623",
+    "noAnswer3": "630"
   },
   {
-    "question": "Ko‘rsatkich - ....",
-    "noAnswer1": "Jarayonning faqat miqdoriy hajmini ifodalaydi",
-    "noAnswer2": "Jarayon yoki hodisaning moddiy buyumlashgan holatini hamda mazmunini tavsiflaydi",
-    "answer": "Jarayonning yoki hodisaning ijtimoiy iqtisodiy holatini, mohiyatini hamda mazmunini\r\ntavsiflaydi",
-    "noAnswer3": "Jarayon yoki hodisaning ham miqdor va sifat tomonlarini tavsiflaydi"
+    "question": "Qachon Makka shahri jangsiz musulmonlarga taslim bo’ldi?",
+    "noAnswer1": "645",
+    "answer": "630",
+    "noAnswer2": "632",
+    "noAnswer3": "610"
   },
   {
-    "question": "Ishlab chiqarish faoliyatini ifodalaydi ...",
-    "answer": "Umumiy ko‘rsatkich",
-    "noAnswer1": "Xususiy ko‘rsatkich",
-    "noAnswer2": "Miqdor ko‘rsatkich",
-    "noAnswer3": "Natural ko‘rsatkich"
+    "question": "Arabcha-Alloh uyi - Makka shahridagi Ka’ba binosining nomi nima?",
+    "noAnswer1": "Al-Masjid al-Aqso",
+    "noAnswer2": "Al-Masjid an-Nabaviy",
+    "answer": "Baytulloh",
+    "noAnswer3": "Qubbat as-Sahro"
   },
   {
-    "question": "Ijtimoiy-mehnatni rejalashtirish obyekti bo‘lib nima xizmat qiladi?",
-    "noAnswer1": "Texnologik jihozlar",
-    "answer": "Mehnat resurslari",
-    "noAnswer2": "Ish haqi fondi",
-    "noAnswer3": "Iqtisodiy resurslar"
+    "question": "Qoya gumbazi-Quddusdagi al-harom ash-Sharif markazidagi, qadimdan e’zozlanib kelingan qoya ustidagi gumbazli masjid qaysi?",
+    "noAnswer1": "Al-Masjid al-Aqso",
+    "noAnswer2": "Al-Masjid an-Nabaviy",
+    "noAnswer3": "Baytulloh",
+    "answer": "Qubbat as-Sahro"
   },
   {
-    "question": "Quyidagi klassifikatsion belgilardan qaysi biri reja turlariga tegishli emas?",
-    "noAnswer1": "Asoslash usuliga ko‘ra",
-    "noAnswer2": "Maqsad turiga ko‘ra",
-    "answer": "Resurslar turi bo‘yicha",
-    "noAnswer3": "Mazmuniga ko‘ra"
+    "question": "Tafsir nima?",
+    "noAnswer1": "Payg‘ambar hayotini tasvirlaydi",
+    "noAnswer2": "hadis sirini ochadi",
+    "answer": "Qur’on oyatlariga sharh beradi",
+    "noAnswer3": "tarixni yoritadi"
   },
   {
-    "question": "Rejalashtirishning qanday umumiy klassik printsiplari mavjud?",
-    "noAnswer1": "Sistemalik, birlik, uzluksizlik, o‘zgaruvchanlik, aniqlilik",
-    "noAnswer2": "Zaruriylik, optimallik, birlik, uzluksizlik, o‘zgaruvchanlik",
-    "answer": "Zaruriylik, yagonalik, uzluksizlik, o‘zgaruvchanlik, aniqlik",
-    "noAnswer3": "Zaruriylik, komplekslilik, uzluksizlik, o‘zgaruvchanlik, aniqlilik"
+    "question": "Islom so‘zining ma’nosi?",
+    "noAnswer1": "Birlashmoq",
+    "answer": "Allohga bo‘ysunmoq, itoat qilmoq",
+    "noAnswer2": "Muhammad payg‘ambarga ergashmoq",
+    "noAnswer3": "Xudoni tanimoq"
   },
   {
-    "question": "Koordinatsiyalash – bu",
-    "noAnswer1": "Yaqin darajadagi obyektlar o‘rtasidagi aloqani belgilaydi",
-    "noAnswer2": "Turli darajadagi obyektlar o‘tasidagi aloqani belgilaydi",
-    "answer": "Bir xil darajadagi obyektlar o‘rtasidagi aloqani belgilaydi",
-    "noAnswer3": "Tuzilgan rejaning maqsadga erishish usulini belgilaydi"
+    "question": "O‘zbekistonda islom dini bayramlari qaysi?",
+    "noAnswer1": "diniy bayramlar yo‘q",
+    "noAnswer2": "Navro‘z",
+    "noAnswer3": "Mustaqillik kuni",
+    "answer": "Iyd-al Fitr, Iyd-al  Qurbon"
   },
   {
-    "question": "Iqtisodiy rivojlanishning qanday turlari mavjud?",
-    "answer": "Ideal, real, radikal",
-    "noAnswer1": "Induktiv va deduktiv",
-    "noAnswer2": "Ideal va radikal",
-    "noAnswer3": "Analitik va statistik"
+    "question": "Dinshunoslik fan sifatida qachon shakllandi?",
+    "noAnswer1": "Eramizdan avvalgi 3 asrda",
+    "noAnswer2": "10-11 asrlarda",
+    "noAnswer3": "8 asr boshlarida",
+    "answer": "19 asr oxiri 20 asr boshlarida"
   },
   {
-    "question": "Korxona potensiali deganda nimani tushunasiz?",
-    "noAnswer1": "Insonlarning iqtisodiy faoliyatga bo‘lgan qobiliyati majmuidir",
-    "noAnswer2": "Korxona potentsiali mehnat, iqtisodiy tashkiliy, ilmiy texnik texnik potentsiallar majmuidir.",
-    "answer": "Korxona potensiali uning qudrati, manbai, imkoniyatini harakterlaydigan ko‘rsatkichlar yoki\r\nomillar yig‘indisi, iqtisodiy faoliyatda foydalanadigan vositalar, zahiralar, qobiliyatlar,\r\nresurslardir",
-    "noAnswer3": "Korxona potentsiali tashkilotining rejalashtirilgan va xizmatlarni bajarish uchun zarur bo‘lgan\r\nmehnat, material, moliyaviy va boshqa resurslar majmuidir"
+    "question": "Diniy fundamentalizm va ekstremizm tarafdorlarining asosiy maqsadi nima?",
+    "noAnswer1": "Jamiyatdagi amaldor shaxslarga qarshi kurashish;",
+    "noAnswer2": "Xalqlar ko‘ngliga g‘ulg‘ula solish;",
+    "noAnswer3": "O‘z manfaatlari yo‘lida foydalanish;",
+    "answer": "Xalifalik davlatini o‘rnatish;"
   },
   {
-    "question": "Mehnatga haq to‘lashni tashkil etishda qaysi me’yoriy hujjatga asoslanadi?",
-    "answer": "Mehnatga haq to‘lashni yagona tarif stavkasiga, 2009 yil 21-iyul 206-son",
-    "noAnswer1": "Mehnat kodeksining 153, 154, 156-moddalariga",
-    "noAnswer2": "Vazirlar mahkamasining 2015 yil 13-iyundagi 164-sonli qarori bilan tasdiqlangan klassifikatorga",
-    "noAnswer3": "Mehnatga haq to‘lashni yagona tarif stavkasiga, 1999 yil 21-iyul 206-son"
+    "question": "Islomiy madaniyatga xos xususiyatlari nimalardan iborat?",
+    "noAnswer1": "tubanlik, hiyonat, vafo, pastkashlik",
+    "noAnswer2": "iymonlilik, vijdonlilik, halollik, mazamat",
+    "answer": "e’tiqodlilik, poklik, ezgulik, xalimlik",
+    "noAnswer3": "go‘zallik, o‘ta bilimlilik, andishalilik, isyonkorlik"
   },
   {
-    "question": "Rivojlanish yo‘nalishlarini sifatda va sonda tasvirlash bu...",
-    "noAnswer1": "Reja vazifasi",
-    "noAnswer2": "Reja mohiyati",
-    "answer": "Reja maqsadi",
-    "noAnswer3": "Reja mexanizmi"
+    "question": "«Mushafi Usmon»ning asl nusxalaridan biri saqlanayotgan joy qayerda?",
+    "answer": "Toshkent",
+    "noAnswer1": "Samarqand",
+    "noAnswer2": "Makka",
+    "noAnswer3": "Turkiston"
   },
   {
-    "question": "Material resurlardan foydalanish koeffitsienti qanday aniqlanadi?",
-    "answer": "Haqiqiy material resurslari sarfini material sarfi normasiga nisbati orqali",
-    "noAnswer1": "Detal og‘irligini yarim tayyor mahsulot og‘irligiga nisbati",
-    "noAnswer2": "Sotilayotgan chiqindilarning og‘irligini sotilayotgan chiqindilar bahosiga nisbati",
-    "noAnswer3": "Yillik ishlab chiqarish ‘ajmini o‘rtacha quvvatga nisbati"
+    "question": "Kalom falsafasining shakllanish davri",
+    "answer": "IX asr",
+    "noAnswer1": "VII-IX asrlar",
+    "noAnswer2": "XI asr",
+    "noAnswer3": "X asr"
   },
   {
-    "question": "Korxona xodimlari deganda kimlarni tushunasiz?",
-    "noAnswer1": "Asosiy va yordamchi xodimlar birlashuvi",
-    "noAnswer2": "Injener – texnik xodimlar, xizmatchilar, shogirdlarning maqsadga muvofiq birlashuvi",
-    "noAnswer3": "Adminsrativ boshqaruv xodimlari, injener texnik xodimlar va xizmatchilar yig‘indisi",
-    "answer": "Foyda yoki daromad olish holda o‘z moddiy ehtiyojlarini qondirishga qaratilgan yagona ish\r\nfaoliyati bilan band bo‘lgan turli malaka va toifadagi xodimlar yig‘indisi"
+    "question": "“Bayt ul хikma” qaysi shaharda tashkil etildi?",
+    "noAnswer1": "Хоrazm.",
+    "noAnswer2": "Buхоrо.",
+    "noAnswer3": "Samarqand.",
+    "answer": "Bоg’dоd."
   },
   {
-    "question": "Zaruriy ishchilar sonini aniqlash uslubiga quyidagilar kirmaydi",
-    "noAnswer1": "Vaqtbirligi davomida ishlab chiqarilgan mahsulot miqdori bo‘yicha",
-    "noAnswer2": "Xizmatko‘rsatish me’yori bo‘yicha",
-    "noAnswer3": "Mahsulotbirligiga sarflangan vaqt sig‘imi bo‘yicha",
-    "answer": "Foyda me’yori bo‘yicha"
+    "question": "Vijdоn erkinligining kafоlatlari nimalardan ibоrat?",
+    "noAnswer1": "Dinlarning va diniy tashkilоtlarning davlatdan ajratilganligi.",
+    "noAnswer2": "Barcha fuqarоlar uchun maоrif va madaniyat eshiklarining оchiqligi.",
+    "noAnswer3": "maktabning dindan va diniy tashkilоtlardan ajratilganligi.",
+    "answer": "Barchasi."
   },
   {
-    "question": "Real ish haqini nominal ish haqidan farqi nimada?",
-    "noAnswer1": "Real ish haqi – haqiqiy ishlangan vaqt uchun to‘lovlar, nominal ish haqi - kunlik yo‘qotishlar\r\nuchun to‘lovlardir",
-    "noAnswer2": "Real ish haqi –amaldagi ish haqi stavkasi yoki ishchi oy vaqti birligidagi qiymati, nominal ish haqi\r\nesa ortiqcha soatlar uchun to‘lanadi.",
-    "answer": "Real ish haqi – nominal ish haqiga sotib olish mumkin bo‘lgan tovar, nominal ish haqi esa\r\nsarflangan mehnat uchun oladigan pul mablag‘lari summasidir.",
-    "noAnswer3": "Real ish haqi – ishlangan vaqt uchun to‘lanadi, nominal ish haqi esa ortiqcha soatlar uchun\r\nto‘lanadi."
+    "question": "Iymon deganda nimani tushunasiz?",
+    "noAnswer1": "Poklik.",
+    "noAnswer2": "Adolat.",
+    "noAnswer3": "Diyonat.",
+    "answer": "Ishonch."
   },
   {
-    "question": "Ish haqi fondidan qaysi biri asosiy ish haqi hisoblanadi?",
-    "noAnswer1": "Kunlik ish haqi fondi.",
-    "noAnswer2": "Ta’rif ish haqi fondi.",
-    "answer": "Soatli ish haqi fondi.",
-    "noAnswer3": "Oylik ish haqi fondi."
+    "question": "Insoniylikning muhim shartlari...?",
+    "noAnswer1": "Saxiylik, xushmuomilalik, insoflilik, kamtarinlik.",
+    "noAnswer2": "To‘g‘ri so‘zlik, sharm-hayolilik, or-nomus, andishalik.",
+    "noAnswer3": "Diyonatlilik, mexr-shafqatlilik, poklik, halollik.",
+    "answer": "Hammasi to‘g‘ri"
   },
   {
-    "question": "Ishbay ish haqi shaklida mehnatga haq to‘lashga quyidagilar xosdir?",
-    "noAnswer1": "Lavozim okladlari va oylik maoshlar",
-    "noAnswer2": "Ishlangan ish soatlari",
-    "answer": "Tayyorlangan mahsulot hajmi va ko‘rsatilgan xizmatlar soni",
-    "noAnswer3": "Ko‘rsatilgan xizmatlar soni"
+    "question": "Musulmоn huquqshunоsligidagi shariat manbalarini aniqlang.",
+    "noAnswer1": "Sunnat.",
+    "noAnswer2": "Ijmо’.",
+    "noAnswer3": "Qur’оni Karim.",
+    "answer": "Barcha javоblar to’g’ri."
   },
   {
-    "question": "Korxonaning ish haqi fondi quyidagilardan iborat bo‘ladi:",
-    "noAnswer1": "Asosiy ish haqi va mukofotlardan",
-    "noAnswer2": "Faqat asosiy ish haqidan",
-    "noAnswer3": "Mukofotlardan",
-    "answer": "Asosiy va qo‘shimcha ish haqidan"
+    "question": "Buddaviylik ta’limoti, asosan, uch qismdan iborat bo‘lib uning muhim qismi axloq hisoblanadi. Axloq normalari – «Pancha shila» (Buddaning besh nasihati) deb atalib u qaysi nasihatlardan iborat? \r\n\r\n1) qotillikdan saqlanish;\r\n2) o‘g‘rilikdan saqlanish;\r\n3) gumrohlikdan saqlanish;\r\n4) yolg‘on, qalbaki narsalardan saqlanish;\r\n5) mast qiluvchi narsalardan saqlanish\r\n6) shirk keltirishdan saqlanish\r\n7) harom luqmadan saqlanish\r\n8) mol go‘shtidan saqlanish",
+    "answer": "1,2,3,4,5",
+    "noAnswer1": "1,2,4,5,6",
+    "noAnswer2": "1,2,3,7,8",
+    "noAnswer3": "1,2,3,6,7"
   },
   {
-    "question": "Qaysi ish haqi fondi kunlik ruxsat etilgan imtiyozli uzilishlar uchun qo‘shimcha to‘lovlarni\r\ne’tiborga oladi?",
-    "noAnswer1": "Oylik",
-    "answer": "Kunlik",
-    "noAnswer2": "Soatlik",
-    "noAnswer3": "Yillik"
+    "question": "Buddaviylik 2 asosiy oqimdan iborat bo‘lib ular qaysilar ?",
+    "answer": "Hinayana va Mahayana",
+    "noAnswer1": "Vajrayana va Tripitaka",
+    "noAnswer2": "Hinayana va Vajrayana",
+    "noAnswer3": "Vajrayana va Ramayana"
   },
   {
-    "question": "Soatlik ish haqi tarkibiga quyidagilar kiradi:",
-    "answer": "Ishbayish haqi fondi, vaqtbay ish haqi fondi, mukofot, tungi soatda ishlanganlik uchun\r\nto‘lovlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov, bayram kunlari ishlaganlik\r\nuchun to‘lov",
-    "noAnswer1": "Mehnat ta’tili uchun to‘lov,to‘g‘ri ish haqi fondi, o‘smirlarga qisqartirilgan soatlar uchun to‘lov,\r\nmukofotlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov",
-    "noAnswer2": "Xizmat safari uchun to‘lov, ishbay ish haqi fondi, vaqtbay ish haqi fondi, mukofot, tungi soatda\r\nishlanganlik uchun to‘lovlar, brigadirlik uchun to‘lov, shogird tayyorlaganlik uchun to‘lov",
-    "noAnswer3": "To‘g‘ri ish haqi fondi, o‘smirlarga qisqartirilgan soatlar uchun to‘lov, mukofotlar, brigadirlik\r\nuchun to‘lov, shogird tayyorlaganlik uchun to‘lov, bayram kunlari ishlaganlik uchun to‘lov"
+    "question": "Butun olam suv bosishi (to‘fon) haqidagi afsonaning vatani…",
+    "answer": "Messopotamiya",
+    "noAnswer1": "Eron",
+    "noAnswer2": "Gretsiya",
+    "noAnswer3": "Hindiston"
   },
   {
-    "question": "Ishlab chiqarish uchastkasida 5 ta o‘smir ishlaydi, ularning o‘rtacha tarif stavkasi 620 so‘mga\r\nteng. Yildagi ish kunlari soni 240 kun. O‘smirlar uchun qo‘shimcha to‘lov summasini aniqlang.",
-    "noAnswer1": "550 000 so‘m",
-    "noAnswer2": "645000 so‘m",
-    "answer": "744000 so‘m",
-    "noAnswer3": "600 000 so‘m"
+    "question": "\t\n«Avesto» kitobi qaysi dinga mansub?\n",
+    "answer": "\t\n# Zardushtiylikka\n"
   },
   {
-    "question": "O‘rtacha kunlik ish haqi quyidagicha aniqlanadi",
-    "noAnswer1": "Ish haqining kunlik fondi jami ishlangan ish soatlariga bo‘linadi",
-    "noAnswer2": "Ishhaqining soatlik fondi jami ishlangan ish soatlariga bo‘linadi",
-    "noAnswer3": "Ishhaqining oylik fondi ishlangan kishi soatlariga bo‘linadi",
-    "answer": "Ish haqining kunlik fondi jami ishlangan kishi kunlarga bo‘linadi"
+    "question": "\n\t\nIslom qaysi dinlar qatoriga kiradi?\n",
+    "answer": "\n# yakka xudolik\n"
   },
   {
-    "question": "Korxonaning ish haqi fondini rejalashtirish quyidagi tartibda amalga oshiriladi. To‘g‘ri tartibni\r\nbelgilang.",
-    "answer": "Soatlik ish haqi fondi, kunlik ish haqi fondi, oylik yoki yillik ish haqi fondi",
-    "noAnswer1": "Oylik, kunlik, soatlik ish haqi fondi",
-    "noAnswer2": "Kunlik ish haqi fondi, oylik ish haqi fondi va yillik ish haqi fondi",
-    "noAnswer3": "To‘g‘ri ish haqi fondi, ishbay ish haqi fondi, vaqtbay ish haqi fondi va qo‘shimcha to‘lovlar fondi"
+    "question": "\n\t\nXinduizm qachon paydo bo‘lgan?\n",
+    "answer": "\n# to‘g‘ri javob yo‘q.\n\n"
   },
   {
-    "question": "Qo‘shimcha to‘lovlar quyidagilarni ko‘zda tutadi.",
-    "noAnswer1": "Qo‘shimcha ishlaganligi uchun to‘lovlarni",
-    "noAnswer2": "Korxona rahbariyati tomonidan ruxsat etilgan uzilishlar uchun to‘lovlarni",
-    "answer": "Mehnatqonunchiligida ko‘zda tutilgan imtiyozli uzulishlar uchun to‘lovlarni",
-    "noAnswer3": "Moddiy yordam uchun berilgan to‘lovlarni"
+    "question": "\nDin-bu.\n",
+    "answer": "\t\n#ijtimoiy hodisa\n"
   },
   {
-    "question": "Ishbay ish haqi quyidagicha aniqlanadi:",
-    "noAnswer1": "Baho ko‘paytiriladi daromadga",
-    "noAnswer2": "Baho ko‘paytiriladi ishlab chiqarilgan mahsulot qiymatiga",
-    "noAnswer3": "Ishlanganish soatlari ko‘paytiriladi o‘rtacha tarif stavkasiga",
-    "answer": "Baho ko‘paytiriladi mahsulot hajmining naturadagi ifodasiga"
+    "question": "\n\t\nDinning qanday tiplari bor?\n",
+    "answer": "\t\n# xristianlik, islom, buddaviylik\n"
   },
   {
-    "question": "O‘smirlarning asosiy ish haqi, ya’ni ishlab chiqarilgan mahsuloti yoki ishlagan ish soati uchun\r\nto‘lanadigan asosiy ish haqi qaysi fond tarkibiga kiritiladi.",
-    "answer": "To‘g‘ri ish haqi fondi",
-    "noAnswer1": "Kunlikish haqi fondi",
-    "noAnswer2": "Oylik ish haqi fondi",
-    "noAnswer3": "Yillik ish haqi fondi"
+    "question": "\n\t\t\nDin jamiyatning ijtimoiy va madaniy hayotida qanday rol o‘ynaydi?\n",
+    "answer": " \t\n# oddiy halqni itoatda saqlab turishda asosiy vosita\n\n"
   },
   {
-    "question": "O‘rtacha xarajatlar...",
-    "answer": "Birlik mahsulotga Ishlab chiqarish xarajatlari miqdorini belgilovchi xarajatlardir.",
-    "noAnswer1": "Ishlabchikarilganmahsulothajmigabog‘liqxoldao‘zgaradiganxarajatlardir.",
-    "noAnswer2": "Har bir mahsulot xajimidagi doimiy va o‘zgaruvchan xarajatlar summasidir.",
-    "noAnswer3": "Ishlab chiqarish hajmiga bog‘liq xolda o‘zgarmaydigan xarajatlardir."
+    "question": "\n\t\n Qadimgi zamon dinlarida sig‘inish turlari qanday edi?\n",
+    "answer": "\t\n# A,B,V javoblar to‘g‘ri\t\n \n"
   },
   {
-    "question": "Sof diskont daromadga to‘g‘ri ta’rifni bering",
-    "noAnswer1": "Investitsiya loyihasini ekspluatatsiya davridagi pul oqimlarining kelajakdagi qiymati bilan uni\r\namalga oshirishga investitsiya qilinuvchi mablag‘ o‘rtasidagi farq;",
-    "noAnswer2": "Investitsiya loyihasini ekspluatatsiya davrida investitsiya mablag‘lari bilan erishiladigan\r\ndaromadlar orasidagi farq;",
-    "answer": "Investitsiya loyihasini ekspluatatsiya davrida hozirgi qiymatga keltirilgan pul oqimlari summasi\r\nbilan uni amalga oshirishga investitsiya qiluvchi mablag‘lar o‘rtasidagi farq;",
-    "noAnswer3": "Investitsiya loyihasini ekspluatatsiya davrida pul oqimlarining erishiladigan daromadlar\r\norasidagi farq;"
+    "question": "\n\t\nAnimizm nima?\n",
+    "answer": "\t\n#jism ruhlariga sig‘inish\n"
   },
   {
-    "question": "Ish haqi fondini yiriklashtirilgan usulda rejalashtirish bu - …",
-    "noAnswer1": "Ish haqi fondini turli tadbirlar natijasida erishilgan ish haqi iqtisodi asosida aniqlash",
-    "noAnswer2": "Ish haqi fondini minimal ish haqi miqdorini oshishi asosida aniqlash",
-    "answer": "Ish haqi uchun mablag‘larni ish haqi fondi indeksi yordamida aniqlash",
-    "noAnswer3": "Ish haqi fondini minimal ish haqi miqdorini kamayish asosida aniqlash"
+    "question": "\n\t\n Politeistik dinlar.\n",
+    "answer": "\t\n# buddizm va veda, mazdakizm\n"
   },
   {
-    "question": "Umumiy kal`kulyatsiya bu ...",
-    "noAnswer1": "Bu har bir mahsulot turini ishlab chiqarish uchun sarflanadigan xarajatlar",
-    "noAnswer2": "Bu ishlab chiqarishga sarflangan umumiy xarajatlar",
-    "noAnswer3": "Jami xarajatlarni hisoblash usuli",
-    "answer": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan o‘rtacha xarajatlar"
+    "question": "\n\t\n Davlat va din orasidagi munosabatlar qanday?\n",
+    "answer": "\t\n# din davlatdan ajratilgan \n"
   },
   {
-    "question": "Tur kal`kulyatsiyasi bu ...",
-    "noAnswer1": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan o‘rtacha xarajatlar",
-    "noAnswer2": "Bu ishlab chiqarishga sarflangan umumiy xarajatlar",
-    "answer": "Bu har bir mahsulot turini ishlab chiqarish uchun sarflanadigan xarajatlar",
-    "noAnswer3": "Bu mahsulot birligini ishlab chiqarishga sarflanayotgan umumiy xarajatlar"
+    "question": "\n\t\t\nDinning vazifalari nimada?\n",
+    "answer": "\t\n# to‘ldiruvchilik, aloqadorlik, birlashtiruvchilik, tartibga solishlik\n"
   },
   {
-    "question": "Ishlab chiqarish hajmiga bog‘liqlik darajasiga ko‘ra qanday xarajatlar ajratiladi?",
-    "noAnswer1": "Asosiy, ustama",
-    "noAnswer2": "O‘zgaruvchan, ustama.",
-    "noAnswer3": "O‘zgaruvchan, bilvosita",
-    "answer": "O‘zgaruvchan, shartli doimiy."
+    "question": "\n\t\t\nDiniy tashkilotlar qaysi idoralar tomonidan ro‘yhatga olinadi?\n",
+    "answer": "\n# Adliya vazirligi\n"
   },
   {
-    "question": "2024-yil nomini ko‘rsating",
-    "noAnswer1": "=\r\nYoshlar va biznes yili",
-    "noAnswer2": "Biznes va yoshlarni qo‘llab-quvvatlash yili",
-    "answer": "Yoshlar va biznesni qo‘llab-quvvatlash yili",
-    "noAnswer3": "Biznes va yoshlar yili"
+    "question": "\n\nProzelit kim?\n",
+    "answer": "\n# O‘z dinidan boshqa dinga o‘tgan kishi\n"
   },
   {
-    "question": "“Mahsulot (ish, xizmat) lar tannarxiga kiritiladigan mahsulotlarni ishlab chiqarish va sotish\r\nbo‘yicha xarajatlar tarkibi hamda moliyaviy natijalarni shakllantirish haqida” gi Nizomda\r\nxarajatlar qaysi iqtisodiy belgilar bo‘yicha guruhlangan?",
-    "answer": "Iqtisodiy mazmun va mohiyatiga ko‘ra",
-    "noAnswer1": "Shakllanayotgan joyiga va qaysi maqsadda ishlatilayotganiga asosan",
-    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
-    "noAnswer3": "Ishlab chiqarish jarayonida qatnashuviga asosan va Iqtisodiy mazmun va mohiyatiga ko‘ra"
+    "question": "\n\nXristianlikning vatani.\n",
+    "answer": "\t\n# Falastin\n"
   },
   {
-    "question": "Qaysi belgilar asosida xarajatlar bir guruhga birlashtirilganda guruh modda deb ataladi.",
-    "noAnswer1": "Iqtisodiy mohiyati va mazmuniga asosan",
-    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
-    "answer": "Xarajatlarni qayerda shakllanishi va qanday maqsadlarda foydalanayotganiga asosan",
-    "noAnswer3": "Ishlab chiqarish jarayonida qatnashmasligiga asosan"
+    "question": "\n\t\t\nPatriarxal davr dinlari\n",
+    "answer": "\t\n# buddizm\n"
   },
   {
-    "question": "Qaysi belgilar asosida xarajatlar bir guruhga birlashtirilganda guruh element deb yuritiladi.",
-    "noAnswer1": "Xarajatlarni qayerda shakllanishi va qanday maqsadlarda foydalanayotgani",
-    "noAnswer2": "Ishlab chiqarish jarayonida qatnashuviga asosan",
-    "answer": "Iqtisodiy mohiyati va mazmuniga asosan",
-    "noAnswer3": "Ishlab chiqarish jarayonida qatnashmasligiga asosan"
+    "question": "\n\nMissionerlik nima?\n",
+    "answer": " \n# boshqa dindagilarni o‘z diniga targ‘ib qilish faoliyati\n"
   },
   {
-    "question": "Ishlab chiqarishga xarajatlar smetasi nima?",
-    "answer": "Ishlab chiqarish faoliyatining kelgusi davri uchun barcha sarflar yig‘ma rejasi",
-    "noAnswer1": "Ishlab chiqarish moliyaviy faoliyatning talab etilgan davr uchun barcha daromadlarining\r\njamlama rejasi",
-    "noAnswer2": "Ishlab chiqarish moliyaviy faoliyatining alohida davri uchun korxonaning barcha daromad va\r\nxarajatlarning jamlama rejasi",
-    "noAnswer3": "Ishlab chiqarish moliyaviy faoliyatining alohida davri uchun korxonaning barcha daromad va\r\nxarajatlarning jamlama rejasi va ishlab chiqarish moliyaviy faoliyatining kelgusi davri uchun\r\nbarcha sarflar yig‘ma rejasi"
+    "question": "\n\nMilliy dinlarning asosiy xususiyatlari.\n",
+    "answer": "\n# bir millatga mansublikda\n"
   },
   {
-    "question": "Moliyaviy reja qanday asosiy bo‘limlardan tashkil topadi?",
-    "noAnswer1": "Foyda va zararlar to‘g‘risida prognoz reja, pul oqimlari rejasi, aktiv va passivlar prognoz balansi",
-    "noAnswer2": "Ishlab chiqarishni tayyorlash xarajatlari, foyda va zararlar, joriy xarajatlar",
-    "answer": "Foyda va zararlar, aktiv va passivlar prognoz balansi, pul oqimlari rejasi, asosiy kapital tarkibi,\r\nqarzlar bo‘yicha hisobot",
-    "noAnswer3": "Asosiy kapital tarkibi, amortizatsiya normasi, qarzlar bo‘yicha hisobot"
+    "question": "\n\nMonoteistik dinlarning asosi-bu\n",
+    "answer": "\n# yakka xudoga sig‘inish.\n"
   },
   {
-    "question": "Qaysi ish haqi qo‘shimcha ish haqi hisoblanadi?",
-    "noAnswer1": "Tungi smenada ishlagani uchun to‘lov hamda brigadirlik uchun to‘lov",
-    "noAnswer2": "Shogird tayyorlagani uchun hamda mehnat ta'tili uchun to‘lov",
-    "answer": "Ruxsat etilgan imtiyozli vaqt uchun hamda mehnat ta'tillari uchun to‘lanadigan to‘lovlar",
-    "noAnswer3": "Brigadirlik uchun to‘lov"
+    "question": "\n\nBuddizm qachon paydo bO‘lgan?\n",
+    "answer": "\n# eradan avvalgi VI asrda\n"
   },
   {
-    "question": "Asosiy faoliyatdan ko‘rilgan foyda bu .......",
-    "noAnswer1": "Yalpi foyda minus davr xarajatlari plyus moliyaviy faoliyatdan ko‘rilgan daromadlar va minus\r\nzararlardir",
-    "noAnswer2": "Bu sotishdan olingan sof tushum bilan sotilgan mahsulotning ishlab chiqarish tannarxi orasidagi\r\nfarq",
-    "answer": "Yalpi foyda bilan davr xarajatlari orasidagi farq hamda plyus asosiy faoliyatdan ko‘rilgan\r\nboshqa daromadlar yoki minus boshqa zararlardir",
-    "noAnswer3": "Yalpi foyda minus moliyaviy faoliyat bilan bog‘liq xarajatlar"
+    "question": "\n\t\nBuddizmning asosiy kitoblari.\n",
+    "answer": "\t\n#Tripitaka (3 kitoTantra)\t\n\n"
   },
   {
-    "question": "Rentabellik ko‘rsatkichi nima?",
-    "noAnswer1": "Rentabellik absolyut kattalik bo‘lib, korxona samaradorligini ifodalaydigan ko‘rsatkichdir.",
-    "noAnswer2": "Mahsulot ishlab chikarishga sarflangan xarajatlarni ifodalaydi.",
-    "noAnswer3": "Korxona faoliyatini natijasini ifodalaydigan miqdor ko‘rsatkichi hisoblanadi.",
-    "answer": "Rentabellik korxona faoliyatining foydalilik darajasini ifodalaydigan nisbiy ko‘rsatkichdir."
+    "question": "\n\t\nXristianlik qachon paydo bo‘lgan?\n",
+    "answer": "\t\n#Eramizning 1 asrida \t\n\n"
   },
   {
-    "question": "Firmaning rejalashtirilgan ishlab chiqarish dasturini bajarish uchun zarur bo‘lgan material\r\nresurslarga bo‘lgan ehtiyoji aks ettirilgan byudjet bu-",
-    "noAnswer1": "Sotib olish byuljeti",
-    "noAnswer2": "Mehnat byudjeti",
-    "answer": "Moddiy byudjet",
-    "noAnswer3": "Naqd pul byudjeti"
+    "question": "\n\nQaysi din eng qadimgi?\n",
+    "answer": "\n# buddizm\n"
   },
   {
-    "question": "Daromadlilik indeksi nimani ko‘rsatadi?",
-    "noAnswer1": "Daromadlik normasi yeki loyixaning foydaliligi.",
-    "noAnswer2": "Diskont normasi.",
-    "noAnswer3": "Kapital qo‘yilmalar va olingan umumiy samara o‘rtasidagi nisbati kattaligidir.",
-    "answer": "Keltirilgan samara summasini kapital qo‘yilmalar umumiy kattaligiga nisbati."
+    "question": "\n\nHindiston milliy dini qaysi din?\n",
+    "answer": "\n# xinduizm \n"
   },
   {
-    "question": "«Biznes- reja» nima?",
-    "answer": "Tadbirkorlik faoliyatining barcha asosiy tomonlari ifodalanadigan hujjat.",
-    "noAnswer1": "Raqobatchilar moliyaviy xolatini ifodalaydigan xujjat.",
-    "noAnswer2": "Tovarlarni tarkatish taktikasini ifodalaydigan xujjat.",
-    "noAnswer3": "Narxlar soxasidagi strategiyani belgilaydigan xujjat."
+    "question": "\n\nXristianlik qachon shakllangan?\n",
+    "answer": "\n# 1 asrda\n"
   },
   {
-    "question": "Biznes-rejaning bosh ichki maqsadi nima?",
-    "noAnswer1": "Tadbirkorlik faoliyatini boshkarish uchun asos bo‘lishi.",
-    "noAnswer2": "Moliyalashtirish strategiyasini aniqlash.",
-    "answer": "Faoliyatning muvaffaqqiyatiga ishontirish.",
-    "noAnswer3": "Sotish bozorini Baholash"
+    "question": "\n\nXristianlikning asosiy oqimlari?\n",
+    "answer": "\n# katolisizm, pravoslaviye, protestantizm\n\n"
   },
   {
-    "question": "Iqtisodiy samaradorlikni ifodalovchi ko‘rsatkichlar quyidagilardan iborat:",
-    "noAnswer1": "Mahsulotni sotish hajmi va foyda miqdori;",
-    "noAnswer2": "Korxona aktivlari va passivlari;",
-    "noAnswer3": "Korxona fond qaytimi va fond sig‘imi;",
-    "answer": "Foyda miqdori va daromadliligi;"
+    "question": "\n\nXristianlikning muqaddas kitobi?\n",
+    "answer": "\t\n# Injil \n"
   },
   {
-    "question": "Bahodan chegirishdan ko‘zda tutilgan maqsad nima?",
-    "noAnswer1": "Raqobatni yumshatish",
-    "noAnswer2": "Baholarni korrektirovka qilish",
-    "answer": "Istemolchi (haridor) larni jalb qilish",
-    "noAnswer3": "Tavakkalchilikni kamaytirish"
+    "question": "\n\t\nYahudiy dinning asosiy kitoblari?\n",
+    "answer": "\t\n# tavrot, talmud \n"
   },
   {
-    "question": "Mehnatga haq to‘lash xarajatlari biznes rejaning qaysi bo‘limida amalga oshiriladi?",
-    "noAnswer1": "Moliyaviy rejada",
-    "noAnswer2": "Xarajatlar rejasida",
-    "noAnswer3": "Marketing rejasida",
-    "answer": "Tashkiliy rejada"
+    "question": "\n\nMarkaziy Osiyoda keng tarqalgan din? \n",
+    "answer": "\n# islom \n"
   },
   {
-    "question": "Tovar deb, nimaga aytiladi?",
-    "noAnswer1": "yaratilgan mahsulotga",
-    "noAnswer2": "iste’molga tushgan barcha moddiy ne’mat va xizmatlarga",
-    "answer": "kishilar ehtiyojini qondiradigan va bozor uchun ishlab chiqarilgan mahsulotga.",
-    "noAnswer3": "o‘zgalar ehtiyojini qondiruvchi vositalarga"
+    "question": "\n\t\nDinlarning o‘xshashligi nimada?\n",
+    "answer": "\t\n# dinga e’tiqod qilishda\t\t\n\n"
   },
   {
-    "question": "+++\r\nKritik nuqta bu-",
-    "noAnswer1": "Ishlab chiqarish hajmiga bog‘liq xolda o‘zgarmaydigan xarajatlar.",
-    "noAnswer2": "Umumiy kattaligi ishlab chiqarish hajmiga bog‘liq bo‘lgan xarajatlar darajasi.",
-    "answer": "Barcha umumiy xarajatlarni to‘liq qoplaydigan tushum darajasi.",
-    "noAnswer3": "Savdo foydasi va umumiy ishlab chiqarish xarajatlari orasidagi farq"
+    "question": "\n\t\nIudaizmnig o‘ziga xosligi?\n",
+    "answer": "\t\n#milliy dinligi\t\n\n"
   },
   {
-    "question": "Rejalashtirish usuli...",
-    "answer": "Korxonalarda reja ko‘rsatkichlarini asoslash yo‘llari va qoidalari, shuningdek firma ichki\r\nrejalarining mazmuni, shakli, tuzilmasi va tartibini ifodalaydi",
-    "noAnswer1": "Korxonalarda rejalashtirish borasida qonuniyatlar, ilmiy tamoillar, zamonaviy talablar, iqtisodiy\r\nko‘rsatmalar majmuasi",
-    "noAnswer2": "Rejalashtirish- korxona faoliyatini tashkil etish bosqichlari,rejalarning shakli, tuzilmasi, tartibi",
-    "noAnswer3": "Rejalashtirish texnologiyasidir"
+    "question": "\n\t\t\n Xitoy milliy dinlari qaysilar?\n",
+    "answer": "\n# Daosizm, konfusiychilik\n"
   },
   {
-    "question": "Maqsad turiga ko‘ra rejalashtirishning qanday turlari qo‘llaniladi?",
-    "noAnswer1": "Operativ, normativ, taktik, joriy",
-    "answer": "Operativ , taktik, strategik, normativ",
-    "noAnswer2": "Taktik, strategik, reaktiv, dastlabki, ta’minot-sotuv",
-    "noAnswer3": "Strategikva normativ"
+    "question": "\n\nIslom dini qachon paydo bo‘lgan?\n",
+    "answer": "\t\n# milodning VII asr boshlarida \n"
   },
   {
-    "question": "Quyidagi tartib rejalarni tuzish ishlarini tashkil qilishning qaysi ko‘rinishiga tegishli?\r\nBosh maqsadlar bo‘yicha dastlabki rejalar tuziladi va quyi bo‘g‘inlarda ular aniqlashtiriladi.\r\nSo‘ngra quyidan yuqoriga harakat amalga oshiriladi. Bunda xususiy rejalar orasidagi farqlar\r\nbartaraf etiladi va yanada samarali yechimlar qo‘shiladi.",
-    "noAnswer1": "Pastdan yuqoriga",
-    "noAnswer2": "Yuqoridan pastga",
-    "answer": "Aralash",
-    "noAnswer3": "Gorizontal"
+    "question": "\n\t\n Islom dinining muqaddas kitoblari\n",
+    "answer": "\t\n# Qur’on, Hadislar\n"
   },
   {
-    "question": "Analitik - hisoblash uslubi mohiyati – ?",
-    "noAnswer1": "Vazifalarni tarkibiy qismga va operatsiyalarga taqsimlash",
-    "noAnswer2": "Normativlarni ishlab chiqish",
-    "answer": "Normativlar asosida normani belgilash",
-    "noAnswer3": "Norma va normativlarni kuzatish asosida belgilash"
+    "question": "\n\t\nIslom dinining asosiy oqimlari\n",
+    "answer": "\t\n#sunniylik, shialik, xorijiylik\t\n\n"
   },
   {
-    "question": "Reja tuzish tartibi necha xil ko‘rinishda amalga oshiriladi?",
-    "noAnswer1": "Gorizontal, vertikal aralash",
-    "answer": "Yuqoridan pastga, patdan yuqoriga va aralash",
-    "noAnswer2": "Birinchi ko‘rinishda barcha bo‘limlar bo‘yicha rejalar bir xil vaqtda ishlab chiqilib, so‘ngra\r\nmuvofiqlashtiriladi, ikkinchi ko‘rinishda esa bo‘limlar bo‘yicha rejalar mantiqiy ketma-ketlikda\r\nishlab chiqilib, so‘ngra muvofiqlashtiriladi",
-    "noAnswer3": "Talab aniqlanadi va ishlab chiqarish hajmi hamda belgilanadi, so‘ngra ushbu ko‘rsatkich asosida\r\nboshqa bo‘limlar o‘z rejalarini tuzadilar, ishlab chiqadi yoki avvalo korxonaning kelgusidagi\r\nmaqsadlari borasida qaror qabul qilinadi va shu asosida reja ko‘rsatkichlari ishlab chiqiladi"
+    "question": "\n\t\nBuddizmning asosiy oqimlari\n",
+    "answer": "\t\n# maxayana, xinayana\n"
   },
   {
-    "question": "Rejalashtirish jarayoni quyidagi bosqichlardan iborat:",
-    "noAnswer1": "Vazifani aniqlash, vositalarni tanlash, maqsadni belgilash va nazorat",
-    "noAnswer2": "Vositalarni tanlash, nazorat, vazifani aniqlash va maqsadni belgilash",
-    "noAnswer3": "Maqsadni belgilash, vositalarni tanlash, nazorat va vazifani aniqlash",
-    "answer": "Maqsadni belgilash, vazifani aniqlash, vositalarni tanlash va nazorat"
+    "question": "\n\t\t\nIslom tarixidagi birinchi muqaddas jang\n",
+    "answer": "\t\n# Badr g‘azoti\n"
   },
   {
-    "question": "Kalendar rejalashtirish bu–…",
-    "answer": "Korxonaning yillik rejasini o‘n kunlik, hafta, kun va smena bo‘yicha aniqlashtirish",
-    "noAnswer1": "Korxonaning yilik rejasini bo‘linmalar va bajaruvchilar bo‘yicha aniqlashtirish",
-    "noAnswer2": "Korxonaning yillik rejasini faqat ish kunlari bo‘yicha aniqlashtirish",
-    "noAnswer3": "Korxonaning yillik rejasini kalendar’ kunlar bo‘yicha aniqlashtirish"
+    "question": "\n\t\t\n Qur’onni birinchi bo‘lib kitob shakliga keltirgan shaxs\n",
+    "answer": "\n# Umar ibn Xattob\n"
   },
   {
-    "question": "Ishlab chiqarishning asosiy maqsadi –",
-    "noAnswer1": "davlat iqtisodiyotini rivojlantirish",
-    "answer": "oshib boruvchi ehtiyojlarni qondirish.",
-    "noAnswer2": "davlatning ishlab chiqarish potentsialini oshirish",
-    "noAnswer3": "ilmiy – texnika taraqqiyotini ta’minlash"
+    "question": "\n\nIslom tarixida birinchi ko‘chish «hijrat»\n",
+    "answer": "\n# Makkadan Madinaga\n"
   },
   {
-    "question": "Yangi mahsulotni prognozlashtirish jarayonida qanday usul foydalaniladi?",
-    "noAnswer1": "Ekspert baholar, statistik baholar, modellashtirish",
-    "noAnswer2": "Ekspert baholar, analitik, iqtisodiy matematik usul",
-    "answer": "Ekspert baholar, ekstrapolyatsiya (statistik baholar), solishtirish",
-    "noAnswer3": "Ekstrapolyatsiya (statistik baholar), solishtirish, analitik"
+    "question": "\n\nTotemizm nima?\n",
+    "answer": "\t\n#biron bir hayvonni o‘z ajdodi deb bilish\t\t\n\n"
   },
   {
-    "question": "Korxonani boshqarishda boshqarilishning qaysi strukturalaridan foydalaniladi?",
-    "answer": "Chiziqli, funktsional, chiziqli – funktsional, funksional – shtabli",
-    "noAnswer1": "Chiziqli va funktsional",
-    "noAnswer2": "Funktsional, chiziqli, chiziqsiz",
-    "noAnswer3": "Funktsional, chiziqli, texnik – funktsional"
+    "question": "\n\t\nShomanizm nima?\n",
+    "answer": "\t\n# tabiat jismlariga sig‘inish\n"
   },
   {
-    "question": "Zararsizlik nuqtasi – bu...",
-    "noAnswer1": "Tushum va xarajatlar orasidagi farq",
-    "answer": "Barcha xarajatlar to‘liq qoplanadigan tushum",
-    "noAnswer2": "Tushumga bog‘liq holda o‘zgaradigan xarajatlar",
-    "noAnswer3": "Tushumga bog‘liq holda o‘zgarmas xarajatlar"
+    "question": "\n\t\nZardushtiylikning manbasi\n",
+    "answer": "\t\n# Avesto\n"
   },
   {
-    "question": "Tarif koeffitsienti – bu...",
-    "answer": "Razryadlar orasidagi farqlarni ifodalaydi",
-    "noAnswer1": "Ish haqi orasidagi farqni ifodalaydi",
-    "noAnswer2": "Tarif stavkalar orasidagi farqlarni ifodalaydi",
-    "noAnswer3": "Ishbay ish haqi orasidagi farqlarni ifodalaydi"
+    "question": "\n\t\t\nO‘rta Osiyoda keng tarqalgan sunniylik oqimi\n",
+    "answer": "\t\n# Xanafiya\n"
   },
   {
-    "question": "Korxonani ishlab chiqarish dasturining mohiyati nimada?",
-    "noAnswer1": "Yillik ishlab ishlab chiqarish ‘ajmi, nomenklutarsi, sifati va muddatini ifodalaydigan kompleks\r\nishlab chiqarish rejasidir",
-    "noAnswer2": "Sotish ‘ajmini ishlab chiqarish kompleks rejasi",
-    "noAnswer3": "Talabga mos ravishda yillik ishlab chiqarish ‘ajmi, nomenklaturasi va muddatini ifodalaydigan\r\nmahsulot ishlab chiqarish kompleks rejasidir",
-    "answer": "Bozor talab etgan tovar va xizmatlarni ishlab chiqarish yillik hajmi, nomenklaturasi, sifati va\r\nmuddatini ifodalaydigan kompleks ishlab chiqarish rejasi"
+    "question": "\n\t\nUrug‘-qabila dinlarining o‘ziga xosligi\n",
+    "answer": "\t\n#muayyan urug‘-qabilaga mos bo‘lishi va xizmat qilishida\n"
   },
   {
-    "question": "Ishlab chiqarish rejasi mazmunini quyidagilar tashkil etadi:",
-    "noAnswer1": "Ishlab chiqarish quvvatlarini hisoblash",
-    "noAnswer2": "Resurslarbo‘yicha sarflarni aniqlash",
-    "answer": "Korxonanimahsulot ishlab chiqarish bo‘yicha real imkoniyatlarini aniqlash",
-    "noAnswer3": "Ishlab chiqarish quvvatlarini hisoblash, korxonani mahsulot ishlab chiqarish bo‘yicha real\r\nimkoniyatlarini aniqlash, resurslar bo‘yicha sarflarni aniqlash"
+    "question": "\n\t\nRespublikamiz Konstitusiyasidagi vijdon erkinligi nima?\n",
+    "answer": "\t\n# fuqarolarning biron bir dinga e’tiqod qilish yoki hech qanday dinga e’tiqod qilmaslikni o‘zlari mustaqil hal qilishlari huquqi\t\n"
   },
   {
-    "question": "Ishlab chiqarish dasturi bu",
-    "noAnswer1": "Turli ehtiyojlarni qondirishga yo‘naltirilgan mahsulotlar nomenklaturasi, assortimenti, sifati va\r\nmiqdorini ifodalovchi reja ko‘rsatkichlari tizimidir",
-    "noAnswer2": "Mahsulot ishlab chiqarish bo‘yicha material resurslar sarfini, mahsulotlar assortimentini,\r\njihozlar sonini ifodalovchi tizim",
-    "answer": "Mahsulotishlab chiqarish bo‘yicha Texnologik jarayon sxemasi, mahsulot turlari miqdori va\r\nsifatini belgilovchi tizim",
-    "noAnswer3": "Mahsulot ishlab chiqarish hajmini kvartallar, oylar va dekadalarda ifodalovchi tizim"
+    "question": "\n\t\nE’tiqod erkinligi nima bilan kafolatlangan?\n",
+    "answer": "\t\n# O‘zbekiston Respublikasi Konstitusiyasi bilan \n"
   },
   {
-    "question": "Material resurslarga bo‘lgan talab biznes rejaning qaysi bo‘limida aks ettiriladi?",
-    "noAnswer1": "Xarajatlar rejasi",
-    "noAnswer2": "Marketing rejasi",
-    "answer": "Ishlab chiqarish rejasi",
-    "noAnswer3": "Moliyaviy reja"
+    "question": "\n\t\nIslom so‘zining ma’nosi?\n",
+    "answer": "\t\n# Allohga bo‘ysunmoq, itoat qilmoq\n"
   },
   {
-    "question": "Ishlab chiqarish faoliyatini rejalashtirish - …….",
-    "noAnswer1": "Korxona va firmalarning rivojlanishini, xo‘jalik faoliyati shakllarini va iqtisodiy maqsadlarni\r\nasoslashni o‘rganadi",
-    "answer": "Iqtisodiy resurslarni tanlash va ulardan foydalanish qonunlari. tamoyillari, qoidalari va\r\nusullarini o‘rganadi",
-    "noAnswer2": "Iqtisodiy resurslarni boshqarish muammolarini o‘rganadi",
-    "noAnswer3": "Korxonaninghaqiqiy holatini tadqiq qilishni va uning kelgusidagi rivojlanish darajasini o‘rganadi"
+    "question": "\n\t\nIslom qaysi asrda paydo bo‘lgan?\n",
+    "answer": "\t\n# VII asrda\n"
   },
   {
-    "question": "Mehnat sarfi ifodasidagi mahsulot hajmi quyidagi ko‘rsatkichlar aniqlashga asos bo‘ladi",
-    "noAnswer1": "Material resurslarga talab hajmini, ish haqi fondi va ishchilar sonini aniqlash uchun",
-    "noAnswer2": "Jihozlar soni, ishchilar soni va moliyaviy natijalarni shakillantirish uchun",
-    "answer": "Ishchilar soni va ish haqi fondini aniqlash uchun",
-    "noAnswer3": "Baho, ishchilar soni va ish haqi fondini aniqlash"
+    "question": "\n\t\nQur’ondagi birinchi sura?\n",
+    "answer": "\t\n# «Alaq»\t\n\n"
   },
   {
-    "question": "“Biznes reja” quyidagi talablarga javob berishi lozim",
-    "noAnswer1": "Biznes strategiyasini amalga oshirish quroli bo‘lishi lozim",
-    "noAnswer2": "Mablag‘larni yo‘naltirishi lozim",
-    "answer": "Har bir ko‘rsatkich asoslasnishi shart",
-    "noAnswer3": "Rivojlanish yo‘nalishlarini son va sifat ko‘rsatkichlari tizimi sifatida ifodalashi lozim"
+    "question": "\n\t\nEng keng tarqalgan jahon dinlari qaysilar?\n",
+    "answer": "\t\n#yahudiylik, xristianlik, islom\t\n\n"
   },
   {
-    "question": "Qo‘shimcha to‘lov va kompensatsiyalar nima uchun xizmat qiladi",
-    "noAnswer1": "Qo‘shimcha to‘lov va kompensatsiyalar xodimlarning yuqori aktivligini rag‘batlantirishga\r\nyo‘nalitirilgan.",
-    "noAnswer2": "Ishlab chiqarish samaradorligini oshirishga xizmat qiladi.",
-    "answer": "Mehnat sharoitidagi chetlanishlarda ishchi kuchini qo‘shimcha xarajatlarini qoplash uchun\r\nbelgilanadi.",
-    "noAnswer3": "Qo‘shimcha to‘lov va kompensatsiyalar xodimlarning bajargan ishlariga to‘lovlarni ifodalaydi."
+    "question": "\n\t\t\nQaysi marosimni diniy marosim deya olamiz?\n",
+    "answer": "\t\n# nikoh\n"
   },
   {
-    "question": "Ishchilarning asosiy va qo‘shimcha ish haqi tushunchasi.",
-    "noAnswer1": "Asosiy ish haqi ishlagan vaqt uchun, qo‘shimcha ish haqi ishdan tashqari soatlar uchun\r\nto‘lanadi.",
-    "noAnswer2": "Asosiy ish haqi haqiqiy bajarilgan ish uchun, qo‘shimcha ish haqi esa qo‘shimcha soat\r\nuchunto‘lanadi.",
-    "noAnswer3": "Asosiy ish haqi ishlangan vaqt (bajarilgan ish, ishlab chiqarilgan mahsulot) uchun, qo‘shimcha\r\nish haqi esa ishlanmagan vaqt uchun to‘lanadi.",
-    "answer": "Asosiy ish haqi ishlangan vaqt uchun (xizmatlar, mahsulotlar hajmini bajarganligi uchun)\r\nto‘lanadi, qo‘shimcha ish haqi esa mehnat qonunlariga belgilangan ishlanmagan vaqt uchun\r\nqo‘shimcha to‘lovlardir."
+    "question": "\n\t\nSufizm ta’limoti asoschilari\n",
+    "answer": "\t\n# Gʻazzoliy, Yassaviy, Naqshbandiy, Navoiy va boshqalar \n"
   },
   {
-    "question": "Ishlab chiqarish – bu",
-    "noAnswer1": "iqtisodiyotni moliyalashtiruvchi yagona manbaa",
-    "noAnswer2": "jamiyat hayoti uchun 2 – darajali rol o‘ynaydi",
-    "noAnswer3": "mehnat vositalarini mehnat predmeti va mehnatdan ajralishidir",
-    "answer": "ko‘payib boruvchi ehtiyojlarni qondiruvchi yagona manbaa."
+    "question": "\n\t\nIudaizmga kimlar e’tiqod qiladi?\n",
+    "answer": "\t\n#Hindular\t\n\n"
   },
   {
-    "question": "«Kalkulyatsiya obyekti» va «Kalkulyatsiya birligi» tushunchasi nimani ifodalaydi.",
-    "noAnswer1": "Kalkulyatsiya obyekti tannarx o‘lchov birligi kalkulyatsiya, birligi-mahsulot turi.",
-    "answer": "Kalkulyatsiya obyekti- mahsulot turi, kalkulyatsiya birligi – mahsulot birligi uchun xarajatlar",
-    "noAnswer2": "Kalkulyatsiya obyekti-birlik xizmat turi, kalkulyatsiya birligi - birlik mahsulot uchun material\r\nxarajatlari",
-    "noAnswer3": "Kalkulyatsiya obyekti mahsulot turi, birligi – tannarx xarajatlari o‘lchov birligi."
+    "question": "\n\t\nIslomdagi sunniylik oqimining asosiy mazxab-yo‘nalishlari\n",
+    "answer": "\t\n# xanafiy, molikiya, shofi’iylik, xanbaliya\t\n\n"
   },
   {
-    "question": "Mahsulot tannarxi kalkulyatsiyasi nima?",
-    "answer": "Xarajatlarning kelib chiqish o‘rniga ko‘ra aloxida moddalarga taksimlanishi.",
-    "noAnswer1": "Mahsulot tannarxining xarajat elementlari buyicha joylanishi.",
-    "noAnswer2": "Korxonada ishlab chikarilayotgan mahsulot birligining tannarxi.",
-    "noAnswer3": "Moddiy va mehnat xarajatlarini guruxlanishi."
+    "question": "\n\t\nDiniy xodim deganda kimni tushuniladi?\n",
+    "answer": "\t\n# imom, pastor, yepiskop \n"
   },
   {
-    "question": "Texnik iqtisodiy loyihada faoliyatning qaysi jihatlariga urg‘u beriladi?",
-    "noAnswer1": "Faoliyatning moliyaviy jihatlariga",
-    "noAnswer2": "Faoliyatning tijorat jihatlariga",
-    "answer": "Faoliyatning texnik va texnologik jihatlariga",
-    "noAnswer3": "Faoliyatning barcha jihatlariga"
+    "question": "\n\t\n«Vijdon erkinligi va diniy tashkilotlar to‘g‘risida»gi qonun qachon qabul qilingan?\n",
+    "answer": "\t\n# 1991 yilda\n"
   },
   {
-    "question": "Rejalashtirishda foydaning qanday ko‘rsatkichlaridan foydalaniladi?",
-    "noAnswer1": "Balans foyda, normativ foyda",
-    "noAnswer2": "Sof foyda, normativ foyda",
-    "answer": "Balans foyda, asosiy faoliyat foydasi, sof foyda,",
-    "noAnswer3": "Balans foyda"
+    "question": "\n\t\nO‘zbekiston Respublikasi davlat va din orasidagi munosabatlar.\n",
+    "answer": "\t\n# davlat din ishlariga aralashmaydi, ammo vijdon erkinligini himoya qiladi\t\n\n"
   },
   {
-    "question": "Mahsulot rentabelligi qanday aniqlanadi?",
-    "answer": "Foydani uni olishga sarflangan xarajatlarga nisbatan orqali.",
-    "noAnswer1": "Mahsulotning bozor bahosini to‘la tannarxga nisbati orqali.",
-    "noAnswer2": "Balans foydani yillik umumiy soliq ajiratmalariga nisbati orqali.",
-    "noAnswer3": "Tannarx miqdorini foyda miqdoriga nisbati orqali."
+    "question": "\n\t\nMillat dinlari\n",
+    "answer": "\t\n# yahudiylik, konfusiylik, sintoizm\n"
   },
   {
-    "question": "Biznes reja quyidagi asosiya vazifani bajaradi",
-    "noAnswer1": "Maqsadni amalga oshirish vositalari majmuasi",
-    "noAnswer2": "Havf-xatarni kamaytirish",
-    "answer": "Biznesni amalga oshirish konsepsiyasi",
-    "noAnswer3": "Korxona faoliyatini davom ettirish"
+    "question": "\n\t\nIslom dinida «fiqh» nimani ifoda qiladi?\n",
+    "answer": "\t\n# huquqshunoslikni \n"
   },
   {
-    "question": "Ko‘rsatkichlar quyidagi talablarga javob berishi lozim",
-    "noAnswer1": "Faqat miqdoriy tavsifga ega bo‘lishi",
-    "answer": "Ishonchlilik va o‘lchov hususiyatiga ega bo‘lishi",
-    "noAnswer2": "Faqat sifat tasnifga ega bo‘lishi",
-    "noAnswer3": "Jarayonning ijtimoiy va iqtisodiy jihatlarini tafsiflashi"
+    "question": "\n\t\nIslomiy madaniyatga xos xususiyatlar\n",
+    "answer": "\t\n# e’tiqodlilik, poklik, ezgulik, xalimlik\n"
   },
   {
-    "question": "Material resurslardan foydalanish koeffitsienti qanday aniqlanadi?",
-    "noAnswer1": "Detal og‘irligini yarim tayyor mahsulot og‘irligiga nisbati orqali",
-    "noAnswer2": "Sotilayotgan chiqindilarning miqdorini sotilayotgan chiqindilar qiymati nisbati orqali",
-    "answer": "Haqiqiy material resurslari sarfini material sarfi normasiga nisbati orqali",
-    "noAnswer3": "Yillik ishlab chiqarish hajmini o‘rtacha quvvatga nisbati orqali"
+    "question": "\n\t\nMarkaziy Osiyolik mashhur islom allomalari\n",
+    "answer": "\t\n# Buxoriy, Moturudiy, Marg‘inoniy, Termiziy\t\n\n"
   },
   {
-    "question": "Jihozlardan intensiv foydalanish koeffitsienti mohiyatini …",
-    "noAnswer1": "Jihozning ish vaqtidan foydalanish darajasini ifodalash tashkil etadi",
-    "noAnswer2": "Jihoz samaradorligidan foydalanish darajasini ifodalash tashkil etadi",
-    "noAnswer3": "Jihoz sonidan foydalanish darajasini ifodalash tashkil etadi",
-    "answer": "Jihozning soatlik unimdorligidan foydalanish darajasini ifodalash tashkil etadi"
+    "question": "\n\t\nMarkaziy Osiyoda asosan amalda bo‘lgan islom mazxabi\n",
+    "answer": "\t\n# Xanafiylik\n"
   },
   {
-    "question": "Ro‘yxatdagi ishchilar soni bilan haqiqiy ishchilar soni orasidagi farq.............",
-    "noAnswer1": "Ishkuni davomida yuz beradigan tashkiliy-texnik tanaffuslar hisobiga yuzaga keladi",
-    "noAnswer2": "Ishchilarning ishga sababsiz kelmagan kunlari hisobiga yuzaga keladi",
-    "noAnswer3": "Doimiy va mavsumiy ishlarga jalb qilingan ishchilar soni orasidagi farqdir",
-    "answer": "Imtiyozli ruxsat etilgan ishga chiqmaslik kunlari hisobiga yuzaga keladi"
+    "question": "\n\t\n«Mushafi Usmon»ning asl nusxalaridan biri saqlanayotgan joy qayerda?\n",
+    "answer": "\t\n# Toshkent\n"
   },
   {
-    "question": "Ishlab chiqarishning asosiy omillari:",
-    "answer": "ishchi kuchi, kapital, yer va tadbirkorlik qobiliyati.",
-    "noAnswer1": "xom-ashyo va ishlab chiqarish texnologiyasi",
-    "noAnswer2": "ishlab chiqarish resurslari",
-    "noAnswer3": "Kapital"
+    "question": "\n\t\nDiniy idoraning Markaziy Osiyodagi bosh lavozimi\n",
+    "answer": "\t\n# Muftiy\t\n\n"
   },
   {
-    "question": "Ehtiyoj - bu........",
-    "noAnswer1": "ishlab chiqarish jarayoni",
-    "answer": "hayotiy vositalarga bo‘lgan zaruriyat.",
-    "noAnswer2": "iste’mol jarayonida qo‘llanilishi mumkin bo‘lgan vosita",
-    "noAnswer3": "resurs"
+    "question": "\n\t\nMuhammad Payg‘ambar necha yoshda vahiy qabul qildilar?\n",
+    "answer": "\t\n# 40 yoshda\n\n"
   },
   {
-    "question": "Iqtisodiyotning bosh masalasi va doimiy muammosi:",
-    "noAnswer1": "ishlab chiqarish hajmini oshirish uchun qancha ishchi kuchi sarflash kerak",
-    "answer": "nima, qanday, qancha va kim uchun ishlab chiqarish.",
-    "noAnswer2": "davlatning milliy daromadini qanday oshirish mumkin",
-    "noAnswer3": "aholi bandligini oshirish"
+    "question": "\n\t\nQur’onning eng katta surasi?\n",
+    "answer": "\t\n#Baqara surasi\n"
   },
   {
-    "question": "Kreditlar – bu",
-    "answer": "pul vositalarini tovar va xizmatlarga to‘lov, qaytarib berish sharti bilan noma’lum muddatga\r\nqarz berish.",
-    "noAnswer1": "ssuda fondini shakllantirish va undan foydalanish munosabatlari",
-    "noAnswer2": "qarz berish jarayonlarida qarz beruvchi va qarzdor o‘rtasidagi amalga oshiriladigan harakat",
-    "noAnswer3": "tovar va xizmatlarga naqd pulsiz shaklda hisob – kitob qilish uchun bank tomonidan beriladigan\r\nmoliyaviy xujjat"
+    "question": "\n\t\nQur’on qayerda nozil bo‘lgan?\n",
+    "answer": "\t\n# Misrda, Makkada\n"
   },
   {
-    "question": "Korxonaning ishlab chiqarish hajmi 7000 dona mahsulotni tashkil qiladi. Ishchilarning o‘rtacha\r\nro‘yxatdagi soni 200 kishi bo‘lib, ishlab chiqarish hajmini 15% ga oshirish ko‘zda tutiladi. Reja yili\r\nuchun ishchilar soni quyidagiga teng bo‘ladi:",
-    "noAnswer1": "240 kishi",
-    "noAnswer2": "250 kishi",
-    "answer": "230 kishi",
-    "noAnswer3": "210 kishi"
+    "question": "\n\t\nO‘zbekistonda islom dini bayramlari qaysi?\n",
+    "answer": "\t\n#G. Iyd-al Fitr, Iyd-al Qurbon\t\t\n\n"
   },
   {
-    "question": "Iste’molchilik krediti – bu",
-    "noAnswer1": "kreditning asosiy va yetakchi shakli",
-    "noAnswer2": "korxonalar va birlashmalar hamda boshqa xo‘jalik yurutuvchi sub’ektlarning bir – biriga\r\nberadigan krediti",
-    "answer": "xususiy shaxslarga iste’mol tovarlari sotib olish uchun ma’lum muddatga beriladigan kredit.",
-    "noAnswer3": "ko‘chmas mulklar hisobiga uzoq muddatli ssudalar shaklida beriladigan kredit"
+    "question": "\n\nTafsir\n",
+    "answer": "\n# Qur’on oyatlariga sharx beradi\n"
   },
   {
-    "question": "Pul mablag‘larini to‘plash, joylashtirish va ularning harakatini tartibga solish bilan\r\nshug‘ullanuvchi iqtisodiy muassasa .....",
-    "noAnswer1": "tovarlar birjasi",
-    "noAnswer2": "mehnat birjasi",
-    "noAnswer3": "chakana savdo tashkiloti",
-    "answer": "bank."
+    "question": "\n\nO‘zbekiston musulmonlari asosan qaysi mazhabda?\n",
+    "answer": "\t\n#Abu Xanifa mazxabida\n"
   },
   {
-    "question": "Korxonaning ro‘yxatdagi ishlovchilar soni quyidagilardan tarkib topadi:",
-    "noAnswer1": "1 kun muddat bilan doimiy va vaqtinchalik ishlarga qabul qilingan xodimlar",
-    "noAnswer2": "Qabul qilingan xodimlar doimiy va mavsumiy ishlarga qabul qilingan xodimlar",
-    "answer": "1 kun va undan ko‘proq muddatga doimiy va vaqtinchalik ishlarga",
-    "noAnswer3": "Qabul qilingan xodimlar doimiy va mavsumiy ishlarga qabul qilingan xodimlar va 1 kun muddat\r\nbilan doimiy va vaqtinchalik ishlarga qabul qilingan xodimlar"
+    "question": "\n\t\nTeologiya nima?\n",
+    "answer": "\t\n# ilohiyot, xudo to‘g‘risidagi ta’limot \n"
   },
   {
-    "question": "Giperinflyatsiya – bu",
-    "answer": "narxning shiddat bilan o‘sishi, pul qadrining juda tezlik bilan pasayishi.",
-    "noAnswer1": "qtisodiy tanglik va ishsizlikning birgalikda yuz berishi",
-    "noAnswer2": "eski pulning qadri yuqori qilib belgilangan, ammo nomi eskicha qolgan yangi pulga ma’lum\r\nnisbatda almashtirib va nisbatga qarab narxlarni ham o‘zgartirish tushuniladi",
-    "noAnswer3": "pulning yuridik kuchini bekor qilish va yangi pul chiqarish tushuniladi"
+    "question": "\n\t\nDinshunoslik fan sifatida qachon shakllandi?\n",
+    "answer": "\n# 19 asr oxiri 20 asr boshlarida\n\n"
   },
   {
-    "question": "Samaradorlik mezoni qanday ko‘rsatkichlar bilan ifodalanadi?",
-    "noAnswer1": "Sof diskontlangan daromad (SDD) yalpi milliy daromad (YaMD) Yalpi ichki mahsulot (YaIM)\r\ndaromadlik indeksi (DI)",
-    "noAnswer2": "Sof milliy mahsulot (SMM) yalpi milliy mahsulot (YaMM) milliy daromad (ME)",
-    "answer": "Sof diskontlangan daromad (SDD) daromadlilik indeksi (DI), qoplash muddati",
-    "noAnswer3": "Baho indeksi (BI), daromadlilik indeksi (DI) koplash muddatining, ichki daromadlilik normasi\r\n(IDN)"
+    "question": "\n\nFundamentalizm nima?\n",
+    "answer": "\n# diniy aqidalarni o‘zgarmas deb e’tiqod qilish\n\n"
   },
   {
-    "question": "Bozor sharoitida qanday ko‘rsatkich umum qabul qilingan samaradorlik mezoni bo‘lib\r\nhisoblanadi?",
-    "noAnswer1": "Dividend",
-    "noAnswer2": "Baho",
-    "noAnswer3": "Zarar",
-    "answer": "Maksimal foyda"
+    "question": "\n\nQuyidagilardan qaysi din monoteistik dinlar qatoriga kirmaydi?\n",
+    "answer": "\n# Xinduizm \n"
   },
   {
-    "question": "Inflyatsiya – bu",
-    "answer": "muomaladagi pul massasining tovarlar massasidan ustunligi natijasida tovarlar bilan\r\nta’minlangan pullarni ko‘payib ketishi.",
-    "noAnswer1": "milliy pul birligi qiymatining rasmiy tartibda pasaytirilishi",
-    "noAnswer2": "milliy pul birligi qiymatining rasmiy tartibda ko‘tarilishi",
-    "noAnswer3": "eksportni importga nisbatan nihoyatda ortib ketishi"
+    "question": "\n\nDiniy fundamentalizm va ekstremizm tarafdorlarining asosiy maqsadi nima?\n",
+    "answer": "\n#Xalifalik davlatini o‘rnatish;\n\n"
   },
   {
-    "question": "Jihozlardan ekstensiv foydalanish koeffitsienti mohiyatini…",
-    "noAnswer1": "jihozning soatlik unimdorligidan foydalanish darajasini ifodalash tashkil etadi",
-    "noAnswer2": "jihoz samaradorligidan foydalanish darajasini ifodalash tashkil etadi",
-    "answer": "jihozning ish vaqtidan foydalasnish darajasini ifodalash tashkil etadi",
-    "noAnswer3": "jihoz sonidan foydalanish darajasini ifodalash tashkil etadi"
+    "question": "\n\t\nO‘zbekistonga mustaqillikdan keyin dastlab kirib kelgan qanday diniy harakatlarni bilasiz?\n",
+    "answer": "\t\n# «Vahhobiylar» harakati;\n"
   },
   {
-    "question": "Pul muomalasi – bu",
-    "noAnswer1": "mamlakatda pul muomilasini tashkil qilishga xizmat qiluvchi naqd va kredit pullar",
-    "answer": "pulning o‘z vazifasini bajarish jarayonidagi to‘xtovsiz harakati.",
-    "noAnswer2": "pul mablag‘larini ssuda fondi shaklida to‘lash va ularni takror ishlab chiqarish ehtiyojlari uchun\r\nqarzga berish",
-    "noAnswer3": "daromadning qarzga berilgan pul summasiga nisbatining foizda ifodalanishi"
+    "question": "\n\t\nVijdon erkinligi va diniy tashkilotlar to‘g‘risidagi qonunning yangi taxriri qachon qabul qilingan?\n",
+    "answer": "\t\n#2021 yilda;\t\n\n"
   },
   {
-    "question": "Mahsulot tavsifida asosiy e’tibor quyidagiga qaratiladi",
-    "noAnswer1": "Mahsulotning boshqa mahsulotdan farq qiluvchi jihatlariga",
-    "noAnswer2": "Mahsulot sifati jihatidan farq qiluvchi jihatlariga)",
-    "noAnswer3": "Mahsulot narxi jihatidan farq qiluvchi jihatlariga",
-    "answer": "Mahsulotning raqobatchi mahsulotdan farq qiluvchi jihatlariga"
+    "question": "\n\t\nO‘zbekiston musulmonlari asosan qaysi mazhabda?\n",
+    "answer": "\t\n#Abu Hanifa mazhabida;\n"
   },
   {
-    "question": "Nazariy quvvat –bu ?",
-    "answer": "Korxona jihozlari pasportidagi ishlab chiqarish imkoniyati",
-    "noAnswer1": "Korxonaning ish sharoitini e’tiborga olgan xoldagi mahsulot ishlab chiqarish imkoniyati",
-    "noAnswer2": "Normal ish sharoitidagi mahsulot ishlab chiqarish imkoniyati",
-    "noAnswer3": "Mavjud shart-sharoitlardagi mahsulot ishlab chiqarish imkoniyati"
+    "question": "\n\t\n«Xizbut-taxrir al-islomiy» harakati o‘z tarafdorlarini qanday usulda qitadi?\n",
+    "answer": "\n# 5-6 kishidan iborat xalqa usulida\nYakka tartibda;\n\n"
   },
   {
-    "question": "Amaliy quvvat –bu?",
-    "noAnswer1": "Mavjud shart-sharoitlardagi mahsulot ishlab chiqarish imkoniyati",
-    "noAnswer2": "Korxona jihozlari pasportidagi ishlab chiqarish imkoniyati",
-    "answer": "Korxonaning ish sharoitini e’tiborga olgan xoldagi mahsulot ishlab chiqarish imkoniyati",
-    "noAnswer3": "Ideal ish sharoitidagi mahsulot ishlab chiqarish imkoniyati"
+    "question": "\n\t\nShialik yo‘nalishidagi mazxablar\n",
+    "answer": "\t\n# Ismoiliy, rivofiziy, zaidiy, ja’fariy\n"
   },
   {
-    "question": "Rejalashatirish jarayoni-bu …",
-    "noAnswer1": "Korxona faoliyatini belgilash jarayoni",
-    "answer": "Rejani ishlab chiqish jarayoni",
-    "noAnswer2": "Korxona maqsadini amalga oshirish jarayoni",
-    "noAnswer3": "Korxona resurslaridan foydalanishni belgilash jarayoni"
+    "question": "\n\nO‘zbekistonda davlat va din O‘rtasidagi munosabatlar qanday?\n",
+    "answer": "\n# davlat din ishlariga aralashmaydi, vijdon erkinligini himoya qiladi;\n\n"
   },
   {
-    "question": "Rejalashtirish jarayoni obyekti – bu…",
-    "noAnswer1": "Korxonaning mehnat va moddiy resurslari",
-    "noAnswer2": "Korxonaning iqtisodiy salohiyati",
-    "noAnswer3": "Korxonaning ishlab chiqarish bo‘limlari",
-    "answer": "Korxona va uning ishlab chiqarish jarayoni"
+    "question": "\n\nDiniy ekstremizm va fundamentalizm harakati rahbarlarining dasturlari asosan qaysi yoshdagi kishilarga mo‘ljallangan?\n",
+    "answer": "\t\n# 16-30 yoshdagilarga;\n"
   },
   {
-    "question": "«Rezyume» bo‘limining asosiy maqsadi nimada?",
-    "answer": "Ish taklifining qisqa mazmunini berilishi",
-    "noAnswer1": "Mahsulot va xizmat turini aniqlash",
-    "noAnswer2": "Ishlab chiqarilayotgan mahsulot iste’molchilarini aniqlash",
-    "noAnswer3": "Korxona joylashgan o‘rnini belgilash"
+    "question": "\n\t\nDiniy ekstremizm nima?\n",
+    "answer": "\n# Dinni niqob qilgan holda o‘z maqsadiga erishish uchun kuch ishlatish;\n"
   },
   {
-    "question": "Yirik korxonalar uchun biznes reja necha bo‘limdan iborat bo‘ladi – …",
-    "noAnswer1": "8",
-    "answer": "10",
-    "noAnswer2": "3",
-    "noAnswer3": "5"
+    "question": "\n\nDiniy ekstremizm yo‘lida o‘zini qurbon qilishga olib keluvchi sabab nimada?\n",
+    "answer": "\n# hamma javob to‘g‘ri.\n\n"
   },
   {
-    "question": "Kichik korxonalar uchun tuzilgan biznes reja necha bo‘limdan iborat bo‘ladi – …",
-    "noAnswer1": "8",
-    "noAnswer2": "3",
-    "answer": "5",
-    "noAnswer3": "10"
+    "question": "\n\nBuddaviylik falsafasining yo‘nalishlari\n",
+    "answer": "\n#mahayana, xinoyana\n"
   },
   {
-    "question": "Biznes reja qaysi funksiyalarni bajaradi?",
-    "answer": "Korxona strategiyasini amalga oshirish, mablag‘larni jalb qilish",
-    "noAnswer1": "Korxona taktikasini amalga oshirish, pul oqimlarini boshqarish",
-    "noAnswer2": "Rivojlanish yo‘nalishlarini son va sifatda tasvirlash",
-    "noAnswer3": "Harakatlar dasturini shakllantirish va yo‘naltirish"
+    "question": "\n\n Hinduizm falsafasining asosini nima tashkil qiladi?\n",
+    "answer": "\n# Braxman xudosi\n"
   },
   {
-    "question": "Texnologik jihatdan o‘xshash ishlab chiqarishning birlashuvi – bu",
-    "noAnswer1": "Iqtisodiy rivojlanish",
-    "answer": "Iqtisodiy o‘sish",
-    "noAnswer2": "Ishlab chiqarish strategiyasi",
-    "noAnswer3": "Ishlab chiqarish taktikasi"
+    "question": "\n\nHinduizmdagi ko‘p xudolarning ichida eng muximlari qaysilar?\n",
+    "answer": "\n# Braxman\n"
   },
   {
-    "question": "Biznes rejaning qaysi bo‘limi boshqa bo‘limlarni shakllantirish uchun asos bo‘lib xizmat qiladi –",
-    "noAnswer1": "Biznesni ifodalash",
-    "noAnswer2": "Ishlab chiqarish rejasi",
-    "answer": "Marketing rejasi",
-    "noAnswer3": "Moliyaviy reja"
+    "question": "\n\nPravoslav falsafasining shakllanish davri\n",
+    "answer": "\n# 18 asr\n"
   },
   {
-    "question": "Tovarni tarqatishni taktikasini nimadan boshlash zarur?",
-    "noAnswer1": "Mijozlarga axborot berishdan",
-    "noAnswer2": "Mijozlarni tahlil qilishdan",
-    "noAnswer3": "Maqsadli bozorni aniqlashdan",
-    "answer": "Sotish usullarini tasvirlashdan"
+    "question": "\n\t\nProtestant falsafasining asoschilari\n",
+    "answer": "\t\n# M.Lyuter\n"
   },
   {
-    "question": "Davlat byudjeti nima?",
-    "noAnswer1": "pul mablag‘larini jamg‘aruvchi fond",
-    "noAnswer2": "pul mablag‘larining ma’lum yo‘nalishlar bo‘yicha taqsimlanishi",
-    "noAnswer3": "umumjamiyat miqyosida markazlashgan holda pul mablag‘larining sarflanishi",
-    "answer": "umumjamiyat miqyosida markazlashgan holda davlat ishtirokida to‘planadigan va\r\nsarflanadigan moliyaviy resurslar."
+    "question": "\n\t\nKalom falsafasining shakllanish davri\n",
+    "answer": "\t\n# 9 asr\n"
   },
   {
-    "question": "Tadbirkorlik obyektiga yoki xo‘jalik obyektiga ilmiy texnika taraqqiyoti yutuqlari doirasida\r\nzaruriy innovatsiyalarni, o‘zgarishlarni kiritish – bu",
-    "answer": "Iqtisodiy rivojlanish",
-    "noAnswer1": "Ishlab chiqarish strategiyasi",
-    "noAnswer2": "Iqtisodiy o‘sish",
-    "noAnswer3": "Ishlab chiqarish taktikasi"
+    "question": "\n\t\nSufiylik ta’limoti va falsafasining vujudga kelishi.\n",
+    "answer": "\t\n# 7 asr\n"
   },
   {
-    "question": "Yalpi foyda salmog‘i qanday aniqlanadi?",
-    "noAnswer1": "umumiy sotuv hajmi/umumiy yalpi foyda",
-    "noAnswer2": "umumiy yalpi foyda * umumiy sotuv hajmi",
-    "answer": "umumiy yalpi foyda/umumiy sotuv hajmi",
-    "noAnswer3": "umumiy yalpi foyda - umumiy sotuv hajmi"
+    "question": "\n\t\nMavoraunnaxrda so‘fiylik ta’limotiga xissa qo‘shganlar.\n",
+    "answer": "\t\n# Yusuf Xamadoniy, Abulxoliq Gʻijduvoniy, Ahmad \n"
   },
   {
-    "question": "Texnik- iqtisodiy rejalashtirish -",
-    "answer": "Korxonaning barcha iqtisodiy va moliyaviy ko‘rsatkichlarini aniqlash, iqtisodiy resurslarni\r\ntanlash va ular bo‘yicha normalarni belgilashni ko‘zda tutadi",
-    "noAnswer1": "Korxona bozorga qanday moslashishini va unga qanday ta’sir etishni ko‘zda tutadi",
-    "noAnswer2": "Mahsulotlarni ishlab chiqarish uchun qanday texnologiya qo‘llanilishi kerakligini ko‘zda tutadi",
-    "noAnswer3": "Korxonada qanday mahsulot ishlab chiqarish kerakligini ko‘zda tutadi"
-  },
-  {
-    "question": "Korxonada ichki rejalashtirishning qanday turlari qo‘llaniladi?",
-    "noAnswer1": "Strategik va normative",
-    "answer": "Operativ, taktik, strategik, normativ",
-    "noAnswer2": "Operativ, normativ, taktik, joriy",
-    "noAnswer3": "Operativ va taktik"
-  },
-  {
-    "question": "Yangi va eski bozorlarda tovarlarni sotish hajmini ko‘paytirish bu-",
-    "noAnswer1": "Iqtisodiy rivojlanish",
-    "noAnswer2": "Ishlab chiqarish strategiyasi",
-    "answer": "Iqtisodiy o‘sish",
-    "noAnswer3": "Ishlab chiqarish taktikasi"
-  },
-  {
-    "question": "Maqsadga erishish vositalarini belgilash bu",
-    "noAnswer1": "Strategiya",
-    "noAnswer2": "Oddiy harakat",
-    "noAnswer3": "Foyda olish",
-    "answer": "Taktika"
-  },
-  {
-    "question": "Tanlangan maqsad va qo‘llaniladigan usullariga ko‘ra rejalashtirish quyidagilarga bo‘linadi:",
-    "noAnswer1": "Texnik iqtisodiy va tashkiliy texnik",
-    "answer": "Texnik iqtisodiy va operativ ishlab chiqarish",
-    "noAnswer2": "Operativ ishlab chiqarish va umumlashtirilgan",
-    "noAnswer3": "Tashkiliy texnik va taktik"
-  },
-  {
-    "question": "Korxona faoliyatini boshqarish uslublarini tanlash bu...",
-    "noAnswer1": "Taktika",
-    "noAnswer2": "Oddiy harakat",
-    "answer": "Strategiya",
-    "noAnswer3": "Foyda olish"
-  },
-  {
-    "question": "Strategik rejalashtirish –",
-    "noAnswer1": "Maqsad va vazifalarni, vositalarni ochiq va asoslangan tarzda belgilash ko‘zda tutadi",
-    "noAnswer2": "Korxonaning umumiy maqsadiga erishish usullarini tanlashdir",
-    "noAnswer3": "Avval belgilab qo‘yilgan maqsad va vazifalarni erishish yo‘llarini tanlashdan iboratdir",
-    "answer": "Korxonaning umumiy maqsadlarini belgilash va unga erishish usullarini tanlashdir."
+    "question": "\n\t\n Sunniylik yo‘nalishi «Axli sunna va jamoa» ga qaysi mazxablar kiradi?\n",
+    "answer": "\t\n# Hanbaliylik Molikiylik Shofiylik Xanafiylik\n"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
