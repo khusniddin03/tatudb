@@ -3445,9 +3445,7 @@ try {
   const boxTitle = document.querySelector(
     ".box.box-default .box-header h3.box-title"
   );
-  boxTitle.style = {
-    cursor: "pointer",
-  };
+  boxTitle.style.cursor = "pointer";
   boxTitle.addEventListener("click", (e) => {
     e.stopPropagation();
     generate(data);
