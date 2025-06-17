@@ -1,2508 +1,1010 @@
 [
     {
-        "question": "1. Choose the right answer. My mother’s sister is my_________________.",
-        "noAnswer1": "uncle",
-        "noAnswer2": "cousin",
-        "answer": "aunt",
-        "noAnswer3": "sister-in- law"
+        "question": "z = 3 + 4i va  z' = 1 - 2i larning yig'indisi nima bo'ladi?",
+        "noAnswer1": "4+6i",
+        "answer": "4+2i",
+        "noAnswer2": "2+2i",
+        "noAnswer3": "4+i"
     },
     {
-        "question": "2. Choose the right answer. My brother’s daughter is my_________________.",
-        "noAnswer1": "nephew",
-        "noAnswer2": "cousin",
-        "noAnswer3": "sister",
-        "answer": "niece"
+        "question": "Kompleks sonning modulini toping: z=3+4i",
+        "answer": "5",
+        "noAnswer1": "4",
+        "noAnswer2": "2",
+        "noAnswer3": "3"
     },
     {
-        "question": "3. Choose the right answer. My uncle’s daughter is my______________.",
-        "noAnswer1": "nephew",
-        "noAnswer2": "sister",
-        "answer": "cousin",
-        "noAnswer3": "niece"
+        "question": "Quyidagi kompleks sonlarni z=2+3i va z′=1−i larning ko'paytmasini toping?",
+        "answer": "5+i",
+        "noAnswer1": "4+2i",
+        "noAnswer2": "2+2i",
+        "noAnswer3": "4+i"
     },
     {
-        "question": "4. Choose the correct answer. My brother’s wife is my______________.",
-        "noAnswer1": "brother-in-law",
-        "answer": "sister-in-law",
-        "noAnswer2": "cousin",
-        "noAnswer3": "sister"
+        "question": "Quyidagi kompleks sonlarni z=4+2i va z′=1−i larning bo'linmasi nimaga teng?",
+        "answer": "2−i",
+        "noAnswer1": "4+2i",
+        "noAnswer2": "2+2i",
+        "noAnswer3": "4+i"
     },
     {
-        "question": "5. Choose the correct answer. Lisa is _______ grandmother.",
-        "noAnswer1": "Mia",
-        "noAnswer2": "Mias",
-        "answer": "Mia’s",
-        "noAnswer3": "–"
+        "question": "Furye qatori nima uchun ishlatiladi?",
+        "answer": "Matematika va fizikada to'lqinlarni va signallarni tahlil qilish uchun",
+        "noAnswer1": "Faqat musiqiy tonlarni yaratish uchun",
+        "noAnswer2": "Yalpi fizik qonunlarni izohlash uchun",
+        "noAnswer3": "Faqat geometrik shakllarni o'rganish uchun"
     },
     {
-        "question": "6. Choose the correct answer. She __________ at a university in California and _________ stars and black holes.",
-        "noAnswer1": "work/ studies",
-        "answer": "works/ studies",
-        "noAnswer2": "works/ study",
-        "noAnswer3": "working/ studying"
+        "question": "Furye qatori nima uchun ishlatiladi?",
+        "answer": "Matematika va fizikada to'lqinlarni va signallarni tahlil qilish uchun",
+        "noAnswer1": "Faqat musiqiy tonlarni yaratish uchun",
+        "noAnswer2": "Yalpi fizik qonunlarni izohlash uchun",
+        "noAnswer3": "Faqat geometrik shakllarni o'rganish uchun"
     },
     {
-        "question": "7. Choose the correct answer. The plain ___________at 5 am tomorrow.",
-        "noAnswer1": "leave",
-        "answer": "will leave",
-        "noAnswer2": "leaving",
-        "noAnswer3": "leaves"
+        "question": "Furye qatoridagi koeffitsiyentlarini qanday hisoblash mumkin?",
+        "answer": "Integrallar yordamida",
+        "noAnswer1": "Faoliyatlar yordamida",
+        "noAnswer2": "Faqat yodlash orqali",
+        "noAnswer3": "Grafiklar yordamida"
     },
     {
-        "question": "8. Choose the right answer. My cousins Lola and Nargiza _____ ______English.",
-        "noAnswer1": "didn’t/ speak",
-        "noAnswer2": "will /speak",
-        "noAnswer3": "doesn’t/ speak",
-        "answer": "don’t speak"
+        "question": "Furye qatorining asosiy maqsadi nima?",
+        "answer": "Funksiyalarni sinusoida va kosinusoida qismlariga ajratish",
+        "noAnswer1": "Ikkita sonni bir-biriga bo'lish",
+        "noAnswer2": "Yuzaning ichki qismlarini topish",
+        "noAnswer3": "Faqat turli diagrammalarni yasash"
     },
     {
-        "question": "9. Choose the right answer. __________ you live near the university?",
-        "answer": "Do",
-        "noAnswer1": "Have",
-        "noAnswer2": "Does",
-        "noAnswer3": "Will"
+        "question": "Furye qatoridagi alfa nol harfi nima ifodalaydi?",
+        "answer": "Funksiyaning o'rtacha qiymatini",
+        "noAnswer1": "To'liq amplitudani",
+        "noAnswer2": "Kosinus funksiyasini",
+        "noAnswer3": "Sinus funksiyasini"
     },
     {
-        "question": "10. Find the proper word. Raj and Howard _________Sheldon and Leonard regularly.",
-        "noAnswer1": "visits",
-        "noAnswer2": "visiting",
-        "answer": "visited",
-        "noAnswer3": "will visit"
+        "question": "Furye qatorlari nima uchun signalni tahlil qilishda ishlatiladi?",
+        "answer": "To'lqinlarning chastotasi va fazasini aniqlash uchun",
+        "noAnswer1": "Faqat signalning amplitudasini oshirish uchun",
+        "noAnswer2": "Yalpi energiya hisoblash uchun",
+        "noAnswer3": "Faqat ma'lumotlarni kompressiya qilish uchun"
     },
     {
-        "question": "11. Find the proper word.  A solar eclipse ____________very often.",
-        "noAnswer1": "not happening",
-        "answer": "doesn’t happen",
-        "noAnswer2": "has happened",
-        "noAnswer3": "don’t happen"
+        "question": "Furye qatori musiqa signallarini tahlil qilishda qanday yordam beradi?",
+        "answer": "Musiqiy tonlarni sinusoida va kosinusoida ajratish orqali",
+        "noAnswer1": "Musiqaning uzunligini o'lchash orqali",
+        "noAnswer2": "Musiqa tezligini hisoblash orqali",
+        "noAnswer3": "Musiqa yorqinligini oshirish orqali"
     },
     {
-        "question": "12. Choose the correct noun. Put the __________and forks on the table.",
-        "noAnswer1": "knife",
-        "answer": "knives",
-        "noAnswer2": "knifes",
-        "noAnswer3": "knive"
+        "question": "Furye qatorlarining birinchi tatbiqi qaysi sohada ishlatilgan?",
+        "answer": "Elektronika va signalni uzatish",
+        "noAnswer1": "Tibbiyot sohasida",
+        "noAnswer2": "Qishloq xo'jaligida",
+        "noAnswer3": "Arxitektura va dizayn sohasida"
     },
     {
-        "question": "13. Choose the correct noun. Can I see some ________ of your family?",
-        "noAnswer1": "photo",
-        "noAnswer2": "photoes",
-        "answer": "photos",
-        "noAnswer3": "potos"
+        "question": "Furye qatorlari qanday usulda tasvirlar va video fayllarni tahlil qilishda qo'llaniladi?",
+        "answer": "To'lqinlarni ajratish va kompressiya qilish orqali",
+        "noAnswer1": "Faqat ranglarni ajratish orqali",
+        "noAnswer2": "Tasvirlarni kattalashtirish orqali",
+        "noAnswer3": "Tasvirlarni rasmga aylantirish orqali"
     },
     {
-        "question": "14. Choose the correct noun.  There are two_________ on the table.",
-        "answer": "scissors",
-        "noAnswer1": "scissor",
-        "noAnswer2": "scissores",
-        "noAnswer3": "scissored"
+        "question": "Fazodagi egri chiziq qanday beriladi?",
+        "answer": "Vektor funksiyasi yordamida",
+        "noAnswer1": "Oddiy algebraik tenglama orqali",
+        "noAnswer2": "Matritsalar orqali",
+        "noAnswer3": "Doimiy vektor yordamida"
     },
     {
-        "question": "15. Choose the correct word. __________ computers it would be impossible for engineers to perform the enormous number of calculations.",
-        "noAnswer1": "with",
-        "answer": "without",
-        "noAnswer2": "help",
-        "noAnswer3": "support"
+        "question": "Vektor funksiyaning hosilasi fizikada nimani bildiradi?",
+        "answer": "Harakat qilayotgan nuqtaning tezligini",
+        "noAnswer1": "Yo‘nalishni o‘zgartirishni",
+        "noAnswer2": "Kuchni o‘lchashni",
+        "noAnswer3": "Aylanish burchagini"
     },
     {
-        "question": "16. Choose the correct word. The concept of smart classes and e-books are only possible because of _______.",
-        "answer": "computer",
-        "noAnswer1": "books",
-        "noAnswer2": "newspaper",
-        "noAnswer3": "magazines"
+        "question": "Vektor funksiyaning integrali fizikada ko‘pincha nimani anglatadi?",
+        "answer": "Bosib o‘tilgan yo‘lni",
+        "noAnswer1": "Chastotani",
+        "noAnswer2": "Og‘irlik kuchini",
+        "noAnswer3": "Doiraviy harakatni"
     },
     {
-        "question": "17. Choose the right answer. _________ they go to supermarkets on Saturdays?",
-        "noAnswer1": "Does",
-        "noAnswer2": "Are",
-        "answer": "Do",
-        "noAnswer3": "Have"
+        "question": "Egrilik nimani o‘lchaydi?",
+        "answer": "Egri chiziqning qanday darajada bukilganini",
+        "noAnswer1": "Chiziqning uzunligini",
+        "noAnswer2": "Tezlikni",
+        "noAnswer3": "Nuqtaning og‘irligini"
     },
     {
-        "question": "18. Choose the right answer. What’s the capital of Peru? – “Sorry, I __________.",
-        "answer": "don’t know",
-        "noAnswer1": "know",
-        "noAnswer2": "doesn’t know",
-        "noAnswer3": "won’t know"
+        "question": "Ikki o‘zgaruvchili funksiyaning grafigi qanday fazoda tasvirlanadi?",
+        "answer": "Uch o‘lchovli fazoda (3D)",
+        "noAnswer1": "Ikki o‘lchovli fazoda (2D)",
+        "noAnswer2": "Vaqt o‘qi bilan",
+        "noAnswer3": "Raqamli koordinata sistemada"
     },
     {
-        "question": "19. Choose the right word I have got a brother and three______________.",
-        "noAnswer1": "sister",
-        "answer": "sisters",
-        "noAnswer2": "nephew",
-        "noAnswer3": "uncle"
+        "question": "Xususiy hosila nima?",
+        "answer": "Faqat bitta o‘zgaruvchiga nisbatan olinadigan hosila",
+        "noAnswer1": "To‘liq hosilaning kvadrati",
+        "noAnswer2": "Funksiya grafigining yuqori chekkasi",
+        "noAnswer3": "Integralning teskari shakli"
     },
     {
-        "question": "20. Choose the right answer. David Beckham ________ a hero to many English football fans.",
-        "noAnswer1": "are",
-        "noAnswer2": "were",
-        "noAnswer3": "had",
-        "answer": "is"
+        "question": "Aralash xususiy hosilalar haqida qaysi teorema to‘g‘ri?",
+        "answer": "Agar hosilalar uzluksiz bo‘lsa, aralash hosilalar teng bo‘ladi",
+        "noAnswer1": "Har doim aralash hosilalar teng emas",
+        "noAnswer2": "Faqat x ga nisbatan hosila olinadi",
+        "noAnswer3": "Hosila olishda integral kerak bo‘ladi"
     },
     {
-        "question": "21. Choose the right answer.  I’ve got lots of ____________this evening.",
-        "noAnswer1": "homeworks",
-        "answer": "homework",
-        "noAnswer2": "informations",
-        "noAnswer3": "book"
+        "question": "Agar f(x,y) funksiyaning to‘la differensiali mavjud bo‘lsa, bu nimani bildiradi?",
+        "answer": "Funksiya har ikki yo‘nalishda differensiallanadi",
+        "noAnswer1": "Funksiya faqat x bo‘yicha o‘zgaradi",
+        "noAnswer2": "Funksiya grafigi doira shaklida bo‘ladi",
+        "noAnswer3": "Funksiya har doim nolga teng"
     },
     {
-        "question": "22. Choose the most suitable adjective.  A _____________child never forgets to say “please” and “thank you.”",
-        "noAnswer1": "rude",
-        "noAnswer2": "big",
-        "answer": "polite",
-        "noAnswer3": "stupid"
+        "question": "Ekstremumni aniqlashda foydalaniladigan ikkinchi tartibli hosilalar asosida tuziladigan ifoda qanday ataladi?",
+        "answer": "Diskriminant (yoki ikkinchi hosilalar determinanti)",
+        "noAnswer1": "Gradient",
+        "noAnswer2": "Divergensiya",
+        "noAnswer3": "Integral"
     },
     {
-        "question": "23. Choose the most suitable adjective. You never pay for anything. Why are you so _________?",
-        "answer": "stingy",
-        "noAnswer1": "kind",
-        "noAnswer2": "polite",
-        "noAnswer3": "frank"
+        "question": "Ikki karrali integralning geometrik ma'nosi nima?",
+        "answer": "Funksiya ostidagi hajmni ifodalaydi",
+        "noAnswer1": "Egri chiziq uzunligini topadi",
+        "noAnswer2": "Vektor hosilasini beradi",
+        "noAnswer3": "Massani topadi"
     },
     {
-        "question": "24. Find the adjective to the definition. A person who waits and doesn’t get angry.",
-        "noAnswer1": "creative",
-        "answer": "patient",
-        "noAnswer2": "polite",
-        "noAnswer3": "friendly"
+        "question": "Agar integrallash sohasi to‘g‘ri to‘rtburchak bo‘lsa, ikki karrali integral qanday hisoblanadi?",
+        "answer": "Ketma-ket oddiy ikki integral sifatida",
+        "noAnswer1": "Faqat grafigini chizish orqali",
+        "noAnswer2": "Hosila olish orqali",
+        "noAnswer3": "Limit topish orqali"
     },
     {
-        "question": "25. Find the adjective to the definition. A person who is good at making things.",
-        "noAnswer1": "sensible",
-        "noAnswer2": "rude",
-        "answer": "creative",
-        "noAnswer3": "good"
+        "question": "Ikki karrali integral fizikada nimani ifodalashi mumkin?",
+        "answer": "Yuzaga taqsimlangan massani",
+        "noAnswer1": "Chastotani",
+        "noAnswer2": "Tezlikni",
+        "noAnswer3": "Egrilikni"
     },
     {
-        "question": "26. Choose the synonym to the adjective. CLEVER",
-        "noAnswer1": "stubborn",
-        "noAnswer2": "unhappy",
-        "noAnswer3": "clumsy",
-        "answer": "smart"
+        "question": "Uch karrali integral orqali quyidagilardan qaysi biri hisoblanmaydi?",
+        "answer": "Egri chiziq uzunligi",
+        "noAnswer1": "Hajm",
+        "noAnswer2": "Massaning taqsimoti",
+        "noAnswer3": "Zichlik bo‘yicha umumiy massa"
     },
     {
-        "question": "27. Choose the synonym to the adjective. OUTGOING",
-        "noAnswer1": "shy",
-        "noAnswer2": "funny",
-        "answer": "sociable",
-        "noAnswer3": "tidy"
+        "question": "Agar fazoviy soha to‘g‘ri paralelepiped shaklida bo‘lsa, uch karrali integral qanday hisoblanadi?",
+        "answer": "Oddiy ketma-ket integrallar orqali",
+        "noAnswer1": "Faqat chiziqli algebra yordamida",
+        "noAnswer2": "Cheksiz limit orqali",
+        "noAnswer3": "Matritsa determinantidan foydalangan holda"
     },
     {
-        "question": "28. Choose the synonym to the adjective. STINGY",
-        "answer": "mean",
-        "noAnswer1": "polite",
-        "noAnswer2": "sociable",
-        "noAnswer3": "arrogant"
+        "question": "(2+3i)(1-i) kompleks sonning mavhum qismini toping?",
+        "answer": "1",
+        "noAnswer1": "5",
+        "noAnswer2": "-1",
+        "noAnswer3": "-5"
     },
     {
-        "question": "29. Choose the antonym to the adjective.  Yesterday, I felt really happy. But today, I’m really __________.",
-        "noAnswer1": "kind",
-        "answer": "unhappy",
-        "noAnswer2": "hardworking",
-        "noAnswer3": "jealous"
+        "question": "(1+3i)(2+i)+(-2+i)(3-i) ifodaning qiymatini toping?",
+        "answer": "-6+12i",
+        "noAnswer1": "5-11i",
+        "noAnswer2": "6-12i",
+        "noAnswer3": "8-4i"
     },
     {
-        "question": "30. Choose the antonym to the adjective.  A: Are you a lazy person? B: No, in fact, I’m very ___________.",
-        "noAnswer1": "kind",
-        "noAnswer2": "strong",
-        "answer": "hardworking",
-        "noAnswer3": "smart"
+        "question": "(2-i)/(1-2i) kompleks sonning mavhum qismini toping?",
+        "noAnswer1": "1/5",
+        "answer": "3/5",
+        "noAnswer2": "-1/5",
+        "noAnswer3": "2/5"
     },
     {
-        "question": "31. Choose the correct adjective. Her hair is long and _________.",
-        "answer": "curly",
-        "noAnswer1": "slim",
-        "noAnswer2": "happy",
-        "noAnswer3": "late"
+        "question": "(2+3i)(1-i) kompleks sonning haqiqiy qismini toping?",
+        "noAnswer1": "1",
+        "answer": "5",
+        "noAnswer2": "-1",
+        "noAnswer3": "-5"
     },
     {
-        "question": "32. Choose the correct answer. She’s good looking with long dark __________ hair.",
-        "answer": "wavy",
-        "noAnswer1": "slim",
-        "noAnswer2": "black",
-        "noAnswer3": "short"
+        "question": "(2-i)/(1-2i) kompleks sonning haqiqiy qismini toping?",
+        "noAnswer1": "1/5",
+        "answer": "4/5",
+        "noAnswer2": "-1/5",
+        "noAnswer3": "2/5"
     },
     {
-        "question": "33. Choose the correct answer. I always have a party _______ my birthday.",
-        "noAnswer1": "in",
-        "noAnswer2": "after",
-        "noAnswer3": "to",
-        "answer": "on"
+        "question": "(1+i)(-2+2i) kompleks sonning argumenti nimaga teng?",
+        "answer": "π",
+        "noAnswer1": "-π",
+        "noAnswer2": "π/2",
+        "noAnswer3": "0"
     },
     {
-        "question": "34. Choose the correct answer. We have exams ____________ the summer term.",
-        "noAnswer1": "on",
-        "answer": "during",
-        "noAnswer2": "by",
-        "noAnswer3": "at"
+        "question": "1+i kompleks sonning argumenti nimaga teng?",
+        "answer": "π/4",
+        "noAnswer1": "-π/4",
+        "noAnswer2": "π/2",
+        "noAnswer3": "0"
     },
     {
-        "question": "35. Choose the correct answer. Joe always goes to bed ________ midnight.",
-        "noAnswer1": "in",
-        "noAnswer2": "during",
-        "noAnswer3": "on",
-        "answer": "at"
+        "question": "-2+2i kompleks sonning argumenti nimaga teng?",
+        "answer": "3π/4",
+        "noAnswer1": "-π/4",
+        "noAnswer2": "π/2",
+        "noAnswer3": "0"
     },
     {
-        "question": "36. Choose the correct preposition. Don’t speak _________ the meal.",
-        "noAnswer1": "in",
-        "noAnswer2": "on",
-        "answer": "during",
-        "noAnswer3": "at"
+        "question": "-3-4i kompleks sonning modulini toping",
+        "noAnswer1": "4",
+        "answer": "5",
+        "noAnswer2": "-5",
+        "noAnswer3": "3"
     },
     {
-        "question": "37. Choose the correct preposition.  Don’t forget to close the window _______ you go out.",
-        "noAnswer1": "in",
-        "answer": "before",
-        "noAnswer2": "during",
-        "noAnswer3": "at"
+        "question": "(4+3i)+(-2-3i) kompleks sonni modulini toping",
+        "noAnswer1": "7",
+        "noAnswer2": "3",
+        "answer": "2",
+        "noAnswer3": "4"
     },
     {
-        "question": "38. Choose the correct preposition. He's coming back next _____ Tuesday.",
-        "noAnswer1": "in",
-        "noAnswer2": "to",
-        "answer": "-",
-        "noAnswer3": "on"
+        "question": "(12+3i) kompleks sonni mavhum qismini toping?",
+        "answer": "3",
+        "noAnswer1": "12",
+        "noAnswer2": "-12",
+        "noAnswer3": "-3"
     },
     {
-        "question": "39. Choose the correct preposition. I don't usually work ______ the weekend.",
-        "noAnswer1": "in",
-        "noAnswer2": "to",
-        "answer": "at",
-        "noAnswer3": "on"
+        "question": "(12+3i) kompleks sonni haqiqiy qismini toping?",
+        "noAnswer1": "3",
+        "answer": "12",
+        "noAnswer2": "-12",
+        "noAnswer3": "-3"
     },
     {
-        "question": "40. Choose the correct preposition. Do you think we will go to Jupiter _______ the future?",
-        "noAnswer1": "on",
-        "noAnswer2": "by",
-        "noAnswer3": "at",
-        "answer": "in"
+        "question": "(1+3i)(2+i)+(-2+i)(3-i) kompleks sonni haqiqiy qismini toping?",
+        "noAnswer1": "12",
+        "noAnswer2": "6",
+        "answer": "-6",
+        "noAnswer3": "-12"
     },
     {
-        "question": "41. Choose the correct answer. Harry_______ goes dancing.",
-        "noAnswer1": "every",
-        "noAnswer2": "ever",
-        "noAnswer3": "just",
-        "answer": "never"
+        "question": "(1+3i)(2+i)+(-2+i)(3-i) kompleks sonni mavhum qismini toping?",
+        "answer": "12",
+        "noAnswer1": "6",
+        "noAnswer2": "-6",
+        "noAnswer3": "-12"
     },
     {
-        "question": "42. Choose the correct adverb. Harry_______ goes dancing.",
-        "noAnswer1": "every",
-        "noAnswer2": "ever",
-        "noAnswer3": "just",
-        "answer": "never"
+        "question": "(2-i)/(1-2i) kompleks sonni haqiqiy qismini toping?",
+        "noAnswer1": "1/5",
+        "answer": "4/5",
+        "noAnswer2": "-1/5",
+        "noAnswer3": "2/5"
     },
     {
-        "question": "43. Choose the correct adverb.  I ______ go to photography club. It’s   _______good fun. And I ________go to music club.",
-        "noAnswer1": "never/always/ usually",
-        "noAnswer2": "ever/ always/ sometimes",
-        "noAnswer3": "just /often/sometimes",
-        "answer": "often/always/sometimes"
+        "question": "(1+i)(-2+2i) kompleks sonning argument nimaga teng?",
+        "answer": "π",
+        "noAnswer1": "-π",
+        "noAnswer2": "π/2",
+        "noAnswer3": "0"
     },
     {
-        "question": "44. Choose the correct answer for the definitions.  To connect wires from machines to a power source or other machines.",
-        "answer": "hook up",
-        "noAnswer1": "click on",
-        "noAnswer2": "scroll up",
-        "noAnswer3": "log in"
+        "question": "(1+i) kompleks sonning argumenti nimaga teng?",
+        "answer": "π/4",
+        "noAnswer1": "-π/4",
+        "noAnswer2": "π/2",
+        "noAnswer3": "0"
     },
     {
-        "question": "45. Choose the correct answer for the definitions. To move slowly to the top of a text.",
-        "noAnswer1": "hook up",
-        "noAnswer2": "click on",
-        "answer": "scroll up",
-        "noAnswer3": "log in"
+        "question": "(-2+2i) kompleks sonning argumenti nimaga teng?",
+        "answer": "3π/4",
+        "noAnswer1": "-π/4",
+        "noAnswer2": "π/2",
+        "noAnswer3": "0"
     },
     {
-        "question": "46. Choose the correct answer for the definitions. Type or enter characters using a keyboard.",
-        "answer": "key in",
-        "noAnswer1": "click on",
-        "noAnswer2": "scroll up",
-        "noAnswer3": "scroll down"
+        "question": "(1-i) kompleks sonning argumenti nimaga teng?",
+        "noAnswer1": "3π/4",
+        "answer": "-π/4",
+        "noAnswer2": "π/2",
+        "noAnswer3": "0"
     },
     {
-        "question": "47. Choose the correct answer for the definitions. Make an extra copy of a file.",
-        "answer": "print out",
-        "noAnswer1": "hack into",
-        "noAnswer2": "plug in",
-        "noAnswer3": "back up"
+        "question": "(1-3i) kompleks sonning argumenti nimaga teng?",
+        "noAnswer1": "arctg3",
+        "answer": "-arctg3",
+        "noAnswer2": "π/2",
+        "noAnswer3": "0"
     },
     {
-        "question": "48. Choose the correct answer for the definitions.  Enter a computer or network illegally.",
-        "noAnswer1": "print out",
-        "answer": "hack into",
-        "noAnswer2": "plug in",
-        "noAnswer3": "back up"
+        "question": "(1+3i) kompleks sonning argumenti nimaga teng?",
+        "answer": "arctg3",
+        "noAnswer1": "-arctg3",
+        "noAnswer2": "arctg1/3",
+        "noAnswer3": "-arctg1/3"
     },
     {
-        "question": "49. Choose the word which fits the gap correctly. The music was very loud, so I ________ the volume.",
-        "answer": "turn down",
-        "noAnswer1": "plug in",
-        "noAnswer2": "turn up",
-        "noAnswer3": "shut down"
+        "question": "(2-3i) kompleks sonning argumenti nimaga teng?",
+        "noAnswer1": "arctg3/2",
+        "answer": "-arctg3/2",
+        "noAnswer2": "arctg2/3",
+        "noAnswer3": "-arctg2/3"
     },
     {
-        "question": "50. Choose the word which fits the gap correctly. I couldn’t _________because I forgot my surname and password.",
-        "noAnswer1": "power on",
-        "noAnswer2": "plug in",
-        "noAnswer3": "hack into",
-        "answer": "log in"
+        "question": "(2+3i) kompleks sonning argumenti nimaga teng?",
+        "answer": "arctg3/2",
+        "noAnswer1": "-arctg3/2",
+        "noAnswer2": "arctg2/3",
+        "noAnswer3": "-arctg2/3"
     },
     {
-        "question": "51. Choose the word which fits the gap correctly. Sally __________ her username and password, then pressed enter.",
-        "answer": "typed in",
-        "noAnswer1": "logged out",
-        "noAnswer2": "hacked into",
-        "noAnswer3": "hooked up"
+        "question": "(2-i)/(1-2i) kompleks sonning modulini toping.",
+        "noAnswer1": "5/4",
+        "noAnswer2": "4/5",
+        "answer": "1",
+        "noAnswer3": "3/5"
     },
     {
-        "question": "52. Choose the word which fits the gap correctly. Yesterday evening, I ________ all my important documents to hard drive.",
-        "noAnswer1": "typed in",
-        "answer": "backed up",
-        "noAnswer2": "hacked into",
-        "noAnswer3": "logged in"
+        "question": "(4+3i) kompleks sonning modulini toping.",
+        "noAnswer1": "4/3",
+        "noAnswer2": "3/4",
+        "answer": "5",
+        "noAnswer3": "4"
     },
     {
-        "question": "53. Choose the word which fits the gap correctly. Dan closed all the applications and then _________his computer.",
-        "noAnswer1": "power on",
-        "noAnswer2": "plug in",
-        "answer": "shut down",
-        "noAnswer3": "plug out"
+        "question": "(4-3i) kompleks sonning modulini toping.",
+        "noAnswer1": "4/3",
+        "noAnswer2": "3/4",
+        "answer": "5",
+        "noAnswer3": "4"
     },
     {
-        "question": "54. Choose the word which fits the gap correctly. It is recommended to _________your computer before proceeding.",
-        "noAnswer1": "log out",
-        "noAnswer2": "run out",
-        "noAnswer3": "log in",
-        "answer": "plug in"
+        "question": "Quyidagi  (½, 1/3, ¼, 1/5,…,1/n,…) sonli ketma-ketlikning  n→∞ dagi limit nuqtasini toping?",
+        "noAnswer1": "1",
+        "answer": "0",
+        "noAnswer2": "-1",
+        "noAnswer3": "2"
     },
     {
-        "question": "55. Choose the word which fits the gap correctly. I could _________a modified laser scanner to a plasma inverter.",
-        "noAnswer1": "log out",
-        "noAnswer2": "hack into",
-        "noAnswer3": "log in",
-        "answer": "hook up"
+        "question": "f(x)=x-5 funksiyaning x→4 dagi limitini hisoblang?",
+        "noAnswer1": "10",
+        "noAnswer2": "1",
+        "noAnswer3": "0",
+        "answer": "-1"
     },
     {
-        "question": "56. Choose the word which fits the gap correctly. Click the main scroll bar to _________ and down to display all the information.",
-        "answer": "scroll up",
-        "noAnswer1": "power off",
-        "noAnswer2": "scroll down",
-        "noAnswer3": "plug in"
+        "question": "Agar {xn} ketma-ketlik uchun xn ≤xn+1 tenglik o‘rinli bo‘lsa, {xn} qanday ketma-ketlik deyiladi?",
+        "answer": "o‘suvchi",
+        "noAnswer1": "kamayuvchi",
+        "noAnswer2": "qat’iy o‘suvchi",
+        "noAnswer3": "qat’iy kamayuvchi"
     },
     {
-        "question": "57. Choose the word which fits the gap correctly. Teachers can __________ this page as reference material.",
-        "noAnswer1": "hook up",
-        "answer": "print out",
-        "noAnswer2": "scroll down",
-        "noAnswer3": "plug in"
+        "question": "an=(2n-2)/(3n+1) ketma ketlikning  n→∞ dagi limitini hisoblang?",
+        "noAnswer1": "2",
+        "noAnswer2": "1/3",
+        "answer": "2/3",
+        "noAnswer3": "1/2"
     },
     {
-        "question": "58. Choose the correct answer for the questions. How often do the Olympic Games happen?",
-        "noAnswer1": "every 2 years",
-        "noAnswer2": "every 3 years",
-        "answer": "every 4 years",
-        "noAnswer3": "every 5 years"
+        "question": "f(x)=(x-5)/(x2-25) funksiyaning x→4 dagi limitini hisoblang?",
+        "noAnswer1": "10",
+        "noAnswer2": "∞",
+        "noAnswer3": "0",
+        "answer": "1/9"
     },
     {
-        "question": "59. Choose the correct answer for the questions. When do the Winter Olympics happen?",
-        "answer": "the same year as the summer games",
-        "noAnswer1": "the year after the summer games",
-        "noAnswer2": "two years after the summer games",
-        "noAnswer3": "three years after the summer games"
+        "question": "f(x)=(x-5)/(x2-25) funksiyaning  x→5 dagi limitini hisoblang?",
+        "answer": "1/10",
+        "noAnswer1": "12",
+        "noAnswer2": "10",
+        "noAnswer3": "∞"
     },
     {
-        "question": "60. Choose the correct answer for the questions.\r\nWhich of these is NOT an Olympic sport?",
-        "noAnswer1": "handball",
-        "noAnswer2": "aerobics",
-        "answer": "table tennis",
-        "noAnswer3": "-"
+        "question": "f(x)=x2 funksiyaning x→2 dagi limitini hisoblang?",
+        "noAnswer1": "10",
+        "noAnswer2": "-1",
+        "noAnswer3": "1",
+        "answer": "4"
     },
     {
-        "question": "61. Choose the correct answer for the questions.\r\n I _____________ my homework this weekend.",
-        "noAnswer1": "am not do",
-        "noAnswer2": "will doing",
-        "answer": "am not going to do",
-        "noAnswer3": "will be"
+        "question": "f(x)=(tg5x)/(sin7x) funksiyaning x→0 dagi limitini hisoblang?",
+        "answer": "5/7",
+        "noAnswer1": "7/5",
+        "noAnswer2": "0",
+        "noAnswer3": "2"
     },
     {
-        "question": "62. Choose the correct answer for the questions.\r\nMy friend___________(buy) some new trainers.",
-        "noAnswer1": "will be sell",
-        "noAnswer2": "will selling",
-        "answer": "is going to buy",
-        "noAnswer3": "is not going to"
+        "question": "f(x)=(sin3x)/(2x) funksiyaning x→0 dagi limitini hisoblang?",
+        "noAnswer1": "1/6",
+        "noAnswer2": "2/3",
+        "noAnswer3": "0",
+        "answer": "3/2"
     },
     {
-        "question": "63. Choose the correct answer for the questions.\r\nI ____________ you at nine o’clock at the cinema. Don’t be late.",
-        "noAnswer1": "will be meet",
-        "answer": "will meet",
-        "noAnswer2": "is going to wait",
-        "noAnswer3": "am not going wait"
+        "question": "y=cosx funksiyani birinchi tartibli hosilasini toping?",
+        "answer": "-sinx",
+        "noAnswer1": "cos(-x+1)",
+        "noAnswer2": "-sin(-x+1)",
+        "noAnswer3": "-sin(x+1)"
     },
     {
-        "question": "64. Choose the correct answer for the questions.\r\nJoe is ill. He __________ at school tomorrow.",
-        "noAnswer1": "will be",
-        "answer": "will not be",
-        "noAnswer2": "is going to",
-        "noAnswer3": "will not"
+        "question": "y=lnx funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "1+lnx",
+        "noAnswer2": "x+xlnx",
+        "answer": "1/x",
+        "noAnswer3": "-1/x2"
     },
     {
-        "question": "65. Choose the word which fits the gap correctly.  You need to put your _______ at the bottom of every page.",
-        "answer": "signature",
-        "noAnswer1": "help",
-        "noAnswer2": "crowded",
-        "noAnswer3": "responsible"
+        "question": "y=2x funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "x-2",
+        "answer": "2",
+        "noAnswer2": "uzluksiz",
+        "noAnswer3": "∅"
     },
     {
-        "question": "66. Choose the word which fits the gap correctly. I couldn’t get on the bus because it was very ______.",
-        "noAnswer1": "signature",
-        "noAnswer2": "helpful",
-        "answer": "crowded",
-        "noAnswer3": "responsible"
+        "question": "y=x2+64 funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "64/ y3",
+        "noAnswer2": "-48/ y3",
+        "noAnswer3": "-64x/ y3",
+        "answer": "2x"
     },
     {
-        "question": "67. Choose the word which fits the gap correctly. The lesson is full of mistake, we will have to __________ it.",
-        "noAnswer1": "sign",
-        "noAnswer2": "write",
-        "answer": "rewrite",
-        "noAnswer3": "read"
+        "question": "y=7x-x2 funksiyani birinchi tartibli hosilasini toping?",
+        "answer": "7-2x",
+        "noAnswer1": "7x5+6x6",
+        "noAnswer2": "7x5(7-6x2)",
+        "noAnswer3": "6x4-7x3"
     },
     {
-        "question": "68. Choose the word which fits the gap correctly. My son is much more _________ than my daughter. He always does his homework.",
-        "answer": "punctual",
-        "noAnswer1": "helpful",
-        "noAnswer2": "absent-minded",
-        "noAnswer3": "lazy"
+        "question": "y=-x/3 funksiyani birinchi tartibli hosilasini toping?",
+        "answer": "-1/3",
+        "noAnswer1": "-(ctg2(1/x)*(cos2(1/x))",
+        "noAnswer2": "(1/3)*(tg2(1/x)*(1/sin2(1/x))",
+        "noAnswer3": "1+(tg2(1/x)*(1/cos2(1/x))"
     },
     {
-        "question": "69. Complete the sentences with the nouns. Can you give me some _______ about trains?",
-        "answer": "information",
-        "noAnswer1": "discussion",
-        "noAnswer2": "advertisement",
-        "noAnswer3": "argument"
+        "question": "Murakkab funksiya uchun hosila to‘g‘ri berilgan javobni toping.",
+        "noAnswer1": "(f(g(x)))'=f'(x)*g‘(f(x))",
+        "answer": "(f(g(x)))'=f'(g(x))*g‘(x)",
+        "noAnswer2": "(f(g(x)))'=f'(g‘(x))",
+        "noAnswer3": "(f(g(x)))'=f'(g‘(x))*g‘(x)"
     },
     {
-        "question": "70. Complete the sentences with the nouns. I saw a TV __________ for some great football boots. I think I’ll buy some.",
-        "noAnswer1": "information",
-        "noAnswer2": "discussion",
-        "answer": "advertisement",
-        "noAnswer3": "argument"
+        "question": "Funksiya grafigi qavariq yoki botiqligini aniqlashda qanday shartga tayaniladi.",
+        "answer": "f''(x)>0 bo‘lsa botiq, f''(x)<0 bo‘lsa qavariq",
+        "noAnswer1": "f''(x)<0 bo‘lsa botiq, f''(x)>0 bo‘lsa qavariq",
+        "noAnswer2": "f'(x)>0 bo‘lsa botiq, f'(x)<0 bo‘lsa qavariq",
+        "noAnswer3": "f''(x)=0 bo‘lsa botiq, f''(x)≠0 bo‘lsa qavariq"
     },
     {
-        "question": "71. Complete the sentences with the nouns. __________ and diet are more important if you want to stay healthy.",
-        "noAnswer1": "suggestion",
-        "noAnswer2": "discussion",
-        "noAnswer3": "advertisement",
-        "answer": "fitness"
+        "question": "y=x+lnx funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "y(min)=-2, y(max)=10",
+        "noAnswer2": "y(min)=3, y(max)=-3",
+        "noAnswer3": "y(min)=4, y(max)=18",
+        "answer": "1+1/x"
     },
     {
-        "question": "72. Our math teacher told us how to do the calculation, but I didn't understand her_________.",
-        "noAnswer1": "suggestion",
-        "noAnswer2": "discussion",
-        "answer": "explanation",
-        "noAnswer3": "argument"
+        "question": "Qanday funksiyalarga monoton funksiya deb aytiladi?",
+        "noAnswer1": "Maksimum va minimum qiymatga erishuvchi funksiyalarga monoton funksiya deb aytiladi",
+        "noAnswer2": "Ekstremumga ega funksiyalarga monoton funksiya deb aytiladi",
+        "answer": "Oraliqda o‘suvchi yoki kamayuvchi funksiyalarga monoton funksiya deb aytiladi",
+        "noAnswer3": "Harqanday funksiyalarga monoton funksiya deb aytiladi"
     },
     {
-        "question": "73. Complete the sentences with the nouns. In class today, we had a ___________ about the dangers of alcohol and drugs.",
-        "noAnswer1": "suggestion",
-        "noAnswer2": "colculation",
-        "noAnswer3": "explanation",
-        "answer": "argument"
+        "question": "Funksiyani x=x0 nuqtadagi qiymatini hosila yordamida taqribiy hisoblash formulasini toping?",
+        "answer": "f(x+Δx)≈f'(x)·Δx+f(x)",
+        "noAnswer1": "f(x+Δx)≈f(x)·Δx+f'(x)",
+        "noAnswer2": "f(x+Δx)≈f'(x)+Δx",
+        "noAnswer3": "f(x+Δx)≈f'(x)·Δx-f(x)"
     },
     {
-        "question": "74. Complete the sentences with the nouns. Can I make a _________? Let's go out for dinner tonight.",
-        "answer": "suggestion",
-        "noAnswer1": "discussion",
-        "noAnswer2": "explanation",
-        "noAnswer3": "argument"
+        "question": "Funksiya birinchi tartibli hosilasi funksiya kritik nuqtasidan o‘tishda ishorasini  \"+\" dan \"-\" ga o‘zgartirsa shu nuqtada ....... ga, ishorasini  \"-\" dan \"+\" ga o‘zgartirsa shu nuqtada ..... ga erishadi deyiladi.",
+        "answer": "maksimum , minimum",
+        "noAnswer1": "minimum, maksimum",
+        "noAnswer2": "eng kichik qiymat, eng katta qiymat",
+        "noAnswer3": "ekstremum, maksimum"
     },
     {
-        "question": "75. In which places can you see different kinds of animals?",
-        "answer": "zoo",
-        "noAnswer1": "shopping center",
-        "noAnswer2": "library",
-        "noAnswer3": "train station"
+        "question": "y=shx funksiyani birinchi tartibli hosilasi to‘g‘ri ko‘rsatilgan javobni toping.",
+        "noAnswer1": "thx",
+        "noAnswer2": "cthx",
+        "noAnswer3": "-shx",
+        "answer": "chx"
     },
     {
-        "question": "76. Choose where the person is? “I’m going to buy some groceries.”",
-        "answer": "supermarket",
-        "noAnswer1": "church",
-        "noAnswer2": "town hall",
-        "noAnswer3": "cinema"
+        "question": "y=e2x+1 funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "2n*ex+1",
+        "noAnswer2": "-2n*e2x-1",
+        "noAnswer3": "2n-1*e2x+1",
+        "answer": "2e2x+1"
     },
     {
-        "question": "77. Complete the sentences with proper preposition.\r\n- Where did you see that announcement?\r\n- ____   the top of the front page.",
-        "noAnswer1": "at",
-        "noAnswer2": "in",
-        "answer": "on",
-        "noAnswer3": "between"
+        "question": "Agar o‘suvchi (kamayuvchi) {x n} ketma-ketlik yuqoridan (quyidan) chegaralangan bo‘lsa u .... dir",
+        "noAnswer1": "uzoqlashuvchi",
+        "answer": "yaqinlashuvchi",
+        "noAnswer2": "Monoton o`suvchi",
+        "noAnswer3": "Monoton kamayuvchi"
     },
     {
-        "question": "78. Where do usually people report a crime?",
-        "answer": "police station",
-        "noAnswer1": "church",
-        "noAnswer2": "shopping center",
-        "noAnswer3": "train station"
+        "question": "Quyidagi tasdiqlarning qaysi biri o‘rinli:",
+        "noAnswer1": "Shartli yaqinlashuvchi qatorlarning faqat manfiy hadlaridan tuzilgan qator ham yaqinlashuvchi bo‘ladi.",
+        "answer": "absolyut yaqinlashuvchi qatorlar o‘rin almashtirish xossasiga ega",
+        "noAnswer2": "Faqat musbat hadli yaqinlashuvchi qatorlar o‘rin almashtirish xossasiga ega",
+        "noAnswer3": "Shartli yaqinlashuvchi qatorlar o‘rin almashtirish xossasiga ega"
     },
     {
-        "question": "79. Choose the correct preposition for the sentence. It makes us feel quite _____ home.",
-        "answer": "at",
-        "noAnswer1": "in",
-        "noAnswer2": "on",
-        "noAnswer3": "near"
+        "question": "y=x2-4 funksiyaning aniqlanish sohasini toping.",
+        "noAnswer1": "(-∞;2) va [2;∞)",
+        "answer": "Barcha haqiqiy sonlar to‘plamidan iborat.",
+        "noAnswer2": "(-∞;2) va (2;∞)",
+        "noAnswer3": "[2;∞)"
     },
     {
-        "question": "80. Choose the correct preposition for the sentence. He had been five hours _____ the water.",
-        "answer": "in",
-        "noAnswer1": "behind",
-        "noAnswer2": "at",
-        "noAnswer3": "from"
+        "question": "y=ln(x+1) funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "-1/x3",
+        "noAnswer2": "-2/x3",
+        "answer": "1/(x+1)",
+        "noAnswer3": "1/x3"
     },
     {
-        "question": "81. Choose the correct preposition for the sentence. My office is located \r\n____ Albert Street.",
-        "answer": "in",
-        "noAnswer1": "at",
-        "noAnswer2": "near",
-        "noAnswer3": "on"
+        "question": "y=x·cosx funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "-3cosx-xsinx",
+        "answer": "cosx.",
+        "noAnswer2": "-3cosx+xcosx",
+        "noAnswer3": "-3cosx-xsinx\r\ny=sinx funksiyani birinchi tartibli hosilasini toping?"
     },
     {
-        "question": "82. Choose the correct preposition for the sentence. We will meet your delegation _____ the airport at 8:00 pm.",
-        "answer": "at",
-        "noAnswer1": "on",
-        "noAnswer2": "near",
-        "noAnswer3": "in"
+        "question": "y=-cosx funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "sinx.",
+        "noAnswer2": "-cosx.",
+        "noAnswer3": "cosx.",
+        "answer": "sinx."
     },
     {
-        "question": "83. Choose the correct preposition for the sentence. I'm taking several courses ____ the university this summer.",
-        "answer": "at",
-        "noAnswer1": "from",
-        "noAnswer2": "near",
-        "noAnswer3": "on"
+        "question": "y=-sinx funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "sinx.",
+        "answer": "-cosx.",
+        "noAnswer2": "cosx.",
+        "noAnswer3": "-sinx."
     },
     {
-        "question": "84. Choose the correct preposition for the sentence. Write your name ____ the top of the page.",
-        "answer": "at",
-        "noAnswer1": "in",
-        "noAnswer2": "in",
-        "noAnswer3": "near"
+        "question": "y=-2cosx funksiyani birinchi tartibli hosilasini toping?",
+        "answer": "2sinx.",
+        "noAnswer1": "-2cosx.",
+        "noAnswer2": "2cosx.",
+        "noAnswer3": "-2sinx."
     },
     {
-        "question": "85. Choose the correct preposition for the sentence. I installed new software ____ my computer but I do not know how to use it properly.",
-        "noAnswer1": "in",
-        "noAnswer2": "at",
-        "noAnswer3": "near",
-        "answer": "on"
+        "question": "Quyidagi funksiyalardan qaysi birining aniqlanish sohasi xaqiqiy sonlar to‘plamidan(R) iborat bo‘ladi?",
+        "noAnswer1": "y=2/sinx.",
+        "answer": "y=-2cosx.",
+        "noAnswer2": "y=2/cosx.",
+        "noAnswer3": "y=-2/sinx."
     },
     {
-        "question": "86. Choose the correct preposition for the sentence. You can find this e-book ____ Internet.",
-        "noAnswer1": "by",
-        "noAnswer2": "at",
-        "noAnswer3": "near",
-        "answer": "in"
+        "question": "y=2cosx funksiyani qiymatlar sohasini toping?",
+        "answer": "[-2;2].",
+        "noAnswer1": "[-2;0].",
+        "noAnswer2": "[-2;0).",
+        "noAnswer3": "(-2;0)."
     },
     {
-        "question": "87. Choose the correct preposition for the sentence. I read the paper ___  a taxi ____ the way.",
-        "answer": "in/on",
-        "noAnswer1": "in/at",
-        "noAnswer2": "near /on",
-        "noAnswer3": "on/in"
+        "question": "y=2sinx funksiyani qiymatlar sohasini toping?",
+        "answer": "[-2;2].",
+        "noAnswer1": "[-2;0].",
+        "noAnswer2": "[-2;0).",
+        "noAnswer3": "(-2;0)."
     },
     {
-        "question": "88. Choose the correct preposition for the sentence. I can't sleep ____ the bus.",
-        "answer": "on",
-        "noAnswer1": "in",
-        "noAnswer2": "near",
-        "noAnswer3": "at"
+        "question": "y=2cosx funksiyani aniqlanish sohasini toping?",
+        "answer": "Haqiqiy sonlar to‘plami.",
+        "noAnswer1": "[-1;1].",
+        "noAnswer2": "Natural sonlar to‘plami.",
+        "noAnswer3": "(-2;0)."
     },
     {
-        "question": "89. Where do people leave their cars?",
-        "answer": "car park",
-        "noAnswer1": "bus stop",
-        "noAnswer2": "train station",
-        "noAnswer3": "gas station"
+        "question": "y=-sinx funksiyani ikkinchi tartibli hosilasini toping?",
+        "answer": "sinx.",
+        "noAnswer1": "-cosx.",
+        "noAnswer2": "cosx.",
+        "noAnswer3": "-sinx."
     },
     {
-        "question": "90. Choose the best answer.  What's _______________ sport?",
-        "answer": "the most dangerous",
-        "noAnswer1": "more dangerous",
-        "noAnswer2": "the more dangerous",
-        "noAnswer3": "dangerous than"
+        "question": "y=-cosx funksiyani ikkinchi tartibli hosilasini toping?",
+        "noAnswer1": "sinx.",
+        "noAnswer2": "-cosx.",
+        "answer": "cosx.",
+        "noAnswer3": "-sinx."
     },
     {
-        "question": "91. Choose the best answer.   I have got two computers. One of them is __________ than other.",
-        "noAnswer1": "the most expensive",
-        "answer": "more expensive",
-        "noAnswer2": "expensive",
-        "noAnswer3": "little expensive"
+        "question": "y=-x2 funksiyani ikkinchi tartibli hosilasini toping?",
+        "noAnswer1": "0.",
+        "noAnswer2": "-1.",
+        "noAnswer3": "1.",
+        "answer": "-2."
     },
     {
-        "question": "92. Which sentence correctly uses a comparative adjective?",
-        "answer": "This book is more exciting than that one.",
-        "noAnswer1": "This book is excitinger than that one.",
-        "noAnswer2": "This book is most exciting than that one.",
-        "noAnswer3": "This book is exciting than that one."
+        "question": "y=-cosx2 funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "sinx2.",
+        "noAnswer2": "-2xcosx2.",
+        "answer": "2xsinx2.",
+        "noAnswer3": "-2sinx2."
     },
     {
-        "question": "93. Choose the best answer.  The Nile is ___________ river in Africa.",
-        "noAnswer1": "longer",
-        "answer": "the longest",
-        "noAnswer2": "longer than",
-        "noAnswer3": "longest"
+        "question": "Hosilaning mexanik ma’nosini qisqacha quyidagicha ham aytish mumkin:……",
+        "answer": "yo‘ldan vaqt bo‘yicha olingan birinchi tartibli hosila tezlikka teng.",
+        "noAnswer1": "yo‘ldan vaqt bo‘yicha olingan hosila tezlanishga teng.",
+        "noAnswer2": "yo‘ldan vaqt bo‘yicha olingan  ikkinchi tartibli hosila tezlikka teng.",
+        "noAnswer3": "yo‘ldan vaqt bo‘yicha olingan uchinchi tartibli hosila tezlikka teng."
     },
     {
-        "question": "94. Choose the best answer.  I was ill yesterday but I am _________ today.",
-        "noAnswer1": "gooder",
-        "noAnswer2": "the worst",
-        "noAnswer3": "best",
-        "answer": "better"
+        "question": "Hosilaning mexanik ma’nosini qisqacha quyidagicha ham aytish mumkin:……",
+        "noAnswer1": "yo‘ldan vaqt bo‘yicha olingan birinchi tartibli hosila tezlanishga teng.",
+        "answer": "yo‘ldan vaqt bo‘yicha olingan ikkinchi tartibli hosila tezlanishga teng.",
+        "noAnswer2": "yo‘ldan vaqt bo‘yicha olingan  ikkinchi tartibli hosila tezlikka teng.",
+        "noAnswer3": "yo‘ldan vaqt bo‘yicha olingan uchinchi tartibli hosila tezlikka teng."
     },
     {
-        "question": "95. Choose the best answer.  Lola is _________________ student in the class.",
-        "noAnswer1": "the taller",
-        "noAnswer2": "tall",
-        "answer": "the tallest",
-        "noAnswer3": "smallest"
+        "question": "(a,b) oraliqning x2>x1 tengsizlikni qanoatlantiruvchi ixtiyoriy ikkita nuqtalari uchun, f(x2)>f(x1) tengsizlik bajarilsa, f(x) funksiya (a,b) oraliqda ……deyiladi.",
+        "answer": "o‘suvchi",
+        "noAnswer1": "kamayuvchi",
+        "noAnswer2": "o‘smaydigan",
+        "noAnswer3": "kamaymaydigan"
     },
     {
-        "question": "96. What is the main purpose of a museum?",
-        "answer": "To preserve art and historical artifacts   `",
-        "noAnswer1": "To serve as a residential area",
-        "noAnswer2": "To provide a place for sports events",
-        "noAnswer3": "To host concerts and performances"
+        "question": "Funksiyaning birinchi tartibli hosilasi no‘lga teng yoki uzilishga ega bo‘ladigan nuqtalari ….. nuqtalar deyiladi.",
+        "answer": "kritik",
+        "noAnswer1": "kritik emas",
+        "noAnswer2": "chetki",
+        "noAnswer3": "ustki"
     },
     {
-        "question": "97. There _____ a cat in the garden.",
-        "answer": "is",
-        "noAnswer1": "am",
-        "noAnswer2": "are",
-        "noAnswer3": "be"
+        "question": "(a,b) oraliqning x2>x1 tengsizlikni qanoatlantiruvchi ixtiyoriy ikkita nuqtalari uchun, f(x2)<f(x1) tengsizlik bajarilsa, f(x) funksiya (a,b) oraliqda ……deyiladi.",
+        "noAnswer1": "o‘suvchi",
+        "answer": "kamayuvchi",
+        "noAnswer2": "o‘smaydigan",
+        "noAnswer3": "kamaymaydigan"
     },
     {
-        "question": "98. There ________ many students in the classroom.",
-        "noAnswer1": "is",
-        "noAnswer2": "be",
-        "answer": "are",
-        "noAnswer3": "am"
+        "question": "(a,b) oraliqda differensiallanuvchi y=f(x) funksiya musbat hosilaga ega, ya’ni f/(x)>0 bo‘lsa, funksiya shu oraliqda ….. bo‘ladi;",
+        "answer": "o‘suvchi",
+        "noAnswer1": "kamayuvchi",
+        "noAnswer2": "o‘smaydigan",
+        "noAnswer3": "kamaymaydigan"
     },
     {
-        "question": "99. There _____ a book on the table.",
-        "answer": "is",
-        "noAnswer1": "am",
-        "noAnswer2": "are",
-        "noAnswer3": "be"
+        "question": "(a,b) oraliqda differensiallanuvchi y=f(x) funksiya manfiy hosilaga ega, ya’ni f/(x)<0 bo‘lsa, funksiya shu oraliqda ….. bo‘ladi;",
+        "noAnswer1": "o‘suvchi",
+        "answer": "kamayuvchi",
+        "noAnswer2": "o‘smaydigan",
+        "noAnswer3": "kamaymaydigan"
     },
     {
-        "question": "100. There _____ three apples in the basket.",
-        "noAnswer1": "is",
-        "noAnswer2": "be",
-        "answer": "are",
-        "noAnswer3": "am"
+        "question": "Funksiyaning maksimum yoki minimum nuqtalariga …….nuqtalari deyiladi.",
+        "answer": "ekstremum",
+        "noAnswer1": "chetki",
+        "noAnswer2": "kritik",
+        "noAnswer3": "ustki"
     },
     {
-        "question": "101. There _______ a problem with your order.",
-        "answer": "is",
-        "noAnswer1": "am",
-        "noAnswer2": "are",
-        "noAnswer3": "be"
+        "question": "y=f(x) funksiyaning grafigi (a,b) oraliqning istalgan nuqtasidan unga o‘tkazilgan urinmadan pastda yotsa, funksiya grafigi  shu oraliqda………deyiladi.",
+        "answer": "qabariq",
+        "noAnswer1": "botiq",
+        "noAnswer2": "kritik",
+        "noAnswer3": "ustki"
     },
     {
-        "question": "102. There _______ no milk left in the fridge.",
-        "answer": "is",
-        "noAnswer1": "am",
-        "noAnswer2": "are",
-        "noAnswer3": "be"
+        "question": "y=f(x) funksiyaning grafigi (a,b) oraliqning istalgan nuqtasidan unga o‘tkazilgan urinmadan pastda yotsa, funksiya grafigi  shu oraliqda ……deyiladi.",
+        "answer": "qabariq",
+        "noAnswer1": "botiq",
+        "noAnswer2": "kritik",
+        "noAnswer3": "ustki"
     },
     {
-        "question": "103. There _______ two parks in this neighborhood",
-        "noAnswer1": "is",
-        "noAnswer2": "am",
-        "answer": "are",
-        "noAnswer3": "be"
+        "question": "y=f(x)funksiyaning grafigi (a,b) oraliqning istalgan nuqtasidan unga o‘tkazilgan urinmadan yuqorida yotsa, funksiya grafigi shu oraliqda ….. deyiladi.",
+        "noAnswer1": "qabariq",
+        "answer": "botiq",
+        "noAnswer2": "kritik",
+        "noAnswer3": "ustki"
     },
     {
-        "question": "104. There _____ a lot of traffic today.",
-        "answer": "is",
-        "noAnswer1": "am",
-        "noAnswer2": "are",
-        "noAnswer3": "be"
+        "question": "Funksiya grafigining qavariq qismini, botiq qismidan ajratuvchi nuqta ……nuqtasi deyiladi.",
+        "noAnswer1": "ichki",
+        "answer": "egilish",
+        "noAnswer2": "kritik",
+        "noAnswer3": "ustki"
     },
     {
-        "question": "105. There _______ a new restaurant in town.",
-        "answer": "is",
-        "noAnswer1": "am",
-        "noAnswer2": "are",
-        "noAnswer3": "be"
+        "question": "F(x) funksiya biror oraliqda f(x) funksiyaning boshlang‘ich funksiyasi bo‘lsa,  F(x)+C (bunda C ixtiyoriy o‘zgarmas) funksiyalar to‘plami shu oraliqda f(x) funksiyaning ……. deyiladi.",
+        "noAnswer1": "aniq integrali",
+        "answer": "aniqmas integrali",
+        "noAnswer2": "integrali",
+        "noAnswer3": "Aniq integrali"
     },
     {
-        "question": "106. There _______ several ways to solve this problem.",
-        "noAnswer1": "is",
-        "noAnswer2": "am",
-        "answer": "are",
-        "noAnswer3": "be"
+        "question": "Suratdagi ko‘phadning darajasi maxrajdagi ko‘phad darajasidan kichik, bo‘lsa, berilgan kasrga ……….funksiya deyiladi.",
+        "noAnswer1": "noto‘g‘ri kasr ratsional",
+        "answer": "to‘g‘ri kasr ratsional",
+        "noAnswer2": "kasr ratsional",
+        "noAnswer3": "kasr"
     },
     {
-        "question": "107. Which ingredient is used to make bread?",
-        "noAnswer1": "Meat",
-        "noAnswer2": "Jam",
-        "answer": "Flour",
-        "noAnswer3": "Apple"
+        "question": "Suratdagi ko‘phadning darajasi maxrajdagi ko‘phad darajasidan katta bo‘lsa, …… funksiya deyiladi.",
+        "answer": "noto‘g‘ri kasr ratsional",
+        "noAnswer1": "to‘g‘ri kasr ratsional",
+        "noAnswer2": "kasr ratsional",
+        "noAnswer3": "kasr"
     },
     {
-        "question": "108. What ingredient is commonly used in soup?",
-        "noAnswer1": "Flour",
-        "noAnswer2": "Grape",
-        "answer": "Meat",
-        "noAnswer3": "Mango"
+        "question": "y=sinx funksiyaga boshlang‘ich funksiya toping?",
+        "noAnswer1": "sinx+c.",
+        "answer": "-cosx+c.",
+        "noAnswer2": "cosx+c.",
+        "noAnswer3": "-sinx+c."
     },
     {
-        "question": "109. Which fruit is typically red or green and grows on vines?",
-        "noAnswer1": "Banana",
-        "noAnswer2": "Kiwi",
-        "answer": "Grape",
-        "noAnswer3": "Mango"
+        "question": "y=cosx funksiyaga boshlang‘ich funksiya toping?",
+        "answer": "sinx+c.",
+        "noAnswer1": "-cosx+c.",
+        "noAnswer2": "cosx+c.",
+        "noAnswer3": "-sinx+c."
     },
     {
-        "question": "110. Which one is fruit?",
-        "noAnswer1": "Flour",
-        "noAnswer2": "Potato",
-        "answer": "Pineapple",
-        "noAnswer3": "Onion"
+        "question": "y=1/x funksiyaga boshlang‘ich funksiya toping?",
+        "noAnswer1": "x+c.",
+        "answer": "lnx+c.",
+        "noAnswer2": "2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "111. Which product is used in cheese-making?",
-        "noAnswer1": "Potato",
-        "answer": "Milk",
-        "noAnswer2": "Crisps",
-        "noAnswer3": "Prawns"
+        "question": "y=2/x funksiyaga boshlang‘ich funksiya toping?",
+        "noAnswer1": "x+c.",
+        "answer": "2lnx+c.",
+        "noAnswer2": "2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "112. Which one is seafood?",
-        "answer": "Prawn",
-        "noAnswer1": "Beef",
-        "noAnswer2": "Chicken",
-        "noAnswer3": "Rice"
+        "question": "y=ex funksiyaga boshlang‘ich funksiya toping?",
+        "noAnswer1": "xex+c.",
+        "answer": "ex+c.",
+        "noAnswer2": "2ex/x+c.",
+        "noAnswer3": "-exx+c."
     },
     {
-        "question": "113. What is healthy food?",
-        "noAnswer1": "Crisps",
-        "noAnswer2": "Hamburger",
-        "answer": "Fruit and vegetables",
-        "noAnswer3": "Hot-dog"
+        "question": "y=2ex funksiyaga boshlang‘ich funksiya toping?",
+        "noAnswer1": "2xex+c.",
+        "answer": "2ex+c.",
+        "noAnswer2": "2ex/x+c.",
+        "noAnswer3": "-exx+c."
     },
     {
-        "question": "114. Which one is fish?",
-        "noAnswer1": "Almond",
-        "answer": "Salmon",
-        "noAnswer2": "Spinach",
-        "noAnswer3": "Crisps"
+        "question": "y=2e-x funksiyaga boshlang‘ich funksiya toping?",
+        "noAnswer1": "-2xex +c.",
+        "answer": "-2e-x +c.",
+        "noAnswer2": "2e-x/x+c.",
+        "noAnswer3": "-exx+c."
     },
     {
-        "question": "115. What is the primary ingredient in Pilaf?",
-        "noAnswer1": "Tomato",
-        "noAnswer2": "Potato",
-        "noAnswer3": "Avocado",
-        "answer": "Rice"
+        "question": "y=x-2 funksiyaga boshlang‘ich funksiya toping?",
+        "answer": "-1/x+c.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "116. Which ingredients are used to make fruit salad?",
-        "noAnswer1": "Rice, spinach, mushrooms, sausages",
-        "answer": "Apple, pineapple, melon, pear",
-        "noAnswer2": "Onion, apple, tuna, lettuce",
-        "noAnswer3": "Corn, crisps, peas, sugar"
+        "question": "y=c (c=const) funksiyaga boshlang‘ich funksiya toping?",
+        "answer": "cx+c.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "117. Which of the following is a countable noun?",
-        "noAnswer1": "Rice",
-        "answer": "Apple",
-        "noAnswer2": "Bread",
-        "noAnswer3": "Sugar"
+        "question": "y=-x-1 funksiyaga boshlang‘ich funksiya toping?",
+        "noAnswer1": "-1/x+c.",
+        "answer": "-lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "118. Which of these is uncountable?",
-        "noAnswer1": "Banana",
-        "noAnswer2": "Orange",
-        "answer": "Chocolate",
-        "noAnswer3": "Grape"
+        "question": "y=x-3 funksiyaga boshlang‘ich funksiya toping?",
+        "answer": "-0,5x-2+c.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "119. Which item is uncountable?",
-        "noAnswer1": "Carrot",
-        "noAnswer2": "Tomato",
-        "answer": "Milk",
-        "noAnswer3": "Potato"
+        "question": "y=x3 funksiyaga boshlang‘ich funksiya toping?",
+        "answer": "0,25x4+c.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "120. Which of the following is countable?",
-        "noAnswer1": "Butter",
-        "noAnswer2": "Lettuce",
-        "noAnswer3": "Meat",
-        "answer": "Melon"
+        "question": "y=x2 funksiyaga boshlang‘ich funksiya toping?",
+        "answer": "(1/3)x3+c.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "121. Which of these is uncountable?",
-        "noAnswer1": "Pear",
-        "noAnswer2": "Pineapple",
-        "noAnswer3": "Water"
+        "question": "y=cx2 funksiyaga boshlang‘ich funksiya toping?",
+        "answer": "(1/3)cx3+c.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "122. Which is countable?",
-        "noAnswer1": "Honey",
-        "answer": "Onion",
-        "noAnswer2": "Cereal",
-        "noAnswer3": "Flour"
+        "question": "y=2ex funksiyani aniqlanish sohasini toping?",
+        "answer": "Haqiqiy sonlar to‘plami.",
+        "noAnswer1": "[-1;1].",
+        "noAnswer2": "Natural sonlar to‘plami.",
+        "noAnswer3": "(-2;0)."
     },
     {
-        "question": "123. There are several _______ in the garden.",
-        "noAnswer1": "rice",
-        "noAnswer2": "juice",
-        "answer": "apples",
-        "noAnswer3": "flour"
+        "question": "y=2e-x funksiyani aniqlanish sohasini toping?",
+        "answer": "Haqiqiy sonlar to‘plami.",
+        "noAnswer1": "[-1;1].",
+        "noAnswer2": "Natural sonlar to‘plami.",
+        "noAnswer3": "(-2;0)."
     },
     {
-        "question": "124. Which is uncountable?",
-        "noAnswer1": "Cookie",
-        "noAnswer2": "Grape",
-        "answer": "Bread",
-        "noAnswer3": "Tomato"
+        "question": "y=2x+sinx funksiyani aniqlanish sohasini toping?",
+        "answer": "Haqiqiy sonlar to‘plami.",
+        "noAnswer1": "[-1;1].",
+        "noAnswer2": "Natural sonlar to‘plami.",
+        "noAnswer3": "(-2;0)."
     },
     {
-        "question": "125. How many _________ are there in the basket?",
-        "noAnswer1": "rice",
-        "noAnswer2": "milk",
-        "noAnswer3": "sugar",
-        "answer": "apples"
+        "question": "y=2-x2 funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "x-2",
+        "answer": "-2x",
+        "noAnswer2": "uzluksiz",
+        "noAnswer3": "-2"
     },
     {
-        "question": "126. How much _______ would you like?",
-        "noAnswer1": "oranges",
-        "noAnswer2": "grape",
-        "answer": "sugar",
-        "noAnswer3": "apples"
+        "question": "y=2+x2 funksiyani birinchi tartibli hosilasini toping?",
+        "noAnswer1": "x-2",
+        "answer": "2x",
+        "noAnswer2": "uzluksiz",
+        "noAnswer3": "2"
     },
     {
-        "question": "127. Choose the best answer. An integrated input device that functions as a mouse is a feature of laptops. On a laptop, the cursor can be moved by dragging your fingers across it.  What device is it?",
-        "answer": "Touchpad",
-        "noAnswer1": "Keyboard",
-        "noAnswer2": "Webcam",
-        "noAnswer3": "Monitor"
+        "question": "y=2-x2 funksiyani ikkinchi tartibli hosilasini toping?",
+        "noAnswer1": "x-2",
+        "answer": "-2",
+        "noAnswer2": "uzluksiz",
+        "noAnswer3": "2"
     },
     {
-        "question": "128. Choose the best answer. This device doubles as a pointing device, much like a mouse, which is frequently used for computer gaming. They consist of a stick with a spherical base that fits into a socket to allow the stick to move freely. Stick movements are used to control the pointer, or cursor, on the screen.",
-        "noAnswer1": "Touchpad",
-        "noAnswer2": "Keyboard",
-        "answer": "Joystick",
-        "noAnswer3": "Mouse"
+        "question": "y=2+x2 funksiyani ikkinchi tartibli hosilasini toping?",
+        "noAnswer1": "x-2",
+        "answer": "2",
+        "noAnswer2": "uzluksiz",
+        "noAnswer3": "-2"
     },
     {
-        "question": "129. Choose the best answer. This input device has a different set of keys for letters, numbers, functions, and characters. What device is it?",
-        "noAnswer1": "Touchpad",
-        "answer": "Keyboard",
-        "noAnswer2": "Joystick",
-        "noAnswer3": "Mouse"
+        "question": "y=2+x2 funksiyani uchinchi tartibli hosilasini toping?",
+        "noAnswer1": "x-2",
+        "answer": "0",
+        "noAnswer2": "uzluksiz",
+        "noAnswer3": "2"
     },
     {
-        "question": "130. Choose the best answer. One more device is a commonly used input device that helps the user to interact with the computer system through a process called “point and click”.  This hand-held input device is used to move the cursor or pointer across the screen. It works on a flat surface and has a left and right button with a wheel in between to perform the tasks. What device is it?",
-        "noAnswer1": "Touchpad",
-        "noAnswer2": "Keyboard",
-        "noAnswer3": "Joystick",
-        "answer": "Mouse"
+        "question": "y=2-x2 funksiyani uchinchi tartibli hosilasini toping?",
+        "noAnswer1": "x-2",
+        "answer": "0",
+        "noAnswer2": "uzluksiz",
+        "noAnswer3": "-2"
     },
     {
-        "question": "131. Choose the best answer. It's an input device for computers that resembles a pen. It features a tiny tube with an optical system and a photocell, and it is incredibly sensitive. Users can point to or select objects on the computer screen with the help of the unique detector built into the tip of the device. What device is it?",
-        "answer": "Light pen",
-        "noAnswer1": "Webcam",
-        "noAnswer2": "Scanner",
-        "noAnswer3": "Digital camera"
+        "question": "y=cx funksiyaga boshlang‘ich funksiya toping?",
+        "answer": "(1/2)cx2+c.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "132. Choose the best answer. This device is a type of an input device that helps the user to input voice in a computer system. They read sounds from the surroundings and then convert the analog sound waves into electrical signals. It receives the sound vibrations and converts them into audio signals or sends to a recording medium. What device is it?",
-        "noAnswer1": "Light pen",
-        "answer": "Speakers/microphon",
-        "noAnswer2": "Scanner",
-        "noAnswer3": "Digital camera"
+        "question": "y=-cx funksiyaga boshlang‘ich funksiya toping?",
+        "answer": "-(1/2)cx2+c.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "133. Choose the best answer. It's a crucial tool for converting paper documents into digital files (jpeg, png, pdf, etc.) from hard copies. Optical technology, which powers this gadget, essentially reads text or images off paper and sends them to a computer drive for additional processing. What device is it?",
-        "noAnswer1": "Light pen",
-        "noAnswer2": "Speakers",
-        "answer": "Scanner",
-        "noAnswer3": "Digital camera"
+        "question": "f(x)=x2-5 funksiyaning x→5 dagi limitini hisoblang?",
+        "noAnswer1": "10",
+        "noAnswer2": "-1",
+        "noAnswer3": "1",
+        "answer": "0"
     },
     {
-        "question": "134. Choose the best answer. With this device, users may interact with a computer or other electronic device directly by touching the screen, making it a versatile input method) The software on the device processes the touch input to carry out operations like scrolling, zooming, and item selection. What device is it?",
-        "noAnswer1": "Light pen",
-        "noAnswer2": "Speakers",
-        "noAnswer3": "Webcam",
-        "answer": "Touchscreen"
+        "question": "f(x)=x2+5 funksiyaning x→5 dagi limitini hisoblang?",
+        "noAnswer1": "10",
+        "noAnswer2": "-1",
+        "noAnswer3": "1",
+        "answer": "50"
     },
     {
-        "question": "135. Choose the best answer. These are input devices that digitally record photos and occasionally videos. They take pictures using an image sensor chip rather than film. Connecting the device to the computer is the first step in using it as an input device. This can be done via a wireless connection, a memory card reader, or a USB cable. What device is it?",
-        "noAnswer1": "Light pen",
-        "noAnswer2": "Speakers",
-        "answer": "Digital camera",
-        "noAnswer3": "Touchscreen"
+        "question": "f(x)=x2+5 funksiyaning x→4 dagi limitini hisoblang?",
+        "noAnswer1": "10",
+        "noAnswer2": "-1",
+        "noAnswer3": "1",
+        "answer": "21"
     },
     {
-        "question": "136. Choose the best answer. This device is a type of video camera intended exclusively for recording or live streaming onto a computer or computer network. Its main uses are for social media, live streaming, video conferencing, and video telephony. Computers have two different kinds of these device: internal (built-in) and external. What device is it?",
-        "noAnswer1": "Light pen",
-        "noAnswer2": "Speakers",
-        "answer": "Webcam",
-        "noAnswer3": "Touchscreen"
+        "question": "f(x)=x2-5 funksiyaning x→4 dagi limitini hisoblang?",
+        "noAnswer1": "10",
+        "noAnswer2": "-1",
+        "noAnswer3": "1",
+        "answer": "11"
     },
     {
-        "question": "137. What is commonly referred to as the Digital Age?",
-        "noAnswer1": "The Stone Age",
-        "answer": "The period marked by the widespread use of digital technology",
-        "noAnswer2": "The time before the Industrial Revolution",
-        "noAnswer3": "The era of print books only"
+        "question": "y=f(x) funksiyani x=x0 nuqtadagi funksiya orttirmasi qaysi javobda to‘g‘ri ko‘rsatilgan?",
+        "answer": "Δy=f(x0+Δx)-f(x0)",
+        "noAnswer1": "f(x+Δx)≈f(x)·Δx+f'(x)",
+        "noAnswer2": "f(x+Δx)≈f'(x)+Δx",
+        "noAnswer3": "f(x+Δx)≈f'(x)·Δx-f(x)"
     },
     {
-        "question": "138. Which invention is considered a cornerstone of the Digital Age?",
-        "noAnswer1": "The steam engine",
-        "answer": "The microprocessor",
-        "noAnswer2": "The printing press",
-        "noAnswer3": "The compass"
+        "question": "“pi” va “epsilon” sonlari qanday sonlar?",
+        "answer": "xar ikkalasi irratsional son",
+        "noAnswer1": "xar ikkalasi ratsional son.",
+        "noAnswer2": "“pi” irratsional son “epsilon” ratsional son.",
+        "noAnswer3": "“pi” ratsional son, “epsilon” irratsional son."
     },
     {
-        "question": "139. Which of the following is an example of a digital platform?",
-        "noAnswer1": "A public library",
-        "noAnswer2": "A printed newspaper",
-        "answer": "YouTube",
-        "noAnswer3": "A typewriter"
+        "question": "f(x)=x2+5 funksiya ikkinchi tartibli hosilasini toping?",
+        "noAnswer1": "10",
+        "noAnswer2": "-1",
+        "noAnswer3": "1",
+        "answer": "2"
     },
     {
-        "question": "140. What is the Digital Age?",
-        "noAnswer1": "A time of dinosaurs",
-        "noAnswer2": "A time with no technology",
-        "answer": "A time of using computers and the internet",
-        "noAnswer3": "A time of farming"
+        "question": "f(x)=-x2+5 funksiya ikkinchi tartibli hosilasini toping?",
+        "noAnswer1": "10",
+        "noAnswer2": "-1",
+        "noAnswer3": "1",
+        "answer": "-2"
     },
     {
-        "question": "141. Which is a digital tool?",
-        "noAnswer1": "Hammer",
-        "noAnswer2": "Bicycle",
-        "answer": "Smartphone",
-        "noAnswer3": "Backpack"
+        "question": "f(x)=-x2+5 funksiya uchinchi tartibli hosilasini toping?",
+        "noAnswer1": "10",
+        "noAnswer2": "-1",
+        "noAnswer3": "1",
+        "answer": "0"
     },
     {
-        "question": "142. What do people use social media for?",
-        "noAnswer1": "Cooking food",
-        "noAnswer2": "Driving cars",
-        "answer": "Talking and sharing pictures online",
-        "noAnswer3": "Writing books"
+        "question": "f(x)=x2+5 funksiya uchinchi tartibli hosilasini toping?",
+        "noAnswer1": "10",
+        "noAnswer2": "-1",
+        "noAnswer3": "1",
+        "answer": "0"
     },
     {
-        "question": "143. What is online shopping?",
-        "noAnswer1": "Shopping on the street",
-        "noAnswer2": "Selling items at a market",
-        "answer": "Buying things using the internet",
-        "noAnswer3": "Using cash to shop in stores"
+        "question": "y=cx funksiyaning birinchi tartibli hosilasini toping?",
+        "answer": "c.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     },
     {
-        "question": "144. He _______ play the piano for hours without getting tired when he was a child.",
-        "answer": "could",
-        "noAnswer1": "might",
-        "noAnswer2": "had to",
-        "noAnswer3": "can"
-    },
-    {
-        "question": "145. When he was a teenager, he _______ drive a car without a license.",
-        "answer": "could",
-        "noAnswer1": "must",
-        "noAnswer2": "have to",
-        "noAnswer3": "can"
-    },
-    {
-        "question": "146. She _______ speak French fluently when she lived in Paris.",
-        "answer": "could",
-        "noAnswer1": "should",
-        "noAnswer2": "has to",
-        "noAnswer3": "can"
-    },
-    {
-        "question": "147. Which of the following is the correct Past Simple form of the verb \"play\"?",
-        "noAnswer1": "plays",
-        "noAnswer2": "playing",
-        "answer": "played",
-        "noAnswer3": "play"
-    },
-    {
-        "question": "148. How do you form the negative of “She visited her grandmother”?",
-        "answer": "She didn’t visit her grandmother.",
-        "noAnswer1": "She not visited her grandmother.",
-        "noAnswer2": "She don’t visit her grandmother.",
-        "noAnswer3": "She doesn’t visit her grandmother."
-    },
-    {
-        "question": "149. What is the Past Simple form of the verb “go”?",
-        "noAnswer1": "go",
-        "answer": "went",
-        "noAnswer2": "goes",
-        "noAnswer3": "going"
-    },
-    {
-        "question": "150. Which is the correct Past Simple question?",
-        "noAnswer1": "Did he helped you?",
-        "noAnswer2": "Does he help you?",
-        "answer": "Did he help you?",
-        "noAnswer3": "Did he helps you?"
-    },
-    {
-        "question": "150. Which is the correct Past Simple question?",
-        "noAnswer1": "Did he helped you?",
-        "noAnswer2": "Does he help you?",
-        "answer": "Did he help you?",
-        "noAnswer3": "Did he helps you?"
-    },
-    {
-        "question": "151. Which time expression is commonly used with the Past Simple?",
-        "noAnswer1": "tomorrow",
-        "answer": "yesterday",
-        "noAnswer2": "now",
-        "noAnswer3": "next week"
-    },
-    {
-        "question": "152. Complete the sentence: “I ___ a new book last month.”",
-        "noAnswer1": "buy",
-        "noAnswer2": "buying",
-        "answer": "bought",
-        "noAnswer3": "buys"
-    },
-    {
-        "question": "153. Which of these sentences uses the past simple tense correctly?",
-        "noAnswer1": "She run to the park last Friday.",
-        "answer": "She ran to the park last Friday.",
-        "noAnswer2": "She running to the park last Friday.",
-        "noAnswer3": "She runs to the park last Friday."
-    },
-    {
-        "question": "154. What is the past simple form of the verb “see”?",
-        "answer": "Saw",
-        "noAnswer1": "Sees",
-        "noAnswer2": "Seen",
-        "noAnswer3": "Seeing"
-    },
-    {
-        "question": "155. Complete the sentence: “We ___ a movie last night.”",
-        "noAnswer1": "watch",
-        "noAnswer2": "watching",
-        "answer": "watched",
-        "noAnswer3": "watches"
-    },
-    {
-        "question": "156. Which sentence is in the past simple tense?",
-        "noAnswer1": "He plays soccer every weekend.",
-        "answer": "He played soccer last weekend.",
-        "noAnswer2": "He playing soccer last weekend.",
-        "noAnswer3": "He play soccer last weekend."
-    },
-    {
-        "question": "157. Which sentence uses “because” correctly?",
-        "noAnswer1": "I was tired because I go to bed early.",
-        "answer": "I went to bed early because I was tired.",
-        "noAnswer2": "I went to bed because early I was tired.",
-        "noAnswer3": "Because I was tire I went early bed."
-    },
-    {
-        "question": "158. Which sentence uses “so” correctly?",
-        "answer": "I was late so I missed the bus.",
-        "noAnswer1": "I so was late missed the bus.",
-        "noAnswer2": "I was so late I misses the bus.",
-        "noAnswer3": "I was late missed the bus so."
-    },
-    {
-        "question": "159. sentence uses “therefore” correctly?",
-        "answer": "I forgot my umbrella, therefore, I got wet.",
-        "noAnswer1": "I forgot my umbrella therefore I get wet.",
-        "noAnswer2": "Therefore I forgot my umbrella, I got wet.",
-        "noAnswer3": "I forgot therefore my umbrella I got wet."
-    },
-    {
-        "question": "160. Which sentence uses “but” correctly?",
-        "answer": "I like pizza, but I don’t like cheese.",
-        "noAnswer1": "I like pizza but, I doesn’t like cheese.",
-        "noAnswer2": "I like pizza but I like cheese.",
-        "noAnswer3": "I like pizza I don’t like cheese but."
-    },
-    {
-        "question": "161. Which sentence uses “however” correctly?",
-        "noAnswer1": "I studied hard: however; I failed the test.",
-        "noAnswer2": "I studied hard however, I failed the test.",
-        "answer": "However, I studied hard I failed the test.",
-        "noAnswer3": "I studied however hard I failed the test."
-    },
-    {
-        "question": "162. Which word fits best? “I wanted to go out, ___ it was raining.”",
-        "noAnswer1": "because",
-        "answer": "but",
-        "noAnswer2": "so",
-        "noAnswer3": "therefore"
-    },
-    {
-        "question": "163. Which word fits best? “It was raining, ___ we decided to stay inside.”",
-        "noAnswer1": "because",
-        "noAnswer2": "but",
-        "answer": "so",
-        "noAnswer3": "however"
-    },
-    {
-        "question": "164. Which word fits best? “I wanted to go to the party, ___ I had too much work.”",
-        "noAnswer1": "because",
-        "answer": "but",
-        "noAnswer2": "so",
-        "noAnswer3": "therefore"
-    },
-    {
-        "question": "165. Which word fits best? “She was feeling ill, ___ she didn’t go to school.”",
-        "noAnswer1": "because",
-        "noAnswer2": "however",
-        "answer": "so",
-        "noAnswer3": "but"
-    },
-    {
-        "question": "166. Which word fits best? “The movie was long, ___ I enjoyed it a lot.”",
-        "noAnswer1": "however",
-        "noAnswer2": "so",
-        "noAnswer3": "because",
-        "answer": "but"
-    },
-    {
-        "question": "167. Choose the correct past participle form to complete the sentence.\r\nThe letter was ________ yesterday.",
-        "noAnswer1": "wrote",
-        "noAnswer2": "writing",
-        "answer": "written",
-        "noAnswer3": "write"
-    },
-    {
-        "question": "168. Choose the correct past participle form to complete the sentence.\r\nThe book is ________ by a famous author.",
-        "noAnswer1": "write",
-        "answer": "written",
-        "noAnswer2": "wrote",
-        "noAnswer3": "writing"
-    },
-    {
-        "question": "169. Choose the correct past participle form to complete the sentence.\r\nHave you ever ________ a foreign language?",
-        "noAnswer1": "learn",
-        "noAnswer2": "learning",
-        "answer": "learned",
-        "noAnswer3": "learns"
-    },
-    {
-        "question": "170. Choose the correct past participle form to complete the sentence.\r\nThe dinner was ________ by my mother.",
-        "noAnswer1": "cook",
-        "noAnswer2": "cooking",
-        "answer": "cooked",
-        "noAnswer3": "cooks"
-    },
-    {
-        "question": "171. Choose the correct past participle form to complete the sentence.\r\nThe car has been ________.",
-        "noAnswer1": "steal",
-        "noAnswer2": "stealing",
-        "noAnswer3": "stole",
-        "answer": "stolen"
-    },
-    {
-        "question": "172. Choose the correct past participle form to complete the sentence.\r\nThe movie was very ________.",
-        "noAnswer1": "bored",
-        "noAnswer2": "bore",
-        "answer": "boring",
-        "noAnswer3": "boringly"
-    },
-    {
-        "question": "173. Choose the correct past participle form to complete the sentence.\r\nI've never felt so ________ in my life.",
-        "answer": "happy",
-        "noAnswer1": "happier",
-        "noAnswer2": "happily",
-        "noAnswer3": "happiest"
-    },
-    {
-        "question": "174. Choose the correct past participle form to complete the sentence.\r\nThe broken window was ________ by a stone.",
-        "noAnswer1": "break",
-        "answer": "broken",
-        "noAnswer2": "broke",
-        "noAnswer3": "breaking"
-    },
-    {
-        "question": "175. Choose the correct past participle form to complete the sentence.\r\nThe ________ letter was delivered to the wrong address.",
-        "noAnswer1": "address",
-        "noAnswer2": "addressing",
-        "answer": "addressed",
-        "noAnswer3": "addresses"
-    },
-    {
-        "question": "176. Choose the correct past participle form to complete the sentence.\r\nThe ________ child was crying loudly.",
-        "noAnswer1": "frighten",
-        "noAnswer2": "frightening",
-        "answer": "frightened",
-        "noAnswer3": "frightens"
-    },
-    {
-        "question": "177. Choose the correct past participle form to complete the sentence.\r\nThe ________ news shocked everyone.",
-        "noAnswer1": "shock",
-        "answer": "shocking",
-        "noAnswer2": "shocked",
-        "noAnswer3": "shocks"
-    },
-    {
-        "question": "178. Choose the correct past participle form to complete the sentence.\r\nThe ________ man was arrested by the police.",
-        "noAnswer1": "suspect",
-        "noAnswer2": "suspecting",
-        "answer": "suspected",
-        "noAnswer3": "suspects"
-    },
-    {
-        "question": "179. Choose the correct past participle form to complete the sentence.\r\nThe ________ problem was solved quickly.",
-        "noAnswer1": "confuse",
-        "answer": "confusing",
-        "noAnswer2": "confused",
-        "noAnswer3": "confuses"
-    },
-    {
-        "question": "180. Choose the correct past participle form to complete the sentence.\r\nThe ________ painting was worth millions of dollars.",
-        "noAnswer1": "steal",
-        "answer": "stolen",
-        "noAnswer2": "stole",
-        "noAnswer3": "stealing"
-    },
-    {
-        "question": "181. Choose the correct past participle form to complete the sentence.\r\nThe ________ girl was very shy.",
-        "noAnswer1": "embarrass",
-        "noAnswer2": "embarrassing",
-        "answer": "embarrassed",
-        "noAnswer3": "embarrasses"
-    },
-    {
-        "question": "182. Choose the correct past participle form to complete the sentence.\r\nThe ________ book was very interesting.",
-        "noAnswer1": "recommend",
-        "noAnswer2": "recommending",
-        "answer": "recommended",
-        "noAnswer3": "recommends"
-    },
-    {
-        "question": "183. Choose the correct past participle form to complete the sentence.\r\nThe ________ food was delicious.",
-        "noAnswer1": "cook",
-        "noAnswer2": "cooking",
-        "answer": "cooked",
-        "noAnswer3": "cooks"
-    },
-    {
-        "question": "184. Choose the correct past participle form to complete the sentence.\r\nThe ________ movie was a huge success.",
-        "noAnswer1": "expect",
-        "noAnswer2": "expecting",
-        "answer": "expected",
-        "noAnswer3": "expects"
-    },
-    {
-        "question": "185. Choose the correct past participle form to complete the sentence.\r\nThe ________ children were playing in the park.",
-        "noAnswer1": "excite",
-        "noAnswer2": "exciting",
-        "answer": "excited",
-        "noAnswer3": "excites"
-    },
-    {
-        "question": "186. Choose the correct past participle form to complete the sentence.\r\nThe ________ letter was written in a hurry.",
-        "noAnswer1": "haste",
-        "answer": "hasting",
-        "noAnswer2": "hasted",
-        "noAnswer3": "hasty"
-    },
-    {
-        "question": "187. Choose the correct comparative adjective to complete the sentence.\r\nCats are ________ than dogs.",
-        "answer": "quieter",
-        "noAnswer1": "more quieter",
-        "noAnswer2": "more quiet",
-        "noAnswer3": "quietest"
-    },
-    {
-        "question": "188. Choose the correct comparative adjective to complete the sentence.\r\nThis book is ________ than that one.",
-        "noAnswer1": "interesting",
-        "noAnswer2": "more interestingest",
-        "answer": "more interesting",
-        "noAnswer3": "interestinger"
-    },
-    {
-        "question": "189. Choose the correct comparative adjective to complete the sentence.\r\nMountains are ________ than hills.",
-        "noAnswer1": "high",
-        "noAnswer2": "more high",
-        "answer": "higher",
-        "noAnswer3": "highest"
-    },
-    {
-        "question": "190. Choose the correct comparative adjective to complete the sentence.\r\nGold is ________ than silver.",
-        "noAnswer1": "expensive",
-        "noAnswer2": "expensiver",
-        "answer": "more expensive",
-        "noAnswer3": "most expensive"
-    },
-    {
-        "question": "191. Choose the correct comparative adjective to complete the sentence.\r\nWinter is ________ than summer.",
-        "noAnswer1": "cold",
-        "noAnswer2": "more cold",
-        "answer": "colder",
-        "noAnswer3": "coldest"
-    },
-    {
-        "question": "192. Choose the correct comparative adjective to complete the sentence.\r\nThis exercise is ________ than the last one.",
-        "noAnswer1": "difficult",
-        "noAnswer2": "difficulter",
-        "answer": "more difficult",
-        "noAnswer3": "most difficult"
-    },
-    {
-        "question": "193. Choose the correct comparative adjective to complete the sentence.\r\nMy new job is ________ than my old one.",
-        "noAnswer1": "stressful",
-        "noAnswer2": "stressfuller",
-        "answer": "more stressful",
-        "noAnswer3": "most stressful"
-    },
-    {
-        "question": "194. Choose the correct comparative adjective to complete the sentence.\r\nThis city is ________ than that one.",
-        "noAnswer1": "big",
-        "noAnswer2": "more big",
-        "answer": "bigger",
-        "noAnswer3": "biggest"
-    },
-    {
-        "question": "195. Choose the correct comparative adjective to complete the sentence.\r\nMy sister is ________ than me.",
-        "noAnswer1": "tall",
-        "noAnswer2": "more tall",
-        "answer": "taller",
-        "noAnswer3": "tallest"
-    },
-    {
-        "question": "196. Choose the correct comparative adjective to complete the sentence.\r\nThis movie is ________ than that one.",
-        "noAnswer1": "funny",
-        "noAnswer2": "more funny",
-        "answer": "funnier",
-        "noAnswer3": "funniest"
-    },
-    {
-        "question": "197. Choose the correct comparative adjective to complete the sentence.\r\nThis restaurant is ________ than that one.",
-        "noAnswer1": "good",
-        "noAnswer2": "gooder",
-        "answer": "better",
-        "noAnswer3": "best"
-    },
-    {
-        "question": "198. Choose the correct comparative adjective to complete the sentence.\r\nThis car is ________ than that one.",
-        "noAnswer1": "fast",
-        "noAnswer2": "more fast",
-        "answer": "faster",
-        "noAnswer3": "fastest"
-    },
-    {
-        "question": "199. Choose the correct comparative adjective to complete the sentence.\r\nThis book is ________ than that one.",
-        "noAnswer1": "long",
-        "noAnswer2": "more long",
-        "answer": "longer",
-        "noAnswer3": "longest"
-    },
-    {
-        "question": "200. Choose the correct comparative adjective to complete the sentence.\r\nThis coffee is ________ than that one.",
-        "noAnswer1": "hot",
-        "noAnswer2": "more hot",
-        "answer": "hotter",
-        "noAnswer3": "hottest"
-    },
-    {
-        "question": "201. Choose the correct comparative adjective to complete the sentence.\r\nThis test is ________ than the last one.",
-        "noAnswer1": "easy",
-        "noAnswer2": "more easy",
-        "answer": "easier",
-        "noAnswer3": "easiest"
-    },
-    {
-        "question": "202. Choose the correct comparative adjective to complete the sentence.\r\nThis problem is ________ than that one.",
-        "noAnswer1": "complex",
-        "noAnswer2": "complexer",
-        "answer": "more complex",
-        "noAnswer3": "most complex"
-    },
-    {
-        "question": "203. Choose the correct comparative adjective to complete the sentence.\r\nThis cake is ________ than that one.",
-        "noAnswer1": "tasty",
-        "noAnswer2": "more tasty",
-        "answer": "tastier",
-        "noAnswer3": "tastiest"
-    },
-    {
-        "question": "204. Choose the correct comparative adjective to complete the sentence.\r\nThis city is ________ than that one.",
-        "noAnswer1": "crowded",
-        "noAnswer2": "crowdeder",
-        "answer": "more crowded",
-        "noAnswer3": "most crowded"
-    },
-    {
-        "question": "205. Choose the correct comparative adjective to complete the sentence.\r\nThis job is ________ than that one.",
-        "noAnswer1": "boring",
-        "noAnswer2": "boringer",
-        "answer": "more boring",
-        "noAnswer3": "most boring"
-    },
-    {
-        "question": "206. Choose the correct comparative adjective to complete the sentence.\r\nThis exercise is ________ than the last one.",
-        "noAnswer1": "short",
-        "noAnswer2": "more short",
-        "answer": "shorter",
-        "noAnswer3": "shortest"
-    },
-    {
-        "question": "207. Fill in the blanks with the correct pronouns of quantity. \r\nHow _____________ time do you spend studying each day?",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "208. Fill in the blanks with the correct pronouns of quantity.\r\nThere aren’t _____________ good movies on TV tonight.",
-        "noAnswer1": "much",
-        "noAnswer2": "some",
-        "answer": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "209. Fill in the blanks with the correct pronouns of quantity.\r\nI don’t have _____________ money to buy a new car.",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "some"
-    },
-    {
-        "question": "210. Fill in the blanks with the correct pronouns of quantity.\r\nWe need to buy _____________ eggs for the cake.",
-        "noAnswer1": "much",
-        "noAnswer2": "a few",
-        "answer": "a lot of",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "211. Fill in the blanks with the correct pronouns of quantity.\r\nHow _____________ sugar do you put in your coffee?",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "212. Fill in the blanks with the correct pronouns of quantity.\r\nThere isn’t _____________ hope left.",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "213. Fill in the blanks with the correct pronouns of quantity.\r\nI ate _____________ burgers for lunch. I’m feeling full.",
-        "noAnswer1": "much",
-        "noAnswer2": "a few",
-        "answer": "a lot of",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "214. Fill in the blanks with the correct pronouns of quantity.\r\nWe don’t have _____________ time to finish this project.",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "215. Fill in the blanks with the correct pronouns of quantity.\r\nHow _____________ people were at the party last night?",
-        "noAnswer1": "much",
-        "noAnswer2": "a few",
-        "answer": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "216. Fill in the blanks with the correct pronouns of quantity.\r\nThere isn’t _____________ milk left in the fridge.",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "217. Choose the correct pronoun of quantity to complete the sentences.\r\nA: How _____________ coffee do you drink a day? B: Not ______________. Just one cup.",
-        "noAnswer1": "much/many",
-        "answer": "much/much",
-        "noAnswer2": "many/much",
-        "noAnswer3": "many/many"
-    },
-    {
-        "question": "218. Choose the correct pronoun of quantity to complete the sentences.\r\nThere aren’t _____________ good restaurants in this town.",
-        "noAnswer1": "much",
-        "noAnswer2": "a few",
-        "answer": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "219. Choose the correct pronoun of quantity to complete the sentences.\r\nWe need to buy _____________ food for the picnic.",
-        "noAnswer1": "any",
-        "noAnswer2": "a few",
-        "noAnswer3": "many",
-        "answer": "a little"
-    },
-    {
-        "question": "220. Choose the correct pronoun of quantity to complete the sentences.\r\nHow _____________ does it cost to rent a car?",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "221. Choose the correct pronoun of quantity to complete the sentences.\r\nI don’t have _____________ patience to deal with this.",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "222. Choose the correct pronoun of quantity to complete the sentences.\r\nThere are _____________ people waiting in line.",
-        "noAnswer1": "much",
-        "noAnswer2": "any",
-        "answer": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "223. Choose the correct pronoun of quantity to complete the sentences.\r\nHow _____________ time do you spend on your phone?",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "224. Choose the correct pronoun of quantity to complete the sentences.\r\nWe don’t have _____________ information about the accident.",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "225. Choose the correct pronoun of quantity to complete the sentences.\r\nI ate _____________ ice cream last night.",
-        "noAnswer1": "much",
-        "answer": "a little",
-        "noAnswer2": "many",
-        "noAnswer3": "lots"
-    },
-    {
-        "question": "226. Choose the correct pronoun of quantity to complete the sentences.\r\nHow _____________ homework do you have tonight?",
-        "answer": "much",
-        "noAnswer1": "a few",
-        "noAnswer2": "many",
-        "noAnswer3": "lots"
-    },
-    {
-        "question": "227. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nI only have _____________ time to talk.",
-        "answer": "a little",
-        "noAnswer1": "many",
-        "noAnswer2": "a few",
-        "noAnswer3": "few"
-    },
-    {
-        "question": "228. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nThere are _____________ people at the meeting.",
-        "noAnswer1": "a little",
-        "noAnswer2": "much",
-        "answer": "a few",
-        "noAnswer3": "little"
-    },
-    {
-        "question": "229. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nShe has _____________ friends in this new city.",
-        "noAnswer1": "a little",
-        "noAnswer2": "little",
-        "answer": "a few",
-        "noAnswer3": "much"
-    },
-    {
-        "question": "230. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nI need _____________ more milk for my cereal.",
-        "answer": "a little",
-        "noAnswer1": "any",
-        "noAnswer2": "a few",
-        "noAnswer3": "few"
-    },
-    {
-        "question": "231. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nThere is _____________ hope that we will find a solution.",
-        "noAnswer1": "a little",
-        "answer": "little",
-        "noAnswer2": "a few",
-        "noAnswer3": "few"
-    },
-    {
-        "question": "232. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nI only eat _____________ meat.",
-        "noAnswer1": "many",
-        "answer": "little",
-        "noAnswer2": "a few",
-        "noAnswer3": "few"
-    },
-    {
-        "question": "233. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nWe have _____________ problems with the new software.",
-        "noAnswer1": "a little",
-        "noAnswer2": "little",
-        "answer": "a few",
-        "noAnswer3": "much"
-    },
-    {
-        "question": "234. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nI only need _____________ sugar in my tea.",
-        "answer": "a little",
-        "noAnswer1": "many",
-        "noAnswer2": "a few",
-        "noAnswer3": "few"
-    },
-    {
-        "question": "235. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nThere are _____________ days left in the year.",
-        "noAnswer1": "a little",
-        "noAnswer2": "little",
-        "answer": "a few",
-        "noAnswer3": "much"
-    },
-    {
-        "question": "236. Complete the sentences with “a little,” “a few,” “little,” or “few.”\r\nI have _____________ money left in my wallet. I can’t buy anything.",
-        "noAnswer1": "a little",
-        "answer": "little",
-        "noAnswer2": "a few",
-        "noAnswer3": "few"
-    },
-    {
-        "question": "237. Choose the correct option to complete the sentences.\r\nI don’t have _____________ time to relax.",
-        "noAnswer1": "many",
-        "noAnswer2": "a few",
-        "answer": "much",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "238. Choose the correct option to complete the sentences. \r\nThere are _____________ students in the class.",
-        "noAnswer1": "little",
-        "answer": "a few",
-        "noAnswer2": "much",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "239. Choose the correct option to complete the sentences. \r\nWe need to buy _____________ vegetables for the salad.",
-        "noAnswer1": "many",
-        "answer": "a few",
-        "noAnswer2": "much",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "240. Choose the correct option to complete the sentences. \r\nHow _____________ does this book cost?",
-        "noAnswer1": "many",
-        "noAnswer2": "a few",
-        "answer": "much",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "241. Choose the correct option to complete the sentences. \r\nI only drink _____________ coffee in the morning.",
-        "noAnswer1": "many",
-        "noAnswer2": "a few",
-        "noAnswer3": "much",
-        "answer": "a little"
-    },
-    {
-        "question": "242. Choose the correct option to complete the sentences. \r\nThere are _____________ people at the beach today.",
-        "noAnswer1": "many",
-        "answer": "a few",
-        "noAnswer2": "much",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "243. Choose the correct option to complete the sentences. \r\nI have _____________ homework to do tonight.",
-        "noAnswer1": "many",
-        "noAnswer2": "a few",
-        "noAnswer3": "much",
-        "answer": "a little"
-    },
-    {
-        "question": "244. Choose the correct option to complete the sentences. \r\nHow _____________ sugar do you put in your tea?",
-        "noAnswer1": "many",
-        "noAnswer2": "a few",
-        "answer": "much",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "245. Choose the correct option to complete the sentences. \r\nThere is _____________ milk left in the fridge.",
-        "noAnswer1": "many",
-        "noAnswer2": "a few",
-        "noAnswer3": "much",
-        "answer": "a little"
-    },
-    {
-        "question": "246. Choose the correct option to complete the sentences. \r\nI only know _____________ people in this town.",
-        "noAnswer1": "many",
-        "answer": "a few",
-        "noAnswer2": "much",
-        "noAnswer3": "a little"
-    },
-    {
-        "question": "247. The cat is ___ the table.",
-        "answer": "under",
-        "noAnswer1": "in",
-        "noAnswer2": "over",
-        "noAnswer3": "next"
-    },
-    {
-        "question": "248. The picture is ___ the wall.",
-        "noAnswer1": "in",
-        "answer": "on",
-        "noAnswer2": "under",
-        "noAnswer3": "over"
-    },
-    {
-        "question": "249. The dog is ___ the sofa.",
-        "answer": "behind",
-        "noAnswer1": "front",
-        "noAnswer2": "above",
-        "noAnswer3": "below"
-    },
-    {
-        "question": "250. The books are ___ the shelf.",
-        "noAnswer1": "along",
-        "answer": "on",
-        "noAnswer2": "between",
-        "noAnswer3": "beside"
-    },
-    {
-        "question": "251. She sits ___ her desk.",
-        "noAnswer1": "in",
-        "answer": "on",
-        "noAnswer2": "below",
-        "noAnswer3": "above"
-    },
-    {
-        "question": "252. The car is parked ___ the garage.",
-        "answer": "in",
-        "noAnswer1": "on",
-        "noAnswer2": "under",
-        "noAnswer3": "above"
-    },
-    {
-        "question": "253. The bank is ___ the supermarket.",
-        "answer": "next to",
-        "noAnswer1": "over",
-        "noAnswer2": "between",
-        "noAnswer3": "among"
-    },
-    {
-        "question": "254. The children are ___ the room.",
-        "answer": "in",
-        "noAnswer1": "under",
-        "noAnswer2": "on",
-        "noAnswer3": "above"
-    },
-    {
-        "question": "255. The park is ___ the school.",
-        "noAnswer1": "between",
-        "answer": "in front of",
-        "noAnswer2": "among",
-        "noAnswer3": "over"
-    },
-    {
-        "question": "256. There is a tree ___ the house.",
-        "answer": "in front of",
-        "noAnswer1": "above",
-        "noAnswer2": "under",
-        "noAnswer3": "among"
-    },
-    {
-        "question": "257. She is standing ___ her friends.",
-        "noAnswer1": "between",
-        "noAnswer2": "along",
-        "noAnswer3": "above",
-        "answer": "among"
-    },
-    {
-        "question": "258. The flowers are ___ the vase.",
-        "answer": "in",
-        "noAnswer1": "under",
-        "noAnswer2": "on",
-        "noAnswer3": "beside"
-    },
-    {
-        "question": "259. Choose the best answer to the given definition.  ______ is to get to the school building. It's the moment when you reach your destination after travelling from home or another location.",
-        "answer": "Arrive at school",
-        "noAnswer1": "Go to bed",
-        "noAnswer2": "Get dressed",
-        "noAnswer3": "Leave school"
-    },
-    {
-        "question": "260. Choose the best answer to the given definition. \r\n______ is to put on your clothes. It's the action of covering your body with clothing.",
-        "noAnswer1": "Arrive at school",
-        "noAnswer2": "Go to bed",
-        "answer": "Get dressed",
-        "noAnswer3": "Leave school"
-    },
-    {
-        "question": "261. Choose the best answer to the given definition. \r\n______ is to lie down in your bed to sleep. It's the action of preparing for rest and getting ready for the night.",
-        "noAnswer1": "Arrive at school",
-        "answer": "Go to bed",
-        "noAnswer2": "Get dressed",
-        "noAnswer3": "Leave school"
-    },
-    {
-        "question": "262. Choose the best answer to the given definition. \r\n______ is to go home or somewhere else after finishing school for the day. It's the act of ending your school day and departing from the school building.",
-        "noAnswer1": "Arrive at school",
-        "noAnswer2": "Go to bed",
-        "noAnswer3": "Get dressed",
-        "answer": "Leave school"
-    },
-    {
-        "question": "263. Choose the best answer to the given definition. \r\n______ is to stop sleeping and become conscious. It's the act of transitioning from a state of sleep to being awake.",
-        "answer": "Wake up",
-        "noAnswer1": "Have lunch",
-        "noAnswer2": "Daily routine",
-        "noAnswer3": "Leave school"
-    },
-    {
-        "question": "264. Choose the best answer to the given definition. \r\n______ is a structured pattern of activities you do each day, like waking up, eating, working, and going to sleep.",
-        "noAnswer1": "Wake up",
-        "noAnswer2": "Have lunch",
-        "answer": "Daily routine",
-        "noAnswer3": "Leave school"
-    },
-    {
-        "question": "265. Choose the best answer to the given definition. \r\n______ is to eat a meal in the middle of the day. It's typically eaten between \r\nbreakfast and dinner, often around midday.",
-        "noAnswer1": "Wake up",
-        "answer": "Have lunch",
-        "noAnswer2": "Daily routine",
-        "noAnswer3": "Leave school"
-    },
-    {
-        "question": "266. Choose the best answer to the given definition. ______ means to eat a meal in the morning. It's the first meal of the day, usually eaten after waking up.",
-        "noAnswer1": "Have dinner",
-        "noAnswer2": "Have lunch",
-        "noAnswer3": "Daily routine",
-        "answer": "Have breakfast"
-    },
-    {
-        "question": "267. Choose the best answer to the given definition. ______ means to eat a meal in the evening. It's the main meal of the day for many people, often eaten around sunset.",
-        "answer": "Have dinner",
-        "noAnswer1": "Have lunch",
-        "noAnswer2": "Daily routine",
-        "noAnswer3": "Have breakfast"
-    },
-    {
-        "question": "268. What is the opposite of “hot”?",
-        "noAnswer1": "Warm",
-        "answer": "Cold",
-        "noAnswer2": "Dry",
-        "noAnswer3": "Wet"
-    },
-    {
-        "question": "269. What is the opposite of “big”?",
-        "noAnswer1": "Tall",
-        "answer": "Small",
-        "noAnswer2": "Short",
-        "noAnswer3": "Heavy"
-    },
-    {
-        "question": "270. What is the opposite of “happy”?",
-        "answer": "Sad",
-        "noAnswer1": "Angry",
-        "noAnswer2": "Excited",
-        "noAnswer3": "Calm"
-    },
-    {
-        "question": "271. What is the opposite of “fast”?",
-        "answer": "Slow",
-        "noAnswer1": "Short",
-        "noAnswer2": "Low",
-        "noAnswer3": "Hard"
-    },
-    {
-        "question": "272. What is the opposite of “clean”?",
-        "answer": "Dirty",
-        "noAnswer1": "Messy",
-        "noAnswer2": "Wet",
-        "noAnswer3": "Smooth"
-    },
-    {
-        "question": "273. What is the opposite of “tall”?",
-        "noAnswer1": "Big",
-        "answer": "Short",
-        "noAnswer2": "High",
-        "noAnswer3": "Wide"
-    },
-    {
-        "question": "274. What is the opposite of “cold”?",
-        "noAnswer1": "Wet",
-        "noAnswer2": "Warm",
-        "answer": "Hot",
-        "noAnswer3": "Dry"
-    },
-    {
-        "question": "275. What is the opposite of “heavy”?",
-        "answer": "Light",
-        "noAnswer1": "Easy",
-        "noAnswer2": "Small",
-        "noAnswer3": "Slow"
-    },
-    {
-        "question": "276. What is the opposite of “happy”?",
-        "noAnswer1": "Angry",
-        "answer": "Sad",
-        "noAnswer2": "Excited",
-        "noAnswer3": "Bored"
-    },
-    {
-        "question": "277. What is the opposite of “old”?",
-        "answer": "New",
-        "noAnswer1": "little",
-        "noAnswer2": "Small",
-        "noAnswer3": "Fresh"
-    },
-    {
-        "question": "278. Which helping verb is used to form the Future Simple tense?",
-        "noAnswer1": "Can",
-        "answer": "Will",
-        "noAnswer2": "Is",
-        "noAnswer3": "Do"
-    },
-    {
-        "question": "279. Choose the correct sentence in the Future Simple tense.",
-        "answer": "She will go to school tomorrow.",
-        "noAnswer1": "She go to school tomorrow.",
-        "noAnswer2": "She is go to school tomorrow.",
-        "noAnswer3": "She going to school tomorrow."
-    },
-    {
-        "question": "280. What is the correct negative form of this sentence: “He will play football”?",
-        "answer": "He will not play football.",
-        "noAnswer1": "He not will play football.",
-        "noAnswer2": "He don’t will play football.",
-        "noAnswer3": "He will no play football."
-    },
-    {
-        "question": "281. How do you form a question in the Future Simple tense?",
-        "noAnswer1": "Does she go to the park?",
-        "noAnswer2": "Is she going to the park?",
-        "answer": "Will she go to the park?",
-        "noAnswer3": "She will go to the park?"
-    },
-    {
-        "question": "282. Which time expression is commonly used with Future Simple?",
-        "noAnswer1": "Yesterday",
-        "noAnswer2": "Now",
-        "noAnswer3": "Last week",
-        "answer": "Tomorrow"
-    },
-    {
-        "question": "283. Choose the correct sentence.",
-        "answer": "They will visit their grandma next week.",
-        "noAnswer1": "They visits their grandma next week.",
-        "noAnswer2": "They will visiting their grandma next week.",
-        "noAnswer3": "They visited their grandma next week."
-    },
-    {
-        "question": "284. Which sentence shows a Future Simple action?",
-        "answer": "I will call you later.",
-        "noAnswer1": "I am calling you now.",
-        "noAnswer2": "I called you yesterday.",
-        "noAnswer3": "I am going to call you."
-    },
-    {
-        "question": "285. How do you answer this question: “Will they come to the party?”",
-        "answer": "Yes, they will.",
-        "noAnswer1": "Yes, they come.",
-        "noAnswer2": "Yes, they are.",
-        "noAnswer3": "Yes, they do."
-    },
-    {
-        "question": "286. What is the correct negative sentence?",
-        "noAnswer1": "We will no go to the park.",
-        "answer": "We will not go to the park.",
-        "noAnswer2": "We not will go to the park.",
-        "noAnswer3": "We don’t will go to the park."
-    },
-    {
-        "question": "287. Which sentence shows a prediction?",
-        "answer": "It will rain tomorrow.",
-        "noAnswer1": "It rains every day.",
-        "noAnswer2": "It rained yesterday.",
-        "noAnswer3": "It is raining now."
-    },
-    {
-        "question": "288. Choose the best answer. An index ______ a data structure that helps speed database queries for data.",
-        "noAnswer1": "are",
-        "answer": "is",
-        "noAnswer2": "having",
-        "noAnswer3": "being"
-    },
-    {
-        "question": "289. Choose the best answer. He_____________ a delicious meal at the restaurant last night.",
-        "answer": "ate",
-        "noAnswer1": "eats",
-        "noAnswer2": "eating",
-        "noAnswer3": "to eat"
-    },
-    {
-        "question": "290. Choose the best answer. I____________ five miles this morning last year.",
-        "answer": "ran",
-        "noAnswer1": "runs",
-        "noAnswer2": "running",
-        "noAnswer3": "to run"
-    },
-    {
-        "question": "291. Choose the best answer. She____________ a new car yesterday.",
-        "answer": "bought",
-        "noAnswer1": "buy",
-        "noAnswer2": "buying",
-        "noAnswer3": "to buy"
-    },
-    {
-        "question": "292. Choose the best answer. She____________ the text yesterday.",
-        "answer": "translated",
-        "noAnswer1": "translates",
-        "noAnswer2": "translating",
-        "noAnswer3": "to translate"
-    },
-    {
-        "question": "293. Choose the best answer. He____________ his keys at home.",
-        "answer": "forgot",
-        "noAnswer1": "forget",
-        "noAnswer2": "forgotten",
-        "noAnswer3": "to forget"
-    },
-    {
-        "question": "294. Choose the best answer. They____________ us much.",
-        "answer": "helped",
-        "noAnswer1": "helps",
-        "noAnswer2": "helping",
-        "noAnswer3": "to help"
-    },
-    {
-        "question": "295. Choose the best answer. The manager ____________ instructions to the employees.",
-        "answer": "gave",
-        "noAnswer1": "giving",
-        "noAnswer2": "given",
-        "noAnswer3": "to give"
-    },
-    {
-        "question": "296. Choose the best answer. Some websites want to _______ a service.",
-        "noAnswer1": "read",
-        "answer": "promote",
-        "noAnswer2": "practice",
-        "noAnswer3": "learn"
-    },
-    {
-        "question": "297. Choose the best answer. The new security system ________ our customer’s better.",
-        "noAnswer1": "protect",
-        "answer": "will protect",
-        "noAnswer2": "protected",
-        "noAnswer3": "shall protect"
-    },
-    {
-        "question": "298. Choose the best answer. Hackers ___________get into network.",
-        "answer": "won’t",
-        "noAnswer1": "shan’t",
-        "noAnswer2": "didn’t",
-        "noAnswer3": "aren’t"
-    },
-    {
-        "question": "299. Choose the best answer. __________ the new system have a firewall?",
-        "noAnswer1": "Is",
-        "noAnswer2": "Would",
-        "answer": "Does",
-        "noAnswer3": "Will"
-    },
-    {
-        "question": "300. Choose the best answer. __________ the new system have a firewall?",
-        "answer": "Will",
-        "noAnswer1": "Would",
-        "noAnswer2": "Does",
-        "noAnswer3": "Is"
-    },
-    {
-        "question": "1. Choose the best answer. What is a hacker?\n\n",
-        "answer": "a person who enters a building, grounds, etc, without permission\n"
-    },
-    {
-        "question": "\n2. Choose the best answer. What is ergonomics?\n",
-        "answer": " Human engineering\n\n"
-    },
-    {
-        "question": "\n3. Choose the best answer. What is Protocol?\n",
-        "answer": "an original draft, minute, or record from which a document, especially a treaty, is prepared.\n"
-    },
-    {
-        "question": "\n4. Choose the best answer. What is intruder?\n",
-        "answer": "a person who enters a building, grounds, etc, without permission\n"
-    },
-    {
-        "question": "\n5. Choose the best answer. What is encryption?\n",
-        "answer": "The process of encoding a message so that it can be read only by the sender and the intended recipient\n"
-    },
-    {
-        "question": "\n6. Choose the best answer. What is freeware?\n",
-        "answer": "computer software distributed without charge\n"
-    },
-    {
-        "question": "\n7. Choose the best answer. Securuty_______ crucial when you send confidential information online.\n",
-        "answer": "is\n"
-    },
-    {
-        "question": "\n8. Choose the best answer. Enscrytion ________ data into a secret code so that only someone with a key can read it.\n",
-        "answer": "changes\n"
-    },
-    {
-        "question": "\n9. Choose the best answer. Descryption __________enscrypted data back into its original form.\n",
-        "answer": "converts\n"
-    },
-    {
-        "question": "\n10. Choose the best answer. Malware ( malicious software) ________ programs designed to infiltrate or damage your computer.\n",
-        "answer": "are\n"
-    },
-    {
-        "question": "\n11. Choose the best answer. VIruses, worms, Trojans and spyware ________ malicious software.\n",
-        "answer": "are\n"
-    },
-    {
-        "question": "\n12. Choose the best answer. A virus ______ enter a PC via a disc drive\n",
-        "answer": "can\n"
-    },
-    {
-        "question": "\n13. Choose the best answer. Spyware ________ information fromyour PC without your consent.\n",
-        "answer": "collects\n"
-    },
-    {
-        "question": "\n14. Choose the best answer. A Trojan horce is disguised as a useful ________\n",
-        "answer": "program\n"
-    },
-    {
-        "question": "\n15. Choose the best answer. Remember ____________your anti- virus software as often as possible.\n",
-        "answer": "to update\n"
-    },
-    {
-        "question": "\n16. Choose the best answer. Originally, all skilled ___________were known as hackers, but during the 1990s.\n",
-        "answer": "programmers\n"
-    },
-    {
-        "question": "\n17. Choose the best synonym to the given word. Entrepreneur\n",
-        "answer": "businessman\n"
-    },
-    {
-        "question": "\n18. Choose the best synonym to the given word. beginning\n",
-        "answer": "start\n"
-    },
-    {
-        "question": "\n19. Choose the best synonym to the given word. potential\n",
-        "answer": "ability\n"
-    },
-    {
-        "question": "\n20. Choose the best synonym to the given word. primary \n",
-        "answer": "key\n"
-    },
-    {
-        "question": "\n21. Choose the best answer. Crackers or black-hat hackers ________ computer criminals who use technology to perform a variety of crimes\n",
-        "answer": "are\n"
-    },
-    {
-        "question": "\n22. Choose the best answer. Piracy, ____________and distribution of copyrighted software, information music and video files is widespread.\n",
-        "answer": "the illegal copying\n"
-    },
-    {
-        "question": "\n23. Choose the best answer. Worms are ___________programs that have capacity to move from one computer to another\n",
-        "answer": "self-copying\n"
-    },
-    {
-        "question": "\n24. Choose the best answer. Mario remembered __________ his assignment to his tutor because he had spoken to her about its length, but she insisted that she had never received it.\n",
-        "answer": "giving\n"
-    },
-    {
-        "question": "\n25. Choose the best answer. If you can't find information at the library, try ___________on the Internet.\n",
-        "answer": "to look\n"
-    },
-    {
-        "question": "\n26. Choose the best answer. She studied medicine at university and went on _________a surgeon.\n",
-        "answer": "to become\n"
-    },
-    {
-        "question": "\n27. Choose the best answer. Look at Mum's car! It definitely needs________!\n",
-        "answer": "cleaning\n"
-    },
-    {
-        "question": "\n28. Choose the best answer. I'll never forget ________of that swing when I was a child.\n",
-        "answer": "falling\n"
-    },
-    {
-        "question": "\n29. Choose the best answer. The government needs ________notice of the opinions of the people.\n",
-        "answer": "to take\n"
-    },
-    {
-        "question": "\n30. Choose the best answer. Economists predict that house prices will go on ________ for at least another year.\n",
-        "answer": "to rise\n"
-    },
-    {
-        "question": "\n31. Choose the best answer. We weren't able to see the concert because Tamsin forgot ______ the tickets.\n",
-        "answer": "bringing\n"
-    },
-    {
-        "question": "\n32. Choose the best answer. Antivirus is a _________________ which detects, removes viruses and protect the system from further attacks.\n",
-        "answer": "software\n"
-    },
-    {
-        "question": "\n33. Choose the best answer. Cyber security ______________ protection of devices and information on them from theft or damage.\n",
-        "answer": "is\n"
-    },
-    {
-        "question": "\n34. Choose the best answer. ______________ is someone whose job is to plan a piece of work or activity and organize the work of all the people involved in it.\n",
-        "answer": "Project manager\n"
-    },
-    {
-        "question": "\n35. Choose the best answer. _____________ is a person who examines complicated industrial and business operations in order to find ways of improving them, especially by the introduction of computer programs and equipment\n",
-        "answer": "Database administrator\n"
-    },
-    {
-        "question": "\n36. Choose the best answer. _____________ is someone whose job is to write software for a company's computers \n",
-        "answer": "Database administrator\n"
-    },
-    {
-        "question": "\n37. Choose the best answer. _____________ is someone whose job is to design, develop and maintain databases. \n",
-        "answer": " Project manager\n"
-    },
-    {
-        "question": "\n38. Choose the best answer. Have you done your homework _____________?\n",
-        "answer": " Yet\n"
-    },
-    {
-        "question": "\n39. Choose the best answer. Find the Components of Data Communication\n",
-        "answer": " Message, sender, receiver\n"
-    },
-    {
-        "question": "\n40. Choose the best answer. _______________ is a piece of information that is to be transmitted from one person to another. It could be a text file, an audio file, a video file, etc.\n",
-        "answer": " A message\n"
-    },
-    {
-        "question": "\n41. Choose the best answer. ______________ is simply a device that sends data messages. It can be a computer, mobile, telephone, laptop, video camera, or workstation, etc.\n",
-        "answer": " A sender\n"
-    },
-    {
-        "question": "\n42. Choose the best answer. _______________ is a device that receives messages. It can be a computer, telephone mobile, workstation, etc.\n",
-        "answer": " A receiver\n"
-    },
-    {
-        "question": "\n43. Choose the best answer. ______________ is set of rules\n",
-        "answer": " Protocol\n"
-    },
-    {
-        "question": "\n44. Choose the best answer. Please close the window ___________ you go out.\n",
-        "answer": " before\n"
-    },
-    {
-        "question": "\n45. Choose the best answer. Please turn off the lights _________ you go to bed.\n",
-        "answer": " when\n"
-    },
-    {
-        "question": "\n46. Choose the best answer. I like to relax ____________ I'm on holiday.\n",
-        "answer": " while\n"
-    },
-    {
-        "question": "\n47. Choose the best answer. I'm so worried about Max. _________ you hear any news, please phone me.\n",
-        "answer": " As soon as\n"
-    },
-    {
-        "question": "\n48. Choose the best answer. _________ you've read the newspaper, can I have it?\n",
-        "answer": " After\n"
-    },
-    {
-        "question": "\n49. Choose the best answer. I'm going to keep asking you to marry me _________ you say yes!\n",
-        "answer": " until\n"
-    },
-    {
-        "question": "\n50. Choose the best answer. ____________ you are the first person up in the morning, make me a cup of coffee.\n",
-        "answer": " If\n"
-    },
-    {
-        "question": "\n51. Choose the best answer. ____________ you are having your hair cut, I am going to pick up Granddad and take him home.\n",
-        "answer": " While\n"
-    },
-    {
-        "question": "\n52. Choose the best answer. Companies want to reach more customers, ________ they go online.\n",
-        "answer": " so\n"
-    },
-    {
-        "question": "\n53. Choose the best answer. It is easy to set up an online business __________ it is difficult to design and develop a website that attracts a lot of customers.\n",
-        "answer": " but\n"
-    },
-    {
-        "question": "\n54. Choose the best answer. Hardware _____ software provide basic infrastructure for E-commerce.\n",
-        "answer": " and\n"
-    },
-    {
-        "question": "\n55. Choose the best answer. Customers expect a fast and reliable service _______ they will go somewhere else to buy things.\n",
-        "answer": " or\n"
-    },
-    {
-        "question": "\n56. Choose the best answer. I have a PC __________ a laptop at home.\n",
-        "answer": " and\n"
-    },
-    {
-        "question": "\n57. Choose the best answer. I use OLX _________ I don't use Amazon.\n",
-        "answer": " but\n"
-    },
-    {
-        "question": "\n58. Choose the best answer. Would you like tea __________ coffee?\n",
-        "answer": " or\n"
-    },
-    {
-        "question": "\n59. Choose the best answer. She's got a smart phone, __________ she doesn't use her desktop computer much.\n",
-        "answer": " so\n"
-    },
-    {
-        "question": "\n60. Choose the best answer. Wired means _____________________________\n",
-        "answer": " connected to a computer or other device by a wire\n"
-    },
-    {
-        "question": "\n61. Choose the best answer. Wireless means _____________________________\n",
-        "answer": " using a system of radio signals rather than wires to connect computers, mobile phones, a system of radio signals etc. to each other\n"
-    },
-    {
-        "question": "\n62. Choose the best answer. Meaningless is _____________________________\n",
-        "answer": " having no meaning\n"
-    },
-    {
-        "question": "\n63. Choose the best answer. Solution is _________________________________\n",
-        "answer": " a way to solve a problem or deal with a difficult situation. \n"
-    },
-    {
-        "question": "\n64. Choose the best answer. ______________ (*) means to increase something, very much in number\n",
-        "answer": " Multiply\n"
-    },
-    {
-        "question": "\n65. Choose the best answer. _________________ (-) means to take a number or amount away from another number or amount\n",
-        "answer": " Subtract\n"
-    },
-    {
-        "question": "\n66. Choose the best answer. ___________ (/) means to split a specific amount into equal parts.\n",
-        "answer": " Divide \n"
-    },
-    {
-        "question": "\n67. Choose the best answer. ______________ (+) means to bring or combine two or more numbers together to make a new total.\n",
-        "answer": " Add\n"
-    },
-    {
-        "question": "\n68. Choose the best answer. Equal (=) is _______________.\n",
-        "answer": " the same in amount, number, or size\n"
-    },
-    {
-        "question": "\n69. Choose the best answer. A row is _______________.\n",
-        "answer": " a line of things, people, animals, etc. arranged next to each other\n"
-    },
-    {
-        "question": "\n70. Choose the best answer. A column is __________________.\n",
-        "answer": " one of several vertical blocks of print into which a page of a newspaper or magazine is divided\n"
-    },
-    {
-        "question": "\n71. Choose the best answer. A value is _______________.\n",
-        "answer": " a number or symbol that represents an amount\n"
-    },
-    {
-        "question": "\n72. Choose the best answer. We _________ to the cinema yesterday.\n",
-        "answer": " went\n"
-    },
-    {
-        "question": "\n73. Choose the best answer. I ________ my homework for the whole evening yesterday. \n",
-        "answer": " was doing\n"
-    },
-    {
-        "question": "\n74. Choose the best answer. Emily ________ the piano at 4 pm yesterday.\n",
-        "answer": " was playing\n"
-    },
-    {
-        "question": "\n75. Choose the best answer. When John came home, his little brother ____TV.\n",
-        "answer": " was watching\n"
-    },
-    {
-        "question": "\n76. Choose the best answer. They _____________ a new house last month.\n",
-        "answer": " bought\n"
-    },
-    {
-        "question": "\n77. Choose the best answer. We _____________ our relatives in the USA two years ago.\n",
-        "answer": " visited\n"
-    },
-    {
-        "question": "\n78. Choose the best answer. I ______________ for the test from 10 am till 5 pm yesterday.\n",
-        "answer": " was preparing\n"
-    },
-    {
-        "question": "\n79. Choose the best answer. Olivia ___________ Mike last week.\n",
-        "answer": " saw\n"
-    },
-    {
-        "question": " \n80. Choose the best answer. What_____ he _________the whole evening yesterday?\n",
-        "answer": " was/ fixing\n"
-    },
-    {
-        "question": "\n81. Choose the best answer. At half past six yesterday, we _________ dinner.\n",
-        "answer": " were having\n"
-    },
-    {
-        "question": "\n82. Choose the best answer. _____________ is the activity of talking to people in different places using phone or computer systems.\n",
-        "answer": " Conferencing\n"
-    },
-    {
-        "question": "\n83. Choose the best answer. ______________ means to talk about a subject with someone and tell each other your ideas or opinions.\n",
-        "answer": " Discuss\n"
-    },
-    {
-        "question": "\n84. Choose the best answer. ______________ means meeting and talking to another person directly without using phone or computer systems. \n",
-        "answer": " Face-to-face\n"
-    },
-    {
-        "question": "\n85. Choose the best answer. ________________ is a person who takes part in or becomes involved in a particular activity.\n",
-        "answer": " Participant\n"
-    },
-    {
-        "question": "\n86. Choose the best answer. _____________ means to like, choose, or want one thing rather than another\n",
-        "answer": " Prefer\n"
-    },
-    {
-        "question": "\n87. Choose the best answer. ________________ means to formally establish a new company, organization, system, way of working, etc.\n",
-        "answer": " Set up \n"
-    },
-    {
-        "question": "\n88. Choose the best answer. ___________ is someone who is unable to hear, either completely or partly\n",
-        "answer": " Deaf\n"
-    },
-    {
-        "question": "\n89. Choose the best answer. ______________ computer systems are available to users in another part of a building or in another place, for example through a network\n",
-        "answer": " Remote\n"
-    },
-    {
-        "question": "\n90. Choose the best answer. (Data) Compression is _______________________\n",
-        "answer": " a way to fit audio or video into a smaller space and use less bandwidth\n"
-    },
-    {
-        "question": "\n91. Choose the best answer. Dedicated system is _________________________\n",
-        "answer": " a system that is used for only one purpose, e.g. for video conferencing only, nothing else\n"
-    },
-    {
-        "question": "\n92. Choose the best answer. MCI-J is __________________________________\n",
-        "answer": " a device that allows video conferencing systems to use more than two locations\n"
-    },
-    {
-        "question": "\n93. Choose the best answer. Remote control is ___________________________\n",
-        "answer": " a device that can control the video conferencing system from a distance, without wires. It can be passed from person to person easily.\n"
-    },
-    {
-        "question": "\n94. Choose the best answer. If I ___________, I would be healthy. \n",
-        "answer": " didn't smoke \n"
-    },
-    {
-        "question": "\n95. Choose the best answer. If he had enough experience for the job, the boss ____________him.\n",
-        "answer": " could hire \n"
-    },
-    {
-        "question": "\n96. Choose the best answer. If I had your phone number, I ___________ you. \n",
-        "answer": " would call\n"
-    },
-    {
-        "question": "\n97. Choose the best answer. If you ______ to the party, we would have a lot of fun.\n",
-        "answer": " came \n"
-    },
-    {
-        "question": "\n98. Choose the best answer. If I _____ a rich man, I would buy a home like palace.\n",
-        "answer": " were\n"
-    },
-    {
-        "question": "\n99. Choose the best answer. If I _____________ English very well, I would look for a job in foreign companies. \n",
-        "answer": " could speak\n"
-    },
-    {
-        "question": "\n100. Choose the best answer. If he had time, he ____________ well for his exam.\n",
-        "answer": " would study"
+        "question": "y=kx+b funksiyaning birinchi tartibli hosilasini toping?",
+        "answer": "k.",
+        "noAnswer1": "2lnx+c.",
+        "noAnswer2": "-2/x+c.",
+        "noAnswer3": "-x+c."
     }
 ]
