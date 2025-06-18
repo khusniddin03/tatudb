@@ -1,1011 +1,1522 @@
 const data = [
   {
-    "question": "z = 3 + 4i va  z' = 1 - 2i larning yig'indisi nima bo'ladi?",
-    "noAnswer1": "4+6i",
-    "answer": "4+2i",
-    "noAnswer2": "2+2i",
-    "noAnswer3": "4+i"
-  },
-  {
-    "question": "Kompleks sonning modulini toping: z=3+4i",
-    "answer": "5",
-    "noAnswer1": "4",
-    "noAnswer2": "2",
-    "noAnswer3": "3"
-  },
-  {
-    "question": "Quyidagi kompleks sonlarni z=2+3i va z′=1−i larning ko'paytmasini toping?",
-    "answer": "5+i",
-    "noAnswer1": "4+2i",
-    "noAnswer2": "2+2i",
-    "noAnswer3": "4+i"
-  },
-  {
-    "question": "Quyidagi kompleks sonlarni z=4+2i va z′=1−i larning bo'linmasi nimaga teng?",
-    "answer": "2−i",
-    "noAnswer1": "4+2i",
-    "noAnswer2": "2+2i",
-    "noAnswer3": "4+i"
-  },
-  {
-    "question": "Furye qatori nima uchun ishlatiladi?",
-    "answer": "Matematika va fizikada to'lqinlarni va signallarni tahlil qilish uchun",
-    "noAnswer1": "Faqat musiqiy tonlarni yaratish uchun",
-    "noAnswer2": "Yalpi fizik qonunlarni izohlash uchun",
-    "noAnswer3": "Faqat geometrik shakllarni o'rganish uchun"
-  },
-  {
-    "question": "Furye qatori nima uchun ishlatiladi?",
-    "answer": "Matematika va fizikada to'lqinlarni va signallarni tahlil qilish uchun",
-    "noAnswer1": "Faqat musiqiy tonlarni yaratish uchun",
-    "noAnswer2": "Yalpi fizik qonunlarni izohlash uchun",
-    "noAnswer3": "Faqat geometrik shakllarni o'rganish uchun"
-  },
-  {
-    "question": "Furye qatoridagi koeffitsiyentlarini qanday hisoblash mumkin?",
-    "answer": "Integrallar yordamida",
-    "noAnswer1": "Faoliyatlar yordamida",
-    "noAnswer2": "Faqat yodlash orqali",
-    "noAnswer3": "Grafiklar yordamida"
-  },
-  {
-    "question": "Furye qatorining asosiy maqsadi nima?",
-    "answer": "Funksiyalarni sinusoida va kosinusoida qismlariga ajratish",
-    "noAnswer1": "Ikkita sonni bir-biriga bo'lish",
-    "noAnswer2": "Yuzaning ichki qismlarini topish",
-    "noAnswer3": "Faqat turli diagrammalarni yasash"
-  },
-  {
-    "question": "Furye qatoridagi alfa nol harfi nima ifodalaydi?",
-    "answer": "Funksiyaning o'rtacha qiymatini",
-    "noAnswer1": "To'liq amplitudani",
-    "noAnswer2": "Kosinus funksiyasini",
-    "noAnswer3": "Sinus funksiyasini"
-  },
-  {
-    "question": "Furye qatorlari nima uchun signalni tahlil qilishda ishlatiladi?",
-    "answer": "To'lqinlarning chastotasi va fazasini aniqlash uchun",
-    "noAnswer1": "Faqat signalning amplitudasini oshirish uchun",
-    "noAnswer2": "Yalpi energiya hisoblash uchun",
-    "noAnswer3": "Faqat ma'lumotlarni kompressiya qilish uchun"
-  },
-  {
-    "question": "Furye qatori musiqa signallarini tahlil qilishda qanday yordam beradi?",
-    "answer": "Musiqiy tonlarni sinusoida va kosinusoida ajratish orqali",
-    "noAnswer1": "Musiqaning uzunligini o'lchash orqali",
-    "noAnswer2": "Musiqa tezligini hisoblash orqali",
-    "noAnswer3": "Musiqa yorqinligini oshirish orqali"
-  },
-  {
-    "question": "Furye qatorlarining birinchi tatbiqi qaysi sohada ishlatilgan?",
-    "answer": "Elektronika va signalni uzatish",
-    "noAnswer1": "Tibbiyot sohasida",
-    "noAnswer2": "Qishloq xo'jaligida",
-    "noAnswer3": "Arxitektura va dizayn sohasida"
-  },
-  {
-    "question": "Furye qatorlari qanday usulda tasvirlar va video fayllarni tahlil qilishda qo'llaniladi?",
-    "answer": "To'lqinlarni ajratish va kompressiya qilish orqali",
-    "noAnswer1": "Faqat ranglarni ajratish orqali",
-    "noAnswer2": "Tasvirlarni kattalashtirish orqali",
-    "noAnswer3": "Tasvirlarni rasmga aylantirish orqali"
-  },
-  {
-    "question": "Fazodagi egri chiziq qanday beriladi?",
-    "answer": "Vektor funksiyasi yordamida",
-    "noAnswer1": "Oddiy algebraik tenglama orqali",
-    "noAnswer2": "Matritsalar orqali",
-    "noAnswer3": "Doimiy vektor yordamida"
-  },
-  {
-    "question": "Vektor funksiyaning hosilasi fizikada nimani bildiradi?",
-    "answer": "Harakat qilayotgan nuqtaning tezligini",
-    "noAnswer1": "Yo‘nalishni o‘zgartirishni",
-    "noAnswer2": "Kuchni o‘lchashni",
-    "noAnswer3": "Aylanish burchagini"
-  },
-  {
-    "question": "Vektor funksiyaning integrali fizikada ko‘pincha nimani anglatadi?",
-    "answer": "Bosib o‘tilgan yo‘lni",
-    "noAnswer1": "Chastotani",
-    "noAnswer2": "Og‘irlik kuchini",
-    "noAnswer3": "Doiraviy harakatni"
-  },
-  {
-    "question": "Egrilik nimani o‘lchaydi?",
-    "answer": "Egri chiziqning qanday darajada bukilganini",
-    "noAnswer1": "Chiziqning uzunligini",
-    "noAnswer2": "Tezlikni",
-    "noAnswer3": "Nuqtaning og‘irligini"
-  },
-  {
-    "question": "Ikki o‘zgaruvchili funksiyaning grafigi qanday fazoda tasvirlanadi?",
-    "answer": "Uch o‘lchovli fazoda (3D)",
-    "noAnswer1": "Ikki o‘lchovli fazoda (2D)",
-    "noAnswer2": "Vaqt o‘qi bilan",
-    "noAnswer3": "Raqamli koordinata sistemada"
-  },
-  {
-    "question": "Xususiy hosila nima?",
-    "answer": "Faqat bitta o‘zgaruvchiga nisbatan olinadigan hosila",
-    "noAnswer1": "To‘liq hosilaning kvadrati",
-    "noAnswer2": "Funksiya grafigining yuqori chekkasi",
-    "noAnswer3": "Integralning teskari shakli"
-  },
-  {
-    "question": "Aralash xususiy hosilalar haqida qaysi teorema to‘g‘ri?",
-    "answer": "Agar hosilalar uzluksiz bo‘lsa, aralash hosilalar teng bo‘ladi",
-    "noAnswer1": "Har doim aralash hosilalar teng emas",
-    "noAnswer2": "Faqat x ga nisbatan hosila olinadi",
-    "noAnswer3": "Hosila olishda integral kerak bo‘ladi"
-  },
-  {
-    "question": "Agar f(x,y) funksiyaning to‘la differensiali mavjud bo‘lsa, bu nimani bildiradi?",
-    "answer": "Funksiya har ikki yo‘nalishda differensiallanadi",
-    "noAnswer1": "Funksiya faqat x bo‘yicha o‘zgaradi",
-    "noAnswer2": "Funksiya grafigi doira shaklida bo‘ladi",
-    "noAnswer3": "Funksiya har doim nolga teng"
-  },
-  {
-    "question": "Ekstremumni aniqlashda foydalaniladigan ikkinchi tartibli hosilalar asosida tuziladigan ifoda qanday ataladi?",
-    "answer": "Diskriminant (yoki ikkinchi hosilalar determinanti)",
-    "noAnswer1": "Gradient",
-    "noAnswer2": "Divergensiya",
-    "noAnswer3": "Integral"
-  },
-  {
-    "question": "Ikki karrali integralning geometrik ma'nosi nima?",
-    "answer": "Funksiya ostidagi hajmni ifodalaydi",
-    "noAnswer1": "Egri chiziq uzunligini topadi",
-    "noAnswer2": "Vektor hosilasini beradi",
-    "noAnswer3": "Massani topadi"
-  },
-  {
-    "question": "Agar integrallash sohasi to‘g‘ri to‘rtburchak bo‘lsa, ikki karrali integral qanday hisoblanadi?",
-    "answer": "Ketma-ket oddiy ikki integral sifatida",
-    "noAnswer1": "Faqat grafigini chizish orqali",
-    "noAnswer2": "Hosila olish orqali",
-    "noAnswer3": "Limit topish orqali"
-  },
-  {
-    "question": "Ikki karrali integral fizikada nimani ifodalashi mumkin?",
-    "answer": "Yuzaga taqsimlangan massani",
-    "noAnswer1": "Chastotani",
-    "noAnswer2": "Tezlikni",
-    "noAnswer3": "Egrilikni"
-  },
-  {
-    "question": "Uch karrali integral orqali quyidagilardan qaysi biri hisoblanmaydi?",
-    "answer": "Egri chiziq uzunligi",
-    "noAnswer1": "Hajm",
-    "noAnswer2": "Massaning taqsimoti",
-    "noAnswer3": "Zichlik bo‘yicha umumiy massa"
-  },
-  {
-    "question": "Agar fazoviy soha to‘g‘ri paralelepiped shaklida bo‘lsa, uch karrali integral qanday hisoblanadi?",
-    "answer": "Oddiy ketma-ket integrallar orqali",
-    "noAnswer1": "Faqat chiziqli algebra yordamida",
-    "noAnswer2": "Cheksiz limit orqali",
-    "noAnswer3": "Matritsa determinantidan foydalangan holda"
-  },
-  {
-    "question": "(2+3i)(1-i) kompleks sonning mavhum qismini toping?",
-    "answer": "1",
-    "noAnswer1": "5",
-    "noAnswer2": "-1",
-    "noAnswer3": "-5"
-  },
-  {
-    "question": "(1+3i)(2+i)+(-2+i)(3-i) ifodaning qiymatini toping?",
-    "answer": "-6+12i",
-    "noAnswer1": "5-11i",
-    "noAnswer2": "6-12i",
-    "noAnswer3": "8-4i"
-  },
-  {
-    "question": "(2-i)/(1-2i) kompleks sonning mavhum qismini toping?",
-    "noAnswer1": "1/5",
-    "answer": "3/5",
-    "noAnswer2": "-1/5",
-    "noAnswer3": "2/5"
-  },
-  {
-    "question": "(2+3i)(1-i) kompleks sonning haqiqiy qismini toping?",
+    "question": "To’rtta talaba laboratoriya ishida nisbiy xatolikni turlicha aniqladi. Bularning qay birining natijasi qoniqarsiz deb xisoblanadi?",
     "noAnswer1": "1",
-    "answer": "5",
-    "noAnswer2": "-1",
-    "noAnswer3": "-5"
+    "noAnswer2": "3",
+    "noAnswer3": "5",
+    "answer": "7"
   },
   {
-    "question": "(2-i)/(1-2i) kompleks sonning haqiqiy qismini toping?",
-    "noAnswer1": "1/5",
-    "answer": "4/5",
-    "noAnswer2": "-1/5",
-    "noAnswer3": "2/5"
+    "question": "Istemolchidagi kuchlanish tushuvi 35 V. Agar bu istemolchining elektr qarshiligi 50 Ω bo‘lsa, undagi tok kuchi (A) ni aniqlang. I=U/R",
+    "noAnswer1": "0,1",
+    "noAnswer2": "0,5",
+    "noAnswer3": "0,9",
+    "answer": "0,7"
   },
   {
-    "question": "(1+i)(-2+2i) kompleks sonning argumenti nimaga teng?",
-    "answer": "π",
-    "noAnswer1": "-π",
-    "noAnswer2": "π/2",
-    "noAnswer3": "0"
+    "question": "Agar difraksion panjaradan o‘tishdagi kuzatilayotgan maximumning maxsimal tartib raqami 3 ga teng bo‘lsa, maximumlar sonini toping.",
+    "noAnswer1": "3",
+    "answer": "7",
+    "noAnswer2": "5",
+    "noAnswer3": "9"
   },
   {
-    "question": "1+i kompleks sonning argumenti nimaga teng?",
-    "answer": "π/4",
-    "noAnswer1": "-π/4",
-    "noAnswer2": "π/2",
-    "noAnswer3": "0"
-  },
-  {
-    "question": "-2+2i kompleks sonning argumenti nimaga teng?",
-    "answer": "3π/4",
-    "noAnswer1": "-π/4",
-    "noAnswer2": "π/2",
-    "noAnswer3": "0"
-  },
-  {
-    "question": "-3-4i kompleks sonning modulini toping",
-    "noAnswer1": "4",
-    "answer": "5",
-    "noAnswer2": "-5",
+    "question": "Oq yorug‘lik shisha prizmaga tushirilmoqda. Shishadan o‘tgan nur necha xil rangga ajraladi?",
+    "noAnswer1": "5",
+    "answer": "7",
+    "noAnswer2": "9",
     "noAnswer3": "3"
   },
   {
-    "question": "(4+3i)+(-2-3i) kompleks sonni modulini toping",
-    "noAnswer1": "7",
-    "noAnswer2": "3",
-    "answer": "2",
-    "noAnswer3": "4"
+    "question": "Elektromagnit to‘lqinlar shkalasidan olingan quyidagi nurlarning qay birini to‘lqin uzunligi eng katta?",
+    "noAnswer1": "Sariq",
+    "noAnswer2": "Binafsha",
+    "noAnswer3": "Yashil",
+    "answer": "Qizil"
   },
   {
-    "question": "(12+3i) kompleks sonni mavhum qismini toping?",
-    "answer": "3",
-    "noAnswer1": "12",
-    "noAnswer2": "-12",
-    "noAnswer3": "-3"
+    "question": "Elektromagnit to‘lqinlar shkalasidan olingan quyidagi nurlarning qay birini chastotasi eng katta?",
+    "noAnswer1": "Sariq",
+    "answer": "Binafsha",
+    "noAnswer2": "Yashil",
+    "noAnswer3": "Qizil"
   },
   {
-    "question": "(12+3i) kompleks sonni haqiqiy qismini toping?",
+    "question": "So‘nuvchi tebranishlarning davri T=3 s, so‘nishning logarifmik dekrementi θ=2,1, boshlang‘ich fazasi esa nolga teng. So‘nish kefitsentini toping.",
+    "noAnswer1": "0,3",
+    "noAnswer2": "0,5",
+    "answer": "0,7",
+    "noAnswer3": "0,9"
+  },
+  {
+    "question": "So‘nuvchi tebranishlarning tenglamasi x=0,5 e-0,7t cos (3πt+7) ko‘rinishda bo‘lsa, tebranishning boshlang’ich fazasini (rad) toping.",
     "noAnswer1": "3",
-    "answer": "12",
-    "noAnswer2": "-12",
-    "noAnswer3": "-3"
+    "noAnswer2": "5",
+    "answer": "7",
+    "noAnswer3": "9"
   },
   {
-    "question": "(1+3i)(2+i)+(-2+i)(3-i) kompleks sonni haqiqiy qismini toping?",
-    "noAnswer1": "12",
+    "question": "So‘nuvchi tebranishlarning tenglamasi x=0,5 e-0,7t cos (1,4πt+7) ko‘rinishda bo‘lsa, tebranishning chastotasini toping.",
+    "noAnswer1": "0,3",
+    "noAnswer2": "0,5",
+    "answer": "0,7",
+    "noAnswer3": "0,9"
+  },
+  {
+    "question": "So‘nuvchi tebranishlarning tenglamasi x=0,07 e-0,7t cos (1,4πt+7) (m) ko‘rinishda bo‘lsa, tebranishning boshlang‘ich amplitudasini toping.",
+    "noAnswer1": "3",
+    "noAnswer2": "5",
+    "answer": "7",
+    "noAnswer3": "9"
+  },
+  {
+    "question": "Moddaning nisbiy dielektrik singdiruvchanligi 24,5 ga va nisbiy magnit kirituvchanligi 2 ga teng bo‘lsa, bu moddaning optik zichligini toping.",
+    "noAnswer1": "3",
+    "noAnswer2": "5",
+    "answer": "7",
+    "noAnswer3": "9"
+  },
+  {
+    "question": "Yorug‘likning biror shaffof muxitdagi tezligi 4,3*107 m/s bo‘lsa, bu muhitning optik  zichligini toping.",
+    "answer": "≈7",
+    "noAnswer1": "≈9",
+    "noAnswer2": "≈11",
+    "noAnswer3": "≈5"
+  },
+  {
+    "question": "Ikki xil  manbadan chiqayotgan kogerent to‘lqinlar qo‘shilishi natijasida interferensiya qaysi soxada maximumga erishadi?",
+    "noAnswer1": "yopiq soxada",
+    "noAnswer2": "erkin soxada",
+    "noAnswer3": "ochiq soxa",
+    "answer": "ikki xil manbadan kogerent  to‘lqinlar chiqmaydi"
+  },
+  {
+    "question": "G‘altak ipni quyoshli kunda yerga yaqinlashtirilganda soya xosil bo’ladi. Uni yerdan yuqoriga ko‘tarila boshlaganda soya xiralashadi va asta sekin ko‘rinmay qoladi. Bunga sabab nima?",
+    "answer": "yorug’lik difraksiyasi",
+    "noAnswer1": "yorug‘likning qaytishi",
+    "noAnswer2": "yorug'lik interferensiyasi",
+    "noAnswer3": "yorug‘lik dispersiyasi"
+  },
+  {
+    "question": "Ikki kogerent to‘lqinlarning qo‘shilishi natijasida ayrim soxalarda maximumga va ayrim soxalarda minimumga erishish xodisasi …. deyiladi. Nuqtalar o‘rnini tog’ri to‘latuvchi javobni  toping.",
+    "noAnswer1": "yorug’lik difraksiyasi",
+    "noAnswer2": "yorug‘likning qaytishi",
+    "answer": "yorug'lik interferensiyasi",
+    "noAnswer3": "yorug‘lik dispersiyasi"
+  },
+  {
+    "question": "Chelak tubida tanga yotibdi. Chelakka suv quyilganida tanganing ko‘rinishi yuqoriroqqa ko‘tariladi. Bunga sabab nima?",
+    "noAnswer1": "yorug’lik difraksiyasi",
+    "answer": "yorug‘likning sinishi",
+    "noAnswer2": "yorug'lik interferensiyasi",
+    "noAnswer3": "yorug‘lik dispersiyasi"
+  },
+  {
+    "question": "Osmonda kamalak nimaning xisobiga xosil bo‘ladi?",
+    "noAnswer1": "yorug’lik difraksiyasi",
+    "noAnswer2": "yorug‘likning sinishi",
+    "noAnswer3": "yorug'lik interferensiyasi",
+    "answer": "yorug‘lik dispersiyasi"
+  },
+  {
+    "question": "Agar yarim o‘tkazgich elektr tokini asosan elektronlar xisobiga o‘tkazsa bu qanday  turdagi  yarim o‘tkazgich xisoblanadi?",
+    "answer": "donorli",
+    "noAnswer1": "akseptorli",
+    "noAnswer2": "neytronli",
+    "noAnswer3": "plazmali"
+  },
+  {
+    "question": "Agar yarim o‘tkazgich elektr tokini  asosan kovaklar xisobiga o‘tkazsa bu qanday  turdagi  yarim o‘tkazgich xisoblanadi?",
+    "noAnswer1": "donorli",
+    "answer": "akseptorli",
+    "noAnswer2": "neytronli",
+    "noAnswer3": "plazmali"
+  },
+  {
+    "question": "Gazning kuchli ionlashgan xolatiga nima deyiladi?",
+    "noAnswer1": "donor",
+    "noAnswer2": "akseptor",
+    "noAnswer3": "neytron",
+    "answer": "plazma"
+  },
+  {
+    "question": "Agar tebranish sin yoki cos qonuniga bo‘ysunsa bunday tebranishlarga …. deyiladi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
+    "noAnswer1": "erkin tebranish",
+    "answer": "garmonik tebranish",
+    "noAnswer2": "majburiy tebranish",
+    "noAnswer3": "mexanik tebranish"
+  },
+  {
+    "question": "Agar tebranish davriy tashqi ta’sir xisobiga sodir bo‘lsa bunday tebranishlarga …. deyiladi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
+    "noAnswer1": "erkin tebranish",
+    "noAnswer2": "garmonik tebranish",
+    "answer": "majburiy tebranish",
+    "noAnswer3": "mexanik tebranish"
+  },
+  {
+    "question": "Agar tebranish boshlang’ich tashqi ta’sirxisobiga sodir bo‘lsa, bunday tebranishlarga ….. deyiladi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
+    "answer": "erkin tebranish",
+    "noAnswer1": "garmonik tebranish",
+    "noAnswer2": "majburiy tebranish",
+    "noAnswer3": "mexanik tebranish"
+  },
+  {
+    "question": "Davriy takrorlanadigan harakatlarga ….. deyiladi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
+    "noAnswer1": "erkin tebranish",
+    "noAnswer2": "garmonik tebranish",
+    "noAnswer3": "majburiy tebranish",
+    "answer": "mexanik tebranish"
+  },
+  {
+    "question": "Matematik mayatnikning uzunligi 16 marta ortsa, uning tebranish davri qanday o‘zgaradi?",
+    "answer": "4 marta ortadi",
+    "noAnswer1": "3 marta kamayadi",
+    "noAnswer2": "o‘zgarmaydi",
+    "noAnswer3": "aniqlab bo‘lmaydi"
+  },
+  {
+    "question": "Prujinali mayatnikdagi yukning massasi 16 marta kamaysa, uning tebranish chastotasi qanday o‘zgaradi?",
+    "answer": "4 marta ortadi",
+    "noAnswer1": "3 marta kamayadi",
+    "noAnswer2": "o‘zgarmaydi",
+    "noAnswer3": "aniqlab bo‘lmaydi"
+  },
+  {
+    "question": "Quyidagilar orasidan qay biri ortiqcha?",
+    "noAnswer1": "Difraksiya",
+    "noAnswer2": "Qutblanish",
+    "noAnswer3": "Interferensiya",
+    "answer": "Yorug‘lik kuchi"
+  },
+  {
+    "question": "Bog‘lanish energiyasi 63 J bo‘lishi uchun zarraning massasi qancha (pikogramm) bo‘lishi kerak?",
+    "noAnswer1": "3",
+    "noAnswer2": "5",
+    "answer": "7",
+    "noAnswer3": "9"
+  },
+  {
+    "question": "Fokus masofasi 10,5 sm bo‘lgan yig‘uvchi linzadan 21 sm masofaga joylashtirilgan buyumning xaqiqiy tasviri linzadan qanday masofada (sm) xosil bo‘ladi?",
+    "noAnswer1": "15",
+    "noAnswer2": "19",
+    "answer": "21",
+    "noAnswer3": "25"
+  },
+  {
+    "question": "Mendeleyev davriy jadvalining 51-tartib raqamida surma joylashgan bo‘lib, undagi nuklonlar soni 121 ga teng. Bu elementdagi neytronlar sonini toping.",
+    "noAnswer1": "65",
+    "noAnswer2": "27",
+    "answer": "70",
+    "noAnswer3": "73"
+  },
+  {
+    "question": "Sоlеnоiddan qanday (A) tоk o‘tganda, unda 0,8 mWb mаgnit оqimi hоsil bo‘lish jarayonida, mаgnit mаydоn enеrgiyasi 5,6 mJ ga teng bo‘ladi?",
+    "answer": "14",
+    "noAnswer1": "13",
+    "noAnswer2": "9",
+    "noAnswer3": "15"
+  },
+  {
+    "question": "Induktivligi 168 mH bo‘lgan g‘altakdan 0,4 5 tok o‘tmoqda. G‘altakning mаgnit mаydоnning enеrgiyasini (mJ) toping.",
+    "answer": "21",
+    "noAnswer1": "19",
+    "noAnswer2": "23",
+    "noAnswer3": "25"
+  },
+  {
+    "question": "Konturni kesib o‘tuvchi magnit oqimi 0,5 s ichida 5 Wb dan 12 Wb gacha tekis o‘zgardi. Konturda hosil bo‘lgan induksiya EYuKni (V) toping",
+    "answer": "14",
+    "noAnswer1": "25",
+    "noAnswer2": "37",
+    "noAnswer3": "13"
+  },
+  {
+    "question": "Tok kuchi 0,7 A bo‘lganda induktivligi 60 mH bo‘lgan g‘altakda qanday magnit oqimi (mWb) yuzaga keladi?",
+    "answer": "42",
+    "noAnswer1": "39",
+    "noAnswer2": "45",
+    "noAnswer3": "33"
+  },
+  {
+    "question": "Induktivligi 2 H bo‘lgan g‘altakda o‘zinduksiya EYuKning qiymati 56 V bo‘lishi uchun g‘altakdan o‘tayotgan tokning o‘zgarish tezligi qanday bo‘lishi kerak?",
+    "answer": "28",
+    "noAnswer1": "10",
+    "noAnswer2": "30",
+    "noAnswer3": "32"
+  },
+  {
+    "question": "Rаdiusi 2π (sm) bo‘lgаn g‘altakdan 3,5 А tоk оqmоqdа. G‘altak ichiga mаgnit singdiruvchаnligi 20 bo‘lgаn fеrrоmаgnit o‘zаgi kiritilsа, g‘аltаk ichidаgi mаgnit mаydоn induksiyasi (mkT) qаndаy bo‘lаdi? Galtakdagi o‘ramlar soni 150 ga teng.",
+    "answer": "7",
+    "noAnswer1": "11",
+    "noAnswer2": "97",
+    "noAnswer3": "13"
+  },
+  {
+    "question": "Son jixatdan magnit maydon oqimining o‘zgarish tezligiga teng bo‘lgan fizik kattalik bu … . Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
+    "noAnswer1": "Kattalik",
+    "noAnswer2": "Magnit oqimi",
+    "noAnswer3": "Bosim",
+    "answer": "Induksion EYuK"
+  },
+  {
+    "question": "Magnit maydonning kuchlanganligi H=140/π kA/m,Vakuumda shu maydonning\r\nmagnit induktsiyasi B (mT) aniqlansin.",
+    "answer": "56",
+    "noAnswer1": "65",
+    "noAnswer2": "71",
+    "noAnswer3": "43"
+  },
+  {
+    "question": "I=7 A tok oqayotgan ingichka xalqa markazidagi magnit induktsiya (mkT) topilsin.\r\nHalqaning radiusi r = 5π sm.",
+    "answer": "28",
+    "noAnswer1": "17",
+    "noAnswer2": "19",
+    "noAnswer3": "23"
+  },
+  {
+    "question": "To’g’ri cheksiz uzun o’tkazgichdan I=7 A tok oqmoqda O’tkazgichdan r=5sm uzoklikda turgan nuqtadagi magnit induktsiya B (mkT) aniqlansin.",
+    "answer": "28",
+    "noAnswer1": "27",
+    "noAnswer2": "33",
+    "noAnswer3": "35"
+  },
+  {
+    "question": "Musbat zaryadga magnit maydon tomonidan ta’sir qiluvchi Lorens kuchi yo‘nalishini qaysi qonun asosida aniqlanadi?",
+    "answer": "chap qo‘l qonuni",
+    "noAnswer1": "o‘ng qo‘l qonuni",
+    "noAnswer2": "Nyuton qonuni",
+    "noAnswer3": "Gey-Lyussak qonuni"
+  },
+  {
+    "question": "Magnit maydonida joylashtirilgan tokli o‘tkazgichga maydon tomonidan ta’sir qiluvchi Amper kuchi yo‘nalishi qaysi qonun asosida aniqlanadi?",
+    "answer": "chap qo‘l qonuni",
+    "noAnswer1": "o‘ng qo‘l qonuni",
+    "noAnswer2": "Nyuton qonuni",
+    "noAnswer3": "Gey-Lyussak qonuni"
+  },
+  {
+    "question": "O‘tkazgichdagi tok kuchi 3,5 marta ortib, tekshirilayotgan masofa 2 marta kamaytirildi. Bu nuqtadagi magnit maydon induksiyasi avvalgisidan qanday farq qiladi?",
+    "answer": "7 marta ortadi",
+    "noAnswer1": "5 marta kamayadi",
+    "noAnswer2": "3 marta ortadi",
+    "noAnswer3": "9 marta kamayadi"
+  },
+  {
+    "question": "Magnit maydonidagi konturga ta’sir qiluvchi kuchlar momenti 63 mN*m bu maydonnig magnit induksiyasi 9 mT bo‘lsa kontur momentini (Amp*m2) toping.",
+    "answer": "7",
+    "noAnswer1": "9",
+    "noAnswer2": "11",
+    "noAnswer3": "13"
+  },
+  {
+    "question": "Agar nuqtaning tebranish amplitudasi A = 7 sm, tebranayotgan nuqtaning maksimal tezligi υmax = 30 sm/s, va boshlang‘ich fazasi φ = 10o bo‘lsa, nuqtaning garmonik tebranma xarakat tenglamasini yozing.",
+    "answer": "x = 0,7 cos (2t + π/18), m",
+    "noAnswer1": "x = 0,15 cos (2t + π/15), m",
+    "noAnswer2": "x = 0,13 cos (2t + π/8), m",
+    "noAnswer3": "x = 0,15 cos (3t + π/6), m"
+  },
+  {
+    "question": "Moddiy nuqta A = 70 sm amplituda va T = 5 s davr bilan garmonik tebranma xarakat qilmoqda. Moddiy nuqtaning maksimal tezlanishini (mm/s2) aniqlang. π2=10 deb xisoblansin.",
+    "answer": "112",
+    "noAnswer1": "45",
+    "noAnswer2": "107",
+    "noAnswer3": "97"
+  },
+  {
+    "question": "Bir xil yo‘nalish va bir xil davrga ega bo‘lgan ikki garmonik tebranishlar A1 = 40 sm va A2 = 80 sm amplitudalarga ega bo‘lib, fazalar farqi φ = 45o ga teng. Natijaviy tebranish amplitudasini aniqlang.",
+    "answer": "112",
+    "noAnswer1": "123",
+    "noAnswer2": "45",
+    "noAnswer3": "89"
+  },
+  {
+    "question": "Bir xil T = 4 s davr va bir xil amplitudalar A = 5 sm ga ega bo‘lgan bir xil yo‘nalishdagi ikki garmonik tebranishlarning fazalar farqi π/4 ga teng. Agar tebranishlardan birining boshlang‘ich fazasi 0 ga teng bo‘lsa, tebranishlarning qo‘shilishidan xosil bo‘lgan\r\nnatijaviy tebranishning xarakat tenglamasini yozing.",
+    "answer": "x = 9,24 cos (πt/2 + π/8), sm",
+    "noAnswer1": "x = 9,2 cos (πt/5 + π/3), sm",
+    "noAnswer2": "x = 9,25 cos (πt/6 + π/7), sm",
+    "noAnswer3": "x = 9,4 cos (πt/3 + π/5), sm"
+  },
+  {
+    "question": "Elektr tebranish konturi induktivligshi L=25 mGn bo‘lgan indutiv g‘altakdan, sig‘imi C=10 mkF bo‘lgan kondensatordan va qarshiligi R= 1 Om bo‘lgan rezistordan iborat. Ushbu tebranish konturi uchun tebranishning so‘nish logarifmik dekrementini aniqlang.",
+    "answer": "0,063",
+    "noAnswer1": "0,045",
+    "noAnswer2": "0,027",
+    "noAnswer3": "0,012"
+  },
+  {
+    "question": "Yung tajribasida tirqishlar orasidagi masofa d = 1mm, tirqishlardan ekrangacha bo‘lgan masofa esa l = 3 m bo‘lsa, 3-qorong‘i soxaning vaziyatini (mm) aniqlang. Tirqishlar to‘lqin uzunligi λ=0,5 mkm bo‘lgan yorug‘lik bilan yoritilmoqda.",
+    "answer": "5,25",
+    "noAnswer1": "3,24",
+    "noAnswer2": "2,56",
+    "noAnswer3": "1,15"
+  },
+  {
+    "question": "Agar binafsha yorug‘lik filtrini (0,4 mkm) qizil (0,7 mkm) yorug‘lik filtri bilan almashtirilsa, Frenel ko‘zgulari bilan o‘tkazilgan tajribadagi interferension soxa kengliklari necha marta o‘zgaradi?",
+    "answer": "1,75",
+    "noAnswer1": "2,5",
+    "noAnswer2": "3,14",
+    "noAnswer3": "4,56"
+  },
+  {
+    "question": "Nuqsonli ko‘z egasiga -3 (Dptr) tartibdagi ko‘zoynak taqqan xolatda kitob o‘qishi tavsiya etilishi uchun uni ko‘zining optik kuchi qanday (Dptr) bo‘lishi kerak?",
+    "answer": "+7",
+    "noAnswer1": "+5",
+    "noAnswer2": "-5",
+    "noAnswer3": "+3"
+  },
+  {
+    "question": "Metall sirtiga tushayotgan foton energiyasi 20 eV, fotoelektronlarning maksimal kinetik energiyasi 6 eV bo‘lsa, fotoeffektning qizil chegarasini (eV) aniqlang.",
+    "answer": "14",
+    "noAnswer1": "5",
+    "noAnswer2": "18",
+    "noAnswer3": "25"
+  },
+  {
+    "question": "Dielektrik singdiruvchanligi 24,5 va magnit kirituvchanligi ga teng bo‘lgan moddaning optik zichligini baholang.",
+    "answer": "7",
+    "noAnswer1": "9",
+    "noAnswer2": "10",
+    "noAnswer3": "6"
+  },
+  {
+    "question": "Elektr qarshiligi 140 Ω bo‘lgan o‘tkazgichdan 0,3 A tok oqishi uchun bu qismdagi kuchlanish tushuvi qanday bo‘lishi kerak?",
+    "answer": "42",
+    "noAnswer1": "15",
+    "noAnswer2": "12",
+    "noAnswer3": "20"
+  },
+  {
+    "question": "Nur tushirilayotgan absalyut qora jism qaytarish koefitsenti 0,4 ga teng bo‘lgan boshqa jism bilan almashtirilsa yorug‘lik bosimi qanday o‘zgaradi?",
+    "answer": "1,4 marta ortadi",
+    "noAnswer1": "1,2 marta kamayadi",
+    "noAnswer2": "o‘zgarmaydi",
+    "noAnswer3": "1,6 marta ortadi"
+  },
+  {
+    "question": "Tabiiy modda tarkibidagi birinchi izatopning massa ulushi 0,3 ga teng bo‘lsa ikkinchi izatopning massa ulushi qanday?",
+    "answer": "0,7",
+    "noAnswer1": "0,5",
+    "noAnswer2": "0,6",
+    "noAnswer3": "0,2"
+  },
+  {
+    "question": "Tarkibidagi pratonlar soni bir hil bo‘lib, nuklonlar soni bilan farq qiladigan elementlar …. xisoblanadi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
+    "answer": "izatoplar",
+    "noAnswer1": "izobarlar",
+    "noAnswer2": "izomerlar",
+    "noAnswer3": "dielektriklar"
+  },
+  {
+    "question": "Mendeleyev davriy jadvalining 13-tartib raqamida alyuminiy joylashgan bo‘lib, uning nisbiy atom massasi 27 ga teng. Alyuminiydagi neytronlar sonini aniqlang.",
+    "answer": "14",
+    "noAnswer1": "10",
     "noAnswer2": "6",
-    "answer": "-6",
-    "noAnswer3": "-12"
+    "noAnswer3": "17"
   },
   {
-    "question": "(1+3i)(2+i)+(-2+i)(3-i) kompleks sonni mavhum qismini toping?",
+    "question": "Poloniyning nisbiy atom massasi 209 ga teng va undagi neytronlar soni 125 ta eknligini bilgan xolda uning Mendeleyev davriy jadvalidagi tartib raqamini aniqlang.",
+    "answer": "84",
+    "noAnswer1": "75",
+    "noAnswer2": "90",
+    "noAnswer3": "60"
+  },
+  {
+    "question": "Alyuminiyning massa soni 27 ga teng ekanligi ma’lum bo‘lsa, alyuminiy yadrosining radiusini (F) toping. r0=1,4 F deb oling.",
+    "answer": "4,2",
+    "noAnswer1": "1,6",
+    "noAnswer2": "2,4",
+    "noAnswer3": "3,4"
+  },
+  {
+    "question": "Yorug‘lik qaytarish koefitsenti 0 ga teng bo‘lgan modda qaytarish koefitsenti 0,4 ga teng bo‘lgan modda bilan almashtirildi. Bu xolatda yorug‘lik bosimi qanday o‘zgaradi?",
+    "answer": "1,4 marta ortadi",
+    "noAnswer1": "2 marta kamayadi",
+    "noAnswer2": "o‘zgarmaydi",
+    "noAnswer3": "2 marta kamayadi"
+  },
+  {
+    "question": "Suyuqlik yoki gazga ta’sir ettirilgan tashqi bosim uning har bir nuqtasiga o’zgarishsiz uzatiladi. Bu kimning qonuni?",
+    "noAnswer1": "Dalton qonuni",
+    "answer": "Paskal qonuni",
+    "noAnswer2": "Avagadro qonuni",
+    "noAnswer3": "Arhimed qonuni"
+  },
+  {
+    "question": "Bir hil bosim va bir hil haroratda istalgan moddaning bir moli bir hil xajmni egallaydi. Bu kimning qonuni?",
+    "noAnswer1": "Dalton qonuni",
+    "noAnswer2": "Paskal qonuni",
+    "answer": "Avagadro qonuni",
+    "noAnswer3": "Arhimed qonuni"
+  },
+  {
+    "question": "Jism aylananing to‘rtdan bir qismini bosib o‘tganda qanday burchakka buriladi?",
+    "answer": "𝜋/2",
+    "noAnswer1": "𝜋/3",
+    "noAnswer2": "𝜋/5",
+    "noAnswer3": "𝜋/7"
+  },
+  {
+    "question": "Magnit maydonining to‘kli o‘tkazgichga ta’sirini aniqlash uchun …… …… formulasidan foydalanamiz. \r\nNuqtalar o‘rnini to‘g’ri mazmunda to‘ldiring.",
+    "noAnswer1": "Nyutonning ikkinchi qonuni",
+    "answer": "Amper kuchi",
+    "noAnswer2": "Kulon qonuni",
+    "noAnswer3": "Paskal qonuni"
+  },
+  {
+    "question": "Nuqta x o’qi bo’ylab х=0,08cos(20t+π), m qonun bo’yicha tebranmoqda. Tebranishning siklik chastotasini toping. Birliklar SI da",
+    "answer": "20 rad/s",
+    "noAnswer1": "17 rad/s",
+    "noAnswer2": "15 rad/s",
+    "noAnswer3": "13 rad/s"
+  },
+  {
+    "question": "Nuqta x o’qi bo’ylab х=0,05cos(80t+12π), m qonun bo’yicha tebranmoqda. Tebranishning boshlang’ich fazasini toping. Birliklar SI da",
+    "noAnswer1": "9π",
+    "noAnswer2": "10π",
+    "noAnswer3": "11π",
+    "answer": "12π"
+  },
+  {
+    "question": "Nuqta x o’qi bo’ylab х=0,05cos(80t+12π), m qonun bo’yicha tebranmoqda. Tebranishning fazasini ko’rsating. Birliklar SI da",
+    "answer": "80t+12π",
+    "noAnswer1": "10t+10π",
+    "noAnswer2": "7t+5π",
+    "noAnswer3": "90t+14π"
+  },
+  {
+    "question": "Tezlikni o‘lchovchi asbob nomini toping?",
+    "answer": "spidometr",
+    "noAnswer1": "dinamometr",
+    "noAnswer2": "sekundamer",
+    "noAnswer3": "ampermetr"
+  },
+  {
+    "question": "Jisming harakat davomida fazoda qoldirgan faraziy izi nima deb yuritiladi?",
+    "answer": "trayektoriya",
+    "noAnswer1": "Ko‘chish",
+    "noAnswer2": "tezlik",
+    "noAnswer3": "kuch"
+  },
+  {
+    "question": "Suyuqlik yoki gazga to’la botirilgan jism o’z xajmi qadar suyuqlik yoki gazni siqib chiqaradi va jismga shu siqib chiqarilgan suyuqlik yoki gazning og’irligicha yuqoriga yo’nalgan kuch ta’sir qiladi. Bu kimning qonuni?",
+    "noAnswer1": "Dalton qonuni",
+    "noAnswer2": "Paskal qonuni",
+    "noAnswer3": "Avagadro qonuni",
+    "answer": "Arhimed qonuni"
+  },
+  {
+    "question": "Jismning olgan tezlanishi unga qo‘yilgan natijaviy kuchga to‘g’ri, o‘zining massasiga teskari propartsional. Bu qaysi qonun?",
+    "answer": "Nyutonning ikkinchi qonuni",
+    "noAnswer1": "zanjirning bir qismi uchun Om qonuni",
+    "noAnswer2": "Kulon qonuni",
+    "noAnswer3": "butun olam tortishish qonuni"
+  },
+  {
+    "question": "Plankning kvantlar nazariyasiga binoan jismlarning nurlanish uzlukli bo’lsa, yutilish spektri qanday?",
+    "answer": "uzlukli",
+    "noAnswer1": "To’g’ri chiziqli",
+    "noAnswer2": "uzluksiz",
+    "noAnswer3": "Panjaraviy"
+  },
+  {
+    "question": "Ikki kogerent to’lqinlar qo’shilishi natijasida tebranishning ayrim soxalarda maksimumga va  ayrim soxalarda minimumga erishish xodisasi ….. xodisasidir. \r\nNuqtalar o’rnini to’g’ri mazmunda to’ldiring.",
+    "answer": "Yorug’lik interferensiyasi",
+    "noAnswer1": "Yorug’lik dispersiyasi",
+    "noAnswer2": "Yorug’likning qutblanishi",
+    "noAnswer3": "Fotoeffekt xodisasi"
+  },
+  {
+    "question": "Quyidagilar orasidan ortiqchasini belgilang.",
+    "noAnswer1": "massa",
+    "noAnswer2": "kuch",
+    "noAnswer3": "energiya",
+    "answer": "metr"
+  },
+  {
+    "question": "To’lqinning tarqalish yo’nalishidagi chiziqda joylashgan ikkita nuqtaning tebranish fazalar farqi 4𝜋 ga teng. Agar nuqtalar orasidagi masofa 32 m bo’lsa to’lqin uzunligi qanday (m) bo’ladi?",
+    "noAnswer1": "3",
+    "noAnswer2": "11",
+    "answer": "16",
+    "noAnswer3": "15"
+  },
+  {
+    "question": "Agar har qaysi to’lqinning amplitudasi 3 A ga teng bo’lib, nuqtaga qarama-qarshi fazada yetib kelsa, natijaviy amplitude nimaga teng bo’ladi?",
+    "noAnswer1": "-3 A",
+    "answer": "0",
+    "noAnswer2": "5 A",
+    "noAnswer3": "3 A"
+  },
+  {
+    "question": "o’lqinning tarqalish yo’nalishida joylashgan va tebranish fazalar farqi  5π/3 ga teng bo’lgan ikki nuqtalar orasidagi masofa 4 m bo’lsa, to’lqinning uzunligini (m) toping.",
+    "noAnswer1": "2,5",
+    "answer": "4,8",
+    "noAnswer2": "1,3",
+    "noAnswer3": "6,5"
+  },
+  {
+    "question": "Yorug’lik interferensiyasiga ta’rif bering.",
+    "answer": "Kogerent yorug’lik to’lqinlarining qo’shilishida energiyaning fazoda qayta taqsimlanishi",
+    "noAnswer1": "Muhit optik zichligining yorug’lik to’lqin uzunligiga bog’liqligi",
+    "noAnswer2": "Yoruglik to’lqinlarining to’siqni aylanib o’tib, geometrik soya soxasiga og’ishi xodisasi",
+    "noAnswer3": "Tabiiy yorug’lik intensivligining polyarizator (va analizatordan) o’tishidagi o’zgarishi"
+  },
+  {
+    "question": "Yorug’lik dispersiyasiga ta’rif bering.",
+    "noAnswer1": "Kogerent yorug’lik to’lqinlarining qo’shilishida energiyaning qayta taqsimlanishi",
+    "answer": "Muhit optik zichligining yorug’lik to’lqin uzunligiga bog’liqligi",
+    "noAnswer2": "Yoruglik to’lqinlarining to’siqni aylanib o’tib, geometrik soya soxasiga og’ishi xodisasi",
+    "noAnswer3": "Tabiiy yorug’lik intensivligining polyarizator (va analizatordan) o’tishidagi o’zgarishi"
+  },
+  {
+    "question": "Yorug’lik difraksiyasiga ta’rif bering.",
+    "noAnswer1": "Kogerent yorug’lik to’lqinlarining qo’shilishida energiyaning qayta taqsimlanishi",
+    "noAnswer2": "Muhit optik zichligining yorug’lik to’lqin uzunligiga bog’liqligi",
+    "answer": "Yoruglik to’lqinlarining to’siqni aylanib o’tib, geometrik soya soxasiga og’ishi xodisasi",
+    "noAnswer3": "Tabiiy yorug’lik intensivligining polyarizator (va analizatordan) o’tishidagi o’zgarishi"
+  },
+  {
+    "question": "Fazoning elektr maydon kuchlanganligi 12 V/m bo‘lgan nuqtasiga kiritilgan 3 nC zaryadga maydon tomonidan ta’sir qiluvchi kuchni (nN) toping.",
+    "noAnswer1": "9",
+    "noAnswer2": "15",
+    "answer": "36",
+    "noAnswer3": "7"
+  },
+  {
+    "question": "Termodinamik sistemaga 250 J issiqlik miqdori berilganda gaz tashqi kuchlar ustida 130 J ish bajargan bo‘lsa uning ichki energiyasi necha J ga o‘zgargan?",
+    "answer": "120",
+    "noAnswer1": "130",
+    "noAnswer2": "250",
+    "noAnswer3": "270"
+  },
+  {
+    "question": "Normal sharoitda 2 mol kislorod qanday xajmni egallaydi?",
+    "answer": "44,8 litr",
+    "noAnswer1": "15 litr",
+    "noAnswer2": "7 litr",
+    "noAnswer3": "35 litr"
+  },
+  {
+    "question": "Gorizontal otilgan jismning normal tezlanishi 6 m/s<sup>2</sup>  bo‘lgan momentdagi tangensal tezlanishi (m/s<sup>2</sup>) qanday? g=10 m/s<sup>2</sup> deb oling.",
+    "answer": "8",
+    "noAnswer1": "7",
+    "noAnswer2": "5",
+    "noAnswer3": "9"
+  },
+  {
+    "question": "To`lqinning tarqalish yo`nalishida joylashgan va tebranishlar fazalar farqi 2π/5 ga teng bo`lgan ikki nuqtalar orasidagi masofa 12 m bo`lsa, to`lqin uzunligini (m) toping?",
+    "noAnswer1": "70 m",
+    "noAnswer2": "12,5𝜋",
+    "noAnswer3": "6 m",
+    "answer": "60 m"
+  },
+  {
+    "question": "Tebranish manbaidan 10 m va 2 m uzoqlikda joylashgan nuqtalar tebranishlarining fazalar farqini aniqlang. Tebranish davri 0,5 s, to’lqinning tarqalish tezligi 8 m/s.",
+    "noAnswer1": "3𝜋;",
+    "answer": "4𝜋;",
+    "noAnswer2": "𝜋/2",
+    "noAnswer3": "2,5"
+  },
+  {
+    "question": "Agar elektromagnit to’lqinning bo’shliqdagi tebranish davri 4* 10<sup>-8</sup> с bo’lsa, uning to’lqin uzunligini toping.",
+    "noAnswer1": "7 m;",
+    "noAnswer2": "5 m;",
+    "noAnswer3": "3 m;",
+    "answer": "12 m;"
+  },
+  {
+    "question": "Kosmik kema tomonidan 15 MHz chastotada radio to’lqin uzatilayotgan bo’lsa, uning to’lqin uzunligini aniqlang.",
+    "noAnswer1": "4,5 m;",
+    "answer": "20 m;",
+    "noAnswer2": "15 m;",
+    "noAnswer3": "17 m"
+  },
+  {
+    "question": "Elektr o'tkazuvchanligiga ko'ra ayrim xolatlarda o'zini o'tkazgichday va ayrim xolatlarda o'zini  dielektrikday tutadigan moddalarga qanday nom berilgan?",
+    "noAnswer1": "Metallar",
+    "noAnswer2": "Rezistorlar",
+    "answer": "Yarim o’tkazgichlar",
+    "noAnswer3": "Dielektriklar"
+  },
+  {
+    "question": "Elektr tokini asosan erkin elektronlar xisobiga o’tkazadigan yarim o’tkazgichlar qanday turdagi yarim o’tkazgichlar xisoblanadi?",
+    "noAnswer1": "Akseptorli",
+    "answer": "Donorli",
+    "noAnswer2": "Kirishmali",
+    "noAnswer3": "Metalli"
+  },
+  {
+    "question": "Elektr tokini asosan kovaklar xisobiga o’tkazadigan yarim o’tkazgichlar qanday turdagi yarim o’tkazgichlar xisoblanadi?",
+    "answer": "Akseptorli",
+    "noAnswer1": "Donorli",
+    "noAnswer2": "Kirishmali",
+    "noAnswer3": "Metalli"
+  },
+  {
+    "question": "To’rt valentli toza yarim o’tkazgich tarkibiga besh valentli toza yarim o’tkazgich elementi kiritilsa qanday turdagi yarim o’tkazgich xosil bo’ladi?",
+    "noAnswer1": "Toza yarim o’tkazgich saqlanib qoladi",
+    "noAnswer2": "Kirishmali yarim o’tkazgich",
+    "answer": "Donorli yarim o’tkazgich",
+    "noAnswer3": "Akseptorli yarim o’tkazgich"
+  },
+  {
+    "question": "To’rt valentli toza yarim o’tkazgich tarkibiga uch valentli toza yarim o’tkazgich elementi kiritilsa qanday turdagi yarim o’tkazgich xosil bo’ladi?",
+    "noAnswer1": "Toza yarim o’tkazgich saqlanib qoladi",
+    "noAnswer2": "Kirishmali yarim o’tkazgich",
+    "noAnswer3": "Donorli yarim o’tkazgich",
+    "answer": "Akseptorli yarim o’tkazgich"
+  },
+  {
+    "question": "Kosmik kema tomonidan 75 MHz chastotada radioto’lqin uzatilayotgan bo’lsa, uning to’lqin uzunligini toping.",
+    "noAnswer1": "1 m;",
+    "noAnswer2": "2 m;",
+    "noAnswer3": "3 m;",
+    "answer": "4 m."
+  },
+  {
+    "question": "O’zgaruvchan tok zanjirida kondensator zaryadi q = 80*10<sup>-4</sup>cos 20𝜋t (C) qonun bo’yicha o’zgarmoqda. Kuchlanishning maximal qiymati 200 V. Kondersatorning elektr sig’imi nimaga teng?",
+    "noAnswer1": "10 mkF;",
+    "noAnswer2": "15 mkF;",
+    "answer": "40 mkF;",
+    "noAnswer3": "25 mkF"
+  },
+  {
+    "question": "Agar yukning massasi 16 marta orttirilsa, matematik mayatnikning xususiy tebranishlar davri qanday o’zgaradi?",
+    "noAnswer1": "3 marta kamayadi;",
+    "noAnswer2": "5 marta ortadi;",
+    "noAnswer3": "7 marta kamayadi;",
+    "answer": "o’zgarmaydi"
+  },
+  {
+    "question": "Agar g`altakning induktivligi 64 marta orttirilsa, tebranish konturida erkin tebranishlar chastotasi qanday o`zgaradi?",
+    "noAnswer1": "9 marta ortadi;",
+    "answer": "8 marta kamayadi;",
+    "noAnswer2": "7 marta ortadi;",
+    "noAnswer3": "O’zgarmaydi"
+  },
+  {
+    "question": "Agar g`altakning induktivligi 16 marta orttirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
+    "noAnswer1": "O’zgarmaydi;",
+    "noAnswer2": "5 marta kamayadi;",
+    "noAnswer3": "3 marta kamayadi;",
+    "answer": "4 marta ortadi."
+  },
+  {
+    "question": "Agar g`altakning induktivligi 4 marta va kondensator sig’imi 16 marta orttirilsa, tebranish konturida erkin tebranishlar chastotasi qanday o`zgaradi?",
+    "noAnswer1": "6 marta ortadi;",
+    "noAnswer2": "7 marta kamayadi;",
+    "answer": "8 marta kamayadi.",
+    "noAnswer3": "o’zgarmaydi             ,"
+  },
+  {
+    "question": "Agar g`altakning induktivligi 9 marta va kondensator sig’imi 64 marta orttirilsa, tebranish konturida erkin tebranishlar siklik chastotasi qanday o`zgaradi?",
+    "noAnswer1": "5 marta ortadi;",
+    "answer": "24 marta kamayadi;",
+    "noAnswer2": "25 marta kamayadi.",
+    "noAnswer3": "18 marta ortadi,"
+  },
+  {
+    "question": "Agar g`altakning induktivligi 9 marta va kondensator sig’imi 16 marta orttirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
+    "answer": "12 marta ortadi;",
+    "noAnswer1": "11 marta kamayadi;",
+    "noAnswer2": "10 marta kamayadi.",
+    "noAnswer3": "9 marta ortadi,"
+  },
+  {
+    "question": "Agar g`altakning induktivligi va kondensator sig’imi 4 martadan kamaytirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
+    "noAnswer1": "7 marta ortadi;",
+    "noAnswer2": "5 marta kamayadi;",
+    "noAnswer3": "3 marta ortadi;",
+    "answer": "4 marta kamayadi."
+  },
+  {
+    "question": "Agar g`altakning induktivligi va kondensator sig’imi 4 martadan kamaytirilsa, tebranish konturida erkin tebranishlar chastotasi qanday o`zgaradi?",
+    "noAnswer1": "7 marta ortadi;",
+    "noAnswer2": "11 marta kamayadi;",
+    "answer": "4 marta ortadi;",
+    "noAnswer3": "3 marta kamayadi."
+  },
+  {
+    "question": "Optik markazdan linza tekisligiga perpendikulyar o’tgan faraziy to’g’ri chiziq ….. deyiladi. Nuqtalar o’rnini to’g’ri mazmunda to’ldiring.",
+    "answer": "Bosh optik o’qi",
+    "noAnswer1": "Bosh fokusi",
+    "noAnswer2": "Fokal tekisligi",
+    "noAnswer3": "Optik kuchi"
+  },
+  {
+    "question": " Linzaning fokus masofasiga teskari bo’lgan fizik kattalikni ko’rsating.",
+    "noAnswer1": "Bosh optik o’qi",
+    "noAnswer2": "Fokus masofasi",
+    "noAnswer3": "Fokal tekisligi",
+    "answer": "Optik kuchi"
+  },
+  {
+    "question": " D=1/F=(n-1)(1/R_1 +1/R_2 )   Ushbu ifodadagi “n” qanday fizik kattalikni ifodalaydi?",
+    "answer": "linza materialIning nur sindirish koʻrsatgichi",
+    "noAnswer1": "Muxitning optik zichligi",
+    "noAnswer2": "Linza sferasining egrilik radiusi",
+    "noAnswer3": "Linzaning optik kuchi"
+  },
+  {
+    "question": " D=1/F=(n-1)(1/R_1 +1/R_2 )   Ushbu ifodadagi “R” qanday fizik kattalikni ifodalaydi?",
+    "noAnswer1": "linza materialIning nur sindirish koʻrsatgichi",
+    "answer": "Linza sferasining egrilik radiusi",
+    "noAnswer2": "Linzaning optik kuchi",
+    "noAnswer3": "Linzaning fokus masofasi"
+  },
+  {
+    "question": " D=1/F=(n-1)(1/R_1 +1/R_2 )   Ushbu ifodadagi “F” qanday fizik kattalikni ifodalaydi?",
+    "noAnswer1": "Muxitning optik zichligi",
+    "noAnswer2": "Linza sferasining egrilik radiusi",
+    "noAnswer3": "Linzaning optik kuchi",
+    "answer": "Linzaning fokus masofasi"
+  },
+  {
+    "question": "Agar buyum yig’uvchi linzadan 2F masofaga qo’yilsa qanday tasvir xosil bo’ladi?",
+    "noAnswer1": "Kattalashgan, xaqiqiy, teskari",
+    "noAnswer2": "Kichiklashgan, xaqiqiy, teskari",
+    "answer": "Bir o’lchamli, xaqiqiy, teskari",
+    "noAnswer3": "Kichiklashgan, xaqiqiy, to’g’ri"
+  },
+  {
+    "question": "Agar buyum yig’uvchi linza va uning bosh fokusi orasiga qo’yilsa qanday tasvir xosil bo’ladi?",
+    "noAnswer1": "Kattalashgan, xaqiqiy, teskari",
+    "noAnswer2": "Kichiklashgan, xaqiqiy, teskari",
+    "answer": "Mavhum, kattalashgan, to’g’ri",
+    "noAnswer3": "Kichiklashgan, xaqiqiy, to’g’ri"
+  },
+  {
+    "question": "Agar buyum yig’uvchi linzaning bosh fokusiga qo’yilsa, qanday tasvir xosil bo’ladi?",
+    "noAnswer1": "Kattalashgan, xaqiqiy, teskari",
+    "noAnswer2": "Kichiklashgan, xaqiqiy, teskari",
+    "answer": "Tasvir cheksizlikda xosil bo’ladi",
+    "noAnswer3": "Kichiklashgan, xaqiqiy, to’g’ri"
+  },
+  {
+    "question": "Linzadan 24 sm uzoqlikda joylashgan buyumning xaqiqiy tasviri buyumdan 48 sm masofada xosil bo’ldi. Linzaning fokus masofasini (sm) aniqlang.",
+    "noAnswer1": "17",
+    "noAnswer2": "15",
+    "answer": "12",
+    "noAnswer3": "9"
+  },
+  {
+    "question": "1360 Hs da ishlovchi tovush manbaidan koordinatalari 25 sm ga farq qiluvchi nuqtalarning tebranishlar fazalar farqi nimaga teng? Xavoda tovushning tarqalish tezligi 340 m/s",
+    "answer": "2π;",
+    "noAnswer1": "π/5;",
+    "noAnswer2": "π.",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "So‘nuvchi garmonik tebranishlarda tebranish amplitudasi qanday o‘zgaradi?",
+    "noAnswer1": "Sinus qonuniyatiga bo‘ysungan xolda kamayadi;",
+    "noAnswer2": "kosinus qonuniyatiga bo‘ysungan xolda kamayadi;",
+    "answer": "eksponensial qonuniyat asosida kamayadi;",
+    "noAnswer3": "chiziqli ravishda kamayadi."
+  },
+  {
+    "question": "Quyida berilgan yorug‘liklarning qaysi birida fotonlar eng kichik energiyaga ega?",
+    "noAnswer1": "sariq",
+    "answer": "Infraqizil;",
+    "noAnswer2": "ko‘k;",
+    "noAnswer3": "qizil."
+  },
+  {
+    "question": "\r\nSo‘nuvchi tebranishlarda so‘nish dekrementi nimani ifodalaydi?",
+    "noAnswer1": "Vaqt o‘tishi bilan tebranish amplitudasining eksponensial ravishda kamayishini;",
+    "noAnswer2": "Vaqt o‘tishi bilan tebranish amplitudasining chiziqli kamayishini;",
+    "noAnswer3": "Vaqtning boshlang‘ich va oxirgi mementlarida amplitudaning qanchaga kamayganini ko‘rsatadi;",
+    "answer": "Bir tebranish davri mobaynida amplitudaning qanchaga kamayganini ko‘rsatadi."
+  },
+  {
+    "question": "Agar xar qaysi to‘lqinning amplitudasi 3A ga teng bo‘lib, nuqtaga bir xil fazada kelsa, natijaviy amplituda nimaga teng bo‘ladi?",
+    "answer": "6A",
+    "noAnswer1": "5A",
+    "noAnswer2": "3A",
+    "noAnswer3": "A"
+  },
+  {
+    "question": "Materiya necha xil ko‘rinishda bo‘ladi?",
+    "noAnswer1": "1 ta, modda",
+    "noAnswer2": "1 ta, maydon",
+    "answer": "2 ta, modda va maydon",
+    "noAnswer3": "3 ta, madda va maydon, suyuqlik"
+  },
+  {
+    "question": "Idishdagi gaz aralashmasining umumiy bosimi-aralashmani xosil qilgan gazlar xususiy bosimlarining algebraik yig’indisiga teng. Bu qaysi olimga tegishli bo’lgan qonun?",
+    "answer": "Dalton qonuni",
+    "noAnswer1": "Paskal qonuni",
+    "noAnswer2": "Avagadro qonuni",
+    "noAnswer3": "Sharl qonuni"
+  },
+  {
+    "question": "Elektrostatik maydonning potensiali 30 V bo‘lgan nuqtasiga kiritilgan zarraga maydon tomonidan 120 J potensial energiya ta’sir qilsa, zarraning elektr zaryadini aniqlang.",
+    "noAnswer1": "25 C",
+    "noAnswer2": "5 C",
+    "noAnswer3": "9 C",
+    "answer": "4 C"
+  },
+  {
+    "question": "+ \r\n Nuqta x o`qi bo`ylab x=0,07cос(8πт+π), m qonun bo`yicha tebranmoqda. Tebranishning chastotasini  toping.(Hz)",
+    "answer": " #4 ;",
+    "noAnswer1": "6π ;",
+    "noAnswer2": "6;",
+    "noAnswer3": "1;"
+  },
+  {
+    "question": "Lazerlar deb qanday qurilmalarga aytiladi?",
+    "answer": " #majburiy kogerent nurlanish manbalariga",
+    "noAnswer1": "majburiy bo‘lmagan kogerent nurlanish manbalariga",
+    "noAnswer2": "kogerent nurlanish manbalariga",
+    "noAnswer3": "to‘g‘ri javob yo‘q"
+  },
+  {
+    "question": "Ryomer nimaning tarqalish tezligini astronomik usulda birinchi bo‘lib  aniqlagan?",
+    "answer": "Yorug‘likning",
+    "noAnswer1": "to‘lqinning",
+    "noAnswer2": "chastotani",
+    "noAnswer3": "elektronning"
+  },
+  {
+    "question": "Agar qora jismning termodinamik temperaturasini ikki marta kamaytirilsa, uning energetik yoritilganligi o‘zgaradi? Energetik yoritilganlik temperaturaning to’rtincha darajasiga praportsional.",
+    "noAnswer1": "5 marta kamayadi;",
+    "noAnswer2": "18 marta kamayadi;",
+    "noAnswer3": "21 marta kamayadi;",
+    "answer": "16 marta kamayadi;"
+  },
+  {
+    "question": "Stefan-Bolsman doimiysini aniqlang.",
+    "noAnswer1": "2,9 10<sup>-3</sup>  m K;",
+    "answer": "5,7 10<sup>-8</sup>  Vt/m<sup>2</sup> K<sup>4</sup>",
+    "noAnswer2": "6,63 10<sup>-34</sup>  J s;",
+    "noAnswer3": "6,02 10<sup>23</sup>  mol<sup>-7</sup>"
+  },
+  {
+    "question": "Plank doimiysini aniqlang.",
+    "noAnswer1": "2,9 10<sup>-3</sup>  m K;",
+    "noAnswer2": "5,7 10<sup>-8</sup>  Vt/m<sup>2</sup> K<sup>4</sup>",
+    "answer": "6,63 10<sup>-34</sup>  J s;",
+    "noAnswer3": "6,02 10<sup>23</sup>  mol<sup>-7</sup>"
+  },
+  {
+    "question": "Agar qora jism energetik yoritilganligining spektral zichligi maksimumiga mos keluvchi to‘lqin uzunligi 360 nm dan 720 nm ga siljisa, qora jism energetik yoritilganligi necha marta o‘zgaradi?",
+    "noAnswer1": "2 marta ortadi;",
+    "noAnswer2": "6 marta kamayadi;",
+    "noAnswer3": "10 marta ortadi;",
+    "answer": "16 marta kamayadi."
+  },
+  {
+    "question": "Tebranish konturining tebranish davri qanday parametrlarga bog’liq?",
+    "noAnswer1": "Mayatnik uzunligi va erkin tushish tezlanishiga",
+    "noAnswer2": "Yukning massasi va prujina bikrligiga",
+    "noAnswer3": "Inersiya momenti, mayatnik massasi, erkin tushish tezlanishi, burilish nuqtasi va massa markazi orasidagi masofaga",
+    "answer": "Kondensator sig’imi va g’altakning induktivligiga"
+  },
+  {
+    "question": "Uch va ko‘p atomli gaz molekulalarining erkinlik darajasi nechaga teng?",
+    "noAnswer1": "3",
+    "noAnswer2": "5",
+    "answer": "6",
+    "noAnswer3": "7"
+  },
+  {
+    "question": "To`lqinning tarqalish yo`nalishidagi chiziqda joylashgan ikki nuqtalar tebranishlarining fazalar farqi 2π ga teng. Agar nuqtalar orasidagi masofa 4 m ga teng bo`lsa, to`lqin uzunligi qanday (m) bo`ladi?",
+    "noAnswer1": "1",
+    "noAnswer2": "2",
+    "answer": "4",
+    "noAnswer3": "6"
+  },
+  {
+    "question": "Nuqta x o’qi bo’ylab х=0,016cos(3πt+π), m qonun bo’yicha tebranmoqda. Tebranishning amplitudasini (mm) toping.",
+    "noAnswer1": "3",
+    "answer": "16",
+    "noAnswer2": "10",
+    "noAnswer3": "21"
+  },
+  {
+    "question": "Massasi 5 kg bo‘lgan jismga 3,2 m/s<sup>2</sup> tezlanish bera oladigan kuch, 2 kg massali jismga qanday tezlanish (m/s<sup>2</sup>) beradi?",
+    "answer": "8",
+    "noAnswer1": "7",
+    "noAnswer2": "5",
+    "noAnswer3": "11"
+  },
+  {
+    "question": "Tebranish konturida elektr tebranishlari q = 10<sup>-8</sup>cos8000t (C) tenglama bilan berilgan. Zanjirdagi tokning amplitudasi nimaga teng",
+    "answer": "8*10<sup>-5</sup>А;",
+    "noAnswer1": "18 А;",
+    "noAnswer2": "15 10<sup>-2</sup> А;",
+    "noAnswer3": "14 t А."
+  },
+  {
+    "question": "Tovush manbaidan to’lqin uzunligi 4 m bo’lgan to’lqinlar tarqalmoqda. х<sub>1</sub>=2 m va х<sub>2</sub>=6 m koordinatali nuqtalarning tebranishlar fazalar farqi nimaga teng?",
+    "noAnswer1": "π;",
+    "noAnswer2": "3π;",
+    "noAnswer3": "1,5π;",
+    "answer": "2π."
+  },
+  {
+    "question": "Fizik mayatnikning tebranish davri qanday parametrlarga bog’liq?",
+    "noAnswer1": "Mayatnik uzunligi va erkin tushish tezlanishiga",
+    "noAnswer2": "Yukning massasi va prujina bikrligiga",
+    "answer": "Inersiya momenti, mayatnik massasi, erkin tushish tezlanishi, burilish nuqtasi va massa markazi orasidagi masofaga",
+    "noAnswer3": "Kondensator sig’imi va g’altakning induktivligiga"
+  },
+  {
+    "question": "To`lqinning tarqalish yo`nalishidagi chiziqda joylashgan ikki nuqtalar tebranishlarining fazalar farqi π ga teng. Agar nuqtalar orasidagi masofa 6 m ga teng bo`lsa, to`lqin uzunligi qanday (m) bo`ladi?",
+    "noAnswer1": "1;",
+    "answer": "12;",
+    "noAnswer2": "14;",
+    "noAnswer3": "6."
+  },
+  {
+    "question": "To`lqinning tarqalish yo`nalishidagi chiziqda joylashgan ikki nuqtalar tebranishlarining fazalar farqi 2π/3 ga teng. Agar nuqtalar orasidagi masofa 8 m ga teng bo`lsa, to`lqin uzunligi qanday (m) bo`ladi?",
+    "answer": "24",
+    "noAnswer1": "15",
+    "noAnswer2": "13",
+    "noAnswer3": "9"
+  },
+  {
+    "question": "To`lqinning tarqalish yo`nalishidagi chiziqda joylashgan ikki nuqtalar tebranishlarining fazalar farqi qanday bo’lganda, Shu nuqtalar orasidagi masofa 5 m ga teng bo’ladi? To’lqinning uzunligi 10 m deb xisoblang.",
+    "answer": "𝜋",
+    "noAnswer1": "1",
+    "noAnswer2": "𝜋/3",
+    "noAnswer3": "2,5"
+  },
+  {
+    "question": "Tebranish manbaidan 17,5 m vaa 1,5 m uzoqlikda joylashgan nuqtalar tebranishlarining fazalar farqini aniqlang. Tebranish davri 2 s, to’lqinning tarqalish tezligi esa 4 m/s.",
+    "noAnswer1": "3π/2;",
+    "noAnswer2": "0;",
+    "answer": "4π;",
+    "noAnswer3": "5."
+  },
+  {
+    "question": "Interferensiyalanayotgan ikkita monoxramatik to’lqinning yo’llar farqi λ/16 ga teng. Tebranishlar fazalar farqini toping.",
+    "answer": "𝜋/8",
+    "noAnswer1": "𝜋/3",
+    "noAnswer2": "𝜋/5",
+    "noAnswer3": "𝜋/7"
+  },
+  {
+    "question": "Qanday tebranishlar garmonik tebranishlar deyiladi?",
+    "noAnswer1": "Har qanday davriy takrorlanuvchi tebranishlar garmonik tebranishlar deyiladi",
+    "noAnswer2": "Sinus qonuni bo’yicha o’zgaruvchi tebranishlar garmonik tebranishlar deyiladi;",
+    "noAnswer3": "Kosinus qonuni bo’yicha o’zgaruvchi tebranishlar garmonik tebranishlar deyiladi;",
+    "answer": " #Sinus yoki kosinus qonuni bo’yicha o’zgaruvchi tebranishlar garmonik tebranishlar deyiladi."
+  },
+  {
+    "question": "Garmonik tebranish muvozanat vaziyatidan boshlansa u qaysi qonuniyat bo’yicha tebranadi?",
+    "noAnswer1": "Har qanday",
+    "answer": "Sinus qonuni bo’yicha o’zgaruvchi;",
+    "noAnswer2": "Kosinus qonuni bo’yicha;",
+    "noAnswer3": "Sinus yoki kosinus qonuni bo’yicha;"
+  },
+  {
+    "question": "Garmonik tebranish eng chetgi vaziyatidan boshlansa u qaysi qonuniyat bo’yicha tebranadi?",
+    "noAnswer1": "Har qanday",
+    "noAnswer2": "Sinus qonuni bo’yicha o’zgaruvchi;",
+    "answer": "Kosinus qonuni bo’yicha;",
+    "noAnswer3": "Sinus yoki kosinus qonuni bo’yicha;"
+  },
+  {
+    "question": "Tebranish davri nima?",
+    "answer": "Bir marta to’liq tebranish uchun ketgan vaqt",
+    "noAnswer1": "Birlik vaqt ichida tebranishlar soni",
+    "noAnswer2": "Tinimsiz oldinga harakatga",
+    "noAnswer3": "Tebranishning aylanma harakatiga"
+  },
+  {
+    "question": " Tebranish chastotasi nima?",
+    "noAnswer1": "Bir marta to’liq tebranish uchun ketgan vaqt",
+    "answer": "Birlik vaqt ichida tebranishlar soni",
+    "noAnswer2": "Tinimsiz oldinga harakatga",
+    "noAnswer3": "Tebranishning aylanma harakatiga"
+  },
+  {
+    "question": "Nuqta x o’qi bo’ylab х=0,1cos(20t+π), m qonun bo’yicha tebranmoqda. Tebranishning maksimal tezlanishini toping.",
+    "answer": "40;",
+    "noAnswer1": "38;",
+    "noAnswer2": "37;",
+    "noAnswer3": "15;"
+  },
+  {
+    "question": "Nuqta x o’qi bo’ylab х=0,24cos(16πt+π), m qonun bo’yicha tebranmoqda. Tebranish amplitudasini (sm) toping.",
+    "noAnswer1": "21",
+    "noAnswer2": "22",
+    "noAnswer3": "23",
+    "answer": "24"
+  },
+  {
+    "question": "170 Hz da ishlovchi tovish manbaidan koordinatalar farqi 25 sm bo’lgan nuqtaning tebranish fazalar farqi nimaga teng? Tovushning xavoda tarqalish tezligi 340 m/s.",
+    "noAnswer1": "𝜋/6",
+    "noAnswer2": "𝜋/5",
+    "answer": "𝜋/4",
+    "noAnswer3": "𝜋/3"
+  },
+  {
+    "question": "Agar elektromagnit to’lqinning uchinchi va yettinchi do’ngliklari orasidagi masofa 64 m bo’lsa, to’lqin uzunligini aniqlang.",
+    "noAnswer1": "43,3 m",
+    "answer": "16 m",
+    "noAnswer2": "21,6",
+    "noAnswer3": "13 m"
+  },
+  {
+    "question": "Prujinali mayatnikning tebranish davri qanday parametrlarga bog’liq?",
+    "noAnswer1": "Mayatnik uzunligi va erkin tushish tezlanishiga",
+    "answer": "Yukning massasi va prujina bikrligiga",
+    "noAnswer2": "Inersiya momenti, mayatnik massasi, erkin tushish tezlanishi, burilish nuqtasi va massa markazi orasidagi masofaga",
+    "noAnswer3": "Kondensator sig’imi va g’altakning induktivligiga"
+  },
+  {
+    "question": "Matematik mayatnikning tebranish davri qanday parametrlarga bog’liq?",
+    "answer": "Mayatnik uzunligi va erkin tushish tezlanishiga",
+    "noAnswer1": "Yukning massasi va prujina bikrligiga",
+    "noAnswer2": "Inersiya momenti, mayatnik massasi, erkin tushish tezlanishi, burilish nuqtasi va massa markazi orasidagi masofaga",
+    "noAnswer3": "Kondensator sig’imi va g’altakning induktivligiga"
+  },
+  {
+    "question": "Qanday yorug’lik to’lqinlari kogerent bo’ladi?",
+    "noAnswer1": "To’lqin uzunliklari bir xil va fazalar farqi o’zgaradigan",
+    "answer": "To’lqin uzunliklari bir xil va fazalar farqi o’zgarmaydigan",
+    "noAnswer2": "To’lqin uzunliklari har xil va fazalar farqi o’zgarmaydigan",
+    "noAnswer3": "Chastotalari teng bo’lgan to’lqinlar"
+  },
+  {
+    "question": "Interferensiya xosil bo’lish sharti qanday?",
+    "answer": "To’lqinlar kogerent bo’lishi",
+    "noAnswer1": "To’lqinlar har xil bo’lishi",
+    "noAnswer2": "Fazalar farqi o’zgaruvchan",
+    "noAnswer3": "Teng chastotali"
+  },
+  {
+    "question": "Erkin tebranishlar deb qanday tebranishlarga aytiladi?",
+    "answer": "Agar, jism dastlab olgan energiya xisobiga tebranib, tizimga tashqi ta’sir bo`lmagan xolda, davom etadigan tebranishlar;",
+    "noAnswer1": "Agar, tebranishlar davriy ravishda o`zgaruvchi tashqi kuch ta’sirida amalga oshirilsa;",
+    "noAnswer2": "Agar, tebranayotgan fizikaviy kattalik sinus (yoki kosinus) qonuni bo`yicha o`zgarsa;",
+    "noAnswer3": "Agar, tebranishlar vaqt o`tishi bilan so`nuvchan bo`lsa."
+  },
+  {
+    "question": "Agar kondensatorning sig`imi 16 marta orttirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
+    "answer": "4 marta ortadi;",
+    "noAnswer1": "5 marta kamayadi;",
+    "noAnswer2": "7 marta ortadi;",
+    "noAnswer3": "9 marta kamayadi.."
+  },
+  {
+    "question": "Agar kondensatorning sig`imi 64 marta kamaytirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
+    "noAnswer1": "9 marta ortadi;",
+    "noAnswer2": "7 marta kamayadi;",
+    "noAnswer3": "5 marta ortadi;",
+    "answer": "8 marta kamayadi"
+  },
+  {
+    "question": "Agar elektromagnit to’lqinning birinchi va to’rtinchi do’ngliklari orasidagi masofa 24 m bo’lsa, to’lqin uzunligini aniqlang.",
+    "noAnswer1": "6 m;",
+    "noAnswer2": "14 m;",
+    "answer": "8 m;",
+    "noAnswer3": "13 m;"
+  },
+  {
+    "question": "CVCh generetori 3 m to’lqin uzunlikdagi tebranishlar xosil qilayotgan bo’lsa, u qanday chastotsda ishlaydi?",
+    "answer": "100 МHz;",
+    "noAnswer1": "150 МHz;",
+    "noAnswer2": "170 МHz;",
+    "noAnswer3": "190 МHz."
+  },
+  {
+    "question": "Tebranish konturida elektr tebranishlari q =8 *10<sup>-4</sup>cos100t(C) tenglama bilan berilgan. Kondensatordagi zaryadning maxsimal qiymatini nimaga teng?",
+    "noAnswer1": "3 10<sup>-2</sup> C",
+    "noAnswer2": "5 10 C;",
+    "answer": "8 10<sup>-4</sup> C;",
+    "noAnswer3": "15 C."
+  },
+  {
+    "question": "Tebranish konturida elektr tebranishlari q =8 *10<sup>-4</sup>cos100t(C) tenglama bilan berilgan. Tebranishning siklik chaastotasi nimaga teng? (birliklar XBS da)",
+    "noAnswer1": "75",
+    "noAnswer2": "25",
+    "noAnswer3": "10<sup>-4</sup>",
+    "answer": "100"
+  },
+  {
+    "question": "Tebranish konturida elektr tebranishlari q =8 *10<sup>-4</sup>cos88𝜋t(C) tenglama bilan berilgan. Tebranishning chastotasi nimaga teng? (birliklar XBS da)",
+    "noAnswer1": "34",
+    "noAnswer2": "21𝜋",
+    "noAnswer3": "42𝜋t",
+    "answer": "44"
+  },
+  {
+    "question": "Agar elektromagnit to`lqinning bo`shliqdagi tebranish davri 12 10<sup>-12 </sup>s bo`lsa, uning to`lqin uzunligini toping.\r\nT=12*10<sup>-12 </sup> s",
+    "noAnswer1": "13 mm;",
+    "noAnswer2": "14*10<sup>-12 </sup> m;",
+    "noAnswer3": "18*10<sup>-4</sup>   m;",
+    "answer": "36*10<sup>-4 </sup>   m."
+  },
+  {
+    "question": "Agar elektromagnit to`lqinning bo`shliqdagi tebranish chastotasi 37,5 MHz bo`lsa, uning to`lqin uzunligini toping.",
+    "noAnswer1": "58 mm;",
+    "noAnswer2": "12,5*10<sup>-8 </sup> m;",
+    "answer": "8 m;",
+    "noAnswer3": "13  m."
+  },
+  {
+    "question": "Agar elektromagnit to`lqinning bo`shliqdagi tebranish chastotasi 7,5 GHz bo`lsa, uning to`lqin uzunligini toping.",
+    "noAnswer1": "38 mm;",
+    "answer": "0,04 m;",
+    "noAnswer2": "113 m;",
+    "noAnswer3": "14 m."
+  },
+  {
+    "question": "Agar 0,5 m oraliqda 2 10<sup>6 </sup>dona to’lqin uzunligi joylashgan bo’lsa, monoxramatik nurning chastotasini aniqlang.",
+    "answer": "12*10<sup>14</sup> Hz;",
+    "noAnswer1": "7*10<sup>14</sup> Hz;",
+    "noAnswer2": "10<sup>2 </sup>Hz;",
+    "noAnswer3": "10<sup>12 </sup>Hz."
+  },
+  {
+    "question": "Agar 1 m oraliqda 8*10<sup>6 </sup>dona to’lqin uzunligi joylashgan bo’lsa, monoxramatik nurning chastotasini aniqlang.",
+    "answer": "24*10<sup>14</sup> Hz;",
+    "noAnswer1": "7*10<sup>14</sup> Hz;",
+    "noAnswer2": "10<sup>2 </sup>Hz;",
+    "noAnswer3": "10<sup>12 </sup>Hz."
+  },
+  {
+    "question": "O’zgaruvchan tok zanjirida kondensator zaryadi q = 44*10<sup>-4</sup>cos 20𝜋t (C) qonun bo’yicha o’zgarmoqda. Kuchlanishning maximal qiymati 220 V. Kondersatorning elektr sig’imi nimaga teng?",
+    "noAnswer1": "10 mkF;",
+    "noAnswer2": "15 mkF;",
+    "answer": "20 mkF;",
+    "noAnswer3": "25 mkF"
+  },
+  {
+    "question": "Agar g`altakning induktivligi 4 marta kamaytirilsa va kondensator sig’imi 64 marta orttirilsa, tebranish konturida erkin tebranishlar chastotasi qanday o`zgaradi?",
+    "noAnswer1": "o’zgarmaydi",
+    "noAnswer2": "2 marta ortadi;",
+    "noAnswer3": "3 marta kamayadi",
+    "answer": "4 marta kamayadi."
+  },
+  {
+    "question": "Agar g`altakning induktivligi 4 marta kamaytirilsa va kondensator sig’imi 64 marta orttirilsa, tebranish konturida erkin tebranishlar siklik chastotasi qanday o`zgaradi?",
+    "noAnswer1": "o’zgarmaydi",
+    "noAnswer2": "2 marta ortadi;",
+    "noAnswer3": "3 marta kamayadi",
+    "answer": " #4 marta kamayadi."
+  },
+  {
+    "question": "Agar g`altakning induktivligi 4 marta kamaytirilsa va kondensator sig’imi 64 marta orttirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
+    "noAnswer1": "o’zgarmaydi",
+    "noAnswer2": "2 marta ortadi;",
+    "noAnswer3": "3 marta kamayadi",
+    "answer": "4 marta ortadi."
+  },
+  {
+    "question": "Nisbiy magnit kirituvchanligi 1 dan ko’p barobar katta bo’lgan moddalar magnit xususiyatiga ko’ra qanday nomlanadi?",
+    "noAnswer1": "demonlar",
+    "answer": "ferromagnit",
+    "noAnswer2": "paramagnet",
+    "noAnswer3": "diamagnit"
+  },
+  {
+    "question": "Nisbiy magnit kirituvchanligi 1 dan qisman katta bo’lgan moddalar magnit xususiyatiga ko’ra qanday nomlanadi?",
+    "noAnswer1": "demonlar",
+    "noAnswer2": "ferromagnit",
+    "answer": "paramagnet",
+    "noAnswer3": "diamagnit"
+  },
+  {
+    "question": " Fotoelementga tushayotgan foton energiyasi 25 eV, fotoeffektniing qizil chegarasi 13 eV bo’lsa metaldan ajralgan elektronning kinetiK energiyasini (eV) toping.",
+    "answer": "12",
+    "noAnswer1": "15",
+    "noAnswer2": "19",
+    "noAnswer3": "17"
+  },
+  {
+    "question": "Metaldan ajralgan elektronning kinetik energiyasini 23 eV, fotoeffektning qizil chegarasi 13 eV bo’lsa, fotoelementga tushayotgan foton energiyasini (eV) toping.",
+    "answer": "36",
+    "noAnswer1": "21",
+    "noAnswer2": "13",
+    "noAnswer3": "29"
+  },
+  {
+    "question": "25 eV necha Joulga teng?",
+    "noAnswer1": "2,5*10<sup>-19</sup>",
+    "noAnswer2": "30*10<sup>-19</sup>",
+    "answer": "40*10<sup>-19</sup>",
+    "noAnswer3": "35*10<sup>-19</sup>"
+  },
+  {
+    "question": "Nisbiy magnit kirituvchanligi 1 dan kichik bo’lgan moddalar magnit xususiyatiga ko’ra qanday nomlanadi?",
+    "noAnswer1": "demonlar",
+    "noAnswer2": "ferromagnit",
+    "noAnswer3": "paramagnet",
+    "answer": "diamagnit"
+  },
+  {
+    "question": "Burchakka tiralgan yoyning uzunligi 60 sm. Agar aylana radiusi 15 sm bo’lsa, yoy tiralgan burchak necha radianga teng?",
+    "answer": "4",
+    "noAnswer1": "5",
+    "noAnswer2": "6",
+    "noAnswer3": "7"
+  },
+  {
+    "question": "Ikki jism orasidagi masofani o‘zgartirmagan xolda birining massasini 3 marta, boshqasining massasini 4 marta orttirildi. Ular orasidagi gravitatsion kuch necha marta ortgan?",
+    "answer": "12",
+    "noAnswer1": "15",
+    "noAnswer2": "19",
+    "noAnswer3": "25"
+  },
+  {
+    "question": "Massasi 1,5 kg bo‘lgan moddiy nuqta 4 m radiusli aylana bo’ylab harakat qilmoqda Uning inersiya (kg*m<sup>2</sup>) momentini aniqlang.",
+    "answer": "24",
+    "noAnswer1": "21",
+    "noAnswer2": "0",
+    "noAnswer3": "25"
+  },
+  {
+    "question": "Massasi 300 gr bo‘lgan metall sharcha yer sathidan 4 metr balandlikda qo‘zg’olmas qilib maxkamlansa, u qanday potensial energiyaga (J) erishadi? g=10 m/s<sup>2</sup> deb oling.",
+    "answer": "12",
+    "noAnswer1": "15",
+    "noAnswer2": "23",
+    "noAnswer3": "19"
+  },
+  {
+    "question": "Nuqtaviy zaryaddan biror r masofada joylashgan nuqtaning elektr maydon kuchlanganligi 48 V/m ga teng. Agar zaryad va kuzatilayotgan nuqta nisbiy dielektrik singdiruvchanligi 3 ga teng bo‘lgan muhitga ko’chirilsa kuzatilayotgan nuqtadagi elektr maydon kuchlanganligi (V/m) qanday bo‘lib qoladi?",
+    "answer": "16",
+    "noAnswer1": "15",
+    "noAnswer2": "13",
+    "noAnswer3": "10"
+  },
+  {
+    "question": "Massasi 2 kg bo‘lgan brusok 6 m/s tezlik bilan to‘g’ri chiziqli tekis harakatlanganda qanday kinetik energiyaga (J) erishadi?",
+    "answer": "36",
+    "noAnswer1": "45",
+    "noAnswer2": "26",
+    "noAnswer3": "15"
+  },
+  {
+    "question": "Muxitning magnit kirituvchanligi 0,8 va dielektrik singdiruvchanligi 5 ga teng bo’lsa, uning optik zichligi qanday?",
+    "answer": "2",
+    "noAnswer1": "1,5",
+    "noAnswer2": "1",
+    "noAnswer3": "0,5"
+  },
+  {
+    "question": "Ikki nuqta orasidagi eng qisqa masofa qanday nomlanadi?",
+    "answer": "radius vektor",
+    "noAnswer1": "trayektoriya",
+    "noAnswer2": "moddiy nuqta",
+    "noAnswer3": "yo'l"
+  },
+  {
+    "question": "Normal ko’zning eng yaxshi ko’rish (toliqmaslik) masofasi  qancha?",
+    "answer": "25 sm",
+    "noAnswer1": "5 m",
+    "noAnswer2": "15 sm",
+    "noAnswer3": "15-35 sm"
+  },
+  {
+    "question": "Normal ko’zning optik kuchi (dptr) qancha?",
+    "noAnswer1": "1",
+    "noAnswer2": "1,5",
+    "answer": "4",
+    "noAnswer3": "7"
+  },
+  {
+    "question": "O’quvchi kitobni  10 sm masofadan qiynalmay o’qiyotgan bo’lsa, bu o’quvchiga qanday ko’zoynak tavsiya qilinadi?",
+    "answer": "-6",
+    "noAnswer1": "-0,7",
+    "noAnswer2": "-3",
+    "noAnswer3": "-1,5"
+  },
+  {
+    "question": "Atom yadrosida 11 ta proton va 13 ta neytron bor bolsa, shu neytral atomning nuklonlar soni nechta?",
+    "noAnswer1": "11",
+    "noAnswer2": "13",
+    "answer": "24",
+    "noAnswer3": "2"
+  },
+  {
+    "question": "Tebranish konturi g‘altak va xar birining sig‘imi C bo‘lgan 4 ta ketma-ket ulangan kondensatorlardan iborat. Agar kondensatorlar o‘zaro parallel ulansa konturdagi erkin elektromagnit tebranishlarining chastotasi qanday o‘zgaradi?",
+    "noAnswer1": "2 marta ortadi;",
+    "noAnswer2": "2 marta kamayadi;",
+    "noAnswer3": "3 marta ortadi;",
+    "answer": "4 marta kamayadi"
+  },
+  {
+    "question": "Tebranish konturi g‘altak va xar birining sig‘imi C bo‘lgan 2 ta ketma-ket ulangan kondensatorlardan iborat. Agar kondensatorlar o‘zaro parallel ulansa konturdagi erkin elektromagnit tebranishlarining davri qanday o‘zgaradi?",
+    "answer": " #2 marta ortadi;",
+    "noAnswer1": "3 marta kamayadi;",
+    "noAnswer2": "5 marta ortadi;",
+    "noAnswer3": "7 marta kamayadi."
+  },
+  {
+    "question": "Tebranish konturidagi kondensator sig‘imi C= 5 mkF, konturdagi tebranishlarning siklik chastotasi esa 500 rad/s bo‘lsa, konturdagi g‘altakning induktivligi (Gn) qanchaga teng?",
+    "noAnswer1": "25;",
+    "noAnswer2": "1,5;",
+    "noAnswer3": "1;",
+    "answer": " #0,8."
+  },
+  {
+    "question": "Jismlarning harakat qonunlarini harakatni yuzaga keltiruvchi sabablarisiz o’rganadigan bo’limi nomini ko’rsating.",
+    "noAnswer1": "Dinamika;",
+    "answer": "Kinematika.",
+    "noAnswer2": "Statika;",
+    "noAnswer3": "Klassik mexanika;"
+  },
+  {
+    "question": "Moddaning qattiq xolatdan to’g’ridan-to’g’ri gaz xolatga o’tishi ……. deyiladi. Nuqtalar o’rnini to’g’ri to’latuvchi mazmunda to’ldiring.",
+    "noAnswer1": "Erish;",
+    "answer": "Sublimatsiya.",
+    "noAnswer2": "Bug’lanish;",
+    "noAnswer3": "Qaynash;"
+  },
+  {
+    "question": "Suyuqlik sirtidan molekulalarning uchib chiqishi …. deyiladi. Nuqtalar o‘rnini to‘g’ri mazmunda to‘ldiring.",
+    "noAnswer1": "Erish;",
+    "noAnswer2": "Qaynash;",
+    "noAnswer3": "Sublimatsiya;",
+    "answer": "Bug’lanish."
+  },
+  {
+    "question": "Jism va sirt orasidagi ishqalanish koefitsenti quyidagilarning qay biriga bog’liq emas?",
+    "noAnswer1": "Sirtning g’adir-budurligiga;",
+    "noAnswer2": "Material turiga;",
+    "answer": "Jismning massasiga.",
+    "noAnswer3": "Sirt molekulalarining o’zaro ta’siriga;"
+  },
+  {
+    "question": "Tebranish konturidagi kondensator qoplamalari orasidagi masofani 2 marta kamaytirildi. Bunda tebranish chastotasi ...",
+    "noAnswer1": "3 marta ortadi;",
+    "noAnswer2": "3 marta kamayadi;",
+    "noAnswer3": "marta ortadi;",
+    "answer": "√2 marta kamayadi"
+  },
+  {
+    "question": "Atomning nur sochish vaqti … tartibdadir",
+    "answer": "10<sup>-8</sup> s",
+    "noAnswer1": "10<sup>-9</sup>  s",
+    "noAnswer2": "10<sup>-7</sup>  s",
+    "noAnswer3": "10<sup>-10</sup> s"
+  },
+  {
+    "question": "Yer sharini o‘rab turgan xavo qobig’ining Yerga va undagi jismlarga ko‘rsatadigan bosimi 1 mm. sim. ustuniga kamayishi uchun balandlikni (m) qanday o‘zgartirish kerak?",
+    "answer": "12",
+    "noAnswer1": "5",
+    "noAnswer2": "25",
+    "noAnswer3": "11"
+  },
+  {
+    "question": "Magnit maydon kuch chiziqlariga perpendikulyar joylashtirilgan 2 m uzunlikdagi o‘tkazgichdan 0,25 A to‘k o’tganda unga maydon tomonidan 6 N kuch ta’sir qiladi. Bu maydonning induksiyasini (T) aniqlang.",
     "answer": "12",
     "noAnswer1": "6",
-    "noAnswer2": "-6",
-    "noAnswer3": "-12"
+    "noAnswer2": "15",
+    "noAnswer3": "9"
   },
   {
-    "question": "(2-i)/(1-2i) kompleks sonni haqiqiy qismini toping?",
-    "noAnswer1": "1/5",
-    "answer": "4/5",
-    "noAnswer2": "-1/5",
-    "noAnswer3": "2/5"
+    "question": "Yuzasi 20 sm<sup>2</sup> bo‘lgan sirtga 80 N kuch ta’sir qilsa, bu sirtga ko‘rsatilayotgan bosim (kPa) qanday?",
+    "answer": "40",
+    "noAnswer1": "38",
+    "noAnswer2": "42",
+    "noAnswer3": "35"
   },
   {
-    "question": "(1+i)(-2+2i) kompleks sonning argument nimaga teng?",
-    "answer": "π",
-    "noAnswer1": "-π",
-    "noAnswer2": "π/2",
-    "noAnswer3": "0"
+    "question": "To`lqin uzunligi λ, fazalar farqi π/3 bo`lganida, interferensiyalanayotgan ikkita kogerent nurlarning yo`llar farqini toping.",
+    "noAnswer1": "1,5λ;",
+    "noAnswer2": "λ /3",
+    "answer": "λ /6",
+    "noAnswer3": "λ /7"
   },
   {
-    "question": "(1+i) kompleks sonning argumenti nimaga teng?",
-    "answer": "π/4",
-    "noAnswer1": "-π/4",
-    "noAnswer2": "π/2",
-    "noAnswer3": "0"
+    "question": "Agar xar qaysi to`lqinning amplitudasi A ga teng bo`lib, nuqtaga qarama-qarshi fazada kelsa, natijaviy amplituda nimaga teng bo`ladi?",
+    "answer": "0;",
+    "noAnswer1": "1,3А;",
+    "noAnswer2": "А;",
+    "noAnswer3": "1"
   },
   {
-    "question": "(-2+2i) kompleks sonning argumenti nimaga teng?",
-    "answer": "3π/4",
-    "noAnswer1": "-π/4",
-    "noAnswer2": "π/2",
-    "noAnswer3": "0"
+    "question": "Quyidagilar orasidan qay biri ortiqcha?",
+    "noAnswer1": "Kuch",
+    "noAnswer2": "Zaryad miqdori",
+    "noAnswer3": "Elektr kuchlanishi",
+    "answer": "Kandela"
   },
   {
-    "question": "(1-i) kompleks sonning argumenti nimaga teng?",
-    "noAnswer1": "3π/4",
-    "answer": "-π/4",
-    "noAnswer2": "π/2",
-    "noAnswer3": "0"
+    "question": "Charm va peton orasidagi ishqalanish koefitsenti 0,4 ga teng. Yuki bilan birgalikdagi massasi 2 tonna bo‘lgan atomobilning tormozlanish kuchini (kN) toping. g=10 m/s<sup>2</sup> deb xisoblansin.",
+    "noAnswer1": "5",
+    "answer": "8",
+    "noAnswer2": "11",
+    "noAnswer3": "7"
   },
   {
-    "question": "(1-3i) kompleks sonning argumenti nimaga teng?",
-    "noAnswer1": "arctg3",
-    "answer": "-arctg3",
-    "noAnswer2": "π/2",
-    "noAnswer3": "0"
+    "question": "Tebranish konturida elektr tebranishlari q = 10<sup>-3</sup>cos400t tenglama bilan berilgan. Tokning amplitudaviy qiymati nimaga teng?",
+    "answer": "0,4",
+    "noAnswer1": "15",
+    "noAnswer2": "10t ;",
+    "noAnswer3": "2,5"
   },
   {
-    "question": "(1+3i) kompleks sonning argumenti nimaga teng?",
-    "answer": "arctg3",
-    "noAnswer1": "-arctg3",
-    "noAnswer2": "arctg1/3",
-    "noAnswer3": "-arctg1/3"
+    "question": "Tebranish konturida kondensatordagi zaryadning boshlang`ich qiymati o`zgartirildi. Konturda vujudga keladigan elektr tebranishlarining qaysi xarakteristikalari o`zgarmasdan qoladi.",
+    "noAnswer1": "Tok kuchining tebranishlari amplitudasi;",
+    "noAnswer2": "Kondensatordagi kuchlanish amplitudasi;",
+    "answer": "Tebranishlar davri;",
+    "noAnswer3": "G`altak maydonining magnit induksiya amplitudasi;"
   },
   {
-    "question": "(2-3i) kompleks sonning argumenti nimaga teng?",
-    "noAnswer1": "arctg3/2",
-    "answer": "-arctg3/2",
-    "noAnswer2": "arctg2/3",
-    "noAnswer3": "-arctg2/3"
+    "question": "O‘tkazgichdan oqayotgan elektronlarning o‘rtacha kvadratik tezligi 330 m/s bo‘lsa, undagi tok qanday tezligini tezlikda harakatlanadi?",
+    "answer": "300 Mm/s",
+    "noAnswer1": "135 m/s",
+    "noAnswer2": "546 m/s",
+    "noAnswer3": "333 m/s"
   },
   {
-    "question": "(2+3i) kompleks sonning argumenti nimaga teng?",
-    "answer": "arctg3/2",
-    "noAnswer1": "-arctg3/2",
-    "noAnswer2": "arctg2/3",
-    "noAnswer3": "-arctg2/3"
+    "question": "Charm va peton orasidagi ishqalanish koefitsenti 0,4 ga teng. Yuki bilan birgalikdagi massasi 1,5 tonna bo‘lgan atomobilning tormozlanish tezlanishini (m/s<sup>2</sup>) toping. g=10 m/s<sup>2</sup> deb xisoblansin.",
+    "noAnswer1": "5",
+    "answer": "4",
+    "noAnswer2": "3",
+    "noAnswer3": "1"
   },
   {
-    "question": "(2-i)/(1-2i) kompleks sonning modulini toping.",
-    "noAnswer1": "5/4",
-    "noAnswer2": "4/5",
-    "answer": "1",
-    "noAnswer3": "3/5"
+    "question": "Tovush chastotasi 𝜈=200 Hs va xavodagi tezligi ʋ=340 m/s bo’lsa. Uning to’lqin uzunligini (m) toping.",
+    "noAnswer1": "140",
+    "noAnswer2": "170",
+    "answer": "1,7",
+    "noAnswer3": "1/3"
   },
   {
-    "question": "(4+3i) kompleks sonning modulini toping.",
-    "noAnswer1": "4/3",
-    "noAnswer2": "3/4",
-    "answer": "5",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "(4-3i) kompleks sonning modulini toping.",
-    "noAnswer1": "4/3",
-    "noAnswer2": "3/4",
-    "answer": "5",
-    "noAnswer3": "4"
-  },
-  {
-    "question": "Quyidagi  (½, 1/3, ¼, 1/5,…,1/n,…) sonli ketma-ketlikning  n→∞ dagi limit nuqtasini toping?",
-    "noAnswer1": "1",
-    "answer": "0",
-    "noAnswer2": "-1",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "f(x)=x-5 funksiyaning x→4 dagi limitini hisoblang?",
-    "noAnswer1": "10",
-    "noAnswer2": "1",
-    "noAnswer3": "0",
-    "answer": "-1"
-  },
-  {
-    "question": "Agar {xn} ketma-ketlik uchun xn ≤xn+1 tenglik o‘rinli bo‘lsa, {xn} qanday ketma-ketlik deyiladi?",
-    "answer": "o‘suvchi",
-    "noAnswer1": "kamayuvchi",
-    "noAnswer2": "qat’iy o‘suvchi",
-    "noAnswer3": "qat’iy kamayuvchi"
-  },
-  {
-    "question": "an=(2n-2)/(3n+1) ketma ketlikning  n→∞ dagi limitini hisoblang?",
+    "question": "Tovush chastotasi 𝜈=375 Hs va suvdagi tezligi ʋ=1500 m/s bo’lsa. Uning to’lqin uzunligini (m) toping.",
+    "answer": "4",
     "noAnswer1": "2",
-    "noAnswer2": "1/3",
-    "answer": "2/3",
-    "noAnswer3": "1/2"
+    "noAnswer2": "1",
+    "noAnswer3": "5"
   },
   {
-    "question": "f(x)=(x-5)/(x2-25) funksiyaning x→4 dagi limitini hisoblang?",
-    "noAnswer1": "10",
-    "noAnswer2": "∞",
-    "noAnswer3": "0",
-    "answer": "1/9"
+    "question": "Nuqta x o’qi bo’ylab х=0,02cos(200πt+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezligini toping. Birliklar SI da",
+    "noAnswer1": "0,01π ;",
+    "noAnswer2": "2π ;",
+    "noAnswer3": "π;",
+    "answer": "4𝜋"
   },
   {
-    "question": "f(x)=(x-5)/(x2-25) funksiyaning  x→5 dagi limitini hisoblang?",
-    "answer": "1/10",
-    "noAnswer1": "12",
-    "noAnswer2": "10",
-    "noAnswer3": "∞"
+    "question": "Nuqta x o’qi bo’ylab х=0,03cos(400t+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezligini toping. Birliklar SI da",
+    "answer": "12",
+    "noAnswer1": "6",
+    "noAnswer2": "5",
+    "noAnswer3": "18"
   },
   {
-    "question": "f(x)=x2 funksiyaning x→2 dagi limitini hisoblang?",
-    "noAnswer1": "10",
-    "noAnswer2": "-1",
-    "noAnswer3": "1",
-    "answer": "4"
+    "question": "Nuqta x o’qi bo’ylab х=0,03cos(20t+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezlanishini toping. Birliklar SI da",
+    "answer": "12",
+    "noAnswer1": "6",
+    "noAnswer2": "5",
+    "noAnswer3": "18"
   },
   {
-    "question": "f(x)=(tg5x)/(sin7x) funksiyaning x→0 dagi limitini hisoblang?",
-    "answer": "5/7",
-    "noAnswer1": "7/5",
-    "noAnswer2": "0",
-    "noAnswer3": "2"
+    "question": "Nuqta x o’qi bo’ylab х=0,16cos(15t+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezlanishini toping. Birliklar SI da",
+    "answer": "36",
+    "noAnswer1": "18",
+    "noAnswer2": "22",
+    "noAnswer3": "37"
   },
   {
-    "question": "f(x)=(sin3x)/(2x) funksiyaning x→0 dagi limitini hisoblang?",
-    "noAnswer1": "1/6",
-    "noAnswer2": "2/3",
-    "noAnswer3": "0",
-    "answer": "3/2"
-  },
-  {
-    "question": "y=cosx funksiyani birinchi tartibli hosilasini toping?",
-    "answer": "-sinx",
-    "noAnswer1": "cos(-x+1)",
-    "noAnswer2": "-sin(-x+1)",
-    "noAnswer3": "-sin(x+1)"
-  },
-  {
-    "question": "y=lnx funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "1+lnx",
-    "noAnswer2": "x+xlnx",
-    "answer": "1/x",
-    "noAnswer3": "-1/x2"
-  },
-  {
-    "question": "y=2x funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "x-2",
-    "answer": "2",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "∅"
-  },
-  {
-    "question": "y=x2+64 funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "64/ y3",
-    "noAnswer2": "-48/ y3",
-    "noAnswer3": "-64x/ y3",
-    "answer": "2x"
-  },
-  {
-    "question": "y=7x-x2 funksiyani birinchi tartibli hosilasini toping?",
-    "answer": "7-2x",
-    "noAnswer1": "7x5+6x6",
-    "noAnswer2": "7x5(7-6x2)",
-    "noAnswer3": "6x4-7x3"
-  },
-  {
-    "question": "y=-x/3 funksiyani birinchi tartibli hosilasini toping?",
-    "answer": "-1/3",
-    "noAnswer1": "-(ctg2(1/x)*(cos2(1/x))",
-    "noAnswer2": "(1/3)*(tg2(1/x)*(1/sin2(1/x))",
-    "noAnswer3": "1+(tg2(1/x)*(1/cos2(1/x))"
-  },
-  {
-    "question": "Murakkab funksiya uchun hosila to‘g‘ri berilgan javobni toping.",
-    "noAnswer1": "(f(g(x)))'=f'(x)*g‘(f(x))",
-    "answer": "(f(g(x)))'=f'(g(x))*g‘(x)",
-    "noAnswer2": "(f(g(x)))'=f'(g‘(x))",
-    "noAnswer3": "(f(g(x)))'=f'(g‘(x))*g‘(x)"
-  },
-  {
-    "question": "Funksiya grafigi qavariq yoki botiqligini aniqlashda qanday shartga tayaniladi.",
-    "answer": "f''(x)>0 bo‘lsa botiq, f''(x)<0 bo‘lsa qavariq",
-    "noAnswer1": "f''(x)<0 bo‘lsa botiq, f''(x)>0 bo‘lsa qavariq",
-    "noAnswer2": "f'(x)>0 bo‘lsa botiq, f'(x)<0 bo‘lsa qavariq",
-    "noAnswer3": "f''(x)=0 bo‘lsa botiq, f''(x)≠0 bo‘lsa qavariq"
-  },
-  {
-    "question": "y=x+lnx funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "y(min)=-2, y(max)=10",
-    "noAnswer2": "y(min)=3, y(max)=-3",
-    "noAnswer3": "y(min)=4, y(max)=18",
-    "answer": "1+1/x"
-  },
-  {
-    "question": "Qanday funksiyalarga monoton funksiya deb aytiladi?",
-    "noAnswer1": "Maksimum va minimum qiymatga erishuvchi funksiyalarga monoton funksiya deb aytiladi",
-    "noAnswer2": "Ekstremumga ega funksiyalarga monoton funksiya deb aytiladi",
-    "answer": "Oraliqda o‘suvchi yoki kamayuvchi funksiyalarga monoton funksiya deb aytiladi",
-    "noAnswer3": "Harqanday funksiyalarga monoton funksiya deb aytiladi"
-  },
-  {
-    "question": "Funksiyani x=x0 nuqtadagi qiymatini hosila yordamida taqribiy hisoblash formulasini toping?",
-    "answer": "f(x+Δx)≈f'(x)·Δx+f(x)",
-    "noAnswer1": "f(x+Δx)≈f(x)·Δx+f'(x)",
-    "noAnswer2": "f(x+Δx)≈f'(x)+Δx",
-    "noAnswer3": "f(x+Δx)≈f'(x)·Δx-f(x)"
-  },
-  {
-    "question": "Funksiya birinchi tartibli hosilasi funksiya kritik nuqtasidan o‘tishda ishorasini  \"+\" dan \"-\" ga o‘zgartirsa shu nuqtada ....... ga, ishorasini  \"-\" dan \"+\" ga o‘zgartirsa shu nuqtada ..... ga erishadi deyiladi.",
-    "answer": "maksimum , minimum",
-    "noAnswer1": "minimum, maksimum",
-    "noAnswer2": "eng kichik qiymat, eng katta qiymat",
-    "noAnswer3": "ekstremum, maksimum"
-  },
-  {
-    "question": "y=shx funksiyani birinchi tartibli hosilasi to‘g‘ri ko‘rsatilgan javobni toping.",
-    "noAnswer1": "thx",
-    "noAnswer2": "cthx",
-    "noAnswer3": "-shx",
-    "answer": "chx"
-  },
-  {
-    "question": "y=e2x+1 funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "2n*ex+1",
-    "noAnswer2": "-2n*e2x-1",
-    "noAnswer3": "2n-1*e2x+1",
-    "answer": "2e2x+1"
-  },
-  {
-    "question": "Agar o‘suvchi (kamayuvchi) {x n} ketma-ketlik yuqoridan (quyidan) chegaralangan bo‘lsa u .... dir",
-    "noAnswer1": "uzoqlashuvchi",
-    "answer": "yaqinlashuvchi",
-    "noAnswer2": "Monoton o`suvchi",
-    "noAnswer3": "Monoton kamayuvchi"
-  },
-  {
-    "question": "Quyidagi tasdiqlarning qaysi biri o‘rinli:",
-    "noAnswer1": "Shartli yaqinlashuvchi qatorlarning faqat manfiy hadlaridan tuzilgan qator ham yaqinlashuvchi bo‘ladi.",
-    "answer": "absolyut yaqinlashuvchi qatorlar o‘rin almashtirish xossasiga ega",
-    "noAnswer2": "Faqat musbat hadli yaqinlashuvchi qatorlar o‘rin almashtirish xossasiga ega",
-    "noAnswer3": "Shartli yaqinlashuvchi qatorlar o‘rin almashtirish xossasiga ega"
-  },
-  {
-    "question": "y=x2-4 funksiyaning aniqlanish sohasini toping.",
-    "noAnswer1": "(-∞;2) va [2;∞)",
-    "answer": "Barcha haqiqiy sonlar to‘plamidan iborat.",
-    "noAnswer2": "(-∞;2) va (2;∞)",
-    "noAnswer3": "[2;∞)"
-  },
-  {
-    "question": "y=ln(x+1) funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "-1/x3",
-    "noAnswer2": "-2/x3",
-    "answer": "1/(x+1)",
-    "noAnswer3": "1/x3"
-  },
-  {
-    "question": "y=x·cosx funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "-3cosx-xsinx",
-    "answer": "cosx.",
-    "noAnswer2": "-3cosx+xcosx",
-    "noAnswer3": "-3cosx-xsinx\r\ny=sinx funksiyani birinchi tartibli hosilasini toping?"
-  },
-  {
-    "question": "y=-cosx funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "sinx.",
-    "noAnswer2": "-cosx.",
-    "noAnswer3": "cosx.",
-    "answer": "sinx."
-  },
-  {
-    "question": "y=-sinx funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "sinx.",
-    "answer": "-cosx.",
-    "noAnswer2": "cosx.",
-    "noAnswer3": "-sinx."
-  },
-  {
-    "question": "y=-2cosx funksiyani birinchi tartibli hosilasini toping?",
-    "answer": "2sinx.",
-    "noAnswer1": "-2cosx.",
-    "noAnswer2": "2cosx.",
-    "noAnswer3": "-2sinx."
-  },
-  {
-    "question": "Quyidagi funksiyalardan qaysi birining aniqlanish sohasi xaqiqiy sonlar to‘plamidan(R) iborat bo‘ladi?",
-    "noAnswer1": "y=2/sinx.",
-    "answer": "y=-2cosx.",
-    "noAnswer2": "y=2/cosx.",
-    "noAnswer3": "y=-2/sinx."
-  },
-  {
-    "question": "y=2cosx funksiyani qiymatlar sohasini toping?",
-    "answer": "[-2;2].",
-    "noAnswer1": "[-2;0].",
-    "noAnswer2": "[-2;0).",
-    "noAnswer3": "(-2;0)."
-  },
-  {
-    "question": "y=2sinx funksiyani qiymatlar sohasini toping?",
-    "answer": "[-2;2].",
-    "noAnswer1": "[-2;0].",
-    "noAnswer2": "[-2;0).",
-    "noAnswer3": "(-2;0)."
-  },
-  {
-    "question": "y=2cosx funksiyani aniqlanish sohasini toping?",
-    "answer": "Haqiqiy sonlar to‘plami.",
-    "noAnswer1": "[-1;1].",
-    "noAnswer2": "Natural sonlar to‘plami.",
-    "noAnswer3": "(-2;0)."
-  },
-  {
-    "question": "y=-sinx funksiyani ikkinchi tartibli hosilasini toping?",
-    "answer": "sinx.",
-    "noAnswer1": "-cosx.",
-    "noAnswer2": "cosx.",
-    "noAnswer3": "-sinx."
-  },
-  {
-    "question": "y=-cosx funksiyani ikkinchi tartibli hosilasini toping?",
-    "noAnswer1": "sinx.",
-    "noAnswer2": "-cosx.",
-    "answer": "cosx.",
-    "noAnswer3": "-sinx."
-  },
-  {
-    "question": "y=-x2 funksiyani ikkinchi tartibli hosilasini toping?",
-    "noAnswer1": "0.",
-    "noAnswer2": "-1.",
-    "noAnswer3": "1.",
-    "answer": "-2."
-  },
-  {
-    "question": "y=-cosx2 funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "sinx2.",
-    "noAnswer2": "-2xcosx2.",
-    "answer": "2xsinx2.",
-    "noAnswer3": "-2sinx2."
-  },
-  {
-    "question": "Hosilaning mexanik ma’nosini qisqacha quyidagicha ham aytish mumkin:……",
-    "answer": "yo‘ldan vaqt bo‘yicha olingan birinchi tartibli hosila tezlikka teng.",
-    "noAnswer1": "yo‘ldan vaqt bo‘yicha olingan hosila tezlanishga teng.",
-    "noAnswer2": "yo‘ldan vaqt bo‘yicha olingan  ikkinchi tartibli hosila tezlikka teng.",
-    "noAnswer3": "yo‘ldan vaqt bo‘yicha olingan uchinchi tartibli hosila tezlikka teng."
-  },
-  {
-    "question": "Hosilaning mexanik ma’nosini qisqacha quyidagicha ham aytish mumkin:……",
-    "noAnswer1": "yo‘ldan vaqt bo‘yicha olingan birinchi tartibli hosila tezlanishga teng.",
-    "answer": "yo‘ldan vaqt bo‘yicha olingan ikkinchi tartibli hosila tezlanishga teng.",
-    "noAnswer2": "yo‘ldan vaqt bo‘yicha olingan  ikkinchi tartibli hosila tezlikka teng.",
-    "noAnswer3": "yo‘ldan vaqt bo‘yicha olingan uchinchi tartibli hosila tezlikka teng."
-  },
-  {
-    "question": "(a,b) oraliqning x2>x1 tengsizlikni qanoatlantiruvchi ixtiyoriy ikkita nuqtalari uchun, f(x2)>f(x1) tengsizlik bajarilsa, f(x) funksiya (a,b) oraliqda ……deyiladi.",
-    "answer": "o‘suvchi",
-    "noAnswer1": "kamayuvchi",
-    "noAnswer2": "o‘smaydigan",
-    "noAnswer3": "kamaymaydigan"
-  },
-  {
-    "question": "Funksiyaning birinchi tartibli hosilasi no‘lga teng yoki uzilishga ega bo‘ladigan nuqtalari ….. nuqtalar deyiladi.",
-    "answer": "kritik",
-    "noAnswer1": "kritik emas",
-    "noAnswer2": "chetki",
-    "noAnswer3": "ustki"
-  },
-  {
-    "question": "(a,b) oraliqning x2>x1 tengsizlikni qanoatlantiruvchi ixtiyoriy ikkita nuqtalari uchun, f(x2)<f(x1) tengsizlik bajarilsa, f(x) funksiya (a,b) oraliqda ……deyiladi.",
-    "noAnswer1": "o‘suvchi",
-    "answer": "kamayuvchi",
-    "noAnswer2": "o‘smaydigan",
-    "noAnswer3": "kamaymaydigan"
-  },
-  {
-    "question": "(a,b) oraliqda differensiallanuvchi y=f(x) funksiya musbat hosilaga ega, ya’ni f/(x)>0 bo‘lsa, funksiya shu oraliqda ….. bo‘ladi;",
-    "answer": "o‘suvchi",
-    "noAnswer1": "kamayuvchi",
-    "noAnswer2": "o‘smaydigan",
-    "noAnswer3": "kamaymaydigan"
-  },
-  {
-    "question": "(a,b) oraliqda differensiallanuvchi y=f(x) funksiya manfiy hosilaga ega, ya’ni f/(x)<0 bo‘lsa, funksiya shu oraliqda ….. bo‘ladi;",
-    "noAnswer1": "o‘suvchi",
-    "answer": "kamayuvchi",
-    "noAnswer2": "o‘smaydigan",
-    "noAnswer3": "kamaymaydigan"
-  },
-  {
-    "question": "Funksiyaning maksimum yoki minimum nuqtalariga …….nuqtalari deyiladi.",
-    "answer": "ekstremum",
-    "noAnswer1": "chetki",
-    "noAnswer2": "kritik",
-    "noAnswer3": "ustki"
-  },
-  {
-    "question": "y=f(x) funksiyaning grafigi (a,b) oraliqning istalgan nuqtasidan unga o‘tkazilgan urinmadan pastda yotsa, funksiya grafigi  shu oraliqda………deyiladi.",
-    "answer": "qabariq",
-    "noAnswer1": "botiq",
-    "noAnswer2": "kritik",
-    "noAnswer3": "ustki"
-  },
-  {
-    "question": "y=f(x) funksiyaning grafigi (a,b) oraliqning istalgan nuqtasidan unga o‘tkazilgan urinmadan pastda yotsa, funksiya grafigi  shu oraliqda ……deyiladi.",
-    "answer": "qabariq",
-    "noAnswer1": "botiq",
-    "noAnswer2": "kritik",
-    "noAnswer3": "ustki"
-  },
-  {
-    "question": "y=f(x)funksiyaning grafigi (a,b) oraliqning istalgan nuqtasidan unga o‘tkazilgan urinmadan yuqorida yotsa, funksiya grafigi shu oraliqda ….. deyiladi.",
-    "noAnswer1": "qabariq",
-    "answer": "botiq",
-    "noAnswer2": "kritik",
-    "noAnswer3": "ustki"
-  },
-  {
-    "question": "Funksiya grafigining qavariq qismini, botiq qismidan ajratuvchi nuqta ……nuqtasi deyiladi.",
-    "noAnswer1": "ichki",
-    "answer": "egilish",
-    "noAnswer2": "kritik",
-    "noAnswer3": "ustki"
-  },
-  {
-    "question": "F(x) funksiya biror oraliqda f(x) funksiyaning boshlang‘ich funksiyasi bo‘lsa,  F(x)+C (bunda C ixtiyoriy o‘zgarmas) funksiyalar to‘plami shu oraliqda f(x) funksiyaning ……. deyiladi.",
-    "noAnswer1": "aniq integrali",
-    "answer": "aniqmas integrali",
-    "noAnswer2": "integrali",
-    "noAnswer3": "Aniq integrali"
-  },
-  {
-    "question": "Suratdagi ko‘phadning darajasi maxrajdagi ko‘phad darajasidan kichik, bo‘lsa, berilgan kasrga ……….funksiya deyiladi.",
-    "noAnswer1": "noto‘g‘ri kasr ratsional",
-    "answer": "to‘g‘ri kasr ratsional",
-    "noAnswer2": "kasr ratsional",
-    "noAnswer3": "kasr"
-  },
-  {
-    "question": "Suratdagi ko‘phadning darajasi maxrajdagi ko‘phad darajasidan katta bo‘lsa, …… funksiya deyiladi.",
-    "answer": "noto‘g‘ri kasr ratsional",
-    "noAnswer1": "to‘g‘ri kasr ratsional",
-    "noAnswer2": "kasr ratsional",
-    "noAnswer3": "kasr"
-  },
-  {
-    "question": "y=sinx funksiyaga boshlang‘ich funksiya toping?",
-    "noAnswer1": "sinx+c.",
-    "answer": "-cosx+c.",
-    "noAnswer2": "cosx+c.",
-    "noAnswer3": "-sinx+c."
-  },
-  {
-    "question": "y=cosx funksiyaga boshlang‘ich funksiya toping?",
-    "answer": "sinx+c.",
-    "noAnswer1": "-cosx+c.",
-    "noAnswer2": "cosx+c.",
-    "noAnswer3": "-sinx+c."
-  },
-  {
-    "question": "y=1/x funksiyaga boshlang‘ich funksiya toping?",
-    "noAnswer1": "x+c.",
-    "answer": "lnx+c.",
-    "noAnswer2": "2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=2/x funksiyaga boshlang‘ich funksiya toping?",
-    "noAnswer1": "x+c.",
-    "answer": "2lnx+c.",
-    "noAnswer2": "2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=ex funksiyaga boshlang‘ich funksiya toping?",
-    "noAnswer1": "xex+c.",
-    "answer": "ex+c.",
-    "noAnswer2": "2ex/x+c.",
-    "noAnswer3": "-exx+c."
-  },
-  {
-    "question": "y=2ex funksiyaga boshlang‘ich funksiya toping?",
-    "noAnswer1": "2xex+c.",
-    "answer": "2ex+c.",
-    "noAnswer2": "2ex/x+c.",
-    "noAnswer3": "-exx+c."
-  },
-  {
-    "question": "y=2e-x funksiyaga boshlang‘ich funksiya toping?",
-    "noAnswer1": "-2xex +c.",
-    "answer": "-2e-x +c.",
-    "noAnswer2": "2e-x/x+c.",
-    "noAnswer3": "-exx+c."
-  },
-  {
-    "question": "y=x-2 funksiyaga boshlang‘ich funksiya toping?",
-    "answer": "-1/x+c.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=c (c=const) funksiyaga boshlang‘ich funksiya toping?",
-    "answer": "cx+c.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=-x-1 funksiyaga boshlang‘ich funksiya toping?",
-    "noAnswer1": "-1/x+c.",
-    "answer": "-lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=x-3 funksiyaga boshlang‘ich funksiya toping?",
-    "answer": "-0,5x-2+c.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=x3 funksiyaga boshlang‘ich funksiya toping?",
-    "answer": "0,25x4+c.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=x2 funksiyaga boshlang‘ich funksiya toping?",
-    "answer": "(1/3)x3+c.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=cx2 funksiyaga boshlang‘ich funksiya toping?",
-    "answer": "(1/3)cx3+c.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=2ex funksiyani aniqlanish sohasini toping?",
-    "answer": "Haqiqiy sonlar to‘plami.",
-    "noAnswer1": "[-1;1].",
-    "noAnswer2": "Natural sonlar to‘plami.",
-    "noAnswer3": "(-2;0)."
-  },
-  {
-    "question": "y=2e-x funksiyani aniqlanish sohasini toping?",
-    "answer": "Haqiqiy sonlar to‘plami.",
-    "noAnswer1": "[-1;1].",
-    "noAnswer2": "Natural sonlar to‘plami.",
-    "noAnswer3": "(-2;0)."
-  },
-  {
-    "question": "y=2x+sinx funksiyani aniqlanish sohasini toping?",
-    "answer": "Haqiqiy sonlar to‘plami.",
-    "noAnswer1": "[-1;1].",
-    "noAnswer2": "Natural sonlar to‘plami.",
-    "noAnswer3": "(-2;0)."
-  },
-  {
-    "question": "y=2-x2 funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "x-2",
-    "answer": "-2x",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "-2"
-  },
-  {
-    "question": "y=2+x2 funksiyani birinchi tartibli hosilasini toping?",
-    "noAnswer1": "x-2",
-    "answer": "2x",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "y=2-x2 funksiyani ikkinchi tartibli hosilasini toping?",
-    "noAnswer1": "x-2",
-    "answer": "-2",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "y=2+x2 funksiyani ikkinchi tartibli hosilasini toping?",
-    "noAnswer1": "x-2",
-    "answer": "2",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "-2"
-  },
-  {
-    "question": "y=2+x2 funksiyani uchinchi tartibli hosilasini toping?",
-    "noAnswer1": "x-2",
-    "answer": "0",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "y=2-x2 funksiyani uchinchi tartibli hosilasini toping?",
-    "noAnswer1": "x-2",
-    "answer": "0",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "-2"
-  },
-  {
-    "question": "y=cx funksiyaga boshlang‘ich funksiya toping?",
-    "answer": "(1/2)cx2+c.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=-cx funksiyaga boshlang‘ich funksiya toping?",
-    "answer": "-(1/2)cx2+c.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "f(x)=x2-5 funksiyaning x→5 dagi limitini hisoblang?",
-    "noAnswer1": "10",
-    "noAnswer2": "-1",
-    "noAnswer3": "1",
-    "answer": "0"
-  },
-  {
-    "question": "f(x)=x2+5 funksiyaning x→5 dagi limitini hisoblang?",
-    "noAnswer1": "10",
-    "noAnswer2": "-1",
-    "noAnswer3": "1",
-    "answer": "50"
-  },
-  {
-    "question": "f(x)=x2+5 funksiyaning x→4 dagi limitini hisoblang?",
-    "noAnswer1": "10",
-    "noAnswer2": "-1",
-    "noAnswer3": "1",
-    "answer": "21"
-  },
-  {
-    "question": "f(x)=x2-5 funksiyaning x→4 dagi limitini hisoblang?",
-    "noAnswer1": "10",
-    "noAnswer2": "-1",
-    "noAnswer3": "1",
-    "answer": "11"
-  },
-  {
-    "question": "y=f(x) funksiyani x=x0 nuqtadagi funksiya orttirmasi qaysi javobda to‘g‘ri ko‘rsatilgan?",
-    "answer": "Δy=f(x0+Δx)-f(x0)",
-    "noAnswer1": "f(x+Δx)≈f(x)·Δx+f'(x)",
-    "noAnswer2": "f(x+Δx)≈f'(x)+Δx",
-    "noAnswer3": "f(x+Δx)≈f'(x)·Δx-f(x)"
-  },
-  {
-    "question": "“pi” va “epsilon” sonlari qanday sonlar?",
-    "answer": "xar ikkalasi irratsional son",
-    "noAnswer1": "xar ikkalasi ratsional son.",
-    "noAnswer2": "“pi” irratsional son “epsilon” ratsional son.",
-    "noAnswer3": "“pi” ratsional son, “epsilon” irratsional son."
-  },
-  {
-    "question": "f(x)=x2+5 funksiya ikkinchi tartibli hosilasini toping?",
-    "noAnswer1": "10",
-    "noAnswer2": "-1",
-    "noAnswer3": "1",
-    "answer": "2"
-  },
-  {
-    "question": "f(x)=-x2+5 funksiya ikkinchi tartibli hosilasini toping?",
-    "noAnswer1": "10",
-    "noAnswer2": "-1",
-    "noAnswer3": "1",
-    "answer": "-2"
-  },
-  {
-    "question": "f(x)=-x2+5 funksiya uchinchi tartibli hosilasini toping?",
-    "noAnswer1": "10",
-    "noAnswer2": "-1",
-    "noAnswer3": "1",
-    "answer": "0"
-  },
-  {
-    "question": "f(x)=x2+5 funksiya uchinchi tartibli hosilasini toping?",
-    "noAnswer1": "10",
-    "noAnswer2": "-1",
-    "noAnswer3": "1",
-    "answer": "0"
-  },
-  {
-    "question": "y=cx funksiyaning birinchi tartibli hosilasini toping?",
-    "answer": "c.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
-  },
-  {
-    "question": "y=kx+b funksiyaning birinchi tartibli hosilasini toping?",
-    "answer": "k.",
-    "noAnswer1": "2lnx+c.",
-    "noAnswer2": "-2/x+c.",
-    "noAnswer3": "-x+c."
+    "question": "Nuqta x o’qi bo’ylab х=0,08cos(20t+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezlanishini toping. Birliklar SI da",
+    "noAnswer1": "13",
+    "noAnswer2": "17",
+    "answer": "32",
+    "noAnswer3": "1,5"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
