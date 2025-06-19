@@ -1,1522 +1,717 @@
 const data = [
   {
-    "question": "To’rtta talaba laboratoriya ishida nisbiy xatolikni turlicha aniqladi. Bularning qay birining natijasi qoniqarsiz deb xisoblanadi?",
-    "noAnswer1": "1",
-    "noAnswer2": "3",
-    "noAnswer3": "5",
-    "answer": "7"
+    "question": "Grafikli matnlarni ekranga chiqaruvchi TextRect funksiyasininig vazifasi",
+    "answer": "matnni berilgan nuqta va shaklda chiqarish",
+    "noAnswer1": "Matnning 1- va oxirgi qatorlarining orasidagi o’lchamlarni qaytaradi",
+    "noAnswer2": "Matnning uzunligi",
+    "noAnswer3": "Matnning balandligi"
   },
   {
-    "question": "Istemolchidagi kuchlanish tushuvi 35 V. Agar bu istemolchining elektr qarshiligi 50 Ω bo‘lsa, undagi tok kuchi (A) ni aniqlang. I=U/R",
-    "noAnswer1": "0,1",
-    "noAnswer2": "0,5",
-    "noAnswer3": "0,9",
-    "answer": "0,7"
+    "question": "+\r\n\r\n\r\n\r\n\r\nQiymat o'zlashtirish operatorini ko'rsating.",
+    "answer": "=",
+    "noAnswer1": "= =",
+    "noAnswer2": ": :",
+    "noAnswer3": "."
   },
   {
-    "question": "Agar difraksion panjaradan o‘tishdagi kuzatilayotgan maximumning maxsimal tartib raqami 3 ga teng bo‘lsa, maximumlar sonini toping.",
-    "noAnswer1": "3",
-    "answer": "7",
-    "noAnswer2": "5",
-    "noAnswer3": "9"
+    "question": "+\r\nC++ Builderda Image1 komponentasiga kompyuterning \"d\" diskida joylashgan \"tatu.jpg\" nomli rasmni yuklash kodini ko'rsating",
+    "answer": "Image1-&gt;Picture-&gt;LoadFromFile(\"D:tatu.jpg\");",
+    "noAnswer1": "Image-&gt;Picture-&gt;LoadFrom(\"D://tatu.jpg//\");",
+    "noAnswer2": "Image1-&gt;Picture-&gt;LoadFromPicture(\"D:tatu.jpg\");",
+    "noAnswer3": "Image1-&gt;Picture-&gt;LoadFromImage(\"D:tatu.jpeg\");"
   },
   {
-    "question": "Oq yorug‘lik shisha prizmaga tushirilmoqda. Shishadan o‘tgan nur necha xil rangga ajraladi?",
-    "noAnswer1": "5",
-    "answer": "7",
-    "noAnswer2": "9",
-    "noAnswer3": "3"
+    "question": "+\r\n\r\n\r\n\r\nDastur ishchi xolatda \"Edit1\" komponentasiga yozilgan ma'lumotlar \"Edit2\" komponentasida ham bir xil namoyon bo'lish kodini ko'rsating",
+    "answer": "Edit2-&gt;Text=Edit1-&gt;Text;",
+    "noAnswer1": "Edit2-&gt;Caption=Edit1-&gt;Caption;",
+    "noAnswer2": "Edit1-&gt;Align=Edit2-&gt;Align;",
+    "noAnswer3": "Edit2-&gt;TextValue=Edit1-&gt;TextValue;"
   },
   {
-    "question": "Elektromagnit to‘lqinlar shkalasidan olingan quyidagi nurlarning qay birini to‘lqin uzunligi eng katta?",
-    "noAnswer1": "Sariq",
-    "noAnswer2": "Binafsha",
-    "noAnswer3": "Yashil",
-    "answer": "Qizil"
+    "question": "+\r\n\r\n\r\n\r\nSatrli ma'lumotni butun sonli ma'lumotga o'zgartirish funksiyasini ko'rsating.",
+    "answer": "StrToInt()",
+    "noAnswer1": "StringToInteger()",
+    "noAnswer2": "IntToStr()",
+    "noAnswer3": "IntegerToStr()"
   },
   {
-    "question": "Elektromagnit to‘lqinlar shkalasidan olingan quyidagi nurlarning qay birini chastotasi eng katta?",
-    "noAnswer1": "Sariq",
-    "answer": "Binafsha",
-    "noAnswer2": "Yashil",
-    "noAnswer3": "Qizil"
+    "question": "+\r\n\r\n\r\n\r\nButun sonli ma'lumotni satrli ma'lumotga o'zgartirish funksiyasini ko'rsating.",
+    "answer": "IntToStr()",
+    "noAnswer1": "StrToInt()",
+    "noAnswer2": "IntegerToStr()",
+    "noAnswer3": "IntegerToString()"
   },
   {
-    "question": "So‘nuvchi tebranishlarning davri T=3 s, so‘nishning logarifmik dekrementi θ=2,1, boshlang‘ich fazasi esa nolga teng. So‘nish kefitsentini toping.",
-    "noAnswer1": "0,3",
-    "noAnswer2": "0,5",
-    "answer": "0,7",
-    "noAnswer3": "0,9"
+    "question": "+\r\n\r\n\r\n\r\nDastur ishga tushirilganda asosiy forma ekranning markazida paydo bo'lishi uchun uning qaysi xususiyatdan foydalaniladi?",
+    "answer": "Position",
+    "noAnswer1": "Align",
+    "noAnswer2": "Aligment",
+    "noAnswer3": "WindowState"
   },
   {
-    "question": "So‘nuvchi tebranishlarning tenglamasi x=0,5 e-0,7t cos (3πt+7) ko‘rinishda bo‘lsa, tebranishning boshlang’ich fazasini (rad) toping.",
-    "noAnswer1": "3",
-    "noAnswer2": "5",
-    "answer": "7",
-    "noAnswer3": "9"
+    "question": "+\r\n\r\n\r\n\r\nFormadan kodlar oynasiga o’tish yoki aksincha qaysi tugma orqali buyruq beriladi",
+    "answer": "F12",
+    "noAnswer1": "F2",
+    "noAnswer2": "F11",
+    "noAnswer3": "Ctrl+F10"
   },
   {
-    "question": "So‘nuvchi tebranishlarning tenglamasi x=0,5 e-0,7t cos (1,4πt+7) ko‘rinishda bo‘lsa, tebranishning chastotasini toping.",
-    "noAnswer1": "0,3",
-    "noAnswer2": "0,5",
-    "answer": "0,7",
-    "noAnswer3": "0,9"
+    "question": "+\r\n\r\n\r\n\r\nBir sohani nusxalash funksiyasi qaysi",
+    "answer": "CopyRect",
+    "noAnswer1": "CopyMode",
+    "noAnswer2": "CopyText",
+    "noAnswer3": "Copy"
   },
   {
-    "question": "So‘nuvchi tebranishlarning tenglamasi x=0,07 e-0,7t cos (1,4πt+7) (m) ko‘rinishda bo‘lsa, tebranishning boshlang‘ich amplitudasini toping.",
-    "noAnswer1": "3",
-    "noAnswer2": "5",
-    "answer": "7",
-    "noAnswer3": "9"
+    "question": "+\r\n\r\n\r\n\r\nGrafikli matnlarni ekranga chiqaruvchi TextExtent funksiyasininig vazifasi",
+    "answer": "Matnning 1- va oxirgi qatorlarining orasidagi o’lchamlarni qaytaradi",
+    "noAnswer1": "Matnning uzunligi",
+    "noAnswer2": "Matnning balandligi",
+    "noAnswer3": "berilgan matnni kerakli nuqtaga chiqarish"
   },
   {
-    "question": "Moddaning nisbiy dielektrik singdiruvchanligi 24,5 ga va nisbiy magnit kirituvchanligi 2 ga teng bo‘lsa, bu moddaning optik zichligini toping.",
-    "noAnswer1": "3",
-    "noAnswer2": "5",
-    "answer": "7",
-    "noAnswer3": "9"
+    "question": "+\r\n\r\n\r\n\r\nTCppWebBrowser komponentasining qaysi xususiyatiga *.html faylni yo’li ko'rsatiladi?",
+    "answer": "Navigate",
+    "noAnswer1": "LoadFromFile",
+    "noAnswer2": "WriteFromFile",
+    "noAnswer3": "OpenFile"
   },
   {
-    "question": "Yorug‘likning biror shaffof muxitdagi tezligi 4,3*107 m/s bo‘lsa, bu muhitning optik  zichligini toping.",
-    "answer": "≈7",
-    "noAnswer1": "≈9",
-    "noAnswer2": "≈11",
-    "noAnswer3": "≈5"
+    "question": "+\r\n\r\n\r\n\r\nGrafikli matnlarni ekranga chiqaruvchi TextWidth funksiyasininig vazifasi",
+    "answer": "Matnning uzunligi",
+    "noAnswer1": "Matnning balandligi",
+    "noAnswer2": "Matnning 1- va oxirgi qatorlarining orasidagi o’lchamlarni qaytaradi",
+    "noAnswer3": "berilgan matnni kerakli nuqtaga chiqarish"
   },
   {
-    "question": "Ikki xil  manbadan chiqayotgan kogerent to‘lqinlar qo‘shilishi natijasida interferensiya qaysi soxada maximumga erishadi?",
-    "noAnswer1": "yopiq soxada",
-    "noAnswer2": "erkin soxada",
-    "noAnswer3": "ochiq soxa",
-    "answer": "ikki xil manbadan kogerent  to‘lqinlar chiqmaydi"
+    "question": "+\r\n\r\n\r\n\r\n\r\n\r\nC++ Builderda forma shaffofligini qaysi xususiyat orqali faollashtiriladi?",
+    "answer": "AlphaBlend",
+    "noAnswer1": "AlphaBlendValue",
+    "noAnswer2": "Align",
+    "noAnswer3": "Visible"
   },
   {
-    "question": "G‘altak ipni quyoshli kunda yerga yaqinlashtirilganda soya xosil bo’ladi. Uni yerdan yuqoriga ko‘tarila boshlaganda soya xiralashadi va asta sekin ko‘rinmay qoladi. Bunga sabab nima?",
-    "answer": "yorug’lik difraksiyasi",
-    "noAnswer1": "yorug‘likning qaytishi",
-    "noAnswer2": "yorug'lik interferensiyasi",
-    "noAnswer3": "yorug‘lik dispersiyasi"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda forma shaffofligi qabul qiladigan qiymat oralig'ini ko'rsating.",
+    "answer": "0-255",
+    "noAnswer1": "1-255",
+    "noAnswer2": "0-256",
+    "noAnswer3": "1-100"
   },
   {
-    "question": "Ikki kogerent to‘lqinlarning qo‘shilishi natijasida ayrim soxalarda maximumga va ayrim soxalarda minimumga erishish xodisasi …. deyiladi. Nuqtalar o‘rnini tog’ri to‘latuvchi javobni  toping.",
-    "noAnswer1": "yorug’lik difraksiyasi",
-    "noAnswer2": "yorug‘likning qaytishi",
-    "answer": "yorug'lik interferensiyasi",
-    "noAnswer3": "yorug‘lik dispersiyasi"
+    "question": "+\r\n\r\n\r\nAutoSize form obyektining vazifasi",
+    "answer": "Avtomatik o’lchamni o’rnatish",
+    "noAnswer1": "Formatdagi sistemali tugmalar",
+    "noAnswer2": "Sarlavhani nomlash",
+    "noAnswer3": "Nusxalash"
   },
   {
-    "question": "Chelak tubida tanga yotibdi. Chelakka suv quyilganida tanganing ko‘rinishi yuqoriroqqa ko‘tariladi. Bunga sabab nima?",
-    "noAnswer1": "yorug’lik difraksiyasi",
-    "answer": "yorug‘likning sinishi",
-    "noAnswer2": "yorug'lik interferensiyasi",
-    "noAnswer3": "yorug‘lik dispersiyasi"
+    "question": "+\r\n\r\n\r\n\r\nAlign xossasining vazifasi",
+    "answer": "Joylashuvi",
+    "noAnswer1": "Ustunlar soni",
+    "noAnswer2": "rangi",
+    "noAnswer3": "Qator va ustunning sarlavha rangi"
   },
   {
-    "question": "Osmonda kamalak nimaning xisobiga xosil bo‘ladi?",
-    "noAnswer1": "yorug’lik difraksiyasi",
-    "noAnswer2": "yorug‘likning sinishi",
-    "noAnswer3": "yorug'lik interferensiyasi",
-    "answer": "yorug‘lik dispersiyasi"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasida matn chiqarish uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt; Text = “Matn”;",
+    "noAnswer1": "Label1-&gt;Caption = “Matn”;",
+    "noAnswer2": "Label1-&gt;Text = “Matn”;",
+    "noAnswer3": "Edit1-&gt; Caption = “Matn”;"
   },
   {
-    "question": "Agar yarim o‘tkazgich elektr tokini asosan elektronlar xisobiga o‘tkazsa bu qanday  turdagi  yarim o‘tkazgich xisoblanadi?",
-    "answer": "donorli",
-    "noAnswer1": "akseptorli",
-    "noAnswer2": "neytronli",
-    "noAnswer3": "plazmali"
+    "question": "+\r\n\r\n\r\n\r\nColCount xossasining vazifasi",
+    "answer": "Ustunlar soni",
+    "noAnswer1": "rangi",
+    "noAnswer2": "Qator va ustunning sarlavha rangi",
+    "noAnswer3": "Joylashuvi"
   },
   {
-    "question": "Agar yarim o‘tkazgich elektr tokini  asosan kovaklar xisobiga o‘tkazsa bu qanday  turdagi  yarim o‘tkazgich xisoblanadi?",
-    "noAnswer1": "donorli",
-    "answer": "akseptorli",
-    "noAnswer2": "neytronli",
-    "noAnswer3": "plazmali"
+    "question": "+\r\n\r\n\r\n\r\nColor xossasining vazifasi",
+    "answer": "rangi",
+    "noAnswer1": "Joylashuvi",
+    "noAnswer2": "Ustunlar soni",
+    "noAnswer3": "hajmi"
   },
   {
-    "question": "Gazning kuchli ionlashgan xolatiga nima deyiladi?",
-    "noAnswer1": "donor",
-    "noAnswer2": "akseptor",
-    "noAnswer3": "neytron",
-    "answer": "plazma"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda MaskEdit1 komponentasiga joriy vaqtni chiqarish uchun qanday amallar bajariladi?",
+    "answer": "MaskEdit1-&gt;Text=TimeToStr(Now());",
+    "noAnswer1": "MaskEdit1-&gt;Text=Time(Now());",
+    "noAnswer2": "MaskEdit1-&gt;Text=Time( );",
+    "noAnswer3": "MaskEdit1-&gt;Text=IntToStr(Now());"
   },
   {
-    "question": "Agar tebranish sin yoki cos qonuniga bo‘ysunsa bunday tebranishlarga …. deyiladi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
-    "noAnswer1": "erkin tebranish",
-    "answer": "garmonik tebranish",
-    "noAnswer2": "majburiy tebranish",
-    "noAnswer3": "mexanik tebranish"
+    "question": "+\r\n\r\n\r\n\r\nO'rnatiluvchi dastur yaratishda foydalaniladigan dastur nomini toping?",
+    "answer": "InnoSetup Compiler",
+    "noAnswer1": "C++ Builder XE",
+    "noAnswer2": "WinRAR",
+    "noAnswer3": "Notepad"
   },
   {
-    "question": "Agar tebranish davriy tashqi ta’sir xisobiga sodir bo‘lsa bunday tebranishlarga …. deyiladi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
-    "noAnswer1": "erkin tebranish",
-    "noAnswer2": "garmonik tebranish",
-    "answer": "majburiy tebranish",
-    "noAnswer3": "mexanik tebranish"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Label komponentasida matn chiqarish uchun qanday amallar bajariladi?",
+    "answer": "Label1-&gt;Caption = “Matn”;",
+    "noAnswer1": "Edit1-&gt; Text = “Matn”;",
+    "noAnswer2": "Label1-&gt;Text = “Matn”;",
+    "noAnswer3": "Edit1-&gt; Caption = “Matn”;"
   },
   {
-    "question": "Agar tebranish boshlang’ich tashqi ta’sirxisobiga sodir bo‘lsa, bunday tebranishlarga ….. deyiladi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
-    "answer": "erkin tebranish",
-    "noAnswer1": "garmonik tebranish",
-    "noAnswer2": "majburiy tebranish",
-    "noAnswer3": "mexanik tebranish"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda int tipida ‘a=5, b=8, c=a+b; ’ o’zgaruvchilari berilgan, \"c\" o’zgaruvchini Label1 komponentasida chiqarish uchun qanday amallar bajariladi?",
+    "answer": "Label1-&gt;Caption=IntToStr(c);",
+    "noAnswer1": "Label1-&gt;Caption=c.StrToInt();",
+    "noAnswer2": "Label1-&gt;Caption=FloatTo(c);",
+    "noAnswer3": "Label1-&gt;Caption=StrToInt(c);"
   },
   {
-    "question": "Davriy takrorlanadigan harakatlarga ….. deyiladi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
-    "noAnswer1": "erkin tebranish",
-    "noAnswer2": "garmonik tebranish",
-    "noAnswer3": "majburiy tebranish",
-    "answer": "mexanik tebranish"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasini dastur ishchi holatida formada ko’rinmasligi uchun qanday amallarni bajarish kerak?",
+    "answer": "Button1-&gt;Visible=false;",
+    "noAnswer1": "Button1-&gt;Enabled=false;",
+    "noAnswer2": "Button1-&gt;Visible=true;",
+    "noAnswer3": "Button1-&gt;Enabled=true;"
   },
   {
-    "question": "Matematik mayatnikning uzunligi 16 marta ortsa, uning tebranish davri qanday o‘zgaradi?",
-    "answer": "4 marta ortadi",
-    "noAnswer1": "3 marta kamayadi",
-    "noAnswer2": "o‘zgarmaydi",
-    "noAnswer3": "aniqlab bo‘lmaydi"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda joylashgan Edit1 komponentasidagi ma’lumotni Label1 komponentasiga chiqarish uchun qanday amallarni bajarish kerak?",
+    "answer": "Label1-&gt;Caption=Edit1-&gt;Text;",
+    "noAnswer1": "Edit1-&gt;Text=Label1-&gt;Caption;",
+    "noAnswer2": "Label1-&gt;Text=Edit1-&gt;Caption;",
+    "noAnswer3": "Edit1-&gt;Caption=Label1-&gt;Text;"
   },
   {
-    "question": "Prujinali mayatnikdagi yukning massasi 16 marta kamaysa, uning tebranish chastotasi qanday o‘zgaradi?",
-    "answer": "4 marta ortadi",
-    "noAnswer1": "3 marta kamayadi",
-    "noAnswer2": "o‘zgarmaydi",
-    "noAnswer3": "aniqlab bo‘lmaydi"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda asosiy menyular yaratishga mo’ljallangan komponenta nomini ko’rsating:",
+    "answer": "MainMenu",
+    "noAnswer1": "PopupMenu",
+    "noAnswer2": "MenuMain",
+    "noAnswer3": "TMenu"
   },
   {
-    "question": "Quyidagilar orasidan qay biri ortiqcha?",
-    "noAnswer1": "Difraksiya",
-    "noAnswer2": "Qutblanish",
-    "noAnswer3": "Interferensiya",
-    "answer": "Yorug‘lik kuchi"
+    "question": "+\r\n\r\n\r\n\r\n C++ Builderda kontekst menyular yaratishga mo’ljallangan komponenta nomini ko’rsating:",
+    "answer": "PopupMenu",
+    "noAnswer1": "MainMenu",
+    "noAnswer2": "MenuMain",
+    "noAnswer3": "TMenu"
   },
   {
-    "question": "Bog‘lanish energiyasi 63 J bo‘lishi uchun zarraning massasi qancha (pikogramm) bo‘lishi kerak?",
-    "noAnswer1": "3",
-    "noAnswer2": "5",
-    "answer": "7",
-    "noAnswer3": "9"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasini bosganda Shape1 komponentasi kvadrat shaklini olishi uchun qanday amallar bajariladi?",
+    "answer": "Shape1-&gt;Shape=stSquare;",
+    "noAnswer1": "Shape1-&gt;Shape=stCircle;",
+    "noAnswer2": "Shape1-&gt;Shape=stRectangle;",
+    "noAnswer3": "Shape1-&gt;Shape=stLine;"
   },
   {
-    "question": "Fokus masofasi 10,5 sm bo‘lgan yig‘uvchi linzadan 21 sm masofaga joylashtirilgan buyumning xaqiqiy tasviri linzadan qanday masofada (sm) xosil bo‘ladi?",
-    "noAnswer1": "15",
-    "noAnswer2": "19",
-    "answer": "21",
-    "noAnswer3": "25"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Label1 komponentasiga joriy vaqtni chiqarish uchun qanday amallar bajariladi?",
+    "answer": "Label1-&gt;Caption=TimeToStr(Now( ));",
+    "noAnswer1": "Label1-&gt;Caption=Time(Now( ));",
+    "noAnswer2": "Label1-&gt;Caption=Time( );",
+    "noAnswer3": "Label1-&gt;Caption=IntToStr(Now( ));"
   },
   {
-    "question": "Mendeleyev davriy jadvalining 51-tartib raqamida surma joylashgan bo‘lib, undagi nuklonlar soni 121 ga teng. Bu elementdagi neytronlar sonini toping.",
-    "noAnswer1": "65",
-    "noAnswer2": "27",
-    "answer": "70",
-    "noAnswer3": "73"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Label1 komponentasi yashirin (ko’rinmas) xolatga o’tishi uchun qanday amallar bajariladi?",
+    "answer": "Label1-&gt;Visible=false;",
+    "noAnswer1": "Label1-&gt;Visible=true;",
+    "noAnswer2": "Label1-&gt;Enabled=false;",
+    "noAnswer3": "Label1-&gt;Enabled=true;"
   },
   {
-    "question": "Sоlеnоiddan qanday (A) tоk o‘tganda, unda 0,8 mWb mаgnit оqimi hоsil bo‘lish jarayonida, mаgnit mаydоn enеrgiyasi 5,6 mJ ga teng bo‘ladi?",
-    "answer": "14",
-    "noAnswer1": "13",
-    "noAnswer2": "9",
-    "noAnswer3": "15"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Button1 komponentasi yashirin (ko’rinmas) xolatga o’tishi uchun qanday amallar bajariladi?",
+    "answer": "Button1-&gt;Visible=false;",
+    "noAnswer1": "Button2-&gt;Visible=false;",
+    "noAnswer2": "Button1-&gt;Enabled=false;",
+    "noAnswer3": "Button2-&gt;Enabled=false;"
   },
   {
-    "question": "Induktivligi 168 mH bo‘lgan g‘altakdan 0,4 5 tok o‘tmoqda. G‘altakning mаgnit mаydоnning enеrgiyasini (mJ) toping.",
-    "answer": "21",
-    "noAnswer1": "19",
-    "noAnswer2": "23",
-    "noAnswer3": "25"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Button2 komponentasi noaktiv (ishlamaydigan) xolatga o’tishi uchun qanday amallar bajariladi?",
+    "answer": "Button2-&gt;Enabled=false;",
+    "noAnswer1": "Button2-&gt;Enabled=true;",
+    "noAnswer2": "Button1-&gt;Enabled=false;",
+    "noAnswer3": "Button1-&gt;Enabled=true;"
   },
   {
-    "question": "Konturni kesib o‘tuvchi magnit oqimi 0,5 s ichida 5 Wb dan 12 Wb gacha tekis o‘zgardi. Konturda hosil bo‘lgan induksiya EYuKni (V) toping",
-    "answer": "14",
-    "noAnswer1": "25",
-    "noAnswer2": "37",
-    "noAnswer3": "13"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Label1 komponentasi noaktiv (ishlamaydigan) xolatga o’tishi uchun qanday amallar bajariladi?",
+    "answer": "Label1-&gt;Enabled=false;",
+    "noAnswer1": "Label1-&gt;Enabled=true;",
+    "noAnswer2": "Label1-&gt;Visible=false;",
+    "noAnswer3": "Label1-&gt;Visible=true;"
   },
   {
-    "question": "Tok kuchi 0,7 A bo‘lganda induktivligi 60 mH bo‘lgan g‘altakda qanday magnit oqimi (mWb) yuzaga keladi?",
-    "answer": "42",
-    "noAnswer1": "39",
-    "noAnswer2": "45",
-    "noAnswer3": "33"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Button1 komponentasi noaktiv (ishlamaydigan) xolatga o’tishi uchun qanday amallar bajariladi?",
+    "answer": "Button1-&gt;Enabled=false;",
+    "noAnswer1": "Button1-&gt;Enabled=true;",
+    "noAnswer2": "Button1-&gt;Visible=false;",
+    "noAnswer3": "Button1-&gt;Visible=true;"
   },
   {
-    "question": "Induktivligi 2 H bo‘lgan g‘altakda o‘zinduksiya EYuKning qiymati 56 V bo‘lishi uchun g‘altakdan o‘tayotgan tokning o‘zgarish tezligi qanday bo‘lishi kerak?",
-    "answer": "28",
-    "noAnswer1": "10",
-    "noAnswer2": "30",
-    "noAnswer3": "32"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasini chertganga formaning sarlovhasiga (Form1) Edit1 komponentasiga kiritilgan qiymatni chiqarish uchun qanday dastur yozish kerak?",
+    "answer": "Form1-&gt;Caption=Edit1-&gt;Text;",
+    "noAnswer1": "Form1-&gt;Text=Edit1-&gt;Text;",
+    "noAnswer2": "Form1-&gt;Caption=Edit1-&gt;Caption;",
+    "noAnswer3": "Form1-&gt;Caption==Edit1-&gt;Caption;"
   },
   {
-    "question": "Rаdiusi 2π (sm) bo‘lgаn g‘altakdan 3,5 А tоk оqmоqdа. G‘altak ichiga mаgnit singdiruvchаnligi 20 bo‘lgаn fеrrоmаgnit o‘zаgi kiritilsа, g‘аltаk ichidаgi mаgnit mаydоn induksiyasi (mkT) qаndаy bo‘lаdi? Galtakdagi o‘ramlar soni 150 ga teng.",
-    "answer": "7",
-    "noAnswer1": "11",
-    "noAnswer2": "97",
-    "noAnswer3": "13"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Formaning “OnCreate” hodisasi qachon ishga tushadi?",
+    "answer": "Forma (yaratilganda) ishga tushganda",
+    "noAnswer1": "Forma faol bo’lganda",
+    "noAnswer2": "Forma bir marta chertilganda",
+    "noAnswer3": "Formaga sichqon ko’rsatkichi olib kelinishi bilan"
   },
   {
-    "question": "Son jixatdan magnit maydon oqimining o‘zgarish tezligiga teng bo‘lgan fizik kattalik bu … . Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
-    "noAnswer1": "Kattalik",
-    "noAnswer2": "Magnit oqimi",
-    "noAnswer3": "Bosim",
-    "answer": "Induksion EYuK"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Formaning “OnActivate” hodisasi qachon ishga tushadi?",
+    "answer": "Forma faol bo’lganda",
+    "noAnswer1": "Forma (yaratilganda) ishga tushganda",
+    "noAnswer2": "Forma bir marta chertilganda",
+    "noAnswer3": "Forma ikki marta chertilganda"
   },
   {
-    "question": "Magnit maydonning kuchlanganligi H=140/π kA/m,Vakuumda shu maydonning\r\nmagnit induktsiyasi B (mT) aniqlansin.",
-    "answer": "56",
-    "noAnswer1": "65",
-    "noAnswer2": "71",
-    "noAnswer3": "43"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda ADOTable komponentasiga bog'langan jadvalning aktiv satridan bitta oldingi satrni aktiv qilish buyrug'i qaysi?",
+    "answer": "ADOTable1-&gt;Prior( );",
+    "noAnswer1": "ADOTable1-&gt; Next( );",
+    "noAnswer2": "ADOTable1-&gt;Last( );",
+    "noAnswer3": "ADOTable1-&gt;Post( );"
   },
   {
-    "question": "I=7 A tok oqayotgan ingichka xalqa markazidagi magnit induktsiya (mkT) topilsin.\r\nHalqaning radiusi r = 5π sm.",
-    "answer": "28",
-    "noAnswer1": "17",
-    "noAnswer2": "19",
-    "noAnswer3": "23"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda ADOTable komponentasiga bog'langan jadvalning aktiv satridan bitta keyingi satrni aktiv qilish buyrug'i qaysi?",
+    "answer": "ADOTable1-&gt; Next( );",
+    "noAnswer1": "ADOTable1-&gt;First( );",
+    "noAnswer2": "ADOTable1-&gt;Prior( );",
+    "noAnswer3": "ADOTable1-&gt;Last( );"
   },
   {
-    "question": "To’g’ri cheksiz uzun o’tkazgichdan I=7 A tok oqmoqda O’tkazgichdan r=5sm uzoklikda turgan nuqtadagi magnit induktsiya B (mkT) aniqlansin.",
-    "answer": "28",
-    "noAnswer1": "27",
-    "noAnswer2": "33",
-    "noAnswer3": "35"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda ADOTable komponentasiga bog'langan jadvalning birinchi satrini aktiv qilish buyrug'i qaysi?",
+    "answer": "ADOTable1-&gt;First( );",
+    "noAnswer1": "ADOTable1-&gt;Last( );",
+    "noAnswer2": "ADOTable1-&gt;Prior( );",
+    "noAnswer3": "ADOTable1-&gt;Post( );"
   },
   {
-    "question": "Musbat zaryadga magnit maydon tomonidan ta’sir qiluvchi Lorens kuchi yo‘nalishini qaysi qonun asosida aniqlanadi?",
-    "answer": "chap qo‘l qonuni",
-    "noAnswer1": "o‘ng qo‘l qonuni",
-    "noAnswer2": "Nyuton qonuni",
-    "noAnswer3": "Gey-Lyussak qonuni"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda ADOTable komponentasiga bog'langan jadvalning oxirgi satrini aktiv qilish buyrug'i qaysi?",
+    "answer": "ADOTable1-&gt;Last( );",
+    "noAnswer1": "ADOTable1-&gt;First( );",
+    "noAnswer2": "ADOTable1-&gt; Next( );",
+    "noAnswer3": "ADOTable1-&gt;Prior( );"
   },
   {
-    "question": "Magnit maydonida joylashtirilgan tokli o‘tkazgichga maydon tomonidan ta’sir qiluvchi Amper kuchi yo‘nalishi qaysi qonun asosida aniqlanadi?",
-    "answer": "chap qo‘l qonuni",
-    "noAnswer1": "o‘ng qo‘l qonuni",
-    "noAnswer2": "Nyuton qonuni",
-    "noAnswer3": "Gey-Lyussak qonuni"
+    "question": "+\r\n\r\n\r\nDasturchi tomonidan dastur elementlari uchun ixtiyoriy tanlangan nom nima deyiladi?",
+    "answer": "Identifikator",
+    "noAnswer1": "Direktiva",
+    "noAnswer2": "O’zgaruvchi",
+    "noAnswer3": "Operator"
   },
   {
-    "question": "O‘tkazgichdagi tok kuchi 3,5 marta ortib, tekshirilayotgan masofa 2 marta kamaytirildi. Bu nuqtadagi magnit maydon induksiyasi avvalgisidan qanday farq qiladi?",
-    "answer": "7 marta ortadi",
-    "noAnswer1": "5 marta kamayadi",
-    "noAnswer2": "3 marta ortadi",
-    "noAnswer3": "9 marta kamayadi"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasiga katta harf registrida ma’lumot kiritish uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;CharCase=ecUpperCase;",
+    "noAnswer1": "Edit1-&gt;CharCase=ecLowerCase;",
+    "noAnswer2": "Edit1-&gt;CharCase=ecNormal;",
+    "noAnswer3": "Edit1-&gt;CharCase=true;"
   },
   {
-    "question": "Magnit maydonidagi konturga ta’sir qiluvchi kuchlar momenti 63 mN*m bu maydonnig magnit induksiyasi 9 mT bo‘lsa kontur momentini (Amp*m2) toping.",
-    "answer": "7",
-    "noAnswer1": "9",
-    "noAnswer2": "11",
-    "noAnswer3": "13"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasiga 5 tagacha bo’lgan simvolda ma’lumot kiritish uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;MaxLength=5;",
+    "noAnswer1": "Edit1-&gt;Length=5;",
+    "noAnswer2": "Edit1-&gt;Max=5;",
+    "noAnswer3": "Edit1-&gt;Min=5;"
   },
   {
-    "question": "Agar nuqtaning tebranish amplitudasi A = 7 sm, tebranayotgan nuqtaning maksimal tezligi υmax = 30 sm/s, va boshlang‘ich fazasi φ = 10o bo‘lsa, nuqtaning garmonik tebranma xarakat tenglamasini yozing.",
-    "answer": "x = 0,7 cos (2t + π/18), m",
-    "noAnswer1": "x = 0,15 cos (2t + π/15), m",
-    "noAnswer2": "x = 0,13 cos (2t + π/8), m",
-    "noAnswer3": "x = 0,15 cos (3t + π/6), m"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasiga joriy vaqtni chiqarish uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;Text=TimeToStr(Now( ));",
+    "noAnswer1": "Edit1-&gt;Text=Time(Now( ));",
+    "noAnswer2": "Edit1-&gt;Text=Time( );",
+    "noAnswer3": "Edit1-&gt;Text=IntToStr(Now( ));"
   },
   {
-    "question": "Moddiy nuqta A = 70 sm amplituda va T = 5 s davr bilan garmonik tebranma xarakat qilmoqda. Moddiy nuqtaning maksimal tezlanishini (mm/s2) aniqlang. π2=10 deb xisoblansin.",
-    "answer": "112",
-    "noAnswer1": "45",
-    "noAnswer2": "107",
-    "noAnswer3": "97"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda LabeledEdit1 komponentasiga joriy vaqtni chiqarish uchun qanday amallar bajariladi?",
+    "answer": "LabeledEdit1-&gt;Text=TimeToStr(Now());",
+    "noAnswer1": "LabeledEdit1-&gt;Text=Time(Now());",
+    "noAnswer2": "LabeledEdit1-&gt;Text=Time( );",
+    "noAnswer3": "LabeledEdit1-&gt;Text=IntToStr(Now());"
   },
   {
-    "question": "Bir xil yo‘nalish va bir xil davrga ega bo‘lgan ikki garmonik tebranishlar A1 = 40 sm va A2 = 80 sm amplitudalarga ega bo‘lib, fazalar farqi φ = 45o ga teng. Natijaviy tebranish amplitudasini aniqlang.",
-    "answer": "112",
-    "noAnswer1": "123",
-    "noAnswer2": "45",
-    "noAnswer3": "89"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Edit1 komponentasidagi ma’lumot Label1 komponentasiga o’tishi va Edit1 dagi ma’lumot o’chirilishi uchun qanday amallar bajariladi?",
+    "answer": "Label1-&gt;Caption=Edit1-&gt;Text; Edit1-&gt;Text=\"\";",
+    "noAnswer1": "Label1-&gt;Caption=Edit1-&gt;Text;",
+    "noAnswer2": "Edit1-&gt;Text=Label1-&gt;Caption; Edit1-&gt;Text=\" \";",
+    "noAnswer3": "Label1-&gt;Caption=Edit1-&gt;Text; Label1-&gt;Text=\" \";"
   },
   {
-    "question": "Bir xil T = 4 s davr va bir xil amplitudalar A = 5 sm ga ega bo‘lgan bir xil yo‘nalishdagi ikki garmonik tebranishlarning fazalar farqi π/4 ga teng. Agar tebranishlardan birining boshlang‘ich fazasi 0 ga teng bo‘lsa, tebranishlarning qo‘shilishidan xosil bo‘lgan\r\nnatijaviy tebranishning xarakat tenglamasini yozing.",
-    "answer": "x = 9,24 cos (πt/2 + π/8), sm",
-    "noAnswer1": "x = 9,2 cos (πt/5 + π/3), sm",
-    "noAnswer2": "x = 9,25 cos (πt/6 + π/7), sm",
-    "noAnswer3": "x = 9,4 cos (πt/3 + π/5), sm"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Label1 komponentasidagi ma’lumot Edit1 komponentasiga o’tishi va Label1 dagi ma’lumot o’chirilishi uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;Text=Label1-&gt;Caption; Label1-&gt;Caption=\" \";",
+    "noAnswer1": "Edit1-&gt;Text=Label1-&gt;Caption;",
+    "noAnswer2": "Label1-&gt;Caption;=Edit1-&gt;Text; Label1-&gt;Caption=\" \";",
+    "noAnswer3": "Edit1-&gt;Text=Label1-&gt;Caption; Text1-&gt;Caption=\" \";"
   },
   {
-    "question": "Elektr tebranish konturi induktivligshi L=25 mGn bo‘lgan indutiv g‘altakdan, sig‘imi C=10 mkF bo‘lgan kondensatordan va qarshiligi R= 1 Om bo‘lgan rezistordan iborat. Ushbu tebranish konturi uchun tebranishning so‘nish logarifmik dekrementini aniqlang.",
-    "answer": "0,063",
-    "noAnswer1": "0,045",
-    "noAnswer2": "0,027",
-    "noAnswer3": "0,012"
+    "question": "+\r\n\r\n\r\n\r\nFrameRect shakllarining vazifasi yoki qiymati",
+    "answer": "To’g’ri burchakli to’rtburchak atrof chiziqlarini 1 pikselga tenglashtirish, to’g’ri burchakli to’rtburchak fonsiz",
+    "noAnswer1": "Nuqtalar bo’yicha soha chizadi",
+    "noAnswer2": "To’g’ri burchakli to’rtburchak.",
+    "noAnswer3": "Chegarasiz to’g’ri burchakli to’rtburchakning foni"
   },
   {
-    "question": "Yung tajribasida tirqishlar orasidagi masofa d = 1mm, tirqishlardan ekrangacha bo‘lgan masofa esa l = 3 m bo‘lsa, 3-qorong‘i soxaning vaziyatini (mm) aniqlang. Tirqishlar to‘lqin uzunligi λ=0,5 mkm bo‘lgan yorug‘lik bilan yoritilmoqda.",
-    "answer": "5,25",
-    "noAnswer1": "3,24",
-    "noAnswer2": "2,56",
-    "noAnswer3": "1,15"
+    "question": "+\r\n\r\n\r\n\r\nFixedColor xossasining vazifasi",
+    "answer": "Qator va ustunning sarlavha rangi",
+    "noAnswer1": "rangi",
+    "noAnswer2": "Joylashuvi",
+    "noAnswer3": "Ustunlar soni"
   },
   {
-    "question": "Agar binafsha yorug‘lik filtrini (0,4 mkm) qizil (0,7 mkm) yorug‘lik filtri bilan almashtirilsa, Frenel ko‘zgulari bilan o‘tkazilgan tajribadagi interferension soxa kengliklari necha marta o‘zgaradi?",
-    "answer": "1,75",
-    "noAnswer1": "2,5",
-    "noAnswer2": "3,14",
-    "noAnswer3": "4,56"
+    "question": "+\r\n\r\n\r\n\r\nNatijalarni jadval ko’rinishini ifodalash uchun C++ Builderda Additional qo’shimcha bo’limining qaysi elementlaridan foydalanamiz?",
+    "answer": "TStringGrid",
+    "noAnswer1": "Tcanvas",
+    "noAnswer2": "TColor",
+    "noAnswer3": "TPen"
   },
   {
-    "question": "Nuqsonli ko‘z egasiga -3 (Dptr) tartibdagi ko‘zoynak taqqan xolatda kitob o‘qishi tavsiya etilishi uchun uni ko‘zining optik kuchi qanday (Dptr) bo‘lishi kerak?",
-    "answer": "+7",
-    "noAnswer1": "+5",
-    "noAnswer2": "-5",
-    "noAnswer3": "+3"
+    "question": "+\r\n\r\n\r\n\r\nGrid  xossasining vazifasi",
+    "answer": "Bunday xossa mavjud emas",
+    "noAnswer1": "Rangi aniqlaydi",
+    "noAnswer2": "Nuqtaning bosh holati",
+    "noAnswer3": "Chiziqning ko’rinishi"
   },
   {
-    "question": "Metall sirtiga tushayotgan foton energiyasi 20 eV, fotoelektronlarning maksimal kinetik energiyasi 6 eV bo‘lsa, fotoeffektning qizil chegarasini (eV) aniqlang.",
-    "answer": "14",
-    "noAnswer1": "5",
-    "noAnswer2": "18",
-    "noAnswer3": "25"
+    "question": "+\r\n\r\n\r\n\r\nPolygon shakllarining vazifasi yoki qiymati",
+    "answer": "Nuqtalar bo’yicha soha chizadi",
+    "noAnswer1": "To’g’ri burchakli to’rtburchak.",
+    "noAnswer2": "Chegarasiz to’g’ri burchakli to’rtburchakning foni",
+    "noAnswer3": "To’g’ri burchakli to’rtburchak atrof chiziqlarini 1 pikselga tenglashtirish, to’g’ri burchakli to’rtburchak fonsiz"
   },
   {
-    "question": "Dielektrik singdiruvchanligi 24,5 va magnit kirituvchanligi ga teng bo‘lgan moddaning optik zichligini baholang.",
-    "answer": "7",
-    "noAnswer1": "9",
-    "noAnswer2": "10",
-    "noAnswer3": "6"
+    "question": "+\r\n\r\n\r\n\r\nRectangle shakllarining vazifasi yoki qiymati",
+    "answer": "To’g’ri burchakli to’rtburchak",
+    "noAnswer1": "Chegarasiz to’g’ri burchakli to’rtburchakning foni",
+    "noAnswer2": "To’g’ri burchakli to’rtburchak atrof chiziqlarini 1 pikselga tenglashtirish, to’g’ri burchakli to’rtburchak fonsiz",
+    "noAnswer3": "Nuqtalar bo’yicha soha chizadi"
   },
   {
-    "question": "Elektr qarshiligi 140 Ω bo‘lgan o‘tkazgichdan 0,3 A tok oqishi uchun bu qismdagi kuchlanish tushuvi qanday bo‘lishi kerak?",
-    "answer": "42",
-    "noAnswer1": "15",
-    "noAnswer2": "12",
-    "noAnswer3": "20"
+    "question": "+\r\n\r\n\r\n\r\nFillRect shakllarining vazifasi yoki qiymati",
+    "answer": "Chegarasiz to’g’ri burchakli to’rtburchakning foni",
+    "noAnswer1": "To’g’ri burchakli to’rtburchak atrof chiziqlarini 1 pikselga tenglashtirish, to’g’ri burchakli to’rtburchak fonsiz",
+    "noAnswer2": "Nuqtalar bo’yicha soha chizadi",
+    "noAnswer3": "To’g’ri burchakli to’rtburchak"
   },
   {
-    "question": "Nur tushirilayotgan absalyut qora jism qaytarish koefitsenti 0,4 ga teng bo‘lgan boshqa jism bilan almashtirilsa yorug‘lik bosimi qanday o‘zgaradi?",
-    "answer": "1,4 marta ortadi",
-    "noAnswer1": "1,2 marta kamayadi",
-    "noAnswer2": "o‘zgarmaydi",
-    "noAnswer3": "1,6 marta ortadi"
+    "question": "+\r\n\r\n\r\n\r\nGrafikli matnlarni ekranga chiqaruvchi TextOut funksiyasininig vazifasi",
+    "answer": "berilgan matnni kerakli nuqtaga chiqarish",
+    "noAnswer1": "Matnning 1- va oxirgi qatorlarining orasidagi o’lchamlarni qaytaradi",
+    "noAnswer2": "Matnning uzunligi",
+    "noAnswer3": "Matnning balandligi"
   },
   {
-    "question": "Tabiiy modda tarkibidagi birinchi izatopning massa ulushi 0,3 ga teng bo‘lsa ikkinchi izatopning massa ulushi qanday?",
-    "answer": "0,7",
-    "noAnswer1": "0,5",
-    "noAnswer2": "0,6",
-    "noAnswer3": "0,2"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasiga kritilayotgan simvollarni barchasini ‘@’ ko’rinishida chiqarish uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;PasswordChar='@';",
+    "noAnswer1": "Edit1-&gt;Password='@';",
+    "noAnswer2": "Edit1-&gt;Char='@';",
+    "noAnswer3": "Edit1-&gt;PassChar='@';"
   },
   {
-    "question": "Tarkibidagi pratonlar soni bir hil bo‘lib, nuklonlar soni bilan farq qiladigan elementlar …. xisoblanadi. Nuqtalar o‘rnini to‘g‘ri mazmunda to‘ldiring.",
-    "answer": "izatoplar",
-    "noAnswer1": "izobarlar",
-    "noAnswer2": "izomerlar",
-    "noAnswer3": "dielektriklar"
+    "question": "+\r\n\r\n\r\n\r\nFixedCols xossasining vazifasi",
+    "answer": "ustun bo’yicha sarlavha soni (odatda 1 ta)",
+    "noAnswer1": "Qator bo’yicha sarlavha soni(odatda 1 ta)",
+    "noAnswer2": "Chiziqlar qalinligi",
+    "noAnswer3": "Qatorlar soni"
   },
   {
-    "question": "Mendeleyev davriy jadvalining 13-tartib raqamida alyuminiy joylashgan bo‘lib, uning nisbiy atom massasi 27 ga teng. Alyuminiydagi neytronlar sonini aniqlang.",
-    "answer": "14",
-    "noAnswer1": "10",
-    "noAnswer2": "6",
-    "noAnswer3": "17"
+    "question": "+\r\n\r\n\r\n\r\nFixedRows xossasining vazifasi",
+    "answer": "Qator bo’yicha sarlavha soni(odatda 1 ta)",
+    "noAnswer1": "ustun bo’yicha sarlavha soni (odatda 1 ta)",
+    "noAnswer2": "Chiziqlar qalinligi",
+    "noAnswer3": "Qatorlar soni"
   },
   {
-    "question": "Poloniyning nisbiy atom massasi 209 ga teng va undagi neytronlar soni 125 ta eknligini bilgan xolda uning Mendeleyev davriy jadvalidagi tartib raqamini aniqlang.",
-    "answer": "84",
-    "noAnswer1": "75",
-    "noAnswer2": "90",
-    "noAnswer3": "60"
+    "question": "+\r\n\r\n\r\n\r\nGridLineWidth xossasining vazifasi",
+    "answer": "Chiziqlar qalinligi",
+    "noAnswer1": "Qator bo’yicha sarlavha soni(odatda 1 ta)",
+    "noAnswer2": "ustun bo’yicha sarlavha soni (odatda 1 ta)",
+    "noAnswer3": "Joylashuvi"
   },
   {
-    "question": "Alyuminiyning massa soni 27 ga teng ekanligi ma’lum bo‘lsa, alyuminiy yadrosining radiusini (F) toping. r0=1,4 F deb oling.",
-    "answer": "4,2",
-    "noAnswer1": "1,6",
-    "noAnswer2": "2,4",
-    "noAnswer3": "3,4"
+    "question": "+\r\n\r\n\r\n\r\nRowCount xossasining vazifasi",
+    "answer": "Qatorlar soni",
+    "noAnswer1": "* Qator bo’yicha sarlavha soni(odatda 1 ta)",
+    "noAnswer2": "ustun bo’yicha sarlavha soni (odatda 1 ta)",
+    "noAnswer3": "Chiziqlar qalinligi"
   },
   {
-    "question": "Yorug‘lik qaytarish koefitsenti 0 ga teng bo‘lgan modda qaytarish koefitsenti 0,4 ga teng bo‘lgan modda bilan almashtirildi. Bu xolatda yorug‘lik bosimi qanday o‘zgaradi?",
-    "answer": "1,4 marta ortadi",
-    "noAnswer1": "2 marta kamayadi",
-    "noAnswer2": "o‘zgarmaydi",
-    "noAnswer3": "2 marta kamayadi"
+    "question": "+\r\n\r\n\r\n\r\nHandle  xossasining vazifasi",
+    "answer": "Deskriptorop pen.",
+    "noAnswer1": "Rangi aniqlaydi",
+    "noAnswer2": "Nuqtaning bosh holati",
+    "noAnswer3": "Chiziqning ko’rinishi"
   },
   {
-    "question": "Suyuqlik yoki gazga ta’sir ettirilgan tashqi bosim uning har bir nuqtasiga o’zgarishsiz uzatiladi. Bu kimning qonuni?",
-    "noAnswer1": "Dalton qonuni",
-    "answer": "Paskal qonuni",
-    "noAnswer2": "Avagadro qonuni",
-    "noAnswer3": "Arhimed qonuni"
+    "question": "+\r\n\r\n\r\n\r\nMode  xossasining vazifasi",
+    "answer": "Nuqtaning bosh holati",
+    "noAnswer1": "Deskriptorop pen.",
+    "noAnswer2": "Rangi aniqlaydi",
+    "noAnswer3": "Qatorlar soni"
   },
   {
-    "question": "Bir hil bosim va bir hil haroratda istalgan moddaning bir moli bir hil xajmni egallaydi. Bu kimning qonuni?",
-    "noAnswer1": "Dalton qonuni",
-    "noAnswer2": "Paskal qonuni",
-    "answer": "Avagadro qonuni",
-    "noAnswer3": "Arhimed qonuni"
+    "question": "+\r\n\r\n\r\n\r\n\r\n\r\nHtml kengaytmali fayllarni dasturga bog'lashda qaysi komponentadan foydalaniladi?",
+    "answer": "TCppWebBrowser",
+    "noAnswer1": "TPageProducer",
+    "noAnswer2": "TDataSource",
+    "noAnswer3": "TDataTable"
   },
   {
-    "question": "Jism aylananing to‘rtdan bir qismini bosib o‘tganda qanday burchakka buriladi?",
-    "answer": "𝜋/2",
-    "noAnswer1": "𝜋/3",
-    "noAnswer2": "𝜋/5",
-    "noAnswer3": "𝜋/7"
+    "question": "+\r\n\r\n\r\n\r\nVariant tipi qanday o'zgaruvchilarga nisbatan qo'llaniladi?",
+    "answer": "Tipi oldindan ma'lum bo'lmagan o'zgaruvchilarga",
+    "noAnswer1": "Satrli o'zgaruvchilarga nisbatan",
+    "noAnswer2": "Sonli o'zgaruvchilarga nisbatan",
+    "noAnswer3": "Fayl tipiga nisbatan"
   },
   {
-    "question": "Magnit maydonining to‘kli o‘tkazgichga ta’sirini aniqlash uchun …… …… formulasidan foydalanamiz. \r\nNuqtalar o‘rnini to‘g’ri mazmunda to‘ldiring.",
-    "noAnswer1": "Nyutonning ikkinchi qonuni",
-    "answer": "Amper kuchi",
-    "noAnswer2": "Kulon qonuni",
-    "noAnswer3": "Paskal qonuni"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda ADOTable komponentasiga bog'langan jadvalga yangi yozuv qo’shish funksiyasini toping?",
+    "answer": "ADOTable1-&gt;Insert( );",
+    "noAnswer1": "ADOTable1-&gt;Last( );",
+    "noAnswer2": "ADOTable1-&gt;Post( );",
+    "noAnswer3": "ADOTable1-&gt;Edit( );"
   },
   {
-    "question": "Nuqta x o’qi bo’ylab х=0,08cos(20t+π), m qonun bo’yicha tebranmoqda. Tebranishning siklik chastotasini toping. Birliklar SI da",
-    "answer": "20 rad/s",
-    "noAnswer1": "17 rad/s",
-    "noAnswer2": "15 rad/s",
-    "noAnswer3": "13 rad/s"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasini bosganda, agar CheckBox1 ob’yekti tanlangan (belgilangan) bo’lsa “Tanlangan” degan yozuvni chiqarish kodini ko’rsating:",
+    "answer": "if (CheckBox1-&gt;Checked==true) ShowMessage(\"Tanlangan\");",
+    "noAnswer1": "if (CheckBox1-&gt;Checked-&gt;false) ShowMessage(\"Tanlangan\");",
+    "noAnswer2": "if (Button1-&gt;Checked==true) ShowMessage(\"Tanlangan\");",
+    "noAnswer3": "if (CheckBox1-&gt;Checked-&gt;true) ShowMessage(\"Tanlangan\");"
   },
   {
-    "question": "Nuqta x o’qi bo’ylab х=0,05cos(80t+12π), m qonun bo’yicha tebranmoqda. Tebranishning boshlang’ich fazasini toping. Birliklar SI da",
-    "noAnswer1": "9π",
-    "noAnswer2": "10π",
-    "noAnswer3": "11π",
-    "answer": "12π"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasiga kritilayotgan simvollarni barchasini ‘*’ ko’rinishida chiqarish uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;PasswordChar='*';",
+    "noAnswer1": "Edit1-&gt;Password='*';",
+    "noAnswer2": "Edit1-&gt;Char='*';",
+    "noAnswer3": "Edit1-&gt;PassChar='*';"
   },
   {
-    "question": "Nuqta x o’qi bo’ylab х=0,05cos(80t+12π), m qonun bo’yicha tebranmoqda. Tebranishning fazasini ko’rsating. Birliklar SI da",
-    "answer": "80t+12π",
-    "noAnswer1": "10t+10π",
-    "noAnswer2": "7t+5π",
-    "noAnswer3": "90t+14π"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasiga kritilayotgan simvollarni barchasini ‘&amp;’ ko’rinishida chiqarish uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;PasswordChar='&amp;';",
+    "noAnswer1": "Edit1-&gt;Password='&amp;';",
+    "noAnswer2": "Edit1-&gt;Char='&amp;';",
+    "noAnswer3": "Edit1-&gt;PassChar='&amp;';"
   },
   {
-    "question": "Tezlikni o‘lchovchi asbob nomini toping?",
-    "answer": "spidometr",
-    "noAnswer1": "dinamometr",
-    "noAnswer2": "sekundamer",
-    "noAnswer3": "ampermetr"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda BitBtn1 komponentasiga rasm qo’yishda qaysi hossadan foydalaniladi?",
+    "answer": "Glyph",
+    "noAnswer1": "Picture",
+    "noAnswer2": "Image",
+    "noAnswer3": "Graph"
   },
   {
-    "question": "Jisming harakat davomida fazoda qoldirgan faraziy izi nima deb yuritiladi?",
-    "answer": "trayektoriya",
-    "noAnswer1": "Ko‘chish",
-    "noAnswer2": "tezlik",
-    "noAnswer3": "kuch"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda MaskEdit komponentasining qaysi hususiyati orqali maska(qolip) qo'yiladi?",
+    "answer": "EditMask",
+    "noAnswer1": "Text",
+    "noAnswer2": "Mask",
+    "noAnswer3": "CharCase"
   },
   {
-    "question": "Suyuqlik yoki gazga to’la botirilgan jism o’z xajmi qadar suyuqlik yoki gazni siqib chiqaradi va jismga shu siqib chiqarilgan suyuqlik yoki gazning og’irligicha yuqoriga yo’nalgan kuch ta’sir qiladi. Bu kimning qonuni?",
-    "noAnswer1": "Dalton qonuni",
-    "noAnswer2": "Paskal qonuni",
-    "noAnswer3": "Avagadro qonuni",
-    "answer": "Arhimed qonuni"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Image komponentasining qaysi hususiyati orqali rasm qo'yiladi?",
+    "answer": "Picture",
+    "noAnswer1": "Glyph",
+    "noAnswer2": "Image",
+    "noAnswer3": "Graph"
   },
   {
-    "question": "Jismning olgan tezlanishi unga qo‘yilgan natijaviy kuchga to‘g’ri, o‘zining massasiga teskari propartsional. Bu qaysi qonun?",
-    "answer": "Nyutonning ikkinchi qonuni",
-    "noAnswer1": "zanjirning bir qismi uchun Om qonuni",
-    "noAnswer2": "Kulon qonuni",
-    "noAnswer3": "butun olam tortishish qonuni"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasini bosganda Shape1 komponentasi aylana shaklini olishi uchun qanday amallar bajariladi?",
+    "answer": "Shape1-&gt;Shape=stCircle;",
+    "noAnswer1": "Shape1-&gt;Shape=Circle;",
+    "noAnswer2": "Shape1-&gt;Shape==stCircle;",
+    "noAnswer3": "Shape1-&gt;Shape==Circle;"
   },
   {
-    "question": "Plankning kvantlar nazariyasiga binoan jismlarning nurlanish uzlukli bo’lsa, yutilish spektri qanday?",
-    "answer": "uzlukli",
-    "noAnswer1": "To’g’ri chiziqli",
-    "noAnswer2": "uzluksiz",
-    "noAnswer3": "Panjaraviy"
+    "question": "+\r\n\r\n\r\n\r\nBevosita rekursiv funksiya nima ish bajaradi?",
+    "answer": "o’ziga -o’zi murojat qiladi",
+    "noAnswer1": "o’zidan keyingisiga murojat qiladi",
+    "noAnswer2": "ish bajarmaydi",
+    "noAnswer3": "bir xil nomli boshqa funksiyaga murojat qiladi"
   },
   {
-    "question": "Ikki kogerent to’lqinlar qo’shilishi natijasida tebranishning ayrim soxalarda maksimumga va  ayrim soxalarda minimumga erishish xodisasi ….. xodisasidir. \r\nNuqtalar o’rnini to’g’ri mazmunda to’ldiring.",
-    "answer": "Yorug’lik interferensiyasi",
-    "noAnswer1": "Yorug’lik dispersiyasi",
-    "noAnswer2": "Yorug’likning qutblanishi",
-    "noAnswer3": "Fotoeffekt xodisasi"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Edit1 komponentasi noaktiv (ishlamaydigan) xolatga o’tishi uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;Enabled=false;",
+    "noAnswer1": "Edit1-&gt;Enabled=true;",
+    "noAnswer2": "Edit1-&gt;Visible=false;",
+    "noAnswer3": "Edit1-&gt;Visible=true;"
   },
   {
-    "question": "Quyidagilar orasidan ortiqchasini belgilang.",
-    "noAnswer1": "massa",
-    "noAnswer2": "kuch",
-    "noAnswer3": "energiya",
-    "answer": "metr"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Formaning “OnClose” hodisasi qachon ishga tushadi?",
+    "answer": "Forma yopilishidan oldin",
+    "noAnswer1": "Forma ikki marta chertilganda",
+    "noAnswer2": "Formaga sichqon ko’rsatkichi olib kelinishi bilan",
+    "noAnswer3": "Forma faol bo’lganda"
   },
   {
-    "question": "To’lqinning tarqalish yo’nalishidagi chiziqda joylashgan ikkita nuqtaning tebranish fazalar farqi 4𝜋 ga teng. Agar nuqtalar orasidagi masofa 32 m bo’lsa to’lqin uzunligi qanday (m) bo’ladi?",
-    "noAnswer1": "3",
-    "noAnswer2": "11",
-    "answer": "16",
-    "noAnswer3": "15"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasini chertganga formaning kenglik o’lchamini Edit1 komponentasiga kiritilgan qiymatga tenglash uchun qanday dastur yozish kerak?",
+    "answer": "Form1-&gt;Width=StrToInt(Edit1-&gt;Text);",
+    "noAnswer1": "Form1-&gt;Width=StrToChar(Edit1-&gt;Text);",
+    "noAnswer2": "Form1-&gt;Width=IntToStr(Edit1-&gt;Text);",
+    "noAnswer3": "Form1-&gt;Width=Edit1-&gt;Text;"
   },
   {
-    "question": "Agar har qaysi to’lqinning amplitudasi 3 A ga teng bo’lib, nuqtaga qarama-qarshi fazada yetib kelsa, natijaviy amplitude nimaga teng bo’ladi?",
-    "noAnswer1": "-3 A",
-    "answer": "0",
-    "noAnswer2": "5 A",
-    "noAnswer3": "3 A"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Formaning “OnDblClick” hodisasi qachon ishga tushadi?",
+    "answer": "Forma ikki marta chertilganda",
+    "noAnswer1": "Forma yopilishidan oldin",
+    "noAnswer2": "Forma bir marta chertilganda",
+    "noAnswer3": "Forma faol bo’lganda"
   },
   {
-    "question": "o’lqinning tarqalish yo’nalishida joylashgan va tebranish fazalar farqi  5π/3 ga teng bo’lgan ikki nuqtalar orasidagi masofa 4 m bo’lsa, to’lqinning uzunligini (m) toping.",
-    "noAnswer1": "2,5",
-    "answer": "4,8",
-    "noAnswer2": "1,3",
-    "noAnswer3": "6,5"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasini chertganga formaning balandlik o’lchamini Edit1 komponentasiga kiritilgan qiymatga tenglash uchun qanday dastur yozish kerak?",
+    "answer": "Form1-&gt;Height=StrToInt(Edit1-&gt;Text);",
+    "noAnswer1": "Form1-&gt;Height=StrToChar(Edit1-&gt;Text);",
+    "noAnswer2": "Form1-&gt;Height=IntToStr(Edit1-&gt;Text);",
+    "noAnswer3": "Form1-&gt;Height=Edit1-&gt;Text;"
   },
   {
-    "question": "Yorug’lik interferensiyasiga ta’rif bering.",
-    "answer": "Kogerent yorug’lik to’lqinlarining qo’shilishida energiyaning fazoda qayta taqsimlanishi",
-    "noAnswer1": "Muhit optik zichligining yorug’lik to’lqin uzunligiga bog’liqligi",
-    "noAnswer2": "Yoruglik to’lqinlarining to’siqni aylanib o’tib, geometrik soya soxasiga og’ishi xodisasi",
-    "noAnswer3": "Tabiiy yorug’lik intensivligining polyarizator (va analizatordan) o’tishidagi o’zgarishi"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasini chertganga formaning rangini ko’k rangga o’zgartirish uchun qanday dastur yozish kerak?",
+    "answer": "Form1-&gt;Color=clBlue;",
+    "noAnswer1": "Form1-&gt;Color=Blue;",
+    "noAnswer2": "Form1-&gt;FontColor=clBlue;",
+    "noAnswer3": "Form1-&gt;Color==clBlue;"
   },
   {
-    "question": "Yorug’lik dispersiyasiga ta’rif bering.",
-    "noAnswer1": "Kogerent yorug’lik to’lqinlarining qo’shilishida energiyaning qayta taqsimlanishi",
-    "answer": "Muhit optik zichligining yorug’lik to’lqin uzunligiga bog’liqligi",
-    "noAnswer2": "Yoruglik to’lqinlarining to’siqni aylanib o’tib, geometrik soya soxasiga og’ishi xodisasi",
-    "noAnswer3": "Tabiiy yorug’lik intensivligining polyarizator (va analizatordan) o’tishidagi o’zgarishi"
+    "question": "+\r\n\r\n\r\n\r\nBir xil toifali, chekli qiymatlarning tartiblangan to’plamiga nima deb ataladi?",
+    "answer": "massiv",
+    "noAnswer1": "oqim",
+    "noAnswer2": "funksiya",
+    "noAnswer3": "rekursiv funksiya"
   },
   {
-    "question": "Yorug’lik difraksiyasiga ta’rif bering.",
-    "noAnswer1": "Kogerent yorug’lik to’lqinlarining qo’shilishida energiyaning qayta taqsimlanishi",
-    "noAnswer2": "Muhit optik zichligining yorug’lik to’lqin uzunligiga bog’liqligi",
-    "answer": "Yoruglik to’lqinlarining to’siqni aylanib o’tib, geometrik soya soxasiga og’ishi xodisasi",
-    "noAnswer3": "Tabiiy yorug’lik intensivligining polyarizator (va analizatordan) o’tishidagi o’zgarishi"
+    "question": "+\r\n\r\n\r\n\r\nKatta va kichik harflardan, ostki chiziq bilan boshlanadigan ketma ketlik …. deyiladi.",
+    "answer": "identifikator",
+    "noAnswer1": "xizmatchi so'z",
+    "noAnswer2": "massiv",
+    "noAnswer3": "funksiya"
   },
   {
-    "question": "Fazoning elektr maydon kuchlanganligi 12 V/m bo‘lgan nuqtasiga kiritilgan 3 nC zaryadga maydon tomonidan ta’sir qiluvchi kuchni (nN) toping.",
-    "noAnswer1": "9",
-    "noAnswer2": "15",
-    "answer": "36",
-    "noAnswer3": "7"
+    "question": "+\r\n\r\n\r\n\r\nParametrli takrorlash operatorini ko'rsating",
+    "answer": "for",
+    "noAnswer1": "if",
+    "noAnswer2": "while",
+    "noAnswer3": "switch"
   },
   {
-    "question": "Termodinamik sistemaga 250 J issiqlik miqdori berilganda gaz tashqi kuchlar ustida 130 J ish bajargan bo‘lsa uning ichki energiyasi necha J ga o‘zgargan?",
-    "answer": "120",
-    "noAnswer1": "130",
-    "noAnswer2": "250",
-    "noAnswer3": "270"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Formaning “OnClick” hodisasi qachon ishga tushadi?",
+    "answer": "Forma bir marta chertilganda",
+    "noAnswer1": "Forma (yaratilganda) ishga tushganda",
+    "noAnswer2": "Forma ikki marta chertilganda",
+    "noAnswer3": "Forma yopilishidan oldin"
   },
   {
-    "question": "Normal sharoitda 2 mol kislorod qanday xajmni egallaydi?",
-    "answer": "44,8 litr",
-    "noAnswer1": "15 litr",
-    "noAnswer2": "7 litr",
-    "noAnswer3": "35 litr"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasiga kritilayotgan simvollarni barchasini ‘#’ ko’rinishida chiqarish uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;PasswordChar='#';",
+    "noAnswer1": "Edit1-&gt;Password='#';",
+    "noAnswer2": "Edit1-&gt;Char='#';",
+    "noAnswer3": "Edit1-&gt;PassChar='#';"
   },
   {
-    "question": "Gorizontal otilgan jismning normal tezlanishi 6 m/s<sup>2</sup>  bo‘lgan momentdagi tangensal tezlanishi (m/s<sup>2</sup>) qanday? g=10 m/s<sup>2</sup> deb oling.",
-    "answer": "8",
-    "noAnswer1": "7",
-    "noAnswer2": "5",
-    "noAnswer3": "9"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasini bosganda, agar RadioButton1 ob’yekti tanlangan (belgilangan) bo’lsa “Tanlangan” degan yozuvni chiqarish kodini ko’rsating:",
+    "answer": "if (RadioButton1-&gt;Checked==true) ShowMessage(\"Tanlangan\");",
+    "noAnswer1": "if (RadioButton1-&gt;Checked=true) ShowMessage(\"Tanlangan\");",
+    "noAnswer2": "if (Radio1-&gt;Checked==true) ShowMessage(\"Tanlangan\");",
+    "noAnswer3": "if (Radio1-&gt;Checked==false) ShowMessage(\"Tanlangan\");"
   },
   {
-    "question": "To`lqinning tarqalish yo`nalishida joylashgan va tebranishlar fazalar farqi 2π/5 ga teng bo`lgan ikki nuqtalar orasidagi masofa 12 m bo`lsa, to`lqin uzunligini (m) toping?",
-    "noAnswer1": "70 m",
-    "noAnswer2": "12,5𝜋",
-    "noAnswer3": "6 m",
-    "answer": "60 m"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda 2 sonni ustida arifmetik amallar bajarish uchun ularni formaga qaysi komponenta orqali to'gridan-tog'ri kiritish mumkin?",
+    "answer": "Edit",
+    "noAnswer1": "Label",
+    "noAnswer2": "Button",
+    "noAnswer3": "BitBtn"
   },
   {
-    "question": "Tebranish manbaidan 10 m va 2 m uzoqlikda joylashgan nuqtalar tebranishlarining fazalar farqini aniqlang. Tebranish davri 0,5 s, to’lqinning tarqalish tezligi 8 m/s.",
-    "noAnswer1": "3𝜋;",
-    "answer": "4𝜋;",
-    "noAnswer2": "𝜋/2",
-    "noAnswer3": "2,5"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasiga ma’lumot kiritishni taqiqlash uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;ReadOnly=true;",
+    "noAnswer1": "Edit1-&gt;CharCase=ecLowerCase;",
+    "noAnswer2": "Edit1-&gt;ReadOnly=false;",
+    "noAnswer3": "Edit1-&gt;ReadOnly==true;"
   },
   {
-    "question": "Agar elektromagnit to’lqinning bo’shliqdagi tebranish davri 4* 10<sup>-8</sup> с bo’lsa, uning to’lqin uzunligini toping.",
-    "noAnswer1": "7 m;",
-    "noAnswer2": "5 m;",
-    "noAnswer3": "3 m;",
-    "answer": "12 m;"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Edit1 komponentasiga kichik harf registrida ma’lumot kiritish uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;CharCase=ecLowerCase;",
+    "noAnswer1": "Edit1-&gt;CharCase=ecUpperCase;",
+    "noAnswer2": "Edit1-&gt;CharCase=ecNormal;",
+    "noAnswer3": "Edit1-&gt;CharCase=true;"
   },
   {
-    "question": "Kosmik kema tomonidan 15 MHz chastotada radio to’lqin uzatilayotgan bo’lsa, uning to’lqin uzunligini aniqlang.",
-    "noAnswer1": "4,5 m;",
-    "answer": "20 m;",
-    "noAnswer2": "15 m;",
-    "noAnswer3": "17 m"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Button2 komponentasi yashirin (ko’rinmas) xolatga o’tishi uchun qanday amallar bajariladi?",
+    "answer": "Button2-&gt;Visible=false;",
+    "noAnswer1": "Button1-&gt;Visible=false;",
+    "noAnswer2": "Button2-&gt;Visible=true;",
+    "noAnswer3": "Button1-&gt;Visible=true;"
   },
   {
-    "question": "Elektr o'tkazuvchanligiga ko'ra ayrim xolatlarda o'zini o'tkazgichday va ayrim xolatlarda o'zini  dielektrikday tutadigan moddalarga qanday nom berilgan?",
-    "noAnswer1": "Metallar",
-    "noAnswer2": "Rezistorlar",
-    "answer": "Yarim o’tkazgichlar",
-    "noAnswer3": "Dielektriklar"
+    "question": "+\r\n\r\n\r\n\r\nC++ Builderda Button1 komponentasi chertilganda Edit1 komponentasi yashirin (ko’rinmas) xolatga o’tishi uchun qanday amallar bajariladi?",
+    "answer": "Edit1-&gt;Visible=false;",
+    "noAnswer1": "Edit1-&gt;Visible=true;",
+    "noAnswer2": "Edit1-&gt;Enabled=false;",
+    "noAnswer3": "Edit1-&gt;Enabled=true;"
   },
   {
-    "question": "Elektr tokini asosan erkin elektronlar xisobiga o’tkazadigan yarim o’tkazgichlar qanday turdagi yarim o’tkazgichlar xisoblanadi?",
-    "noAnswer1": "Akseptorli",
-    "answer": "Donorli",
-    "noAnswer2": "Kirishmali",
-    "noAnswer3": "Metalli"
+    "question": "+\r\n\r\n\r\n\r\nC++ dasturlash tilida funksiyalar o’z –o’zini chaqirish imkoniyatiga qaysi funksiyada ega bo’ladi?",
+    "answer": "rekursiv",
+    "noAnswer1": "getline",
+    "noAnswer2": "insert",
+    "noAnswer3": "return"
   },
   {
-    "question": "Elektr tokini asosan kovaklar xisobiga o’tkazadigan yarim o’tkazgichlar qanday turdagi yarim o’tkazgichlar xisoblanadi?",
-    "answer": "Akseptorli",
-    "noAnswer1": "Donorli",
-    "noAnswer2": "Kirishmali",
-    "noAnswer3": "Metalli"
-  },
-  {
-    "question": "To’rt valentli toza yarim o’tkazgich tarkibiga besh valentli toza yarim o’tkazgich elementi kiritilsa qanday turdagi yarim o’tkazgich xosil bo’ladi?",
-    "noAnswer1": "Toza yarim o’tkazgich saqlanib qoladi",
-    "noAnswer2": "Kirishmali yarim o’tkazgich",
-    "answer": "Donorli yarim o’tkazgich",
-    "noAnswer3": "Akseptorli yarim o’tkazgich"
-  },
-  {
-    "question": "To’rt valentli toza yarim o’tkazgich tarkibiga uch valentli toza yarim o’tkazgich elementi kiritilsa qanday turdagi yarim o’tkazgich xosil bo’ladi?",
-    "noAnswer1": "Toza yarim o’tkazgich saqlanib qoladi",
-    "noAnswer2": "Kirishmali yarim o’tkazgich",
-    "noAnswer3": "Donorli yarim o’tkazgich",
-    "answer": "Akseptorli yarim o’tkazgich"
-  },
-  {
-    "question": "Kosmik kema tomonidan 75 MHz chastotada radioto’lqin uzatilayotgan bo’lsa, uning to’lqin uzunligini toping.",
-    "noAnswer1": "1 m;",
-    "noAnswer2": "2 m;",
-    "noAnswer3": "3 m;",
-    "answer": "4 m."
-  },
-  {
-    "question": "O’zgaruvchan tok zanjirida kondensator zaryadi q = 80*10<sup>-4</sup>cos 20𝜋t (C) qonun bo’yicha o’zgarmoqda. Kuchlanishning maximal qiymati 200 V. Kondersatorning elektr sig’imi nimaga teng?",
-    "noAnswer1": "10 mkF;",
-    "noAnswer2": "15 mkF;",
-    "answer": "40 mkF;",
-    "noAnswer3": "25 mkF"
-  },
-  {
-    "question": "Agar yukning massasi 16 marta orttirilsa, matematik mayatnikning xususiy tebranishlar davri qanday o’zgaradi?",
-    "noAnswer1": "3 marta kamayadi;",
-    "noAnswer2": "5 marta ortadi;",
-    "noAnswer3": "7 marta kamayadi;",
-    "answer": "o’zgarmaydi"
-  },
-  {
-    "question": "Agar g`altakning induktivligi 64 marta orttirilsa, tebranish konturida erkin tebranishlar chastotasi qanday o`zgaradi?",
-    "noAnswer1": "9 marta ortadi;",
-    "answer": "8 marta kamayadi;",
-    "noAnswer2": "7 marta ortadi;",
-    "noAnswer3": "O’zgarmaydi"
-  },
-  {
-    "question": "Agar g`altakning induktivligi 16 marta orttirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
-    "noAnswer1": "O’zgarmaydi;",
-    "noAnswer2": "5 marta kamayadi;",
-    "noAnswer3": "3 marta kamayadi;",
-    "answer": "4 marta ortadi."
-  },
-  {
-    "question": "Agar g`altakning induktivligi 4 marta va kondensator sig’imi 16 marta orttirilsa, tebranish konturida erkin tebranishlar chastotasi qanday o`zgaradi?",
-    "noAnswer1": "6 marta ortadi;",
-    "noAnswer2": "7 marta kamayadi;",
-    "answer": "8 marta kamayadi.",
-    "noAnswer3": "o’zgarmaydi             ,"
-  },
-  {
-    "question": "Agar g`altakning induktivligi 9 marta va kondensator sig’imi 64 marta orttirilsa, tebranish konturida erkin tebranishlar siklik chastotasi qanday o`zgaradi?",
-    "noAnswer1": "5 marta ortadi;",
-    "answer": "24 marta kamayadi;",
-    "noAnswer2": "25 marta kamayadi.",
-    "noAnswer3": "18 marta ortadi,"
-  },
-  {
-    "question": "Agar g`altakning induktivligi 9 marta va kondensator sig’imi 16 marta orttirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
-    "answer": "12 marta ortadi;",
-    "noAnswer1": "11 marta kamayadi;",
-    "noAnswer2": "10 marta kamayadi.",
-    "noAnswer3": "9 marta ortadi,"
-  },
-  {
-    "question": "Agar g`altakning induktivligi va kondensator sig’imi 4 martadan kamaytirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
-    "noAnswer1": "7 marta ortadi;",
-    "noAnswer2": "5 marta kamayadi;",
-    "noAnswer3": "3 marta ortadi;",
-    "answer": "4 marta kamayadi."
-  },
-  {
-    "question": "Agar g`altakning induktivligi va kondensator sig’imi 4 martadan kamaytirilsa, tebranish konturida erkin tebranishlar chastotasi qanday o`zgaradi?",
-    "noAnswer1": "7 marta ortadi;",
-    "noAnswer2": "11 marta kamayadi;",
-    "answer": "4 marta ortadi;",
-    "noAnswer3": "3 marta kamayadi."
-  },
-  {
-    "question": "Optik markazdan linza tekisligiga perpendikulyar o’tgan faraziy to’g’ri chiziq ….. deyiladi. Nuqtalar o’rnini to’g’ri mazmunda to’ldiring.",
-    "answer": "Bosh optik o’qi",
-    "noAnswer1": "Bosh fokusi",
-    "noAnswer2": "Fokal tekisligi",
-    "noAnswer3": "Optik kuchi"
-  },
-  {
-    "question": " Linzaning fokus masofasiga teskari bo’lgan fizik kattalikni ko’rsating.",
-    "noAnswer1": "Bosh optik o’qi",
-    "noAnswer2": "Fokus masofasi",
-    "noAnswer3": "Fokal tekisligi",
-    "answer": "Optik kuchi"
-  },
-  {
-    "question": " D=1/F=(n-1)(1/R_1 +1/R_2 )   Ushbu ifodadagi “n” qanday fizik kattalikni ifodalaydi?",
-    "answer": "linza materialIning nur sindirish koʻrsatgichi",
-    "noAnswer1": "Muxitning optik zichligi",
-    "noAnswer2": "Linza sferasining egrilik radiusi",
-    "noAnswer3": "Linzaning optik kuchi"
-  },
-  {
-    "question": " D=1/F=(n-1)(1/R_1 +1/R_2 )   Ushbu ifodadagi “R” qanday fizik kattalikni ifodalaydi?",
-    "noAnswer1": "linza materialIning nur sindirish koʻrsatgichi",
-    "answer": "Linza sferasining egrilik radiusi",
-    "noAnswer2": "Linzaning optik kuchi",
-    "noAnswer3": "Linzaning fokus masofasi"
-  },
-  {
-    "question": " D=1/F=(n-1)(1/R_1 +1/R_2 )   Ushbu ifodadagi “F” qanday fizik kattalikni ifodalaydi?",
-    "noAnswer1": "Muxitning optik zichligi",
-    "noAnswer2": "Linza sferasining egrilik radiusi",
-    "noAnswer3": "Linzaning optik kuchi",
-    "answer": "Linzaning fokus masofasi"
-  },
-  {
-    "question": "Agar buyum yig’uvchi linzadan 2F masofaga qo’yilsa qanday tasvir xosil bo’ladi?",
-    "noAnswer1": "Kattalashgan, xaqiqiy, teskari",
-    "noAnswer2": "Kichiklashgan, xaqiqiy, teskari",
-    "answer": "Bir o’lchamli, xaqiqiy, teskari",
-    "noAnswer3": "Kichiklashgan, xaqiqiy, to’g’ri"
-  },
-  {
-    "question": "Agar buyum yig’uvchi linza va uning bosh fokusi orasiga qo’yilsa qanday tasvir xosil bo’ladi?",
-    "noAnswer1": "Kattalashgan, xaqiqiy, teskari",
-    "noAnswer2": "Kichiklashgan, xaqiqiy, teskari",
-    "answer": "Mavhum, kattalashgan, to’g’ri",
-    "noAnswer3": "Kichiklashgan, xaqiqiy, to’g’ri"
-  },
-  {
-    "question": "Agar buyum yig’uvchi linzaning bosh fokusiga qo’yilsa, qanday tasvir xosil bo’ladi?",
-    "noAnswer1": "Kattalashgan, xaqiqiy, teskari",
-    "noAnswer2": "Kichiklashgan, xaqiqiy, teskari",
-    "answer": "Tasvir cheksizlikda xosil bo’ladi",
-    "noAnswer3": "Kichiklashgan, xaqiqiy, to’g’ri"
-  },
-  {
-    "question": "Linzadan 24 sm uzoqlikda joylashgan buyumning xaqiqiy tasviri buyumdan 48 sm masofada xosil bo’ldi. Linzaning fokus masofasini (sm) aniqlang.",
-    "noAnswer1": "17",
-    "noAnswer2": "15",
-    "answer": "12",
-    "noAnswer3": "9"
-  },
-  {
-    "question": "1360 Hs da ishlovchi tovush manbaidan koordinatalari 25 sm ga farq qiluvchi nuqtalarning tebranishlar fazalar farqi nimaga teng? Xavoda tovushning tarqalish tezligi 340 m/s",
-    "answer": "2π;",
-    "noAnswer1": "π/5;",
-    "noAnswer2": "π.",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "So‘nuvchi garmonik tebranishlarda tebranish amplitudasi qanday o‘zgaradi?",
-    "noAnswer1": "Sinus qonuniyatiga bo‘ysungan xolda kamayadi;",
-    "noAnswer2": "kosinus qonuniyatiga bo‘ysungan xolda kamayadi;",
-    "answer": "eksponensial qonuniyat asosida kamayadi;",
-    "noAnswer3": "chiziqli ravishda kamayadi."
-  },
-  {
-    "question": "Quyida berilgan yorug‘liklarning qaysi birida fotonlar eng kichik energiyaga ega?",
-    "noAnswer1": "sariq",
-    "answer": "Infraqizil;",
-    "noAnswer2": "ko‘k;",
-    "noAnswer3": "qizil."
-  },
-  {
-    "question": "\r\nSo‘nuvchi tebranishlarda so‘nish dekrementi nimani ifodalaydi?",
-    "noAnswer1": "Vaqt o‘tishi bilan tebranish amplitudasining eksponensial ravishda kamayishini;",
-    "noAnswer2": "Vaqt o‘tishi bilan tebranish amplitudasining chiziqli kamayishini;",
-    "noAnswer3": "Vaqtning boshlang‘ich va oxirgi mementlarida amplitudaning qanchaga kamayganini ko‘rsatadi;",
-    "answer": "Bir tebranish davri mobaynida amplitudaning qanchaga kamayganini ko‘rsatadi."
-  },
-  {
-    "question": "Agar xar qaysi to‘lqinning amplitudasi 3A ga teng bo‘lib, nuqtaga bir xil fazada kelsa, natijaviy amplituda nimaga teng bo‘ladi?",
-    "answer": "6A",
-    "noAnswer1": "5A",
-    "noAnswer2": "3A",
-    "noAnswer3": "A"
-  },
-  {
-    "question": "Materiya necha xil ko‘rinishda bo‘ladi?",
-    "noAnswer1": "1 ta, modda",
-    "noAnswer2": "1 ta, maydon",
-    "answer": "2 ta, modda va maydon",
-    "noAnswer3": "3 ta, madda va maydon, suyuqlik"
-  },
-  {
-    "question": "Idishdagi gaz aralashmasining umumiy bosimi-aralashmani xosil qilgan gazlar xususiy bosimlarining algebraik yig’indisiga teng. Bu qaysi olimga tegishli bo’lgan qonun?",
-    "answer": "Dalton qonuni",
-    "noAnswer1": "Paskal qonuni",
-    "noAnswer2": "Avagadro qonuni",
-    "noAnswer3": "Sharl qonuni"
-  },
-  {
-    "question": "Elektrostatik maydonning potensiali 30 V bo‘lgan nuqtasiga kiritilgan zarraga maydon tomonidan 120 J potensial energiya ta’sir qilsa, zarraning elektr zaryadini aniqlang.",
-    "noAnswer1": "25 C",
-    "noAnswer2": "5 C",
-    "noAnswer3": "9 C",
-    "answer": "4 C"
-  },
-  {
-    "question": "+ \r\n Nuqta x o`qi bo`ylab x=0,07cос(8πт+π), m qonun bo`yicha tebranmoqda. Tebranishning chastotasini  toping.(Hz)",
-    "answer": " #4 ;",
-    "noAnswer1": "6π ;",
-    "noAnswer2": "6;",
-    "noAnswer3": "1;"
-  },
-  {
-    "question": "Lazerlar deb qanday qurilmalarga aytiladi?",
-    "answer": " #majburiy kogerent nurlanish manbalariga",
-    "noAnswer1": "majburiy bo‘lmagan kogerent nurlanish manbalariga",
-    "noAnswer2": "kogerent nurlanish manbalariga",
-    "noAnswer3": "to‘g‘ri javob yo‘q"
-  },
-  {
-    "question": "Ryomer nimaning tarqalish tezligini astronomik usulda birinchi bo‘lib  aniqlagan?",
-    "answer": "Yorug‘likning",
-    "noAnswer1": "to‘lqinning",
-    "noAnswer2": "chastotani",
-    "noAnswer3": "elektronning"
-  },
-  {
-    "question": "Agar qora jismning termodinamik temperaturasini ikki marta kamaytirilsa, uning energetik yoritilganligi o‘zgaradi? Energetik yoritilganlik temperaturaning to’rtincha darajasiga praportsional.",
-    "noAnswer1": "5 marta kamayadi;",
-    "noAnswer2": "18 marta kamayadi;",
-    "noAnswer3": "21 marta kamayadi;",
-    "answer": "16 marta kamayadi;"
-  },
-  {
-    "question": "Stefan-Bolsman doimiysini aniqlang.",
-    "noAnswer1": "2,9 10<sup>-3</sup>  m K;",
-    "answer": "5,7 10<sup>-8</sup>  Vt/m<sup>2</sup> K<sup>4</sup>",
-    "noAnswer2": "6,63 10<sup>-34</sup>  J s;",
-    "noAnswer3": "6,02 10<sup>23</sup>  mol<sup>-7</sup>"
-  },
-  {
-    "question": "Plank doimiysini aniqlang.",
-    "noAnswer1": "2,9 10<sup>-3</sup>  m K;",
-    "noAnswer2": "5,7 10<sup>-8</sup>  Vt/m<sup>2</sup> K<sup>4</sup>",
-    "answer": "6,63 10<sup>-34</sup>  J s;",
-    "noAnswer3": "6,02 10<sup>23</sup>  mol<sup>-7</sup>"
-  },
-  {
-    "question": "Agar qora jism energetik yoritilganligining spektral zichligi maksimumiga mos keluvchi to‘lqin uzunligi 360 nm dan 720 nm ga siljisa, qora jism energetik yoritilganligi necha marta o‘zgaradi?",
-    "noAnswer1": "2 marta ortadi;",
-    "noAnswer2": "6 marta kamayadi;",
-    "noAnswer3": "10 marta ortadi;",
-    "answer": "16 marta kamayadi."
-  },
-  {
-    "question": "Tebranish konturining tebranish davri qanday parametrlarga bog’liq?",
-    "noAnswer1": "Mayatnik uzunligi va erkin tushish tezlanishiga",
-    "noAnswer2": "Yukning massasi va prujina bikrligiga",
-    "noAnswer3": "Inersiya momenti, mayatnik massasi, erkin tushish tezlanishi, burilish nuqtasi va massa markazi orasidagi masofaga",
-    "answer": "Kondensator sig’imi va g’altakning induktivligiga"
-  },
-  {
-    "question": "Uch va ko‘p atomli gaz molekulalarining erkinlik darajasi nechaga teng?",
-    "noAnswer1": "3",
-    "noAnswer2": "5",
-    "answer": "6",
-    "noAnswer3": "7"
-  },
-  {
-    "question": "To`lqinning tarqalish yo`nalishidagi chiziqda joylashgan ikki nuqtalar tebranishlarining fazalar farqi 2π ga teng. Agar nuqtalar orasidagi masofa 4 m ga teng bo`lsa, to`lqin uzunligi qanday (m) bo`ladi?",
-    "noAnswer1": "1",
-    "noAnswer2": "2",
-    "answer": "4",
-    "noAnswer3": "6"
-  },
-  {
-    "question": "Nuqta x o’qi bo’ylab х=0,016cos(3πt+π), m qonun bo’yicha tebranmoqda. Tebranishning amplitudasini (mm) toping.",
-    "noAnswer1": "3",
-    "answer": "16",
-    "noAnswer2": "10",
-    "noAnswer3": "21"
-  },
-  {
-    "question": "Massasi 5 kg bo‘lgan jismga 3,2 m/s<sup>2</sup> tezlanish bera oladigan kuch, 2 kg massali jismga qanday tezlanish (m/s<sup>2</sup>) beradi?",
-    "answer": "8",
-    "noAnswer1": "7",
-    "noAnswer2": "5",
-    "noAnswer3": "11"
-  },
-  {
-    "question": "Tebranish konturida elektr tebranishlari q = 10<sup>-8</sup>cos8000t (C) tenglama bilan berilgan. Zanjirdagi tokning amplitudasi nimaga teng",
-    "answer": "8*10<sup>-5</sup>А;",
-    "noAnswer1": "18 А;",
-    "noAnswer2": "15 10<sup>-2</sup> А;",
-    "noAnswer3": "14 t А."
-  },
-  {
-    "question": "Tovush manbaidan to’lqin uzunligi 4 m bo’lgan to’lqinlar tarqalmoqda. х<sub>1</sub>=2 m va х<sub>2</sub>=6 m koordinatali nuqtalarning tebranishlar fazalar farqi nimaga teng?",
-    "noAnswer1": "π;",
-    "noAnswer2": "3π;",
-    "noAnswer3": "1,5π;",
-    "answer": "2π."
-  },
-  {
-    "question": "Fizik mayatnikning tebranish davri qanday parametrlarga bog’liq?",
-    "noAnswer1": "Mayatnik uzunligi va erkin tushish tezlanishiga",
-    "noAnswer2": "Yukning massasi va prujina bikrligiga",
-    "answer": "Inersiya momenti, mayatnik massasi, erkin tushish tezlanishi, burilish nuqtasi va massa markazi orasidagi masofaga",
-    "noAnswer3": "Kondensator sig’imi va g’altakning induktivligiga"
-  },
-  {
-    "question": "To`lqinning tarqalish yo`nalishidagi chiziqda joylashgan ikki nuqtalar tebranishlarining fazalar farqi π ga teng. Agar nuqtalar orasidagi masofa 6 m ga teng bo`lsa, to`lqin uzunligi qanday (m) bo`ladi?",
-    "noAnswer1": "1;",
-    "answer": "12;",
-    "noAnswer2": "14;",
-    "noAnswer3": "6."
-  },
-  {
-    "question": "To`lqinning tarqalish yo`nalishidagi chiziqda joylashgan ikki nuqtalar tebranishlarining fazalar farqi 2π/3 ga teng. Agar nuqtalar orasidagi masofa 8 m ga teng bo`lsa, to`lqin uzunligi qanday (m) bo`ladi?",
-    "answer": "24",
-    "noAnswer1": "15",
-    "noAnswer2": "13",
-    "noAnswer3": "9"
-  },
-  {
-    "question": "To`lqinning tarqalish yo`nalishidagi chiziqda joylashgan ikki nuqtalar tebranishlarining fazalar farqi qanday bo’lganda, Shu nuqtalar orasidagi masofa 5 m ga teng bo’ladi? To’lqinning uzunligi 10 m deb xisoblang.",
-    "answer": "𝜋",
-    "noAnswer1": "1",
-    "noAnswer2": "𝜋/3",
-    "noAnswer3": "2,5"
-  },
-  {
-    "question": "Tebranish manbaidan 17,5 m vaa 1,5 m uzoqlikda joylashgan nuqtalar tebranishlarining fazalar farqini aniqlang. Tebranish davri 2 s, to’lqinning tarqalish tezligi esa 4 m/s.",
-    "noAnswer1": "3π/2;",
-    "noAnswer2": "0;",
-    "answer": "4π;",
-    "noAnswer3": "5."
-  },
-  {
-    "question": "Interferensiyalanayotgan ikkita monoxramatik to’lqinning yo’llar farqi λ/16 ga teng. Tebranishlar fazalar farqini toping.",
-    "answer": "𝜋/8",
-    "noAnswer1": "𝜋/3",
-    "noAnswer2": "𝜋/5",
-    "noAnswer3": "𝜋/7"
-  },
-  {
-    "question": "Qanday tebranishlar garmonik tebranishlar deyiladi?",
-    "noAnswer1": "Har qanday davriy takrorlanuvchi tebranishlar garmonik tebranishlar deyiladi",
-    "noAnswer2": "Sinus qonuni bo’yicha o’zgaruvchi tebranishlar garmonik tebranishlar deyiladi;",
-    "noAnswer3": "Kosinus qonuni bo’yicha o’zgaruvchi tebranishlar garmonik tebranishlar deyiladi;",
-    "answer": " #Sinus yoki kosinus qonuni bo’yicha o’zgaruvchi tebranishlar garmonik tebranishlar deyiladi."
-  },
-  {
-    "question": "Garmonik tebranish muvozanat vaziyatidan boshlansa u qaysi qonuniyat bo’yicha tebranadi?",
-    "noAnswer1": "Har qanday",
-    "answer": "Sinus qonuni bo’yicha o’zgaruvchi;",
-    "noAnswer2": "Kosinus qonuni bo’yicha;",
-    "noAnswer3": "Sinus yoki kosinus qonuni bo’yicha;"
-  },
-  {
-    "question": "Garmonik tebranish eng chetgi vaziyatidan boshlansa u qaysi qonuniyat bo’yicha tebranadi?",
-    "noAnswer1": "Har qanday",
-    "noAnswer2": "Sinus qonuni bo’yicha o’zgaruvchi;",
-    "answer": "Kosinus qonuni bo’yicha;",
-    "noAnswer3": "Sinus yoki kosinus qonuni bo’yicha;"
-  },
-  {
-    "question": "Tebranish davri nima?",
-    "answer": "Bir marta to’liq tebranish uchun ketgan vaqt",
-    "noAnswer1": "Birlik vaqt ichida tebranishlar soni",
-    "noAnswer2": "Tinimsiz oldinga harakatga",
-    "noAnswer3": "Tebranishning aylanma harakatiga"
-  },
-  {
-    "question": " Tebranish chastotasi nima?",
-    "noAnswer1": "Bir marta to’liq tebranish uchun ketgan vaqt",
-    "answer": "Birlik vaqt ichida tebranishlar soni",
-    "noAnswer2": "Tinimsiz oldinga harakatga",
-    "noAnswer3": "Tebranishning aylanma harakatiga"
-  },
-  {
-    "question": "Nuqta x o’qi bo’ylab х=0,1cos(20t+π), m qonun bo’yicha tebranmoqda. Tebranishning maksimal tezlanishini toping.",
-    "answer": "40;",
-    "noAnswer1": "38;",
-    "noAnswer2": "37;",
-    "noAnswer3": "15;"
-  },
-  {
-    "question": "Nuqta x o’qi bo’ylab х=0,24cos(16πt+π), m qonun bo’yicha tebranmoqda. Tebranish amplitudasini (sm) toping.",
-    "noAnswer1": "21",
-    "noAnswer2": "22",
-    "noAnswer3": "23",
-    "answer": "24"
-  },
-  {
-    "question": "170 Hz da ishlovchi tovish manbaidan koordinatalar farqi 25 sm bo’lgan nuqtaning tebranish fazalar farqi nimaga teng? Tovushning xavoda tarqalish tezligi 340 m/s.",
-    "noAnswer1": "𝜋/6",
-    "noAnswer2": "𝜋/5",
-    "answer": "𝜋/4",
-    "noAnswer3": "𝜋/3"
-  },
-  {
-    "question": "Agar elektromagnit to’lqinning uchinchi va yettinchi do’ngliklari orasidagi masofa 64 m bo’lsa, to’lqin uzunligini aniqlang.",
-    "noAnswer1": "43,3 m",
-    "answer": "16 m",
-    "noAnswer2": "21,6",
-    "noAnswer3": "13 m"
-  },
-  {
-    "question": "Prujinali mayatnikning tebranish davri qanday parametrlarga bog’liq?",
-    "noAnswer1": "Mayatnik uzunligi va erkin tushish tezlanishiga",
-    "answer": "Yukning massasi va prujina bikrligiga",
-    "noAnswer2": "Inersiya momenti, mayatnik massasi, erkin tushish tezlanishi, burilish nuqtasi va massa markazi orasidagi masofaga",
-    "noAnswer3": "Kondensator sig’imi va g’altakning induktivligiga"
-  },
-  {
-    "question": "Matematik mayatnikning tebranish davri qanday parametrlarga bog’liq?",
-    "answer": "Mayatnik uzunligi va erkin tushish tezlanishiga",
-    "noAnswer1": "Yukning massasi va prujina bikrligiga",
-    "noAnswer2": "Inersiya momenti, mayatnik massasi, erkin tushish tezlanishi, burilish nuqtasi va massa markazi orasidagi masofaga",
-    "noAnswer3": "Kondensator sig’imi va g’altakning induktivligiga"
-  },
-  {
-    "question": "Qanday yorug’lik to’lqinlari kogerent bo’ladi?",
-    "noAnswer1": "To’lqin uzunliklari bir xil va fazalar farqi o’zgaradigan",
-    "answer": "To’lqin uzunliklari bir xil va fazalar farqi o’zgarmaydigan",
-    "noAnswer2": "To’lqin uzunliklari har xil va fazalar farqi o’zgarmaydigan",
-    "noAnswer3": "Chastotalari teng bo’lgan to’lqinlar"
-  },
-  {
-    "question": "Interferensiya xosil bo’lish sharti qanday?",
-    "answer": "To’lqinlar kogerent bo’lishi",
-    "noAnswer1": "To’lqinlar har xil bo’lishi",
-    "noAnswer2": "Fazalar farqi o’zgaruvchan",
-    "noAnswer3": "Teng chastotali"
-  },
-  {
-    "question": "Erkin tebranishlar deb qanday tebranishlarga aytiladi?",
-    "answer": "Agar, jism dastlab olgan energiya xisobiga tebranib, tizimga tashqi ta’sir bo`lmagan xolda, davom etadigan tebranishlar;",
-    "noAnswer1": "Agar, tebranishlar davriy ravishda o`zgaruvchi tashqi kuch ta’sirida amalga oshirilsa;",
-    "noAnswer2": "Agar, tebranayotgan fizikaviy kattalik sinus (yoki kosinus) qonuni bo`yicha o`zgarsa;",
-    "noAnswer3": "Agar, tebranishlar vaqt o`tishi bilan so`nuvchan bo`lsa."
-  },
-  {
-    "question": "Agar kondensatorning sig`imi 16 marta orttirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
-    "answer": "4 marta ortadi;",
-    "noAnswer1": "5 marta kamayadi;",
-    "noAnswer2": "7 marta ortadi;",
-    "noAnswer3": "9 marta kamayadi.."
-  },
-  {
-    "question": "Agar kondensatorning sig`imi 64 marta kamaytirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
-    "noAnswer1": "9 marta ortadi;",
-    "noAnswer2": "7 marta kamayadi;",
-    "noAnswer3": "5 marta ortadi;",
-    "answer": "8 marta kamayadi"
-  },
-  {
-    "question": "Agar elektromagnit to’lqinning birinchi va to’rtinchi do’ngliklari orasidagi masofa 24 m bo’lsa, to’lqin uzunligini aniqlang.",
-    "noAnswer1": "6 m;",
-    "noAnswer2": "14 m;",
-    "answer": "8 m;",
-    "noAnswer3": "13 m;"
-  },
-  {
-    "question": "CVCh generetori 3 m to’lqin uzunlikdagi tebranishlar xosil qilayotgan bo’lsa, u qanday chastotsda ishlaydi?",
-    "answer": "100 МHz;",
-    "noAnswer1": "150 МHz;",
-    "noAnswer2": "170 МHz;",
-    "noAnswer3": "190 МHz."
-  },
-  {
-    "question": "Tebranish konturida elektr tebranishlari q =8 *10<sup>-4</sup>cos100t(C) tenglama bilan berilgan. Kondensatordagi zaryadning maxsimal qiymatini nimaga teng?",
-    "noAnswer1": "3 10<sup>-2</sup> C",
-    "noAnswer2": "5 10 C;",
-    "answer": "8 10<sup>-4</sup> C;",
-    "noAnswer3": "15 C."
-  },
-  {
-    "question": "Tebranish konturida elektr tebranishlari q =8 *10<sup>-4</sup>cos100t(C) tenglama bilan berilgan. Tebranishning siklik chaastotasi nimaga teng? (birliklar XBS da)",
-    "noAnswer1": "75",
-    "noAnswer2": "25",
-    "noAnswer3": "10<sup>-4</sup>",
-    "answer": "100"
-  },
-  {
-    "question": "Tebranish konturida elektr tebranishlari q =8 *10<sup>-4</sup>cos88𝜋t(C) tenglama bilan berilgan. Tebranishning chastotasi nimaga teng? (birliklar XBS da)",
-    "noAnswer1": "34",
-    "noAnswer2": "21𝜋",
-    "noAnswer3": "42𝜋t",
-    "answer": "44"
-  },
-  {
-    "question": "Agar elektromagnit to`lqinning bo`shliqdagi tebranish davri 12 10<sup>-12 </sup>s bo`lsa, uning to`lqin uzunligini toping.\r\nT=12*10<sup>-12 </sup> s",
-    "noAnswer1": "13 mm;",
-    "noAnswer2": "14*10<sup>-12 </sup> m;",
-    "noAnswer3": "18*10<sup>-4</sup>   m;",
-    "answer": "36*10<sup>-4 </sup>   m."
-  },
-  {
-    "question": "Agar elektromagnit to`lqinning bo`shliqdagi tebranish chastotasi 37,5 MHz bo`lsa, uning to`lqin uzunligini toping.",
-    "noAnswer1": "58 mm;",
-    "noAnswer2": "12,5*10<sup>-8 </sup> m;",
-    "answer": "8 m;",
-    "noAnswer3": "13  m."
-  },
-  {
-    "question": "Agar elektromagnit to`lqinning bo`shliqdagi tebranish chastotasi 7,5 GHz bo`lsa, uning to`lqin uzunligini toping.",
-    "noAnswer1": "38 mm;",
-    "answer": "0,04 m;",
-    "noAnswer2": "113 m;",
-    "noAnswer3": "14 m."
-  },
-  {
-    "question": "Agar 0,5 m oraliqda 2 10<sup>6 </sup>dona to’lqin uzunligi joylashgan bo’lsa, monoxramatik nurning chastotasini aniqlang.",
-    "answer": "12*10<sup>14</sup> Hz;",
-    "noAnswer1": "7*10<sup>14</sup> Hz;",
-    "noAnswer2": "10<sup>2 </sup>Hz;",
-    "noAnswer3": "10<sup>12 </sup>Hz."
-  },
-  {
-    "question": "Agar 1 m oraliqda 8*10<sup>6 </sup>dona to’lqin uzunligi joylashgan bo’lsa, monoxramatik nurning chastotasini aniqlang.",
-    "answer": "24*10<sup>14</sup> Hz;",
-    "noAnswer1": "7*10<sup>14</sup> Hz;",
-    "noAnswer2": "10<sup>2 </sup>Hz;",
-    "noAnswer3": "10<sup>12 </sup>Hz."
-  },
-  {
-    "question": "O’zgaruvchan tok zanjirida kondensator zaryadi q = 44*10<sup>-4</sup>cos 20𝜋t (C) qonun bo’yicha o’zgarmoqda. Kuchlanishning maximal qiymati 220 V. Kondersatorning elektr sig’imi nimaga teng?",
-    "noAnswer1": "10 mkF;",
-    "noAnswer2": "15 mkF;",
-    "answer": "20 mkF;",
-    "noAnswer3": "25 mkF"
-  },
-  {
-    "question": "Agar g`altakning induktivligi 4 marta kamaytirilsa va kondensator sig’imi 64 marta orttirilsa, tebranish konturida erkin tebranishlar chastotasi qanday o`zgaradi?",
-    "noAnswer1": "o’zgarmaydi",
-    "noAnswer2": "2 marta ortadi;",
-    "noAnswer3": "3 marta kamayadi",
-    "answer": "4 marta kamayadi."
-  },
-  {
-    "question": "Agar g`altakning induktivligi 4 marta kamaytirilsa va kondensator sig’imi 64 marta orttirilsa, tebranish konturida erkin tebranishlar siklik chastotasi qanday o`zgaradi?",
-    "noAnswer1": "o’zgarmaydi",
-    "noAnswer2": "2 marta ortadi;",
-    "noAnswer3": "3 marta kamayadi",
-    "answer": " #4 marta kamayadi."
-  },
-  {
-    "question": "Agar g`altakning induktivligi 4 marta kamaytirilsa va kondensator sig’imi 64 marta orttirilsa, tebranish konturida erkin tebranishlar davri qanday o`zgaradi?",
-    "noAnswer1": "o’zgarmaydi",
-    "noAnswer2": "2 marta ortadi;",
-    "noAnswer3": "3 marta kamayadi",
-    "answer": "4 marta ortadi."
-  },
-  {
-    "question": "Nisbiy magnit kirituvchanligi 1 dan ko’p barobar katta bo’lgan moddalar magnit xususiyatiga ko’ra qanday nomlanadi?",
-    "noAnswer1": "demonlar",
-    "answer": "ferromagnit",
-    "noAnswer2": "paramagnet",
-    "noAnswer3": "diamagnit"
-  },
-  {
-    "question": "Nisbiy magnit kirituvchanligi 1 dan qisman katta bo’lgan moddalar magnit xususiyatiga ko’ra qanday nomlanadi?",
-    "noAnswer1": "demonlar",
-    "noAnswer2": "ferromagnit",
-    "answer": "paramagnet",
-    "noAnswer3": "diamagnit"
-  },
-  {
-    "question": " Fotoelementga tushayotgan foton energiyasi 25 eV, fotoeffektniing qizil chegarasi 13 eV bo’lsa metaldan ajralgan elektronning kinetiK energiyasini (eV) toping.",
-    "answer": "12",
-    "noAnswer1": "15",
-    "noAnswer2": "19",
-    "noAnswer3": "17"
-  },
-  {
-    "question": "Metaldan ajralgan elektronning kinetik energiyasini 23 eV, fotoeffektning qizil chegarasi 13 eV bo’lsa, fotoelementga tushayotgan foton energiyasini (eV) toping.",
-    "answer": "36",
-    "noAnswer1": "21",
-    "noAnswer2": "13",
-    "noAnswer3": "29"
-  },
-  {
-    "question": "25 eV necha Joulga teng?",
-    "noAnswer1": "2,5*10<sup>-19</sup>",
-    "noAnswer2": "30*10<sup>-19</sup>",
-    "answer": "40*10<sup>-19</sup>",
-    "noAnswer3": "35*10<sup>-19</sup>"
-  },
-  {
-    "question": "Nisbiy magnit kirituvchanligi 1 dan kichik bo’lgan moddalar magnit xususiyatiga ko’ra qanday nomlanadi?",
-    "noAnswer1": "demonlar",
-    "noAnswer2": "ferromagnit",
-    "noAnswer3": "paramagnet",
-    "answer": "diamagnit"
-  },
-  {
-    "question": "Burchakka tiralgan yoyning uzunligi 60 sm. Agar aylana radiusi 15 sm bo’lsa, yoy tiralgan burchak necha radianga teng?",
-    "answer": "4",
-    "noAnswer1": "5",
-    "noAnswer2": "6",
-    "noAnswer3": "7"
-  },
-  {
-    "question": "Ikki jism orasidagi masofani o‘zgartirmagan xolda birining massasini 3 marta, boshqasining massasini 4 marta orttirildi. Ular orasidagi gravitatsion kuch necha marta ortgan?",
-    "answer": "12",
-    "noAnswer1": "15",
-    "noAnswer2": "19",
-    "noAnswer3": "25"
-  },
-  {
-    "question": "Massasi 1,5 kg bo‘lgan moddiy nuqta 4 m radiusli aylana bo’ylab harakat qilmoqda Uning inersiya (kg*m<sup>2</sup>) momentini aniqlang.",
-    "answer": "24",
-    "noAnswer1": "21",
-    "noAnswer2": "0",
-    "noAnswer3": "25"
-  },
-  {
-    "question": "Massasi 300 gr bo‘lgan metall sharcha yer sathidan 4 metr balandlikda qo‘zg’olmas qilib maxkamlansa, u qanday potensial energiyaga (J) erishadi? g=10 m/s<sup>2</sup> deb oling.",
-    "answer": "12",
-    "noAnswer1": "15",
-    "noAnswer2": "23",
-    "noAnswer3": "19"
-  },
-  {
-    "question": "Nuqtaviy zaryaddan biror r masofada joylashgan nuqtaning elektr maydon kuchlanganligi 48 V/m ga teng. Agar zaryad va kuzatilayotgan nuqta nisbiy dielektrik singdiruvchanligi 3 ga teng bo‘lgan muhitga ko’chirilsa kuzatilayotgan nuqtadagi elektr maydon kuchlanganligi (V/m) qanday bo‘lib qoladi?",
-    "answer": "16",
-    "noAnswer1": "15",
-    "noAnswer2": "13",
-    "noAnswer3": "10"
-  },
-  {
-    "question": "Massasi 2 kg bo‘lgan brusok 6 m/s tezlik bilan to‘g’ri chiziqli tekis harakatlanganda qanday kinetik energiyaga (J) erishadi?",
-    "answer": "36",
-    "noAnswer1": "45",
-    "noAnswer2": "26",
-    "noAnswer3": "15"
-  },
-  {
-    "question": "Muxitning magnit kirituvchanligi 0,8 va dielektrik singdiruvchanligi 5 ga teng bo’lsa, uning optik zichligi qanday?",
+    "question": "+\r\n\r\n\r\n\r\nShart operatorini necha xil ko’rinishi mavjud ?",
     "answer": "2",
-    "noAnswer1": "1,5",
-    "noAnswer2": "1",
-    "noAnswer3": "0,5"
-  },
-  {
-    "question": "Ikki nuqta orasidagi eng qisqa masofa qanday nomlanadi?",
-    "answer": "radius vektor",
-    "noAnswer1": "trayektoriya",
-    "noAnswer2": "moddiy nuqta",
-    "noAnswer3": "yo'l"
-  },
-  {
-    "question": "Normal ko’zning eng yaxshi ko’rish (toliqmaslik) masofasi  qancha?",
-    "answer": "25 sm",
-    "noAnswer1": "5 m",
-    "noAnswer2": "15 sm",
-    "noAnswer3": "15-35 sm"
-  },
-  {
-    "question": "Normal ko’zning optik kuchi (dptr) qancha?",
     "noAnswer1": "1",
-    "noAnswer2": "1,5",
-    "answer": "4",
-    "noAnswer3": "7"
-  },
-  {
-    "question": "O’quvchi kitobni  10 sm masofadan qiynalmay o’qiyotgan bo’lsa, bu o’quvchiga qanday ko’zoynak tavsiya qilinadi?",
-    "answer": "-6",
-    "noAnswer1": "-0,7",
-    "noAnswer2": "-3",
-    "noAnswer3": "-1,5"
-  },
-  {
-    "question": "Atom yadrosida 11 ta proton va 13 ta neytron bor bolsa, shu neytral atomning nuklonlar soni nechta?",
-    "noAnswer1": "11",
-    "noAnswer2": "13",
-    "answer": "24",
-    "noAnswer3": "2"
-  },
-  {
-    "question": "Tebranish konturi g‘altak va xar birining sig‘imi C bo‘lgan 4 ta ketma-ket ulangan kondensatorlardan iborat. Agar kondensatorlar o‘zaro parallel ulansa konturdagi erkin elektromagnit tebranishlarining chastotasi qanday o‘zgaradi?",
-    "noAnswer1": "2 marta ortadi;",
-    "noAnswer2": "2 marta kamayadi;",
-    "noAnswer3": "3 marta ortadi;",
-    "answer": "4 marta kamayadi"
-  },
-  {
-    "question": "Tebranish konturi g‘altak va xar birining sig‘imi C bo‘lgan 2 ta ketma-ket ulangan kondensatorlardan iborat. Agar kondensatorlar o‘zaro parallel ulansa konturdagi erkin elektromagnit tebranishlarining davri qanday o‘zgaradi?",
-    "answer": " #2 marta ortadi;",
-    "noAnswer1": "3 marta kamayadi;",
-    "noAnswer2": "5 marta ortadi;",
-    "noAnswer3": "7 marta kamayadi."
-  },
-  {
-    "question": "Tebranish konturidagi kondensator sig‘imi C= 5 mkF, konturdagi tebranishlarning siklik chastotasi esa 500 rad/s bo‘lsa, konturdagi g‘altakning induktivligi (Gn) qanchaga teng?",
-    "noAnswer1": "25;",
-    "noAnswer2": "1,5;",
-    "noAnswer3": "1;",
-    "answer": " #0,8."
-  },
-  {
-    "question": "Jismlarning harakat qonunlarini harakatni yuzaga keltiruvchi sabablarisiz o’rganadigan bo’limi nomini ko’rsating.",
-    "noAnswer1": "Dinamika;",
-    "answer": "Kinematika.",
-    "noAnswer2": "Statika;",
-    "noAnswer3": "Klassik mexanika;"
-  },
-  {
-    "question": "Moddaning qattiq xolatdan to’g’ridan-to’g’ri gaz xolatga o’tishi ……. deyiladi. Nuqtalar o’rnini to’g’ri to’latuvchi mazmunda to’ldiring.",
-    "noAnswer1": "Erish;",
-    "answer": "Sublimatsiya.",
-    "noAnswer2": "Bug’lanish;",
-    "noAnswer3": "Qaynash;"
-  },
-  {
-    "question": "Suyuqlik sirtidan molekulalarning uchib chiqishi …. deyiladi. Nuqtalar o‘rnini to‘g’ri mazmunda to‘ldiring.",
-    "noAnswer1": "Erish;",
-    "noAnswer2": "Qaynash;",
-    "noAnswer3": "Sublimatsiya;",
-    "answer": "Bug’lanish."
-  },
-  {
-    "question": "Jism va sirt orasidagi ishqalanish koefitsenti quyidagilarning qay biriga bog’liq emas?",
-    "noAnswer1": "Sirtning g’adir-budurligiga;",
-    "noAnswer2": "Material turiga;",
-    "answer": "Jismning massasiga.",
-    "noAnswer3": "Sirt molekulalarining o’zaro ta’siriga;"
-  },
-  {
-    "question": "Tebranish konturidagi kondensator qoplamalari orasidagi masofani 2 marta kamaytirildi. Bunda tebranish chastotasi ...",
-    "noAnswer1": "3 marta ortadi;",
-    "noAnswer2": "3 marta kamayadi;",
-    "noAnswer3": "marta ortadi;",
-    "answer": "√2 marta kamayadi"
-  },
-  {
-    "question": "Atomning nur sochish vaqti … tartibdadir",
-    "answer": "10<sup>-8</sup> s",
-    "noAnswer1": "10<sup>-9</sup>  s",
-    "noAnswer2": "10<sup>-7</sup>  s",
-    "noAnswer3": "10<sup>-10</sup> s"
-  },
-  {
-    "question": "Yer sharini o‘rab turgan xavo qobig’ining Yerga va undagi jismlarga ko‘rsatadigan bosimi 1 mm. sim. ustuniga kamayishi uchun balandlikni (m) qanday o‘zgartirish kerak?",
-    "answer": "12",
-    "noAnswer1": "5",
-    "noAnswer2": "25",
-    "noAnswer3": "11"
-  },
-  {
-    "question": "Magnit maydon kuch chiziqlariga perpendikulyar joylashtirilgan 2 m uzunlikdagi o‘tkazgichdan 0,25 A to‘k o’tganda unga maydon tomonidan 6 N kuch ta’sir qiladi. Bu maydonning induksiyasini (T) aniqlang.",
-    "answer": "12",
-    "noAnswer1": "6",
-    "noAnswer2": "15",
-    "noAnswer3": "9"
-  },
-  {
-    "question": "Yuzasi 20 sm<sup>2</sup> bo‘lgan sirtga 80 N kuch ta’sir qilsa, bu sirtga ko‘rsatilayotgan bosim (kPa) qanday?",
-    "answer": "40",
-    "noAnswer1": "38",
-    "noAnswer2": "42",
-    "noAnswer3": "35"
-  },
-  {
-    "question": "To`lqin uzunligi λ, fazalar farqi π/3 bo`lganida, interferensiyalanayotgan ikkita kogerent nurlarning yo`llar farqini toping.",
-    "noAnswer1": "1,5λ;",
-    "noAnswer2": "λ /3",
-    "answer": "λ /6",
-    "noAnswer3": "λ /7"
-  },
-  {
-    "question": "Agar xar qaysi to`lqinning amplitudasi A ga teng bo`lib, nuqtaga qarama-qarshi fazada kelsa, natijaviy amplituda nimaga teng bo`ladi?",
-    "answer": "0;",
-    "noAnswer1": "1,3А;",
-    "noAnswer2": "А;",
-    "noAnswer3": "1"
-  },
-  {
-    "question": "Quyidagilar orasidan qay biri ortiqcha?",
-    "noAnswer1": "Kuch",
-    "noAnswer2": "Zaryad miqdori",
-    "noAnswer3": "Elektr kuchlanishi",
-    "answer": "Kandela"
-  },
-  {
-    "question": "Charm va peton orasidagi ishqalanish koefitsenti 0,4 ga teng. Yuki bilan birgalikdagi massasi 2 tonna bo‘lgan atomobilning tormozlanish kuchini (kN) toping. g=10 m/s<sup>2</sup> deb xisoblansin.",
-    "noAnswer1": "5",
-    "answer": "8",
-    "noAnswer2": "11",
-    "noAnswer3": "7"
-  },
-  {
-    "question": "Tebranish konturida elektr tebranishlari q = 10<sup>-3</sup>cos400t tenglama bilan berilgan. Tokning amplitudaviy qiymati nimaga teng?",
-    "answer": "0,4",
-    "noAnswer1": "15",
-    "noAnswer2": "10t ;",
-    "noAnswer3": "2,5"
-  },
-  {
-    "question": "Tebranish konturida kondensatordagi zaryadning boshlang`ich qiymati o`zgartirildi. Konturda vujudga keladigan elektr tebranishlarining qaysi xarakteristikalari o`zgarmasdan qoladi.",
-    "noAnswer1": "Tok kuchining tebranishlari amplitudasi;",
-    "noAnswer2": "Kondensatordagi kuchlanish amplitudasi;",
-    "answer": "Tebranishlar davri;",
-    "noAnswer3": "G`altak maydonining magnit induksiya amplitudasi;"
-  },
-  {
-    "question": "O‘tkazgichdan oqayotgan elektronlarning o‘rtacha kvadratik tezligi 330 m/s bo‘lsa, undagi tok qanday tezligini tezlikda harakatlanadi?",
-    "answer": "300 Mm/s",
-    "noAnswer1": "135 m/s",
-    "noAnswer2": "546 m/s",
-    "noAnswer3": "333 m/s"
-  },
-  {
-    "question": "Charm va peton orasidagi ishqalanish koefitsenti 0,4 ga teng. Yuki bilan birgalikdagi massasi 1,5 tonna bo‘lgan atomobilning tormozlanish tezlanishini (m/s<sup>2</sup>) toping. g=10 m/s<sup>2</sup> deb xisoblansin.",
-    "noAnswer1": "5",
-    "answer": "4",
     "noAnswer2": "3",
-    "noAnswer3": "1"
+    "noAnswer3": "4"
   },
   {
-    "question": "Tovush chastotasi 𝜈=200 Hs va xavodagi tezligi ʋ=340 m/s bo’lsa. Uning to’lqin uzunligini (m) toping.",
-    "noAnswer1": "140",
-    "noAnswer2": "170",
-    "answer": "1,7",
-    "noAnswer3": "1/3"
+    "question": "+\r\n\r\n\r\n\r\nSharti keyin berilgan sikl operatori tuzilishini ko'rsating.",
+    "answer": "do{sikl tanasi;} while(shart)",
+    "noAnswer1": "while(shart) {sikl tanasi;}",
+    "noAnswer2": "while(sikl tanasi) {shart;}",
+    "noAnswer3": "do{shart} while(sikl tanasi;)"
   },
   {
-    "question": "Tovush chastotasi 𝜈=375 Hs va suvdagi tezligi ʋ=1500 m/s bo’lsa. Uning to’lqin uzunligini (m) toping.",
-    "answer": "4",
-    "noAnswer1": "2",
-    "noAnswer2": "1",
-    "noAnswer3": "5"
+    "question": "+\r\n\r\n\r\n\r\nSharti keyin berilgan sikl operatorini ko'rsating.",
+    "answer": "do{}while()",
+    "noAnswer1": "for()",
+    "noAnswer2": "while()",
+    "noAnswer3": "if()"
   },
   {
-    "question": "Nuqta x o’qi bo’ylab х=0,02cos(200πt+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezligini toping. Birliklar SI da",
-    "noAnswer1": "0,01π ;",
-    "noAnswer2": "2π ;",
-    "noAnswer3": "π;",
-    "answer": "4𝜋"
+    "question": "+\r\n\r\n\r\n\r\nHoshiyalarning stilini o’zgartirish elementi nomini toping?",
+    "answer": "Border Style",
+    "noAnswer1": "Data access",
+    "noAnswer2": "On close",
+    "noAnswer3": "On hide"
   },
   {
-    "question": "Nuqta x o’qi bo’ylab х=0,03cos(400t+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezligini toping. Birliklar SI da",
-    "answer": "12",
-    "noAnswer1": "6",
-    "noAnswer2": "5",
-    "noAnswer3": "18"
+    "question": "+\r\n\r\n\r\n\r\nMoveTo  xossasining vazifasi",
+    "answer": "Berilgan nuqtaga o’tish.",
+    "noAnswer1": "Chiziq chizish(joriy nuqtadan berilgan nuqtagacha)",
+    "noAnswer2": "Tpoin ning massiv obyektlarini birlashtirish",
+    "noAnswer3": "Qator va ustunning sarlavha rangi"
   },
   {
-    "question": "Nuqta x o’qi bo’ylab х=0,03cos(20t+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezlanishini toping. Birliklar SI da",
-    "answer": "12",
-    "noAnswer1": "6",
-    "noAnswer2": "5",
-    "noAnswer3": "18"
+    "question": "+\r\n\r\n\r\n\r\nLineTo  xossasining vazifasi",
+    "answer": "Chiziq chizish(joriy nuqtadan berilgan nuqtagacha)",
+    "noAnswer1": "Tpoin ning massiv obyektlarini birlashtirish",
+    "noAnswer2": "Qator va ustunning sarlavha rangi",
+    "noAnswer3": "Berilgan nuqtaga o’tish."
   },
   {
-    "question": "Nuqta x o’qi bo’ylab х=0,16cos(15t+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezlanishini toping. Birliklar SI da",
-    "answer": "36",
-    "noAnswer1": "18",
-    "noAnswer2": "22",
-    "noAnswer3": "37"
+    "question": "+\r\n\r\n\r\n\r\nPolyline xossasining vazifasi",
+    "answer": "Tpoin ning massiv obyektlarini birlashtirish",
+    "noAnswer1": "Qator va ustunning sarlavha rangi",
+    "noAnswer2": "Berilgan nuqtaga o’tish.",
+    "noAnswer3": "Chiziq chizish(joriy nuqtadan berilgan nuqtagacha)"
   },
   {
-    "question": "Nuqta x o’qi bo’ylab х=0,08cos(20t+π), m qonun bo’yicha tebranmoqda. Tebrangichning maximal tezlanishini toping. Birliklar SI da",
-    "noAnswer1": "13",
-    "noAnswer2": "17",
-    "answer": "32",
-    "noAnswer3": "1,5"
+    "question": "+\r\n\r\n\r\n\r\nPolygon shakllarining vazifasi yoki qiymati",
+    "answer": "Nuqtalar bo’yicha soha chizadi",
+    "noAnswer1": "To’g’ri burchakli to’rtburchak.",
+    "noAnswer2": "Chegarasiz to’g’ri burchakli to’rtburchakning foni",
+    "noAnswer3": "To’g’ri burchakli to’rtburchak atrof chiziqlarini 1 pikselga tenglashtirish, to’g’ri burchakli to’rtburchak fonsiz"
+  },
+  {
+    "question": "+\r\n\r\n\r\n\r\nRectangle shakllarining vazifasi yoki qiymati",
+    "answer": "To’g’ri burchakli to’rtburchak",
+    "noAnswer1": "Chegarasiz to’g’ri burchakli to’rtburchakning foni",
+    "noAnswer2": "To’g’ri burchakli to’rtburchak atrof chiziqlarini 1 pikselga tenglashtirish, to’g’ri burchakli to’rtburchak fonsiz",
+    "noAnswer3": "Nuqtalar bo’yicha soha chizadi"
+  },
+  {
+    "question": "+\r\n\r\n\r\n\r\nFillRect shakllarining vazifasi yoki qiymati",
+    "answer": "Chegarasiz to’g’ri burchakli to’rtburchakning foni",
+    "noAnswer1": "To’g’ri burchakli to’rtburchak atrof chiziqlarini 1 pikselga tenglashtirish, to’g’ri burchakli to’rtburchak fonsiz",
+    "noAnswer2": "Nuqtalar bo’yicha soha chizadi",
+    "noAnswer3": "To’g’ri burchakli to’rtburchak"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
