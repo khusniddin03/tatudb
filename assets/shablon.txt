@@ -60,6 +60,12 @@ window.addEventListener('keydown', (event) => {
   }
 });
 
+window.addEventListener('keydown', (event) => {
+  if (event.altKey && event.key === ';') {
+    generate(data);
+  }
+});
+
 try {
   const boxTitle = document.querySelector(
     ".box.box-default .box-header h3.box-title"
