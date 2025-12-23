@@ -1428,8 +1428,10 @@ const data = [
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
 
-const generate = (data = []) => {
-  const questionMtContent = document.querySelector('.content-wrapper .col-md-8.mt30');
+const generate = (data = [], isCheck = false) => {
+  const questionMtContent = document.querySelector(
+    ".content-wrapper .col-md-8.mt30"
+  );
   const questionsList = questionMtContent?.children;
 
   const noAnswers = [];
@@ -1437,13 +1439,16 @@ const generate = (data = []) => {
     Array.from(questionsList)
       .slice(1, questionsList.length)
       .forEach((element, index) => {
-        const questionElement = element?.querySelector('.box-title');
+        const questionElement = element?.querySelector(".box-title");
         const questionElementText = questionElement?.innerText;
         const questionElementTextLen = clean(questionElementText).length - 2;
-        const questionStr = clean(questionElementText).slice(2, questionElementTextLen);
+        const questionStr = clean(questionElementText).slice(
+          2,
+          questionElementTextLen
+        );
         let status1 = false;
 
-        const jsonData = data.filter(({ question: itemQuestion = '' }) => {
+        const jsonData = data.filter(({ question: itemQuestion = "" }) => {
           const questionReplace = clean(itemQuestion);
 
           if (questionStr === "") return item;
@@ -1455,22 +1460,26 @@ const generate = (data = []) => {
 
         if (jsonDataFirstElement) {
           const anwerText = jsonDataFirstElement?.answer;
-          questionElement.setAttribute('title', anwerText);
-          const anwersList = element?.querySelector('.box-body.checkbo.checkbo-ready')?.children;
+          questionElement.setAttribute("title", anwerText);
+          const anwersList = element?.querySelector(
+            ".box-body.checkbo.checkbo-ready"
+          )?.children;
 
           Array.from(anwersList).forEach((item) => {
             const labelChecked = item.querySelector("label.cb-radio");
             const answerText = clean(item.querySelector("span.qv")?.innerText);
             if (answerText === clean(anwerText)) {
               if (labelChecked) {
-                labelChecked?.classList?.add("checked");
-                labelChecked?.click();
+                if (!isCheck) {
+                  labelChecked?.classList?.add("checked");
+                  labelChecked?.click();
+                }
                 status1 = true;
               }
             }
           });
         } else {
-          questionElement.setAttribute('title', '-----');
+          questionElement.setAttribute("title", "-----");
         }
 
         if (!status1 && questionsList?.length >= index) {
@@ -1478,18 +1487,27 @@ const generate = (data = []) => {
         }
       });
   }
-  const statusText = noAnswers.length + ' ta ' + JSON.stringify(noAnswers);
-  document.querySelector('.box.box-default [data-target="#myModal"]').setAttribute('title', statusText);
+
+  const statusText = noAnswers.length + " ta " + JSON.stringify(noAnswers);
+  if (isCheck) {
+    document
+      .querySelector(".box.box-default:nth-child(3) .box-header h3.box-title")
+      .setAttribute("title", statusText);
+  } else {
+    document
+      .querySelector('.box.box-default [data-target="#myModal"]')
+      .setAttribute("title", statusText);
+  }
 };
 
-window.addEventListener('keydown', (event) => {
-  if (event.ctrlKey && event.key === ';') {
+window.addEventListener("keydown", (event) => {
+  if (event.ctrlKey && event.key === ";") {
     generate(data);
   }
 });
 
-window.addEventListener('keydown', (event) => {
-  if (event.altKey && event.key === ';') {
+window.addEventListener("keydown", (event) => {
+  if (event.altKey && event.key === ";") {
     generate(data);
   }
 });
@@ -1502,5 +1520,17 @@ try {
   boxTitle.addEventListener("click", (e) => {
     e.stopPropagation();
     generate(data);
+  });
+} catch (error) {}
+
+try {
+  const boxTitle = document.querySelector(
+    ".box.box-default:nth-child(3) .box-header h3.box-title"
+  );
+
+  boxTitle.style.cursor = "pointer";
+  boxTitle.addEventListener("click", (e) => {
+    e.stopPropagation();
+    generate(data, true);
   });
 } catch (error) {}
