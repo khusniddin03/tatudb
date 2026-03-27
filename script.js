@@ -1,969 +1,2376 @@
 const data = [
   {
-    "question": "Meta-kompyuter nima?",
-    "answer": "Klaster tizimlari asosida tashkil etilgan virtual hisoblash tizimi",
-    "noAnswer1": "Faqat bir protsessorli tizim",
-    "noAnswer2": "Katta hajmdagi ma'lumotlarni boshqarish tizimi",
-    "noAnswer3": "Grafik protsessorlarni birlashtiruvchi tizim"
+    "question": "Suyak to‘qimasini massasining qanday qismi noorganiq modda ya’ni suyakning mineral moddasi gidrosilapatitdan tashkil topgan?",
+    "answer": "25 %",
+    "noAnswer1": "50 %",
+    "noAnswer2": "65 %",
+    "noAnswer3": "75 %"
   },
   {
-    "question": "Klasterli tizimlar qaysi sohada keng qo‘llaniladi?",
-    "answer": "Web serverlar va yuqori yukli hisoblash tizimlari",
-    "noAnswer1": "Faqat multimedia dasturlarida",
-    "noAnswer2": "Oddiy ofis tizimlarida",
-    "noAnswer3": "Tarqatilgan lokal tarmoqlarda"
+    "question": "Termodinamik sistemaning holati nimalar bilan harakterlanadi?",
+    "answer": "Sistemani tashqil qiluvchi jismlar massasi bilan",
+    "noAnswer1": "Sistemani tashqil qiluvchi jismlar molekulasini tuzilishi bilan",
+    "noAnswer2": "Sistemani parametrlari deb atalgan fizik kattaliklar bilan",
+    "noAnswer3": "1, 2, va 3 lar birgalikda"
   },
   {
-    "question": "Klasterlarda tarmoq orqali bog‘lanishning eng ko‘p ishlatiladigan protokoli qaysi?",
-    "answer": "MPI",
-    "noAnswer1": "POP3",
-    "noAnswer2": "HTTP",
-    "noAnswer3": "FTP"
+    "question": "Agar sistemaning parametrlari, uni atrof muxitdagi jismlar bilan o‘zaro ta’sirlashishida, vaqt o‘tishi bilan o‘zgarmasa sistemani holati qanday bo‘ladi?",
+    "answer": "muvozanat holatda",
+    "noAnswer1": "izolyasiyalangan holatda",
+    "noAnswer2": "nostasionar holatda",
+    "noAnswer3": "stasionar holatda"
   },
   {
-    "question": "Yopiq klaster tizimlarining asosiy xususiyati nima?",
-    "answer": "Faqat bir tarmoq segmentida ishlaydi",
-    "noAnswer1": "Ochiq tarmoq orqali ishlaydi",
-    "noAnswer2": "Ma'lumotlarga global kirish imkonini beradi",
-    "noAnswer3": "Tarqatilgan tizimlarda ishlatilmaydi"
+    "question": "Issiqlik, ish va energiya orasidagi o‘zaro bog‘lanishni o‘rganuvchi fizika kursi bo‘limi qaysi?",
+    "answer": "mexanika",
+    "noAnswer1": "dinamika",
+    "noAnswer2": "termodinamika",
+    "noAnswer3": "molekulyar fizika"
   },
   {
-    "question": "Klaster tizimlarida qanday turdagi tarmoqlar qo‘llaniladi?",
-    "answer": "LAN va WAN",
-    "noAnswer1": "Tarqatilgan lokal tarmoqlar",
-    "noAnswer2": "Faqat Wi-Fi tarmoqlar",
-    "noAnswer3": "Virtual xotira tarmoqlari"
+    "question": "Sistemaning qanday holati stasionar holat bo‘ladi?",
+    "answer": "Agar sistema atrof muxit bilan ta’sirlashmagan holati",
+    "noAnswer1": "Sistema atrof muxit bilan ta’sirlashish jarayonida vaqt o‘tishi bilan sistema parametrlari o‘zgarmagan holati",
+    "noAnswer2": "Sistemaning absalyut nol temperaturadagi holati",
+    "noAnswer3": "Sistema parametrlarini vaqt o‘tishi bilan bir xil tezlikda o‘zgarishlari sodir bo‘ladigan holati"
   },
   {
-    "question": "Virtual klaster tizimlarida asosiy jarayon qanday ishlaydi?",
-    "answer": "Resurslar virtualizatsiya texnologiyalari yordamida boshqariladi",
-    "noAnswer1": "Bir nechta fizik kompyuterlardan iborat bo‘ladi",
-    "noAnswer2": "Har bir kompyuter alohida ishlaydi",
-    "noAnswer3": "Faqat bitta protsessor ustida ishlaydi"
+    "question": "Quyidagilardan qaysi birida stasionar holat bo‘lishi mumkin?",
+    "answer": "sistemaning ayrim parametrlari gradiyenti doimiy saqlanyapti",
+    "noAnswer1": "sistemadagi ayrim ximiyaviy reaksiyalar tezligi o‘zgarmas bo‘lsa",
+    "noAnswer2": "1 va 2 javoblardagi holat bir vaqtda mavjud bo‘lsa",
+    "noAnswer3": "Izolyasiyalangan sistemalarda"
   },
   {
-    "question": "Meta-kompyuterlarning asosiy afzalligi nima?",
-    "answer": "Resurslardan maksimal foydalanish imkoniyati",
-    "noAnswer1": "Faqat bitta xotira tizimidan foydalanish",
-    "noAnswer2": "Faqat grafik interfeyslarni boshqarish imkoniyati",
-    "noAnswer3": "Oddiy lokal tarmoq bilan ishlashi"
+    "question": "Qanday termodinamik sistemani ochiq sistema deb ataladi?",
+    "answer": "Sistemani o‘rab olgan muxit bilan energiya almasha olsa",
+    "noAnswer1": "Sistemani o‘rab olgan muxit bilan modda almashinuvi yuz bersa",
+    "noAnswer2": "Atrof muxit bilan ham energiya ham modda almashadigan sistemaga",
+    "noAnswer3": "Atrof muxit bilan energiya ham modda ham almashinuvi bo‘lmasa."
   },
   {
-    "question": "Ochiq klaster tizimlarining kamchiligi nima?",
-    "answer": "Tarmoqdagi xavfsizlik xavflariga moyilligi",
-    "noAnswer1": "Resurslardan maksimal foydalanish imkoniyati",
-    "noAnswer2": "Faqat lokal tizimlarda ishlashi",
-    "noAnswer3": "Grafik hisoblashlarni qo‘llab-quvvatlamasligi"
+    "question": "Statsionar holatda bo‘lgan sistemani parametrlari uni turli nuqtalarida bir xil bo‘lishi shartmi?",
+    "answer": "xa",
+    "noAnswer1": "yo‘q",
+    "noAnswer2": "sharoitga bog‘liq",
+    "noAnswer3": "savol noto‘g‘ri qo‘yilgan"
   },
   {
-    "question": "Klaster tizimlarida ishlatiladigan umumiy boshqaruv dasturlari qaysilar?",
-    "answer": "MPI va OpenMP",
-    "noAnswer1": "HTTP va FTP",
-    "noAnswer2": "NUMA va UMA",
-    "noAnswer3": "SMTP va POP3"
+    "question": "Malumki, statsionar holatda ham, termodinamik muvozanat holatda ham sistemaning parametrlari vaqt o‘tishi bilan o‘zgarmas qoladi. Bu ikki holatni bir-biridan farqlovchi faktor mavjudmi?",
+    "answer": "yo‘q mavjud emas, bu ikki holat emas, bir holatni ikki xil nomlanishidir",
+    "noAnswer1": "xa mavjud, u bu holatlar sodir bo‘lishi mumkin bo‘lgan temperaturalarni har xilligidadur",
+    "noAnswer2": "yo‘q mavjud emas, faqat gazli ideal yoki real ekanini xisobga olib ikki xil nomlanadi",
+    "noAnswer3": "xa mavjud, muvozanat holatda sistemani parametrlari vaqt o‘tishi bilan doimiy qolishidan tashqari barcha (.) bir xil bo‘ladi."
   },
   {
-    "question": "Klaster tizimlarning asosiy kamchiligi nima?",
-    "answer": "Xavfsizlikka yuqori talablar",
-    "noAnswer1": "Parallel hisoblashlarni qo‘llab-quvvatlamasligi",
-    "noAnswer2": "Kam resurslardan foydalanishi",
-    "noAnswer3": "Tarmoq tezligining ahamiyatsizligi"
+    "question": "Qanday termodinamik sistema yopiq sistema deb ataladi?",
+    "answer": "Atrof muxit bilan faqat energiya almasha oladigan",
+    "noAnswer1": "Atrof muxit bilan faqat modda almasha oladigan",
+    "noAnswer2": "Atrof muxit bilan ham modda ham energiya almasha oladigan",
+    "noAnswer3": "Atrof muxit bilan energiya ham modda ham almasha olmaydigan"
   },
   {
-    "question": "Saqlash klasterlarida qaysi texnologiya keng qo‘llaniladi?",
-    "answer": "RAID",
-    "noAnswer1": "NUMA",
-    "noAnswer2": "GPU",
-    "noAnswer3": "HTTP"
+    "question": "Qanday termodinamik sistema izolyasiyalangan sistema deb ataladi?",
+    "answer": "Atrof muxit bilan faqat energiya almasha oladigan",
+    "noAnswer1": "Atrof muxit bilan faqat modda almasha oladigan",
+    "noAnswer2": "Atrof muxit bilan energiya ham modda ham almasha olmaydigan",
+    "noAnswer3": "Atrof muxit bilan hamma modda ham energiya almashadigan"
   },
   {
-    "question": "GPU klasterlarining asosiy qo'llanilishi qaysi soha uchun mos?",
-    "answer": "Grafik hisoblash va sun'iy intellekt",
-    "noAnswer1": "Matritsa hisoblash",
-    "noAnswer2": "Tarmoq boshqaruvi",
-    "noAnswer3": "Web-dastur ishlov berish"
+    "question": "Termodinamik sistemaning qanday kattaliklarini addetiv (ekstensiv) kattaliklar deb ataladi.",
+    "answer": "Sistemaning massasiga bog‘liq bo‘lgan kattaliklar",
+    "noAnswer1": "Sistemaning massasiga bog‘liq bo‘lmagan kattaliklar",
+    "noAnswer2": "Sistemaning temperaturasiga bog‘liq kattaliklar",
+    "noAnswer3": "Sistemaning bosimiga bog‘liq kattaliklar"
   },
   {
-    "question": "Klaster tizimlarining barqarorligini oshirish uchun qaysi usul ishlatiladi?",
-    "answer": "Ma'lumotlarni zaxiralash va uzilishlar nazorati",
-    "noAnswer1": "Xotira hajmini oshirish",
-    "noAnswer2": "Har bir protsessorni alohida boshqarish",
-    "noAnswer3": "Faqat grafik hisoblash imkoniyatlarini oshirish"
+    "question": "Termodinamik sistemaning qanday kattaliklari noaddetiv (Intensiv) kattaliklar deb ataladi?",
+    "answer": "Sistemaning massasiga bog‘liq bo‘lgan kattaliklar",
+    "noAnswer1": "Sistemaning massasiga bog‘liq bo‘lmagan kattaliklar",
+    "noAnswer2": "Sistemaning temperaturasiga bog‘liq kattaliklar",
+    "noAnswer3": "Sistemaning bosimiga bog‘liq kattaliklar"
   },
   {
-    "question": "Yopiq va ochiq klasterlar o'rtasidagi asosiy farq nimada?",
-    "answer": "Ma'lumotlarga kirish chegaralari va xavfsizlik",
-    "noAnswer1": "Tizimda ishlatiladigan protsessorlar turi",
-    "noAnswer2": "Xotira arxitekturasining turlari",
-    "noAnswer3": "Grafik hisoblash tezligi"
+    "question": "Real termodinamik sistemalar izolyasiyalangan bo‘lishi mumkinmi?",
+    "answer": "xa, chunki u izolyasiyalangan",
+    "noAnswer1": "yo‘q chunki uni atrof muxit issiqligidan mutloq izolyasiyalab bo‘lmaydi",
+    "noAnswer2": "sharoitga bog‘liq ravishda ham, xa ham yo‘q bo‘lishi mumkin",
+    "noAnswer3": "savol fizik nuqtai nazarda noto‘g‘ri qo‘yilgan"
   },
   {
-    "question": "Klaster tizimlarida hisoblash jarayonini optimallashtirish uchun qaysi algoritmlar ishlatiladi?",
-    "answer": "Taqsimlangan hisoblash va yukni balanslash algoritmlari",
-    "noAnswer1": "Faqat ma'lumotlarni saqlash algoritmlari",
-    "noAnswer2": "Xotira almashish algoritmlari",
-    "noAnswer3": "Graf jarayonlarni boshqarish algoritmlari"
+    "question": "Quydagilardan qaysi biri sistemaning ichki energiyasini ifodalaydi?",
+    "answer": "Sistemani tashqil qiluvchi zarrachalarning kinetik va potesial energiyalari yig‘indisi",
+    "noAnswer1": "Sistemaning faqat potensial energiyasi",
+    "noAnswer2": "Sistemaning faqat kinetik energiyasi",
+    "noAnswer3": "Sistemaning bosimi o‘zgarishi"
   },
   {
-    "question": "Kommunikatsiya nima?",
-    "answer": "Axborotni bir joydan ikkinchisiga uzatish jarayoni",
-    "noAnswer1": "Axborotning kodlash jarayoni",
-    "noAnswer2": "Ma'lumotlarni tahlil qilish jarayoni",
-    "noAnswer3": "Ma'lumotni tarmoqlarda saqlash texnologiyasi"
+    "question": "Issiqlikning mexanikaviy ekvivalent nima va nechaga teng?",
+    "answer": "Mexanik ish birligini (joul) issiqlik birligi (kal) ga nisbati va 4.1868 j/kkal",
+    "noAnswer1": "Mexanik ish birligini issiqlik birligiga nisbati va 4186.8j/kkal",
+    "noAnswer2": "Issiqlik birligini ish birligiga nisbati va 4.1868 j/kal",
+    "noAnswer3": "Issiqlik birligini ish birligiga nisbati va 4.1868 j/kkal"
   },
   {
-    "question": "Kommunikatsiya tarmoqlari nima?",
-    "answer": "Axborotlarni bir joydan ikkinchisiga uzatadigan tizimlar",
-    "noAnswer1": "Axborotlarni tahlil qilish usullari",
-    "noAnswer2": "Faqat simsiz tarmoqlar uchun platforma",
-    "noAnswer3": "Tarmoq protokollari va dasturlar majmuasi"
+    "question": "Mexanikaviy ishning issiqlik ekvivalenti nima va qanchaga teng",
+    "answer": "Issiqlik birligini ish birligiga nisbati va 4.1868 kkal/j",
+    "noAnswer1": "Issiqlik birligini ish birligiga nisbati va 0.24 kkal/j",
+    "noAnswer2": "Ish birligini issiqlikbirligiga nisbati va 0.24 kkal/j",
+    "noAnswer3": "Issiqlik birligini ish birligiga nisbati va 0.24 kal/j"
   },
   {
-    "question": "Kommunikatsiya jarayonining asosiy elementi qaysi?",
-    "answer": "Axborot uzatuvchi, qabul qiluvchi va kanal",
-    "noAnswer1": "Protsessor",
-    "noAnswer2": "Tarmoq adapterlari",
-    "noAnswer3": "Faoliyat loglari"
+    "question": "Javoblarda keltirilgan formulalardan qaysi biri ushbu tarifni ifodalaydi \"Sistemaga berilgan issiqlik miqdori, sistemaning ichki energiyasini o‘zgartirish va sistema tomonidan bajarilgan ishga sarf bo‘ladi?",
+    "answer": "dq = du+pdv",
+    "noAnswer1": "dq = du+da",
+    "noAnswer2": "1 javob ham 2 javob ham to‘g‘ri",
+    "noAnswer3": "da = p*dv"
   },
   {
-    "question": "Kommunikatsiya tarmoqlarining turlari qanday?",
-    "answer": "Lokal va global tarmoqlar",
-    "noAnswer1": "Faol va passiv tarmoqlar",
-    "noAnswer2": "An'anaviy va interaktiv tarmoqlar",
-    "noAnswer3": "Kodlangan va ochiq tarmoqlar"
+    "question": "Qaysi hollarda dQ, dA va dU larning ishorasi manfiy bo‘ladi.",
+    "answer": "Sistemaga issiqlik tashqi jisimlardan o‘tsa",
+    "noAnswer1": "Sistemadan issiqlik oqimi nolga teng",
+    "noAnswer2": "Sistema muvozanat holatda bo‘lganda",
+    "noAnswer3": "Sistemadan issiqlik olinganda"
   },
   {
-    "question": "Lokal tarmoq (LAN) nima?",
-    "answer": "Mahalliy joyda bog'langan qurilmalar tarmog'i",
-    "noAnswer1": "Global miqyosda ishlovchi tarmoq",
-    "noAnswer2": "Faqat simsiz aloqa tizimi",
-    "noAnswer3": "Maxsus apparat tarmog'i"
+    "question": "Termodinamikani I-qonuni ifodalovchi formula qaysi javobga keltirilgan?",
+    "answer": "U = cvt",
+    "noAnswer1": "Q = dU+A",
+    "noAnswer2": "deltaU = U2-U1",
+    "noAnswer3": "dQ = C*m deltaT"
   },
   {
-    "question": "Global tarmoq (WAN) qanday ishlaydi?",
-    "answer": "Yirik geografik hududlarni qamrab oladi",
-    "noAnswer1": "Faqat bir binoda ishlaydi",
-    "noAnswer2": "Tarmoq texnologiyalarini ishlatmaydi",
-    "noAnswer3": "Faqat markazlashgan serverlarda ishlaydi"
+    "question": "Jismni temperatura birligicha isitish uchun kerak bo‘lgan issiqlik miqdorini nomi nima?",
+    "answer": "Jismning ichki energiyasi",
+    "noAnswer1": "Jismning energiya sig‘imi",
+    "noAnswer2": "Jismning solishtirma issiqlik sig‘imi",
+    "noAnswer3": "Jismning issiqlik sig‘imi"
   },
   {
-    "question": "Tarmoq orqali ma'lumot uzatishda qaysi protokol ko'proq qo'llaniladi?",
-    "answer": "TCP/IP",
-    "noAnswer1": "SMTP",
-    "noAnswer2": "HTTP",
-    "noAnswer3": "FTP"
+    "question": "Birlik massadagi jismni temperatura birligiga isitish uchun kerak bo‘lgan issiqlik miqdorini nomi nima?",
+    "answer": "Jismning ichki energiyasi",
+    "noAnswer1": "Jismni energiya sig‘imi",
+    "noAnswer2": "Jismning issiqlik sig‘imi",
+    "noAnswer3": "Jismning solishtirma issiqlik sig‘imi"
   },
   {
-    "question": "Kommunikatsiya tarmoqlarida qaysi texnologiya ma'lumotlarni shifrlash uchun ishlatiladi?",
-    "answer": "SSL/TLS",
-    "noAnswer1": "DHCP",
-    "noAnswer2": "POP3",
-    "noAnswer3": "RAID"
+    "question": "Termodinamikaning I-qonuni mazmun bo‘yicha qanday qonun",
+    "answer": "Issiqlik jarayonlarida sistemalarning harakat qonuni",
+    "noAnswer1": "Issiqlik jarayonlari uchun energiyani aylanish qonuni",
+    "noAnswer2": "Issiqlik jarayonlari uchun energiyani saqlanish qonuni",
+    "noAnswer3": "Issiqlik jarayonlarida ichki energiyani saqlashi qonuni"
   },
   {
-    "question": "Kommunikatsiya tarmoqlarida tarmoq topologiyasi nima?",
-    "answer": "Tarmoq qurilmalarining bir-biriga bog'lanish shakli",
-    "noAnswer1": "Ma'lumotlarni tahlil qilish algoritmi",
-    "noAnswer2": "Tarmoq xavfsizligi darajasi",
-    "noAnswer3": "Tarmoqdagi axborotning tahliliy usuli"
+    "question": "Agar sistemaga atrof muxitdan dQ energiya bo‘lsa va bunda dA elementar ish bajarilgan bo‘lsa sistemaning ichki energiyasini o‘zgarishini qaysi formuladan topsa bo‘ladi?",
+    "answer": "dQ = dU-dA",
+    "noAnswer1": "Du = dQ+dA",
+    "noAnswer2": "dU = dQ-dA",
+    "noAnswer3": "dU = dA-dQ"
   },
   {
-    "question": "Kompyuter tarmoqlari qaysi maqsadda qo'llaniladi?",
-    "answer": "Ma'lumotlarni uzatish va ulashish uchun",
-    "noAnswer1": "Grafik ishlov berish uchun",
-    "noAnswer2": "Dasturiy ta'minotni rivojlantirish uchun",
-    "noAnswer3": "Faqat xavfsizlikni ta'minlash uchun"
+    "question": "Qaysi hollarda termodinamikani I-qonunining formulasidagi dQ, dA va dU kattaliklarning ishorasi musbat bo‘ladi.",
+    "answer": "Sistema muvozanat holatda bo‘lganda",
+    "noAnswer1": "Sistema izolyasiyalangan bo‘lganida",
+    "noAnswer2": "Sistemaga issiqlik berilsa",
+    "noAnswer3": "Sistemadan issiqlik olinsa"
   },
   {
-    "question": "Simli kommunikatsiya tarmoqlarining asosiy afzalligi nima?",
-    "answer": "Yuqori tezlik va barqarorlik",
-    "noAnswer1": "Har qanday joyda foydalanish imkoniyati",
-    "noAnswer2": "Qulay va oson sozlanishi",
-    "noAnswer3": "Elektr energiyasiga ehtiyoj yo'qligi"
+    "question": "Izotermik jarayonda m-massali gazning xajmi V1 dan V2 ga ortishida bajarilgan ishni xisoblasa bo‘ladimi? Agar mumkin bo‘lsa qaysi formula bilan?",
+    "answer": "Bo‘ladi, da = p*dV bilan",
+    "noAnswer1": "Bo‘lmaydi, chunki T = const da gazni bajarmaydi v2",
+    "noAnswer2": "Bo‘ladi, A = S pdV bilan (S ni-integral deb tushuning) v1",
+    "noAnswer3": "Bo‘ladi, formulasi yo‘q, faqat tajriba yo‘li aniqlash mumkin"
   },
   {
-    "question": "Simsiz kommunikatsiya tarmoqlari qanday ishlaydi?",
-    "answer": "Radio to'lqinlar yoki infraqizil texnologiyalar orqali ma'lumot uzatadi",
-    "noAnswer1": "Ma'lumotlarni kabel orqali uzatadi",
-    "noAnswer2": "Faqat lokal joylarda ma'lumot uzatadi",
-    "noAnswer3": "Tarmoq kartasidan foydalanmaydi"
+    "question": "Termodinamikani I-qonunini jarayonlarning qaysi faktorini ko‘rsata olmaydi?",
+    "answer": "Jarayonlarni turini",
+    "noAnswer1": "Jarayonlarni o‘tishi yo‘nalishini",
+    "noAnswer2": "Hamma faktorini ko‘rsatadi",
+    "noAnswer3": "Jarayonlarni miktoriy ko‘rsatkichlarini"
   },
   {
-    "question": "Optik tolali aloqa tizimining afzalliklaridan biri nima?",
-    "answer": "Ma'lumotlarni yuqori tezlikda va uzoq masofalarga uzatish imkoniyati",
-    "noAnswer1": "Elektr energiyasi kam sarflanadi",
-    "noAnswer2": "Oddiy kabeldan foydalanish",
-    "noAnswer3": "Faqat mahalliy tarmoqlar uchun mo'ljallangan"
+    "question": "Ideal gazdagi izotermik prosess uchun termodinamikani I-qonunini formulasini ko‘rinishi qanday bo‘ladi va nima uchun.",
+    "answer": "dQ = dU bo‘ladi, chunki gaz bajarmaydi (A=0) faqat uni temperaturasi oshadi",
+    "noAnswer1": "dQ = dU+A bo‘ladi, chunki dU=0 va A=0",
+    "noAnswer2": "dQ = A bo‘ladi, chunki delta U=0 bo‘lib dQ ish bajarishga sarflanadi",
+    "noAnswer3": "A= -dU bo‘ladi chunki dQ = 0 bo‘ladi"
   },
   {
-    "question": "Kommunikatsiya tarmoqlarida tarmoq uzeli nima?",
-    "answer": "Ma'lumotlarni qabul qilish yoki uzatishni amalga oshiruvchi har qanday qurilma",
-    "noAnswer1": "Faqat kompyuter qurilmasi",
-    "noAnswer2": "Tarmoq topologiyasining grafigi",
-    "noAnswer3": "Faqat server qurilmasi"
+    "question": "Ideal gazdagi izoxorik jarayon uchun termodinamikani I-qonunini matematik ifodasi qanday bo‘ladi va nima uchun?",
+    "answer": "dQ = dU bo‘ladi, chunki A=O bo‘lib gaz ish bajarmaydi, faqat uni temperaturasi o‘zgaradi.",
+    "noAnswer1": "DQ = dU+A bo‘ladi, chunki dU teng emas O, A teng emas O",
+    "noAnswer2": "dQ = A bo‘ladi, chunki dU = O bo‘lib hamma issiqlik ish bajaradi.",
+    "noAnswer3": "A = -dU ko‘rinishda, chunki dQ = O"
   },
   {
-    "question": "Kommunikatsiya tizimlarida ma'lumotlarni shifrlash nima uchun kerak?",
-    "answer": "Ma'lumotlarning xavfsizligini ta'minlash uchun",
-    "noAnswer1": "Ma'lumotlarni tezkor uzatish uchun",
-    "noAnswer2": "Faqat xotira hajmini kamaytirish uchun",
-    "noAnswer3": "Operatsion tizimni tezlashtirish uchun"
+    "question": "Ideal gazdagi Adiabotik jarayon uchun termodinamikani I-qonuni qanday yozish mumkin va nima uchun?",
+    "answer": "dQ= dU ko‘rinishda, chunki bunda A=O",
+    "noAnswer1": "dQ = dU+A ko‘rinishda, chunki bu jarayonda A teng emas O, dU teng emas 0",
+    "noAnswer2": "dQ = A ko‘rinishda, chunki bu jarayonda dU=O",
+    "noAnswer3": "A = -dU ko‘rinishda, chunki bu jarayonda dQ=O"
   },
   {
-    "question": "Mobil kommunikatsiya qanday amalga oshiriladi?",
-    "answer": "Simsiz texnologiyalar yordamida",
-    "noAnswer1": "Faqat optik tolali kabellar orqali",
-    "noAnswer2": "Tarmoq serverlari yordamida ma'lumotni joyida saqlash orqali",
-    "noAnswer3": "Internetdan foydalanmasdan"
+    "question": "Birinchi turdagi Abadiy dvigatelni borpo qilish mumkinmi? Nimaga?",
+    "answer": "Mumkin emas, chunki olgan energiyadan ko‘p ish bajarish mumkin emas",
+    "noAnswer1": "Mumkin, chunki olgan energiyasiga yarasha ish bajarsa bo‘ladida",
+    "noAnswer2": "Mumkin, chunki olgan energiyasidan ko‘p ish bajarilmaydi",
+    "noAnswer3": "Mumkin emas, chunki bunday mashina ish bajarmaydi"
   },
   {
-    "question": "Kommunikatsiya tarmoqlarida ma'lumot uzatishning asosiy birligi nima?",
-    "answer": "Paket",
-    "noAnswer1": "Protokol",
-    "noAnswer2": "Segment",
-    "noAnswer3": "Tarmoq adapteri"
+    "question": "Hamma real jarayonlar qaytuvchan bo‘ladimi?",
+    "answer": "Bo‘lmaydi",
+    "noAnswer1": "Bo‘lishi mumkin",
+    "noAnswer2": "Bo‘ladi",
+    "noAnswer3": "Hamma vaqt ham bo‘lavermaydi"
   },
   {
-    "question": "Qo'llaniladigan kommunikatsiya protokollaridan biri qaysi?",
-    "answer": "SMTP",
-    "noAnswer1": "HTML",
-    "noAnswer2": "JSON",
-    "noAnswer3": "CSS"
+    "question": "Bajarilgan ishning isitgichda ishchi modda tomonidan olingan issiqlik miqdoriga nisbatiga:",
+    "answer": "Ichki ishqalanish koeffisiyenti deyiladi",
+    "noAnswer1": "Elastiklik koeffisiyenti deyiladi",
+    "noAnswer2": "Issiqlik mashinasining f.i.k. deyiladi",
+    "noAnswer3": "Qovushoqlik koeffisiyenti deyiladi"
   },
   {
-    "question": "Internet tarmog'i qanday turdagi kommunikatsiya tarmog'iga kiradi?",
-    "answer": "Global tarmoq",
-    "noAnswer1": "Lokal tarmoq",
-    "noAnswer2": "Virtual tarmoq",
-    "noAnswer3": "Shifrlangan tarmoq"
+    "question": "Qaytmas jarayonlarda keltirilgan issiqlik miqdorlarining yig‘indisi:",
+    "answer": "Entropiyani o‘zgarishidan katta",
+    "noAnswer1": "Entropiya o‘zgarishiga teng",
+    "noAnswer2": "Entropiya o‘zgarishidan kichik",
+    "noAnswer3": "nolga teng"
   },
   {
-    "question": "Kommunikatsiya tarmoqlarida trafikni boshqarish uchun qaysi texnologiya ishlatiladi?",
-    "answer": "QoS (Quality of Service)",
-    "noAnswer1": "POP3",
-    "noAnswer2": "RAID",
-    "noAnswer3": "HTTP/2"
+    "question": "Izolyasiyalangan sistemada entropiyaning ortishi...(davomini ko‘rsating)",
+    "answer": "Ish bajarishga imqon beradi",
+    "noAnswer1": "Cheklanmagan holda yuz beradi",
+    "noAnswer2": "Yuz bermaydi",
+    "noAnswer3": "Cheklanmagan holda yuz bermaydi"
   },
   {
-    "question": "Tarmoq topologiyasi nima?",
-    "answer": "Tarmoq qurilmalarining bir-biriga ulanish tartibi",
-    "noAnswer1": "Tarmoq qurilmalarining apparat texnologiyasi",
-    "noAnswer2": "Tarmoq xavfsizligi algoritmi",
-    "noAnswer3": "Tarmoq dasturlarining ishlash jarayoni"
+    "question": "Qaysi issiqlik mashinasini f.i.k. katta? Qaytuvchan mashinanimi yoki qaytmas mashinanimi?",
+    "answer": "Bir xil",
+    "noAnswer1": "Qaytmas mashinaniqi",
+    "noAnswer2": "Qaytuvchan mashinaniqi",
+    "noAnswer3": "Qaytmas mashinaniqi 20% ga katta"
   },
   {
-    "question": "Quyidagi tarmoq topologiyalaridan qaysi biri mavjud?",
-    "answer": "\"Yulduz\"",
-    "noAnswer1": "\"Oyna\"",
-    "noAnswer2": "\"Zanjir\"",
-    "noAnswer3": "\"Piramida\""
+    "question": "Issiqlik miqdori jarayonining funksiyasimi yoki holat funksiyasimi?",
+    "answer": "jarayonning funksiyasi",
+    "noAnswer1": "holat funksiyasi",
+    "noAnswer2": "ham jarayon ham holat funksiyasi",
+    "noAnswer3": "u xech qanday funksiya emas"
   },
   {
-    "question": "Halqa topologiyasining xususiyati nimada?",
-    "answer": "Tarmoq qurilmalari yopiq halqa shaklida ulanadi",
-    "noAnswer1": "Tarmoq qurilmalari zanjir shaklida ulanadi",
-    "noAnswer2": "Har bir qurilma o'z uzatish kanaliga ega",
-    "noAnswer3": "Server orqali ulanish amalga oshadi"
+    "question": "Izolyasiyalangan termodinamik sistemada vaqt o‘tishi bilan qanday xodisa sodir bo‘lishi mumkin?",
+    "answer": "xech qanday, chunki u izolyasiyalangan",
+    "noAnswer1": "stasionar holat paydo bo‘ladi",
+    "noAnswer2": "parametrlar gradiyenti xosil bo‘ladi",
+    "noAnswer3": "termodinamik muvozanat xosil bo‘ladi"
   },
   {
-    "question": "Yulduz topologiyasida markaziy element sifatida nima ishlatiladi?",
-    "answer": "Switch yoki hub",
-    "noAnswer1": "Kompyuter",
-    "noAnswer2": "Router",
-    "noAnswer3": "Optik kabel"
+    "question": "Yopiq termodinamik sistema atrofidagi jismlar bilan energiya almashinuvi necha xil jarayonda amalga oshadi?",
+    "answer": "bir xil, u energiya almashinuvida bo‘ladi",
+    "noAnswer1": "xech qanday jarayon bo‘lmaydi, sistema yopiqqu",
+    "noAnswer2": "ikki xil jarayonda-ish bajarish va issiqlik almashinuvida",
+    "noAnswer3": "Savol noto‘g‘ri qo‘yilgan"
   },
   {
-    "question": "Magistral topologiyasining asosiy afzalligi nima?",
-    "answer": "Kam xarajat",
-    "noAnswer1": "Yuqori tezlikdagi ulanish",
-    "noAnswer2": "Tarmoqning mustahkamligi",
-    "noAnswer3": "Signalning qiyinchiliksiz tarqalishi"
+    "question": "Ochiq va yopiq termodinamik sistemalarni o‘xshashlik tomoni mavjudmi?",
+    "answer": "yo‘q, bu ikki xil sistema",
+    "noAnswer1": "sharoitga qarab o‘xshashlik tomoni mavjud bo‘lishi mumkin",
+    "noAnswer2": "xa",
+    "noAnswer3": "sharoitga qarab o‘xshash tomoni yo‘q bo‘lishi mumkin"
   },
   {
-    "question": "Yulduz topologiyasining kamchiligi nima?",
-    "answer": "Markaziy tugun ishlamasa, butun tarmoq ishlamay qoladi",
-    "noAnswer1": "Tarmoq qurilmalari sonining cheklanganligi",
-    "noAnswer2": "Kabel sarfi ko'p bo'ladi",
-    "noAnswer3": "Qurilmalar uzatish tezligini pasaytiradi"
+    "question": "Stasionar holat qanday termodinamik sistemada sodir bo‘lishi mumkin?",
+    "answer": "ixtiyeriy sistemada",
+    "noAnswer1": "faqat izolyasiyalangan sistemada",
+    "noAnswer2": "faqat ochiq sistemalarda",
+    "noAnswer3": "faqat yopiq sistemalarda"
   },
   {
-    "question": "Halqa topologiyasida ma'lumot qanday uzatiladi?",
-    "answer": "Belgilangan yo'nalishda bir tugundan boshqasiga ketma-ket",
-    "noAnswer1": "Faqat markaziy uzel orqali",
-    "noAnswer2": "Ixtiyoriy yo'nalishda",
-    "noAnswer3": "Zanjir orqali ketma-ket"
+    "question": "Ingliz fizigi Joul (1843y) tomonidan tajriba yo‘li bilan nima isbotlangan?",
+    "answer": "sistemaga berilgan yoki undan olingan issiqlik miqdori uning ichki energiyasini o‘zgartirishini",
+    "noAnswer1": "ish bajarish va issiqlik miqdori uzatish bilan sistemaning ichki energiyasini o‘zgartirish mumkinligini",
+    "noAnswer2": "issiqlik miqdori bilan mexanik ish o‘rtasida ekvivalentlik mavjud ekanligi",
+    "noAnswer3": "1 va 2 javoblar to‘g‘ri"
   },
   {
-    "question": "Tarmoqning gibrid topologiyasi nima?",
-    "answer": "Turli xil topologiyalarning kombinatsiyasi",
-    "noAnswer1": "Bir xil turdagi qurilmalarning ulanish shakli",
-    "noAnswer2": "Simli va simsiz tarmoqlarning kombinatsiyasi",
-    "noAnswer3": "Faqat simsiz ulanishlar"
+    "question": "Rasmda keltirilgan davriy jarayon qanday sharoitda sodir bo‘lishi mumkin? Q isitqich-----issiqlik mashina---A=Q",
+    "answer": "ixtiyeriy sharoitda",
+    "noAnswer1": "adiabatik sharoitda",
+    "noAnswer2": "izotermik sharoitda",
+    "noAnswer3": "xech qanday sharoitda"
   },
   {
-    "question": "Magistral topologiyasida signal qanday tarqaladi?",
-    "answer": "Umumiy kabel bo'ylab barcha qurilmalarga tarqaladi",
-    "noAnswer1": "Faqat ixtiyoriy yo'nalishda uzatiladi",
-    "noAnswer2": "Markaziy tugundan tarqaladi",
-    "noAnswer3": "Har bir qurilmaga bevosita uzatiladi"
+    "question": "Issiqlik mashinasiga qanday xususiyatlar albatta xosdir?",
+    "answer": "foydali ish koeffisiyenti 0 dan katta bo‘lishi",
+    "noAnswer1": "isitqichni mavjud bo‘lishi",
+    "noAnswer2": "sovutqichni mavjud bo‘lishi",
+    "noAnswer3": "bajarilgan ishni mavjud bo‘lishi"
   },
   {
-    "question": "Yulduz topologiyasining afzalligi nimada?",
-    "answer": "Oson kengaytirish va boshqarish",
-    "noAnswer1": "Har bir qurilmaning mustaqil ishlashi",
-    "noAnswer2": "Minimal kabel ishlatilishi",
-    "noAnswer3": "Tarmoqning avtomatik konfiguratsiyasi"
+    "question": "Issiqlik mashinasining ishchi moddasini ichki energiyasi har bir sikl davomida qanday o‘zgaradi?",
+    "answer": "temperaturaga bog‘liq ravishda o‘zgaradi",
+    "noAnswer1": "o‘zgarmaydi",
+    "noAnswer2": "bosimga bog‘liq ravishda o‘zgaradi",
+    "noAnswer3": "ham temperaturaga ham bosimga bog‘liq o‘zgaradi"
   },
   {
-    "question": "Halqa topologiyasi qanday tarmoq uchun qulay?",
-    "answer": "Kichik lokal tarmoqlar",
-    "noAnswer1": "Katta korporativ tarmoqlar",
-    "noAnswer2": "Wi-Fi tarmoqlari",
-    "noAnswer3": "Gibrid tarmoqlar"
+    "question": "Gazning bo‘shliqka kengayishi, diffuziya, issiqlik almashinishi qanday jarayonlarga misol bo‘ladi?",
+    "answer": "qaytar jarayonlarga",
+    "noAnswer1": "qaytmas jarayonlarga",
+    "noAnswer2": "kayrat va qaytmas jarayonlarga",
+    "noAnswer3": "hammasi to‘g‘ri"
   },
   {
-    "question": "Magistral topologiyaning asosiy kamchiligi nima?",
-    "answer": "Bir kabelning ishlamay qolishi butun tarmoqni ishdan chiqaradi",
-    "noAnswer1": "Yuqori xarajatlar talab qilinishi",
-    "noAnswer2": "Signalning butun tarmoq bo'ylab tarqalishi",
-    "noAnswer3": "Tarmoqning mustahkamligi"
+    "question": "Issiqlik mashinasining yoki to‘g‘ri siklning FIK deb, bajarilganishning ishchi moddaning isitgichdan olgan issiqlik miqdoriga bo‘lgan nisbatiga aytiladi. Bu qonun formula bo‘yicha qanday ifodalanadi?",
+    "answer": "A=Q1+Q2",
+    "noAnswer1": "m=A/Q",
+    "noAnswer2": "dQ=dA",
+    "noAnswer3": "dA=pXV"
   },
   {
-    "question": "Yulduz topologiyasi qanday vaziyatda ishlatiladi?",
-    "answer": "Oson boshqariladigan va kengaytiriladigan tarmoqlarda",
-    "noAnswer1": "Markaziy server talab qilinmaydigan tarmoqlarda",
-    "noAnswer2": "Signal tezligini oshirish maqsadida",
-    "noAnswer3": "Faqat simsiz tarmoqlar uchun"
+    "question": "Termodinamika ikkinchi asosining bir necha tariflari mavjud bo‘lib, shulardan Tomson tarifini toping.",
+    "answer": "issiqlik o‘z o‘zidan sovuqroq jism tomondan issiqroq jism tomonga o‘ta olmaydi",
+    "noAnswer1": "ikkinchi turdagi abadiy dvigatel bo‘lishi mumkin emas",
+    "noAnswer2": "issiqlik mashinasida ish berilgan issiqlik xisobiga ish bajariladi",
+    "noAnswer3": "ham temperaturaga ham bosimga bog‘liq o‘zgaradi"
   },
   {
-    "question": "Halqa topologiyasida ma'lumotlar uzatish jarayonida qaysi usul ishlatiladi?",
-    "answer": "Token uzatish",
-    "noAnswer1": "Paket yo'nalishlash",
-    "noAnswer2": "Zanjirli uzatish",
-    "noAnswer3": "Broadcast uzatish"
+    "question": "Aylanma prosess deb nimaga aytiladi?",
+    "answer": "sistema dastlabki holatga qaytib kelmaydigan prosessga aytiladi",
+    "noAnswer1": "sistema dastlabki holatga qaytib kela oladigan prosesga aytiladi",
+    "noAnswer2": "sistemaning isib ketishiga aytiladi",
+    "noAnswer3": "sistemaning sovib ketishiga aytiladi"
   },
   {
-    "question": "Tarmoqning magistral topologiyasini kengaytirish uchun nima talab qilinadi?",
-    "answer": "Magistral kabelga yangi qurilma ulash",
-    "noAnswer1": "Qo'shimcha switch yoki hub",
-    "noAnswer2": "Yangi markaziy tugun o'rnatish",
-    "noAnswer3": "Tarmoq dasturini o'zgartirish"
+    "question": "Termodinamika 2 asosining Klazius tarifi qanday?",
+    "answer": "ikkinchi turdagi abadiy dvigatelning bo‘lishi mumkin emas",
+    "noAnswer1": "issiqlik o‘z-o‘zidan sovuqroq jism tomondan issiqroq jism tomonga o‘ta olmaydi",
+    "noAnswer2": "issiqlik o‘z-o‘zidagi sovuqroq jism tomonga issiqroq jism tomonga o‘ta oladi",
+    "noAnswer3": "issiqlik sovuqroq jism bilan bog‘liq"
   },
   {
-    "question": "Gibrid topologiya qaysi tarmoqlar uchun mos keladi?",
-    "answer": "Yirik korporativ va ma'lumot markazlari uchun",
-    "noAnswer1": "Oddiy lokal tarmoqlar uchun",
-    "noAnswer2": "Faqat mobil tarmoqlar uchun",
-    "noAnswer3": "Magistral topologiyaga asoslangan tarmoqlar uchun"
+    "question": "Issiqlik mashinasining yoki to‘g‘ri siklning foydali ish koeffisiyenti deb nimaga aytiladi?",
+    "answer": "bajarilgan ishning ishchi moddaning sovutgichdan olishga aytiladi",
+    "noAnswer1": "olingan issiqlikning energiyaga nisbati",
+    "noAnswer2": "bajarilgan ishning ishchi moddaning isitgichdan olgan issiqlik miqdoriga bo‘lgan nisbatiga aytiladi",
+    "noAnswer3": "olingan energiyaning issiqlikga nisbati"
   },
   {
-    "question": "Tarmoqlarda \"Mesh\" topologiyasi qanday ishlaydi?",
-    "answer": "Har bir qurilma boshqasiga to'g'ridan-to'g'ri ulanadi",
-    "noAnswer1": "Faqat markaziy tugun orqali",
-    "noAnswer2": "Yagona magistral orqali bog'lanadi",
-    "noAnswer3": "Halqa shaklida ma'lumotlar tarqaladi"
+    "question": "Keltirilgan issiqlik miqdori deb nimaga aytiladi?",
+    "answer": "ishchi modda olgan yoki bergan issiqlik miqdorining issiqlik almashinishi bo‘layotgan vaqtdagi temperatura nisbatiga",
+    "noAnswer1": "ishchi modda bergan issiqlik miqdorining issiqlik olayetgan vaqtdagi energiyaga",
+    "noAnswer2": "ishchi modda olgna va bergan vaqtdagi bosmga nisbatiga",
+    "noAnswer3": "1 va 2 javoblar to‘g‘ri"
   },
   {
-    "question": "\"Mesh\" topologiyasining asosiy afzalligi nima?",
-    "answer": "Bir tugun ishdan chiqsa ham tarmoq ishlashda davom etishi",
-    "noAnswer1": "Kabel sarfining kamayishi",
-    "noAnswer2": "Har bir qurilmaning mustaqil ulanishi",
-    "noAnswer3": "Yuqori tezlikda signal uzatish"
+    "question": "Entropiya qiymatlarining ayirmasi nimaga teng?",
+    "answer": "sistemaning bir holatdan 2 chi holatga qaytuvchan o‘tishidagi keltirigan issiqlik miqdorining yig‘indisiga",
+    "noAnswer1": "sistemaning bir holatdan 2 chi holatga qaytuvchi o‘tishdagi keltirilgan issiqlik miqdoriningayirmasiga",
+    "noAnswer2": "1 va 2 javoblar to‘g‘ri",
+    "noAnswer3": "to‘g‘ri javob yo‘q"
   },
   {
-    "question": "Magistral topologiyada signalning samaradorligini oshirish uchun nima talab qilinadi?",
-    "answer": "Signalni kuchaytiruvchi qurilma (repeater) qo'shish",
-    "noAnswer1": "Qo'shimcha router o'rnatish",
-    "noAnswer2": "Kabel uzunligini qisqartirish",
-    "noAnswer3": "Token uzatishni amalga oshirish"
+    "question": "Termodinamika 2-qonunining Tomson tarifi qanday?",
+    "answer": "1 jismning issiqlik almashinishi",
+    "noAnswer1": "issiqlik o‘z-o‘zidan sovuqroq jism tomonidan issiqroqjismga o‘ta olmaydi",
+    "noAnswer2": "issiqlikning ishga aylanishi mumkin bo‘lgan davriy prosessning bo‘lishi mumkin",
+    "noAnswer3": "bir jismning sovushi xisobiga issiqlikning ishga aylanishi mumkin bo‘lgan yagona davriy jarayon bo‘lishi mumkin emas"
   },
   {
-    "question": "Tarmoq topologiyasi qanday tanlanadi?",
-    "answer": "Qurilmalarning joylashuvi va ishlash talablariga qarab",
-    "noAnswer1": "Faqat qurilmalar soniga asoslanib",
-    "noAnswer2": "Markaziy tugun ishlashiga asoslanib",
-    "noAnswer3": "Internet tezligiga qarab"
+    "question": "Odam organizmi qanday termodinamik sistema xisoblanadi?",
+    "answer": "izolyasiyalangan",
+    "noAnswer1": "muvozanatdagi",
+    "noAnswer2": "yopiq",
+    "noAnswer3": "ochiq"
   },
   {
-    "question": "Parallel dasturlashning asosiy qo'llanilish sohasi qaysi?",
-    "answer": "Katta hajmdagi hisob-kitoblarni tezlashtirishda",
-    "noAnswer1": "Veb-sayt dizayni yaratishda",
-    "noAnswer2": "O'yin dasturlarida",
-    "noAnswer3": "Matn muharrirlari yaratishda"
+    "question": "Biologik sistemalar holati uncha katta bo‘lmagan vaqtlar oralagida qanday holatda bo‘ladi?",
+    "answer": "muvozanat holatida",
+    "noAnswer1": "qo‘zg‘olgan holatda",
+    "noAnswer2": "stasionar holatda",
+    "noAnswer3": "nostasionar holatda"
   },
   {
-    "question": "Quyidagilardan qaysi biri parallel dasturlash uchun asosiy qo'llanilish maydonidir?",
-    "answer": "Ilmiy va muhandislik hisob-kitoblari",
-    "noAnswer1": "Matnli fayllarni tahrirlash",
-    "noAnswer2": "Grafiklar va vizualizatsiya",
-    "noAnswer3": "Ma'lumotlar bazasi boshqaruvi"
+    "question": "Odam organizmining stasionar holatda entropiyasi patologiya bo‘lmaganda vaqt o‘tishi bilan qanday o‘zgaradi?",
+    "answer": "doimo ortib boradi",
+    "noAnswer1": "o‘zgarmaydi",
+    "noAnswer2": "o‘zgarish tezligi doimiy bo‘ladi",
+    "noAnswer3": "o‘zgarish tezligi kamayib boradi"
   },
   {
-    "question": "Parallel dasturlash qaysi sohada ishlatilmaydi?",
-    "answer": "Oddiy kalkulyator dasturlarida",
-    "noAnswer1": "Genomika va bioinformatikada",
-    "noAnswer2": "Ko'p foydalanuvchili onlayn o'yinlarda",
-    "noAnswer3": "Vaqt bo'yicha katta ma'lumotlarni tahlil qilishda"
+    "question": "S=Const, (ds/dt)=0 shartlar qanday holatda maьnoga ega?",
+    "answer": "muvozanat holat uchun",
+    "noAnswer1": "nomuvozanat holat uchun",
+    "noAnswer2": "stasionar holat uchun",
+    "noAnswer3": "nostasionar holat uchun"
   },
   {
-    "question": "Superkompyuterlar parallel dasturlash yordamida qanday sohalarda qo'llaniladi?",
-    "answer": "Astronomik tahlillar va simulyatsiyalarda",
-    "noAnswer1": "Matnli hujjatlarni tahrirlashda",
-    "noAnswer2": "Ijtimoiy media platformalarini boshqarishda",
-    "noAnswer3": "Matematikani o'qitishda"
+    "question": "Yer sharoitida eng yuqori temperaturaga vodorod bombasini portlatishda erishildi. U taxminan nechaga teng?",
+    "answer": "1000000000 K ga",
+    "noAnswer1": "0, 0000000010 K ga",
+    "noAnswer2": "1000000000 J",
+    "noAnswer3": "273, 16 K"
   },
   {
-    "question": "Sinxronlashtirish usullarining asosiy vazifasi nima?",
-    "answer": "Parallel jarayonlar orasidagi muloqotni ta'minlash",
-    "noAnswer1": "Tizimni sozlash",
-    "noAnswer2": "Ma'lumotlarni zaxiralash",
-    "noAnswer3": "Tarmoq ulanishlarini boshqarish"
+    "question": "Medisinada ishlatiluvchi simobli termometr nima deb ataladi?",
+    "answer": "minimal termometr",
+    "noAnswer1": "maksimal termometr",
+    "noAnswer2": "monometr",
+    "noAnswer3": "termometr"
   },
   {
-    "question": "Mutex usuli nima uchun ishlatiladi?",
-    "answer": "Parallel dasturlarda ma'lumotlarni xavfsiz saqlash uchun",
-    "noAnswer1": "Tarmoqlarni ulash uchun",
-    "noAnswer2": "Grafik interfeyslarni yaratish uchun",
-    "noAnswer3": "Kodni kompyuterga yuklash uchun"
+    "question": "Termodinamikaviy temperatura birligi qaysi?",
+    "answer": "Kd-kandela",
+    "noAnswer1": "0S-syelsiya",
+    "noAnswer2": "Dj-djoul",
+    "noAnswer3": "K-kelvin"
   },
   {
-    "question": "Quyidagilardan qaysi biri sinxronlashtirish uchun ishlatiladi?",
-    "answer": "Semaphore",
-    "noAnswer1": "Loop unrolling",
-    "noAnswer2": "Garbage collection",
-    "noAnswer3": "Data binding"
+    "question": "Ingliz fizigi Joul (1843y) tomonidan tajriba yo‘li bilan nima isbotlangan?",
+    "answer": "sistemaga berilgan yoki undan olingan issiqlik miqdori uning ichki energiyasini o‘zgartirishini",
+    "noAnswer1": "ish bajarish va issiqlik miqdori uzatish bilan sistemaning ichki energiyasini o‘zgartirish mumkinligini",
+    "noAnswer2": "issiqlik miqdori bilan mexanik ish o‘rtasida ekvivalentlik mavjud ekanini",
+    "noAnswer3": "1 va 2 javoblar to‘g‘ri"
   },
   {
-    "question": "Semaphore nima?",
-    "answer": "Parallel jarayonlar orasida muloqotni boshqaruvchi dasturiy element",
-    "noAnswer1": "Ma'lumotlarni siqish usuli",
-    "noAnswer2": "Kompilyator xatosini aniqlash usuli",
-    "noAnswer3": "Ma'lumotlarni filtrlash texnikasi"
+    "question": "Metastatik termometrlardan qaysi maqsadda foydalaniladi?",
+    "answer": "katta intervaldagi temperaturani yuqori aniqlikda o‘lchash uchun",
+    "noAnswer1": "kichik intervaldagi temperaturani yuqori aniqlikda o‘lchash uchun",
+    "noAnswer2": "minimal temperaturani o‘lchash uchun",
+    "noAnswer3": "istalgancha yuksak bo‘lgan temperaturalarni o‘lchash uchun"
   },
   {
-    "question": "Parallel dasturlashda \"Deadlock\" muammosi nimada?",
-    "answer": "Bir nechta jarayonlar bir vaqtning o'zida bir xil resursni kutib qolishi",
-    "noAnswer1": "Ma'lumotlar oqimi ortishi",
-    "noAnswer2": "Resurslarni noto'g'ri bo'lish",
-    "noAnswer3": "Tarmoq uzilishlari"
+    "question": "Piromometrda termometrik xossa sifatida nimadan foydalaniladi?",
+    "answer": "nurlanishning nointensivligidan",
+    "noAnswer1": "radioaktiv yemirilishidan",
+    "noAnswer2": "nurlanish davridan",
+    "noAnswer3": "nurlanish davomiyligidan"
   },
   {
-    "question": "Deadlockni oldini olish uchun qanday usul qo'llaniladi?",
-    "answer": "Resurslarni band qilish tartibini belgilash",
-    "noAnswer1": "Ma'lumotlar oqimini boshqarish",
-    "noAnswer2": "Priority inversion",
-    "noAnswer3": "Loop optimizatsiyasi"
+    "question": "Syelsiy shkalasida 1 gradus asosiy intervalning qancha ulushini tashqil etadi?",
+    "answer": "0, 1",
+    "noAnswer1": "0, 01",
+    "noAnswer2": "10",
+    "noAnswer3": "0, 001"
   },
   {
-    "question": "Parallel dasturlash qaysi texnologiyada keng qo'llaniladi?",
-    "answer": "Grafik protsessorlar (GPU) dasturlashida",
-    "noAnswer1": "Veb-brauzer yaratishda",
-    "noAnswer2": "Elektron pochta tizimlarida",
-    "noAnswer3": "Matn kiritish dasturlarida"
+    "question": "Tirik organizm ochiq termodinamik sistema bo‘lib u .... holatda bo‘ladi. Bo‘sh joyga qaysi javob to‘g‘ri keladi?",
+    "answer": "muvozanat",
+    "noAnswer1": "bog‘langan",
+    "noAnswer2": "erkin",
+    "noAnswer3": "stasionar"
   },
   {
-    "question": "Sinxronizatsiya usullaridan biri bo'lgan \"Condition Variables\" nimani boshqaradi?",
-    "answer": "Jarayonlar o'rtasidagi signal va kutish holatini",
-    "noAnswer1": "Tarmoqdagi ulanish tezligini",
-    "noAnswer2": "Fayllarni siqish darajasini",
-    "noAnswer3": "Dasturlarni kompilyatsiya qilish jarayonini"
+    "question": "\"Gomeostaz\" deganda biologiyada tirik organizmdagi holat parametrlarini vaqt davomida doimiy bo‘lishi tushuniladi. Bu organizmning qanday termodinamik holatiga mos keladi?",
+    "answer": "muvozanat holatiga",
+    "noAnswer1": "bog‘lanmagan erkin holatiga",
+    "noAnswer2": "stasionar holatiga",
+    "noAnswer3": "izolyasiyalangan holatiga"
   },
   {
-    "question": "Parallel dasturlashda \"Race Condition\" deganda nima tushuniladi?",
-    "answer": "Ikki yoki undan ko'p jarayonning bir vaqtning o'zida resursga kirishi natijasida noto'g'ri natija olinishi",
-    "noAnswer1": "Protsessorlar sonining oshishi",
-    "noAnswer2": "Jarayonlarning o'zaro mustaqil bajarilishi",
-    "noAnswer3": "Ma'lumotlarni bir xil darajada joylashganligi"
+    "question": "Tirik organizmda normal sharoitda quyidagilardan qaysi birlari stasionar holatda bo‘ladi?",
+    "answer": "ichki muxitning ximiyaviy tarkibi",
+    "noAnswer1": "qonning osmotik bosimi",
+    "noAnswer2": "badanning harorati",
+    "noAnswer3": "xujayralardagi konsentrasiya, osmotik, elektrik gradiyentlari"
   },
   {
-    "question": "OpenMP texnologiyasi nima uchun ishlatiladi?",
-    "answer": "Parallel hisoblashlarni osonlashtirish uchun",
-    "noAnswer1": "Grafik interfeyslar yaratish uchun",
-    "noAnswer2": "Web dasturlash uchun",
-    "noAnswer3": "Xotira bo'shliqlarini boshqarish uchun"
+    "question": "Termodinamik muvozanatda va stasionar holatdagi sistemalarning o‘xshashligi nimada?",
+    "answer": "ikkala holatlarning o‘xshashligi yo‘q",
+    "noAnswer1": "sistemalar parametrlarining vaqt davomida o‘zgarmasligida",
+    "noAnswer2": "sistema parametrlarini vaqt davomida bir xil o‘zgarishida",
+    "noAnswer3": "parametrlar sistemaning barcha qismlarida bir xil bo‘lishida"
   },
   {
-    "question": "Parallel dasturlash qaysi sohalarda keng qo'llaniladi?",
-    "answer": "Katta hajmdagi ma'lumotlar tahlilida",
-    "noAnswer1": "Ijtimoiy tarmoq yaratishda",
-    "noAnswer2": "Elektron tijorat platformalarida",
-    "noAnswer3": "Faqat video ishlov berishda"
+    "question": "Termodinamik sistemadagi va stasionar holatdagi sistemalarning asosiy farqi nimada?",
+    "answer": "farqi yo‘q",
+    "noAnswer1": "sistemalarning parametrlari vaqt davomida o‘zgarmasligida",
+    "noAnswer2": "sistema parametrlarini uning barcha qismida bir xil bo‘lishida",
+    "noAnswer3": "sistemalarning ichki energiyasini va ish bajarish qobiliyatlarini miqdorlarini har xilligida"
   },
   {
-    "question": "Quyidagilardan qaysi biri sinxronlashtirish muammolarini hal qilish uchun ishlatiladi?",
-    "answer": "Mutex va Semaphore",
-    "noAnswer1": "Thread pool",
-    "noAnswer2": "HTML kodlash",
-    "noAnswer3": "Dasturiy interfeys"
+    "question": "Odam organizmida barcha turdagi energiyalar pirovard oxirida ish bajarish uchun sarflab bo‘lmaydigan va organizmdan tashqariga chiqib kyotadigan...aylanadi. Bo‘sh joy uchun to‘g‘ri javob ko‘rsating.",
+    "answer": "ishga",
+    "noAnswer1": "energiyaga",
+    "noAnswer2": "potensialga",
+    "noAnswer3": "issiqlikka"
   },
   {
-    "question": "Parallel dasturlashdagi \"Load Balancing\" nima?",
-    "answer": "Resurslarni bir xil taqsimlash orqali hisoblashni optimallashtirish",
-    "noAnswer1": "Fayllarni tartiblashtirish texnikasi",
-    "noAnswer2": "Xotira resurslarini taqsimlash jarayoni",
-    "noAnswer3": "Kodni kompilyatsiya qilish jarayoni"
+    "question": "Odam organizmida bir kun mobaynida o‘rtacha qancha energiya sarflanadi?",
+    "answer": "200-300 kkal.",
+    "noAnswer1": "20-30 kkal.",
+    "noAnswer2": "2000-3000 kkal.",
+    "noAnswer3": "2000-3000 kal."
   },
   {
-    "question": "Barrier sinxronlash vositasi qayerda qo'llaniladi?",
-    "answer": "Parallel jarayonlarni muvofiqlashtirishda",
-    "noAnswer1": "Tarmoq protokollarida",
-    "noAnswer2": "Fayllarni siqishda",
-    "noAnswer3": "GUI interfeys yaratishda"
+    "question": "Quyidagi ish turlaridan qaysilari tirik organizmda bajarilishi mumkin.",
+    "answer": "ximiyaviy ish",
+    "noAnswer1": "mexanik ish",
+    "noAnswer2": "osmotik ish",
+    "noAnswer3": "elektr ish"
   },
   {
-    "question": "Parallel dasturlashda ishlatiladigan \"Thread-safe\" tushunchasi nimani anglatadi?",
-    "answer": "Bir vaqtning o'zida bir nechta oqim ishlashi uchun xavfsizligini",
-    "noAnswer1": "Ma'lumotlar to'liq himoyalanganligini",
-    "noAnswer2": "Ma'lumotlarning maxfiyligini saqlanishini",
-    "noAnswer3": "Tarmoqdan foydalanishni blokirovka qilish"
+    "question": "Tirik organizmda dastlab ish bajarish uchun sarflangan energiyaning issiqlikka aylangan qismi birlamchi issiqlikka kiradimi yoki ikqilamchi issiqlikka kiradimi?",
+    "answer": "birlamchi issiqlikka",
+    "noAnswer1": "ikqilamchi issiqlikka",
+    "noAnswer2": "asosiy issiqlikka",
+    "noAnswer3": "xech qaysinisiga kirmaydi"
   },
   {
-    "question": "\"Critical Section\" tushunchasi nimani anglatadi?",
-    "answer": "Ma'lumotlarga bir vaqtning o'zida bir nechta jarayon kirishi mumkin bo'lmagan kod bo'lagi",
-    "noAnswer1": "Parallel jarayonlarning bajarilmaydigan qismi",
-    "noAnswer2": "Ma'lumotlarni saqlash uchun ishlatiladigan joy",
-    "noAnswer3": "Tarmoqdan kelgan ma'lumotlarni filtrlash"
+    "question": "Nima uchun tirik organizmlarda sodir bo‘ladigan biofizik va bioximik jarayonlarning F.I.K. 1 dan kichik bo‘ladi?",
+    "answer": "Chunki bu jarayonlar termodinamik nuqtai nazardan qaytuvchan bo‘lgani uchun",
+    "noAnswer1": "Chunki bu jarayonlar izolyasiyalangan muxitda bo‘lgani uchun",
+    "noAnswer2": "Bu jarayonlar termodinamik nuqtai nazardan qaytmas bo‘lgani uchun",
+    "noAnswer3": "Chunki organizm ochiq termodinamik sistema"
   },
   {
-    "question": "OpenMP nima uchun ishlatiladi?",
-    "answer": "Parallel dasturlashni soddalashtirish uchun",
-    "noAnswer1": "Xotira siqishni amalga oshirish uchun",
-    "noAnswer2": "Tarmoq konfiguratsiyasini boshqarish uchun",
-    "noAnswer3": "Grafik interfeys yaratish uchun"
+    "question": "Xozirgi paytgacha xosil qilingan eng past temperatura qancha?",
+    "answer": "taxminan 0, 000001 K",
+    "noAnswer1": "0, 000001 K",
+    "noAnswer2": "0, 01 K",
+    "noAnswer3": "0, 001 K"
   },
   {
-    "question": "OpenMP qanday dasturlash tillarini qo'llab-quvvatlaydi?",
-    "answer": "C, C++, va Fortran",
-    "noAnswer1": "Faqat Python va Java",
-    "noAnswer2": "Faqat Ruby va PHP",
-    "noAnswer3": "HTML va CSS"
+    "question": "Termometrik modda nima?",
+    "answer": "temperaturasi o‘lchanadigan modda",
+    "noAnswer1": "termometrni qo‘zg‘almas qismlari yasalgan modda",
+    "noAnswer2": "termometrni o‘rab turgan muxit",
+    "noAnswer3": "temperaturani o‘lchash uchun ishlatiladigan modda"
   },
   {
-    "question": "OpenMP dasturini ishlatish uchun qanday direktiva qo'llaniladi?",
-    "answer": "pragma omp parallel",
-    "noAnswer1": "include <omp.h>",
-    "noAnswer2": "import openmp",
-    "noAnswer3": "parallel include"
+    "question": "Termometrik moddalar qanday agregat holatlarda bo‘lishi mumkin?",
+    "answer": "gazsimon",
+    "noAnswer1": "suyuq holatda",
+    "noAnswer2": "qattiq holatda",
+    "noAnswer3": "yarim o‘tkazgichli"
   },
   {
-    "question": "OpenMP vositasi yordamida qaysi turdagi parallelizm amalga oshiriladi?",
-    "answer": "Ma'lumotlar parallelizmi",
-    "noAnswer1": "Tarmoqlar parallelizmi",
-    "noAnswer2": "Vaqt parallelizmi",
-    "noAnswer3": "Xotira parallelizmi"
+    "question": "Absolyut termodinamikaviy temperaturalar shkalasining reper (tayanch) nuqtalari qilib qanday temperaturalar olingan?",
+    "answer": "0 gradus S bilan 100 gradus S",
+    "noAnswer1": "0 gradus K bilan 100 gradus K",
+    "noAnswer2": "100 gradus K bilan 100 gradus S",
+    "noAnswer3": "0 gradus Kbilan 273.16 gradus K"
   },
   {
-    "question": "OpenMP yordamida \"for\" tsiklini parallel bajarish uchun qanday direktivadan foydalaniladi?",
-    "answer": "pragma omp for",
-    "noAnswer1": "parallel for loop",
-    "noAnswer2": "for omp parallel",
-    "noAnswer3": "include <omp_for>"
+    "question": "Absolyut termodinamikaviy temperaturalar shkalasini yuqori reper nuqtasi qilib olingan 273.16 gradus K temperaturani qanday xususiyati bor?",
+    "answer": "xech qanday xususiyati yo‘q. Bu aniq bir muayyan temperatura holos",
+    "noAnswer1": "bu muzning erish temperaturasi",
+    "noAnswer2": "bu suvning muzlash temperaturasi",
+    "noAnswer3": "bu suvning uchlanma, yaьni suv, muz va suv bug‘i muvozanatda bo‘ladigan temperatura"
   },
   {
-    "question": "OpenMP-da \"private\" kalit so'zi nimani anglatadi?",
-    "answer": "Faqat bitta oqimga tegishli bo'lgan o'zgaruvchi",
-    "noAnswer1": "Barcha oqimlar uchun umumiy bo'lgan ma'lumot",
-    "noAnswer2": "Ma'lumotni tashqi resurslardan yashirish",
-    "noAnswer3": "Tarmoq xavfsizligini ta'minlash"
+    "question": "Kelvin shkalasining 273 dan bir qismi va Syelsiy shkalasini100 dan bir qismlari o‘zaro qanday munosabatda bo‘ladi?",
+    "answer": "xech qanday. Bu ikki xil o‘lchov birliklari.",
+    "noAnswer1": "Miqdoran 273: 100 nisbati kabi munosabatda",
+    "noAnswer2": "miqdoran bir biriga teng haroratdir",
+    "noAnswer3": "1:273 ga 1:100 nisbati kabi munosabatda"
   },
   {
-    "question": "OpenMP-da \"reduction\" kalit so'zi qanday ishlaydi?",
-    "answer": "Barcha oqimlarning natijalarini yig'adi",
-    "noAnswer1": "Xotira hajmini kamaytiradi",
-    "noAnswer2": "Oqimlarni ajratib qo'yadi",
-    "noAnswer3": "Dastur kodini optimallashtiradi"
+    "question": "Termometrik harakteristika (xossa) nima?",
+    "answer": "termometrik jismning temperaturaga sezgir kattaligi",
+    "noAnswer1": "termometrning o‘lchash shkalasini kengligi",
+    "noAnswer2": "termometr shkalasining reper nuqtalarini son qiymati",
+    "noAnswer3": "bunday tushuncha yo‘q"
   },
   {
-    "question": "OpenMP dasturlashda \"barrier\" nima uchun ishlatiladi?",
-    "answer": "Barcha oqimlarni sinxronlashtirish uchun",
-    "noAnswer1": "Ma'lumotlarni siqish uchun",
-    "noAnswer2": "Resurslarni birlashtirish uchun",
-    "noAnswer3": "Kodni kompilyatsiya qilish uchun"
+    "question": "Qanday termometrlarda termometrik jismning xajmi termometrik xossa bo‘lishi mumkin?",
+    "answer": "xech qaysi termometrlarda",
+    "noAnswer1": "termoparalarda",
+    "noAnswer2": "pirometrlarda",
+    "noAnswer3": "suyuqlikli termometrlarda"
   },
   {
-    "question": "OpenMP qanday qurilmalar bilan ishlaydi?",
-    "answer": "CPU va GPU bilan birgalikda",
-    "noAnswer1": "Faqat ma'lumotlar bazasi serverlari bilan",
-    "noAnswer2": "Faqat grafik protsessor (GPU) bilan",
-    "noAnswer3": "Faqat markaziy protsessor (CPU) bilan"
+    "question": "Qanday termometrlarda bosim termometrik xossa bo‘lishi mumkin?",
+    "answer": "xech qaysi termometrlarda",
+    "noAnswer1": "suyuqlikli termometrlarda",
+    "noAnswer2": "gaz termometrlarda",
+    "noAnswer3": "pirometrlarda"
   },
   {
-    "question": "OpenMP dasturida oqimlarni hosil qilish uchun qaysi direktivadan foydalaniladi?",
-    "answer": "pragma omp task",
-    "noAnswer1": "pragma omp thread",
-    "noAnswer2": "omp parallel threads",
-    "noAnswer3": "create omp task"
+    "question": "Pirometrlarning boshqa temperaturani o‘lchovchi kurilmalardan asosiy farqi nimada?",
+    "answer": "farqi yo‘q",
+    "noAnswer1": "ularning sezgir elementi temperaturasi o‘lchanayetgan jism bilan bevosita qontaktda bo‘lmaydi",
+    "noAnswer2": "ular yordamida har qanday yuqori temperaturani ham o‘lchash mumkin",
+    "noAnswer3": "2 va 3 javoblar to‘g‘ri"
   },
   {
-    "question": "OpenMP-da \"schedule\" parametri nima uchun ishlatiladi?",
-    "answer": "Tsikl iteratsiyalarini oqimlar orasida taqsimlash uchun",
-    "noAnswer1": "Vazifalarni vaqt bo'yicha rejalashtirish uchun",
-    "noAnswer2": "Kodni tuzish vaqtini boshqarish uchun",
-    "noAnswer3": "Xotira tarmoqlarini yaratish uchun"
+    "question": "O‘ta past temperaturalarni o‘lchashda asosan qanday termometrlardan foydalaniladi?",
+    "answer": "termoparalardan",
+    "noAnswer1": "piromertlardan",
+    "noAnswer2": "simobli termometrlardan",
+    "noAnswer3": "paramagnitikli termometrlardan"
   },
   {
-    "question": "OpenMP qaysi turdagi parallel dasturlar uchun eng mos keladi?",
-    "answer": "Massiv va matritsalar bilan ishlovchi hisoblash dasturlari uchun",
-    "noAnswer1": "Tarmoq protokollarini boshqarish uchun",
-    "noAnswer2": "Grafik interfeyslar yaratish uchun",
-    "noAnswer3": "Veb dasturlash uchun"
+    "question": "Biologik jarayonlarda ajralib chiqadigan yoki yutiladigan issiqlik miqdorini o‘lchash qanday usullar yordamida amalga oshiriladi?",
+    "answer": "termometrlar usulida",
+    "noAnswer1": "gigrometrlar usulida",
+    "noAnswer2": "kalorimetrlar usulida",
+    "noAnswer3": "manometrlar usulida"
   },
   {
-    "question": "OpenMP-ning asosiy afzalligi nima?",
-    "answer": "Parallel dasturlarni soddalashtirilgan yozilish imkoniyati",
-    "noAnswer1": "Kodni avtomatik kompilyatsiya qilish",
-    "noAnswer2": "Xotira hajmini oshirish",
-    "noAnswer3": "Tarmoq tezligini oshirish"
+    "question": "Tibbiyotda kalorimetrik usul qo‘llaniladimi? Asosan nima maqsadda?",
+    "answer": "qo‘llanilmaydi",
+    "noAnswer1": "biologik jarayonlarning issiqlik miqdorini aniqlashda",
+    "noAnswer2": "fizik jarayonlarning issiqlik miqdorini aniqlashda",
+    "noAnswer3": "ximiyaviy jarayonlarinng issiqlik miqdorini aniqlashda"
   },
   {
-    "question": "OpenMP dasturida qanday qilib umumiy o'zgaruvchini e'lon qilish mumkin?",
-    "answer": "pragma omp shared",
-    "noAnswer1": "pragma omp private",
-    "noAnswer2": "pragma omp parallel shared",
-    "noAnswer3": "shared declare omp"
+    "question": "Davolash uchun ishlatiladigan suvning harorati qancha gradus S bo‘ladi?",
+    "answer": "50 gradus S",
+    "noAnswer1": "20 gradus S",
+    "noAnswer2": "45 grudus S",
+    "noAnswer3": "35 gradus S"
   },
   {
-    "question": "OpenMP qanday platformalarda ishlaydi?",
-    "answer": "Windows, Linux va MacOS",
-    "noAnswer1": "Faqat iOS",
-    "noAnswer2": "Faqat Linux",
-    "noAnswer3": "Faqat Windows"
+    "question": "Asab kasalliklariga tegishli bo‘lgan odam bosh miyasidagi ayrim xujayra yadrosini yo‘q bo‘lishida anestiziya xossasiga ega bo‘lgan qanday muxitdan foydalaniladi?",
+    "answer": "issiq muxitdan",
+    "noAnswer1": "sovuq muxitdan",
+    "noAnswer2": "neytral muxitdan",
+    "noAnswer3": "bunday muxit yo‘q"
   },
   {
-    "question": "OpenMP-ning \"atomic\" kalit so'zi nima uchun ishlatiladi?",
-    "answer": "Sinxronizatsiyalangan o'zgarishlarni ta'minlash uchun",
-    "noAnswer1": "Kodni avtomatik tuzish uchun",
-    "noAnswer2": "Tsiklni tezlashtirish uchun",
-    "noAnswer3": "Fayllarni shifrlash uchun"
+    "question": "Davolash uchun ishlatiladigan parafin necha gradus S gacha isitiladi?",
+    "answer": "40-45 gradus S",
+    "noAnswer1": "30-45 gradus S",
+    "noAnswer2": "50-55 gradus S",
+    "noAnswer3": "60-70 gradus S"
   },
   {
-    "question": "OpenMP-ning \"master\" direktivasi qaysi maqsadda ishlatiladi?",
-    "answer": "Faqat master oqimda bajariladigan kodni belgilash uchun",
-    "noAnswer1": "Oqimlarni hosil qilish uchun",
-    "noAnswer2": "Xotira resurslarini boshqarish uchun",
-    "noAnswer3": "Parallel bo'lmagan qismlarni aniqlash uchun"
+    "question": "Parafinni issiqlik o‘tkazuvchanligi qanday?",
+    "answer": "o‘tkazuvchanligi yuqori",
+    "noAnswer1": "o‘tkazuvchanligi katta emas",
+    "noAnswer2": "o‘tkazuvchanligi juda past",
+    "noAnswer3": "to‘g‘ri javob yo‘q"
   },
   {
-    "question": "OpenMP yordamida qanday qilib barcha oqimlarni to'xtatish mumkin?",
-    "answer": "pragma omp barrier",
-    "noAnswer1": "pragma omp stop",
-    "noAnswer2": "stop all threads",
-    "noAnswer3": "thread exit omp"
+    "question": "Kriogen-muzlatish usuli bo‘lib, tibbiyotda qanday kasallikni davolashda ishlatiladi?",
+    "answer": "oshqozon va o‘sma kasalliklari",
+    "noAnswer1": "tomoq bezi, so‘galni davolashda",
+    "noAnswer2": "jigar va oshqozon kasalliklari",
+    "noAnswer3": "jigar, o‘sma kasalliklarida"
   },
   {
-    "question": "OpenMP-da \"nowait\" direktivasi nima qiladi?",
-    "answer": "Oqimlarni kutmasdan keyingi kodni bajaradi",
-    "noAnswer1": "Oqimlarni to'xtatadi",
-    "noAnswer2": "Xotirani bo'shatadi",
-    "noAnswer3": "Ma'lumotlarni shifrlaydi"
+    "question": "Davolash maqsadida aьzolarni bir joydan ikkinsi joyga ko‘chirish, uni normal ishlashi va uzoq vaqt saqlanishi mumkinmi?",
+    "answer": "xa mumkin, faqat yuqori haroratda qonservasiyalangan bo‘lishi kerak",
+    "noAnswer1": "mumkin emas, chunki undagi xujayralar qonservasiya qilinsa nobud bo‘ladi",
+    "noAnswer2": "xa, mumkin, faqat past haroratda qonservasiyalangan bo‘lishi kerak",
+    "noAnswer3": "past haroratda ham, yuqori haroratda ham qonservasiya qilinsa bo‘laveradi"
   },
   {
-    "question": "OpenMP yordamida ma'lumotlarni parallel o'qish qachon samarali bo'ladi?",
-    "answer": "Ma'lumotlar hajmi katta va resurslar ko'p bo'lganda",
-    "noAnswer1": "Ma'lumotlar hajmi kichik bo'lganda",
-    "noAnswer2": "Faqat bir protsessor bo'lganda",
-    "noAnswer3": "Ma'lumotlar statik bo'lganda"
+    "question": "Davolash uchun ishlatiladigan torf va balchiqlarning temperaturasi qanday bo‘lishi kerak?",
+    "answer": "20 gradus S",
+    "noAnswer1": "30 gradus S",
+    "noAnswer2": "40 gradus S",
+    "noAnswer3": "50 gradus S"
   },
   {
-    "question": "MPI nima uchun ishlatiladi?",
-    "answer": "Parallel dasturlashda xabar almashish uchun",
-    "noAnswer1": "Ma'lumotlarni shifrlash uchun",
-    "noAnswer2": "Tarmoqlarni boshqarish uchun",
-    "noAnswer3": "Grafik interfeys yaratish uchun"
+    "question": "Mexanik sistemaning erkinlik darajasi deb nimaga aytiladi?",
+    "answer": "mexanik sistemaning holatini harakterlovchi mustaqil o‘zgaruvchilarga",
+    "noAnswer1": "sistemaning muayan vaqtdagi holatini aniqlovchi kattaliklarga",
+    "noAnswer2": "sistemaning o‘lchamlarini koordinata o‘qlaridagi kattaliklarini miqdoriga",
+    "noAnswer3": "sistemaning Dekart koordinatalari bo‘yicha harakati kattaliklariga"
   },
   {
-    "question": "MPI ning asosiy vazifasi nima?",
-    "answer": "Oqimlarni sinxronlashtirish va xabar almashish",
-    "noAnswer1": "Fayllarni uzatish",
-    "noAnswer2": "Tarmoqni sozlash",
-    "noAnswer3": "Veb-sahifalar yaratish"
+    "question": "Harakatlanayotgan poyezdning g‘ildiragi nechta erkinlik darajasiga ega bo‘ladi?",
+    "answer": "bitta",
+    "noAnswer1": "ikkita",
+    "noAnswer2": "uchta",
+    "noAnswer3": "beshta"
   },
   {
-    "question": "MPI qanday turdagi dasturlash modellari uchun ishlatiladi?",
-    "answer": "Xabar asoslangan parallel dasturlash",
-    "noAnswer1": "Funksional dasturlash",
-    "noAnswer2": "Ma'lumotlar parallelizmi",
-    "noAnswer3": "GPU dasturlash"
+    "question": "Qo‘zg‘almas o‘q atrofida aylanayotgan jism nechta erkinlik darajasiga ega?",
+    "answer": "uchta",
+    "noAnswer1": "bitta",
+    "noAnswer2": "ikkita",
+    "noAnswer3": "beshta"
   },
   {
-    "question": "MPI dasturlash tili qaysilardan foydalanadi?",
-    "answer": "C, C++, va Fortran",
-    "noAnswer1": "HTML va CSS",
-    "noAnswer2": "Java va Python",
-    "noAnswer3": "Faqat PHP"
+    "question": "Bosh miya suyagi nechta erkinlik darajasiga ega?",
+    "answer": "uchta",
+    "noAnswer1": "beshta",
+    "noAnswer2": "to‘rtta",
+    "noAnswer3": "oltita"
   },
   {
-    "question": "MPI dasturida \"rank\" nimani anglatadi?",
-    "answer": "Har bir jarayonning noyob identifikatori",
-    "noAnswer1": "Ma'lumotlar hajmi",
-    "noAnswer2": "Protsessorlar soni",
-    "noAnswer3": "Dastur xatosi kodi"
+    "question": "Tirnoq falangasi mos ravishda asosiy va o‘rtancha falangalarga nisbatan nechtadan erkinlik darajasiga ega?",
+    "answer": "1 ta va 2 ta",
+    "noAnswer1": "2 ta va 1 ta",
+    "noAnswer2": "3 ta va 1 ta",
+    "noAnswer3": "2 ta va 3 ta"
   },
   {
-    "question": "MPI-da qanday funksiyadan barcha jarayonlarni boshlash uchun foydalaniladi?",
-    "answer": "MPI_Init",
-    "noAnswer1": "MPI_Start",
-    "noAnswer2": "MPI_Run",
-    "noAnswer3": "MPI_Begin"
+    "question": "Odam tayanch-harakatlanish sistemasidagi ikkita bir-biriga yakinjoylashgan Atlant-ensa va Epiyetrof-atlant bog‘lanishlari nechi o‘qli bog‘lanishni xosil qiladi va nechta erkinlik darajasiga ega?",
+    "answer": "1 o‘qli va 1 erkinlik darajasiga",
+    "noAnswer1": "1 o‘qli va ikki erkinlik darajasiga",
+    "noAnswer2": "2 o‘qli va 2 erkinlik darajasiga",
+    "noAnswer3": "2 o‘qli va 3 erkinlik darajasiga"
   },
   {
-    "question": "MPI dasturini to'xtatish uchun qaysi funksiyadan foydalaniladi?",
-    "answer": "MPI_Finalize",
-    "noAnswer1": "MPI_Exit",
-    "noAnswer2": "MPI_Stop",
-    "noAnswer3": "MPI_End"
+    "question": "Uch o‘qli bog‘lanishga quyidagilardan qaysi biri kiradi?",
+    "answer": "tizza bo‘g‘imi",
+    "noAnswer1": "chanoq-son bo‘g‘imi",
+    "noAnswer2": "umurtqa suyak bo‘g‘imlari",
+    "noAnswer3": "boldir tovon bo‘g‘imi"
   },
   {
-    "question": "MPI da ma'lumotlarni uzatish uchun qaysi funksiyadan foydalaniladi?",
-    "answer": "MPI_Send",
-    "noAnswer1": "MPI_Transfer",
-    "noAnswer2": "MPI_Transmit",
-    "noAnswer3": "MPI_Share"
+    "question": "Normal, tikka turgan odam tanasi massalari markazi qayerda joylashgan bo‘ladi?",
+    "answer": "chanoq-son, tizza va oyoq boldir tovon birlashmalari markazlaribilan bir vertikalda",
+    "noAnswer1": "dumg‘aza tumshug‘idan 2-2.5 sm pastda",
+    "noAnswer2": "chanoq-son o‘qidan 4-5 sm yuqorida",
+    "noAnswer3": "yuqoridagilarni hammasi to‘g‘ri"
   },
   {
-    "question": "MPI da qabul qilish operatsiyasi qaysi funksiyadan foydalanadi?",
-    "answer": "MPI_Receive",
-    "noAnswer1": "MPI_Accept",
-    "noAnswer2": "MPI_Get",
-    "noAnswer3": "MPI_Collect"
+    "question": "Odam tayanch-harakat sistemasida qanday turdagi richaglar mavjud va ular qanday xususiyatlarga ega?",
+    "answer": "kuch richaglari, kuchdan yutadi ko‘chishdan yutqiziladi",
+    "noAnswer1": "tezlik richaglari, kuchdan yutkizamiz ko‘chishdan yutamiz",
+    "noAnswer2": "ham kuch, ham tezlik richaglari va ularga mos 1 va 2 javoblardagi xususiyatlar",
+    "noAnswer3": "kuch richaglari, kuchdan yutqiziladi, ko‘chishdan yutiladi"
   },
   {
-    "question": "MPI dasturida barcha jarayonlar uchun ma'lumotlarni tarqatish qaysi funksiyadan amalga oshiriladi?",
-    "answer": "MPI_Broadcast",
-    "noAnswer1": "MPI_Spread",
-    "noAnswer2": "MPI_Distribute",
-    "noAnswer3": "MPI_Scatter"
+    "question": "Odam gavdasi qismlarining kinetik energiyasini o‘zgartirish uchun sarflanadigan ishni qaysi formula yordamida xisoblash mumkin?",
+    "answer": "dA = Md a(a - alfa o‘rnida)",
+    "noAnswer1": "dEk = Jwdw",
+    "noAnswer2": "Ek = w2/2 E mi r2 i (bu yerda w2-omega kvadrat, Ye-summa r2-r kvadrat, i lar - indeksda)",
+    "noAnswer3": "2 va 3 formulalar bilan"
   },
   {
-    "question": "MPI ning \"point-to-point\" xabar almashish modeli qanday ishlaydi?",
-    "answer": "Bir jarayondan boshqa bir jarayonga xabar uzatiladi",
-    "noAnswer1": "Xabar barcha jarayonlarga uzatiladi",
-    "noAnswer2": "Jarayonlar xabar almashmaydi",
-    "noAnswer3": "Ma'lumotlar fayl orqali uzatiladi"
+    "question": "Agar massasi 70 kg bo‘lgan sportchi turgan o‘rnidan, massalar markazi 1 m yuqoriga ko‘tadigan darajada 0.2 s ko‘tarish fazasi bilan sakraganda quvvat 3.5 kVt bo‘lsa, u 110 kg bo‘lganda quvvat qancha bo‘ladi?",
+    "answer": "o‘zgarmasdi, 3.5 kVt",
+    "noAnswer1": "5.5 kVt",
+    "noAnswer2": "kamayardi, ya’ni 0.55 kVt",
+    "noAnswer3": "5.5 Vt"
   },
   {
-    "question": "MPI ning \"collective communication\" funksiyalari nimaga xizmat qiladi?",
-    "answer": "Barcha jarayonlar o'rtasida ma'lumot almashish uchun",
-    "noAnswer1": "Faqat bitta jarayonga ma'lumot uzatish uchun",
-    "noAnswer2": "Tarmoqni boshqarish uchun",
-    "noAnswer3": "Fayllarni yaratish uchun"
+    "question": "Agar massasi 70 kg bo‘lgan sportchi turgan o‘rnidan massalar markazi 3.5kVt bo‘lgan bo‘lsa, uning itarilish fazasi 0.7 s bo‘lganda uning quvvati qancha bo‘lar edi?",
+    "answer": "o‘zgarmasdi",
+    "noAnswer1": "10 kVt",
+    "noAnswer2": "1 kVt",
+    "noAnswer3": "0.35 kVt"
   },
   {
-    "question": "MPI da \"blocking communication\" qachon ishlatiladi?",
-    "answer": "Xabar yuborish yoki olish tugaguniga qadar kutadi",
-    "noAnswer1": "Xabar yuborilganidan so'ng darhol davom etadi",
-    "noAnswer2": "Xabarni avtomatik ravishda qaytaradi",
-    "noAnswer3": "Jarayonlarni o'chirish uchun"
+    "question": "Agar turgan o‘rnidan 1 m balandlikka massalar markazini ko‘tariladigan qilib sakrayotgan sportchining massasi ham, itarilish fazasi vaqti ham 1daniga 2 marta oshsa uning quvvati ortadimi?",
+    "answer": "xa ortadi",
+    "noAnswer1": "yo‘q ortmaydi",
+    "noAnswer2": "aksincha kamayadi",
+    "noAnswer3": "o‘zgarmaydi"
   },
   {
-    "question": "MPI ning \"non-blocking communication\" funksiyasi qanday afzallikka ega?",
-    "answer": "Jarayonlar bir-birini kutmaydi",
-    "noAnswer1": "Xotira hajmini kamaytiradi",
-    "noAnswer2": "Kodni avtomatik ravishda optimallashtiradi",
-    "noAnswer3": "Tarmoqni tezlashtiradi"
+    "question": "Agar turgan o‘rnidan sakrayetgan sportchining itarilish fazasi vaqti kamaysa uning quvvati nima bo‘ladi?",
+    "answer": "doim o‘zgarmaydi",
+    "noAnswer1": "doim kamayadi",
+    "noAnswer2": "doim ortadi",
+    "noAnswer3": "ortadi, agar sakrash balandligi o‘zgarmay qolsa"
   },
   {
-    "question": "MPI da qaysi funksiya yordamida bir nechta jarayon natijalari yig'iladi?",
-    "answer": "MPI_Reduce",
-    "noAnswer1": "MPI_Collect",
-    "noAnswer2": "MPI_Gather",
-    "noAnswer3": "MPI_Aggregate"
+    "question": "Sistema harakatining qaysi hollarida \"o‘ta yuklanish\" holati yuz beradi?",
+    "answer": "bu holat sistema harakatiga bog‘liq emas",
+    "noAnswer1": "agar sistema og‘irlik kuchi yo‘qolishiga nisbatan \"musbat\" ishorali syekinlashuvga ega bo‘lsa",
+    "noAnswer2": "agar sistema og‘irlik kuchi yo‘nalishiga nisbatan \"manfiy\" ishorali tezlashuvga ega bo‘lsa",
+    "noAnswer3": "agar sistema tezligi kosmik tezlikka ega bo‘lsa"
   },
   {
-    "question": "MPI da \"Scatter\" funksiyasi qanday ishlaydi?",
-    "answer": "Har bir jarayonga ma'lumotning bir qismini tarqatadi",
-    "noAnswer1": "Barcha jarayonlarga to'liq ma'lumot uzatadi",
-    "noAnswer2": "Ma'lumotni tarmoqdan o'chiradi",
-    "noAnswer3": "Ma'lumotlarni birlashtiradi"
+    "question": "Sistema harakatining qaysi hollarida \"vaznsizlik\" holati sodir bo‘ladi?",
+    "answer": "bu holat sistema harakatiga bog‘liq emas",
+    "noAnswer1": "agar sistema og‘irlik kuchi yo‘nalishiga tezlashuvchan harakatlansa",
+    "noAnswer2": "agar sistema og‘irlik kuchi yo‘nalishiga teskari yo‘nalishda sekinlashuvchi harakat qilsa",
+    "noAnswer3": "to‘g‘ri javob 2 va 3 larda keltirilgan"
   },
   {
-    "question": "MPI dasturida \"barrier\" funksiyasi nimaga xizmat qiladi?",
-    "answer": "Barcha jarayonlarni sinxronlashtirish uchun",
-    "noAnswer1": "Ma'lumotlarni shifrlash uchun",
-    "noAnswer2": "Tarmoqni boshqarish uchun",
-    "noAnswer3": "Fayllarni saqlash uchun"
+    "question": "Agar odam a tezlanish bilan yuqoriga harakat qilayotgan kabinada bo‘lsa, o‘nga mg og‘irlik kuchi va tayanchning N reaksiya kuchi ta’sir qiladi, agar a=g bo‘lsa odam necha karra yuklanish sezadi?",
+    "answer": "1 karra",
+    "noAnswer1": "2 karra",
+    "noAnswer2": "3 karra",
+    "noAnswer3": "4 karra"
   },
   {
-    "question": "MPI da \"rank 0\" nima?",
-    "answer": "Asosiy jarayon yoki master jarayon",
-    "noAnswer1": "Xato yuzaga kelgan jarayon",
-    "noAnswer2": "Hech qanday vazifasi bo'lmagan jarayon",
-    "noAnswer3": "Tarmoqdagi oxirgi jarayon"
+    "question": "Og‘irlik kuchi mg yo‘nalishiga nisbatan qarama-qarshi yo‘nalishda a tezlanish bilan harakat bo‘lganda o‘ta yuklanish darajasi n qaysi formula bilan xisoblanishi mumkin?",
+    "answer": "n = mg/ma",
+    "noAnswer1": "n = ma/mg",
+    "noAnswer2": "n = ma/m(g+=#)",
+    "noAnswer3": "n = m(g+=#)/mg"
   },
   {
-    "question": "MPI qanday tarmoq topologiyalarini qo'llab-quvvatlaydi?",
-    "answer": "Halqa, to'r va daraxt topologiyalari",
-    "noAnswer1": "Faqat \"yulduzcha\" topologiya",
-    "noAnswer2": "Faqat \"to'g'ridan-to'g'ri\" topologiya",
-    "noAnswer3": "Faqat \"klaster\" topologiya"
+    "question": "Og‘irlik kuchi tezlanishi g ga teng tezlik bilan yuqoriga harakat qilayotgan kabina ichidagi olam qanday holatda bo‘ladi? Agar xuddi shunday tezlanish bilan kabina pastga harakat qilsachi?",
+    "answer": "ikkalasida ham o‘ta yuklanish holatida",
+    "noAnswer1": "1 holda vaznsizlik, 2 holda esa o‘ta yuklanish holatida",
+    "noAnswer2": "ikkala holatda ham vaznsizlik holatida",
+    "noAnswer3": "1 holatda o‘ta yuklanish, 2 holatda esa vaznsizlik"
   },
   {
-    "question": "MPI dasturlash qanday sohalarda keng qo'llaniladi?",
-    "answer": "Parallel hisoblash, ilmiy va muhandislik simulyatsiyalari",
-    "noAnswer1": "Ma'lumotlar bazasini boshqarish",
-    "noAnswer2": "Grafik interfeys yaratish",
-    "noAnswer3": "Veb dasturlash"
+    "question": "Odam organizmida mavjud bo‘lgan vestibulyar apparati, odamning qanday kattaliklariga sezgir bo‘ladi.",
+    "answer": "odamning yoshiga",
+    "noAnswer1": "odamning og‘irligiga",
+    "noAnswer2": "o‘ta yuklanish va vazinsizlik",
+    "noAnswer3": "odamning tezligi va tezlanishini o‘zgarishiga"
   },
   {
-    "question": "Ko'pyadroli protsessor nima?",
-    "answer": "Bir nechta protsessorlarning bitta chipda joylashgan versiyasi",
-    "noAnswer1": "Faqat bitta protsessordan iborat",
-    "noAnswer2": "Faqat bitta yadrosi bo'lgan protsessor",
-    "noAnswer3": "Yalpi ko'paytirish arxitekturasi"
+    "question": "Vaznsizlik holatida boshning og‘irlashishi va yuzda ishish paydo bo‘lishi kuzatiladi, buning asosiy sababi nimada?",
+    "answer": "sababi ham ma’lum emas",
+    "noAnswer1": "sababi odamning yerdan juda balandga ko‘tarilib qolganida",
+    "noAnswer2": "qonning tana bo‘ylab notekis taksimlanishida",
+    "noAnswer3": "qonning tana bo‘ylab bir tekisda taksimlanishida"
   },
   {
-    "question": "Ko'pyadroli protsessorlarning asosiy afzalligi nima?",
-    "answer": "Ular ko'p parallel vazifalarni bajarish imkonini beradi",
-    "noAnswer1": "Ular ko'proq elektr quvvatini iste'mol qiladi",
-    "noAnswer2": "Ular faqat bitta vazifani bajaradi",
-    "noAnswer3": "Ular yuqori isitishni hosil qiladi"
+    "question": "Vaznsizlik holatida odamning ish bajara olish faoliyati pasayadi. Buning asosiy sababi nimada?",
+    "answer": "sababi ma’lum emas",
+    "noAnswer1": "katta tezlikdagi harakat mvjudligida",
+    "noAnswer2": "tayanch nuqtalari ta’sirini bo‘lmasligida",
+    "noAnswer3": "ta’sirning tayanch nuqtalarini bo‘lmasligida"
   },
   {
-    "question": "Ko'pyadroli protsessorlar qaysi texnologiyaga asoslanadi?",
-    "answer": "Parallel hisoblash",
-    "noAnswer1": "Ijtimoiy tarmoq texnologiyalari",
-    "noAnswer2": "Hiperxotira",
-    "noAnswer3": "Virtualizatsiya"
+    "question": "Odam organizmida mavjud bo‘lgan vestibulyar apparat qayerda joylashgan va uning asosiy vazifasi nimada?",
+    "answer": "bosh miyada joylashgan va fikirlashga imqon beradi",
+    "noAnswer1": "o‘rta quloqda joylashib, eshitishni boshqaradi",
+    "noAnswer2": "ichki quloqda joylashib eshitishni boshqaradi",
+    "noAnswer3": "o‘rta quloqda joylashib oriyentasiya uchun xizmat qiladi"
   },
   {
-    "question": "Ko'pyadroli protsessorlar qaysi arxitektura modelida ishlaydi?",
-    "answer": "MIMD (Multiple Instruction Multiple Data)",
-    "noAnswer1": "SIMD (Single Instruction Multiple Data)",
-    "noAnswer2": "SISD (Single Instruction Single Data)",
-    "noAnswer3": "MISD (Multiple Instruction Single Data)"
+    "question": "Ma’lumki davriy jarayondan iborat bo‘lgan tovush oddiy ton deb, vaqt o‘tishi bilan takrorlanmaydigan tovushga esa shovqin deyiladi. Tebranayotgan kamerton shulardan qaysi birini chiqaradi?",
+    "answer": "kamerton tebranadi, tovush chiqarmaydi.",
+    "noAnswer1": "sodda tonli tovushni chiqaradi",
+    "noAnswer2": "oddiy shovqinni",
+    "noAnswer3": "har ikkisini"
   },
   {
-    "question": "Ko'pyadroli protsessorlarda \"core\" nima?",
-    "answer": "Protsessorning individual hisoblash birliklari",
-    "noAnswer1": "Protsessorning doimiy xotira qismi",
-    "noAnswer2": "Protsessorning alohida video kartasi",
-    "noAnswer3": "Protsessorning tarmoq moduli"
+    "question": "Shovqin bilan sodda tonli tovushni asosiy farqi nimada?",
+    "answer": "farqi yo‘q",
+    "noAnswer1": "tovush intensivligida",
+    "noAnswer2": "chastotalar spektrida",
+    "noAnswer3": "amplitudalarning har xilligida"
   },
   {
-    "question": "Ko'pyadroli protsessorlarning ishlashini samarali tarzda oshirish uchun nima kerak?",
-    "answer": "Dastur kodlarini parallelizatsiya qilish",
-    "noAnswer1": "Faqat bitta yadro ishlashi",
-    "noAnswer2": "Har bir yadroga alohida batareyalarni qo'shish",
-    "noAnswer3": "Yangi xotira turlarini ishlatish"
+    "question": "Har xil chastotalarda tovush balandligi va uning intensivligi orasidagi bog‘lanishni aniqlash uchun, qaysi bir egri chiziqdan foydalaniladi?",
+    "answer": "bir xil intensivlik",
+    "noAnswer1": "bir xil balandlik",
+    "noAnswer2": "bir xil chastotada",
+    "noAnswer3": "bir xil amplitudali"
   },
   {
-    "question": "Ko'pyadroli protsessorlarda \"simultaneous multithreading\" (SMT) texnologiyasi nima uchun ishlatiladi?",
-    "answer": "Har bir yadroda bir nechta iplar yordamida parallel vazifalarni bajarish",
-    "noAnswer1": "Faqat bitta ip orqali ishlash",
-    "noAnswer2": "Xotira sig'imini oshirish",
-    "noAnswer3": "Grafikalarni yaxshilash"
+    "question": "Quyidagilardan qaysi birini Dopler effekti yordamida aniqlash mumkin?",
+    "answer": "harakatlanayotgan jism o‘lchamlarini",
+    "noAnswer1": "muxitda jism harakat tezligini",
+    "noAnswer2": "harakatsiz jismning kattaliklarni",
+    "noAnswer3": "harakatlanayotgan jism trayektoriyasini"
   },
   {
-    "question": "Intel Hyper-Threading texnologiyasi qanday ishlaydi?",
-    "answer": "Har bir yadroda ikkita ip ishlaydi",
-    "noAnswer1": "Har bir yadro faqat bitta ip ishlaydi",
-    "noAnswer2": "Har bir yadro alohida protsessorni ifodalaydi",
-    "noAnswer3": "Yadro ishlamaydi"
+    "question": "Tovushni odam xayotidagi, tibbiyotdagi ahamiyati nimalar bilan bog‘liq?",
+    "answer": "uning axborot manba ekanligida",
+    "noAnswer1": "ichki a’zolarning ba’zi birlari ishlaganda tovush chiqarishi bilan",
+    "noAnswer2": "tovushni turli muxitlardagi turlicha tezligi, yutilishi va qaytishi bilan",
+    "noAnswer3": "1 va 2 javoblar to‘g‘ri"
   },
   {
-    "question": "Ko'pyadroli protsessorlarda \"cache memory\"ning roli nima?",
-    "answer": "Tez-tez ishlatiladigan ma'lumotlarni saqlash va tezkor o'qish",
-    "noAnswer1": "Ijtimoiy tarmoqlarga ulanish",
-    "noAnswer2": "Grafik ma'lumotlarni saqlash",
-    "noAnswer3": "Xotiraga kirishni sekinlashtirish"
+    "question": "Auskultasiya nima va unda qanday asbobdan foydalaniladi?",
+    "answer": "o‘simtalarni olib tashlash, skalpeldan foydalaniladi",
+    "noAnswer1": "ko‘zni ko‘rish o‘tkirligini aniqlash, lupalardan",
+    "noAnswer2": "organizmdagi shovqinlarni eshitib ko‘rish, fonendoskopdan",
+    "noAnswer3": "odamning ichki a’zolarini ko‘rish, tolali optik asboblardan"
   },
   {
-    "question": "Ko'pyadroli protsessorlarning \"on-chip\" arxitekturasi qanday afzalliklarga ega?",
-    "answer": "Kesh va xotira o'rtasidagi aloqa tezlashadi",
-    "noAnswer1": "Protsessor ishlamaydi",
-    "noAnswer2": "Protsessorning energiya sarfi oshadi",
-    "noAnswer3": "Xotira tezligi pasayadi"
+    "question": "Perkussiya usuli bilan nimani aniqlash mumkinya?",
+    "answer": "yurakni ishlash miyorini",
+    "noAnswer1": "o‘pkani faoliyatini diagnostikasini",
+    "noAnswer2": "ichki a’zolar topografiyasini",
+    "noAnswer3": "qon tomirlardagi puls to‘lqinlarini"
   },
   {
-    "question": "Ko'pyadroli protsessorlar uchun samarali dasturlashning eng muhim jihati nima?",
-    "answer": "Dasturda ko'plab parallel vazifalarni bajarish",
-    "noAnswer1": "Dastur faqat bitta yadroda ishlashi kerak",
-    "noAnswer2": "Dasturda faqat bitta ip ishlashi kerak",
-    "noAnswer3": "Dastur kodini faqat bir yadroga moslashtirish"
+    "question": "Ona qornidagi bolaning yurak urishini quyidagi oddiy uslublarni qaysi biri bilan aniqlasa bo‘ladi?",
+    "answer": "elektrokardiografiya (EKG)",
+    "noAnswer1": "perkussiya",
+    "noAnswer2": "auskultasiya",
+    "noAnswer3": "reografiya"
   },
   {
-    "question": "Ko'pyadroli protsessorlarda \"inter-core communication\" qanday amalga oshiriladi?",
-    "answer": "Kesh orqali ma'lumot almashish",
-    "noAnswer1": "Xotira orqali",
-    "noAnswer2": "Har bir yadro o'ziga mustaqil ishlaydi",
-    "noAnswer3": "Tarmoqlar orqali"
+    "question": "Ba’zi ichki a’zolar topografiyasini oddiy xech qanday apparatsiz aniqlash mumkinmi, agar mumkin bo‘lsa bu qanday usul?",
+    "answer": "yo‘q, uni faqat maxsus apparatlar bilan aniqlanadi",
+    "noAnswer1": "xa bo‘ladi, tilning holatiga qarab",
+    "noAnswer2": "xa bo‘ladi, tomir urishiga qarab",
+    "noAnswer3": "xa bo‘ladi, perkussiya usuli bilan ya’ni tovushni toniga qarab"
   },
   {
-    "question": "Ko'pyadroli protsessorlarning samarali ishlashini ta'minlash uchun qanday metodlar qo'llaniladi?",
-    "answer": "Keshni optimallashtirish va sinxronlashtirish",
-    "noAnswer1": "Xotira va CPU o'rtasida o'zaro aloqalarni kamaytirish",
-    "noAnswer2": "Protsessorlarning haroratini oshirish",
-    "noAnswer3": "Protsessorlarni tezda almashtirish"
+    "question": "Ultratovushli rasxodometriya usuli qanday effekga asoslangan?",
+    "answer": "Nyuton effektiga",
+    "noAnswer1": "fotoeffektga",
+    "noAnswer2": "Holl effektiga",
+    "noAnswer3": "Dopler effektiga"
   },
   {
-    "question": "Ko'pyadroli protsessorlar uchun samarali parallel algoritmlar yaratish qanday afzalliklarni taqdim etadi?",
-    "answer": "Vazifalarni bir nechta yadrolar orasida taqsimlash",
-    "noAnswer1": "Ma'lumotlarni faqat bitta yadroga uzatish",
-    "noAnswer2": "Protsessorlarning barcha yadrolari bo'sh qoladi",
-    "noAnswer3": "Keshni to'ldirish va sekinlashtirish"
+    "question": "Kristall dielektriklarning deformasiyalanishi natijasida kutblanish vujudga kelishi xodisasi",
+    "answer": "galografiyadir",
+    "noAnswer1": "termografiyadir",
+    "noAnswer2": "fotoeffektdir",
+    "noAnswer3": "pyezoeffektdir"
   },
   {
-    "question": "Ko'pyadroli protsessorlar tarmoq serverlarida qanday foyda keltiradi?",
-    "answer": "Tezroq ma'lumot uzatishni ta'minlaydi",
-    "noAnswer1": "Xotira hajmini kamaytiradi",
-    "noAnswer2": "Bitta protsessorni qo'llab-quvvatlash",
-    "noAnswer3": "Faoliyatni faqat bitta yadroda amalga oshiradi"
+    "question": "Ayrim krisstallarning elektr maydonida mexanik deformasiyalanishi",
+    "answer": "to‘g‘ri pyezoeffekdir",
+    "noAnswer1": "teskari pyezoeffektdir",
+    "noAnswer2": "pyezoeffekt emas",
+    "noAnswer3": "galvanizasiyadir"
   },
   {
-    "question": "Ko'pyadroli protsessorlarda \"thermal throttling\" qanday ishlaydi?",
-    "answer": "Protsessor haroratini o'lchab, ortiqcha issiqlikni kamaytirish",
-    "noAnswer1": "Protsessorni yuqori haroratda ishlatish",
-    "noAnswer2": "Protsessor haroratini oshirib, tezlikni oshirish",
-    "noAnswer3": "Protsessorni avtomatik ravishda o'chirib qo'yish"
+    "question": "Ultratovushning tibbiyot apparatlaridagi asosiy manbasi bo‘lib nima xizmat qiladi?",
+    "answer": "maxsus kandensatorlar",
+    "noAnswer1": "maxsus dinamitlar",
+    "noAnswer2": "pyezokristallar",
+    "noAnswer3": "lazerlar"
   },
   {
-    "question": "AMD Ryzen protsessorlarida ko'pyadroli arxitekturaning afzalligi qanday?",
-    "answer": "Bir nechta vazifalarni paralel tarzda bajarish",
-    "noAnswer1": "Yagona yadroda ishlashga qaratilgan",
-    "noAnswer2": "Tezda ishga tushirish va faqat bitta jarayonni bajarish",
-    "noAnswer3": "Protsessorni juda ko'p energiya sarflash"
+    "question": "Ultratovushlarni eng past va eng yuqori chastotalari qaysi javobda to‘g‘ri keltirilgan?",
+    "answer": "20 Gs-200 kGs",
+    "noAnswer1": "200 Gs - 200 mGs",
+    "noAnswer2": "20 kGs - 20 mGs",
+    "noAnswer3": "20 kGs - 10 00000 Gs"
   },
   {
-    "question": "Ko'pyadroli protsessorlar qaysi turdagi kompyuter tizimlarida ishlaydi?",
-    "answer": "Serverlar, stansiyalar va ilmiy hisoblash tizimlarida",
-    "noAnswer1": "Faqat yengil portativ tizimlar",
-    "noAnswer2": "Faqat mobil telefonlarda",
-    "noAnswer3": "Faqat grafik kartalarda"
+    "question": "Katta quvvatdagi ultratovushlar biologik ob’yektlarga qanday ta’sirlar ko‘rsatishi mumkin?",
+    "answer": "mexanik",
+    "noAnswer1": "issiqlik",
+    "noAnswer2": "kimeviy",
+    "noAnswer3": "xech qanday"
   },
   {
-    "question": "Ko'pyadroli protsessorlarning \"heterogeneous architecture\" nima?",
-    "answer": "Turli turdagi protsessorlarni bir tizimda qo'llash",
-    "noAnswer1": "Faqat bitta turdagi protsessorlardan foydalanish",
-    "noAnswer2": "Bir xil protsessor turida ishlash",
-    "noAnswer3": "Protsessorlarsiz tizimlar"
+    "question": "Katta quvvatdagi ultratovushlar maydonida suyuqlik mavjud bo‘lsa kavitasiya xodisasi sodir bo‘ladi-mi? Bu nima bilan bog‘liq va tibbiyotda nima uchun qo‘llanilishi mumkin?",
+    "answer": "suyuqlik qismlarining davriy kisilishi(zichlanish) va kengayishi(siyraklashish) bilan bog‘liq bo‘lib, xech narsada qo‘llanilmaydi",
+    "noAnswer1": "suyuqlik qismlarining davriy kisilish(zichlanish) va kengayish bilan bog‘liq bo‘lib, ma’lum sharoitlarda bakteriosid xususiyatga egadir",
+    "noAnswer2": "suyuqlik qismlarining davriy kisilishi(zichlanish) va kengayishibilan bog‘liq bo‘lib, dim bakteriosid xususiyatga ega bo‘ladi",
+    "noAnswer3": "to‘g‘ri javob berilmagan"
   },
   {
-    "question": "Ko'pyadroli protsessorlar uchun samarali energiya boshqaruvi qanday amalga oshiriladi?",
-    "answer": "Energiya sarfini minimallashtirish uchun yadro va xotira resurslarini optimallashtirish",
-    "noAnswer1": "Protsessorlarni doimiy ishlashga majburlash",
-    "noAnswer2": "Protsessorlarni o'chirish",
-    "noAnswer3": "Haroratni doimiy ravishda yuqori darajada ushlab turish"
+    "question": "Katta quvvatdagi ultratovushning bioob’yektlarga mexanik ta’siri asosida qanday xodisa yotadi?",
+    "answer": "tovush interferensiyasi",
+    "noAnswer1": "tovush difraksiyasi",
+    "noAnswer2": "turg‘un to‘lqinlar",
+    "noAnswer3": "kavitasion o‘zgaruvchan bosim"
   },
   {
-    "question": "Parallel xisoblashni modellashtirish nima?",
-    "answer": "Bir nechta jarayonlarni bir vaqtning o'zida bajarishni simulyatsiya qilish",
-    "noAnswer1": "Faqat bitta jarayonni bajarish",
-    "noAnswer2": "Faqat matematika hisoblashlarini bajarish",
-    "noAnswer3": "Ma'lumotlarni saqlash va uzatishni yaxshilash"
+    "question": "Ultratovushlarning biologik ob’ktlarga ta’siri nimalarda namoyon bo‘ladi?",
+    "answer": "xujayra va subxujayra darajasidagi mikrovibrasiyalarda",
+    "noAnswer1": "biomakro molekulalarning parchalanishida",
+    "noAnswer2": "biomembranalarni jaroxatlash yoki o‘tkazuvchanligini o‘zgartirishga",
+    "noAnswer3": "issiqlik ta’sirida hamda xujayralarni tuzilishida"
   },
   {
-    "question": "Parallel xisoblash tizimini tahlil qilishda asosiy maqsad nima?",
-    "answer": "Xisoblash vaqti va resurslardan samarali foydalanish",
-    "noAnswer1": "Xotira sig'imini oshirish",
-    "noAnswer2": "Yalpi energiya iste'molini kamaytirish",
-    "noAnswer3": "Tarmoq tezligini oshirish"
+    "question": "Ultratovushlardan tibbiyotda qanday maqsadlarda foydalaniladi?",
+    "answer": "terapevtik davolavchi usul sifatida",
+    "noAnswer1": "moddalarni sterilizasiya qilishda, suyakni svarkasida",
+    "noAnswer2": "qon oqish tezligini o‘lchash, yurak klapanlarini ishlashini tekshirishda",
+    "noAnswer3": "ichki a’zolarning o‘lchamlarini, ulardagi o‘zgarishlarni aniqlashda"
   },
   {
-    "question": "Parallel xisoblashni tahlil qilishda qanday asboblar ishlatiladi?",
-    "answer": "Modellashtirish dasturlari va simulyatorlar",
-    "noAnswer1": "Faqat xotira va CPU optimallashtirish",
-    "noAnswer2": "Dasturlash tillari va algoritmlar",
-    "noAnswer3": "Matematika funksiyalari"
+    "question": "Terapevtik maqsadlarda ishlatiladigan ultratovushlarni optimal chastotalari va o‘rtacha intesivlgi qanday bo‘lishi kerak?",
+    "answer": "0.8 mGs va 0.1 Vt/sm2",
+    "noAnswer1": "800 kGs va 1 Vt/sm2",
+    "noAnswer2": "800 mGs va 1.0 Vt/sm2",
+    "noAnswer3": "800 Gs va 1 Vt/sm2"
+  },
+  {
+    "question": "Odam qulog‘i normal sharoitda qanday chastotalardagi tebranishlarni sezadi?",
+    "answer": "1.6 Gs - 2000 Gs",
+    "noAnswer1": "16 Gs - 20000 Gs",
+    "noAnswer2": "16 kGs - 20 kGs",
+    "noAnswer3": "20 kGs - 20 mGs"
+  },
+  {
+    "question": "Yurakning bajaradigan ishi nimaga sarf bo‘ladi?",
+    "answer": "yurak muskullarini qisqarishiga",
+    "noAnswer1": "bosim kuchlarini yengishga",
+    "noAnswer2": "qonga kinetik energiya berishga",
+    "noAnswer3": "2 va 3 javoblarda keltirilgan vazifani bir vaqtda bajarishga"
+  },
+  {
+    "question": "Yurakning o‘ng qorinchasining 1 marta qisqarishdagi ishi, chap qorinchaning shu holdagi ishini 20% ishni tashqil qilishini xisobga olsa, yurakning 1 marta qisqarishidagi to‘la ishi qaysi javobda to‘g‘ri?",
+    "answer": "R*Vzarb",
+    "noAnswer1": "mV2/2 = (p*Vzarb*V2)/2 bu yerda V2-V kvadrat)",
+    "noAnswer2": "PVzar + (p*Vzarb*V2)/2",
+    "noAnswer3": "(P*Vzarb)*120"
+  },
+  {
+    "question": "Agar yurak bir qisqarishida chiqargan qonning xajmi Vzarb=60ml, bosimi R=13kPa, olgan tezligi v=0.5m/s va zichligi r=1050kg/m3 bo‘lsa uni bajargan ishi nimaga teng bo‘ladi?",
+    "answer": "0.01 J",
+    "noAnswer1": "0.1 J",
+    "noAnswer2": "1 J",
+    "noAnswer3": "10 J"
+  },
+  {
+    "question": "Agar yurakning 1 sekundda bir marta qisqarishida bajargan ishi 1 J ga teng bo‘lsa uni bir sutka davomida bajargan ishi qanchaga teng bo‘ladi?",
+    "answer": "86.4*100 J(100-10 kvadrat)",
+    "noAnswer1": "8.64*10000 J(10000-10 to‘rtinchi darajada)",
+    "noAnswer2": "864* 1000 J(1000-10 kub)",
+    "noAnswer3": "0.864*10000(10000-10 to‘rtinchi darajada"
+  },
+  {
+    "question": "Yurak sistemasi davomiyligi t=300*0.0001s (0.0001-10 usti minus 3) bo‘lsa va uni o‘n marta qisqarishidagi bajargan ishi 10 J bo‘lsa uni bir marta qisqarishidagi quvvati qanchaga teng bo‘ladi?",
+    "answer": "300 Vt",
+    "noAnswer1": "133 Vt",
+    "noAnswer2": "33 Vt",
+    "noAnswer3": "133*0.001 Vt (0.001-10 usti minus 2)"
+  },
+  {
+    "question": "Sun’iy qon aylanish apparatining asosiy vazifasi nimada?",
+    "answer": "qonni nasos sifatida xaydab turishida",
+    "noAnswer1": "qonni doimiy kislorod bilan boyitib turishida",
+    "noAnswer2": "qonni xaydab va undagi karbonat angidridni tozalaydi",
+    "noAnswer3": "bir vaqtni uzida 1 va 2 javoblarda keltirilgan vazifalarni bajaradi"
+  },
+  {
+    "question": "Ma’lumki tomirlar sistemasidagi qon harakitini o‘rganuvchi bo‘limga gemodinamika deyiladi. Shu gemodinamikani fizik asosi bo‘lib nima xizmat qiladi?",
+    "answer": "gidrostatika qonunlari",
+    "noAnswer1": "aerodinamika qonunlari",
+    "noAnswer2": "kinematika qonunlari",
+    "noAnswer3": "gidrodinamika qonunlari"
+  },
+  {
+    "question": "Fizikaning gemodinamika qonunlari odam organizmidagi qaysi jarayonlarni o‘rganishda qo‘llaniladi?",
+    "answer": "nafas olish jarayonlarini",
+    "noAnswer1": "buyrakdagi suyuqliklar harakatini",
+    "noAnswer2": "xujayra atrofi suyuqliklari harakatini",
+    "noAnswer3": "tayanch-harakat sistemasi harakatlarini"
+  },
+  {
+    "question": "Organizmdagi qonning harakati asosan nimalarga bog‘liq?",
+    "answer": "qonning xossalariga",
+    "noAnswer1": "xech narsaga bog‘liq emas",
+    "noAnswer2": "qon tomirlarining xossalariga",
+    "noAnswer3": "organizmning fiziologik holatiga"
+  },
+  {
+    "question": "Yurak qorinchasi tomonidan bitta sistola davomida otib chiqariladigan qonning xajmi nima deb ataladi?",
+    "answer": "sistola xajmi",
+    "noAnswer1": "qon porsiyasi",
+    "noAnswer2": "gidrodinamik xajm",
+    "noAnswer3": "zarb xajmi"
+  },
+  {
+    "question": "Ma’lumki yurak muskullarining qisqarishida (sistola) qon yurakdan aortagacha va undan tarqalib ketuvchi arteriyalarga sikib chiqariladi.Ushbu jarayondagi asosiy fizik xodisalarni toping.",
+    "answer": "Qonni yurakdan chiqish paytida vujudga kelgan bosim tovush tezligida chekkadagi qismlarga uzatiladi",
+    "noAnswer1": "Sistolada chiqqan qon aorta, arteriya va arteriolalarni cho‘zadi chunki ular elastikdir",
+    "noAnswer2": "Katta qon tomirlari, sistolada periferiyaga oqib boradigan qondan ko‘ra ko‘p qonni qabul qiladi.",
+    "noAnswer3": "Yurak qon orqali katta qon tomirlariga potensial energiya beradi"
+  },
+  {
+    "question": "Odamning sistolik va diastolik bosimlari normada taxminan qancha bo‘ladi?",
+    "answer": "1.6 kPa va 1.1 kPa",
+    "noAnswer1": "16 kPa va 11 kPa",
+    "noAnswer2": "1.6 Pa va 1.1 Pa",
+    "noAnswer3": "16 Pa va 11Pa"
+  },
+  {
+    "question": "Ma’lumki sistolalar yuz berishi davrida qonning yurakni chap qorinchasidan itarilib chiqarilishi tufayli yuqori bosimli to‘lqin xosil bo‘ladi va u aorta va arterialar orqali tarqaladi. Bu qanday to‘lqinlar?",
+    "answer": "Yurak to‘lqinlari",
+    "noAnswer1": "Tomir to‘lqinlari",
+    "noAnswer2": "Qon to‘lqinlari",
+    "noAnswer3": "Puls to‘lqinlari"
+  },
+  {
+    "question": "Qon aylanish sistemasida xosil bo‘ladigan puls to‘lqinlarining tarqalish tezligi miqdorini ko‘rsating.",
+    "answer": "50-100 m/s",
+    "noAnswer1": "5-10 sm/s",
+    "noAnswer2": "5-10 km/s",
+    "noAnswer3": "5-10 m/s"
+  },
+  {
+    "question": "Yurak ishlashining sistolasi davri 0.3 s atrofida bo‘lsa, puls to‘lqinlarining tarqalish tezligini xisobga olgan holda shu davrda qon qancha masofaga tarqaladi?",
+    "answer": "1.5-3 sm.ga",
+    "noAnswer1": "15-30 sm.ga",
+    "noAnswer2": "1.5-3 m.ga",
+    "noAnswer3": "15-30 m.ga"
+  },
+  {
+    "question": "Katta tomirlarda puls to‘lqinining tezligi tomir parametrlarini qaysi biriga bog‘liq?",
+    "answer": "elastiklik moduliga",
+    "noAnswer1": "qon tomiri modasining zichligiga",
+    "noAnswer2": "qon tomiri devorining qalinligiga",
+    "noAnswer3": "qon tomiri diametriga"
+  },
+  {
+    "question": "Qon tomirini elastiklik moduli (Ye), moddasining zichligi (r), devorining kalinigi (N) va diametri (D) bo‘lsa puls to‘lqininning tezligi v qaysi formula bilan xisolanadi?",
+    "answer": "v = (YeN/r*D) darajasi ½",
+    "noAnswer1": "v = YeN/r*D",
+    "noAnswer2": "v = (YeN/r*D) darajasi 2",
+    "noAnswer3": "v = r*D/YeN"
+  },
+  {
+    "question": "Suyuqlik oqqanda uning ayrim qatlamlari bir-biri bilan ma’lum kuchlar ta’sirida ta’sirlashadi. Ushbu kuchni qaysi formula orqali topish mumkin?",
+    "answer": "F = (dV/dx)*S",
+    "noAnswer1": "F = n*(dV/dx)",
+    "noAnswer2": "F = n*dV*dx*S",
+    "noAnswer3": "F = n*(dV/dx)*S"
+  },
+  {
+    "question": "Qanday suyuqliklarni Nyuton suyuqliklari deb yuritiladi?",
+    "answer": "Qovushqoqligi temperaturaga bog‘liq bo‘lgan suyuqliklar",
+    "noAnswer1": "Qovushqoqligi tempuraturaga bog‘liq bo‘lmagan suyuqliklar",
+    "noAnswer2": "Qovushqoqligi tezlik gradiyentiga bog‘liq bo‘lmagan suyuqliklar",
+    "noAnswer3": "Qovushqoqligi tezlik gradiyentiga bog‘liq bo‘lgan suyuqliklar"
+  },
+  {
+    "question": "Suyuqlik ichida pastga harakat qilayotgan jismga nechta kuch ta’sir qiladi?",
+    "answer": "1 ta",
+    "noAnswer1": "2 ta",
+    "noAnswer2": "3 ta",
+    "noAnswer3": "4 ta"
+  },
+  {
+    "question": "Suyuqliklarning laminar oqimi deganda nimani tushunasiz?",
+    "answer": "suyuqlikning uzluksiz oqimini",
+    "noAnswer1": "suyuqlik qatlamini bir biriga aralashib oqishini",
+    "noAnswer2": "suyuqlik qatlamlarini harakatsizligini",
+    "noAnswer3": "suyuqlik qatlamlarini aralashmay oqishini"
+  },
+  {
+    "question": "Suyuqlik oqimining tezligi ortsa qanday oqimni paydo bo‘lish extimolligi oshadi?",
+    "answer": "laminar oqimni",
+    "noAnswer1": "oqim turi tezlikka bog‘liq emas",
+    "noAnswer2": "tekis oqimni",
+    "noAnswer3": "trubulent oqimni"
+  },
+  {
+    "question": "Ma’lumki suyuqliklarni truba bo‘ylab oqishi suyuqlikning xossalariga, oqish tezligiga, truba uchlariga bog‘liq bo‘lib Reynoldssoni bilan aniqlanadi. Formulasini toping.",
+    "answer": "Re = pV2Rn",
+    "noAnswer1": "Re = pVDn",
+    "noAnswer2": "Re = pVR/n",
+    "noAnswer3": "Re = pVD/n"
+  },
+  {
+    "question": "Kinetik qovushqoqlikni (v) dinamik qovushqoqlik (n) orqali xisoblasa bo‘ladimi, agar bo‘lsa qaysi formula bilan?",
+    "answer": "yo‘q bo‘lmaydi, uni o‘lchash kerak",
+    "noAnswer1": "xa bo‘ladi, v = p*n",
+    "noAnswer2": "xa bo‘ladi, v = p/n",
+    "noAnswer3": "xa bo‘ladi, v = n/p"
+  },
+  {
+    "question": "Sillik devorli slindrik trubalar uchun kritik Reynolds soni qanchaga teng va u nima ma’noni anglatadi?",
+    "answer": "230 ga teng va laminar oqimning yuqori chegarasini ko‘rsatadi",
+    "noAnswer1": "2300 ga teng va trubulent oqimning yuqori chegarasini ko‘rsatadi",
+    "noAnswer2": "230 ga teng va trubulent oqimning quyi chegarasini ko‘rsatadi",
+    "noAnswer3": "2300 ga teng, bundan katta bo‘lsa trubulent oqim, kichik bo‘lsa laminar oqim sodir bo‘ladi"
+  },
+  {
+    "question": "Puazeyl formulasiga asosan nay radiusi 2 marta oshsa undan birlik vaqtda oqayotgan suyuqlikning xajmi nima bo‘ladi?",
+    "answer": "o‘zgarmaydi",
+    "noAnswer1": "2 marta oshadi",
+    "noAnswer2": "4 marta oshadi",
+    "noAnswer3": "16 marta oshadi"
+  },
+  {
+    "question": "Agar nay radiusi doimiy bo‘lib, undan oqayotgan suyuqlikning qovushqoqligi 2 mrta oshsa, birlik vaqt ichida oqib o‘tayotgan suyuqlikning xajmi nima bo‘ladi?",
+    "answer": "2 marta oshadi",
+    "noAnswer1": "4 marta oshadi",
+    "noAnswer2": "o‘zgarmaydi",
+    "noAnswer3": "2 marta kamayadi"
+  },
+  {
+    "question": "Qon tomirlaridan birlik vaqtda oqayotgan suyuqlikning miqdori (Q) tomir uchlaridagi bosimlar farqiga bog‘liqmi? Agar bog‘liq bo‘lsa qanday?",
+    "answer": "yo‘q bog‘liq emas",
+    "noAnswer1": "bog‘liq, bosimlar farqi oshsa Q kamayadi",
+    "noAnswer2": "bog‘liq, bosimlar farqi kamaysa Q ortadi",
+    "noAnswer3": "bog‘liq, bosimlar farqiga to‘g‘ri proporsional"
+  },
+  {
+    "question": "Elektr maydonining kuch harakteristikasi nima va u qanday aniqlanadi?",
+    "answer": "Elektr maydonining bunday harakteristikasi yo‘q",
+    "noAnswer1": "maydon potensiali, v = A/q (v - bu yerda maydon potensialifi harfining o‘rnida)",
+    "noAnswer2": "Maydon kuchlanganligi, Ye = F/q",
+    "noAnswer3": "Maydon potensiali, Ye = F/q"
+  },
+  {
+    "question": "Elektr maydonining energetik harakteristikasi nima va u qanday aniqlanadi?",
+    "answer": "Maydon kuchlanganligi, Ye = F/q",
+    "noAnswer1": "Maydon kuchlanganligi, Ye = q/F",
+    "noAnswer2": "Maydon potensiali, v = q/z (z-bu yerda delta o‘rnida)",
+    "noAnswer3": "Maylon potensiali, v = q/4PEE0R (Ye va Ye0 - bu yerda epsilon va epsilon nolь, ya’ni boshlang‘ich degan ma’noda)"
+  },
+  {
+    "question": "q1 va q2 elektr zaryadlari bir biridan l masofada turgan bo‘lsa qaysi holda ular elektr dipoli xosil qiladi?",
+    "answer": "q1+ va q2+ bo‘lib, ular bir-biriga teng bo‘lsa",
+    "noAnswer1": "q1+ va q2- bo‘lib, miqdori ahamiyatga ega emas",
+    "noAnswer2": "q1+ va q2- bo‘lib, ular bir biriga teng bo‘lsa",
+    "noAnswer3": "q1+>q2- bo‘lganda"
+  },
+  {
+    "question": "Dipol momenti (R) nima, son qiymati qanday aniqlanadi va yo‘nalishi qanday bo‘ladi?",
+    "answer": "Zaryadni masofaga ko‘paytmasi, r =q*l musbat zaryaddan manfiy zaryadga yo‘nalgan",
+    "noAnswer1": "Zaryadni masofaga nisbati, r = q/l musbat zaryaddan manfiy zaryadga yo‘nalgan",
+    "noAnswer2": "Masofani zaryadga nisbati, r = l/q manfiy zaryaddan musbat zaryadga yo‘nalgan",
+    "noAnswer3": "Zaryadni masofaga ko‘paytmasi, r = q*l manfiy zaryaddan musbat zaryadga yo‘nalgan"
+  },
+  {
+    "question": "Bir jinsli elektr maydoniga, momenti R bo‘lgan, dipol joylashtirilsa o‘nga nima ta’sir qiladi?",
+    "answer": "xech narsa ta’sir qilmaydi",
+    "noAnswer1": "dipolning faqat musbat zaryadiga F = qE kuch ta’sir qiladi",
+    "noAnswer2": "dipolning faqat manfiy zaryadiga F= -qE kuch ta’sir qiladi",
+    "noAnswer3": "dipolga burchakka bog‘liq bo‘lmagan kuchlar jufti momenti ta’sir qiladi, u M = P*E*sin a formula bilan aniqlanadi. (a-alfa)"
+  },
+  {
+    "question": "Nechta nuqtaviy zaryad nol tartibli multipol xisoblanadi?",
+    "answer": "5ta",
+    "noAnswer1": "4ta",
+    "noAnswer2": "2ta",
+    "noAnswer3": "3ta"
+  },
+  {
+    "question": "Bir jinsli elektr maydonidagi dipolga ta’sir etuvchi aylantiruvchi momentni xisoblash formulasi",
+    "answer": "R = Ye/M",
+    "noAnswer1": "M = R*Ye",
+    "noAnswer2": "M = R/Ye",
+    "noAnswer3": "R = M"
+  },
+  {
+    "question": "Dipol momentining birligini tanlang",
+    "answer": "kulon*metr",
+    "noAnswer1": "kulon/metr",
+    "noAnswer2": "kulon(metr)^2",
+    "noAnswer3": "metr/kulon"
+  },
+  {
+    "question": "Dipol momenti qaysi kattalikka kiradi?",
+    "answer": "irrisional",
+    "noAnswer1": "vektor",
+    "noAnswer2": "natural",
+    "noAnswer3": "kompleks"
+  },
+  {
+    "question": "Real suyuqlik oqqanda uning qatlamlari bir-biriga urinma ko‘rinishda yo‘nalgan kuchlar bilan o‘zaro ta’sirlanish xodisasiga",
+    "answer": "suyuqlikning namligi deyiladi",
+    "noAnswer1": "suyuqlikning qovushqoqligi deyiladi",
+    "noAnswer2": "suyuqlikning sirt tarangligi deyiladi",
+    "noAnswer3": "suyuqlikning okuvchanligi deyiladi"
+  },
+  {
+    "question": "Qovushqoqlik va truba uzunligi qancha katta va kundalang kesim yuzi qancha kichik bo‘lsa",
+    "answer": "gidravlik qarshiligi shuncha kichik bo‘ladi",
+    "noAnswer1": "gidravlik qarshiligi shuncha katta bo‘ladi.",
+    "noAnswer2": "gidravlik qarshiligi umuman bo‘lmaydi",
+    "noAnswer3": "gidravlik qarshilik va oqim qarshilik teng bo‘lib qoladi"
+  },
+  {
+    "question": "Qovushqoq suyuqliklarning oqish tezligi oshirilganda oqim uyurmasining xosil bo‘lishi",
+    "answer": "laminar oqimni vujudga keltiradi",
+    "noAnswer1": "turbulent oqimni vujudga keltiradi",
+    "noAnswer2": "noturbulent oqimni vujudga keltiradi",
+    "noAnswer3": "suyuqlikning qatlam qatlam bo‘lib oqishini vujudga keltiradi"
+  },
+  {
+    "question": "Burun bo‘shligida harakatlanayotgan xavo qay vaqtda turbulent harakterga ega bo‘ladi?",
+    "answer": "bosh og‘rish jarayonida",
+    "noAnswer1": "shamollash jarayonida",
+    "noAnswer2": "har qanday patologik jarayonda",
+    "noAnswer3": "qon bosimi ko‘tarilish jarayonida"
+  },
+  {
+    "question": "Qon aylanishining arterial bosimi qanday modellashtiriladi?",
+    "answer": "elastik idish kabi",
+    "noAnswer1": "elastik rezervuar kabi",
+    "noAnswer2": "noelastik rezervuar kabi",
+    "noAnswer3": "plastik rezervuar kabi"
+  },
+  {
+    "question": "Biologik to‘qimalarni elektr o‘tkazuvchanligini diagnostik faktor sifatida ishlatish mumkinmi? Nima uchun?",
+    "answer": "Xa, chunki ularning solishtirma qarshiliklari har-xil",
+    "noAnswer1": "Xa, chunki ularning funksiyasiga bog‘liq ravishda",
+    "noAnswer2": "Xa, chunki ularning elektr o‘tkazuvchanligi har xil bo‘ladi",
+    "noAnswer3": "Yo‘q, chunki ularning elektr o‘tkazuvchanligi doimiydir"
+  },
+  {
+    "question": "Organizmdagi biologik to‘qimalar va suyuqliklardan qaysi biri elektr tokini yaxshi o‘tkazadi?",
+    "answer": "quruq teri",
+    "noAnswer1": "pardasiz suyak",
+    "noAnswer2": "yog‘ to‘qimasi",
+    "noAnswer3": "orqa miya so‘qligi"
+  },
+  {
+    "question": "Organizmdagi biologik to‘qimalar va suyuqliklardan qaysi biri elektr tokiga eng katta qarshilik ko‘rsatadi?",
+    "answer": "quruq teri",
+    "noAnswer1": "pardasiz suyak",
+    "noAnswer2": "yog‘ to‘qimasi",
+    "noAnswer3": "qon"
+  },
+  {
+    "question": "Xujayra va to‘qimalarni elektr o‘tkazuvchanligi asosan qaysi faktor bilan bog‘liq?",
+    "answer": "ulardagi erkin elektronlar mavjudligi bilan",
+    "noAnswer1": "ulardagi erkin ionlarni mavjudligi bilan",
+    "noAnswer2": "ular elektr tokini o‘tkazmaydiku",
+    "noAnswer3": "ulardagi biopotensiallarni mavjudligi bilan"
+  },
+  {
+    "question": "Tirik to‘qimalardan doimiy elektr toki o‘tganda vaqt o‘tishi bilan o‘nga qo‘yilgan kuchlanish o‘zgarmasa tok kuchi ham o‘zgarmas bo‘ladimi?",
+    "answer": "Xa, chunki Om qonuni bo‘yicha U=const da I=const",
+    "noAnswer1": "yo‘q, chunki to‘qima qizib kyetadi",
+    "noAnswer2": "yo‘q 6 chunki u 100-1000 marta kamayib kyetadi",
+    "noAnswer3": "yo‘q sababi aniq emas"
+  },
+  {
+    "question": "60-80 V kuchlanishdagi uzluksiz doimiy tokdan foydalanadigan fizioterapevtik davolash uslubi qanday ataladi?",
+    "answer": "elektrofarez",
+    "noAnswer1": "darsenvalizasiya",
+    "noAnswer2": "galvanizasiya",
+    "noAnswer3": "diatermiya"
+  },
+  {
+    "question": "Bemorlarni yuqori kuchlanishli doimiy elektro maydon ta’sirida davolash usuli",
+    "answer": "induktotermiya usuli",
+    "noAnswer1": "diatermiya usuli",
+    "noAnswer2": "galvanizasiya usuli",
+    "noAnswer3": "darsenvalizasiya usuli"
+  },
+  {
+    "question": "Pyezoeffekt xodisasi qanday sharoitda kuzatiladi?",
+    "answer": "ba’zi kristallarga magnit maydoni ta’sir etganda",
+    "noAnswer1": "ba’zi kristallarga zaryadlar kiritilganda",
+    "noAnswer2": "ba’zi kristallarni deformasiya qilinganda",
+    "noAnswer3": "yo‘q sababi aniq emas"
+  },
+  {
+    "question": "Elektr maydoni bo‘lmaganda dielektriklar molekulalarining dipol momentlarinining (oriyentasiyasi) yo‘nalishi",
+    "answer": "garmonik qonun bo‘yicha bo‘ladi",
+    "noAnswer1": "manfiydan musbat kutbga",
+    "noAnswer2": "tartibli bo‘ladi",
+    "noAnswer3": "musbatdan manfiy kutbga"
+  },
+  {
+    "question": "fazali U(F) va chiziqli U(U) kuchlanish o‘rtasidagi to‘g‘ri munosabatni ko‘rsating",
+    "answer": "U(U) = 1.73*U(F)",
+    "noAnswer1": "U(U) = 1.73-U(F)",
+    "noAnswer2": "U(U) = 1.73+U(F)",
+    "noAnswer3": "U(U) = 1.73/U(F)"
+  },
+  {
+    "question": "Zaryadlar oraligi L=5 mm va zaryad kattaligi 10^-4 kl bo‘lganda kl.m o‘lchamlikda dipolning elektrik momentini aniqlang",
+    "answer": "5*10^-7",
+    "noAnswer1": "0.5*10^-7",
+    "noAnswer2": "5*10^-3",
+    "noAnswer3": "5*10^-4"
+  },
+  {
+    "question": "Elektronning atomdagi holatini uning .... kattaligi belgilaydi?",
+    "answer": "massasi",
+    "noAnswer1": "tezligi",
+    "noAnswer2": "energiyasi",
+    "noAnswer3": "zaryad miqdori"
+  },
+  {
+    "question": "Elektron qanday tabiatga ega?",
+    "answer": "To‘lqin xususiyatga",
+    "noAnswer1": "zarracha xususiyatga",
+    "noAnswer2": "ham to‘lqin ham zarracha",
+    "noAnswer3": "xech qanday xususiyatga ega emas"
+  },
+  {
+    "question": "Elektron qanday holatda energiya chiqaradi?",
+    "answer": "stasionar orbitada harakalanganda",
+    "noAnswer1": "past orbitadan yuqori orbitaga o‘tganda",
+    "noAnswer2": "atomdan chiqib ketganda",
+    "noAnswer3": "yuqori orbitadan past orbitaga o‘tganda"
+  },
+  {
+    "question": "Atom fizikasidagi Pauli prinsipi niamni harakterlaydi?",
+    "answer": "elektronning bosh kvant sonini",
+    "noAnswer1": "elektronning ko‘shimcha kvant sonini",
+    "noAnswer2": "elektronning magnit kvant sonini",
+    "noAnswer3": "atomda kvant sonlarining miqdori bir xil bo‘lgan elektronlarni bo‘lmasligini"
+  },
+  {
+    "question": "Har qaysi kvant kavatida elektronlarning mumkin bo‘lgan eng ko‘p miqdori qaysi formula bilan topish mumkin?",
+    "answer": "Z = S^2*P^6",
+    "noAnswer1": "Z = S^2*P^6*d^10",
+    "noAnswer2": "Z = 2 n^2",
+    "noAnswer3": "Z = S^2*P^6*d^10*f^14"
+  },
+  {
+    "question": "Har bir energetik pog‘anada nechtadan pog‘anacha bo‘lishi mumkin?",
+    "answer": "Z = 2*n^2 (energetik pog‘ana nomeri)",
+    "noAnswer1": "pog‘anani nomeriga teng sonda",
+    "noAnswer2": "bosh kvant soniga teng holda",
+    "noAnswer3": "spin kvant soniga teng holda"
+  },
+  {
+    "question": "Har qaysi pog‘anachada joylashishi mumkin bo‘lgan maksimal elektronlar soni qaysi javobda to‘g‘ri keltirilgan?",
+    "answer": "S^2*P^8*d^10*f^14",
+    "noAnswer1": "S^2*P^6*d^8*f^14",
+    "noAnswer2": "S^2*P^6*d^10*f^12",
+    "noAnswer3": "S^2*P^8*d^10*f^1"
+  },
+  {
+    "question": "Atomdagi har qaysi elektron nechta kvant soni bilan harakterlanadi va ular qaysilar?",
+    "answer": "1 bosh kvant soni bilan",
+    "noAnswer1": "2 bosh va ko‘shimcha kvant soni bilan",
+    "noAnswer2": "3 bosh, ko‘shimcha va magnit kvant sonlari bilan",
+    "noAnswer3": "4 bosh, ko‘shimcha, magnit va spin kvan sonlari bilan"
+  },
+  {
+    "question": "Elektron yuqori orbitadan quyi orbitalarga o‘tganda ajralib chiqadigan energiyani qanday xususiyatlari mavjud?",
+    "answer": "bu energiya o‘zgarmas bo‘ladi va hv ga teng",
+    "noAnswer1": "bu energiyaning miqdori mos orbitalardagi elektronni energiya farqi bilan aniqlanib, chastotasi har doim bir xil bo‘ladi",
+    "noAnswer2": "bu energiyani miqdori va chastotasi o‘tish sodir bo‘layotgan orbitasidagi elektronni energiyasi farqi bilangina aniqlanadi",
+    "noAnswer3": "bu energiyaning chastotasi mos orbitalardagi elektronning energiyalari farqi bilan aniqlanib, miqdori esa o‘zgarmas bo‘ladi"
+  },
+  {
+    "question": "Elektronning atomdagi holatini belgilovchi kvant sonlarida norbital (ko‘shimcha) kvant soni nimani ifodalaydi?",
+    "answer": "elektron turgan pog‘anani energiyasini",
+    "noAnswer1": "elektron turgan pog‘anachaning energiyasini",
+    "noAnswer2": "elektronni impuls momentini harakterlaydi",
+    "noAnswer3": "orbitalarning fazoda joylashishini"
+  },
+  {
+    "question": "Elektronning atomdagi holatini belgilovchi kvant sonlaridanmagnit kvant soni nimani harakterlaydi?",
+    "answer": "elektron joylashgan pog‘anani energiyasini",
+    "noAnswer1": "elektron joylashgan pog‘anachani energiyasini",
+    "noAnswer2": "elektronni impuls momentini",
+    "noAnswer3": "orbitalarning fazoda joylashini"
+  },
+  {
+    "question": "Elektronning atomdagi holatini belgilovchi kvant sonlarida spin kvant soni nimani harakterlaydi?",
+    "answer": "elektron joylashgan pog‘ona enegriyasini",
+    "noAnswer1": "elektronni impuls momentini",
+    "noAnswer2": "orbitlarni fazoda joylashishini",
+    "noAnswer3": "elektronni ichki harakatini"
+  },
+  {
+    "question": "Atomning ximiyaviy xossalari nimalarga bog‘liqligi qaysi javobda to‘la keltirilgan?",
+    "answer": "sirtqi pog‘onadagi elektronlar soniga",
+    "noAnswer1": "sirtqi pog‘onadagi elektronlarni yadro bilan bog‘lanish energiyasiga",
+    "noAnswer2": "sirtqidan oldingi pog‘onadagi elektronlar soniga",
+    "noAnswer3": "kam darajada sirtqidan ikki pog‘ona ichkaridagi elektronlar"
+  },
+  {
+    "question": "Qanday holatlarda atom va molekula energiya yutmaydi ham nurlantirmaydi ham?",
+    "answer": "elektronlar energetik satxdan yuqori energetik satxga o‘tganda",
+    "noAnswer1": "elektronlar yuqori energetik satxdan past energetik satxga o‘tganda",
+    "noAnswer2": "stasionar energetik holatda bo‘lganda",
+    "noAnswer3": "o‘ta yuqori temperaturalarda"
+  },
+  {
+    "question": "Mikrozarrachalarni uning harakatiga mos keluvchi to‘lqinli jarayon bilan tekislagan holda kvant mexanikasida zarrachalar holati qanday funksiya bilan harakterlanadi?",
+    "answer": "fazodagi uchta koordinataga bog‘liq bo‘lgan v(x, y, z) funksiyasi bilan (v-bu yerda fi o‘rnida)",
+    "noAnswer1": "Tekislikdagi ikkita kordinata va vaqtga bog‘liq f(x, y, z) funksiya bilan",
+    "noAnswer2": "Zarracha harakati trayektoriyasi, uzunligi va vaqtga bog‘liq v(l, t) funksiya bilan",
+    "noAnswer3": "Zarrachalarning fazodagi koordinatalari va vaqtga bog‘liq bo‘lgan v(x, y, z, t) to‘lqin funksiyasi bilan"
+  },
+  {
+    "question": "Eyektron energiyasining satxlarini aniqlovchi va Shredinger tenglamasining yechimi bo‘lgan Ye=-m*e^4*z^2/(8E^2t^2*n^2) formuladagi n qanday kattalikni ifodalaydi va xususiyati nima?",
+    "answer": "atomdagi elektronlar sonini ifodalab, xech qanday xususiyatga ega emas",
+    "noAnswer1": "energetik satxlardagi elektronlar sonini ifodalab, u faqat musbat qiymatlarga ega bo‘lishi mumkin",
+    "noAnswer2": "elektronning bosh kvant soni dyeb, elektron turg‘un pog‘onani tartib nomerini ifodalaydi va u n=emas 0 bo‘lib faqat 1, 2, 3 qiymatlarini qabul qiladi",
+    "noAnswer3": "ma’lum energetik satxdagi elektronlar sonini ifodalaydi va un=emas 0 shartini bajaradi"
+  },
+  {
+    "question": "Atomdagi energetik satxlarning energiyasi odatda qanday birliklarda o‘lchanadi va uni SI sistemasining asosiy birliklari bilan bog‘lanishi qanday?",
+    "answer": "kaloriyalarda (kal)1 kal = 4.1868 J",
+    "noAnswer1": "Joullarda (J) bu o‘zi SIda asosiy birlikdir",
+    "noAnswer2": "Erglarda (Erg)1 Erg = 10^-7 J",
+    "noAnswer3": "Elektron Volt larda (EV)1 EV = 1.602*10^-19 J"
+  },
+  {
+    "question": "Gazlarda rekombinasiyalanish jarayonida",
+    "answer": "manfiy ionlar va elektronlar birikadi",
+    "noAnswer1": "musbat ionlar birikadi",
+    "noAnswer2": "musbat va manfiy ionlar birikadi",
+    "noAnswer3": "manfiy ionlar birikadi"
+  },
+  {
+    "question": "Ionizator bo‘la oladigan fizik faktorlarni tanlang",
+    "answer": "o‘zgarmas tok potensiali",
+    "noAnswer1": "infraqizil nurlar",
+    "noAnswer2": "tovush to‘lqinlari",
+    "noAnswer3": "ultratovush"
+  },
+  {
+    "question": "Berilliyning (Z =4 A=9) geliy (Z=2 A=4) bilan reaksiyasida uglerod (Z=6 A=12) va qancha ikkinchi maxsulot xosil bo‘ladi?",
+    "answer": "neytron",
+    "noAnswer1": "proton",
+    "noAnswer2": "elektron",
+    "noAnswer3": "gamma kvant"
+  },
+  {
+    "question": "Organizmda ionlovchi nurlanish ta’sirida birlamchi fizik va kimeviy jarayonlarni ko‘rsating",
+    "answer": "erkin radikallar xosil bo‘lishi",
+    "noAnswer1": "to‘qimalarni kizishi",
+    "noAnswer2": "suvning radiolizi",
+    "noAnswer3": "to‘qimalarning lyumenissensiyasi"
+  },
+  {
+    "question": "Alfa parchalanishda qizillik yadro qanday holatlarda paydo bo‘ladi?",
+    "answer": "tinch va zaif",
+    "noAnswer1": "normal va passiv",
+    "noAnswer2": "normal va g‘alayonlanmagan",
+    "noAnswer3": "normal va g‘alayonlangan"
+  },
+  {
+    "question": "(Z)x(",
+    "answer": "alfa parchalanishni",
+    "noAnswer1": "gamma parchalanishni",
+    "noAnswer2": "betta parchalanishni",
+    "noAnswer3": "alfa+betta parchalanishni"
+  },
+  {
+    "question": "Neytrino qachon xosil bo‘ladi?",
+    "answer": "betta (-) – parchalanishda",
+    "noAnswer1": "betta (+) - parchalanishda",
+    "noAnswer2": "alfa – parchalanishda",
+    "noAnswer3": "gamma parchalanishda"
+  },
+  {
+    "question": "Ionlovchi nurlanishlar detektorlari yordamida nimani o‘lchash mumkin?",
+    "answer": "elektronning massasini",
+    "noAnswer1": "zarrachalar impulslarini",
+    "noAnswer2": "zarrachalar zaryadlarini",
+    "noAnswer3": "zarrachalar energiyasini"
+  },
+  {
+    "question": "Ionlovchi nurlanishlar dozasini o‘lchash uchun ishlatiladigan asboblar",
+    "answer": "dozimetrlar deb ataladi",
+    "noAnswer1": "aktimetrlar deb ataladi",
+    "noAnswer2": "ekvidozimetrlar deb ataladi",
+    "noAnswer3": "ionidozimetrlar deb ataladi"
+  },
+  {
+    "question": "Inson uchun gamma - nurlanishning letal (o‘limga oli boradigan) ekvivalent dozasining qiymatini tanlang",
+    "answer": "600 nanobar",
+    "noAnswer1": "600 KBER",
+    "noAnswer2": "600 BER",
+    "noAnswer3": "600 MBER"
+  },
+  {
+    "question": "Nurlanish va ekspozision dozalar orasidagi bog‘lanish formulasini tanlang (D-nurlanish dozasi, F-o‘tish koeffisiyenti, X-ekspozsion doza nurlanishi)",
+    "answer": "D=F/X",
+    "noAnswer1": "D=F*X",
+    "noAnswer2": "D=F^2/X",
+    "noAnswer3": "D=1/(F*X)"
+  },
+  {
+    "question": "Nurlanishning ekvivalent dozasining o‘lchov birligini tanlang",
+    "answer": "rad/sek",
+    "noAnswer1": "zivert",
+    "noAnswer2": "rad",
+    "noAnswer3": "grey"
+  },
+  {
+    "question": "Quyidagilarning qaysi biri fosfolipid molekulasining uglevodorod dumchalari tarkibiga kirmaydi?",
+    "answer": "stearin kislotasi",
+    "noAnswer1": "linolin kislotasi",
+    "noAnswer2": "uksus kislotasi",
+    "noAnswer3": "araxidon kislotasi"
+  },
+  {
+    "question": "O‘tkazuvchanlik koeffisiyenti deb",
+    "answer": "membrana qalinligi bilan diffuziya koeffisiyenti ko‘paytmasiga aytiladi",
+    "noAnswer1": "diffuziya koeffisiyenti bilan taksimlanish koeffisiyentlari ko‘paytmasining membrana qalinligiga nisbatiga",
+    "noAnswer2": "diffuziya koeffisiyenti bilan taksimlanish koeffisiyentning ko‘paytmasiga aytiladi",
+    "noAnswer3": "membrana qalinligining diffuziya koeffisiyenti nisbatiga aytiladi"
+  },
+  {
+    "question": "Biologik membranalar tarkibi asosan nimalardan iborat?",
+    "answer": "oqsillar, lipidlar, uglevodlardan",
+    "noAnswer1": "turli xil tabiatli lipidlardan",
+    "noAnswer2": "oqsil va lipidlardan",
+    "noAnswer3": "oqsillar, yeglar, uglevodlardan"
+  },
+  {
+    "question": "Xozirgi paytda eng keng tarqamagan biologik membrana modelini ko‘rsating",
+    "answer": "Daniyel va Devison modeli",
+    "noAnswer1": "Gorter modeli",
+    "noAnswer2": "Grendel modeli",
+    "noAnswer3": "Sindjer va Niqolsanning suyuq kristal modeli"
+  },
+  {
+    "question": "Quyidagilardan xujayraning xayotiy jarayonini saqlovchi asosiy xususiyatini ko‘rsating",
+    "answer": "membranasining yarimo‘tkazgichligi",
+    "noAnswer1": "membrananing mustaxkamligi",
+    "noAnswer2": "membranadagi oqsillarning mavjudligi",
+    "noAnswer3": "membranadagi yeglarning mavjudligi"
+  },
+  {
+    "question": "Membranada oqsillar bo‘lishi mumkinmi?",
+    "answer": "membranada oqsillar umuman bo‘lmaydi",
+    "noAnswer1": "faqat sirt qatlami bo‘ylab",
+    "noAnswer2": "sirt qatlamidagi va integralli",
+    "noAnswer3": "faqat integralli oqsillar"
+  },
+  {
+    "question": "Xujayra membranalari quyidagi xususiyatlarni qaysi biriga ega emas?",
+    "answer": "nerv impulslarini o‘tkazish",
+    "noAnswer1": "absalyut elektr va magnit o‘tkazmaslik xossasi",
+    "noAnswer2": "xujayrani tashqi ta’sirdan asrash",
+    "noAnswer3": "ionlarni o‘tkazish"
+  },
+  {
+    "question": "Quyidagilarning qaysi biri fosfolipid molekulasi tarkibiga kirmaydi?",
+    "answer": "glikoproteinlar (oqsil va uglevod brikmalari)",
+    "noAnswer1": "holin",
+    "noAnswer2": "serin",
+    "noAnswer3": "inozin"
+  },
+  {
+    "question": "miyelinlashmagan nerv tolasining radiusini 2 marta oshirilganda qo‘zg‘alish tarqalishining tezligi qanday o‘zgaradi?",
+    "answer": "SQR (2) marta oshadi",
+    "noAnswer1": "2 marta oshadi",
+    "noAnswer2": "SQR (2) marta kamayadi",
+    "noAnswer3": "2 marta kamayadi"
+  },
+  {
+    "question": "Nerv tolalarining miyelinlashtirish ta’sir potensialining tarqalish tezligi qanday o‘zgaradi?",
+    "answer": "kuchaytiradi",
+    "noAnswer1": "kamaytiradi",
+    "noAnswer2": "ta’sir qilmaydi",
+    "noAnswer3": "tezligi 0 ga teng bo‘ladi"
+  },
+  {
+    "question": "Yurak biopotensallari ayirmasini o‘lchash uchun Eytxoven taklif etgan teng uchburchak kuchlarining joylashuv nuqtalari?",
+    "answer": "uchburchak balandliklar kesishgan nuqtasida",
+    "noAnswer1": "chap kulda chap va o‘ng oyoqda",
+    "noAnswer2": "o‘ng kulda chap kulda va chap oyoqda",
+    "noAnswer3": "o‘ng kulda chap va o‘ng oyoqda"
+  },
+  {
+    "question": "Quyidagi to‘qimalarning qaysi biri ta’sir qilish potensialini xosil qilishi mumkin a. mushak, b. nerv, v. retikulyar, g. epiteliyd yog‘",
+    "answer": "a.b",
+    "noAnswer1": "v.g",
+    "noAnswer2": "g.d",
+    "noAnswer3": "a.v"
+  },
+  {
+    "question": "1g moddaga djoul o‘lchamida qancha energiya ekvivalent bo‘ladi",
+    "answer": "9.10^3",
+    "noAnswer1": "10^3",
+    "noAnswer2": "10^13",
+    "noAnswer3": "9.10^13"
+  },
+  {
+    "question": "Akkomodasiya yo‘qligida normal ko‘zning orka fokusi tur pardagato‘g‘ri kelmay qolganda ko‘z qanday ataladi?",
+    "answer": "ametropik",
+    "noAnswer1": "o‘tkir",
+    "noAnswer2": "emmetropik",
+    "noAnswer3": "empirik"
+  },
+  {
+    "question": "Ko‘zning bosh optik o‘qi quyidagilarning qaysi birlarining geometrik markazlaridan o‘tadi?",
+    "answer": "taki oqsil tobikning va qorachiqning",
+    "noAnswer1": "muguz pardaning qorachiqning va gavharning",
+    "noAnswer2": "sklkra va qorachiqning",
+    "noAnswer3": "sko‘rish nervining skleraning va ratinaning"
+  },
+  {
+    "question": "Ko‘zning yorug‘likka sezgirligi deb?",
+    "answer": "muayan sharoitda ko‘rish sezgisini tugdira olish qobiliyatiga ega bo‘lgan minemal yorug‘lik qiymatiga aytiladi",
+    "noAnswer1": "2 va 3 javoblar to‘g‘ri",
+    "noAnswer2": "muayan sharoitda ko‘rish sezgisini tugdira olish qobiliyatiga ega bo‘lgan maksimal yorug‘lik qiymatiga aytiladi",
+    "noAnswer3": "ko‘rish sistemasini tugdira olish qobiliyatiga ega bo‘lgan har qanday yorug‘lik qiymatiga aytiladi"
+  },
+  {
+    "question": "Ko‘zning qanday xujayralari rang ajrata olish qobiliyatiga ega?",
+    "answer": "muguz parda",
+    "noAnswer1": "tayoqcha",
+    "noAnswer2": "kolbochka",
+    "noAnswer3": "sariq dog‘"
+  },
+  {
+    "question": "Ko‘zning kunduzgi ko‘rish va rang ajratish xujayralarini ko‘rsating?",
+    "answer": "retina",
+    "noAnswer1": "tayoqcha xujayralari",
+    "noAnswer2": "kolbochka xujayralari",
+    "noAnswer3": "tur qatlam xujayralari"
+  },
+  {
+    "question": "Ko‘zning yorug‘likka moslashishida ahamiyati yo‘q faktorni ko‘rsating?",
+    "answer": "qorachiq diametrini o‘zgarishi",
+    "noAnswer1": "kolbochkalarning sonini o‘zgarishi",
+    "noAnswer2": "sezgi xujayralarini pigmentasiyalanishi",
+    "noAnswer3": "yorug‘lik intensivligini o‘zgarishi"
+  },
+  {
+    "question": "Ko‘z devori qobig‘ini nomlarini va ular joylatish tartibini ichkariga yo‘nalish bo‘yicha aniqlang? a. sklera, b. shishasimon tana, v. tomir qatlami, g. to‘r parda, d. endotelial qavat, ye. ko‘ruv nervi.",
+    "answer": "avg",
+    "noAnswer1": "bde",
+    "noAnswer2": "bve",
+    "noAnswer3": "ade"
+  },
+  {
+    "question": "Ba’zi genetik kasalliklarda oqsil yodopsinning sintezini buzulishi ko‘zning qanday kamchiligiga sabab bo‘ladi?",
+    "answer": "qizil va yashil rang ajratilmaydi",
+    "noAnswer1": "qizil rang ajratilmaydi",
+    "noAnswer2": "sariq rang ajratilmaydi",
+    "noAnswer3": "yashil rang ajratilmaydi"
+  },
+  {
+    "question": "ko‘zoynak linzasining optik kuchi 1 dptr bo‘lsa uning fokus masofasi necha sm bo‘ladi?",
+    "answer": "100",
+    "noAnswer1": "10",
+    "noAnswer2": "1",
+    "noAnswer3": "0, 1"
+  },
+  {
+    "question": "inson ko‘zi muguz pardasining sindirish ko‘rsatkichi qiymatini tanlang",
+    "answer": "0.038",
+    "noAnswer1": "2.38",
+    "noAnswer2": "0.38",
+    "noAnswer3": "1.38"
+  },
+  {
+    "question": "induktotermiya vaqtida inson organizmi to‘qimalarida ajraluvchi issiqlik miqdori",
+    "answer": "uning chastotasiga bog‘liq emas",
+    "noAnswer1": "uning chastotasi kvadratiga to‘g‘ri proporsional",
+    "noAnswer2": "uning chastotasiga teskari proporsional",
+    "noAnswer3": "uning chastotasi kvadratiga teskari proporsional"
+  },
+  {
+    "question": "Agar elektr maydoni kuchlanganligi 2 marta oshirilsa CHV-4 muolajasida to‘qimalardan ajralayotgan issiqlik miqdori qanday o‘zgaradi?",
+    "answer": "4 marta oshadi",
+    "noAnswer1": "4 marta kamayada",
+    "noAnswer2": "o‘zgarmaydi",
+    "noAnswer3": "2 marta oshadi"
+  },
+  {
+    "question": "Goldman tenglamasida tirik to‘qimalarni qonsyentrasion element sifatida ta’riflaganda quyidagilarning qaysi biri xisobga olinadi?",
+    "answer": "anion va kationlarning diffuziyasi",
+    "noAnswer1": "faqat anionlarning diffuziyasi",
+    "noAnswer2": "faqat kationlarning diffuziyasi",
+    "noAnswer3": "neytral zarralar diffuziyasi"
+  },
+  {
+    "question": "Ners-plank elektrodiffuzion tenglamasini chap tarafini nomini tuzing a. oqim, b. zichlik, v. ionlar, g. energiya, d. gradiyent",
+    "answer": "bab",
+    "noAnswer1": "bge",
+    "noAnswer2": "dbv",
+    "noAnswer3": "deg"
+  },
+  {
+    "question": "Galvanizasiyada mumkin bo‘lgan chegaraviy tok zichligini (ma/s ^2)",
+    "answer": "0.1 doimiy",
+    "noAnswer1": "0.1 o‘zgaruvchan",
+    "noAnswer2": "1 doimiy",
+    "noAnswer3": "0.01 doimiy"
+  },
+  {
+    "question": "Kunduzgi ko‘rinuvchanlik uchun maksimal ko‘rinuvchanligiga to‘g‘ri keladigan yorug‘lik nurining to‘lqin uzunligi qancha?",
+    "answer": "650 nm",
+    "noAnswer1": "700 nm",
+    "noAnswer2": "409 nm",
+    "noAnswer3": "760 nm"
+  },
+  {
+    "question": "Bir birlari bilan ketma-ket va parallel ulangan naylar tizimida suyuqliklar gidravlik qarshilikka o‘zaro qanday munosabatda bo‘ladi?",
+    "answer": "X (ketma-ket)>X(parallel)",
+    "noAnswer1": "X (ketma-ket)<X(parallel)",
+    "noAnswer2": "X (ketma-ket)=X(parallel)",
+    "noAnswer3": "X (ketma-ket)=2X(parallel)"
+  },
+  {
+    "question": "Qovushqoqlik uchun stoks formulasiga kiruvchi kattaliklarni ko‘rsating a. sharga radiusi, b. tezlik, v. harorat, g. zichlik, d. qovushqoqlik koffisiyenti, ye. bosim gradiyenti",
+    "answer": "abg",
+    "noAnswer1": "bvg",
+    "noAnswer2": "vde",
+    "noAnswer3": "dge"
+  },
+  {
+    "question": "Bir-biridan bir xil uzoqlikda joylashgan juda ko‘p parallel tirqishlar to‘plamidan iborat bo‘lgan optik asbob?",
+    "answer": "refraktometr deb nomlanadi",
+    "noAnswer1": "difraksion panjara deb nomlanadi",
+    "noAnswer2": "interforometr deb nomlanadi",
+    "noAnswer3": "interferension panjara deb nomlanadi"
+  },
+  {
+    "question": "Tirqish kengligi kamaytirilganda bir xil to‘lqinlar uchun difraksiya burchagi qanday o‘zgaradi?",
+    "answer": "oshadi",
+    "noAnswer1": "kamayadi",
+    "noAnswer2": "burchak tirqish kengligiga bog‘liq emas",
+    "noAnswer3": "nolga intiladi"
+  },
+  {
+    "question": "Yorug‘lik interferensiyasi vaqtida maksimum kuzatiladi agar to‘lqinlar yo‘lining optik ayirmasi teng bo‘lsa",
+    "answer": "nolga",
+    "noAnswer1": "birdan katta bo‘lsa",
+    "noAnswer2": "to‘lqin uzunliklarining butun soniga",
+    "noAnswer3": "yarim to‘lqin uzunliklari tok soniga"
+  },
+  {
+    "question": "Masofa va ko‘rish burchagi orasidagi to‘g‘ri munosabatni ko‘rsatib bering?",
+    "answer": "tasvir kattaligini ko‘rish burchagi orqali aniqlanadi",
+    "noAnswer1": "tasvir kattaligi ko‘zdan jismgacha bo‘lgan masofani ko‘rish burchagiga nisbatiga teng",
+    "noAnswer2": "tasvir kattaligi ko‘rish burchagini ko‘zdan jismgacha bo‘lgan masofaga nisbatiga teng",
+    "noAnswer3": "tasvir kattaligi jismgacha bo‘lgan masofaning ko‘rish burchagiga ko‘paytmasiga teng"
+  },
+  {
+    "question": "Qaysi rangdagi kutublangan yorug‘lik eng katta aylanish xususiyatiga ega?",
+    "answer": "binafsha",
+    "noAnswer1": "qizil",
+    "noAnswer2": "yashil",
+    "noAnswer3": "sariq"
+  },
+  {
+    "question": "Yorug‘lik mikroskopining ajrata olish qobiliyatini qanday kamaytirish mumkin a. to‘lqin uzunligini oshirish, b. kamaytirish, v. sonli apparaturani oshirish, g. amplitudaning kamaytirish, d. apparaturani kamaytirish.",
+    "answer": "bv",
+    "noAnswer1": "ad",
+    "noAnswer2": "dg",
+    "noAnswer3": "av"
+  },
+  {
+    "question": "Xira muxitlarda yorug‘likning sochilishiga",
+    "answer": "tindal xodisasi deyiladi",
+    "noAnswer1": "lorens xodisasi deyiladi",
+    "noAnswer2": "bug‘yer xodisasi deyiladi",
+    "noAnswer3": "lens xodisasi deyiladi"
+  },
+  {
+    "question": "Membranalar lipid qatlamining qovushqoqligini miqdori suvning qovushqoqligiga nisbatan qanday?",
+    "answer": "o‘nga teng",
+    "noAnswer1": "undan 10 marta katta",
+    "noAnswer2": "undan 10 marta kichik",
+    "noAnswer3": "undan 100 marta kichik"
+  },
+  {
+    "question": "Membranalar lipid qatlamining sirt tarangligi suvning sirt tarangligiga nisbatan kattami yoki kichikmi?",
+    "answer": "bir xil",
+    "noAnswer1": "100000 marta katta",
+    "noAnswer2": "100 ming marta kichik",
+    "noAnswer3": "ularning sirt tarangligi bo‘lmaydi"
+  },
+  {
+    "question": "Biomembranalarni xossalarini o‘rganish uchun eng ko‘p qo‘llaniladigan fizika-ximiyaviy modellarni ko‘rsating",
+    "answer": "fosfolipidlar monoqatlami",
+    "noAnswer1": "liposomalar",
+    "noAnswer2": "biolipidli membranalar",
+    "noAnswer3": "yuqoridagilar barchasi"
+  },
+  {
+    "question": "Biomembranalarning asosiy vazifasi nimada?",
+    "answer": "2 muxit orasidagi odiy chegara",
+    "noAnswer1": "oqsillar uchun tusik",
+    "noAnswer2": "xujayralarda kerakli moddani kerakli tomonga o‘tish yoki o‘tmasliginigina ta’minlaydi",
+    "noAnswer3": "2 va 3 javoblar to‘g‘ri"
+  },
+  {
+    "question": "Biomembranalarning qalinligi qanday chegralarda bo‘ladi?",
+    "answer": "bir necha millimetrlarda",
+    "noAnswer1": "bir necha mikrometrlarda",
+    "noAnswer2": "bir necha nonometrlarda",
+    "noAnswer3": "1000-100ming nonometrlarda"
+  },
+  {
+    "question": "Fosfolipid qo‘sh qatlamli membranani elektr sig‘imi mavjudmi? Taxminan qancha?",
+    "answer": "yo‘q",
+    "noAnswer1": "xa, 1m^2 yuzida 5-13 nf",
+    "noAnswer2": "xa, 1m^2 yuzida (5-13) *10^6 nf",
+    "noAnswer3": "xa, 1mm^2 yuzida (5-13)* 10^6 nf"
+  },
+  {
+    "question": "Diffuziya vaqtida biologik membrana orqali o‘tuvchi modda oqim zichligini (j) aniqlash tenglamasini ko‘rsating",
+    "answer": "oqim zichligi = o‘tkazuvchanlik koeffisiyenti/konsentrasiyalar farqi",
+    "noAnswer1": "oqim zichligi = o‘tkazuvchanlik koeffisiyenti*konsentrasiyalar farqi",
+    "noAnswer2": "oqim zichligi = o‘tkazuvchanlik koeffisiyenti+konsentrasiyalar farqi",
+    "noAnswer3": "oqim zichligi = o‘tkazuvchanlik koeffisiyenti-konsentrasiyalar farqi"
+  },
+  {
+    "question": "Molekulya va ionlarning biomembranalari orqali passiv ko‘chishida sodir bo‘ladigan asosiy xodisa nima?",
+    "answer": "lyuminnessensiya",
+    "noAnswer1": "elektrofarez",
+    "noAnswer2": "diffuziya",
+    "noAnswer3": "issiqlik o‘tkazuvchanlik"
+  },
+  {
+    "question": "Normal ishlab turgan xujayralarda sitoplazama bilan atrofni o‘rab turuvchi muxit orasidagi potensiallar ayirmasi (tinchlikdagi potensial)ni xosil qiluvchi asosiy omillarni ko‘rsating",
+    "answer": "xujayra membronasini turli ionlarni turlicha o‘tkazuvchanligi",
+    "noAnswer1": "bir xil ionlar konsyentrasiyasini membranani turli tomonidan turlicha bo‘lishi",
+    "noAnswer2": "ham A ham V ni bajarilishi",
+    "noAnswer3": "xujayra atrofida va ichida ham \"+\" ham \"-\"ionlarning mavjudligi"
+  },
+  {
+    "question": "Tinchlikdagi potensialni xosil qilish va uni ta’minlab turishdagi asosiy xissa qaysi ionlarga mansub?",
+    "answer": "faqat Na+",
+    "noAnswer1": "faqat K+",
+    "noAnswer2": "faqat Sl-",
+    "noAnswer3": "Na+, Cl- ionlar"
+  },
+  {
+    "question": "Biopotensiallar miqdorini aniqlashda qaysi tayenglamadan foydalaniladi?",
+    "answer": "Nernst tenglamsidan",
+    "noAnswer1": "Fik tenglamsidan",
+    "noAnswer2": "Nyuton tenglamasidan",
+    "noAnswer3": "Goldman tenglamasidan"
+  },
+  {
+    "question": "Gʻalayonlanish paytida xujayra va atrofni o‘rab olgan muxit o‘rtasidagi potensiallar ayirmasini qanday parametri o‘zgaradi?",
+    "answer": "xech qanday parametr o‘zgarmaydi",
+    "noAnswer1": "potensiallar farqini miqdori o‘zgaradi",
+    "noAnswer2": "potensiallarning faqat ishorasi o‘zgaradi",
+    "noAnswer3": "ham yo‘nalishda ham miqdorda o‘zgarish bo‘ladi"
+  },
+  {
+    "question": "Ma’lumki ixtiyeriy to‘lqin biror muxitda tarqalganda unda yutilib kuchsizlana boradi. Ammo, harakat (ta’sir) potensialini nerv tolasi orqali tarqalganda (uyg‘onish to‘lqini) so‘nmaydi buning sababi nimada?",
+    "answer": "sababi xozirda aniqlanmagan",
+    "noAnswer1": "chunkt u o‘zi tarqalayotgan muxitdan energiya oladi (avto to‘lqin)",
+    "noAnswer2": "avto to‘lqin uchun qo‘zg‘aluvchan xujayra aktiv muxit bo‘lib xizmat qiladi",
+    "noAnswer3": "2 va 3 javoblar bir vaqtda bo‘ladi"
+  },
+  {
+    "question": "Harakat (ta’sir) potensialini yaxshi ifodalovchi egri chiziqni topib, membrana orqali o‘tayotgan toklar yig‘indisining zichligini aniqlash formulasini kim keltirib chiqargan?",
+    "answer": "xech kim",
+    "noAnswer1": "Xodjkinv Geldman",
+    "noAnswer2": "Nernst fik va Xokeli",
+    "noAnswer3": "Goldman va Xokeli"
+  },
+  {
+    "question": "Tinchlikdagi biopotensiali o‘rtacha miqdori qanacha?",
+    "answer": "60 V",
+    "noAnswer1": "60 mB",
+    "noAnswer2": "60 mkB",
+    "noAnswer3": "60 kv"
+  },
+  {
+    "question": "Membrana orqali o‘tayotgan tokni zichligi nimalarga bog‘liq?",
+    "answer": "xech narsaga bog‘liq emas",
+    "noAnswer1": "membranini 2 tomonidagi zaryadlarni o‘zgarishiga bog‘liq siljish tokiga",
+    "noAnswer2": "turli xil toklarning membrana orqali o‘tishi bilan bog‘liq o‘tkazuvchanlik tokiga",
+    "noAnswer3": "2 va 3 lar birgalikda"
+  },
+  {
+    "question": "Massasi m ga teng bo‘lgan moddiy nuqta v tezlik bilan to‘g‘ri chiziq bo‘ylab harakatlanayotgan bo‘lsa uning impulsi (yoki harakat miqdori) R nimaga teng bo‘ladi?",
+    "answer": "R=0",
+    "noAnswer1": "R=m",
+    "noAnswer2": "P=t",
+    "noAnswer3": "P= v"
+  },
+  {
+    "question": "Izolyasiyalangan (yangi tashqi kuchlar ta’siri bo‘lmagan yoki barcha tashqi kuchlar yig‘indisi 0 ga teng bo‘lgan) sistemaning impulsi vaqtga qanday bog‘liq?",
+    "answer": "Vaqt o‘tishi bilan kamayadi",
+    "noAnswer1": "Vaqt o‘tishi bilan ortadi",
+    "noAnswer2": "Vaqt o‘tishi bilan o‘zgarmaydi va 0 dan farqli",
+    "noAnswer3": "Vaqtga bog‘liq emas va 0 ga teng"
+  },
+  {
+    "question": "Izolyasiyalangan sistema uchun impulsni saqlanish qonuni qanday manoni ifodalaydi?",
+    "answer": "(d pt)=0 ekanini",
+    "noAnswer1": "(d(mv))=0 ekanini",
+    "noAnswer2": "P=const ekani",
+    "noAnswer3": "A va V larni"
+  },
+  {
+    "question": "Jismlarni o‘zaro ta’sirlanishi bilan belgilanuvchi va ularning o‘zaro joylanish vaziyatga bog‘liq bo‘lgan energiyani qanday nomlanadi?",
+    "answer": "kinetik energiya",
+    "noAnswer1": "ositom energiyasi",
+    "noAnswer2": "bog‘langan energiya",
+    "noAnswer3": "potensial energiya"
+  },
+  {
+    "question": "Jismning tezligi bilan bog‘liq energiya qanday nomlanadi?",
+    "answer": "potensional energiya",
+    "noAnswer1": "kinetik energiya",
+    "noAnswer2": "ichki energiya",
+    "noAnswer3": "bog‘langan energiya"
+  },
+  {
+    "question": "Mexanikadagi energiyaning saqlanish qonuni qaysi javobda matematik to‘g‘ri ifodalangan?",
+    "answer": "Yek+Yer=sonst",
+    "noAnswer1": "Yek1+Yer1=Yek2+Yer2",
+    "noAnswer2": "oyoq=-oYer",
+    "noAnswer3": "d(Ek+Yer)=0"
+  },
+  {
+    "question": "Massalari m1 va m2 bo‘lgan jismlarni to‘qnashishdan oldingi tezliklari mos ravishda V1 aV2 bo‘lgan, hamda ular to‘qnashgandan so‘ng tezliklari (U) -- U1 va U2 bo‘lib qolgan hol uchun energiyani saqlanish qonuni qanday yoziladi?",
+    "answer": "m1 V1+ m2 V2= m1 U1+ m2 U2",
+    "noAnswer1": "(m1V1 22)+m1gh=(m2 V2.kvadrat2) +m2 gh",
+    "noAnswer2": "( m1V1.kvadrat2)+(m2V2.kvadrat2)=(m1U1.kvadrat2)+(m2 U2.kvadrat2)",
+    "noAnswer3": "(m1V1 kvadrat2) + (m1 U1kvadrat2)= (m2 V2 kvadrat2)+(m2 U2 rdflhfn2)"
+  },
+  {
+    "question": "Massalari m1 va m2 ulib to‘qnashishdan oldingi tezliklari V1 va V2, keyingi tezliklari U1 va U2 bo‘lgan jismlar uchun harakat miqdorining saqlanish qonuni qaysi javobda to‘g‘ri yozilgan?",
+    "answer": "m1V1 = m2 V2 = m1 U1+m2 U2",
+    "noAnswer1": "m1V1+m1U1=m2 V2+ m2U2",
+    "noAnswer2": "m1(V1+U1)= m2(V2+U2)",
+    "noAnswer3": "m1 V1 kvadrat +ьM2 kvadrat= m1U1 kvadrat+ m2U2 kvadrat"
+  },
+  {
+    "question": "Oralaridagi masofalar o‘zgarmay qoladigan nuqtalar sistemasidan iborat jism fizikada qanday nomlanadi?",
+    "answer": "Absolyut qattiq jism",
+    "noAnswer1": "Real gaz",
+    "noAnswer2": "Qattiq jism",
+    "noAnswer3": "Ideal gaz"
+  },
+  {
+    "question": "Ixtiyoriy ikki nuqtasi orasidagi masofa o‘zgarmay qoladigan qattiq jism fizikada qanday nomlanadi?",
+    "answer": "Monokristall",
+    "noAnswer1": "Real gaz",
+    "noAnswer2": "Kristall",
+    "noAnswer3": "Ideal gaz"
+  },
+  {
+    "question": "Aylanayotgan qattiq jism burchak tezligining fizik manosi nima?",
+    "answer": "W=d alfa",
+    "noAnswer1": "E=dW",
+    "noAnswer2": "E=d kvadrat alfa kvadrat",
+    "noAnswer3": "Aylanish o‘qiga perpendikulyar bo‘lgan tekislikning ixtiyoriy nuqtasidan aylanish o‘qiga tushirilgan radius vektorning birlik vaqt ichida burilish burchagi"
+  },
+  {
+    "question": "Aylanayotgan qattiq jismning aylanish o‘qiga perpendikulyar bo‘lgan tekislikning ixtiyoriy nuqtasidan aylanish o‘qiga tushirilgan radius vektorning burilish tezligini vaqt birligida o‘zgarishi nimani ko‘rsatadi?",
+    "answer": "Aylanishning burchak tezligini",
+    "noAnswer1": "Aylanishning chiziqli tezligini",
+    "noAnswer2": "Aylanishning burchak tezlanishini",
+    "noAnswer3": "Aylanishning chiziqli tezlanishini"
+  },
+  {
+    "question": "Aylanma harakat tezlanuvchan bo‘lsa burchak tezlanishi va tezligi vaqtlari o‘zaro qanday yo‘nalishlarda bo‘ladi?",
+    "answer": "Yo‘nalishlari bir xil",
+    "noAnswer1": "Yo‘nalishlari qarama-qarshi",
+    "noAnswer2": "O‘zaro perpendikulyar",
+    "noAnswer3": "45 gradus burchak tashqil qiladi"
+  },
+  {
+    "question": "Aylanma harakat sekinlanuvchan bo‘lsa burchak tezlanish va burchak tezlik vaqtlari yo‘nalishlari o‘zaro qanday bo‘ladi?",
+    "answer": "Bir xil bo‘ladi",
+    "noAnswer1": "Qarama - qarshi bo‘ladi",
+    "noAnswer2": "O‘zaro perpendikulyar bo‘ladi",
+    "noAnswer3": "45 gradus burchak tashqil qiladi"
+  },
+  {
+    "question": "Aylanayotgan absalyut qattiq jism burchak tezligi, burchak tezlanishi, chiziqli tezligi va tezlanishlardan qaysi birlari uning barcha nuqtalari uchun bir xilda bo‘ladi?",
+    "answer": "Xech biri",
+    "noAnswer1": "Faqat burchak tezlik",
+    "noAnswer2": "Burchak tezlik va burchak tezlanish",
+    "noAnswer3": "Burchak tezlik va chiziqli tezlik"
+  },
+  {
+    "question": "Aylanma harakatda bo‘layotgan jismning burchak (W1E) va chiziqli kattaliklari (W1",
+    "answer": "W=W2R? a=RE2",
+    "noAnswer1": "W=V2R, E=a2R",
+    "noAnswer2": "V=W, a=E",
+    "noAnswer3": "V =WR, a=ER"
+  },
+  {
+    "question": "Qattiq jismning aylanish o‘qidan R masofada turgan biror nuqtasiga aylanish o‘qiga perpendikulyar tekislikda F kuch qo‘yilsa bu kuchning momenti M nimaga teng bo‘ladi?",
+    "answer": "Vektor M = vektor R * vektor F",
+    "noAnswer1": "vektor M =FR sin alfa",
+    "noAnswer2": "M =F * H (N- kuch yelkasi)",
+    "noAnswer3": "M = vektor F vektor R"
+  },
+  {
+    "question": "Quyidagi javoblardan qaysi birida moddiy nuqtaning aylanish o‘qiga nisbatan inersiya momentini tarifi to‘g‘ri berilgan?",
+    "answer": "Nuqta massasi bilan undan aylanish o‘qiga bo‘lgan masofani ko‘paytmasiga teng bo‘lgan kattalik",
+    "noAnswer1": "Nuqtamassasi bilan undan aylanish o‘qigacha bo‘lgan masofani kvadratini ko‘paytmasiga teng bo‘lgan kattalik",
+    "noAnswer2": "Nuqta massasi bilan undan aylanish o‘qigacha bo‘lgan masofani ko‘paytmasini kvadratiga teng bo‘lgan kattalik",
+    "noAnswer3": "to‘g‘ri tarif berilmagan"
+  },
+  {
+    "question": "Jismning o‘qqa nisbatan inersiya momenti bilan uning birorta moddiy nuqtasini inersiya momenti orasida qanday farq bor?",
+    "answer": "Farq yo‘q, ular bir narsa",
+    "noAnswer1": "miqdoran farq bor",
+    "noAnswer2": "mazmunan farq bor",
+    "noAnswer3": "jismning barcha moddiy nuqtalari inersiya momentlarining yig‘indisi jismning inersiya momenti teng bo‘ladi"
+  },
+  {
+    "question": "Shakllari turlicha ammo bir xil massaga ega bo‘lgan jismlarning aylanish o‘qlari ularning massalar markazidan o‘tgan bo‘lsa ularning inersiya momentlari qanday bo‘ladi?",
+    "answer": "Bir biriga teng bo‘ladi, chunki m1=m2=......=mi",
+    "noAnswer1": "Bir biriga teng bo‘ladi, chunki aylanish o‘qi barchasini massalar markazidan o‘tgan",
+    "noAnswer2": "Bir biridan farq qiladi",
+    "noAnswer3": "Barchasini inersiya momentlari 0 ga teng bo‘ladi"
+  },
+  {
+    "question": "Moddiy nuqta impulsi (R) bilan shu nuqtadan aylanish o‘qigacha bo‘lgan masofani (R) ko‘paytmasi son jixatdan nimani ifodalaydi?",
+    "answer": "xech narsani",
+    "noAnswer1": "uning inersiya momentini",
+    "noAnswer2": "uning kuch momentini",
+    "noAnswer3": "uning impuls momentini"
+  },
+  {
+    "question": "Impuls momenti (L) vainersiya momenti (I) lari orasida qanday bog‘lanish mavjud?",
+    "answer": "bog‘lanish yo‘q",
+    "noAnswer1": "L=IW2",
+    "noAnswer2": "L=I",
+    "noAnswer3": "L = I W"
+  },
+  {
+    "question": "Malumki m massasi jism bilan harakatlanayotgan bo‘lsa uning kinetik energiyasi Yek=mv22ga teng. Agar shu jism ma’lum o‘q atrofida W burchak tezlik bilan aylanayotgan bo‘lsa,  uni kinetik energiyasi mavjud bo‘ladimi? Agar bo‘lsa qanday formula bilan aniqlanadi?",
+    "answer": "Mavjud bo‘lmaydi, ya’ni Yek= 0",
+    "noAnswer1": "Mavjud bo‘ladi, formulasi Yek=mw22",
+    "noAnswer2": "Mavjud bo‘ladi, formulasi Yek=m I2",
+    "noAnswer3": "Mavjud bo‘ladi, formulasi Yek=I W22"
+  },
+  {
+    "question": "\"Jismga ta’sir etuvchi barcha kuchlar momentlarining yig‘indisi nolga teng bo‘lsa, bu jismning impuls momenti o‘zgarmay qoladi\" ushbu ta’rif qaysi qonun mazmunini aks etadi?",
+    "answer": "Xech qaysi, bunday qonun yo‘q",
+    "noAnswer1": "Kuch momentining saqlanish qonuni",
+    "noAnswer2": "Impuls momentining saqlanish qonuni",
+    "noAnswer3": "Harakat miqdorini saqlanish qonuni"
+  },
+  {
+    "question": "Impuls momentini saqlanish qonunini matematik ifodasi qaysi javobda to‘g‘ri keltirilgan?",
+    "answer": "M=F * R = const",
+    "noAnswer1": "E= (M) = const",
+    "noAnswer2": "JW = const",
+    "noAnswer3": "(J) = const"
+  },
+  {
+    "question": "Aylanma harakat qilayotgan chang‘ichi qo‘llarini quloch qilib olsa aylanish tezligi kamayadi, aksida aylanish tezligi ortadi. Bu xodisa qaysi qonun asosida sodir bo‘ladi?",
+    "answer": "Energiyani saqlanish qonuni asosida",
+    "noAnswer1": "Energiya momentini saqlanish qonuni asosida",
+    "noAnswer2": "Impuls momentini saqlanish qonuniasosida",
+    "noAnswer3": "Kuch momentini saqlanish qonuni asosida"
+  },
+  {
+    "question": "Impulsning matematik ifodasini ko‘rsating?",
+    "answer": "R=m *v",
+    "noAnswer1": "F *t = m* delta v",
+    "noAnswer2": "F= m * a",
+    "noAnswer3": "F= - F"
+  },
+  {
+    "question": "Impulsning SGS sistemasidagi birligi qaysi javobda to‘g‘ri berilgan?",
+    "answer": "g *sms",
+    "noAnswer1": "N * S",
+    "noAnswer2": "kg * S",
+    "noAnswer3": "Dina * s"
+  },
+  {
+    "question": "Jism impulsi nimalarga bog‘liq bo‘ladi?",
+    "answer": "jismning faqat massasiga",
+    "noAnswer1": "jismning faqat tezligiga",
+    "noAnswer2": "jism massasi va tezligiga",
+    "noAnswer3": "jism faqat tezlanishiga"
+  },
+  {
+    "question": "Muskullardagi jarayonlar natijasiga nuqtai nazardan qanday qarash mumkin?",
+    "answer": "Bunday qarab bo‘lmaydi",
+    "noAnswer1": "Yopiq sistema sifatida",
+    "noAnswer2": "Izolyasiyalangan sistema sifatida",
+    "noAnswer3": "Xemo-mexanik mashina sifatida"
+  },
+  {
+    "question": "Agar muskuldagi qisqarish va bo‘shashishi jarayonlari ketma ket takrorlanib tursa bunday muskulni qisqarishi qanday nomlanadi, agar uzoq vaqt qisqarib tursachi?",
+    "answer": "Bunday xodisalar bo‘lmaydi",
+    "noAnswer1": "Dinamik va statik",
+    "noAnswer2": "Statik va dinamik",
+    "noAnswer3": "Kinetik va dinamik"
+  },
+  {
+    "question": "Muskullar qisqarishida qanday rejimlar bo‘lishi mumkin?",
+    "answer": "Izotonik",
+    "noAnswer1": "Izometrik",
+    "noAnswer2": "Auksotonik",
+    "noAnswer3": "faqat A va V"
+  },
+  {
+    "question": "Muskulning qanday rejimdagi qo‘zg‘alishida kuchlanish o‘zgarmagan holda faqat uning uzunligi o‘zgaradi.",
+    "answer": "Izotonik",
+    "noAnswer1": "Izometrik",
+    "noAnswer2": "Auksotonik",
+    "noAnswer3": "Izoharik"
+  },
+  {
+    "question": "Muskulning izotonik rejimdagi qisqarishiga xos belgini ko‘rsating?",
+    "answer": "Muskul kuchlanishi o‘zgarmaydi, faqat uning uzunligi o‘zgaradi",
+    "noAnswer1": "Muskul kuchlanishi o‘zgaradi,  uning uzunligi o‘zgarmaydi",
+    "noAnswer2": "Muskuldagi kuchlanish ham uning uzunligi ham o‘zgaradi",
+    "noAnswer3": "Muskuldagi kuchlanish ham uning uzunligi ham o‘zgarmaydi"
+  },
+  {
+    "question": "Muskulning izometrik rejimdagi qisqarishining belgilarini ko‘rsating?",
+    "answer": "Muskul kuchlanishi o‘zgarmaydi,  faqat uning uzunligi o‘zgaradi",
+    "noAnswer1": "Muskul kuchlanishi o‘zgaradi,  uning uzunligi o‘zgarmaydi",
+    "noAnswer2": "Muskuldagi kuchlanish ham uning uzunligi ham o‘zgaradi",
+    "noAnswer3": "Muskuldagi kuchlanish ham uning uning uzunligi ham o‘zgarmaydi"
+  },
+  {
+    "question": "Muskulning auksotonik rejimda qisqarishi belgilarini ko‘rsating?",
+    "answer": "Muskul kuchlanishi o‘zgarmaydi,  faqat uning uzunligi o‘zgaradi",
+    "noAnswer1": "Muskul kuchlanishi o‘zgaradi,  uning uzunligi o‘zgarmaydi",
+    "noAnswer2": "Muskuldagi kuchlanish ham uzunligi ham o‘zgaradi",
+    "noAnswer3": "Muskuldagi kuchlanish ham uning uzunligi ham o‘zgarmaydi"
+  },
+  {
+    "question": "Miofibrill nima?",
+    "answer": "Qisqartiruvchi oqsil - miozinning uzun molekulasi",
+    "noAnswer1": "Qisqartiruvchi oqsil miozinning uzun molekulalaridan kurilgan miofilament",
+    "noAnswer2": "Miofilamentlardan tashqil topgan ingichka tolalar",
+    "noAnswer3": "A va V javoblar birgalikda"
+  },
+  {
+    "question": "Muskullarni qisqarishi uchun birlamchi energiya manbayi bo‘lib, xujayra membranasida, retikulumda va miozinli tolalarda mavjud bo‘lgan ATF ni ADF va fosfat kislotasiga parchalanishiga xizmat qiladi. Bu jarayonda xar bir gramm-molekula ATF dan qancha energiya ajralib chiqadi?",
+    "answer": "1000 kal",
+    "noAnswer1": "1000 kkal",
+    "noAnswer2": "10000 kal",
+    "noAnswer3": "10000 kkal"
+  },
+  {
+    "question": "Quyidagi ketma-ketlik bilan amalga oshadigan jarayonlar natijasida muskullarda nima sodir bo‘ladi. \"Ta’sir potensialini paydo bo‘lishi, uni xujayra membranasi\" va \"T-tizim\"lar bo‘yicha o‘tishi. ATF ni parchalanishi va energiya ajralib chiqishi, aktin va miozin iplarini sirpanishi (miofibrillarni qisqarishi) kalsiy nasosini faollashishi. ATF ni resintezi sarkoplazmada Sa2+ ionlarning qonsyentranti erkin kamayishi muskulni bo‘shashishi",
+    "answer": "Muskullarda elektropotensiallarni tarqalishi",
+    "noAnswer1": "Muskullarni qisqarishi",
+    "noAnswer2": "Muskullarni qisqarishi va bo‘shashishi",
+    "noAnswer3": "Xech narsa sodir bo‘lmaydi,  chunki bu jarayonlar muskullardagi oddiy xayotiyjarayonlardir"
+  },
+  {
+    "question": "Malumki muskullarni, \"dvigatel\" sifatida qarash mumkin, chunki ular bir turdagi energiyani ikkinchi bir turga aylantiradi. Javoblarning qaysi birida bu energiya aylanishi to‘g‘ri ko‘rsatilgan?",
+    "answer": "Mexanik energiyani, Elektr energiyani",
+    "noAnswer1": "Ximik energiyani, elektr energiyani",
+    "noAnswer2": "Elektr energiyani, mexanik energiyani",
+    "noAnswer3": "Ximik energiyani, mexanik energiya"
+  },
+  {
+    "question": "Odatda muskullarda harakat potensiali paydo bo‘lgandan so‘ng u muskulni qisqarishiga olib keladi, ushbu jarayonlar va harakat potensialini xosil qiluvchi sabablar orasida vaqt o‘tadimi yoki barchasi bir vaqtda sodir bo‘ladimi?",
+    "answer": "Sabab bilan natija orasida vaqt o‘tmaydi",
+    "noAnswer1": "Sababdan 2, 5 MS dan keyin natija sodir bo‘ladi",
+    "noAnswer2": "Sababdan 2, 5 MS dan so‘ng natija sodir bo‘ladi",
+    "noAnswer3": "Sababdan 0, 25 MS dan so‘ng natija sodir bo‘ladi"
+  },
+  {
+    "question": "Odam muskulining \"dvigateli\" sifatidagi foydali ishkoeffisenti (ya’ni bajarilgan ishni umumiy energiya sarfiga nisbati). Oddiy sharoitlarda o‘rtacha qancha bo‘ladi?",
+    "answer": "1-2 %",
+    "noAnswer1": "15-20 %",
+    "noAnswer2": "25-30 %",
+    "noAnswer3": "0, 1-1%"
+  },
+  {
+    "question": "Malumki turli muskullarning funksiyasiga qisqarish qobilyati turlicha bo‘lib uning absolyut kuchi yani muskul tolalarining 1 sm kvadrat kundalang kesishiga to‘g‘ri keluvchi kuch bilan harakterlanadi. Jag‘dagi chaynash muskulining obsalyut kuchi qanchaga teng?",
+    "answer": "1,0 kt/sm kvadrat",
+    "noAnswer1": "6,24 kt/sm kvadrat",
+    "noAnswer2": "10,0 kt/sm kvadrat",
+    "noAnswer3": "16,8 kt/sm kvadrat"
+  },
+  {
+    "question": "Qanday jarayonlarda potensial ximik energiya, kuchlanganlikni potensial mexanik energiyasiga va harakat kinetik energiyasiga aylanadi?",
+    "answer": "Bunday jarayon mavjud emas",
+    "noAnswer1": "Ovkat xazm qilish jarayonida",
+    "noAnswer2": "Muskullar qisqarishida",
+    "noAnswer3": "Muskullar bo‘shashganda"
+  },
+  {
+    "question": "Muskul to‘qimalarning massasi tana massasidagi ulushi, yangi tug‘ilgan boladan, u 18 yoshga kirguncha qanday o‘zgaradi?",
+    "answer": "O‘zgarmaydi",
+    "noAnswer1": "2 baravar ortadi",
+    "noAnswer2": "3 baravar olrtadi",
+    "noAnswer3": "4 baravar ortadi"
+  },
+  {
+    "question": "Odam gavdasidagi barcha harakatlar qon aylanish jarayoni,  nafas olish vva boshqa bir qancha jarayonlar tanada qisqara olish ya’ni mikro harakat xususiyatiga ega bo‘lgan muskullarni mavjudligi uchun sodir bo‘ladi. Ushbu muskullarda qisqaruvchi kompleksi bo‘lib nima xizmat qiladi?",
+    "answer": "ATF",
+    "noAnswer1": "ADF",
+    "noAnswer2": "Aktomiozin",
+    "noAnswer3": "Pay"
+  },
+  {
+    "question": "Muskullarda qachon issiqlik ajralib chiqadi yo‘llarning qisqarishidami yoki bo‘shash ishidami?",
+    "answer": "Muskuldan issiqlik chikmaydi",
+    "noAnswer1": "Bo‘shashida",
+    "noAnswer2": "Qisqarishida",
+    "noAnswer3": "Ham qisqarishida ham bo‘shashishida"
+  },
+  {
+    "question": "Muskul qisqarishi jarayonining qaysi davrida nagruzkaga bog‘liq bo‘lmagan, miqdori jixatdan doimiy bo‘lgan aktivasiya issiqligi ajralib chiqadi?",
+    "answer": "Qisqarishning oxirida",
+    "noAnswer1": "Qisqarish jarayonini barchasida",
+    "noAnswer2": "Qisqarish boshlanmagan oldin,  ammo ta’sir bo‘lishi bilan",
+    "noAnswer3": "Bunday hol bo‘lmaydi,  chunki issiqlik nagruzkaga bog‘liq"
+  },
+  {
+    "question": "Muskullar qisqarish jarayonida qisqarishga proporsional bo‘lgan qisqarish issiqligi ajralib chiqadi. Ushbu issiqlik miqdori nagruzkaga bog‘liq bo‘ladimi?",
+    "answer": "Bo‘ladi",
+    "noAnswer1": "Bo‘lmaydi",
+    "noAnswer2": "Qisqarganda bo‘ladi",
+    "noAnswer3": "Bo‘shashganda bo‘ladi"
+  },
+  {
+    "question": "Termodinamikaning 1 qonuniga asosan muskullarning qisqarishi jarayonida uning ichki energiyasi o‘zgaradimi? Agar o‘zgarsa qanchaga?",
+    "answer": "O‘zgarmaydi",
+    "noAnswer1": "o‘zgaradi, - delta u = Q ga",
+    "noAnswer2": "o‘zgaradi - delta u = k uch burchak L ga",
+    "noAnswer3": "o‘zgaradi - deltau = F uch burchak L ga"
+  },
+  {
+    "question": "Malumki muskul qisqarishning F.I.K. i № 40% tashqil etadi. Ammo, muskul qisqarishi jarayonida oziqlantiruvchi modda energiyasini mexanik energiyaga aylanishining to‘la samarasi taxminan 20% tashqil etadi. Buning, ya’ni muskul qisqarishi FIK ni 2 marta kamayib ketishining sababi nimada?",
+    "answer": "Savol noto‘g‘ri qo‘yilgan 40% va 20% ko‘rsatkichlar har-xil,  bir biriga bog‘liq bo‘lmagan jarayonlarning FIK dir.",
+    "noAnswer1": "F I K ni 2 marta kamayishiga sabab muskul qisqarishida, energiyani bir qismi uni qizishiga sarf bo‘lishida.",
+    "noAnswer2": "ATF ni sintezidagi ximiyaviy jarayonining FIK 50% bo‘lgani uchun.",
+    "noAnswer3": "Savolda noto‘g‘ri ma’lumot berilgan muskulni qisqarishini FIK, hamda muskul qisqarishidagi kimeviy energiyani mexanik energiyaga aylanishi FIK ham bir narsa bo‘lib u 20% ga teng."
+  },
+  {
+    "question": "Ma’lumki muskul qisqarishining tezligi (V) ma’lum qonuniyatlar bo‘yicha sodir bo‘ladi,  va kuchlanish (F) ga bog‘liq bo‘ladi. Ushbu bog‘lanishni Xill tomonidan topilgan tenglamasi qaysi javobda to‘g‘ri keltirilgan?",
+    "answer": "(V+",
+    "noAnswer1": "(F +",
+    "noAnswer2": "(F) (V+",
+    "noAnswer3": "= const"
+  },
+  {
+    "question": "Muskul qisqarishidagi uning quvvati qaysi formuladan (F-muskul kuchi, t-qisqarish vaqti, V-qisqarish tezligi, S-muskul kundalang kesim yuza)",
+    "answer": "F *S",
+    "noAnswer1": "F /S",
+    "noAnswer2": "V * t",
+    "noAnswer3": "F * V"
+  },
+  {
+    "question": "Muskul qisqarishining tezligi uchun Xill tenglamasini taxlili asosida. Beyyar juda muxum xulosaga kelgan. Bu xulosani mazmuni nimadan iborat?",
+    "answer": "Muskul tashqi ish bilan birga ichki ishni ham bajaradi.",
+    "noAnswer1": "Muskulning ichki ishi uni kizishiga olib keladi.",
+    "noAnswer2": "Muskulning qisqarish tezligi nagruzkaga bog‘liq emas .",
+    "noAnswer3": "Muskulning umumiy quvvati doimiy bo‘lib nagruzkaga va qisqarish tezligiga bog‘liq emas."
+  },
+  {
+    "question": "Muskul qisqarishi tenglamasi (F+",
+    "answer": "muskulni qisqarish tezligi (V) nagruzka (F) ga gipertomia ko‘rinishda bog‘langan.",
+    "noAnswer1": "= const dan kelib chiqadigan asosiy xulosa nima?",
+    "noAnswer2": "muskulning tashqi ish bajarishdagi quvvati (F+V) uning umumiy quvvatidan kichkina.",
+    "noAnswer3": "muskul qisqarishda bajariladigan ichki ish muskulni kizishiga sarf bo‘ladi."
+  },
+  {
+    "question": "Mexanik xususiyatiga ko‘ra muskullar qanday material sifatida qaraladi?",
+    "answer": "Amorf jism sifatida",
+    "noAnswer1": "Elastomer sifatida",
+    "noAnswer2": "Plastik sifatida",
+    "noAnswer3": "Qovushoq jism sifatida"
+  },
+  {
+    "question": "Agar, muskulning absolyut delta L, boshlang‘ich uzunligi L, deformasiyalovchi kuch F, kundalang qism yuzi S,  elastiklik koefisiyenti alfa bo‘lsa,  ma’lum chegaralarda uning uch o‘ng o‘q qonuni qanday ko‘rinishga ega bo‘ladi?",
+    "answer": "delta L * L= alfa (S/F)",
+    "noAnswer1": "(delta L/L) = F/alfa * S",
+    "noAnswer2": "(delta L/L) = alfa(F/S)",
+    "noAnswer3": "(L/delta L) = lfa(F/S)"
+  },
+  {
+    "question": "Agar muskul uchun alfa - elastiklik koeffisiyenti bo‘lsa, (1/alfa) nimani bildiradi va muskul uchun qanchaga teng?",
+    "answer": "Elastiklik modulini bildiradi va son qiymati - 100 kg s/sm kvadrat.",
+    "noAnswer1": "Muskul boshlang‘ich uzunligini 2 marta ortirish uchun zarur bo‘lgan kuchlanishni bildiradi va u10 kg s /sm kvadratga teng.",
+    "noAnswer2": "U xech narsani bildirmaydi, shuning uchun qiymati 0 ga teng.",
+    "noAnswer3": "Muskulning mustaxkamlik chegarasini bildiradi va uning qiymati 1000 kg ga teng."
+  },
+  {
+    "question": "Malumki skelet muskullari suxojiliyalar yordamida richaglar tizimini tashqil qiluvchi suyaklarda birikkan. Ko‘pchilik holatda ushbu muskullarning richag yelkasi, u biriktirilgan suyakning richag yelkasi bilan qanday munosabatda bo‘ladi?",
+    "answer": "Muskul richag yelkasi, suyak richag yelkasidan katta bo‘ladi.",
+    "noAnswer1": "Muskul richag yelkasi, suyak richag yelkasidan kichkina bo‘ladi.",
+    "noAnswer2": "Ularning richag yelkalari bir-xil bo‘ladi.",
+    "noAnswer3": "Bo‘lar orasida xech qanday bog‘lanish mavjud emas."
+  },
+  {
+    "question": "Termodinamik, nuqtai nazardan yurakni qanday sistema deb qarash mumkin?",
+    "answer": "Xuddi muskullar kabi ochiq sistema kimeviy energiyani mexanik ishga aylantiruvchi sistema deb.",
+    "noAnswer1": "Kimeviy energiyani Qonning potensial energiyaga aylantiruvchi sistema deb.",
+    "noAnswer2": "Kimyoviy energiyani Qonning issiqlik energiyasiga aylantiruvchi sistema deb.",
+    "noAnswer3": "Kimeviy energiyani Qonning potensial energiyasiga aylantiruvchi sistema deb."
+  },
+  {
+    "question": "Malumki qon tomirlarda qon harakat qilishi uchun tomirlar boshida va oxiridagi bosimlar farqi bo‘lishi shart. Ushbu bosimlar nima xisobiga sodir bo‘ladi?",
+    "answer": "Gidrodinamika qonunlari xisobiga.",
+    "noAnswer1": "Tomirlar radiuslari farqi xisobiga.",
+    "noAnswer2": "Qon tomirlarining uzunligi xisobiga.",
+    "noAnswer3": "Yurak ishi xisobiga"
+  },
+  {
+    "question": "Yurakning ishlash faoliyatida Starling qonuni kuchga ega bo‘ladi. Bu qonunning ma’nosi nimada?",
+    "answer": "Starling qonuni yurak ishi uchun qo‘llanilmaydi.",
+    "noAnswer1": "Yurakning qisqarish kuchi Miokard tolalarining boshlang‘ich uzunligiga proporsionaldir.",
+    "noAnswer2": "Yurakning qisqarish chastotasi uning qisqarish kuchigato‘g‘ri proporsional.",
+    "noAnswer3": "Yurakning qisqarish chastotasi qisqarish kuchiga teskari proporsional."
+  },
+  {
+    "question": "Yurak va skelet muskullarining qisqarish shartlari birxilmi? yoki farqlimi, bu farq nimada?",
+    "answer": "Bu muskullarning qisqarish shartlari bir xil.",
+    "noAnswer1": "Farqli, farqi qisqarish kuchlarining miqdorlarida.",
+    "noAnswer2": "Farqli, farqi muskullarning tuzilishida.",
+    "noAnswer3": "Farqli,  farqi muskullarning qisqarishi va ayrim tolalarining qisqarish yo‘nalishlarining har xilligida."
+  },
+  {
+    "question": "Malumki yurak ishini asosiy qismini uning chap qorinchasi bajaradi. O‘ng qorinchasini ishini chap qorinchaniqidan necha marta 03 bo‘ladi.",
+    "answer": "2 - 3 marta",
+    "noAnswer1": "3 - 4 marta",
+    "noAnswer2": "4 - 5 marta",
+    "noAnswer3": "5 - 6 marta"
   }
 ];
 const clean = text => String(text)?.replace(/[^a-zA-Z0-9А-яЁё+\-*/]/g, "").replaceAll(" ", "").toLowerCase();
